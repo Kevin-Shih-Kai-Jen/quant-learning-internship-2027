@@ -20,12 +20,12 @@ python3 scripts/data_archive.py list
 
 ```sh
 python3 scripts/data_archive.py fetch --experiment jpx_v30_profit_actual_forecast_20260916 --tag snapshot-2026-09-24
-python3 scripts/data_archive.py verify --experiment jpx_v30_profit_actual_forecast_20260916
+python3 scripts/data_archive.py verify --experiment jpx_v30_profit_actual_forecast_20260916 --tag snapshot-2026-09-24
 ```
 
 不帶 `--tag` 時依工具與 `data/index.json` 選定的快照操作；若要重現特定版本，明確指定並記錄 tag。`--experiment` 的前綴以 `list` 與 catalog 為準。
 
-**下載一個實驗目錄，不等於它的輸入都已到齊。** 例如 v30 會引用 v7 程式、v8 價量輸入、v14／v17 財報特徵與 v27 狀態。先讀原計畫、程式輸入及 [相依查核](../research/project_archive_20260924/PRESERVATION_NOTES.md)，再取回相關兄弟目錄。原本封存的大型檔案還位於另一個前綴：
+**下載一個實驗目錄，不等於它的輸入都已到齊。** 例如 v30 的流程依賴 v7、v8、v14、v27、v28，財報特徵還有較早版本的間接依賴。先讀原計畫、程式輸入及 [相依查核](../research/project_archive_20260924/PRESERVATION_NOTES.md)，再取回相關兄弟目錄。原本封存的大型檔案還位於另一個前綴：
 
 ```sh
 python3 scripts/data_archive.py fetch --experiment project_archive_20260924/compressed_data/jpx_v8_soft_rank_20260912 --tag snapshot-2026-09-24
@@ -50,7 +50,7 @@ python3 research/project_archive_20260924/restore_data.py --restore --path jpx_v
 
 ```sh
 python3 scripts/data_archive.py fetch --all --tag snapshot-2026-09-24
-python3 scripts/data_archive.py verify --all
+python3 scripts/data_archive.py verify --all --tag snapshot-2026-09-24
 ```
 
 全量取回後如需恢復所有原 CSV／PKL，再執行：
@@ -73,10 +73,29 @@ python3 scripts/publish_snapshot.py --workspace /absolute/path/to/project --tag 
 
 `--workspace` 是本次專案根目錄，內容對應 `research/` 下一層；不要傳入混有其他專案的上層目錄，也不要把整個包含 `research/` 的新儲存庫當成原工作區而重複巢狀保存。tag 必須為新的版本名稱，日期與描述對應當次工作。
 
-工具按保存規則複製可讀檔案至 `research/`、將大型檔分包上傳至私人草稿 Release，完成遠端 digest 核對後才更新 catalog。確認其輸出及遠端驗證紀錄後，再核對 Git 中的 `data/index.json`、catalog、verification 是否一致。若任何階段未完成，保留原資料，明確記錄未完成範圍，不覆寫舊快照或宣稱備份完成。
+第一次上傳新 tag 時，先準備清單、強制加入列出的可讀檔案（避免原專案 `.gitignore` 漏檔），提交並推送，再建立同名草稿 Release：
+
+```sh
+python3 scripts/publish_snapshot.py --workspace /absolute/path/to/project --tag snapshot-YYYY-MM-DD-description --prepare-only
+git add -f --pathspec-from-file=data/upload-plans/snapshot-YYYY-MM-DD-description-git-paths.nul --pathspec-file-nul
+git add docs scripts archive-config.json data/inventories
+git diff --cached --stat
+git commit -m "Save research snapshot sources"
+git push origin main
+gh release create snapshot-YYYY-MM-DD-description --repo Kevin-Shih-Kai-Jen/quant-learning-internship-2027 --draft --target main --title "Research snapshot" --notes-file /path/to/release-notes.md
+python3 scripts/publish_snapshot.py --workspace /absolute/path/to/project --tag snapshot-YYYY-MM-DD-description
+```
+
+請先撰寫實際 release notes 檔；以上路徑、tag 是需替換的範例。原始快照不會被覆寫，後續 catalog 會引用既有快照中相同資料，只上傳新增檔案；舊大型資料改內容須另建版本路徑。若中斷，使用同一來源與 tag 重跑，工具會核对已上傳資產，不會刪掉遠端資產重傳。
+
+工具按保存規則複製可讀檔案至 `research/`、將大型檔分包上傳至私人草稿 Release，完成遠端 digest 核對後才更新 catalog。它不代做最終 Git commit／push 或 Release 正式發布。先確認輸出與遠端驗證紀錄，核對 `data/index.json`、catalog、verification 一致；再提交／推送本次檔案，將已核對的草稿 Release 發布到這個私人儲存庫，最後重查遠端可取回狀態。儲存庫仍維持 private。
+
+若任何階段未完成，保留原資料，明確記錄未完成範圍，不覆寫舊快照或宣稱備份完成。實際包含與排除的內容可查 [保存範圍](UPLOAD_SCOPE.md) 及 `archive-config.json`，不要把同名研究輸出誤當可丟棄快取。
 
 ## 保存不等於立即可重跑
 
 - 此次整理沒有重新跑全部回測。檔案 SHA-256 一致是內容保存證據，不是新的模型有效性證明。
 - 多版程式包含原電腦絕對路徑；部分使用 macOS `.dylib`、Accelerate、特定套件或字型。另開適配版本處理環境，保留歷史程式。
 - 雲端對話、網站服務帳號及未匯出的瀏覽器 `localStorage` 不在檔案快照裡。可重裝套件、排除項與每次實際保存範圍以 catalog／發布紀錄為準。
+
+完成全部資料上傳後，提交 `data/index.json`、`data/catalogs/`、`data/verification/` 及本次導讀更動並推送。把本次 catalog 與 SHA256 清單也附加到草稿 Release，再以該提交作為 Release 的 target，解除 draft。發布後核對遠端 tag 對應的提交、所有資產 digest 以及一次按需下載測試，才回報完成。不得以 `--clobber` 覆寫既有資料包。

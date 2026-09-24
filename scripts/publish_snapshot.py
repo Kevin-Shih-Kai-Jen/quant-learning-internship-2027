@@ -138,6 +138,9 @@ def prepare(workspace, tag, config, plan_path):
                 if sha_file(destination) != record['sha256']:
                     raise ValueError('Staged copy mismatch: ' + record['path'])
             else:
+                previous_git_copy = ROOT / record['path']
+                if previous_git_copy.exists() and sha_file(previous_git_copy) != record['sha256']:
+                    raise ValueError('Git-to-Release transition requires a new experiment path or an explicit reviewed Git removal: ' + record['path'])
                 if before.st_size > config['pack_max_bytes'] - 1024 * 1024:
                     raise ValueError('Single file exceeds pack policy; archive it into smaller parts first: ' + str(relative))
                 components = relative.parts
@@ -162,12 +165,13 @@ def prepare(workspace, tag, config, plan_path):
     entries = []
     for i, (group, files) in enumerate(packs, 1):
         slug = re.sub('[^A-Za-z0-9._-]', '-', group)[:85]
-        entries.append({'name': f'data-{i:03d}-{slug}.tar', 'release_tag': tag, 'files': files})
+        entries.append({'name': f'{tag}-data-{i:03d}-{slug}.tar', 'release_tag': tag, 'files': files})
     plan = {'schema_version': 1, 'repository': config['repository'], 'tag': tag,
             'workspace': str(workspace), 'created_at': time.strftime('%Y-%m-%dT%H:%M:%S%z'),
             'excluded': dict(excluded), 'git_files': [f for f in records if f['storage'] == 'git'],
             'inherited_packs': inherited, 'new_packs': entries}
     write_json(plan_path, plan)
+    (plan_path.parent / (tag + '-git-paths.nul')).write_bytes(b'\0'.join(f['path'].encode() for f in plan['git_files']) + b'\0')
     write_json(ROOT / 'data/inventories' / (tag + '.json'), {
         'schema_version': 1, 'tag': tag, 'excluded': dict(excluded), 'files': records})
     print(json.dumps({'prepared_git_files': len(plan['git_files']), 'new_packs': len(entries),

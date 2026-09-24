@@ -49,3 +49,5 @@ Git 保存可閱讀的程式、計畫、報告與小型紀錄；大型歷史實�
 部分程式包含舊電腦絕對路徑、macOS 動態函式庫和已不存在的舊文書工具版本。保存 bytes 不等於已驗證跨平台重跑。還原需要將 Git 和 Release 明細組回同一結構，再處理環境與路徑；避免重跑覆寫歷史輸出。
 
 排班工具使用瀏覽器 `localStorage` 的 `scheduling-app-mvp-v1` 狀態。若曾實際使用，須從原瀏覽器匯出完整 JSON；本次檔案上傳不包含瀏覽器狀態，也不含 ChatGPT／Codex 完整對話歷史。
+
+實際政策補充：本次保留網站 `dist/` 與 `next-env.d.ts` 作為歷史建置證據；另排除 `.cache/` 與 `.venv/`。以 archive-config.json 與 data/inventories/ 清單為準。可讀檔案會依清單強制加入 Git 並核對內容，避免巢狀 .gitignore 導致遺漏。
