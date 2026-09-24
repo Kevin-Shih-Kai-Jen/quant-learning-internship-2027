@@ -11,5 +11,5 @@
   "csv_git_max_bytes": 262144,
   "document_git_max_bytes": 2097152,
   "image_git_max_bytes": 204800,
-  "policy": "Historical experiment contents are immutable. No source deletion. Version large evidence as release assets; verify SHA-256 before publication. Never make this research/data repository public automatically."
+  "policy": "Historical cloud experiment contents are immutable. The publisher never deletes sources. After remote content verification, clean only authorized, recoverable local copies under AGENTS.md. Version large evidence as release assets; verify SHA-256 before publication. Never make this research/data repository public automatically."
 }

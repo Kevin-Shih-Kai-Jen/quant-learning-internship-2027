@@ -4,6 +4,8 @@
 
 這裡把閱讀材料與大型資料分開保存：**Git 管理程式、報告、設定與索引；版本化 GitHub Releases 保存大型資料及二進位產物。** 單獨下載程式碼 ZIP 不等於取得完整研究資料。
 
+**雲端是歷史資料的主保存位置，本機採按需取用。** 每次任務把必要資料下載到專屬臨時目錄；新成果／變更先成功同步並核對遠端內容，再清理本次可重取的下載副本及暫存。本機長期保留輕量導讀、工具與索引。此規則不授權刪除未同步資料、唯讀 `sources/`、其他專案或共享使用中的檔案，詳見 [資料指南](docs/DATA_GUIDE.md)。
+
 ## 從這裡開始
 
 | 你想做什麼 | 入口 |
@@ -14,6 +16,8 @@
 | 查每個實驗的資料量與精確下載前綴 | [實驗與資料下載索引](docs/EXPERIMENT_INDEX.md) |
 | 下載、驗證、還原實驗資料 | [資料指南](docs/DATA_GUIDE.md) |
 | 讓下一個對話從 GitHub 接手 | [可直接貼上的續接指令](docs/FUTURE_CHAT_PROMPT.md) |
+| 設定專案共用的取用與清理規則 | [簡短共用指令](docs/PROJECT_INSTRUCTIONS.md) |
+| 查看本機清理結果與保留範圍 | [2026-09-24 清理紀錄](docs/LOCAL_CLEANUP.md) |
 | 查看協作與保存規則 | [AGENTS.md](AGENTS.md) |
 | 私人 repo 讀不到或新聊天室無法連線 | [存取說明](docs/ACCESS.md) |
 | 確認某次快照包含什麼 | [資料索引](data/index.json) · [完整檔案盤點](data/inventories/snapshot-2026-09-24.json) · [Release 資料目錄](data/catalogs/snapshot-2026-09-24.json) |
@@ -58,9 +62,13 @@ GitHub Releases                   版本化 .tar 分包，不放進 Git 歷史
 
 ```sh
 python3 scripts/data_archive.py list
-python3 scripts/data_archive.py fetch --experiment jpx_v30_profit_actual_forecast_20260916
+QUANT_TASK_DIR="$(mktemp -d "${TMPDIR:-/tmp}/quant-research.XXXXXX")"
+python3 scripts/data_archive.py fetch --experiment jpx_v30_profit_actual_forecast_20260916 --tag snapshot-2026-09-24 --dest "$QUANT_TASK_DIR"
+python3 scripts/data_archive.py verify --experiment jpx_v30_profit_actual_forecast_20260916 --tag snapshot-2026-09-24 --dest "$QUANT_TASK_DIR"
 ```
 
-單一實驗可能引用較早的共同特徵與封存檔；重跑前依 [資料指南](docs/DATA_GUIDE.md) 一起取回依賴。歷史程式的本機絕對路徑、套件版本、macOS 動態函式庫與字型仍可能需要適配，這份保存不承諾跨電腦直接執行。
+下載前檢查容量，並記錄本次目錄、tag 與取回清單。單一實驗可能引用較早的共同特徵與封存檔；重跑前依 [資料指南](docs/DATA_GUIDE.md) 一起取回依賴，在本次臨時目錄還原 gzip。歷史程式的本機絕對路徑、套件版本、macOS 動態函式庫與字型仍可能需要適配，這份保存不承諾跨電腦直接執行。
+
+在此儲存庫工作的 Codex 應讀取 `AGENTS.md`。其他獨立 ChatGPT／Codex 聊天室須貼上 [續接指令](docs/FUTURE_CHAT_PROMPT.md)，或將它設為該專案指示；這不會自動改變所有聊天室的設定或存取權。
 
 此儲存庫保存可取得的專案檔案，**不包含未匯出的 ChatGPT／Codex 全部對話、瀏覽器排班資料或帳號狀態**。原封存文件中的「尚未上傳」是本機整理當時的紀錄；目前遠端狀態請看版本化索引與驗證紀錄。

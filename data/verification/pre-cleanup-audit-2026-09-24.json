@@ -1,0 +1,419 @@
+{
+  "schema_version": 1,
+  "audited_at": "2026-09-24T16:45:20+08:00",
+  "workspace": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3",
+  "snapshot": "snapshot-2026-09-24",
+  "repository_head": "fe5f52b",
+  "read_only_checks": "Original files only inspected by path, size and mtime; no new full data hashing, deletion, model execution, or original edits.",
+  "inventory_comparison": {
+    "snapshot_files": 10206,
+    "present_size_mtime_match": 10206,
+    "changed": [],
+    "missing": [],
+    "note": "Matching stat is not proof of identical content. Root will verify hashes before removing backed-up files."
+  },
+  "protected_paths": [
+    "AGENTS.md",
+    "sources/"
+  ],
+  "unarchived_keep_paths": [
+    {
+      "path": "GITHUB-備份完成.md",
+      "bytes": 812,
+      "reason": "not_in_snapshot_inventory"
+    },
+    {
+      "path": "給未來聊天室的GitHub指令.md",
+      "bytes": 2797,
+      "reason": "not_in_snapshot_inventory"
+    }
+  ],
+  "unarchived_operational_keep_paths": [
+    {
+      "path": "hiwin-application-site/.git",
+      "bytes": 133086,
+      "regular_files": 41,
+      "reason": "unarchived_operational_state_keep"
+    },
+    {
+      "path": "hiwin-application-site/.wrangler",
+      "bytes": 45206,
+      "regular_files": 4,
+      "reason": "unarchived_operational_state_keep"
+    },
+    {
+      "path": "hiwin-application-site/.openai",
+      "bytes": 91,
+      "regular_files": 1,
+      "reason": "unarchived_operational_state_keep"
+    },
+    {
+      "path": "hiwin-application-site/dist/.openai",
+      "bytes": 91,
+      "regular_files": 1,
+      "reason": "unarchived_operational_state_keep"
+    }
+  ],
+  "cache_paths": [
+    {
+      "path": ".DS_Store",
+      "type": "file",
+      "bytes": 8196,
+      "reason": "macos_metadata"
+    },
+    {
+      "path": "github_repo_20260924/data/upload-plans/__pycache__",
+      "type": "directory",
+      "bytes": 13229,
+      "regular_files": 1,
+      "symlinks": 0,
+      "reason": "generated_cache"
+    },
+    {
+      "path": "github_repo_20260924/scripts/__pycache__",
+      "type": "directory",
+      "bytes": 56285,
+      "regular_files": 2,
+      "symlinks": 0,
+      "reason": "generated_cache"
+    },
+    {
+      "path": "github_repo_20260924/tests/__pycache__",
+      "type": "directory",
+      "bytes": 45566,
+      "regular_files": 2,
+      "symlinks": 0,
+      "reason": "generated_cache"
+    },
+    {
+      "path": "hiwin-application-site/.next",
+      "type": "directory",
+      "bytes": 990,
+      "regular_files": 1,
+      "symlinks": 0,
+      "reason": "generated_cache"
+    },
+    {
+      "path": "hiwin-application-site/node_modules",
+      "type": "directory",
+      "bytes": 798912257,
+      "regular_files": 27556,
+      "symlinks": 36,
+      "reason": "reinstallable_dependencies"
+    },
+    {
+      "path": "jpx_arima_acf_learning_20260923/__pycache__",
+      "type": "directory",
+      "bytes": 7762,
+      "regular_files": 1,
+      "symlinks": 0,
+      "reason": "generated_cache"
+    },
+    {
+      "path": "jpx_costs_top5_20260911/__pycache__",
+      "type": "directory",
+      "bytes": 6770,
+      "regular_files": 1,
+      "symlinks": 0,
+      "reason": "generated_cache"
+    },
+    {
+      "path": "jpx_expanding_threshold_20260910/source/__pycache__",
+      "type": "directory",
+      "bytes": 49931,
+      "regular_files": 5,
+      "symlinks": 0,
+      "reason": "generated_cache"
+    },
+    {
+      "path": "jpx_neutral_10pct_20260910/source/__pycache__",
+      "type": "directory",
+      "bytes": 27322,
+      "regular_files": 2,
+      "symlinks": 0,
+      "reason": "generated_cache"
+    },
+    {
+      "path": "jpx_neutral_10pct_20260910/zip_verification/source/__pycache__",
+      "type": "directory",
+      "bytes": 49986,
+      "regular_files": 5,
+      "symlinks": 0,
+      "reason": "generated_cache"
+    },
+    {
+      "path": "jpx_official_ranking_20260912/__pycache__",
+      "type": "directory",
+      "bytes": 41914,
+      "regular_files": 4,
+      "symlinks": 0,
+      "reason": "generated_cache"
+    },
+    {
+      "path": "jpx_return_t_20260911/__pycache__",
+      "type": "directory",
+      "bytes": 7185,
+      "regular_files": 1,
+      "symlinks": 0,
+      "reason": "generated_cache"
+    },
+    {
+      "path": "jpx_return_t_top10_20260911/__pycache__",
+      "type": "directory",
+      "bytes": 3929,
+      "regular_files": 1,
+      "symlinks": 0,
+      "reason": "generated_cache"
+    },
+    {
+      "path": "jpx_ridge_top10_20260911/__pycache__",
+      "type": "directory",
+      "bytes": 23636,
+      "regular_files": 1,
+      "symlinks": 0,
+      "reason": "generated_cache"
+    },
+    {
+      "path": "jpx_signed_band_20260910/source/__pycache__",
+      "type": "directory",
+      "bytes": 49891,
+      "regular_files": 5,
+      "symlinks": 0,
+      "reason": "generated_cache"
+    },
+    {
+      "path": "jpx_stock_returns_20260910/source/__pycache__",
+      "type": "directory",
+      "bytes": 55007,
+      "regular_files": 5,
+      "symlinks": 0,
+      "reason": "generated_cache"
+    },
+    {
+      "path": "jpx_v10_mse_sgd_financial_20260913/__pycache__",
+      "type": "directory",
+      "bytes": 35992,
+      "regular_files": 3,
+      "symlinks": 0,
+      "reason": "generated_cache"
+    },
+    {
+      "path": "jpx_v11_persistent_finance_std22_20260913/__pycache__",
+      "type": "directory",
+      "bytes": 45154,
+      "regular_files": 4,
+      "symlinks": 0,
+      "reason": "generated_cache"
+    },
+    {
+      "path": "jpx_v12_financial_growth_20260913/__pycache__",
+      "type": "directory",
+      "bytes": 53494,
+      "regular_files": 4,
+      "symlinks": 0,
+      "reason": "generated_cache"
+    },
+    {
+      "path": "jpx_v13_quarterly_sgd_sqrt_20260914/__pycache__",
+      "type": "directory",
+      "bytes": 67730,
+      "regular_files": 5,
+      "symlinks": 0,
+      "reason": "generated_cache"
+    },
+    {
+      "path": "jpx_v14_filtered_forecast_events_20260914/__pycache__",
+      "type": "directory",
+      "bytes": 55861,
+      "regular_files": 4,
+      "symlinks": 0,
+      "reason": "generated_cache"
+    },
+    {
+      "path": "jpx_v15_soft_rank_filtered_20260914/__pycache__",
+      "type": "directory",
+      "bytes": 88823,
+      "regular_files": 9,
+      "symlinks": 0,
+      "reason": "generated_cache"
+    },
+    {
+      "path": "jpx_v16_single_financial_v7_20260915/__pycache__",
+      "type": "directory",
+      "bytes": 51566,
+      "regular_files": 3,
+      "symlinks": 0,
+      "reason": "generated_cache"
+    },
+    {
+      "path": "jpx_v17_actual_forecast_revisions_20260915/__pycache__",
+      "type": "directory",
+      "bytes": 67999,
+      "regular_files": 4,
+      "symlinks": 0,
+      "reason": "generated_cache"
+    },
+    {
+      "path": "jpx_v18_frozen_g_eps_20260915/__pycache__",
+      "type": "directory",
+      "bytes": 15776,
+      "regular_files": 1,
+      "symlinks": 0,
+      "reason": "generated_cache"
+    },
+    {
+      "path": "jpx_v21_all_eps_joint_20260916/__pycache__",
+      "type": "directory",
+      "bytes": 16699,
+      "regular_files": 1,
+      "symlinks": 0,
+      "reason": "generated_cache"
+    },
+    {
+      "path": "jpx_v22_eps_thresholds_20260916/__pycache__",
+      "type": "directory",
+      "bytes": 16985,
+      "regular_files": 1,
+      "symlinks": 0,
+      "reason": "generated_cache"
+    },
+    {
+      "path": "jpx_v23_g_thresholds_20260916/__pycache__",
+      "type": "directory",
+      "bytes": 17050,
+      "regular_files": 1,
+      "symlinks": 0,
+      "reason": "generated_cache"
+    },
+    {
+      "path": "jpx_v24_g_train_validation_filters_20260916/__pycache__",
+      "type": "directory",
+      "bytes": 10702,
+      "regular_files": 1,
+      "symlinks": 0,
+      "reason": "generated_cache"
+    },
+    {
+      "path": "jpx_v25_single_features_unfiltered_20260916/__pycache__",
+      "type": "directory",
+      "bytes": 22348,
+      "regular_files": 1,
+      "symlinks": 0,
+      "reason": "generated_cache"
+    },
+    {
+      "path": "jpx_v26_profit_forecast_revision_20260916/__pycache__",
+      "type": "directory",
+      "bytes": 20404,
+      "regular_files": 1,
+      "symlinks": 0,
+      "reason": "generated_cache"
+    },
+    {
+      "path": "jpx_v27_profit_forecast_state_20260916/__pycache__",
+      "type": "directory",
+      "bytes": 20495,
+      "regular_files": 1,
+      "symlinks": 0,
+      "reason": "generated_cache"
+    },
+    {
+      "path": "jpx_v28_common_learning_rate_20260916/__pycache__",
+      "type": "directory",
+      "bytes": 25068,
+      "regular_files": 1,
+      "symlinks": 0,
+      "reason": "generated_cache"
+    },
+    {
+      "path": "jpx_v29_learning_rate_sweep_20260916/__pycache__",
+      "type": "directory",
+      "bytes": 26472,
+      "regular_files": 1,
+      "symlinks": 0,
+      "reason": "generated_cache"
+    },
+    {
+      "path": "jpx_v30_profit_actual_forecast_20260916/__pycache__",
+      "type": "directory",
+      "bytes": 27529,
+      "regular_files": 1,
+      "symlinks": 0,
+      "reason": "generated_cache"
+    },
+    {
+      "path": "jpx_v5_daily_returns_20260912/__pycache__",
+      "type": "directory",
+      "bytes": 19092,
+      "regular_files": 1,
+      "symlinks": 0,
+      "reason": "generated_cache"
+    },
+    {
+      "path": "jpx_v6_expanding_daily_gd_20260912/__pycache__",
+      "type": "directory",
+      "bytes": 20452,
+      "regular_files": 1,
+      "symlinks": 0,
+      "reason": "generated_cache"
+    },
+    {
+      "path": "jpx_v7_daily_mse_20260912/__pycache__",
+      "type": "directory",
+      "bytes": 19540,
+      "regular_files": 1,
+      "symlinks": 0,
+      "reason": "generated_cache"
+    },
+    {
+      "path": "jpx_v8_soft_rank_20260912/__pycache__",
+      "type": "directory",
+      "bytes": 74784,
+      "regular_files": 5,
+      "symlinks": 0,
+      "reason": "generated_cache"
+    },
+    {
+      "path": "jpx_v9_financial_decay_sgd_20260912/__pycache__",
+      "type": "directory",
+      "bytes": 56828,
+      "regular_files": 4,
+      "symlinks": 0,
+      "reason": "generated_cache"
+    },
+    {
+      "path": "output/.DS_Store",
+      "type": "file",
+      "bytes": 6148,
+      "reason": "macos_metadata"
+    }
+  ],
+  "cache_total_logical_bytes": 800242847,
+  "backed_original_candidates_excluding_protected_AGENTS_bytes": 11100882447,
+  "archive_components_bytes": {
+    "compressed_data": 2689036921,
+    "external_sources_copies": 243744780,
+    "archive_documents_and_indexes": 14761276
+  },
+  "repository_status_before_audit_file": [
+    " M AGENTS.md",
+    " M docs/FUTURE_CHAT_PROMPT.md"
+  ],
+  "active_process_check": {
+    "checked": "2026-09-24 after snapshot publication, before cleanup",
+    "methods": [
+      "lsof project-scoped cwd matches",
+      "ps command pattern inspection for jpx/hiwin/publisher"
+    ],
+    "active_research_or_upload_processes_found": false,
+    "remaining_project_cwd_processes": "Codex, node and node_repl session runtimes; leave running and retain workspace root.",
+    "limitation": "Point-in-time process inspection, not a future lock."
+  },
+  "minimal_keep_recommendation": [
+    "Protected root AGENTS.md and sources/",
+    "github_repo_20260924 clone with .git, AGENTS, scripts, docs, indexes, research small text files and continuity memory",
+    "Root GitHub handoff and completion instruction files",
+    "Unarchived .git/.openai/.wrangler site state listed above until separately preserved or reviewed"
+  ],
+  "size_note": "Decimal logical bytes of ordinary files; symbolic links are not followed or counted as target bytes. Actual disk space reclaimed may differ."
+}

@@ -2,6 +2,8 @@
 
 此私人儲存庫使用兩層保存。Git 保存可讀內容與索引；大型資料保存在按 tag 版本化的 GitHub Release `.tar` 分包，每包至多 768 MiB。每次使用都以 catalog 的實際檔案清單、大小和 SHA-256 為準。
 
+**私人 GitHub 與版本化 Release 是歷史資料的主保存位置。** 依使用者指定，本機長期保留輕量導讀、工具與索引；每次工作建立專屬臨時資料目錄，按需下載，用畢依本指南核對後清理可重取副本。這是資料使用規則，不表示所有獨立聊天室的設定已自動改變；其他聊天室需貼上 [續接指令](FUTURE_CHAT_PROMPT.md) 或設定專案指示。
+
 首次 tag：`snapshot-2026-09-24`。入口是 [data/index.json](../data/index.json)，對應 [catalog](../data/catalogs/snapshot-2026-09-24.json) 和 [遠端驗證紀錄](../data/verification/snapshot-2026-09-24.json)。不要把建立 tag、推送 Git 或看到部分 Release 資產當成全量上傳完成。
 
 ## 1. 取得儲存庫與查看快照
@@ -18,17 +20,23 @@ python3 scripts/data_archive.py list
 
 ## 2. 按實驗取回，連同依賴一起處理
 
+先建立只供本次任務使用的臨時目錄，記錄其位置、快照 tag 與取回清單。以下範例沿用同一個終端機中的 `QUANT_TASK_DIR` 變數；不要指向共享資料夾、其他專案或唯讀 `sources/`。下載前確認可用空間能容納所需分包暫存、解壓內容與新結果。
+
 ```sh
-python3 scripts/data_archive.py fetch --experiment jpx_v30_profit_actual_forecast_20260916 --tag snapshot-2026-09-24
-python3 scripts/data_archive.py verify --experiment jpx_v30_profit_actual_forecast_20260916 --tag snapshot-2026-09-24
+QUANT_TASK_DIR="$(mktemp -d "${TMPDIR:-/tmp}/quant-research.XXXXXX")"
+python3 scripts/data_archive.py fetch --experiment jpx_v30_profit_actual_forecast_20260916 --tag snapshot-2026-09-24 --dest "$QUANT_TASK_DIR"
+python3 scripts/data_archive.py verify --experiment jpx_v30_profit_actual_forecast_20260916 --tag snapshot-2026-09-24 --dest "$QUANT_TASK_DIR"
 ```
 
-不帶 `--tag` 時依工具與 `data/index.json` 選定的快照操作；若要重現特定版本，明確指定並記錄 tag。`--experiment` 的前綴以 `list` 與 catalog 為準。
+檔案會放到本次臨時目錄的 `research/` 下；工具與索引仍留在原儲存庫。`verify` 必須使用與 `fetch` 相同的 `--dest`。需要的程式與輕量設定也應按相同相對結構複製到任務工作目錄，或在新實驗版本中明確設定輸入路徑，勿改寫歷史來源。不要在臨時目錄留下尚未同步的唯一成果。
+
+不帶 `--tag` 時依工具與 `data/index.json` 選定的快照操作；每次工作應明確指定並記錄 tag。`--experiment` 的前綴以 `list` 與 catalog 為準。
 
 **下載一個實驗目錄，不等於它的輸入都已到齊。** 例如 v30 的流程依賴 v7、v8、v14、v27、v28，財報特徵還有較早版本的間接依賴。先讀原計畫、程式輸入及 [相依查核](../research/project_archive_20260924/PRESERVATION_NOTES.md)，再取回相關兄弟目錄。原本封存的大型檔案還位於另一個前綴：
 
 ```sh
-python3 scripts/data_archive.py fetch --experiment project_archive_20260924/compressed_data/jpx_v8_soft_rank_20260912 --tag snapshot-2026-09-24
+python3 scripts/data_archive.py fetch --experiment project_archive_20260924/compressed_data/jpx_v8_soft_rank_20260912 --tag snapshot-2026-09-24 --dest "$QUANT_TASK_DIR"
+python3 scripts/data_archive.py verify --experiment project_archive_20260924/compressed_data/jpx_v8_soft_rank_20260912 --tag snapshot-2026-09-24 --dest "$QUANT_TASK_DIR"
 ```
 
 原始資料 ZIP 與模板位於 `project_archive_20260924/external_sources/`，同樣按 catalog 取回。工具下載／驗證檔案不等於執行或重新訓練模型。
@@ -37,26 +45,32 @@ python3 scripts/data_archive.py fetch --experiment project_archive_20260924/comp
 
 9/24 的本機保存已把 139 個大型 CSV／PKL 壓成 gzip；完整內容經解壓 SHA-256 核對後，才移除原位置副本。因此 GitHub 取回的有些檔案是 `.pkl.gz`／`.csv.gz`，還需要原封存工具還原。
 
+原工具依它自身位置決定還原根目錄。將工具與清單複製到本次臨時目錄的相同結構後再執行，避免把大型原檔還原回長期儲存庫：
+
 ```sh
-python3 research/project_archive_20260924/restore_data.py --list
-python3 research/project_archive_20260924/restore_data.py --restore --path jpx_v8_soft_rank_20260912/inputs.pkl
+mkdir -p "$QUANT_TASK_DIR/research/project_archive_20260924"
+cp research/project_archive_20260924/restore_data.py research/project_archive_20260924/COMPRESSED_DATA_MANIFEST.json "$QUANT_TASK_DIR/research/project_archive_20260924/"
+python3 "$QUANT_TASK_DIR/research/project_archive_20260924/restore_data.py" --list
+python3 "$QUANT_TASK_DIR/research/project_archive_20260924/restore_data.py" --restore --path jpx_v8_soft_rank_20260912/inputs.pkl
 ```
 
-這會依 `COMPRESSED_DATA_MANIFEST.json` 把檔案恢復到 `research/jpx_v8_soft_rank_20260912/inputs.pkl`，並保留 gzip。也可以對某個已下載齊全的實驗前綴使用 `--path`。工具遇到同路徑不同內容會拒絕覆寫；不要為了繼續而任意刪掉現有檔案。
+這會依 `COMPRESSED_DATA_MANIFEST.json` 把檔案恢復到 `$QUANT_TASK_DIR/research/jpx_v8_soft_rank_20260912/inputs.pkl`，並保留本次 gzip 副本至工作結束。也可以對某個已下載齊全的實驗前綴使用 `--path`。工具遇到同路徑不同內容會拒絕覆寫；不要為了繼續而任意刪掉現有檔案。
 
 原工具 `--verify` 會核對整份 gzip 清單，若只按需下載部分封存，缺少其餘檔案不代表已下載的檔案損壞。此時可對所需檔案執行 `--restore --path`，它本身也會核對原始與壓縮內容。全部封存到齊後，再用 `--verify` 作全量核對。詳見 [原還原指南](../research/project_archive_20260924/RESTORE_GUIDE.md)，其中舊電腦絕對路徑需改成目前位置。
 
 ## 4. 全量取回與空間
 
+預設按需取回；只有本次工作確實需要整套資料且容量足夠時，才在同一個任務專屬目錄使用全量模式：
+
 ```sh
-python3 scripts/data_archive.py fetch --all --tag snapshot-2026-09-24
-python3 scripts/data_archive.py verify --all --tag snapshot-2026-09-24
+python3 scripts/data_archive.py fetch --all --tag snapshot-2026-09-24 --dest "$QUANT_TASK_DIR"
+python3 scripts/data_archive.py verify --all --tag snapshot-2026-09-24 --dest "$QUANT_TASK_DIR"
 ```
 
-全量取回後如需恢復所有原 CSV／PKL，再執行：
+全量取回後如需恢復所有原 CSV／PKL，先按上一節放妥還原工具與清單，再執行：
 
 ```sh
-python3 research/project_archive_20260924/restore_data.py --restore
+python3 "$QUANT_TASK_DIR/research/project_archive_20260924/restore_data.py" --restore
 ```
 
 最後一步可能額外需要約 **4.85 GB** 原始資料空間，且不刪 gzip；Release 下載、分包暫存與其他產物也需要空間，精確大小依 catalog 與工具輸出。硬碟有限時，優先取回本次工作所需資料。無損封存釋放的是硬碟空間，不會自動降低模型運行的 RAM 需求。
@@ -73,7 +87,14 @@ python3 scripts/publish_snapshot.py --workspace /absolute/path/to/project --tag 
 
 `--workspace` 是本次專案根目錄，內容對應 `research/` 下一層；不要傳入混有其他專案的上層目錄，也不要把整個包含 `research/` 的新儲存庫當成原工作區而重複巢狀保存。tag 必須為新的版本名稱，日期與描述對應當次工作。
 
-若直接在 clone 下來的 `research/` 內繼續研究，從儲存庫根目錄執行下列流程時，把 `--workspace /absolute/path/to/project` 改為 `--workspace ./research` 即可。工具會保留原位置並核對內容，不把檔案再次複製到自己。
+大型輸入預設放在任務專屬臨時目錄。若新成果也產生在那裡，可用 `--workspace "$QUANT_TASK_DIR/research"` 同步相同結構下的新版本；同步成功前保留所有新產物。若新成果直接寫在 clone 的新 `research/` 實驗目錄，則用 `--workspace ./research`。工具會保留來源，並核對內容；同一路徑不會再次複製到自己。兩種情況都不改寫歷史實驗。
+
+以臨時目錄作為 `--workspace` 時，即使這次沒有還原 gzip，也要先放入固定的歷史壓縮清單，供工具核對既有封存映射。新成果優先保存在常駐 repo 的新實驗目錄，避免臨時目錄成為尚未同步成果的唯一存放處。
+
+```sh
+mkdir -p "$QUANT_TASK_DIR/research/project_archive_20260924"
+cp research/project_archive_20260924/COMPRESSED_DATA_MANIFEST.json "$QUANT_TASK_DIR/research/project_archive_20260924/"
+```
 
 第一次上傳新 tag 時，先準備清單、強制加入列出的可讀檔案（避免原專案 `.gitignore` 漏檔），提交並推送，再建立同名草稿 Release：
 
@@ -96,7 +117,19 @@ python3 scripts/publish_snapshot.py --workspace /absolute/path/to/project --tag 
 
 工具按保存規則複製可讀檔案至 `research/`、將大型檔分包上傳至私人草稿 Release，完成遠端 digest 核對後才更新 catalog。它不代做最終 Git commit／push 或 Release 正式發布。先確認輸出與遠端驗證紀錄，核對 `data/index.json`、catalog、verification 一致；再提交／推送本次檔案，將已核對的草稿 Release 發布到這個私人儲存庫，最後重查遠端可取回狀態。儲存庫仍維持 private。
 
-若任何階段未完成，保留原資料，明確記錄未完成範圍，不覆寫舊快照或宣稱備份完成。實際包含與排除的內容可查 [保存範圍](UPLOAD_SCOPE.md) 及 `archive-config.json`，不要把同名研究輸出誤當可丟棄快取。
+若任何階段未完成，保留本次資料，明確記錄未完成範圍，不覆寫舊快照或宣稱備份完成。實際包含與排除的內容可查 [保存範圍](UPLOAD_SCOPE.md) 及 `archive-config.json`，不要把同名研究輸出誤當可丟棄快取。
+
+## 6. 用完後清理本次副本
+
+使用者已授權此流程下的本次下載副本清理，符合條件後不必為同一範圍再次要求許可：
+
+1. 對照任務取回清單，辨認下載副本、gzip 還原副本、操作暫存與新建／變更成果。先確認臨時目錄沒有別的工作正在使用，也沒有不明歸屬檔案。
+2. 本次若產生新成果或變更，先完成同步、發布與遠端內容核對：Git 不只需本機 commit，還要確認遠端提交及檔案內容；Release 需核對資產大小／SHA-256、逐檔 catalog 與可取回狀態。沒有新成果時，也要確認原快照仍可取回且雜湊一致。
+3. 只有已證實可從雲端重取或由已驗證 gzip 重建的本次副本，及無保留價值的操作暫存，才可清理。只在記錄的任務專屬範圍內操作，不沿符號連結擴大刪除，也不以檔名相同當作內容相同。
+4. 不刪未同步／校驗失敗的資料、唯讀 `sources/`、其他專案、共享且正在使用的檔案，或常駐的導讀、工具與索引；同步失敗或內容歸屬不明時保留，說明原因。
+5. 回報清理的實際範圍，以及下次重取所需的 tag／前綴。雲端原始資料、版本 Release 與歷史過程證據均保持完整。
+
+本節不提供對整個專案的一鍵刪除指令。清理對象由本次清單與核對結果決定；文件中的政策本身也不代表本機檔案已被清理。
 
 ## 保存不等於立即可重跑
 

@@ -1,21 +1,22 @@
 # 實驗與資料下載索引
 
-這份索引由首次快照的 [上傳計畫](../data/upload-plans/snapshot-2026-09-24.json) 彙整，標籤為 `snapshot-2026-09-24`。**首次上傳仍以驗證紀錄確認完成；本表列出待保存／已分包的內容，不表示全部資產已上傳。** 狀態請查 [快照入口](../data/index.json) 與 [遠端驗證紀錄](../data/verification/snapshot-2026-09-24.json)。
+這份索引由首次快照的 [檔案盤點](../data/inventories/snapshot-2026-09-24.json) 彙整，標籤為 `snapshot-2026-09-24`。此快照已完成上傳與遠端校驗；狀態請查 [快照入口](../data/index.json) 與 [遠端驗證紀錄](../data/verification/snapshot-2026-09-24.json)。
 
-本次計畫共有 **64 個頂層區域（含根目錄）**；Git 可讀檔案 **1,918 檔 · 93.70 MiB**，Release 資料 **8,288 檔 · 10.25 GiB**。每列對應一個原專案頂層目錄；報告保持原始內容，正式基準仍 v7，v30 是最新完成實驗，ARIMA 支線未正式回測。
+此快照共有 **64 個頂層區域（含根目錄）**；Git 可讀檔案 **1,918 檔 · 93.70 MiB**，Release 資料 **8,288 檔 · 10.25 GiB**。每列對應一個原專案頂層目錄；報告保持原始內容，正式基準仍 v7，v30 是最新完成實驗，ARIMA 支線未正式回測。
 
 ## 下載方式
 
-在儲存庫根目錄，以表中的完整前綴替換 `PREFIX`：
+在儲存庫根目錄建立本次任務專用的暫存目錄，以表中的完整前綴替換 `PREFIX`：
 
 ```sh
-python3 scripts/data_archive.py fetch --experiment 'PREFIX' --tag snapshot-2026-09-24
-python3 scripts/data_archive.py verify --experiment 'PREFIX' --tag snapshot-2026-09-24
+QUANT_TASK_DIR="$(mktemp -d "${TMPDIR:-/tmp}/quant-research.XXXXXX")"
+python3 scripts/data_archive.py fetch --experiment 'PREFIX' --tag snapshot-2026-09-24 --dest "$QUANT_TASK_DIR"
+python3 scripts/data_archive.py verify --experiment 'PREFIX' --tag snapshot-2026-09-24 --dest "$QUANT_TASK_DIR"
 ```
 
 若最後一欄有 gzip 前綴，**也要另外執行一次 fetch／verify**。主目錄 Release 為 0 檔時，可跳過主前綴下載；例如 v19 的可讀檔案已在 Git，另取回最後一欄的 gzip 即可取得本列封存資料。這些 gzip 是原 `.pkl`／`.csv` 的無損封存；下載後仍可能需用 `research/project_archive_20260924/restore_data.py` 還原。完整步驟見 [資料指南](DATA_GUIDE.md)。實驗引用的共同資料不一定在本列，請依程式輸入和 [相依查核](../research/project_archive_20260924/PRESERVATION_NOTES.md) 一起取回。
 
-數量按上傳計畫的逐檔清單算，不是 TAR 分包數；大小為檔案內容位元組換算（1 MiB=1,048,576 bytes），不含 TAR 標頭、暫存或解壓所需空間。同一包可能含其他檔案，因此實際下載流量可能較大。Git／主目錄 Release 兩欄每檔只計一次；最後一欄是 gzip 的實驗歸屬對照，**已包含在 `project_archive_20260924` 主目錄數字中，不能再加總**。0 檔表示該區域本身無 Release 檔案，不代表其運行完全沒有外部依賴。
+數量按已發布的檔案盤點逐檔清單算，不是 TAR 分包數；大小為檔案內容位元組換算（1 MiB=1,048,576 bytes），不含 TAR 標頭、暫存或解壓所需空間。同一包可能含其他檔案，因此實際下載流量可能較大。Git／主目錄 Release 兩欄每檔只計一次；最後一欄是 gzip 的實驗歸屬對照，**已包含在 `project_archive_20260924` 主目錄數字中，不能再加總**。0 檔表示該區域本身無 Release 檔案，不代表其運行完全沒有外部依賴。
 
 ## v4–v30 主線
 
