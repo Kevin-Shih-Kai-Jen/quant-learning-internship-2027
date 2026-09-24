@@ -16,7 +16,7 @@
 | 查每個實驗的資料量與精確下載前綴 | [實驗與資料下載索引](docs/EXPERIMENT_INDEX.md) |
 | 下載、驗證、還原實驗資料 | [資料指南](docs/DATA_GUIDE.md) |
 | 讓下一個對話從 GitHub 接手 | [可直接貼上的續接指令](docs/FUTURE_CHAT_PROMPT.md) |
-| 設定專案共用的取用與清理規則 | [簡短共用指令](docs/PROJECT_INSTRUCTIONS.md) |
+| 查看專案內所有聊天室的必讀規則 | [共用指令](docs/PROJECT_INSTRUCTIONS.md) · [已設定紀錄](docs/PROJECT_SETUP.md) |
 | 查看本機清理結果與保留範圍 | [2026-09-24 清理紀錄](docs/LOCAL_CLEANUP.md) |
 | 查看協作與保存規則 | [AGENTS.md](AGENTS.md) |
 | 私人 repo 讀不到或新聊天室無法連線 | [存取說明](docs/ACCESS.md) |
