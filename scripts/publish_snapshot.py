@@ -178,6 +178,15 @@ def prepare(workspace, tag, config, plan_path):
                       'new_payload_bytes': sum(f['size'] for p in entries for f in p['files'])}), flush=True)
     return plan
 
+def find_release(repo, tag):
+    # GitHub's by-tag endpoint may omit unpublished drafts; list includes drafts
+    # visible to the authenticated owner.
+    pages = json.loads(gh('api', '--paginate', '--slurp', f'repos/{repo}/releases?per_page=100'))
+    matches = [r for page in pages for r in page if r['tag_name'] == tag]
+    if len(matches) != 1:
+        raise ValueError('Expected one existing draft or published release for tag: ' + tag)
+    return matches[0]
+
 def release_assets(repo, release_id):
     pages = json.loads(gh('api', '--paginate', '--slurp', f'repos/{repo}/releases/{release_id}/assets?per_page=100'))
     return {a['name']: a for page in pages for a in page}
@@ -227,7 +236,7 @@ def upload(plan, plan_path):
     meta = api('repos/' + repo)
     if not meta['private']:
         raise ValueError('This archive must remain private')
-    release = api(f'repos/{repo}/releases/tags/{tag}')
+    release = find_release(repo, tag)
     if not release['draft']:
         raise ValueError('Only a draft release can receive this upload')
     known = release_assets(repo, release['id'])
@@ -280,7 +289,7 @@ def upload(plan, plan_path):
     for pack in catalog['packs']:
         ref = pack.get('release_tag', tag)
         if ref not in by_tag:
-            other = api(f'repos/{repo}/releases/tags/{ref}')
+            other = find_release(repo, ref)
             by_tag[ref] = release_assets(repo, other['id'])
         remote = by_tag[ref][pack['name']]
         require_asset(remote, pack)

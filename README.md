@@ -11,9 +11,11 @@
 | 用最少內容接續研究 | [最小續接記憶](research/project_archive_20260924/MEMORY_BRIEF.md) |
 | 了解每次嘗試、結果與修正 | [完整實驗歷程](research/project_archive_20260924/EXPERIMENT_HISTORY.md) |
 | 找到特定研究、成品或資料夾 | [研究地圖](docs/RESEARCH_MAP.md) |
+| 查每個實驗的資料量與精確下載前綴 | [實驗與資料下載索引](docs/EXPERIMENT_INDEX.md) |
 | 下載、驗證、還原實驗資料 | [資料指南](docs/DATA_GUIDE.md) |
 | 讓下一個對話從 GitHub 接手 | [可直接貼上的續接指令](docs/FUTURE_CHAT_PROMPT.md) |
 | 查看協作與保存規則 | [AGENTS.md](AGENTS.md) |
+| 私人 repo 讀不到或新聊天室無法連線 | [存取說明](docs/ACCESS.md) |
 | 確认某次快照包含什麼 | [資料索引](data/index.json) · [首次快照目錄](data/catalogs/snapshot-2026-09-24.json) |
 | 查上傳與完整性核對證據 | [首次快照驗證紀錄](data/verification/snapshot-2026-09-24.json) |
 
@@ -45,6 +47,8 @@ GitHub Releases                   版本化 .tar 分包，不放進 Git 歷史
 ```
 
 `research/` 的目錄結構對應原專案，但大型檔案須按目錄清單下載後才出現。首次快照標籤為 `snapshot-2026-09-24`；是否已完整存上遠端，以對應的驗證紀錄與 Release 資產核對為準，不能只憑 README 或本機壓縮完成判定。
+
+首次資料上傳正在進行時，請先使用 [實驗與資料下載索引](docs/EXPERIMENT_INDEX.md) 閱讀報告及規劃所需範圍；驗證紀錄確認完成前，不將本次快照視為完整遠端備份。
 
 原本 139 個大型 CSV／PKL 已先做 gzip 無損封存，完整解壓 SHA-256 一致後才移除未壓縮副本；它們的內容仍保留。從 GitHub 取回 gzip 後，舊程式可能還需要第二步還原到原路徑。已有 NPZ、逐筆 trace、排名、修正前／失敗版，以及簡報、PDF、圖表與模板也屬保存範圍；確切收錄項目以快照目錄為準。
 

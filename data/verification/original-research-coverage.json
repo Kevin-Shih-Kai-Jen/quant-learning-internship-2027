@@ -1,0 +1,405 @@
+{
+  "created_at": "2026-09-24T15:18:19+0800",
+  "original_manifest_files": 10279,
+  "preserved_original_files": 10180,
+  "declared_exclusions": [
+    {
+      "path": ".DS_Store",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "jpx_neutral_10pct_20260910/source/__pycache__/jpx_common.cpython-312.pyc",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "jpx_neutral_10pct_20260910/source/__pycache__/jpx_execution.cpython-312.pyc",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "jpx_neutral_10pct_20260910/zip_verification/source/__pycache__/jpx_common.cpython-312.pyc",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "jpx_neutral_10pct_20260910/zip_verification/source/__pycache__/jpx_models.cpython-312.pyc",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "jpx_neutral_10pct_20260910/zip_verification/source/__pycache__/jpx_market_proxy.cpython-312.pyc",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "jpx_neutral_10pct_20260910/zip_verification/source/__pycache__/jpx_regime.cpython-312.pyc",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "jpx_neutral_10pct_20260910/zip_verification/source/__pycache__/jpx_execution.cpython-312.pyc",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "jpx_v8_soft_rank_20260912/__pycache__/preflight.cpython-314.pyc",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "jpx_v8_soft_rank_20260912/__pycache__/run_v8.cpython-314.pyc",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "jpx_v8_soft_rank_20260912/__pycache__/native.cpython-314.pyc",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "jpx_v8_soft_rank_20260912/__pycache__/write_report.cpython-314.pyc",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "jpx_v8_soft_rank_20260912/__pycache__/audit_results.cpython-314.pyc",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "jpx_v7_daily_mse_20260912/__pycache__/run_v7.cpython-314.pyc",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "jpx_official_ranking_20260912/__pycache__/run_experiment.cpython-312.pyc",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "jpx_official_ranking_20260912/__pycache__/run_experiment.cpython-314.pyc",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "jpx_official_ranking_20260912/__pycache__/official_metric.cpython-314.pyc",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "jpx_official_ranking_20260912/__pycache__/official_metric.cpython-312.pyc",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "jpx_v15_soft_rank_filtered_20260914/__pycache__/preflight.cpython-314.pyc",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "jpx_v15_soft_rank_filtered_20260914/__pycache__/build.cpython-314.pyc",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "jpx_v15_soft_rank_filtered_20260914/__pycache__/features.cpython-314.pyc",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "jpx_v15_soft_rank_filtered_20260914/__pycache__/native.cpython-314.pyc",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "jpx_v15_soft_rank_filtered_20260914/__pycache__/write_report.cpython-314.pyc",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "jpx_v15_soft_rank_filtered_20260914/__pycache__/refine_replay.cpython-314.pyc",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "jpx_v15_soft_rank_filtered_20260914/__pycache__/run.cpython-314.pyc",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "jpx_v15_soft_rank_filtered_20260914/__pycache__/audit_results.cpython-314.pyc",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "jpx_v15_soft_rank_filtered_20260914/__pycache__/audit_inputs.cpython-314.pyc",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "jpx_v26_profit_forecast_revision_20260916/__pycache__/run.cpython-314.pyc",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "hiwin-application-site/dist/.openai/hosting.json",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "hiwin-application-site/.next/types/routes.d.ts",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "hiwin-application-site/.openai/hosting.json",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "hiwin-application-site/.wrangler/deploy/config.json",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "hiwin-application-site/.wrangler/state/v3/cache/miniflare-CacheObject/metadata.sqlite-shm",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "hiwin-application-site/.wrangler/state/v3/cache/miniflare-CacheObject/metadata.sqlite",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "hiwin-application-site/.wrangler/state/v3/cache/miniflare-CacheObject/metadata.sqlite-wal",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "jpx_v16_single_financial_v7_20260915/__pycache__/audit.cpython-314.pyc",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "jpx_v16_single_financial_v7_20260915/__pycache__/report.cpython-314.pyc",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "jpx_v16_single_financial_v7_20260915/__pycache__/run.cpython-314.pyc",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "jpx_arima_acf_learning_20260923/__pycache__/model_math.cpython-314.pyc",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "jpx_v11_persistent_finance_std22_20260913/__pycache__/preflight.cpython-314.pyc",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "jpx_v11_persistent_finance_std22_20260913/__pycache__/features.cpython-314.pyc",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "jpx_v11_persistent_finance_std22_20260913/__pycache__/native_mse.cpython-314.pyc",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "jpx_v11_persistent_finance_std22_20260913/__pycache__/run_v11.cpython-314.pyc",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "jpx_v17_actual_forecast_revisions_20260915/__pycache__/audit.cpython-314.pyc",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "jpx_v17_actual_forecast_revisions_20260915/__pycache__/report.cpython-314.pyc",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "jpx_v17_actual_forecast_revisions_20260915/__pycache__/features.cpython-314.pyc",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "jpx_v17_actual_forecast_revisions_20260915/__pycache__/run.cpython-314.pyc",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "jpx_v25_single_features_unfiltered_20260916/__pycache__/run.cpython-314.pyc",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "jpx_stock_returns_20260910/source/__pycache__/jpx_volume_features.cpython-312.pyc",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "jpx_stock_returns_20260910/source/__pycache__/jpx_common.cpython-312.pyc",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "jpx_stock_returns_20260910/source/__pycache__/jpx_common.cpython-314.pyc",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "jpx_stock_returns_20260910/source/__pycache__/jpx_models.cpython-312.pyc",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "jpx_stock_returns_20260910/source/__pycache__/jpx_execution.cpython-312.pyc",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "jpx_v6_expanding_daily_gd_20260912/__pycache__/run_v6.cpython-314.pyc",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "jpx_v10_mse_sgd_financial_20260913/__pycache__/preflight.cpython-314.pyc",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "jpx_v10_mse_sgd_financial_20260913/__pycache__/native_mse.cpython-314.pyc",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "jpx_v10_mse_sgd_financial_20260913/__pycache__/run_v10.cpython-314.pyc",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "output/.DS_Store",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "jpx_v30_profit_actual_forecast_20260916/__pycache__/run.cpython-314.pyc",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "jpx_v29_learning_rate_sweep_20260916/__pycache__/run.cpython-314.pyc",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "jpx_v5_daily_returns_20260912/__pycache__/run_v5.cpython-314.pyc",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "jpx_v12_financial_growth_20260913/__pycache__/preflight.cpython-314.pyc",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "jpx_v12_financial_growth_20260913/__pycache__/run_v12.cpython-314.pyc",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "jpx_v12_financial_growth_20260913/__pycache__/features.cpython-314.pyc",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "jpx_v12_financial_growth_20260913/__pycache__/native_mse.cpython-314.pyc",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "jpx_v27_profit_forecast_state_20260916/__pycache__/run.cpython-314.pyc",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "jpx_v9_financial_decay_sgd_20260912/__pycache__/preflight.cpython-314.pyc",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "jpx_v9_financial_decay_sgd_20260912/__pycache__/native_v9.cpython-314.pyc",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "jpx_v9_financial_decay_sgd_20260912/__pycache__/run_v9.cpython-314.pyc",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "jpx_v9_financial_decay_sgd_20260912/__pycache__/financial_features.cpython-314.pyc",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "jpx_expanding_threshold_20260910/source/__pycache__/jpx_common.cpython-312.pyc",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "jpx_expanding_threshold_20260910/source/__pycache__/jpx_models.cpython-312.pyc",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "jpx_expanding_threshold_20260910/source/__pycache__/jpx_market_proxy.cpython-312.pyc",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "jpx_expanding_threshold_20260910/source/__pycache__/jpx_regime.cpython-312.pyc",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "jpx_expanding_threshold_20260910/source/__pycache__/jpx_execution.cpython-312.pyc",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "jpx_v21_all_eps_joint_20260916/__pycache__/run.cpython-314.pyc",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "jpx_v24_g_train_validation_filters_20260916/__pycache__/run.cpython-314.pyc",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "jpx_v18_frozen_g_eps_20260915/__pycache__/run.cpython-314.pyc",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "jpx_costs_top5_20260911/__pycache__/cost_engine.cpython-312.pyc",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "jpx_return_t_top10_20260911/__pycache__/allocation.cpython-312.pyc",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "jpx_v28_common_learning_rate_20260916/__pycache__/run.cpython-314.pyc",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "jpx_v13_quarterly_sgd_sqrt_20260914/__pycache__/preflight.cpython-314.pyc",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "jpx_v13_quarterly_sgd_sqrt_20260914/__pycache__/features.cpython-314.pyc",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "jpx_v13_quarterly_sgd_sqrt_20260914/__pycache__/native.cpython-314.pyc",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "jpx_v13_quarterly_sgd_sqrt_20260914/__pycache__/run.cpython-314.pyc",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "jpx_v13_quarterly_sgd_sqrt_20260914/__pycache__/audit_results.cpython-314.pyc",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "jpx_v14_filtered_forecast_events_20260914/__pycache__/preflight.cpython-314.pyc",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "jpx_v14_filtered_forecast_events_20260914/__pycache__/features.cpython-314.pyc",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "jpx_v14_filtered_forecast_events_20260914/__pycache__/native.cpython-314.pyc",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "jpx_v14_filtered_forecast_events_20260914/__pycache__/run.cpython-314.pyc",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "jpx_return_t_20260911/__pycache__/feature_builder.cpython-312.pyc",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "jpx_ridge_top10_20260911/__pycache__/run_experiment.cpython-312.pyc",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "jpx_v23_g_thresholds_20260916/__pycache__/run.cpython-314.pyc",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "jpx_signed_band_20260910/source/__pycache__/jpx_common.cpython-312.pyc",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "jpx_signed_band_20260910/source/__pycache__/jpx_models.cpython-312.pyc",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "jpx_signed_band_20260910/source/__pycache__/jpx_market_proxy.cpython-312.pyc",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "jpx_signed_band_20260910/source/__pycache__/jpx_regime.cpython-312.pyc",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "jpx_signed_band_20260910/source/__pycache__/jpx_execution.cpython-312.pyc",
+      "reason": "rebuildable cache or operational state"
+    },
+    {
+      "path": "jpx_v22_eps_thresholds_20260916/__pycache__/run.cpython-314.pyc",
+      "reason": "rebuildable cache or operational state"
+    }
+  ],
+  "missing_or_changed": [],
+  "status": "local-plan-coverage-verified; remote asset verification required separately"
+}
