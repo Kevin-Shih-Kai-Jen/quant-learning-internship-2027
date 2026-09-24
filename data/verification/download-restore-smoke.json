@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "started_at_utc": "2026-09-24T07:33:40.514886+00:00",
+  "repository": "Kevin-Shih-Kai-Jen/quant-learning-internship-2027",
+  "release_tag": "snapshot-2026-09-24",
+  "release_id": 395427828,
+  "release_status_at_test_start": "draft",
+  "asset_id": 585387618,
+  "scope": "Single already-uploaded pack 009, genuine gh release download, safe extraction, local verification, gzip stream SHA-256 verification; no pickle loading.",
+  "pack": {
+    "name": "snapshot-2026-09-24-data-009-compressed-jpx_neutral_10pct_20260910.tar",
+    "expected_size": 2283520,
+    "expected_sha256": "a0e3c23b1b3e4cc529bb6f649870a4fa7f0ad5a123e708f8b864a9416e4c8cbe",
+    "observed_size": 2283520,
+    "observed_sha256": "a0e3c23b1b3e4cc529bb6f649870a4fa7f0ad5a123e708f8b864a9416e4c8cbe",
+    "verified": true
+  },
+  "files": [
+    {
+      "archive_path": "research/project_archive_20260924/compressed_data/jpx_neutral_10pct_20260910/selected_trades.csv.gz",
+      "original_path": "jpx_neutral_10pct_20260910/selected_trades.csv",
+      "gzip_size": 801603,
+      "gzip_sha256": "aad3cab337b67c47ce7607721447957fa3ab8e4fa3f0d0c04fdc9b3f507e0433",
+      "gzip_matches_catalog_and_manifest": true,
+      "decompressed_size": 3102865,
+      "decompressed_sha256": "13ed619b67e4449fae0bd680bdecb76b37b17cc88604610e84399f71bdcfb93a",
+      "decompressed_matches_manifest": true,
+      "decompression_mode": "stream only; original not written; pickle not loaded"
+    },
+    {
+      "archive_path": "research/project_archive_20260924/compressed_data/jpx_neutral_10pct_20260910/zip_verification/selected_trades.csv.gz",
+      "original_path": "jpx_neutral_10pct_20260910/zip_verification/selected_trades.csv",
+      "gzip_size": 801603,
+      "gzip_sha256": "aad3cab337b67c47ce7607721447957fa3ab8e4fa3f0d0c04fdc9b3f507e0433",
+      "gzip_matches_catalog_and_manifest": true,
+      "decompressed_size": 3102865,
+      "decompressed_sha256": "13ed619b67e4449fae0bd680bdecb76b37b17cc88604610e84399f71bdcfb93a",
+      "decompressed_matches_manifest": true,
+      "decompression_mode": "stream only; original not written; pickle not loaded"
+    },
+    {
+      "archive_path": "research/project_archive_20260924/compressed_data/jpx_neutral_10pct_20260910/zip_verification/rebuilt_proxy/share_disclosure_events.csv.gz",
+      "original_path": "jpx_neutral_10pct_20260910/zip_verification/rebuilt_proxy/share_disclosure_events.csv",
+      "gzip_size": 674775,
+      "gzip_sha256": "e62cd789d3fbd40ce4fa29c8cfd95d67ee455b00a9cdb5012756094adab85df4",
+      "gzip_matches_catalog_and_manifest": true,
+      "decompressed_size": 3567951,
+      "decompressed_sha256": "f8ed52e46446469e4289b3320bd5f148b61891b8207d733f7b709831f46bedc3",
+      "decompressed_matches_manifest": true,
+      "decompression_mode": "stream only; original not written; pickle not loaded"
+    }
+  ],
+  "status": "passed",
+  "fetch_exit_code": 0,
+  "remote_download_completed": true,
+  "verify_exit_code": 0,
+  "temporary_fixture_removed": true,
+  "finished_at_utc": "2026-09-24T07:34:57.573060+00:00"
+}

@@ -14,7 +14,7 @@ cd quant-learning-internship-2027
 python3 scripts/data_archive.py list
 ```
 
-先看目錄中有哪些實驗、哪些路徑在 Git、哪些屬 Release 資產，以及所需檔案大小。`research/` 對應原專案根目錄；僅 clone 不會取回所有大型檔案。
+`list` 列出 Release 資料的頂層分組、檔數與大小；細部路徑查 catalog。Git 與 Release 的完整收錄對照見 [檔案盤點](../data/inventories/snapshot-2026-09-24.json) 或 [實驗下載索引](EXPERIMENT_INDEX.md)。`research/` 對應原專案根目錄；僅 clone 不會取回所有大型檔案。
 
 ## 2. 按實驗取回，連同依賴一起處理
 
@@ -65,7 +65,7 @@ python3 research/project_archive_20260924/restore_data.py --restore
 
 先在新的實驗目錄完成本次研究，保存 plan、來源、設定快照、程式、完整結果、逐步紀錄、audit 與報告。必要時新增簡短記憶與導覽，記錄更正來源；不要重寫舊實驗事實。只有在使用者已授權同步本次產物時進行上傳。
 
-可讀的小檔使用正常 Git 提交／推送。大型資料和可讀檔案快照由獨立工具處理：
+可讀的小檔使用正常 Git 提交／推送。大型資料和可讀檔案快照由獨立工具處理。下列是上傳入口，**新 tag 必須先完成本節下方的 `--prepare-only`、提交來源及建立同名草稿 Release 流程，再執行此命令**；不要把它當成第一次操作的起點：
 
 ```sh
 python3 scripts/publish_snapshot.py --workspace /absolute/path/to/project --tag snapshot-YYYY-MM-DD-description
@@ -88,7 +88,7 @@ gh release create snapshot-YYYY-MM-DD-description --repo Kevin-Shih-Kai-Jen/quan
 python3 scripts/publish_snapshot.py --workspace /absolute/path/to/project --tag snapshot-YYYY-MM-DD-description
 ```
 
-請先撰寫實際 release notes 檔；以上路徑、tag 是需替換的範例。原始快照不會被覆寫，後續 catalog 會引用既有快照中相同資料，只上傳新增檔案；舊大型資料改內容須另建版本路徑。若中斷，使用同一來源與 tag 重跑，工具會核对已上傳資產，不會刪掉遠端資產重傳。
+請先撰寫實際 release notes 檔；以上路徑、tag 是需替換的範例。原始快照不會被覆寫，後續 catalog 會引用既有快照中相同資料，只上傳新增檔案；舊大型資料改內容須另建版本路徑。若中斷，使用同一來源與 tag 重跑，工具會核對已上傳資產，不會刪掉遠端資產重傳。
 
 工具按保存規則複製可讀檔案至 `research/`、將大型檔分包上傳至私人草稿 Release，完成遠端 digest 核對後才更新 catalog。它不代做最終 Git commit／push 或 Release 正式發布。先確認輸出與遠端驗證紀錄，核對 `data/index.json`、catalog、verification 一致；再提交／推送本次檔案，將已核對的草稿 Release 發布到這個私人儲存庫，最後重查遠端可取回狀態。儲存庫仍維持 private。
 

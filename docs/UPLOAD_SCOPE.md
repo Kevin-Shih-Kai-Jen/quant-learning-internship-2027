@@ -11,7 +11,7 @@ Git 保存可閱讀的程式、計畫、報告與小型紀錄；大型歷史實�
 - 所有 `jpx_*` 實驗目錄：Python/C++ 源碼、原生函式庫、實驗計畫、版本設定、結果、稽核、日誌、特徵 PKL、逐日 predictions/traces NPZ、所有 CSV/CSV.GZ、逐年 ranks、參數／訓練更新、舊版／修正前輸出。`pre_period_fix/`、`superseded_absolute_revision/`、`KNOWN_ISSUES.md` 均屬研究歷史。
 - 根目錄 `JPX-current-baseline.md`、`JPX-experiment-defaults.json`、`jpx_active_baseline.json`、`jpx_model_versions.json` 與研究文書、簡報、建置程式。
 - `output/` 的報告、PDF、PPTX、交付 ZIP 與資料；`ppt_build/` 的建置程式、模板、素材、驗證紀錄及既有輸出；`qa_*`、`tmp/`、`.chart-data-*` 中的歷史檢查／繪圖資料。這些目錄不能只憑名稱一律當作垃圾排除；體積較大者可保存於 Release。
-- `docs/` 與 `scheduling-app/`，以及 `hiwin-application-site/` 的應用程式碼、公開素材、設定、`package.json`、`package-lock.json`。排班資料若存在於瀏覽器，另見下方限制。
+- `docs/` 與 `scheduling-app/`，以及 `hiwin-application-site/` 的應用程式碼、公開素材、設定、`package.json`、`package-lock.json`。既有 `hiwin-application-site/dist/` 構建產物亦保留，作為當時網站輸出的歷史證據；依檔案類型與大小存入 Git 或 Release。排班資料若存在於瀏覽器，另見下方限制。
 - `project_archive_20260924/` 裡的整理文件／清單可以整合到 `docs/`；封存包或外部 ZIP 的重複副本不必重複上傳，但應有明確對應與校驗。
 - 外部 `JPX_data.zip`、`JPX-market-regime-experiment.zip` 與原簡報 `reference.pptx`。詳見保存查核文件；未壓縮的外部股票 CSV 已核對與 JPX_data.zip 成員 SHA-256 完全相同，不需再備份第二份。
 
@@ -22,7 +22,7 @@ Git 保存可閱讀的程式、計畫、報告與小型紀錄；大型歷史實�
 | 路徑／類型 | 原因 |
 |---|---|
 | `hiwin-application-site/node_modules/` | 已安裝套件，可由 lockfile 重裝；保留 lockfile。 |
-| `hiwin-application-site/.next/`、`hiwin-application-site/dist/` | 網站建置輸出；原應用程式及 public 素材需保留。 |
+| `hiwin-application-site/.next/` | 本機框架建置快取；原應用程式及 public 素材需保留。既有 `dist/` 構建產物另列於上方保存範圍，不在本排除項內。 |
 | `hiwin-application-site/.wrangler/` | 本機部署設定、SQLite cache 與執行狀態，非研究資料。 |
 | `hiwin-application-site/.openai/hosting.json` | 部署專案識別／綁定 metadata，非可攜研究源碼；本次只核對欄位名稱，沒有輸出識別值。 |
 | 所有巢狀 `.git/` | 既有 Git 內部資料和設定，不應被另一儲存庫當研究檔案收錄。 |
@@ -36,7 +36,7 @@ Git 保存可閱讀的程式、計畫、報告與小型紀錄；大型歷史實�
 - 原專案中 2,007 個不大於 2 MB 的文字檔經規則掃描，未命中 GitHub token、OpenAI key、AWS access key、私鑰標頭，以及常見非空字串 credential assignment 模式。掃描不輸出任何憑證值。
 - 掃描跳過 `node_modules/`、`.next/`、`.git/`、新 Git staging 和新整理封存目錄；不解析 PKL，不重跑任何研究。大檔與二進位內容未作全面秘密檢測，因此此結果不是零風險保證。
 - 未找到 `.env`、`.npmrc`、`.netrc`、`.git-credentials`、常見 service-account credential、PEM/P12/PFX/KEY 檔案。
-- 發現的部署設定為上述 hosting metadata、`.wrangler/deploy/config.json` 和產生的 `dist/server/wrangler.json`。後者的 secret binding 與 vars 皆為空；仍按建置／操作狀態排除。
+- 發現的部署設定為上述 hosting metadata、`.wrangler/deploy/config.json` 和產生的 `dist/server/wrangler.json`。後者的 secret binding 與 vars 皆為空，隨既有 `dist/` 歷史構建產物保留；`.openai/` 與 `.wrangler/` 的本機操作狀態仍排除。
 - 巢狀 `hiwin-application-site/.git/config` 只有 core section；未發現 remote URL 或內嵌遠端認證。未讀取專案外的任何憑證儲存區。
 - `JPX_data.zip` 的 16 個 member names 與 `JPX-market-regime-experiment.zip` 的 54 個 member names 經可疑憑證檔名檢查，沒有發現可疑成員；第一包的 `.gitkeep` 只是佔位檔。這是 ZIP 名稱檢查，並非所有成員內容的秘密掃描。
 

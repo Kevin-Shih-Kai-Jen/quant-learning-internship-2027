@@ -16,7 +16,7 @@
 | 讓下一個對話從 GitHub 接手 | [可直接貼上的續接指令](docs/FUTURE_CHAT_PROMPT.md) |
 | 查看協作與保存規則 | [AGENTS.md](AGENTS.md) |
 | 私人 repo 讀不到或新聊天室無法連線 | [存取說明](docs/ACCESS.md) |
-| 確认某次快照包含什麼 | [資料索引](data/index.json) · [首次快照目錄](data/catalogs/snapshot-2026-09-24.json) |
+| 確認某次快照包含什麼 | [資料索引](data/index.json) · [完整檔案盤點](data/inventories/snapshot-2026-09-24.json) · [Release 資料目錄](data/catalogs/snapshot-2026-09-24.json) |
 | 查上傳與完整性核對證據 | [首次快照驗證紀錄](data/verification/snapshot-2026-09-24.json) |
 
 ## 研究目前在哪裡
