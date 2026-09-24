@@ -48,7 +48,7 @@ GitHub Releases                   版本化 .tar 分包，不放進 Git 歷史
 
 `research/` 的目錄結構對應原專案，但大型檔案須按目錄清單下載後才出現。首次快照標籤為 `snapshot-2026-09-24`；是否已完整存上遠端，以對應的驗證紀錄與 Release 資產核對為準，不能只憑 README 或本機壓縮完成判定。
 
-首次資料上傳正在進行時，請先使用 [實驗與資料下載索引](docs/EXPERIMENT_INDEX.md) 閱讀報告及規劃所需範圍；驗證紀錄確認完成前，不將本次快照視為完整遠端備份。
+首次快照已完成全部 **88 個分卷** 的遠端大小與 SHA-256 核對，收錄 **8,288 份大型資料／二進位檔案（約 11 GB）**；另有 **1,918 份原專案可讀檔案** 保存於 Git。下載入口：[完整資料 Release](https://github.com/Kevin-Shih-Kai-Jen/quant-learning-internship-2027/releases/tag/snapshot-2026-09-24)。已實際驗證 [從 GitHub 取回及 gzip 還原](data/verification/download-restore-smoke.json)，並保留 [原研究收錄核對](data/verification/original-research-coverage.json) 與 [Git 檔案逐份核對](data/verification/source-git-coverage.json)。
 
 原本 139 個大型 CSV／PKL 已先做 gzip 無損封存，完整解壓 SHA-256 一致後才移除未壓縮副本；它們的內容仍保留。從 GitHub 取回 gzip 後，舊程式可能還需要第二步還原到原路徑。已有 NPZ、逐筆 trace、排名、修正前／失敗版，以及簡報、PDF、圖表與模板也屬保存範圍；確切收錄項目以快照目錄為準。
 
