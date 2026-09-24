@@ -2,6 +2,7 @@
 
 import contextlib
 import copy
+import gzip
 import hashlib
 import importlib.util
 import io
@@ -32,6 +33,8 @@ class PublisherTests(unittest.TestCase):
         self.repo = self.workspace / "arbitrary-staging-name"
         self.repo.mkdir(parents=True)
         self.config = json.loads((REPOSITORY_ROOT / "archive-config.json").read_text())
+        self.config.pop("compression_manifest", None)  # Generic fixtures have no compressed history.
+        self.config.pop("compression_manifest_sha256", None)
         self.config.update(pack_max_bytes=2 * 1024 * 1024,
                            text_max_bytes=128, csv_git_max_bytes=64)
         root_patch = patch.object(publisher, "ROOT", self.repo)
@@ -71,6 +74,28 @@ class PublisherTests(unittest.TestCase):
             "snapshots": [{"tag": tag, "catalog": "data/catalogs/" + tag + ".json",
                            "status": "verified"}],
         })
+
+    def compressed_history(self, original_name="experiment/data.pkl", contents=b"historical opaque pickle"):
+        self.config['compression_manifest'] = 'project_archive_20260924/COMPRESSED_DATA_MANIFEST.json'
+        compressed = gzip.compress(contents, mtime=0)
+        archive_name = 'project_archive_20260924/compressed_data/' + original_name + '.gz'
+        source = self.write_source(archive_name, compressed)
+        entry = {'path': original_name, 'size': len(contents),
+                 'sha256': hashlib.sha256(contents).hexdigest(),
+                 'archive_path': 'compressed_data/' + original_name + '.gz',
+                 'archive_size': len(compressed), 'archive_sha256': hashlib.sha256(compressed).hexdigest()}
+        manifest = self.workspace / self.config['compression_manifest']
+        publisher.write_json(manifest, {'format': 'gzip', 'files': [entry]})
+        self.config['compression_manifest_sha256'] = publisher.sha_file(manifest)
+        # Keep this small fixture manifest in Git rather than adding it as payload.
+        self.config['text_max_bytes'] = 8192
+        old = self.prepare('snapshot-old')
+        self.assertEqual(len(old['new_packs']), 1)
+        self.build(old['new_packs'][0])
+        self.save_previous_catalog('snapshot-old', old['new_packs'])
+        # Reproduce the restore tool's byte-for-byte output without unpickling.
+        restored = self.write_source(original_name, gzip.decompress(source.read_bytes()))
+        return source, restored, entry, old
 
     @staticmethod
     def remote_asset(pack, identifier=10):
@@ -257,6 +282,108 @@ class PublisherTests(unittest.TestCase):
         self.assertEqual(source.read_bytes(), b"revised evidence")
         self.assertEqual(json.loads((self.repo / "data/index.json").read_text())["latest"],
                          "snapshot-old")
+
+    def test_restored_historical_original_reuses_verified_gzip_without_duplicate_upload(self):
+        self.workspace = self.repo / 'research'
+        self.workspace.mkdir()
+        for original_name, contents in [('experiment/data.pkl', b'opaque historical bytes'),
+                                        ('experiment/data.csv', b'x,y\n1,2\n')]:
+            with self.subTest(original=original_name):
+                # Separate tags/plans make each case independent.
+                with tempfile.TemporaryDirectory(dir=self.temporary) as directory:
+                    previous_workspace, previous_repo = self.workspace, self.repo
+                    self.repo = Path(directory) / 'repo'
+                    self.workspace = self.repo / 'research'
+                    self.workspace.mkdir(parents=True)
+                    with patch.object(publisher, 'ROOT', self.repo):
+                        source, restored, entry, old = self.compressed_history(original_name, contents)
+                        before = restored.stat()
+                        plan = self.prepare('snapshot-restored')
+                        self.assertEqual(plan['new_packs'], [])
+                        self.assertEqual(plan['inherited_packs'], old['new_packs'])
+                        self.assertNotIn('research/' + original_name, [f['path'] for f in plan['git_files']])
+                        inventory = publisher.read_json(self.repo / 'data/inventories/snapshot-restored.json')
+                        record = next(f for f in inventory['files'] if f['path'] == 'research/' + original_name)
+                        self.assertEqual(record['compressed_archive_path'],
+                                         'research/project_archive_20260924/' + entry['archive_path'])
+                        self.assertEqual(restored.read_bytes(), contents)
+                        self.assertEqual(restored.stat().st_mtime_ns, before.st_mtime_ns)
+                        self.assertTrue(source.exists())
+                    self.workspace, self.repo = previous_workspace, previous_repo
+
+    def test_modified_restored_historical_original_requires_new_experiment_path(self):
+        _, restored, _, _ = self.compressed_history()
+        before = restored.stat()
+        changed = b'X' * before.st_size
+        restored.write_bytes(changed)
+        os.utime(restored, ns=(before.st_atime_ns, before.st_mtime_ns))
+        with self.assertRaisesRegex(ValueError, 'Historical data changed; use a new experiment path'):
+            self.prepare('snapshot-modified')
+        self.assertEqual(restored.read_bytes(), changed)
+        self.assertFalse(self.plan_path('snapshot-modified').exists())
+
+    def test_verified_remote_gzip_still_covers_original_when_gzip_is_not_local(self):
+        compressed, restored, _, old = self.compressed_history()
+        compressed.unlink()  # Fixture only: remote catalog remains authoritative.
+        self.write_source('new-experiment/result.pkl', b'new experiment result')
+        plan = self.prepare('snapshot-add-experiment')
+        self.assertEqual([f['path'] for p in plan['new_packs'] for f in p['files']],
+                         ['research/new-experiment/result.pkl'])
+        self.assertEqual(plan['inherited_packs'], old['new_packs'])
+        self.assertTrue(restored.exists())
+
+    def test_tampered_manifest_cannot_relabel_changed_historical_original_as_archived(self):
+        _, restored, _, _ = self.compressed_history()
+        restored.write_bytes(b'X' * restored.stat().st_size)
+        manifest_path = self.workspace / self.config['compression_manifest']
+        manifest = publisher.read_json(manifest_path)
+        manifest['files'][0]['sha256'] = publisher.sha_file(restored)
+        publisher.write_json(manifest_path, manifest)
+        with self.assertRaisesRegex(ValueError, 'Compression manifest SHA-256 mismatch'):
+            self.prepare('snapshot-tampered-manifest')
+        self.assertFalse(self.plan_path('snapshot-tampered-manifest').exists())
+
+    def test_compression_manifest_requires_explicit_verified_hash_pin(self):
+        self.compressed_history()
+        self.config.pop('compression_manifest_sha256')
+        with self.assertRaisesRegex(ValueError, 'Set compression_manifest_sha256'):
+            self.prepare('snapshot-missing-pin')
+        self.assertFalse(self.plan_path('snapshot-missing-pin').exists())
+
+    def test_local_compression_manifest_alone_never_skips_original_backup(self):
+        for mismatch in ('no-prior-pack', 'different-gzip-hash', 'different-gzip-size'):
+            with self.subTest(mismatch=mismatch), tempfile.TemporaryDirectory(dir=self.temporary) as directory:
+                previous_workspace, previous_repo = self.workspace, self.repo
+                self.workspace = Path(directory) / 'workspace'
+                self.repo = self.workspace / 'repo'
+                self.repo.mkdir(parents=True)
+                with patch.object(publisher, 'ROOT', self.repo):
+                    compressed, restored, _, old = self.compressed_history()
+                    # Restored originals must be uploaded even when the local gzip is absent.
+                    compressed.unlink()
+                    packs = copy.deepcopy(old['new_packs'])
+                    if mismatch == 'no-prior-pack':
+                        packs = []
+                    elif mismatch == 'different-gzip-hash':
+                        packs[0]['files'][0]['sha256'] = '0' * 64
+                    else:
+                        packs[0]['files'][0]['size'] += 1
+                    self.save_previous_catalog('snapshot-old', packs)
+                    plan = self.prepare('snapshot-unrepresented')
+                    new_paths = [f['path'] for pack in plan['new_packs'] for f in pack['files']]
+                    self.assertIn('research/experiment/data.pkl', new_paths)
+                    self.assertTrue(restored.exists())
+                self.workspace, self.repo = previous_workspace, previous_repo
+
+    def test_unverified_prior_catalog_cannot_suppress_restored_original(self):
+        self.compressed_history()
+        index_path = self.repo / 'data/index.json'
+        index = publisher.read_json(index_path)
+        index['snapshots'][0]['status'] = 'pending'
+        publisher.write_json(index_path, index)
+        with self.assertRaisesRegex(ValueError, 'Latest snapshot is not verified'):
+            self.prepare('snapshot-unverified')
+        self.assertFalse(self.plan_path('snapshot-unverified').exists())
 
     def test_git_to_release_conflict_leaves_old_staged_and_new_source_intact(self):
         source = self.write_source("experiment/notes.txt", b"old note")

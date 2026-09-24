@@ -1,6 +1,8 @@
 {
   "repository": "Kevin-Shih-Kai-Jen/quant-learning-internship-2027",
   "visibility": "private",
+  "compression_manifest": "project_archive_20260924/COMPRESSED_DATA_MANIFEST.json",
+  "compression_manifest_sha256": "a6ce61638ac9cc74d17dc0163693be7dac6a2cdb9cb7cbcdb62385566199bb5a",
   "pack_max_bytes": 805306368,
   "excluded_directories": [".git", "node_modules", "__pycache__", ".next", ".cache", ".wrangler", ".openai", ".venv", "github_repo_20260924"],
   "excluded_filenames": [".DS_Store"],

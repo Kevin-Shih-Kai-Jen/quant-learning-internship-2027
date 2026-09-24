@@ -74,11 +74,62 @@ def previous_packs():
         return []
     index = read_json(index_path)
     latest = next(x for x in index['snapshots'] if x['tag'] == index['latest'])
+    if latest.get('status') != 'verified':
+        raise ValueError('Latest snapshot is not verified; cannot inherit its data')
     catalog = read_json(ROOT / latest['catalog'])
     result = []
     for pack in catalog['packs']:
         result.append(dict(pack, release_tag=pack.get('release_tag', catalog['tag'])))
     return result
+
+def compressed_originals(workspace, config, existing_data):
+    """Map restored originals only to gzip payloads in the verified prior catalog."""
+    configured = config.get('compression_manifest')
+    if not configured:
+        return {}
+    pinned_hash = config.get('compression_manifest_sha256')
+    if not isinstance(pinned_hash, str) or not re.fullmatch('[0-9a-f]{64}', pinned_hash):
+        raise ValueError('Set compression_manifest_sha256 to the verified historical manifest hash')
+
+    def relative_path(value):
+        if (not isinstance(value, str) or not value or '\\' in value or '\x00' in value
+                or any(part in {'', '.', '..'} for part in value.split('/'))
+                or re.match(r'^[A-Za-z]:', value)):
+            raise ValueError('Invalid compression manifest path: ' + str(value))
+        return Path(value)
+
+    manifest_relative = relative_path(configured)
+    manifest_path = workspace / manifest_relative
+    if manifest_path.is_symlink() or not manifest_path.resolve().is_relative_to(workspace):
+        raise ValueError('Unsafe compression manifest path')
+    manifest_bytes = manifest_path.read_bytes()
+    if hashlib.sha256(manifest_bytes).hexdigest() != pinned_hash:
+        raise ValueError('Compression manifest SHA-256 mismatch; historical mappings must not change')
+    manifest = json.loads(manifest_bytes)
+    if manifest.get('format') != 'gzip' or not isinstance(manifest.get('files'), list):
+        raise ValueError('Unsupported compression manifest')
+    originals = {}
+    seen = set()
+    for entry in manifest['files']:
+        original = 'research/' + relative_path(entry['path']).as_posix()
+        archive_relative = relative_path(entry['archive_path'])
+        if archive_relative.parts[0] != 'compressed_data':
+            raise ValueError('Compressed payload must be inside compressed_data')
+        archive = 'research/' + (manifest_relative.parent / archive_relative).as_posix()
+        if original in seen:
+            raise ValueError('Duplicate original in compression manifest: ' + original)
+        seen.add(original)
+        for field in ('sha256', 'archive_sha256'):
+            if not isinstance(entry.get(field), str) or not re.fullmatch('[0-9a-f]{64}', entry[field]):
+                raise ValueError('Invalid compression manifest hash: ' + original)
+        for field in ('size', 'archive_size'):
+            if type(entry.get(field)) is not int or entry[field] < 0:
+                raise ValueError('Invalid compression manifest size: ' + original)
+        archived = existing_data.get(archive)
+        if (archived and archived['sha256'] == entry['archive_sha256']
+                and archived['size'] == entry['archive_size']):
+            originals[original] = dict(entry, compressed_archive_path=archive)
+    return originals
 
 def prepare(workspace, tag, config, plan_path):
     if plan_path.exists():
@@ -90,6 +141,7 @@ def prepare(workspace, tag, config, plan_path):
         raise ValueError('Snapshot tag already finalized; use a new tag')
     inherited = previous_packs()
     existing_data = {f['path']: f for pack in inherited for f in pack['files']}
+    compressed = compressed_originals(workspace, config, existing_data)
     records = []
     excluded = collections.Counter()
     grouped = collections.defaultdict(list)
@@ -128,6 +180,13 @@ def prepare(workspace, tag, config, plan_path):
                 if old['sha256'] != record['sha256']:
                     raise ValueError('Historical data changed; use a new experiment path: ' + record['path'])
                 record['storage'] = 'release'
+                continue
+            archived = compressed.get(record['path'])
+            if archived:
+                if (record['sha256'], record['size']) != (archived['sha256'], archived['size']):
+                    raise ValueError('Historical data changed; use a new experiment path: ' + record['path'])
+                record['storage'] = 'release'
+                record['compressed_archive_path'] = archived['compressed_archive_path']
                 continue
             if storage == 'git':
                 destination = ROOT / record['path']

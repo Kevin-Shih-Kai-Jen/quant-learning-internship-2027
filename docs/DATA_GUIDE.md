@@ -90,6 +90,10 @@ python3 scripts/publish_snapshot.py --workspace /absolute/path/to/project --tag 
 
 請先撰寫實際 release notes 檔；以上路徑、tag 是需替換的範例。原始快照不會被覆寫，後續 catalog 會引用既有快照中相同資料，只上傳新增檔案；舊大型資料改內容須另建版本路徑。若中斷，使用同一來源與 tag 重跑，工具會核對已上傳資產，不會刪掉遠端資產重傳。
 
+`archive-config.json` 的 `compression_manifest` 指向工作目錄內的壓縮清單；還原出的歷史原檔若與清單一致，且最新已驗證 catalog 中有匹配的 gzip，便沿用該封存而不重複上傳，原路徑內容改變則必須另建實驗路徑。
+
+`compression_manifest_sha256` 鎖定這份清單的完整位元組，初始歷史映射不可改寫；若需建立新映射，必須另外明確設定已驗證的新清單及其雜湊，工具不會自動接受變動。
+
 工具按保存規則複製可讀檔案至 `research/`、將大型檔分包上傳至私人草稿 Release，完成遠端 digest 核對後才更新 catalog。它不代做最終 Git commit／push 或 Release 正式發布。先確認輸出與遠端驗證紀錄，核對 `data/index.json`、catalog、verification 一致；再提交／推送本次檔案，將已核對的草稿 Release 發布到這個私人儲存庫，最後重查遠端可取回狀態。儲存庫仍維持 private。
 
 若任何階段未完成，保留原資料，明確記錄未完成範圍，不覆寫舊快照或宣稱備份完成。實際包含與排除的內容可查 [保存範圍](UPLOAD_SCOPE.md) 及 `archive-config.json`，不要把同名研究輸出誤當可丟棄快取。

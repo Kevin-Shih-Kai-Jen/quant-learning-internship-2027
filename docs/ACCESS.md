@@ -6,6 +6,18 @@
 
 本次已確認 GitHub CLI 登入 `Kevin-Shih-Kai-Jen`，可建立私人儲存庫、推送內容及上傳 Release。後續 Codex 可以使用同一登入；若受限環境的連線檢查失敗，先在正常網路／鑰匙圈權限下唯讀重查，不可直接推論帳號失效。不要要求使用者把密碼或 Token 貼到對話。
 
+本機曾出現 `gh` 已登入、一般 Git 推送卻仍使用舊認證的情況。本次以下方式已成功推送；它只讓該次 Git 操作沿用 GitHub CLI 的認證，不修改全機設定：
+
+```sh
+git -c credential.helper= -c 'credential.helper=!gh auth git-credential' push origin main
+```
+
+若第一次取得私人 repo 也遇相同問題，可使用：
+
+```sh
+git -c credential.helper= -c 'credential.helper=!gh auth git-credential' clone https://github.com/Kevin-Shih-Kai-Jen/quant-learning-internship-2027.git
+```
+
 ## 其他 ChatGPT／Codex 聊天室
 
 貼上 [FUTURE_CHAT_PROMPT.md](FUTURE_CHAT_PROMPT.md) 並說明當次任務。新聊天室還需要真正能讀取這個私人 repo 的工具與授權；網址或提示詞本身不會授予存取權，也不會自動帶入舊對話。
