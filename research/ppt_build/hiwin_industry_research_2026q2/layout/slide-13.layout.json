@@ -1,0 +1,1185 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/99eid0",
+    "id": "99eid0",
+    "slide": 13,
+    "layoutId": "/ppt/slideLayouts/slideLayout6.xml",
+    "layoutName": "Title Only",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "Color Block Theme",
+    "colors": {
+      "accent1": "#2ED978",
+      "accent2": "#9FB6FE",
+      "accent3": "#F3F161",
+      "accent4": "#FF5F27",
+      "accent5": "#5EC4FF",
+      "accent6": "#3C7DA3",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#393939",
+      "lt2": "#F5F5F5",
+      "hlink": "#FFA83A",
+      "folHlink": "#96607D"
+    },
+    "fontScheme": {
+      "name": "Inter",
+      "majorFont": {
+        "latinTypeface": "Inter"
+      },
+      "minorFont": {
+        "latinTypeface": "Inter"
+      }
+    },
+    "typefaces": [
+      "Heiti TC",
+      "Helvetica Neue",
+      "Helvetica Neue Medium",
+      "Inter",
+      "Inter Medium"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout6.xml",
+      "name": "Title Only",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout6.xml/8",
+          "id": "8",
+          "name": "Footer Placeholder 4",
+          "bbox": [
+            41.33,
+            659.31,
+            374.67,
+            25.33
+          ],
+          "geometry": "rect",
+          "resolvedTextStyle": {
+            "anchor": 3,
+            "vertical": 1,
+            "verticalAlignment": "bottom",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          }
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout6.xml/9",
+          "id": "9",
+          "name": "Slide Number Placeholder 5",
+          "bbox": [
+            1184.18,
+            659.24,
+            54.48,
+            25.33
+          ],
+          "geometry": "rect",
+          "text": "‹#›",
+          "textPreview": "‹#›",
+          "resolvedTextStyle": {
+            "anchor": 3,
+            "vertical": 1,
+            "verticalAlignment": "bottom",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "‹#›",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "‹#›"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout6.xml/2",
+          "id": "2",
+          "name": "Title Placeholder 1",
+          "bbox": [
+            41.33,
+            36.12,
+            1197.33,
+            109.97
+          ],
+          "geometry": "rect",
+          "text": "Click to edit Master title style",
+          "textPreview": "Click to edit Master title style",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "vertical": 1,
+            "verticalAlignment": "top",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Click to edit Master title style",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Click to edit Master title style"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "type": "master",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/2",
+          "id": "2",
+          "name": "Title Placeholder 1",
+          "bbox": [
+            41.33,
+            36.12,
+            1197.33,
+            109.97
+          ],
+          "geometry": "rect",
+          "text": "Click to edit Master title style",
+          "textPreview": "Click to edit Master title style",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "vertical": 1,
+            "verticalAlignment": "top",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Click to edit Master title style",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Click to edit Master title style"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/3",
+          "id": "3",
+          "name": "Text Placeholder 2",
+          "bbox": [
+            41.33,
+            213.33,
+            1197.33,
+            416
+          ],
+          "geometry": "rect",
+          "text": "Click to edit Master text styles\nSecond level\nThird level\nFourth level\nFifth level",
+          "textPreview": "Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level",
+          "resolvedTextStyle": {
+            "vertical": 1,
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Click to edit Master text styles",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Click to edit Master text styles"
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "text": "Second level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Second level"
+                }
+              ]
+            },
+            {
+              "index": 3,
+              "text": "Third level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Third level"
+                }
+              ]
+            },
+            {
+              "index": 4,
+              "text": "Fourth level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Fourth level"
+                }
+              ]
+            },
+            {
+              "index": 5,
+              "text": "Fifth level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Fifth level"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/5",
+          "id": "5",
+          "name": "Footer Placeholder 4",
+          "bbox": [
+            41.33,
+            659.31,
+            374.67,
+            25.33
+          ],
+          "geometry": "rect",
+          "resolvedTextStyle": {
+            "anchor": 3,
+            "vertical": 1,
+            "verticalAlignment": "bottom",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          }
+        },
+        {
+          "order": 4,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/6",
+          "id": "6",
+          "name": "Slide Number Placeholder 5",
+          "bbox": [
+            1184.18,
+            659.24,
+            54.48,
+            25.33
+          ],
+          "geometry": "rect",
+          "text": "‹#›",
+          "textPreview": "‹#›",
+          "resolvedTextStyle": {
+            "anchor": 3,
+            "vertical": 1,
+            "verticalAlignment": "bottom",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "‹#›",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "‹#›"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1cbydgre",
+      "id": "532",
+      "name": "Google Shape;532;p58",
+      "bbox": [
+        1184.18,
+        659.24,
+        54.48,
+        25.33
+      ],
+      "geometry": "rect",
+      "text": "13",
+      "textPreview": "13",
+      "resolvedFontSize": 14.67,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "vertical": 1,
+        "fontSize": 14.67,
+        "typeface": "Inter",
+        "color": "tx1",
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "useParagraphSpacing": true
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "13"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "13",
+          "runs": [
+            {
+              "index": 1,
+              "text": "13"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0b2x4bqt",
+      "id": "533",
+      "name": "Google Shape;533;p58",
+      "bbox": [
+        41.33,
+        36.12,
+        822.67,
+        109.97
+      ],
+      "geometry": "rect",
+      "text": "半導體：精度、真空與快速整定同時發生",
+      "textPreview": "半導體：精度、真空與快速整定同時發生",
+      "resolvedFontSize": 38.67,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "vertical": 1,
+        "fontSize": 38.67,
+        "typeface": "Inter Medium",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "useParagraphSpacing": true
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "半導體：精度、真空與快速整定同時發生"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "半導體：精度、真空與快速整定同時發生",
+          "runs": [
+            {
+              "index": 1,
+              "text": "半導體：精度、真空與快速整定同時發生"
+            }
+          ],
+          "bulletCharacter": "",
+          "lineSpacingPercent": 90000
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/y18fq9sr",
+      "id": "12",
+      "name": "Content Placeholder 10",
+      "bbox": [
+        732,
+        249.33,
+        506.67,
+        68
+      ],
+      "geometry": "rect",
+      "text": "XY、奈米與氣浮平台移動晶圓或鏡頭；停得快又穩，才能提高掃描與取像效率。",
+      "textPreview": "XY、奈米與氣浮平台移動晶圓或鏡頭；停得快又穩，才能提高掃描與取像效率。",
+      "resolvedFontSize": 32,
+      "resolvedTextStyle": {
+        "vertical": 1,
+        "fontSize": 32,
+        "typeface": "Inter",
+        "color": "tx1",
+        "alignment": "left",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "XY、奈米與氣浮平台移動晶圓或鏡頭；停得快又穩"
+          },
+          {
+            "index": 2,
+            "text": "，才能提高掃描與取像效率。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "XY、奈米與氣浮平台移動晶圓或鏡頭；停得快又穩，才能提高掃描與取像效率。",
+          "lineSpacingPercent": 100000,
+          "runs": [
+            {
+              "index": 1,
+              "text": "XY、奈米與氣浮平台移動晶圓或鏡頭；停得快又穩，才能提高掃描與取像效率。",
+              "fontSize": 21.33,
+              "typeface": "Helvetica Neue",
+              "color": "#000000"
+            }
+          ],
+          "bulletCharacter": "•",
+          "marginLeft": 228600,
+          "indent": -228600
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/x0zex4b6",
+      "id": "15",
+      "name": "Content Placeholder 10",
+      "bbox": [
+        509.33,
+        249.33,
+        196,
+        68
+      ],
+      "geometry": "rect",
+      "text": "檢測／量測",
+      "textPreview": "檢測／量測",
+      "resolvedFontSize": 32,
+      "resolvedTextStyle": {
+        "vertical": 1,
+        "fontSize": 32,
+        "typeface": "Inter",
+        "color": "tx1",
+        "alignment": "left",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "檢測／量測"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "檢測／量測",
+          "lineSpacingPercent": 100000,
+          "runs": [
+            {
+              "index": 1,
+              "text": "檢測／量測",
+              "fontSize": 21.33,
+              "typeface": "Helvetica Neue Medium",
+              "color": {
+                "type": "theme",
+                "value": "accent5",
+                "transform": {
+                  "darken": 0.5
+                }
+              }
+            }
+          ],
+          "bulletCharacter": "•",
+          "marginLeft": 228600,
+          "indent": -228600
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/axofmpsv",
+      "id": "16",
+      "name": "Content Placeholder 10",
+      "bbox": [
+        732,
+        353.33,
+        506.67,
+        68
+      ],
+      "geometry": "rect",
+      "text": "真空線性／直驅馬達裝在 PVD、CVD、清洗乾燥與晶圓檢測腔體內。",
+      "textPreview": "真空線性／直驅馬達裝在 PVD、CVD、清洗乾燥與晶圓檢測腔體內。",
+      "resolvedFontSize": 32,
+      "resolvedTextStyle": {
+        "vertical": 1,
+        "fontSize": 32,
+        "typeface": "Inter",
+        "color": "tx1",
+        "alignment": "left",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "真空線性／直驅馬達裝在"
+          },
+          {
+            "index": 2,
+            "text": "PVD、CVD、清洗乾燥與晶圓檢測腔體內。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "真空線性／直驅馬達裝在 PVD、CVD、清洗乾燥與晶圓檢測腔體內。",
+          "lineSpacingPercent": 100000,
+          "runs": [
+            {
+              "index": 1,
+              "text": "真空線性／直驅馬達裝在 PVD、CVD、清洗乾燥與晶圓檢測腔體內。",
+              "fontSize": 21.33,
+              "typeface": "Helvetica Neue",
+              "color": "#000000"
+            }
+          ],
+          "bulletCharacter": "•",
+          "marginLeft": 228600,
+          "indent": -228600
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/byxwvutg",
+      "id": "17",
+      "name": "Content Placeholder 10",
+      "bbox": [
+        509.33,
+        353.33,
+        196,
+        68
+      ],
+      "geometry": "rect",
+      "text": "真空製程",
+      "textPreview": "真空製程",
+      "resolvedFontSize": 32,
+      "resolvedTextStyle": {
+        "vertical": 1,
+        "fontSize": 32,
+        "typeface": "Inter",
+        "color": "tx1",
+        "alignment": "left",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "真空製程"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "真空製程",
+          "lineSpacingPercent": 100000,
+          "runs": [
+            {
+              "index": 1,
+              "text": "真空製程",
+              "fontSize": 21.33,
+              "typeface": "Helvetica Neue Medium",
+              "color": {
+                "type": "theme",
+                "value": "accent5",
+                "transform": {
+                  "darken": 0.5
+                }
+              }
+            }
+          ],
+          "bulletCharacter": "•",
+          "marginLeft": 228600,
+          "indent": -228600
+        }
+      ]
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ov6dkfap",
+      "id": "18",
+      "name": "Content Placeholder 10",
+      "bbox": [
+        732,
+        457.33,
+        506.67,
+        68
+      ],
+      "geometry": "rect",
+      "text": "CoWoS、FOPLP／PLP 需要大面積對位、平整度補正與關鍵尺寸量測。",
+      "textPreview": "CoWoS、FOPLP／PLP 需要大面積對位、平整度補正與關鍵尺寸量測。",
+      "resolvedFontSize": 32,
+      "resolvedTextStyle": {
+        "vertical": 1,
+        "fontSize": 32,
+        "typeface": "Inter",
+        "color": "tx1",
+        "alignment": "left",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "CoWoS、FOPLP／PLP"
+          },
+          {
+            "index": 2,
+            "text": "需要大面積對位、平整度補正與關鍵尺寸量測。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "CoWoS、FOPLP／PLP 需要大面積對位、平整度補正與關鍵尺寸量測。",
+          "lineSpacingPercent": 100000,
+          "runs": [
+            {
+              "index": 1,
+              "text": "CoWoS、FOPLP／PLP 需要大面積對位、平整度補正與關鍵尺寸量測。",
+              "fontSize": 21.33,
+              "typeface": "Helvetica Neue",
+              "color": "#000000"
+            }
+          ],
+          "bulletCharacter": "•",
+          "marginLeft": 228600,
+          "indent": -228600
+        }
+      ]
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/pwfetkba",
+      "id": "19",
+      "name": "Content Placeholder 10",
+      "bbox": [
+        509.33,
+        457.33,
+        196,
+        68
+      ],
+      "geometry": "rect",
+      "text": "先進封裝",
+      "textPreview": "先進封裝",
+      "resolvedFontSize": 32,
+      "resolvedTextStyle": {
+        "vertical": 1,
+        "fontSize": 32,
+        "typeface": "Inter",
+        "color": "tx1",
+        "alignment": "left",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "先進封裝"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "先進封裝",
+          "lineSpacingPercent": 100000,
+          "runs": [
+            {
+              "index": 1,
+              "text": "先進封裝",
+              "fontSize": 21.33,
+              "typeface": "Helvetica Neue Medium",
+              "color": {
+                "type": "theme",
+                "value": "accent5",
+                "transform": {
+                  "darken": 0.5
+                }
+              }
+            }
+          ],
+          "bulletCharacter": "•",
+          "marginLeft": 228600,
+          "indent": -228600
+        }
+      ]
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ps7uxg3y",
+      "id": "20",
+      "name": "Content Placeholder 10",
+      "bbox": [
+        732,
+        562.67,
+        506.67,
+        68
+      ],
+      "geometry": "rect",
+      "text": "多自由度奈米對準；公司訪談稱已開始出貨並獲追加，但未揭露訂單金額。",
+      "textPreview": "多自由度奈米對準；公司訪談稱已開始出貨並獲追加，但未揭露訂單金額。",
+      "resolvedFontSize": 32,
+      "resolvedTextStyle": {
+        "vertical": 1,
+        "fontSize": 32,
+        "typeface": "Inter",
+        "color": "tx1",
+        "alignment": "left",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "多自由度奈米對準；公司訪談稱已開始出貨並獲追加"
+          },
+          {
+            "index": 2,
+            "text": "，但未揭露訂單金額。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "多自由度奈米對準；公司訪談稱已開始出貨並獲追加，但未揭露訂單金額。",
+          "lineSpacingPercent": 100000,
+          "runs": [
+            {
+              "index": 1,
+              "text": "多自由度奈米對準；公司訪談稱已開始出貨並獲追加，但未揭露訂單金額。",
+              "fontSize": 21.33,
+              "typeface": "Helvetica Neue",
+              "color": "#000000"
+            }
+          ],
+          "bulletCharacter": "•",
+          "marginLeft": 228600,
+          "indent": -228600
+        }
+      ]
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4rydobmd",
+      "id": "21",
+      "name": "Content Placeholder 10",
+      "bbox": [
+        509.33,
+        562.67,
+        196,
+        68
+      ],
+      "geometry": "rect",
+      "text": "矽光子／CPO",
+      "textPreview": "矽光子／CPO",
+      "resolvedFontSize": 32,
+      "resolvedTextStyle": {
+        "vertical": 1,
+        "fontSize": 32,
+        "typeface": "Inter",
+        "color": "tx1",
+        "alignment": "left",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "矽光子／CPO"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "矽光子／CPO",
+          "lineSpacingPercent": 100000,
+          "runs": [
+            {
+              "index": 1,
+              "text": "矽光子／CPO",
+              "fontSize": 21.33,
+              "typeface": "Helvetica Neue Medium",
+              "color": {
+                "type": "theme",
+                "value": "accent5",
+                "transform": {
+                  "darken": 0.5
+                }
+              }
+            }
+          ],
+          "bulletCharacter": "•",
+          "marginLeft": 228600,
+          "indent": -228600
+        }
+      ]
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/032hwry1",
+      "id": "3",
+      "name": "Google Shape;534;p58",
+      "bbox": [
+        41.33,
+        249.33,
+        374.67,
+        380
+      ],
+      "geometry": "rect",
+      "text": "外行版：鏡頭負責看、製程腔體負責做；大銀的平台負責把晶圓或鏡頭送到正確位置。進到真空，就換成低釋氣馬達。",
+      "textPreview": "外行版：鏡頭負責看、製程腔體負責做；大銀的平台負責把晶圓或鏡頭送到正確位置。進到真空，就換成低釋氣馬達。",
+      "resolvedFontSize": 32,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "vertical": 1,
+        "fontSize": 32,
+        "typeface": "Inter",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "useParagraphSpacing": true
+      },
+      "textLayout": {
+        "lineCount": 4,
+        "lines": [
+          {
+            "index": 1,
+            "text": "外行版：鏡頭負責看、製程腔體負"
+          },
+          {
+            "index": 2,
+            "text": "責做；大銀的平台負責把晶圓或鏡"
+          },
+          {
+            "index": 3,
+            "text": "頭送到正確位置。進到真空，就換"
+          },
+          {
+            "index": 4,
+            "text": "成低釋氣馬達。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "外行版：鏡頭負責看、製程腔體負責做；大銀的平台負責把晶圓或鏡頭送到正確位置。進到真空，就換成低釋氣馬達。",
+          "lineSpacingPercent": 114000,
+          "runs": [
+            {
+              "index": 1,
+              "text": "外行版：鏡頭負責看、製程腔體負責做；大銀的平台負責把晶圓或鏡頭送到正確位置。進到真空，就換成低釋氣馬達。",
+              "fontSize": 24,
+              "typeface": "Helvetica Neue"
+            }
+          ],
+          "bulletCharacter": "•",
+          "marginLeft": 228600,
+          "indent": -228600
+        }
+      ]
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/r69g769c",
+      "id": "534",
+      "name": "Clickable source footer",
+      "bbox": [
+        42,
+        681,
+        1125,
+        24
+      ],
+      "geometry": "rect",
+      "text": "資料來源：[1] 2025 年報  ·  [2] 真空馬達  ·  [3] 公司 9/2 報導",
+      "textPreview": "資料來源：[1] 2025 年報  ·  [2] 真空馬達  ·  [3] 公司 9/2 報導",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "fontSize": 11,
+        "typeface": "Inter",
+        "color": "#667085",
+        "alignment": "left",
+        "wrap": "none",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "資料來源：[1] 2025 年報  ·  [2] 真空馬達  ·  [3] 公司 9/2 報導"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "資料來源：[1] 2025 年報  ·  [2] 真空馬達  ·  [3] 公司 9/2 報導",
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "color": "#667085"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "資料來源：",
+              "fontSize": 11,
+              "typeface": "Heiti TC",
+              "color": "#667085"
+            },
+            {
+              "index": 2,
+              "text": "[1] 2025 年報",
+              "fontSize": 11,
+              "typeface": "Heiti TC",
+              "color": "#667085"
+            },
+            {
+              "index": 3,
+              "text": "  ·  ",
+              "fontSize": 11,
+              "typeface": "Heiti TC",
+              "color": "#667085"
+            },
+            {
+              "index": 4,
+              "text": "[2] 真空馬達",
+              "fontSize": 11,
+              "typeface": "Heiti TC",
+              "color": "#667085"
+            },
+            {
+              "index": 5,
+              "text": "  ·  ",
+              "fontSize": 11,
+              "typeface": "Heiti TC",
+              "color": "#667085"
+            },
+            {
+              "index": 6,
+              "text": "[3] 公司 9/2 報導",
+              "fontSize": 11,
+              "typeface": "Heiti TC",
+              "color": "#667085"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

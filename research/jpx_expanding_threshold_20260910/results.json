@@ -1,0 +1,493 @@
+{
+  "plan_sha256": "57e6c106b22fcc333ee98825829640172e204aa30b2af16ad28713a3f6b1e501",
+  "raw_source_sha256": {
+    "stock_prices.csv": "bf774a86f834e5338bba74f2356ebb750f93a1cc4e89b064ee07251e8ed851db",
+    "financials.csv": "7e48cb0a053875f849712a8965a8cdf7487749761216cce24216033a9998b4c4"
+  },
+  "quantile_candidates": [
+    0.25,
+    0.5,
+    0.75
+  ],
+  "benchmark": "Nikkei 225 spot price index from original experiment",
+  "first_threshold_evaluation_year": 2019,
+  "2018_role": "historical OOS market-prediction calibration; no 2017 stock-order history in supplied experiment",
+  "market_training": "expanding historical samples; annual fixed coefficients",
+  "stock_model_refit": false,
+  "cost_model": "original zero costs and target-touch assumptions",
+  "test_data_used": false,
+  "result_type": "development evaluation on previously examined years",
+  "market_fits": [
+    {
+      "validation_year": 2018,
+      "train_rows": 157,
+      "train_first_signal": "2017-05-15",
+      "train_last_signal": "2017-12-27",
+      "last_label_exit": "2017-12-29",
+      "fit_asof": "2017-12-29",
+      "coefficients": {
+        "alpha": 0.0012117174588424304,
+        "T5": -0.0004432554940678435,
+        "T22": -0.0003620170512743428,
+        "T60": 0.00012726216417208852
+      }
+    },
+    {
+      "validation_year": 2019,
+      "train_rows": 402,
+      "train_first_signal": "2017-05-15",
+      "train_last_signal": "2018-12-26",
+      "last_label_exit": "2018-12-28",
+      "fit_asof": "2018-12-28",
+      "coefficients": {
+        "alpha": -5.8735269761708345e-05,
+        "T5": 0.00018918238169781285,
+        "T22": 0.000425212360339038,
+        "T60": -0.0004979234326859315
+      }
+    },
+    {
+      "validation_year": 2020,
+      "train_rows": 643,
+      "train_first_signal": "2017-05-15",
+      "train_last_signal": "2019-12-26",
+      "last_label_exit": "2019-12-30",
+      "fit_asof": "2019-12-30",
+      "coefficients": {
+        "alpha": 0.0001470766301642106,
+        "T5": 0.0001066058436968329,
+        "T22": 0.0006719294339687708,
+        "T60": -0.0007405408262363501
+      }
+    },
+    {
+      "validation_year": 2021,
+      "train_rows": 885,
+      "train_first_signal": "2017-05-15",
+      "train_last_signal": "2020-12-28",
+      "last_label_exit": "2020-12-30",
+      "fit_asof": "2020-12-30",
+      "coefficients": {
+        "alpha": 0.0001595611990572714,
+        "T5": 0.0001161992643988762,
+        "T22": 0.00017883428284548206,
+        "T60": 2.9445444978575233e-06
+      }
+    }
+  ],
+  "annual_selection": [
+    {
+      "validation_year": 2019,
+      "selection_asof": "2018-12-28",
+      "historical_rows": 244,
+      "calibration_rows": 122,
+      "scoring_rows": 122,
+      "calibration_signal_start": "2017-12-29",
+      "calibration_signal_end": "2018-06-29",
+      "scoring_entry_start": "2018-07-03",
+      "scoring_exit_end": "2018-12-28",
+      "candidates": [
+        {
+          "q": 0.25,
+          "threshold_decimal_return": 0.0005810150167171928,
+          "strategy": {
+            "days": 122,
+            "cumulative_return": 0.13136397583701265,
+            "annualized_return_252": 0.29038587401060956,
+            "max_drawdown": -0.0858026913428559,
+            "sharpe_252_rf0": 1.386821946581698,
+            "daily_mean": 0.0010879375158465157,
+            "daily_std": 0.012453273252570517,
+            "positive_day_fraction": 0.5409836065573771,
+            "ending_wealth_per_100": 113.13639758370127,
+            "simple_sum_return": 0.1327283769332749
+          },
+          "benchmark": {
+            "days": 122,
+            "cumulative_return": -0.08128189615680781,
+            "annualized_return_252": -0.16063612890169354,
+            "max_drawdown": -0.21074368928358644,
+            "sharpe_252_rf0": -0.7523594969233338,
+            "daily_mean": -0.0006115154514449393,
+            "daily_std": 0.012902750459159054,
+            "positive_day_fraction": 0.5245901639344263,
+            "ending_wealth_per_100": 91.87181038431922,
+            "simple_sum_return": -0.0746048850762826
+          },
+          "return_pass": true,
+          "drawdown_pass": true,
+          "qualified": true
+        },
+        {
+          "q": 0.5,
+          "threshold_decimal_return": 0.0010834538189795132,
+          "strategy": {
+            "days": 122,
+            "cumulative_return": 0.14528490015962103,
+            "annualized_return_252": 0.3233973246355841,
+            "max_drawdown": -0.09023550563632798,
+            "sharpe_252_rf0": 1.5811017131451228,
+            "daily_mean": 0.0011817531755980383,
+            "daily_std": 0.011864986247369678,
+            "positive_day_fraction": 0.5491803278688525,
+            "ending_wealth_per_100": 114.5284900159621,
+            "simple_sum_return": 0.14417388742296067
+          },
+          "benchmark": {
+            "days": 122,
+            "cumulative_return": -0.08128189615680781,
+            "annualized_return_252": -0.16063612890169354,
+            "max_drawdown": -0.21074368928358644,
+            "sharpe_252_rf0": -0.7523594969233338,
+            "daily_mean": -0.0006115154514449393,
+            "daily_std": 0.012902750459159054,
+            "positive_day_fraction": 0.5245901639344263,
+            "ending_wealth_per_100": 91.87181038431922,
+            "simple_sum_return": -0.0746048850762826
+          },
+          "return_pass": true,
+          "drawdown_pass": true,
+          "qualified": true
+        },
+        {
+          "q": 0.75,
+          "threshold_decimal_return": 0.0018444224495102733,
+          "strategy": {
+            "days": 122,
+            "cumulative_return": 0.1654395170764953,
+            "annualized_return_252": 0.37195372309851793,
+            "max_drawdown": -0.0822261924181854,
+            "sharpe_252_rf0": 1.7608081986808208,
+            "daily_mean": 0.001326027312714621,
+            "daily_std": 0.01195475522121231,
+            "positive_day_fraction": 0.5737704918032787,
+            "ending_wealth_per_100": 116.54395170764953,
+            "simple_sum_return": 0.16177533215118375
+          },
+          "benchmark": {
+            "days": 122,
+            "cumulative_return": -0.08128189615680781,
+            "annualized_return_252": -0.16063612890169354,
+            "max_drawdown": -0.21074368928358644,
+            "sharpe_252_rf0": -0.7523594969233338,
+            "daily_mean": -0.0006115154514449393,
+            "daily_std": 0.012902750459159054,
+            "positive_day_fraction": 0.5245901639344263,
+            "ending_wealth_per_100": 91.87181038431922,
+            "simple_sum_return": -0.0746048850762826
+          },
+          "return_pass": true,
+          "drawdown_pass": true,
+          "qualified": true
+        }
+      ],
+      "status": "selected",
+      "selected_q": 0.75,
+      "deployment_tau_decimal_return": 0.001857738320740469,
+      "outer_strategy": {
+        "days": 241,
+        "cumulative_return": 0.10050808668851219,
+        "annualized_return_252": 0.10532930582058997,
+        "max_drawdown": -0.21530454394320497,
+        "sharpe_252_rf0": 0.6367139000771568,
+        "daily_mean": 0.0004640098156650539,
+        "daily_std": 0.01156866132177,
+        "positive_day_fraction": 0.5643153526970954,
+        "ending_wealth_per_100": 110.05080866885122,
+        "simple_sum_return": 0.11182636557527799
+      },
+      "outer_benchmark": {
+        "days": 241,
+        "cumulative_return": 0.18622367083871216,
+        "annualized_return_252": 0.19550606281122573,
+        "max_drawdown": -0.09174191014892674,
+        "sharpe_252_rf0": 1.3645691689160797,
+        "daily_mean": 0.0007463880491092043,
+        "daily_std": 0.00868299183864266,
+        "positive_day_fraction": 0.5601659751037344,
+        "ending_wealth_per_100": 118.62236708387121,
+        "simple_sum_return": 0.17987951983531825
+      },
+      "outer_both_conditions_met": false,
+      "outer_neutral_days": 241,
+      "outer_days": 241
+    },
+    {
+      "validation_year": 2020,
+      "selection_asof": "2019-12-30",
+      "historical_rows": 485,
+      "calibration_rows": 242,
+      "scoring_rows": 243,
+      "calibration_signal_start": "2017-12-29",
+      "calibration_signal_end": "2018-12-21",
+      "scoring_entry_start": "2018-12-26",
+      "scoring_exit_end": "2019-12-30",
+      "candidates": [
+        {
+          "q": 0.25,
+          "threshold_decimal_return": 0.0006298696037152282,
+          "strategy": {
+            "days": 243,
+            "cumulative_return": 0.14694484694523835,
+            "annualized_return_252": 0.1527836641931073,
+            "max_drawdown": -0.19264476904726158,
+            "sharpe_252_rf0": 0.8115780253400654,
+            "daily_mean": 0.0006425138080228883,
+            "daily_std": 0.012567603090840405,
+            "positive_day_fraction": 0.5596707818930041,
+            "ending_wealth_per_100": 114.69448469452384,
+            "simple_sum_return": 0.15613085534956186
+          },
+          "benchmark": {
+            "days": 243,
+            "cumulative_return": 0.2240154477711569,
+            "annualized_return_252": 0.2332134863888442,
+            "max_drawdown": -0.09174191014892674,
+            "sharpe_252_rf0": 1.5350476835817857,
+            "daily_mean": 0.0008726609212852308,
+            "daily_std": 0.009024516181352435,
+            "positive_day_fraction": 0.5596707818930041,
+            "ending_wealth_per_100": 122.40154477711569,
+            "simple_sum_return": 0.21205660387231107
+          },
+          "return_pass": false,
+          "drawdown_pass": false,
+          "qualified": false
+        },
+        {
+          "q": 0.5,
+          "threshold_decimal_return": 0.0011999854311337188,
+          "strategy": {
+            "days": 243,
+            "cumulative_return": 0.07686097944000281,
+            "annualized_return_252": 0.07981843640417896,
+            "max_drawdown": -0.21294273016752263,
+            "sharpe_252_rf0": 0.5075309944383334,
+            "daily_mean": 0.0003721743488842858,
+            "daily_std": 0.01164083512883686,
+            "positive_day_fraction": 0.5637860082304527,
+            "ending_wealth_per_100": 107.68609794400028,
+            "simple_sum_return": 0.09043836677888145
+          },
+          "benchmark": {
+            "days": 243,
+            "cumulative_return": 0.2240154477711569,
+            "annualized_return_252": 0.2332134863888442,
+            "max_drawdown": -0.09174191014892674,
+            "sharpe_252_rf0": 1.5350476835817857,
+            "daily_mean": 0.0008726609212852308,
+            "daily_std": 0.009024516181352435,
+            "positive_day_fraction": 0.5596707818930041,
+            "ending_wealth_per_100": 122.40154477711569,
+            "simple_sum_return": 0.21205660387231107
+          },
+          "return_pass": false,
+          "drawdown_pass": false,
+          "qualified": false
+        },
+        {
+          "q": 0.75,
+          "threshold_decimal_return": 0.0018529646141138643,
+          "strategy": {
+            "days": 243,
+            "cumulative_return": 0.07362951815602581,
+            "annualized_return_252": 0.07645827480703837,
+            "max_drawdown": -0.21530454394320486,
+            "sharpe_252_rf0": 0.4907046926980179,
+            "daily_mean": 0.00035978229167523085,
+            "daily_std": 0.011639111882103384,
+            "positive_day_fraction": 0.5637860082304527,
+            "ending_wealth_per_100": 107.36295181560259,
+            "simple_sum_return": 0.0874270968770811
+          },
+          "benchmark": {
+            "days": 243,
+            "cumulative_return": 0.2240154477711569,
+            "annualized_return_252": 0.2332134863888442,
+            "max_drawdown": -0.09174191014892674,
+            "sharpe_252_rf0": 1.5350476835817857,
+            "daily_mean": 0.0008726609212852308,
+            "daily_std": 0.009024516181352435,
+            "positive_day_fraction": 0.5596707818930041,
+            "ending_wealth_per_100": 122.40154477711569,
+            "simple_sum_return": 0.21205660387231107
+          },
+          "return_pass": false,
+          "drawdown_pass": false,
+          "qualified": false
+        }
+      ],
+      "status": "no_qualified_candidate",
+      "selected_q": null,
+      "deployment_tau_decimal_return": null,
+      "outer_strategy": null,
+      "outer_benchmark": {
+        "days": 242,
+        "cumulative_return": 0.17468409634878013,
+        "annualized_return_252": 0.18252516122375062,
+        "max_drawdown": -0.3126903013721837,
+        "sharpe_252_rf0": 0.7755382418343585,
+        "daily_mean": 0.0007978170058147867,
+        "daily_std": 0.01633053233427734,
+        "positive_day_fraction": 0.5041322314049587,
+        "ending_wealth_per_100": 117.46840963487801,
+        "simple_sum_return": 0.19307171540717838
+      }
+    },
+    {
+      "validation_year": 2021,
+      "selection_asof": "2020-12-30",
+      "historical_rows": 727,
+      "calibration_rows": 363,
+      "scoring_rows": 364,
+      "calibration_signal_start": "2017-12-29",
+      "calibration_signal_end": "2019-06-28",
+      "scoring_entry_start": "2019-07-02",
+      "scoring_exit_end": "2020-12-30",
+      "candidates": [
+        {
+          "q": 0.25,
+          "threshold_decimal_return": 0.0004152113254687632,
+          "strategy": {
+            "days": 364,
+            "cumulative_return": 0.1370779495385981,
+            "annualized_return_252": 0.09300968629773343,
+            "max_drawdown": -0.2192341967839424,
+            "sharpe_252_rf0": 0.5823366053334553,
+            "daily_mean": 0.00041766646690106373,
+            "daily_std": 0.011385596498009328,
+            "positive_day_fraction": 0.5521978021978022,
+            "ending_wealth_per_100": 113.7077949538598,
+            "simple_sum_return": 0.1520305939519872
+          },
+          "benchmark": {
+            "days": 364,
+            "cumulative_return": 0.26155324908626953,
+            "annualized_return_252": 0.17451269060525587,
+            "max_drawdown": -0.31269030137218357,
+            "sharpe_252_rf0": 0.8304227506924061,
+            "daily_mean": 0.0007372221581328299,
+            "daily_std": 0.014092868889727337,
+            "positive_day_fraction": 0.532967032967033,
+            "ending_wealth_per_100": 126.15532490862695,
+            "simple_sum_return": 0.2683488655603501
+          },
+          "return_pass": false,
+          "drawdown_pass": true,
+          "qualified": false
+        },
+        {
+          "q": 0.5,
+          "threshold_decimal_return": 0.0007782303904453346,
+          "strategy": {
+            "days": 364,
+            "cumulative_return": 0.012954507267235682,
+            "annualized_return_252": 0.008950730975580301,
+            "max_drawdown": -0.253972442052009,
+            "sharpe_252_rf0": 0.138828469055775,
+            "daily_mean": 9.720305301212275e-05,
+            "daily_std": 0.011114799724960591,
+            "positive_day_fraction": 0.5521978021978022,
+            "ending_wealth_per_100": 101.29545072672357,
+            "simple_sum_return": 0.03538191129641268
+          },
+          "benchmark": {
+            "days": 364,
+            "cumulative_return": 0.26155324908626953,
+            "annualized_return_252": 0.17451269060525587,
+            "max_drawdown": -0.31269030137218357,
+            "sharpe_252_rf0": 0.8304227506924061,
+            "daily_mean": 0.0007372221581328299,
+            "daily_std": 0.014092868889727337,
+            "positive_day_fraction": 0.532967032967033,
+            "ending_wealth_per_100": 126.15532490862695,
+            "simple_sum_return": 0.2683488655603501
+          },
+          "return_pass": false,
+          "drawdown_pass": true,
+          "qualified": false
+        },
+        {
+          "q": 0.75,
+          "threshold_decimal_return": 0.0015986406395644172,
+          "strategy": {
+            "days": 364,
+            "cumulative_return": 0.05109840928177567,
+            "annualized_return_252": 0.03510373973206837,
+            "max_drawdown": -0.20363403146913117,
+            "sharpe_252_rf0": 0.28909785973372226,
+            "daily_mean": 0.0001932681306515447,
+            "daily_std": 0.0106124495808299,
+            "positive_day_fraction": 0.5521978021978022,
+            "ending_wealth_per_100": 105.10984092817756,
+            "simple_sum_return": 0.07034959955716227
+          },
+          "benchmark": {
+            "days": 364,
+            "cumulative_return": 0.26155324908626953,
+            "annualized_return_252": 0.17451269060525587,
+            "max_drawdown": -0.31269030137218357,
+            "sharpe_252_rf0": 0.8304227506924061,
+            "daily_mean": 0.0007372221581328299,
+            "daily_std": 0.014092868889727337,
+            "positive_day_fraction": 0.532967032967033,
+            "ending_wealth_per_100": 126.15532490862695,
+            "simple_sum_return": 0.2683488655603501
+          },
+          "return_pass": false,
+          "drawdown_pass": true,
+          "qualified": false
+        }
+      ],
+      "status": "no_qualified_candidate",
+      "selected_q": null,
+      "deployment_tau_decimal_return": null,
+      "outer_strategy": null,
+      "outer_benchmark": {
+        "days": 225,
+        "cumulative_return": 0.028291850065923496,
+        "annualized_return_252": 0.03174022033830948,
+        "max_drawdown": -0.11338218279984624,
+        "sharpe_252_rf0": 0.2608091533178439,
+        "daily_mean": 0.0001923387222181737,
+        "daily_std": 0.011706960894667455,
+        "positive_day_fraction": 0.5155555555555555,
+        "ending_wealth_per_100": 102.82918500659235,
+        "simple_sum_return": 0.043276212499089084
+      }
+    }
+  ],
+  "combined_selected_years": {
+    "years": [
+      2019
+    ],
+    "strategy": {
+      "days": 241,
+      "cumulative_return": 0.10050808668851219,
+      "annualized_return_252": 0.10532930582058997,
+      "max_drawdown": -0.21530454394320497,
+      "sharpe_252_rf0": 0.6367139000771568,
+      "daily_mean": 0.0004640098156650539,
+      "daily_std": 0.01156866132177,
+      "positive_day_fraction": 0.5643153526970954,
+      "ending_wealth_per_100": 110.05080866885122,
+      "simple_sum_return": 0.11182636557527799
+    },
+    "benchmark": {
+      "days": 241,
+      "cumulative_return": 0.18622367083871216,
+      "annualized_return_252": 0.19550606281122573,
+      "max_drawdown": -0.09174191014892674,
+      "sharpe_252_rf0": 1.3645691689160797,
+      "daily_mean": 0.0007463880491092043,
+      "daily_std": 0.00868299183864266,
+      "positive_day_fraction": 0.5601659751037344,
+      "ending_wealth_per_100": 118.62236708387121,
+      "simple_sum_return": 0.17987951983531825
+    },
+    "first_entry": "2019-01-04",
+    "last_exit": "2020-01-06"
+  },
+  "original_baseline_replay_max_daily_abs_error": 9.974659986866641e-17,
+  "all_checks_passed": true
+}

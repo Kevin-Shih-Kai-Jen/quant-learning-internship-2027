@@ -1,0 +1,97 @@
+{
+  "model_unchanged": true,
+  "model_diagnostics": [
+    {
+      "year": 2018,
+      "validation_mse": 0.0005914306969737529,
+      "zero_prediction_mse": 0.000586724555010138,
+      "mse_excess_over_zero_pct": 0.8021041429796094,
+      "mean_daily_rank_ic": 0.010313288053184147
+    },
+    {
+      "year": 2019,
+      "validation_mse": 0.0004539432747543331,
+      "zero_prediction_mse": 0.0004514299277920354,
+      "mse_excess_over_zero_pct": 0.5567524011069969,
+      "mean_daily_rank_ic": 0.005015584598373166
+    },
+    {
+      "year": 2020,
+      "validation_mse": 0.0008331435690479235,
+      "zero_prediction_mse": 0.0008329884482148115,
+      "mse_excess_over_zero_pct": 0.01862220699992978,
+      "mean_daily_rank_ic": -0.00879806486257189
+    },
+    {
+      "year": 2021,
+      "validation_mse": 0.0004837062257823822,
+      "zero_prediction_mse": 0.0004805587449718327,
+      "mse_excess_over_zero_pct": 0.6549627581397877,
+      "mean_daily_rank_ic": -0.0007736491699513681
+    }
+  ],
+  "max_requested_single_stock_weight": 0.35,
+  "worst_executed_trades": [
+    {
+      "SecuritiesCode": 2160,
+      "EntryDate": "2020-08-21",
+      "ExitDate": "2020-08-24",
+      "Prediction": -0.0024875724509233,
+      "Weight": -0.35,
+      "UnderlyingReturn": 0.2090447623442546,
+      "PnlContribution": -0.0731656668204891
+    },
+    {
+      "SecuritiesCode": 2929,
+      "EntryDate": "2020-01-08",
+      "ExitDate": "2020-01-09",
+      "Prediction": -0.0023638582959134,
+      "Weight": -0.35,
+      "UnderlyingReturn": 0.1776198934280639,
+      "PnlContribution": -0.0621669626998223
+    },
+    {
+      "SecuritiesCode": 3962,
+      "EntryDate": "2020-09-29",
+      "ExitDate": "2020-09-30",
+      "Prediction": 0.0020840571701822,
+      "Weight": 0.35,
+      "UnderlyingReturn": -0.162,
+      "PnlContribution": -0.0567
+    },
+    {
+      "SecuritiesCode": 6387,
+      "EntryDate": "2019-12-26",
+      "ExitDate": "2019-12-27",
+      "Prediction": -0.0043073643757719,
+      "Weight": -0.35,
+      "UnderlyingReturn": 0.1510505394662122,
+      "PnlContribution": -0.0528676888131742
+    },
+    {
+      "SecuritiesCode": 6580,
+      "EntryDate": "2019-09-25",
+      "ExitDate": "2019-09-26",
+      "Prediction": -0.0034039773865709,
+      "Weight": -0.25,
+      "UnderlyingReturn": 0.2017336485421592,
+      "PnlContribution": -0.0504334121355398
+    },
+    {
+      "SecuritiesCode": 8914,
+      "EntryDate": "2019-04-26",
+      "ExitDate": "2019-05-07",
+      "Prediction": -0.0062079950777736,
+      "Weight": -0.25,
+      "UnderlyingReturn": 0.1705150976909413,
+      "PnlContribution": -0.0426287744227353
+    }
+  ],
+  "suggested_experiments_not_run": [
+    "Keep model and regime fixed; diversify each initial side to 10 names with equal weights within side; compare costs and risk",
+    "Feature-group ablations on identical eligible samples",
+    "Training-only chronological tuning of a small Ridge penalty grid",
+    "Separately test daily-return volatility and average traded value features"
+  ],
+  "validation_note": "2018-2021 repeatedly inspected development validation; not a fresh holdout"
+}

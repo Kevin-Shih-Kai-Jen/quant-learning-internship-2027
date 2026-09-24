@@ -1,0 +1,26 @@
+{
+  "source_sha256": {
+    "JPX-experiment-defaults.json": "4195fa1c3d96235756a3ba07c64c597355856f569075e1d2330b69c1bd5eddd2",
+    "jpx_v8_soft_rank_20260912/inputs.pkl": "6b0ff60bfb8eab20ec7c6e087e746dd6e0ccc38b9633d1a11d98477d84857bc6",
+    "jpx_v14_filtered_forecast_events_20260914/financial_signal_features.pkl": "bf067c7cea6c1c7d14cd0bdbeda5ae995590f43fa1c04670e30b31036d5be03d",
+    "jpx_v17_actual_forecast_revisions_20260915/financial_signal_features.pkl": "5a6340b793d4e3e772b4e8f43cf12a17dd1452c1fa98fd9a091c4b1f4d686a1e",
+    "jpx_v26_profit_forecast_revision_20260916/run.py": "ed2f82d854bb6f14031ecb4b58ddb6d64d701ca8d7c3d09c7ed856594c0880ee",
+    "jpx_v26_profit_forecast_revision_20260916/experiment_plan.md": "5d5a0b1cc5940d38014497115620564ee71ffd7afbe270aa9e6b1a75cb841156",
+    "jpx_v23_g_thresholds_20260916/no_skip/results.json": "4b4dd937e3830ebd16097a69784f2977019c3cbeca5e015f49675fad64a868d9",
+    "jpx_v23_g_thresholds_20260916/no_skip/daily_metrics.csv": "d2101669f04f470acc9dc2b78f37b4fb32dd00e2e316946f97db84c7c972a410",
+    "jpx_v23_g_thresholds_20260916/no_skip/training_updates.csv": "de323dcd1f15f85ee5066da9ffb8e4189de70104cc94146e39a9fdcc32d8cfef",
+    "jpx_v25_single_features_unfiltered_20260916/v16_feature_09/results.json": "e2e55d72c3bcd8c942dc66a765a6bf207d7bdbb8841587386c8f59b14131965f",
+    "jpx_v25_single_features_unfiltered_20260916/v16_feature_09/daily_metrics.csv": "2ca5e877ba8beb5c012f519eef04cdb64a62c5ec2fda51e6bd7314009f291d92",
+    "jpx_v25_single_features_unfiltered_20260916/v16_feature_09/training_updates.csv": "244c0357a1ac92fd6028e0bc41288ccdcd8d282ef4f719379b7d7c0502cd6b6d",
+    "jpx_v25_single_features_unfiltered_20260916/v17_profit_revision_relative/results.json": "1ea3800b10f15e43a0e4811fbd2f6825f393babab19514883382693ae70a3956",
+    "jpx_v25_single_features_unfiltered_20260916/v17_profit_revision_relative/daily_metrics.csv": "01503522758abfb9e603f8c29bcdee274bfc7cdcd621bbf28ba7531e28b6bbc2",
+    "jpx_v25_single_features_unfiltered_20260916/v17_profit_revision_relative/training_updates.csv": "1458427c6eb7a7577841484d059ea730b5fd4479c1719f4efa61ab349f0d1110"
+  },
+  "training_threshold": null,
+  "validation_threshold": null,
+  "features": [
+    "OperatingProfitForecastYoY",
+    "OperatingProfitRevisionRelative"
+  ],
+  "feature_formulas_unchanged": true
+}

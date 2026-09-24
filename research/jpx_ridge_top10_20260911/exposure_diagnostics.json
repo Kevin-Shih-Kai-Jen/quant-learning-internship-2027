@@ -1,0 +1,74 @@
+[
+  {
+    "version": "ridge",
+    "year": 2018,
+    "mean_long": 0.9989795918367347,
+    "mean_short": 0.0010204081632653056,
+    "mean_abs_net": 0.9979591836734694,
+    "one_sided_days": 238,
+    "transferred_slots": 2443
+  },
+  {
+    "version": "ridge",
+    "year": 2019,
+    "mean_long": 0.024979253112033185,
+    "mean_short": 0.9750207468879669,
+    "mean_abs_net": 0.9500414937759335,
+    "one_sided_days": 168,
+    "transferred_slots": 2288
+  },
+  {
+    "version": "ridge",
+    "year": 2020,
+    "mean_long": 0.9693801652892561,
+    "mean_short": 0.026487603305785104,
+    "mean_abs_net": 0.9428925619834712,
+    "one_sided_days": 161,
+    "transferred_slots": 2299
+  },
+  {
+    "version": "ridge",
+    "year": 2021,
+    "mean_long": 0.9543482149675547,
+    "mean_short": 0.045429562810223055,
+    "mean_abs_net": 0.9089186521573316,
+    "one_sided_days": 81,
+    "transferred_slots": 2007
+  },
+  {
+    "version": "ols",
+    "year": 2018,
+    "mean_long": 0.8872653061224489,
+    "mean_short": 0.11273469387755101,
+    "mean_abs_net": 0.7745306122448979,
+    "one_sided_days": 41,
+    "transferred_slots": 1746
+  },
+  {
+    "version": "ols",
+    "year": 2019,
+    "mean_long": 0.4563456131985277,
+    "mean_short": 0.543363930369937,
+    "mean_abs_net": 0.18320440867788731,
+    "one_sided_days": 1,
+    "transferred_slots": 188
+  },
+  {
+    "version": "ols",
+    "year": 2020,
+    "mean_long": 0.5065073581917099,
+    "mean_short": 0.48907115420498426,
+    "mean_abs_net": 0.3860312453090395,
+    "one_sided_days": 6,
+    "transferred_slots": 273
+  },
+  {
+    "version": "ols",
+    "year": 2021,
+    "mean_long": 0.579187444909829,
+    "mean_short": 0.42059033286794867,
+    "mean_abs_net": 0.31911213357867924,
+    "one_sided_days": 0,
+    "transferred_slots": 0
+  }
+]

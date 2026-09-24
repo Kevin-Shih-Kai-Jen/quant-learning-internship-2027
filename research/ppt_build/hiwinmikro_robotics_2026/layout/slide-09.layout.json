@@ -1,0 +1,2248 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/pe0net",
+    "id": "pe0net",
+    "slide": 9,
+    "layoutId": "/ppt/slideLayouts/slideLayout6.xml",
+    "layoutName": "Title Only",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "Color Block Theme",
+    "colors": {
+      "accent1": "#2ED978",
+      "accent2": "#9FB6FE",
+      "accent3": "#F3F161",
+      "accent4": "#FF5F27",
+      "accent5": "#5EC4FF",
+      "accent6": "#3C7DA3",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#393939",
+      "lt2": "#F5F5F5",
+      "hlink": "#FFA83A",
+      "folHlink": "#96607D"
+    },
+    "fontScheme": {
+      "name": "Inter",
+      "majorFont": {
+        "latinTypeface": "Inter"
+      },
+      "minorFont": {
+        "latinTypeface": "Inter"
+      }
+    },
+    "typefaces": [
+      "Heiti TC",
+      "Helvetica Neue Medium",
+      "Inter",
+      "Inter Medium"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout6.xml",
+      "name": "Title Only",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout6.xml/8",
+          "id": "8",
+          "name": "Footer Placeholder 4",
+          "bbox": [
+            41.33,
+            659.31,
+            374.67,
+            25.33
+          ],
+          "geometry": "rect",
+          "resolvedTextStyle": {
+            "anchor": 3,
+            "vertical": 1,
+            "verticalAlignment": "bottom",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          }
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout6.xml/9",
+          "id": "9",
+          "name": "Slide Number Placeholder 5",
+          "bbox": [
+            1184.18,
+            659.24,
+            54.48,
+            25.33
+          ],
+          "geometry": "rect",
+          "text": "‹#›",
+          "textPreview": "‹#›",
+          "resolvedTextStyle": {
+            "anchor": 3,
+            "vertical": 1,
+            "verticalAlignment": "bottom",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "‹#›",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "‹#›"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout6.xml/2",
+          "id": "2",
+          "name": "Title Placeholder 1",
+          "bbox": [
+            41.33,
+            36.12,
+            1197.33,
+            109.97
+          ],
+          "geometry": "rect",
+          "text": "Click to edit Master title style",
+          "textPreview": "Click to edit Master title style",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "vertical": 1,
+            "verticalAlignment": "top",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Click to edit Master title style",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Click to edit Master title style"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "type": "master",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/2",
+          "id": "2",
+          "name": "Title Placeholder 1",
+          "bbox": [
+            41.33,
+            36.12,
+            1197.33,
+            109.97
+          ],
+          "geometry": "rect",
+          "text": "Click to edit Master title style",
+          "textPreview": "Click to edit Master title style",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "vertical": 1,
+            "verticalAlignment": "top",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Click to edit Master title style",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Click to edit Master title style"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/3",
+          "id": "3",
+          "name": "Text Placeholder 2",
+          "bbox": [
+            41.33,
+            213.33,
+            1197.33,
+            416
+          ],
+          "geometry": "rect",
+          "text": "Click to edit Master text styles\nSecond level\nThird level\nFourth level\nFifth level",
+          "textPreview": "Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level",
+          "resolvedTextStyle": {
+            "vertical": 1,
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Click to edit Master text styles",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Click to edit Master text styles"
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "text": "Second level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Second level"
+                }
+              ]
+            },
+            {
+              "index": 3,
+              "text": "Third level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Third level"
+                }
+              ]
+            },
+            {
+              "index": 4,
+              "text": "Fourth level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Fourth level"
+                }
+              ]
+            },
+            {
+              "index": 5,
+              "text": "Fifth level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Fifth level"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/5",
+          "id": "5",
+          "name": "Footer Placeholder 4",
+          "bbox": [
+            41.33,
+            659.31,
+            374.67,
+            25.33
+          ],
+          "geometry": "rect",
+          "resolvedTextStyle": {
+            "anchor": 3,
+            "vertical": 1,
+            "verticalAlignment": "bottom",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          }
+        },
+        {
+          "order": 4,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/6",
+          "id": "6",
+          "name": "Slide Number Placeholder 5",
+          "bbox": [
+            1184.18,
+            659.24,
+            54.48,
+            25.33
+          ],
+          "geometry": "rect",
+          "text": "‹#›",
+          "textPreview": "‹#›",
+          "resolvedTextStyle": {
+            "anchor": 3,
+            "vertical": 1,
+            "verticalAlignment": "bottom",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "‹#›",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "‹#›"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xsn6dkra",
+      "id": "532",
+      "name": "Google Shape;532;p58",
+      "bbox": [
+        1184.18,
+        659.24,
+        54.48,
+        25.33
+      ],
+      "geometry": "rect",
+      "text": "9",
+      "textPreview": "9",
+      "resolvedFontSize": 14.67,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "vertical": 1,
+        "fontSize": 14.67,
+        "typeface": "Inter",
+        "color": "tx1",
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "useParagraphSpacing": true
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "9"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "9",
+          "runs": [
+            {
+              "index": 1,
+              "text": "9"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wre5kzq5",
+      "id": "533",
+      "name": "Google Shape;533;p58",
+      "bbox": [
+        41.33,
+        36.12,
+        822.67,
+        61.06
+      ],
+      "geometry": "rect",
+      "text": "產品放回機器人：每一項解決不同問題",
+      "textPreview": "產品放回機器人：每一項解決不同問題",
+      "resolvedFontSize": 38.67,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "vertical": 1,
+        "fontSize": 38.67,
+        "typeface": "Inter Medium",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "useParagraphSpacing": true
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "產品放回機器人：每一項解決不同問題"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "產品放回機器人：每一項解決不同問題",
+          "runs": [
+            {
+              "index": 1,
+              "text": "產品放回機器人：每一項解決不同問題"
+            }
+          ],
+          "bulletCharacter": "",
+          "lineSpacingPercent": 90000
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8raxkfq1",
+      "id": "14",
+      "name": "Content Placeholder 15",
+      "bbox": [
+        42.09,
+        111.02,
+        1197.33,
+        106.27
+      ],
+      "geometry": "rect",
+      "text": "讀法：先問是旋轉關節、直線推力、功率控制，還是位置回授；再看大銀是否已有相近產品。",
+      "textPreview": "讀法：先問是旋轉關節、直線推力、功率控制，還是位置回授；再看大銀是否已有相近產品。",
+      "resolvedFontSize": 21.33,
+      "resolvedTextStyle": {
+        "vertical": 1,
+        "fontSize": 21.33,
+        "typeface": "Inter",
+        "color": "tx1",
+        "alignment": "left",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "讀法：先問是旋轉關節、直線推力、功率控制，還是位置回授；再看大銀是否已有相近產品。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "讀法：先問是旋轉關節、直線推力、功率控制，還是位置回授；再看大銀是否已有相近產品。",
+          "lineSpacingPercent": 114000,
+          "runs": [
+            {
+              "index": 1,
+              "text": "讀法：先問是旋轉關節、直線推力、功率控制，還是位置回授；再看大銀是否已有相近產品。",
+              "fontSize": 24,
+              "typeface": "Helvetica Neue Medium",
+              "color": "#000000"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0,
+          "indent": 0
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "kind": "table",
+      "scope": "slide",
+      "aid": "tb/eh47610n",
+      "id": "534",
+      "name": "Google Shape;644;p93",
+      "bbox": [
+        41.33,
+        236.33,
+        1197.33,
+        412.87
+      ],
+      "text": "產品 | 外行人理解 | 裝在哪裡 | 目前應用 | 人形機器人可能位置\n伺服馬達 | 精準旋轉肌肉 | 旋轉軸／關節 | 搬送、組裝、自動化 | 肩、肘、腕、小型關節\n力矩馬達 | 低速大扭力肌肉 | 轉台／直驅關節 | 工具機、旋轉平台 | 髖、肩等高扭力關節\n驅動器 | 精準送電流 | 控制箱／關節旁 | 多軸設備、機器人 | 每個關節的功率控制\n控制器 | 協調多軸動作 | 機器人大腦下層 | 運動平台、產線 | 步態、雙臂與全身協同\n位置回授 | 告訴系統在哪 | 馬達或軸旁 | 檢測、加工、搬運 | 關節角度與安全監控\n線性馬達 | 直接直線推 | 高速移動軸 | AOI、半導體、PCB | 通常不是主流腿部方案\n直線致動模組 | 把旋轉變推拉 | 腿、手臂或升降軸 | 單軸自動化 | 膝、踝或高推力關節\n直線旋轉模組 | 一邊伸縮一邊旋轉 | 取放軸／末端 | 取放、點膠、組裝 | 末端工具或特殊關節",
+      "textPreview": "產品 | 外行人理解 | 裝在哪裡 | 目前應用 | 人形機器人可能位置 | 伺服馬達 | 精準旋轉肌肉 | 旋轉軸／關節 | 搬送、組裝、自動化 | 肩、肘、腕、小型關節 | 力矩馬達 | 低速大扭力肌肉 | 轉台／直驅關節 | 工具機、旋轉平台 | 髖、肩等高扭力關節 ...",
+      "rows": 9,
+      "cols": 5,
+      "cells": [
+        {
+          "index": 1,
+          "row": 1,
+          "column": 1,
+          "bbox": [
+            41.33,
+            236.33,
+            410.09,
+            45.88
+          ],
+          "text": "產品",
+          "textPreview": "產品",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "產品",
+              "lineSpacingPercent": 110000,
+              "resolvedTextStyle": {
+                "fontSize": 12,
+                "typeface": "Heiti TC",
+                "color": "#0077B6",
+                "bold": true,
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "產品",
+                  "fontSize": 12,
+                  "typeface": "Heiti TC",
+                  "color": "#0077B6",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "row": 1,
+          "column": 2,
+          "bbox": [
+            451.42,
+            236.33,
+            196.81,
+            45.88
+          ],
+          "text": "外行人理解",
+          "textPreview": "外行人理解",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "外行人理解",
+              "lineSpacingPercent": 110000,
+              "resolvedTextStyle": {
+                "fontSize": 12,
+                "typeface": "Heiti TC",
+                "color": "#0077B6",
+                "bold": true,
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "外行人理解",
+                  "fontSize": 12,
+                  "typeface": "Heiti TC",
+                  "color": "#0077B6",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "row": 1,
+          "column": 3,
+          "bbox": [
+            648.23,
+            236.33,
+            196.81,
+            45.88
+          ],
+          "text": "裝在哪裡",
+          "textPreview": "裝在哪裡",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "裝在哪裡",
+              "lineSpacingPercent": 110000,
+              "resolvedTextStyle": {
+                "fontSize": 12,
+                "typeface": "Heiti TC",
+                "color": "#0077B6",
+                "bold": true,
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "裝在哪裡",
+                  "fontSize": 12,
+                  "typeface": "Heiti TC",
+                  "color": "#0077B6",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "row": 1,
+          "column": 4,
+          "bbox": [
+            845.04,
+            236.33,
+            196.81,
+            45.88
+          ],
+          "text": "目前應用",
+          "textPreview": "目前應用",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "目前應用",
+              "lineSpacingPercent": 110000,
+              "resolvedTextStyle": {
+                "fontSize": 12,
+                "typeface": "Heiti TC",
+                "color": "#0077B6",
+                "bold": true,
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "目前應用",
+                  "fontSize": 12,
+                  "typeface": "Heiti TC",
+                  "color": "#0077B6",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "row": 1,
+          "column": 5,
+          "bbox": [
+            1041.85,
+            236.33,
+            196.81,
+            45.88
+          ],
+          "text": "人形機器人可能位置",
+          "textPreview": "人形機器人可能位置",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "人形機器人可能位置",
+              "lineSpacingPercent": 110000,
+              "resolvedTextStyle": {
+                "fontSize": 12,
+                "typeface": "Heiti TC",
+                "color": "#0077B6",
+                "bold": true,
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "人形機器人可能位置",
+                  "fontSize": 12,
+                  "typeface": "Heiti TC",
+                  "color": "#0077B6",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "row": 2,
+          "column": 1,
+          "bbox": [
+            41.33,
+            282.22,
+            410.09,
+            45.87
+          ],
+          "text": "伺服馬達",
+          "textPreview": "伺服馬達",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "伺服馬達",
+              "lineSpacingPercent": 110000,
+              "resolvedTextStyle": {
+                "fontSize": 10.09,
+                "typeface": "Heiti TC",
+                "color": "#111827",
+                "bold": true,
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "伺服馬達",
+                  "fontSize": 10.09,
+                  "typeface": "Heiti TC",
+                  "color": "#111827",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "row": 2,
+          "column": 2,
+          "bbox": [
+            451.42,
+            282.22,
+            196.81,
+            45.87
+          ],
+          "text": "精準旋轉肌肉",
+          "textPreview": "精準旋轉肌肉",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "精準旋轉肌肉",
+              "lineSpacingPercent": 110000,
+              "resolvedTextStyle": {
+                "fontSize": 10.09,
+                "typeface": "Heiti TC",
+                "color": "#111827",
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "精準旋轉肌肉",
+                  "fontSize": 10.09,
+                  "typeface": "Heiti TC",
+                  "color": "#111827"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "row": 2,
+          "column": 3,
+          "bbox": [
+            648.23,
+            282.22,
+            196.81,
+            45.87
+          ],
+          "text": "旋轉軸／關節",
+          "textPreview": "旋轉軸／關節",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "旋轉軸／關節",
+              "lineSpacingPercent": 110000,
+              "resolvedTextStyle": {
+                "fontSize": 10.09,
+                "typeface": "Heiti TC",
+                "color": "#111827",
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "旋轉軸／關節",
+                  "fontSize": 10.09,
+                  "typeface": "Heiti TC",
+                  "color": "#111827"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "row": 2,
+          "column": 4,
+          "bbox": [
+            845.04,
+            282.22,
+            196.81,
+            45.87
+          ],
+          "text": "搬送、組裝、自動化",
+          "textPreview": "搬送、組裝、自動化",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "搬送、組裝、自動化",
+              "lineSpacingPercent": 110000,
+              "resolvedTextStyle": {
+                "fontSize": 10.09,
+                "typeface": "Heiti TC",
+                "color": "#111827",
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "搬送、組裝、自動化",
+                  "fontSize": 10.09,
+                  "typeface": "Heiti TC",
+                  "color": "#111827"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "row": 2,
+          "column": 5,
+          "bbox": [
+            1041.85,
+            282.22,
+            196.81,
+            45.87
+          ],
+          "text": "肩、肘、腕、小型關節",
+          "textPreview": "肩、肘、腕、小型關節",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "肩、肘、腕、小型關節",
+              "lineSpacingPercent": 110000,
+              "resolvedTextStyle": {
+                "fontSize": 10.09,
+                "typeface": "Heiti TC",
+                "color": "#111827",
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "肩、肘、腕、小型關節",
+                  "fontSize": 10.09,
+                  "typeface": "Heiti TC",
+                  "color": "#111827"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "row": 3,
+          "column": 1,
+          "bbox": [
+            41.33,
+            328.09,
+            410.09,
+            45.87
+          ],
+          "text": "力矩馬達",
+          "textPreview": "力矩馬達",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "力矩馬達",
+              "lineSpacingPercent": 110000,
+              "resolvedTextStyle": {
+                "fontSize": 10.09,
+                "typeface": "Heiti TC",
+                "color": "#111827",
+                "bold": true,
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "力矩馬達",
+                  "fontSize": 10.09,
+                  "typeface": "Heiti TC",
+                  "color": "#111827",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "row": 3,
+          "column": 2,
+          "bbox": [
+            451.42,
+            328.09,
+            196.81,
+            45.87
+          ],
+          "text": "低速大扭力肌肉",
+          "textPreview": "低速大扭力肌肉",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "低速大扭力肌肉",
+              "lineSpacingPercent": 110000,
+              "resolvedTextStyle": {
+                "fontSize": 10.09,
+                "typeface": "Heiti TC",
+                "color": "#111827",
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "低速大扭力肌肉",
+                  "fontSize": 10.09,
+                  "typeface": "Heiti TC",
+                  "color": "#111827"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "row": 3,
+          "column": 3,
+          "bbox": [
+            648.23,
+            328.09,
+            196.81,
+            45.87
+          ],
+          "text": "轉台／直驅關節",
+          "textPreview": "轉台／直驅關節",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "轉台／直驅關節",
+              "lineSpacingPercent": 110000,
+              "resolvedTextStyle": {
+                "fontSize": 10.09,
+                "typeface": "Heiti TC",
+                "color": "#111827",
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "轉台／直驅關節",
+                  "fontSize": 10.09,
+                  "typeface": "Heiti TC",
+                  "color": "#111827"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "row": 3,
+          "column": 4,
+          "bbox": [
+            845.04,
+            328.09,
+            196.81,
+            45.87
+          ],
+          "text": "工具機、旋轉平台",
+          "textPreview": "工具機、旋轉平台",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "工具機、旋轉平台",
+              "lineSpacingPercent": 110000,
+              "resolvedTextStyle": {
+                "fontSize": 10.09,
+                "typeface": "Heiti TC",
+                "color": "#111827",
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "工具機、旋轉平台",
+                  "fontSize": 10.09,
+                  "typeface": "Heiti TC",
+                  "color": "#111827"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "row": 3,
+          "column": 5,
+          "bbox": [
+            1041.85,
+            328.09,
+            196.81,
+            45.87
+          ],
+          "text": "髖、肩等高扭力關節",
+          "textPreview": "髖、肩等高扭力關節",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "髖、肩等高扭力關節",
+              "lineSpacingPercent": 110000,
+              "resolvedTextStyle": {
+                "fontSize": 10.09,
+                "typeface": "Heiti TC",
+                "color": "#111827",
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "髖、肩等高扭力關節",
+                  "fontSize": 10.09,
+                  "typeface": "Heiti TC",
+                  "color": "#111827"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "row": 4,
+          "column": 1,
+          "bbox": [
+            41.33,
+            373.96,
+            410.09,
+            45.87
+          ],
+          "text": "驅動器",
+          "textPreview": "驅動器",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "驅動器",
+              "lineSpacingPercent": 110000,
+              "resolvedTextStyle": {
+                "fontSize": 10.09,
+                "typeface": "Heiti TC",
+                "color": "#111827",
+                "bold": true,
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "驅動器",
+                  "fontSize": 10.09,
+                  "typeface": "Heiti TC",
+                  "color": "#111827",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "row": 4,
+          "column": 2,
+          "bbox": [
+            451.42,
+            373.96,
+            196.81,
+            45.87
+          ],
+          "text": "精準送電流",
+          "textPreview": "精準送電流",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "精準送電流",
+              "lineSpacingPercent": 110000,
+              "resolvedTextStyle": {
+                "fontSize": 10.09,
+                "typeface": "Heiti TC",
+                "color": "#111827",
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "精準送電流",
+                  "fontSize": 10.09,
+                  "typeface": "Heiti TC",
+                  "color": "#111827"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "row": 4,
+          "column": 3,
+          "bbox": [
+            648.23,
+            373.96,
+            196.81,
+            45.87
+          ],
+          "text": "控制箱／關節旁",
+          "textPreview": "控制箱／關節旁",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "控制箱／關節旁",
+              "lineSpacingPercent": 110000,
+              "resolvedTextStyle": {
+                "fontSize": 10.09,
+                "typeface": "Heiti TC",
+                "color": "#111827",
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "控制箱／關節旁",
+                  "fontSize": 10.09,
+                  "typeface": "Heiti TC",
+                  "color": "#111827"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "row": 4,
+          "column": 4,
+          "bbox": [
+            845.04,
+            373.96,
+            196.81,
+            45.87
+          ],
+          "text": "多軸設備、機器人",
+          "textPreview": "多軸設備、機器人",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "多軸設備、機器人",
+              "lineSpacingPercent": 110000,
+              "resolvedTextStyle": {
+                "fontSize": 10.09,
+                "typeface": "Heiti TC",
+                "color": "#111827",
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "多軸設備、機器人",
+                  "fontSize": 10.09,
+                  "typeface": "Heiti TC",
+                  "color": "#111827"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "row": 4,
+          "column": 5,
+          "bbox": [
+            1041.85,
+            373.96,
+            196.81,
+            45.87
+          ],
+          "text": "每個關節的功率控制",
+          "textPreview": "每個關節的功率控制",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "每個關節的功率控制",
+              "lineSpacingPercent": 110000,
+              "resolvedTextStyle": {
+                "fontSize": 10.09,
+                "typeface": "Heiti TC",
+                "color": "#111827",
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "每個關節的功率控制",
+                  "fontSize": 10.09,
+                  "typeface": "Heiti TC",
+                  "color": "#111827"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "row": 5,
+          "column": 1,
+          "bbox": [
+            41.33,
+            419.84,
+            410.09,
+            45.87
+          ],
+          "text": "控制器",
+          "textPreview": "控制器",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "控制器",
+              "lineSpacingPercent": 110000,
+              "resolvedTextStyle": {
+                "fontSize": 10.09,
+                "typeface": "Heiti TC",
+                "color": "#111827",
+                "bold": true,
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "控制器",
+                  "fontSize": 10.09,
+                  "typeface": "Heiti TC",
+                  "color": "#111827",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "row": 5,
+          "column": 2,
+          "bbox": [
+            451.42,
+            419.84,
+            196.81,
+            45.87
+          ],
+          "text": "協調多軸動作",
+          "textPreview": "協調多軸動作",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "協調多軸動作",
+              "lineSpacingPercent": 110000,
+              "resolvedTextStyle": {
+                "fontSize": 10.09,
+                "typeface": "Heiti TC",
+                "color": "#111827",
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "協調多軸動作",
+                  "fontSize": 10.09,
+                  "typeface": "Heiti TC",
+                  "color": "#111827"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "row": 5,
+          "column": 3,
+          "bbox": [
+            648.23,
+            419.84,
+            196.81,
+            45.87
+          ],
+          "text": "機器人大腦下層",
+          "textPreview": "機器人大腦下層",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "機器人大腦下層",
+              "lineSpacingPercent": 110000,
+              "resolvedTextStyle": {
+                "fontSize": 10.09,
+                "typeface": "Heiti TC",
+                "color": "#111827",
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "機器人大腦下層",
+                  "fontSize": 10.09,
+                  "typeface": "Heiti TC",
+                  "color": "#111827"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "row": 5,
+          "column": 4,
+          "bbox": [
+            845.04,
+            419.84,
+            196.81,
+            45.87
+          ],
+          "text": "運動平台、產線",
+          "textPreview": "運動平台、產線",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "運動平台、產線",
+              "lineSpacingPercent": 110000,
+              "resolvedTextStyle": {
+                "fontSize": 10.09,
+                "typeface": "Heiti TC",
+                "color": "#111827",
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "運動平台、產線",
+                  "fontSize": 10.09,
+                  "typeface": "Heiti TC",
+                  "color": "#111827"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "row": 5,
+          "column": 5,
+          "bbox": [
+            1041.85,
+            419.84,
+            196.81,
+            45.87
+          ],
+          "text": "步態、雙臂與全身協同",
+          "textPreview": "步態、雙臂與全身協同",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "步態、雙臂與全身協同",
+              "lineSpacingPercent": 110000,
+              "resolvedTextStyle": {
+                "fontSize": 10.09,
+                "typeface": "Heiti TC",
+                "color": "#111827",
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "步態、雙臂與全身協同",
+                  "fontSize": 10.09,
+                  "typeface": "Heiti TC",
+                  "color": "#111827"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "row": 6,
+          "column": 1,
+          "bbox": [
+            41.33,
+            465.71,
+            410.09,
+            45.87
+          ],
+          "text": "位置回授",
+          "textPreview": "位置回授",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "位置回授",
+              "lineSpacingPercent": 110000,
+              "resolvedTextStyle": {
+                "fontSize": 10.09,
+                "typeface": "Heiti TC",
+                "color": "#111827",
+                "bold": true,
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "位置回授",
+                  "fontSize": 10.09,
+                  "typeface": "Heiti TC",
+                  "color": "#111827",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 27,
+          "row": 6,
+          "column": 2,
+          "bbox": [
+            451.42,
+            465.71,
+            196.81,
+            45.87
+          ],
+          "text": "告訴系統在哪",
+          "textPreview": "告訴系統在哪",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "告訴系統在哪",
+              "lineSpacingPercent": 110000,
+              "resolvedTextStyle": {
+                "fontSize": 10.09,
+                "typeface": "Heiti TC",
+                "color": "#111827",
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "告訴系統在哪",
+                  "fontSize": 10.09,
+                  "typeface": "Heiti TC",
+                  "color": "#111827"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 28,
+          "row": 6,
+          "column": 3,
+          "bbox": [
+            648.23,
+            465.71,
+            196.81,
+            45.87
+          ],
+          "text": "馬達或軸旁",
+          "textPreview": "馬達或軸旁",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "馬達或軸旁",
+              "lineSpacingPercent": 110000,
+              "resolvedTextStyle": {
+                "fontSize": 10.09,
+                "typeface": "Heiti TC",
+                "color": "#111827",
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "馬達或軸旁",
+                  "fontSize": 10.09,
+                  "typeface": "Heiti TC",
+                  "color": "#111827"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 29,
+          "row": 6,
+          "column": 4,
+          "bbox": [
+            845.04,
+            465.71,
+            196.81,
+            45.87
+          ],
+          "text": "檢測、加工、搬運",
+          "textPreview": "檢測、加工、搬運",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "檢測、加工、搬運",
+              "lineSpacingPercent": 110000,
+              "resolvedTextStyle": {
+                "fontSize": 10.09,
+                "typeface": "Heiti TC",
+                "color": "#111827",
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "檢測、加工、搬運",
+                  "fontSize": 10.09,
+                  "typeface": "Heiti TC",
+                  "color": "#111827"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 30,
+          "row": 6,
+          "column": 5,
+          "bbox": [
+            1041.85,
+            465.71,
+            196.81,
+            45.87
+          ],
+          "text": "關節角度與安全監控",
+          "textPreview": "關節角度與安全監控",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "關節角度與安全監控",
+              "lineSpacingPercent": 110000,
+              "resolvedTextStyle": {
+                "fontSize": 10.09,
+                "typeface": "Heiti TC",
+                "color": "#111827",
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "關節角度與安全監控",
+                  "fontSize": 10.09,
+                  "typeface": "Heiti TC",
+                  "color": "#111827"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 31,
+          "row": 7,
+          "column": 1,
+          "bbox": [
+            41.33,
+            511.58,
+            410.09,
+            45.87
+          ],
+          "text": "線性馬達",
+          "textPreview": "線性馬達",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "線性馬達",
+              "lineSpacingPercent": 110000,
+              "resolvedTextStyle": {
+                "fontSize": 10.09,
+                "typeface": "Heiti TC",
+                "color": "#111827",
+                "bold": true,
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "線性馬達",
+                  "fontSize": 10.09,
+                  "typeface": "Heiti TC",
+                  "color": "#111827",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 32,
+          "row": 7,
+          "column": 2,
+          "bbox": [
+            451.42,
+            511.58,
+            196.81,
+            45.87
+          ],
+          "text": "直接直線推",
+          "textPreview": "直接直線推",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "直接直線推",
+              "lineSpacingPercent": 110000,
+              "resolvedTextStyle": {
+                "fontSize": 10.09,
+                "typeface": "Heiti TC",
+                "color": "#111827",
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "直接直線推",
+                  "fontSize": 10.09,
+                  "typeface": "Heiti TC",
+                  "color": "#111827"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 33,
+          "row": 7,
+          "column": 3,
+          "bbox": [
+            648.23,
+            511.58,
+            196.81,
+            45.87
+          ],
+          "text": "高速移動軸",
+          "textPreview": "高速移動軸",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "高速移動軸",
+              "lineSpacingPercent": 110000,
+              "resolvedTextStyle": {
+                "fontSize": 10.09,
+                "typeface": "Heiti TC",
+                "color": "#111827",
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "高速移動軸",
+                  "fontSize": 10.09,
+                  "typeface": "Heiti TC",
+                  "color": "#111827"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 34,
+          "row": 7,
+          "column": 4,
+          "bbox": [
+            845.04,
+            511.58,
+            196.81,
+            45.87
+          ],
+          "text": "AOI、半導體、PCB",
+          "textPreview": "AOI、半導體、PCB",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "AOI、半導體、PCB",
+              "lineSpacingPercent": 110000,
+              "resolvedTextStyle": {
+                "fontSize": 10.09,
+                "typeface": "Heiti TC",
+                "color": "#111827",
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "AOI、半導體、PCB",
+                  "fontSize": 10.09,
+                  "typeface": "Heiti TC",
+                  "color": "#111827"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 35,
+          "row": 7,
+          "column": 5,
+          "bbox": [
+            1041.85,
+            511.58,
+            196.81,
+            45.87
+          ],
+          "text": "通常不是主流腿部方案",
+          "textPreview": "通常不是主流腿部方案",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "通常不是主流腿部方案",
+              "lineSpacingPercent": 110000,
+              "resolvedTextStyle": {
+                "fontSize": 10.09,
+                "typeface": "Heiti TC",
+                "color": "#111827",
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "通常不是主流腿部方案",
+                  "fontSize": 10.09,
+                  "typeface": "Heiti TC",
+                  "color": "#111827"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 36,
+          "row": 8,
+          "column": 1,
+          "bbox": [
+            41.33,
+            557.46,
+            410.09,
+            45.87
+          ],
+          "text": "直線致動模組",
+          "textPreview": "直線致動模組",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "直線致動模組",
+              "lineSpacingPercent": 110000,
+              "resolvedTextStyle": {
+                "fontSize": 10.09,
+                "typeface": "Heiti TC",
+                "color": "#111827",
+                "bold": true,
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "直線致動模組",
+                  "fontSize": 10.09,
+                  "typeface": "Heiti TC",
+                  "color": "#111827",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 37,
+          "row": 8,
+          "column": 2,
+          "bbox": [
+            451.42,
+            557.46,
+            196.81,
+            45.87
+          ],
+          "text": "把旋轉變推拉",
+          "textPreview": "把旋轉變推拉",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "把旋轉變推拉",
+              "lineSpacingPercent": 110000,
+              "resolvedTextStyle": {
+                "fontSize": 10.09,
+                "typeface": "Heiti TC",
+                "color": "#111827",
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "把旋轉變推拉",
+                  "fontSize": 10.09,
+                  "typeface": "Heiti TC",
+                  "color": "#111827"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 38,
+          "row": 8,
+          "column": 3,
+          "bbox": [
+            648.23,
+            557.46,
+            196.81,
+            45.87
+          ],
+          "text": "腿、手臂或升降軸",
+          "textPreview": "腿、手臂或升降軸",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "腿、手臂或升降軸",
+              "lineSpacingPercent": 110000,
+              "resolvedTextStyle": {
+                "fontSize": 10.09,
+                "typeface": "Heiti TC",
+                "color": "#111827",
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "腿、手臂或升降軸",
+                  "fontSize": 10.09,
+                  "typeface": "Heiti TC",
+                  "color": "#111827"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 39,
+          "row": 8,
+          "column": 4,
+          "bbox": [
+            845.04,
+            557.46,
+            196.81,
+            45.87
+          ],
+          "text": "單軸自動化",
+          "textPreview": "單軸自動化",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "單軸自動化",
+              "lineSpacingPercent": 110000,
+              "resolvedTextStyle": {
+                "fontSize": 10.09,
+                "typeface": "Heiti TC",
+                "color": "#111827",
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "單軸自動化",
+                  "fontSize": 10.09,
+                  "typeface": "Heiti TC",
+                  "color": "#111827"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 40,
+          "row": 8,
+          "column": 5,
+          "bbox": [
+            1041.85,
+            557.46,
+            196.81,
+            45.87
+          ],
+          "text": "膝、踝或高推力關節",
+          "textPreview": "膝、踝或高推力關節",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "膝、踝或高推力關節",
+              "lineSpacingPercent": 110000,
+              "resolvedTextStyle": {
+                "fontSize": 10.09,
+                "typeface": "Heiti TC",
+                "color": "#111827",
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "膝、踝或高推力關節",
+                  "fontSize": 10.09,
+                  "typeface": "Heiti TC",
+                  "color": "#111827"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 41,
+          "row": 9,
+          "column": 1,
+          "bbox": [
+            41.33,
+            603.33,
+            410.09,
+            45.87
+          ],
+          "text": "直線旋轉模組",
+          "textPreview": "直線旋轉模組",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "直線旋轉模組",
+              "lineSpacingPercent": 110000,
+              "resolvedTextStyle": {
+                "fontSize": 10.09,
+                "typeface": "Heiti TC",
+                "color": "#111827",
+                "bold": true,
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "直線旋轉模組",
+                  "fontSize": 10.09,
+                  "typeface": "Heiti TC",
+                  "color": "#111827",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 42,
+          "row": 9,
+          "column": 2,
+          "bbox": [
+            451.42,
+            603.33,
+            196.81,
+            45.87
+          ],
+          "text": "一邊伸縮一邊旋轉",
+          "textPreview": "一邊伸縮一邊旋轉",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "一邊伸縮一邊旋轉",
+              "lineSpacingPercent": 110000,
+              "resolvedTextStyle": {
+                "fontSize": 10.09,
+                "typeface": "Heiti TC",
+                "color": "#111827",
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "一邊伸縮一邊旋轉",
+                  "fontSize": 10.09,
+                  "typeface": "Heiti TC",
+                  "color": "#111827"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 43,
+          "row": 9,
+          "column": 3,
+          "bbox": [
+            648.23,
+            603.33,
+            196.81,
+            45.87
+          ],
+          "text": "取放軸／末端",
+          "textPreview": "取放軸／末端",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "取放軸／末端",
+              "lineSpacingPercent": 110000,
+              "resolvedTextStyle": {
+                "fontSize": 10.09,
+                "typeface": "Heiti TC",
+                "color": "#111827",
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "取放軸／末端",
+                  "fontSize": 10.09,
+                  "typeface": "Heiti TC",
+                  "color": "#111827"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 44,
+          "row": 9,
+          "column": 4,
+          "bbox": [
+            845.04,
+            603.33,
+            196.81,
+            45.87
+          ],
+          "text": "取放、點膠、組裝",
+          "textPreview": "取放、點膠、組裝",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "取放、點膠、組裝",
+              "lineSpacingPercent": 110000,
+              "resolvedTextStyle": {
+                "fontSize": 10.09,
+                "typeface": "Heiti TC",
+                "color": "#111827",
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "取放、點膠、組裝",
+                  "fontSize": 10.09,
+                  "typeface": "Heiti TC",
+                  "color": "#111827"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 45,
+          "row": 9,
+          "column": 5,
+          "bbox": [
+            1041.85,
+            603.33,
+            196.81,
+            45.87
+          ],
+          "text": "末端工具或特殊關節",
+          "textPreview": "末端工具或特殊關節",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "末端工具或特殊關節",
+              "lineSpacingPercent": 110000,
+              "resolvedTextStyle": {
+                "fontSize": 10.09,
+                "typeface": "Heiti TC",
+                "color": "#111827",
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "末端工具或特殊關節",
+                  "fontSize": 10.09,
+                  "typeface": "Heiti TC",
+                  "color": "#111827"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/itwnmp8v",
+      "id": "535",
+      "name": "Clickable source footer",
+      "bbox": [
+        42,
+        675,
+        1125,
+        24
+      ],
+      "geometry": "rect",
+      "text": "資料來源：[1] 產品總覽  ·  [2] TAIROS 人形機器人",
+      "textPreview": "資料來源：[1] 產品總覽  ·  [2] TAIROS 人形機器人",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "fontSize": 11,
+        "typeface": "Inter",
+        "color": "#667085",
+        "alignment": "left",
+        "wrap": "none",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "資料來源：[1] 產品總覽  ·  [2] TAIROS 人形機器人"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "資料來源：[1] 產品總覽  ·  [2] TAIROS 人形機器人",
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "color": "#667085"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "資料來源：",
+              "fontSize": 11,
+              "typeface": "Heiti TC",
+              "color": "#667085"
+            },
+            {
+              "index": 2,
+              "text": "[1] 產品總覽",
+              "fontSize": 11,
+              "typeface": "Heiti TC",
+              "color": "#667085"
+            },
+            {
+              "index": 3,
+              "text": "  ·  ",
+              "fontSize": 11,
+              "typeface": "Heiti TC",
+              "color": "#667085"
+            },
+            {
+              "index": 4,
+              "text": "[2] TAIROS 人形機器人",
+              "fontSize": 11,
+              "typeface": "Heiti TC",
+              "color": "#667085"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

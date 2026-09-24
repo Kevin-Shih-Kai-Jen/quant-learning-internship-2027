@@ -1,0 +1,1300 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/hnzixr",
+    "id": "hnzixr",
+    "slide": 10,
+    "layoutId": "/ppt/slideLayouts/slideLayout6.xml",
+    "layoutName": "Title Only",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "Color Block Theme",
+    "colors": {
+      "accent1": "#2ED978",
+      "accent2": "#9FB6FE",
+      "accent3": "#F3F161",
+      "accent4": "#FF5F27",
+      "accent5": "#5EC4FF",
+      "accent6": "#3C7DA3",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#393939",
+      "lt2": "#F5F5F5",
+      "hlink": "#FFA83A",
+      "folHlink": "#96607D"
+    },
+    "fontScheme": {
+      "name": "Inter",
+      "majorFont": {
+        "latinTypeface": "Inter"
+      },
+      "minorFont": {
+        "latinTypeface": "Inter"
+      }
+    },
+    "typefaces": [
+      "Heiti TC",
+      "Helvetica Neue",
+      "Helvetica Neue Medium",
+      "Inter",
+      "Inter Medium"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout6.xml",
+      "name": "Title Only",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout6.xml/8",
+          "id": "8",
+          "name": "Footer Placeholder 4",
+          "bbox": [
+            41.33,
+            659.31,
+            374.67,
+            25.33
+          ],
+          "geometry": "rect",
+          "resolvedTextStyle": {
+            "anchor": 3,
+            "vertical": 1,
+            "verticalAlignment": "bottom",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          }
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout6.xml/9",
+          "id": "9",
+          "name": "Slide Number Placeholder 5",
+          "bbox": [
+            1184.18,
+            659.24,
+            54.48,
+            25.33
+          ],
+          "geometry": "rect",
+          "text": "‹#›",
+          "textPreview": "‹#›",
+          "resolvedTextStyle": {
+            "anchor": 3,
+            "vertical": 1,
+            "verticalAlignment": "bottom",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "‹#›",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "‹#›"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout6.xml/2",
+          "id": "2",
+          "name": "Title Placeholder 1",
+          "bbox": [
+            41.33,
+            36.12,
+            1197.33,
+            109.97
+          ],
+          "geometry": "rect",
+          "text": "Click to edit Master title style",
+          "textPreview": "Click to edit Master title style",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "vertical": 1,
+            "verticalAlignment": "top",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Click to edit Master title style",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Click to edit Master title style"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "type": "master",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/2",
+          "id": "2",
+          "name": "Title Placeholder 1",
+          "bbox": [
+            41.33,
+            36.12,
+            1197.33,
+            109.97
+          ],
+          "geometry": "rect",
+          "text": "Click to edit Master title style",
+          "textPreview": "Click to edit Master title style",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "vertical": 1,
+            "verticalAlignment": "top",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Click to edit Master title style",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Click to edit Master title style"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/3",
+          "id": "3",
+          "name": "Text Placeholder 2",
+          "bbox": [
+            41.33,
+            213.33,
+            1197.33,
+            416
+          ],
+          "geometry": "rect",
+          "text": "Click to edit Master text styles\nSecond level\nThird level\nFourth level\nFifth level",
+          "textPreview": "Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level",
+          "resolvedTextStyle": {
+            "vertical": 1,
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Click to edit Master text styles",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Click to edit Master text styles"
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "text": "Second level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Second level"
+                }
+              ]
+            },
+            {
+              "index": 3,
+              "text": "Third level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Third level"
+                }
+              ]
+            },
+            {
+              "index": 4,
+              "text": "Fourth level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Fourth level"
+                }
+              ]
+            },
+            {
+              "index": 5,
+              "text": "Fifth level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Fifth level"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/5",
+          "id": "5",
+          "name": "Footer Placeholder 4",
+          "bbox": [
+            41.33,
+            659.31,
+            374.67,
+            25.33
+          ],
+          "geometry": "rect",
+          "resolvedTextStyle": {
+            "anchor": 3,
+            "vertical": 1,
+            "verticalAlignment": "bottom",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          }
+        },
+        {
+          "order": 4,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/6",
+          "id": "6",
+          "name": "Slide Number Placeholder 5",
+          "bbox": [
+            1184.18,
+            659.24,
+            54.48,
+            25.33
+          ],
+          "geometry": "rect",
+          "text": "‹#›",
+          "textPreview": "‹#›",
+          "resolvedTextStyle": {
+            "anchor": 3,
+            "vertical": 1,
+            "verticalAlignment": "bottom",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "‹#›",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "‹#›"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ql87qtwr",
+      "id": "532",
+      "name": "Google Shape;532;p58",
+      "bbox": [
+        1184.18,
+        659.24,
+        54.48,
+        25.33
+      ],
+      "geometry": "rect",
+      "text": "10",
+      "textPreview": "10",
+      "resolvedFontSize": 14.67,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "vertical": 1,
+        "fontSize": 14.67,
+        "typeface": "Inter",
+        "color": "tx1",
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "useParagraphSpacing": true
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "10"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "10",
+          "runs": [
+            {
+              "index": 1,
+              "text": "10"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/bmhojexc",
+      "id": "533",
+      "name": "Google Shape;533;p58",
+      "bbox": [
+        41.33,
+        36.12,
+        1197.33,
+        61.06
+      ],
+      "geometry": "rect",
+      "text": "人形關節兩大做法：旋轉致動器與線性致動器",
+      "textPreview": "人形關節兩大做法：旋轉致動器與線性致動器",
+      "resolvedFontSize": 38.67,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "vertical": 1,
+        "fontSize": 38.67,
+        "typeface": "Inter Medium",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "useParagraphSpacing": true
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "人形關節兩大做法：旋轉致動器與線性致動器"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "人形關節兩大做法：旋轉致動器與線性致動器",
+          "runs": [
+            {
+              "index": 1,
+              "text": "人形關節兩大做法：旋轉致動器與線性致動器"
+            }
+          ],
+          "bulletCharacter": "",
+          "lineSpacingPercent": 90000
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/i943u9sr",
+      "id": "2",
+      "name": "Rounded Rectangle 1",
+      "bbox": [
+        41.68,
+        317.62,
+        580.99,
+        138.67
+      ],
+      "geometry": "roundRect",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Inter",
+        "color": "lt1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "fillColor": {
+        "type": "theme",
+        "value": "accent5",
+        "transform": {
+          "lighten": 0.6
+        }
+      },
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/jadknetc",
+      "id": "3",
+      "name": "Content Placeholder 10",
+      "bbox": [
+        72.89,
+        343.75,
+        523.56,
+        92.16
+      ],
+      "geometry": "rect",
+      "text": "旋轉致動器｜直接形成關節旋轉\n馬達搭配減速機、軸承、編碼器與驅動器，讓髖、肩、肘等關節轉動。",
+      "textPreview": "旋轉致動器｜直接形成關節旋轉 | 馬達搭配減速機、軸承、編碼器與驅動器，讓髖、肩、肘等關節轉動。",
+      "resolvedFontSize": 32,
+      "resolvedTextStyle": {
+        "vertical": 1,
+        "fontSize": 32,
+        "typeface": "Inter",
+        "color": "tx1",
+        "alignment": "left",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 4,
+        "lines": [
+          {
+            "index": 1,
+            "text": "旋轉致動器｜直接形成關節旋轉"
+          },
+          {
+            "index": 2,
+            "text": ""
+          },
+          {
+            "index": 3,
+            "text": "馬達搭配減速機、軸承、編碼器與驅動器，讓髖、肩、肘等關節轉"
+          },
+          {
+            "index": 4,
+            "text": "動。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "旋轉致動器｜直接形成關節旋轉",
+          "bulletCharacter": "",
+          "spaceAfter": 600,
+          "resolvedTextStyle": {
+            "vertical": 1,
+            "autoFit": "shrinkText",
+            "autoFitScale": 1,
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "旋轉致動器｜直接形成關節旋轉",
+              "fontSize": 24,
+              "typeface": "Heiti TC",
+              "color": "#17324D",
+              "bold": true
+            }
+          ],
+          "marginLeft": 228600,
+          "indent": -228600,
+          "lineSpacingPercent": 90000
+        },
+        {
+          "index": 2,
+          "text": "馬達搭配減速機、軸承、編碼器與驅動器，讓髖、肩、肘等關節轉動。",
+          "bulletCharacter": "",
+          "resolvedTextStyle": {
+            "vertical": 1,
+            "autoFit": "shrinkText",
+            "autoFitScale": 1,
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "馬達搭配減速機、軸承、編碼器與驅動器，讓髖、肩、肘等關節轉動。",
+              "fontSize": 18,
+              "typeface": "Heiti TC",
+              "color": "#1F2937"
+            }
+          ],
+          "marginLeft": 228600,
+          "indent": -228600,
+          "lineSpacingPercent": 90000
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/w72lszal",
+      "id": "4",
+      "name": "Content Placeholder 15",
+      "bbox": [
+        72.89,
+        474,
+        549.78,
+        102.67
+      ],
+      "geometry": "rect",
+      "text": "優點：結構直覺、容易做多角度旋轉\n需求：高扭力、低重量、低背隙\n大銀偏馬達／驅控；上銀偏減速機／軸承",
+      "textPreview": "優點：結構直覺、容易做多角度旋轉 | 需求：高扭力、低重量、低背隙 | 大銀偏馬達／驅控；上銀偏減速機／軸承",
+      "resolvedFontSize": 21.33,
+      "resolvedTextStyle": {
+        "vertical": 1,
+        "fontSize": 21.33,
+        "typeface": "Inter",
+        "color": "tx1",
+        "alignment": "left",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 5,
+        "lines": [
+          {
+            "index": 1,
+            "text": "•優點：結構直覺、容易做多角度旋轉"
+          },
+          {
+            "index": 2,
+            "text": ""
+          },
+          {
+            "index": 3,
+            "text": "•需求：高扭力、低重量、低背隙"
+          },
+          {
+            "index": 4,
+            "text": ""
+          },
+          {
+            "index": 5,
+            "text": "•大銀偏馬達／驅控；上銀偏減速機／軸承"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "優點：結構直覺、容易做多角度旋轉",
+          "bulletCharacter": "•",
+          "marginLeft": 228600,
+          "indent": -114300,
+          "spaceAfter": 350,
+          "resolvedTextStyle": {
+            "vertical": 1,
+            "autoFit": "shrinkText",
+            "autoFitScale": 1,
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "優點：結構直覺、容易做多角度旋轉",
+              "fontSize": 17.33,
+              "typeface": "Heiti TC",
+              "color": "#1F2937"
+            }
+          ],
+          "lineSpacingPercent": 90000
+        },
+        {
+          "index": 2,
+          "text": "需求：高扭力、低重量、低背隙",
+          "bulletCharacter": "•",
+          "marginLeft": 228600,
+          "indent": -114300,
+          "spaceAfter": 350,
+          "resolvedTextStyle": {
+            "vertical": 1,
+            "autoFit": "shrinkText",
+            "autoFitScale": 1,
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "需求：高扭力、低重量、低背隙",
+              "fontSize": 17.33,
+              "typeface": "Heiti TC",
+              "color": "#1F2937"
+            }
+          ],
+          "lineSpacingPercent": 90000
+        },
+        {
+          "index": 3,
+          "text": "大銀偏馬達／驅控；上銀偏減速機／軸承",
+          "bulletCharacter": "•",
+          "marginLeft": 228600,
+          "indent": -114300,
+          "spaceAfter": 350,
+          "resolvedTextStyle": {
+            "vertical": 1,
+            "autoFit": "shrinkText",
+            "autoFitScale": 1,
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "大銀偏馬達／驅控；上銀偏減速機／軸承",
+              "fontSize": 17.33,
+              "typeface": "Heiti TC",
+              "color": "#1F2937"
+            }
+          ],
+          "lineSpacingPercent": 90000
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/g36l43a5",
+      "id": "8",
+      "name": "Rounded Rectangle 7",
+      "bbox": [
+        657.3,
+        317.62,
+        580.99,
+        138.67
+      ],
+      "geometry": "roundRect",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Inter",
+        "color": "lt1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "fillColor": {
+        "type": "theme",
+        "value": "accent5",
+        "transform": {
+          "lighten": 0.6
+        }
+      },
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gvqtgjmd",
+      "id": "11",
+      "name": "Content Placeholder 10",
+      "bbox": [
+        688.51,
+        343.75,
+        523.56,
+        92.16
+      ],
+      "geometry": "rect",
+      "text": "線性致動器｜先旋轉，再用螺桿推拉\n伺服馬達帶動滾珠或行星滾柱螺桿，產生像肌肉收縮的直線推力。",
+      "textPreview": "線性致動器｜先旋轉，再用螺桿推拉 | 伺服馬達帶動滾珠或行星滾柱螺桿，產生像肌肉收縮的直線推力。",
+      "resolvedFontSize": 32,
+      "resolvedTextStyle": {
+        "vertical": 1,
+        "fontSize": 32,
+        "typeface": "Inter",
+        "color": "tx1",
+        "alignment": "left",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "線性致動器｜先旋轉，再用螺桿推拉"
+          },
+          {
+            "index": 2,
+            "text": ""
+          },
+          {
+            "index": 3,
+            "text": "伺服馬達帶動滾珠或行星滾柱螺桿，產生像肌肉收縮的直線推力。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "線性致動器｜先旋轉，再用螺桿推拉",
+          "bulletCharacter": "",
+          "spaceAfter": 600,
+          "resolvedTextStyle": {
+            "vertical": 1,
+            "autoFit": "shrinkText",
+            "autoFitScale": 1,
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "線性致動器｜先旋轉，再用螺桿推拉",
+              "fontSize": 24,
+              "typeface": "Heiti TC",
+              "color": "#17324D",
+              "bold": true
+            }
+          ],
+          "marginLeft": 228600,
+          "indent": -228600,
+          "lineSpacingPercent": 90000
+        },
+        {
+          "index": 2,
+          "text": "伺服馬達帶動滾珠或行星滾柱螺桿，產生像肌肉收縮的直線推力。",
+          "bulletCharacter": "",
+          "resolvedTextStyle": {
+            "vertical": 1,
+            "autoFit": "shrinkText",
+            "autoFitScale": 1,
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "伺服馬達帶動滾珠或行星滾柱螺桿，產生像肌肉收縮的直線推力。",
+              "fontSize": 18,
+              "typeface": "Heiti TC",
+              "color": "#1F2937"
+            }
+          ],
+          "marginLeft": 228600,
+          "indent": -228600,
+          "lineSpacingPercent": 90000
+        }
+      ]
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/et8be947",
+      "id": "13",
+      "name": "Content Placeholder 15",
+      "bbox": [
+        688.51,
+        474,
+        549.78,
+        102.67
+      ],
+      "geometry": "rect",
+      "text": "優點：高推力、適合承重與站立\n需求：效率、剛性、壽命與可回驅性\n上銀螺桿像肌腱；大銀馬達與驅控像肌肉神經",
+      "textPreview": "優點：高推力、適合承重與站立 | 需求：效率、剛性、壽命與可回驅性 | 上銀螺桿像肌腱；大銀馬達與驅控像肌肉神經",
+      "resolvedFontSize": 21.33,
+      "resolvedTextStyle": {
+        "vertical": 1,
+        "fontSize": 21.33,
+        "typeface": "Inter",
+        "color": "tx1",
+        "alignment": "left",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 5,
+        "lines": [
+          {
+            "index": 1,
+            "text": "•優點：高推力、適合承重與站立"
+          },
+          {
+            "index": 2,
+            "text": ""
+          },
+          {
+            "index": 3,
+            "text": "•需求：效率、剛性、壽命與可回驅性"
+          },
+          {
+            "index": 4,
+            "text": ""
+          },
+          {
+            "index": 5,
+            "text": "•上銀螺桿像肌腱；大銀馬達與驅控像肌肉神經"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "優點：高推力、適合承重與站立",
+          "bulletCharacter": "•",
+          "marginLeft": 228600,
+          "indent": -114300,
+          "spaceAfter": 350,
+          "resolvedTextStyle": {
+            "vertical": 1,
+            "autoFit": "shrinkText",
+            "autoFitScale": 1,
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "優點：高推力、適合承重與站立",
+              "fontSize": 17.33,
+              "typeface": "Heiti TC",
+              "color": "#1F2937"
+            }
+          ],
+          "lineSpacingPercent": 90000
+        },
+        {
+          "index": 2,
+          "text": "需求：效率、剛性、壽命與可回驅性",
+          "bulletCharacter": "•",
+          "marginLeft": 228600,
+          "indent": -114300,
+          "spaceAfter": 350,
+          "resolvedTextStyle": {
+            "vertical": 1,
+            "autoFit": "shrinkText",
+            "autoFitScale": 1,
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "需求：效率、剛性、壽命與可回驅性",
+              "fontSize": 17.33,
+              "typeface": "Heiti TC",
+              "color": "#1F2937"
+            }
+          ],
+          "lineSpacingPercent": 90000
+        },
+        {
+          "index": 3,
+          "text": "上銀螺桿像肌腱；大銀馬達與驅控像肌肉神經",
+          "bulletCharacter": "•",
+          "marginLeft": 228600,
+          "indent": -114300,
+          "spaceAfter": 350,
+          "resolvedTextStyle": {
+            "vertical": 1,
+            "autoFit": "shrinkText",
+            "autoFitScale": 1,
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "上銀螺桿像肌腱；大銀馬達與驅控像肌肉神經",
+              "fontSize": 17.33,
+              "typeface": "Heiti TC",
+              "color": "#1F2937"
+            }
+          ],
+          "lineSpacingPercent": 90000
+        }
+      ]
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/t8fu543m",
+      "id": "14",
+      "name": "Content Placeholder 15",
+      "bbox": [
+        42.09,
+        121.52,
+        1197.33,
+        171.05
+      ],
+      "geometry": "rect",
+      "text": "不是二選一：一台人形機器人可能依不同關節混用。",
+      "textPreview": "不是二選一：一台人形機器人可能依不同關節混用。",
+      "resolvedFontSize": 21.33,
+      "resolvedTextStyle": {
+        "vertical": 1,
+        "fontSize": 21.33,
+        "typeface": "Inter",
+        "color": "tx1",
+        "alignment": "left",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "不是二選一：一台人形機器人可能依不同關節混用。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "不是二選一：一台人形機器人可能依不同關節混用。",
+          "lineSpacingPercent": 114000,
+          "runs": [
+            {
+              "index": 1,
+              "text": "不是二選一：一台人形機器人可能依不同關節混用。",
+              "fontSize": 24,
+              "typeface": "Helvetica Neue Medium",
+              "color": "#000000"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0,
+          "indent": 0
+        }
+      ]
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/md0nuhgr",
+      "id": "26",
+      "name": "Content Placeholder 15",
+      "bbox": [
+        42.09,
+        589.81,
+        1197.33,
+        55.62
+      ],
+      "geometry": "rect",
+      "text": "選型取決於扭力、速度、重量、空間、安全與成本。",
+      "textPreview": "選型取決於扭力、速度、重量、空間、安全與成本。",
+      "resolvedFontSize": 21.33,
+      "resolvedTextStyle": {
+        "vertical": 1,
+        "fontSize": 21.33,
+        "typeface": "Inter",
+        "color": "tx1",
+        "alignment": "left",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "選型取決於扭力、速度、重量、空間、安全與成本。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "選型取決於扭力、速度、重量、空間、安全與成本。",
+          "lineSpacingPercent": 114000,
+          "runs": [
+            {
+              "index": 1,
+              "text": "選型取決於扭力、速度、重量、空間、安全與成本。",
+              "typeface": "Helvetica Neue",
+              "color": "#000000"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0,
+          "indent": 0
+        }
+      ]
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0rapw3et",
+      "id": "534",
+      "name": "Clickable source footer",
+      "bbox": [
+        42,
+        681,
+        1125,
+        24
+      ],
+      "geometry": "rect",
+      "text": "資料來源：[1] TAIROS 人形機器人  ·  [2] 大銀伺服馬達",
+      "textPreview": "資料來源：[1] TAIROS 人形機器人  ·  [2] 大銀伺服馬達",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "fontSize": 11,
+        "typeface": "Inter",
+        "color": "#667085",
+        "alignment": "left",
+        "wrap": "none",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "資料來源：[1] TAIROS 人形機器人  ·  [2] 大銀伺服馬達"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "資料來源：[1] TAIROS 人形機器人  ·  [2] 大銀伺服馬達",
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "color": "#667085"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "資料來源：",
+              "fontSize": 11,
+              "typeface": "Heiti TC",
+              "color": "#667085"
+            },
+            {
+              "index": 2,
+              "text": "[1] TAIROS 人形機器人",
+              "fontSize": 11,
+              "typeface": "Heiti TC",
+              "color": "#667085"
+            },
+            {
+              "index": 3,
+              "text": "  ·  ",
+              "fontSize": 11,
+              "typeface": "Heiti TC",
+              "color": "#667085"
+            },
+            {
+              "index": 4,
+              "text": "[2] 大銀伺服馬達",
+              "fontSize": 11,
+              "typeface": "Heiti TC",
+              "color": "#667085"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

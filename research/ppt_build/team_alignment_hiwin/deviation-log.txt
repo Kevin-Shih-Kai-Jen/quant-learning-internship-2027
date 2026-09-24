@@ -1,0 +1,10 @@
+Intentional deviations from the source template
+
+- Slides 2–9: sample page numbers are rewritten to match the new narrative order.
+- Slides 2–9: empty footer placeholders are deleted so editing prompts cannot appear in PowerPoint.
+- Slide 3: the source timeline's three date labels become three functional stages in a feedback-control chain; geometry is unchanged.
+- Slide 4: all cells of the source comparison table are rewritten as an eight-row product-family map; the table frame and styling remain inherited.
+- Slides 6 and 8: source slide 11 is reused because its four-point grid supports two separate four-part explanations without changing the design system.
+- Slide 10: two empty off-canvas source textboxes are deleted to avoid false off-slide QA warnings; the closing bumper design is otherwise preserved.
+- No new slide-level visual primitives, external images, charts, or decorative styles are added.
+

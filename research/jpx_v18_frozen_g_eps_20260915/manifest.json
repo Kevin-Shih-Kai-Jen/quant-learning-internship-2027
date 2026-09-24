@@ -1,0 +1,9 @@
+{
+  "source_sha256": {
+    "jpx_v16_single_financial_v7_20260915/price_only/predictions.npz": "f693a168783354c1114bb2a69c354e9ca2e4c320779162dc5c6d52bfbdb6cd83",
+    "jpx_v17_actual_forecast_revisions_20260915/financial_signal_features.pkl": "5a6340b793d4e3e772b4e8f43cf12a17dd1452c1fa98fd9a091c4b1f4d686a1e",
+    "jpx_v8_soft_rank_20260912/inputs.pkl": "6b0ff60bfb8eab20ec7c6e087e746dd6e0ccc38b9633d1a11d98477d84857bc6",
+    "jpx_v18_frozen_g_eps_20260915/run.py": "996930a4465375ddadb4f85ee2eeb03c34f0ba4fc4e2411343a479c4e60aa37d",
+    "jpx_v18_frozen_g_eps_20260915/experiment_plan.md": "5762f812e0e5db12ff12c5b9becf7a9548ca65a60c7cf530146873e515e0ec6f"
+  }
+}

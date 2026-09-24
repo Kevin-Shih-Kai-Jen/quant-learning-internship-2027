@@ -1,0 +1,38 @@
+{
+  "name": "sales_revision_relative",
+  "features": [
+    "NetSalesRevisionRelative"
+  ],
+  "mask_features": [
+    "NetSalesRevisionRelative"
+  ],
+  "includes_feature": true,
+  "parameter_count": 13,
+  "sharpe": 0.007223244085231353,
+  "scored_days": 953,
+  "mean_rank_ic": -0.0007399862988129538,
+  "rank_ic_days": 952,
+  "mean_hard_rank_mse": 0.1668687713922939,
+  "mean_return_mse": 0.000665435381970251,
+  "training_updates": 1199,
+  "training_stock_days": 2325802,
+  "threshold_skipped_stock_days": 4,
+  "forecast_rows": 2326022,
+  "final_coefficients": {
+    "alpha": -0.001870616370793751,
+    "T5": -0.0014563405740271437,
+    "T22": -0.004535653426527411,
+    "T60": -0.004538110483956274,
+    "V5": 0.0011957083813701327,
+    "V22": 0.0010630491260198052,
+    "V60": 0.0011324016367492986,
+    "P5xV5": -0.0006686231597132842,
+    "P22xV22": -0.0021317666909147883,
+    "P60xV60": -0.0013971234364182413,
+    "PR1": 0.0014078823054280822,
+    "VR1": -0.0008201175507749504,
+    "NetSalesRevisionRelative": 0.00011752617727151878
+  },
+  "parameter_asof": "2021-12-03",
+  "seconds": 3.1449295829997936
+}

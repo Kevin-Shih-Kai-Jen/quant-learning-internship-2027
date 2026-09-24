@@ -1,0 +1,37 @@
+{
+  "threshold_checks": [
+    {
+      "year": 2018,
+      "history_timing": true,
+      "signed_counts_and_order_statistics": true,
+      "uses_previous_raw_not_smoothed": true,
+      "boundary_and_regime_assignment": true
+    },
+    {
+      "year": 2019,
+      "history_timing": true,
+      "signed_counts_and_order_statistics": true,
+      "uses_previous_raw_not_smoothed": true,
+      "boundary_and_regime_assignment": true
+    },
+    {
+      "year": 2020,
+      "history_timing": true,
+      "signed_counts_and_order_statistics": true,
+      "uses_previous_raw_not_smoothed": true,
+      "boundary_and_regime_assignment": true
+    },
+    {
+      "year": 2021,
+      "history_timing": true,
+      "signed_counts_and_order_statistics": true,
+      "uses_previous_raw_not_smoothed": true,
+      "boundary_and_regime_assignment": true
+    }
+  ],
+  "independent_performance_checks": true,
+  "annual_conditions_checked": true,
+  "total_neutral_days": 340,
+  "total_days": 953,
+  "passed": true
+}

@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "report_file_links_verified": 7,
+  "registry_latest": "v13",
+  "active_baseline_unchanged": [
+    "v7",
+    "v7_equal"
+  ],
+  "price_volume_inputs_unchanged": true,
+  "cross_basis_actual_event_duplicates": 0
+}

@@ -1,0 +1,161 @@
+{
+  "key": "original_dynamic",
+  "name": "原始動態配置",
+  "feature_family": "level_t",
+  "close_only": false,
+  "ols": {
+    "days": 953,
+    "cumulative_return": 0.5406270340333397,
+    "annualized_return_252": 0.12106940687860757,
+    "max_drawdown": -0.22220480051834623,
+    "sharpe_252_rf0": 0.6840228450055579,
+    "daily_mean": 0.0005282982497407101,
+    "daily_std": 0.01226051846446668,
+    "positive_day_fraction": 0.5424973767051416,
+    "ending_wealth_per_100": 154.06270340333396,
+    "simple_sum_return": 0.5034682320028967
+  },
+  "ridge": {
+    "days": 953,
+    "cumulative_return": 0.394179086141178,
+    "annualized_return_252": 0.09184725534531202,
+    "max_drawdown": -0.3319006641348041,
+    "sharpe_252_rf0": 0.4984323487786528,
+    "daily_mean": 0.00045009489276656245,
+    "daily_std": 0.014335014437469165,
+    "positive_day_fraction": 0.5571878279118573,
+    "ending_wealth_per_100": 139.4179086141178,
+    "simple_sum_return": 0.428940432806534
+  },
+  "drawdown_reduction_percentage_points": -10.969586361645788,
+  "drawdown_lower": false,
+  "old_daily_return_reproduction_max_error": 8.222476519104127e-13,
+  "lambdas": {
+    "2018": 100.0,
+    "2019": 10.0,
+    "2020": 100.0,
+    "2021": 100.0
+  },
+  "mean_long_exposure": 0.8488142707240295,
+  "mean_short_exposure": 0.15109129066107027,
+  "one_sided_days": 720,
+  "old_one_sided_days": 22,
+  "annual": [
+    {
+      "year": 2018,
+      "ridge": {
+        "days": 245,
+        "cumulative_return": -0.03535736727457728,
+        "annualized_return_252": -0.036348994257153544,
+        "max_drawdown": -0.16658850099253397,
+        "sharpe_252_rf0": -0.0707201047370517,
+        "daily_mean": -5.9306281161331336e-05,
+        "daily_std": 0.013312452382844064,
+        "positive_day_fraction": 0.5551020408163265,
+        "ending_wealth_per_100": 96.46426327254227,
+        "simple_sum_return": -0.014530038884526177
+      },
+      "ols": {
+        "days": 245,
+        "cumulative_return": 0.05580005030838908,
+        "annualized_return_252": 0.05743928432935186,
+        "max_drawdown": -0.08937941025966545,
+        "sharpe_252_rf0": 0.4155174083332794,
+        "daily_mean": 0.0002767614914487796,
+        "daily_std": 0.01057344983628914,
+        "positive_day_fraction": 0.5183673469387755,
+        "ending_wealth_per_100": 105.5800050308389,
+        "simple_sum_return": 0.067806565404951
+      },
+      "mean_long_exposure": 1.0,
+      "mean_short_exposure": 0.0
+    },
+    {
+      "year": 2019,
+      "ridge": {
+        "days": 241,
+        "cumulative_return": 0.44179258594456305,
+        "annualized_return_252": 0.4660730562798354,
+        "max_drawdown": -0.1429010889812139,
+        "sharpe_252_rf0": 1.836831401671144,
+        "daily_mean": 0.0016155013864177844,
+        "daily_std": 0.013961700264660704,
+        "positive_day_fraction": 0.5850622406639004,
+        "ending_wealth_per_100": 144.17925859445631,
+        "simple_sum_return": 0.38933583412668604
+      },
+      "ols": {
+        "days": 241,
+        "cumulative_return": 0.2600931078954285,
+        "annualized_return_252": 0.2734600616237204,
+        "max_drawdown": -0.14280034089207672,
+        "sharpe_252_rf0": 1.1753498094661103,
+        "daily_mean": 0.0010617143630661837,
+        "daily_std": 0.014339724967502744,
+        "positive_day_fraction": 0.5767634854771784,
+        "ending_wealth_per_100": 126.00931078954285,
+        "simple_sum_return": 0.2558731614989503
+      },
+      "mean_long_exposure": 0.40253112033195015,
+      "mean_short_exposure": 0.5974688796680498
+    },
+    {
+      "year": 2020,
+      "ridge": {
+        "days": 242,
+        "cumulative_return": -0.121678624002864,
+        "annualized_return_252": -0.12637494119410198,
+        "max_drawdown": -0.32141799317279196,
+        "sharpe_252_rf0": -0.44247269205508705,
+        "daily_mean": -0.00042192070078701164,
+        "daily_std": 0.015137168019402427,
+        "positive_day_fraction": 0.5826446280991735,
+        "ending_wealth_per_100": 87.8321375997136,
+        "simple_sum_return": -0.10210480959045681
+      },
+      "ols": {
+        "days": 242,
+        "cumulative_return": 0.15766510777108955,
+        "annualized_return_252": 0.16468997721056766,
+        "max_drawdown": -0.21382329897551267,
+        "sharpe_252_rf0": 0.9242020695931327,
+        "daily_mean": 0.0006713398168883315,
+        "daily_std": 0.011531232784302976,
+        "positive_day_fraction": 0.5661157024793388,
+        "ending_wealth_per_100": 115.76651077710895,
+        "simple_sum_return": 0.1624642356869762
+      },
+      "mean_long_exposure": 0.9996280991735537,
+      "mean_short_exposure": 0.0
+    },
+    {
+      "year": 2021,
+      "ridge": {
+        "days": 225,
+        "cumulative_return": 0.14128963071760148,
+        "annualized_return_252": 0.15953370215247853,
+        "max_drawdown": -0.09499904947789672,
+        "sharpe_252_rf0": 0.7393366426452017,
+        "daily_mean": 0.0006943975429103596,
+        "daily_std": 0.014909607642185522,
+        "positive_day_fraction": 0.5022222222222222,
+        "ending_wealth_per_100": 114.12896307176015,
+        "simple_sum_return": 0.1562394471548309
+      },
+      "ols": {
+        "days": 225,
+        "cumulative_return": 0.0002999705411890208,
+        "annualized_return_252": 0.0003359730524119531,
+        "max_drawdown": -0.14143378582642963,
+        "sharpe_252_rf0": 0.09878256838903242,
+        "daily_mean": 7.699675294230729e-05,
+        "daily_std": 0.012373494435326534,
+        "positive_day_fraction": 0.5066666666666667,
+        "ending_wealth_per_100": 100.02999705411891,
+        "simple_sum_return": 0.01732426941201914
+      },
+      "mean_long_exposure": 1.0,
+      "mean_short_exposure": 0.0
+    }
+  ]
+}

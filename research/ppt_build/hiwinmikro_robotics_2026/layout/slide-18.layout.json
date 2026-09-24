@@ -1,0 +1,1197 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/czqyhk",
+    "id": "czqyhk",
+    "slide": 18,
+    "layoutId": "/ppt/slideLayouts/slideLayout6.xml",
+    "layoutName": "Title Only",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "Color Block Theme",
+    "colors": {
+      "accent1": "#2ED978",
+      "accent2": "#9FB6FE",
+      "accent3": "#F3F161",
+      "accent4": "#FF5F27",
+      "accent5": "#5EC4FF",
+      "accent6": "#3C7DA3",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#393939",
+      "lt2": "#F5F5F5",
+      "hlink": "#FFA83A",
+      "folHlink": "#96607D"
+    },
+    "fontScheme": {
+      "name": "Inter",
+      "majorFont": {
+        "latinTypeface": "Inter"
+      },
+      "minorFont": {
+        "latinTypeface": "Inter"
+      }
+    },
+    "typefaces": [
+      "Heiti TC",
+      "Helvetica Neue",
+      "Helvetica Neue Medium",
+      "Inter"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout6.xml",
+      "name": "Title Only",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout6.xml/8",
+          "id": "8",
+          "name": "Footer Placeholder 4",
+          "bbox": [
+            41.33,
+            659.31,
+            374.67,
+            25.33
+          ],
+          "geometry": "rect",
+          "resolvedTextStyle": {
+            "anchor": 3,
+            "vertical": 1,
+            "verticalAlignment": "bottom",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          }
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout6.xml/9",
+          "id": "9",
+          "name": "Slide Number Placeholder 5",
+          "bbox": [
+            1184.18,
+            659.24,
+            54.48,
+            25.33
+          ],
+          "geometry": "rect",
+          "text": "‹#›",
+          "textPreview": "‹#›",
+          "resolvedTextStyle": {
+            "anchor": 3,
+            "vertical": 1,
+            "verticalAlignment": "bottom",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "‹#›",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "‹#›"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout6.xml/2",
+          "id": "2",
+          "name": "Title Placeholder 1",
+          "bbox": [
+            41.33,
+            36.12,
+            1197.33,
+            109.97
+          ],
+          "geometry": "rect",
+          "text": "Click to edit Master title style",
+          "textPreview": "Click to edit Master title style",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "vertical": 1,
+            "verticalAlignment": "top",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Click to edit Master title style",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Click to edit Master title style"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "type": "master",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/2",
+          "id": "2",
+          "name": "Title Placeholder 1",
+          "bbox": [
+            41.33,
+            36.12,
+            1197.33,
+            109.97
+          ],
+          "geometry": "rect",
+          "text": "Click to edit Master title style",
+          "textPreview": "Click to edit Master title style",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "vertical": 1,
+            "verticalAlignment": "top",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Click to edit Master title style",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Click to edit Master title style"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/3",
+          "id": "3",
+          "name": "Text Placeholder 2",
+          "bbox": [
+            41.33,
+            213.33,
+            1197.33,
+            416
+          ],
+          "geometry": "rect",
+          "text": "Click to edit Master text styles\nSecond level\nThird level\nFourth level\nFifth level",
+          "textPreview": "Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level",
+          "resolvedTextStyle": {
+            "vertical": 1,
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Click to edit Master text styles",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Click to edit Master text styles"
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "text": "Second level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Second level"
+                }
+              ]
+            },
+            {
+              "index": 3,
+              "text": "Third level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Third level"
+                }
+              ]
+            },
+            {
+              "index": 4,
+              "text": "Fourth level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Fourth level"
+                }
+              ]
+            },
+            {
+              "index": 5,
+              "text": "Fifth level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Fifth level"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/5",
+          "id": "5",
+          "name": "Footer Placeholder 4",
+          "bbox": [
+            41.33,
+            659.31,
+            374.67,
+            25.33
+          ],
+          "geometry": "rect",
+          "resolvedTextStyle": {
+            "anchor": 3,
+            "vertical": 1,
+            "verticalAlignment": "bottom",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          }
+        },
+        {
+          "order": 4,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/6",
+          "id": "6",
+          "name": "Slide Number Placeholder 5",
+          "bbox": [
+            1184.18,
+            659.24,
+            54.48,
+            25.33
+          ],
+          "geometry": "rect",
+          "text": "‹#›",
+          "textPreview": "‹#›",
+          "resolvedTextStyle": {
+            "anchor": 3,
+            "vertical": 1,
+            "verticalAlignment": "bottom",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "‹#›",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "‹#›"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ne1kzetc",
+      "id": "532",
+      "name": "Google Shape;532;p58",
+      "bbox": [
+        1184.18,
+        659.24,
+        54.48,
+        25.33
+      ],
+      "geometry": "rect",
+      "text": "18",
+      "textPreview": "18",
+      "resolvedFontSize": 14.67,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "vertical": 1,
+        "fontSize": 14.67,
+        "typeface": "Inter",
+        "color": "tx1",
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "useParagraphSpacing": true
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "18"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "18",
+          "runs": [
+            {
+              "index": 1,
+              "text": "18"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2dsj69cr",
+      "id": "533",
+      "name": "Google Shape;533;p58",
+      "bbox": [
+        42,
+        26,
+        1120,
+        70
+      ],
+      "geometry": "rect",
+      "text": "只做敏感度：台數、單機大銀價值與淨利率缺一不可",
+      "textPreview": "只做敏感度：台數、單機大銀價值與淨利率缺一不可",
+      "resolvedFontSize": 28,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "vertical": 1,
+        "fontSize": 28,
+        "typeface": "Heiti TC",
+        "color": "tx1",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "useParagraphSpacing": true
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "只做敏感度：台數、單機大銀價值與淨利率缺一不可"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "只做敏感度：台數、單機大銀價值與淨利率缺一不可",
+          "resolvedTextStyle": {
+            "fontSize": 28,
+            "typeface": "Heiti TC",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "只做敏感度：台數、單機大銀價值與淨利率缺一不可",
+              "fontSize": 28,
+              "typeface": "Heiti TC",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "lineSpacingPercent": 90000
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8zqxo72d",
+      "id": "12",
+      "name": "Content Placeholder 10",
+      "bbox": [
+        732,
+        249.33,
+        506.67,
+        68
+      ],
+      "geometry": "rect",
+      "text": "100 台 × 50 萬元＝0.5 億營收；假設淨利率 10%，EPS 約增加 0.04 元。",
+      "textPreview": "100 台 × 50 萬元＝0.5 億營收；假設淨利率 10%，EPS 約增加 0.04 元。",
+      "resolvedFontSize": 32,
+      "resolvedTextStyle": {
+        "vertical": 1,
+        "fontSize": 32,
+        "typeface": "Inter",
+        "color": "tx1",
+        "alignment": "left",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "100 台 × 50 萬元＝0.5 億營收；假設淨利率"
+          },
+          {
+            "index": 2,
+            "text": "10%，EPS 約增加 0.04 元。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "100 台 × 50 萬元＝0.5 億營收；假設淨利率 10%，EPS 約增加 0.04 元。",
+          "lineSpacingPercent": 100000,
+          "runs": [
+            {
+              "index": 1,
+              "text": "100 台 × 50 萬元＝0.5 億營收；假設淨利率 10%，EPS 約增加 0.04 元。",
+              "fontSize": 21.33,
+              "typeface": "Helvetica Neue",
+              "color": "#000000"
+            }
+          ],
+          "bulletCharacter": "•",
+          "marginLeft": 228600,
+          "indent": -228600
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vm1wjm14",
+      "id": "15",
+      "name": "Content Placeholder 10",
+      "bbox": [
+        509.33,
+        249.33,
+        196,
+        68
+      ],
+      "geometry": "rect",
+      "text": "情境 A｜試產",
+      "textPreview": "情境 A｜試產",
+      "resolvedFontSize": 32,
+      "resolvedTextStyle": {
+        "vertical": 1,
+        "fontSize": 32,
+        "typeface": "Inter",
+        "color": "tx1",
+        "alignment": "left",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "情境 A｜試產"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "情境 A｜試產",
+          "lineSpacingPercent": 100000,
+          "runs": [
+            {
+              "index": 1,
+              "text": "情境 A｜試產",
+              "fontSize": 21.33,
+              "typeface": "Helvetica Neue Medium",
+              "color": {
+                "type": "theme",
+                "value": "accent5",
+                "transform": {
+                  "darken": 0.5
+                }
+              }
+            }
+          ],
+          "bulletCharacter": "•",
+          "marginLeft": 228600,
+          "indent": -228600
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wnaxsr29",
+      "id": "16",
+      "name": "Content Placeholder 10",
+      "bbox": [
+        732,
+        353.33,
+        506.67,
+        68
+      ],
+      "geometry": "rect",
+      "text": "300 台 × 80 萬元＝2.4 億營收；假設淨利率 15%，EPS 約增加 0.30 元。",
+      "textPreview": "300 台 × 80 萬元＝2.4 億營收；假設淨利率 15%，EPS 約增加 0.30 元。",
+      "resolvedFontSize": 32,
+      "resolvedTextStyle": {
+        "vertical": 1,
+        "fontSize": 32,
+        "typeface": "Inter",
+        "color": "tx1",
+        "alignment": "left",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "300 台 × 80 萬元＝2.4 億營收；假設淨利率"
+          },
+          {
+            "index": 2,
+            "text": "15%，EPS 約增加 0.30 元。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "300 台 × 80 萬元＝2.4 億營收；假設淨利率 15%，EPS 約增加 0.30 元。",
+          "lineSpacingPercent": 100000,
+          "runs": [
+            {
+              "index": 1,
+              "text": "300 台 × 80 萬元＝2.4 億營收；假設淨利率 15%，EPS 約增加 0.30 元。",
+              "fontSize": 21.33,
+              "typeface": "Helvetica Neue",
+              "color": "#000000"
+            }
+          ],
+          "bulletCharacter": "•",
+          "marginLeft": 228600,
+          "indent": -228600
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xojelwju",
+      "id": "17",
+      "name": "Content Placeholder 10",
+      "bbox": [
+        509.33,
+        353.33,
+        196,
+        68
+      ],
+      "geometry": "rect",
+      "text": "情境 B｜初步放量",
+      "textPreview": "情境 B｜初步放量",
+      "resolvedFontSize": 32,
+      "resolvedTextStyle": {
+        "vertical": 1,
+        "fontSize": 32,
+        "typeface": "Inter",
+        "color": "tx1",
+        "alignment": "left",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "情境 B｜初步放量"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "情境 B｜初步放量",
+          "lineSpacingPercent": 100000,
+          "runs": [
+            {
+              "index": 1,
+              "text": "情境 B｜初步放量",
+              "fontSize": 21.33,
+              "typeface": "Helvetica Neue Medium",
+              "color": {
+                "type": "theme",
+                "value": "accent5",
+                "transform": {
+                  "darken": 0.5
+                }
+              }
+            }
+          ],
+          "bulletCharacter": "•",
+          "marginLeft": 228600,
+          "indent": -228600
+        }
+      ]
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/q5ovedkz",
+      "id": "18",
+      "name": "Content Placeholder 10",
+      "bbox": [
+        732,
+        457.33,
+        506.67,
+        68
+      ],
+      "geometry": "rect",
+      "text": "1,000 台 × 100 萬元＝10 億營收；假設淨利率 18%，EPS 約增加 1.50 元。",
+      "textPreview": "1,000 台 × 100 萬元＝10 億營收；假設淨利率 18%，EPS 約增加 1.50 元。",
+      "resolvedFontSize": 32,
+      "resolvedTextStyle": {
+        "vertical": 1,
+        "fontSize": 32,
+        "typeface": "Inter",
+        "color": "tx1",
+        "alignment": "left",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "1,000 台 × 100 萬元＝10 億營收；假設淨利率"
+          },
+          {
+            "index": 2,
+            "text": "18%，EPS 約增加 1.50 元。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "1,000 台 × 100 萬元＝10 億營收；假設淨利率 18%，EPS 約增加 1.50 元。",
+          "lineSpacingPercent": 100000,
+          "runs": [
+            {
+              "index": 1,
+              "text": "1,000 台 × 100 萬元＝10 億營收；假設淨利率 18%，EPS 約增加 1.50 元。",
+              "fontSize": 21.33,
+              "typeface": "Helvetica Neue",
+              "color": "#000000"
+            }
+          ],
+          "bulletCharacter": "•",
+          "marginLeft": 228600,
+          "indent": -228600
+        }
+      ]
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/bqxw7i1k",
+      "id": "19",
+      "name": "Content Placeholder 10",
+      "bbox": [
+        509.33,
+        457.33,
+        196,
+        68
+      ],
+      "geometry": "rect",
+      "text": "情境 C｜具影響力",
+      "textPreview": "情境 C｜具影響力",
+      "resolvedFontSize": 32,
+      "resolvedTextStyle": {
+        "vertical": 1,
+        "fontSize": 32,
+        "typeface": "Inter",
+        "color": "tx1",
+        "alignment": "left",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "情境 C｜具影響力"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "情境 C｜具影響力",
+          "lineSpacingPercent": 100000,
+          "runs": [
+            {
+              "index": 1,
+              "text": "情境 C｜具影響力",
+              "fontSize": 21.33,
+              "typeface": "Helvetica Neue Medium",
+              "color": {
+                "type": "theme",
+                "value": "accent5",
+                "transform": {
+                  "darken": 0.5
+                }
+              }
+            }
+          ],
+          "bulletCharacter": "•",
+          "marginLeft": 228600,
+          "indent": -228600
+        }
+      ]
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fadsfehc",
+      "id": "20",
+      "name": "Content Placeholder 10",
+      "bbox": [
+        732,
+        562.67,
+        506.67,
+        68
+      ],
+      "geometry": "rect",
+      "text": "公司未揭露台數、單機價值、機器人毛利、認列公司與量產時點；以上不是預測或目標價。",
+      "textPreview": "公司未揭露台數、單機價值、機器人毛利、認列公司與量產時點；以上不是預測或目標價。",
+      "resolvedFontSize": 32,
+      "resolvedTextStyle": {
+        "vertical": 1,
+        "fontSize": 32,
+        "typeface": "Inter",
+        "color": "tx1",
+        "alignment": "left",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "公司未揭露台數、單機價值、機器人毛利、認列公司"
+          },
+          {
+            "index": 2,
+            "text": "與量產時點；以上不是預測或目標價。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "公司未揭露台數、單機價值、機器人毛利、認列公司與量產時點；以上不是預測或目標價。",
+          "lineSpacingPercent": 100000,
+          "runs": [
+            {
+              "index": 1,
+              "text": "公司未揭露台數、單機價值、機器人毛利、認列公司與量產時點；以上不是預測或目標價。",
+              "fontSize": 21.33,
+              "typeface": "Helvetica Neue",
+              "color": "#000000"
+            }
+          ],
+          "bulletCharacter": "•",
+          "marginLeft": 228600,
+          "indent": -228600
+        }
+      ]
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/u94bmt0r",
+      "id": "21",
+      "name": "Content Placeholder 10",
+      "bbox": [
+        509.33,
+        562.67,
+        196,
+        68
+      ],
+      "geometry": "rect",
+      "text": "最大未知｜不是乘法，是輸入值",
+      "textPreview": "最大未知｜不是乘法，是輸入值",
+      "resolvedFontSize": 32,
+      "resolvedTextStyle": {
+        "vertical": 1,
+        "fontSize": 32,
+        "typeface": "Inter",
+        "color": "tx1",
+        "alignment": "left",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "最大未知｜不是乘法"
+          },
+          {
+            "index": 2,
+            "text": "，是輸入值"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "最大未知｜不是乘法，是輸入值",
+          "lineSpacingPercent": 100000,
+          "runs": [
+            {
+              "index": 1,
+              "text": "最大未知｜不是乘法，是輸入值",
+              "fontSize": 21.33,
+              "typeface": "Helvetica Neue Medium",
+              "color": {
+                "type": "theme",
+                "value": "accent5",
+                "transform": {
+                  "darken": 0.5
+                }
+              }
+            }
+          ],
+          "bulletCharacter": "•",
+          "marginLeft": 228600,
+          "indent": -228600
+        }
+      ]
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ep0fidw7",
+      "id": "3",
+      "name": "Google Shape;534;p58",
+      "bbox": [
+        41.33,
+        249.33,
+        374.67,
+        380
+      ],
+      "geometry": "rect",
+      "text": "公式：年度機器人營收＝台數 × 每台大銀供應金額；EPS 增量＝營收 × 增量稅後淨利率 ÷ 約 1.2 億股。",
+      "textPreview": "公式：年度機器人營收＝台數 × 每台大銀供應金額；EPS 增量＝營收 × 增量稅後淨利率 ÷ 約 1.2 億股。",
+      "resolvedFontSize": 32,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "vertical": 1,
+        "fontSize": 32,
+        "typeface": "Inter",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "useParagraphSpacing": true
+      },
+      "textLayout": {
+        "lineCount": 4,
+        "lines": [
+          {
+            "index": 1,
+            "text": "公式：年度機器人營收＝台數 ×"
+          },
+          {
+            "index": 2,
+            "text": "每台大銀供應金額；EPS"
+          },
+          {
+            "index": 3,
+            "text": "增量＝營收 × 增量稅後淨利率 ÷ 約"
+          },
+          {
+            "index": 4,
+            "text": "1.2 億股。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "公式：年度機器人營收＝台數 × 每台大銀供應金額；EPS 增量＝營收 × 增量稅後淨利率 ÷ 約 1.2 億股。",
+          "lineSpacingPercent": 114000,
+          "runs": [
+            {
+              "index": 1,
+              "text": "公式：年度機器人營收＝台數 × 每台大銀供應金額；EPS 增量＝營收 × 增量稅後淨利率 ÷ 約 1.2 億股。",
+              "fontSize": 24,
+              "typeface": "Helvetica Neue"
+            }
+          ],
+          "bulletCharacter": "•",
+          "marginLeft": 228600,
+          "indent": -228600
+        }
+      ]
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1sj2x4b6",
+      "id": "534",
+      "name": "Clickable source footer",
+      "bbox": [
+        42,
+        681,
+        1125,
+        24
+      ],
+      "geometry": "rect",
+      "text": "資料來源：[1] 2026Q2 財務  ·  [2] Dexterity 千台規劃  ·  [3] 最新量產時程",
+      "textPreview": "資料來源：[1] 2026Q2 財務  ·  [2] Dexterity 千台規劃  ·  [3] 最新量產時程",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "fontSize": 11,
+        "typeface": "Inter",
+        "color": "#667085",
+        "alignment": "left",
+        "wrap": "none",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "資料來源：[1] 2026Q2 財務  ·  [2] Dexterity 千台規劃  ·  [3] 最新量產時程"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "資料來源：[1] 2026Q2 財務  ·  [2] Dexterity 千台規劃  ·  [3] 最新量產時程",
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "color": "#667085"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "資料來源：",
+              "fontSize": 11,
+              "typeface": "Heiti TC",
+              "color": "#667085"
+            },
+            {
+              "index": 2,
+              "text": "[1] 2026Q2 財務",
+              "fontSize": 11,
+              "typeface": "Heiti TC",
+              "color": "#667085"
+            },
+            {
+              "index": 3,
+              "text": "  ·  ",
+              "fontSize": 11,
+              "typeface": "Heiti TC",
+              "color": "#667085"
+            },
+            {
+              "index": 4,
+              "text": "[2] Dexterity 千台規劃",
+              "fontSize": 11,
+              "typeface": "Heiti TC",
+              "color": "#667085"
+            },
+            {
+              "index": 5,
+              "text": "  ·  ",
+              "fontSize": 11,
+              "typeface": "Heiti TC",
+              "color": "#667085"
+            },
+            {
+              "index": 6,
+              "text": "[3] 最新量產時程",
+              "fontSize": 11,
+              "typeface": "Heiti TC",
+              "color": "#667085"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

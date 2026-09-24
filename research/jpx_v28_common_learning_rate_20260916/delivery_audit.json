@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "pdf_pages": 2,
+  "all_pages_visually_reviewed": true,
+  "numeric_text_checked": true,
+  "archive_entries": 38,
+  "archive_crc_passed": true,
+  "archive_matches_sources": true,
+  "pdf_sha256": "8d5efccfa6ed88c3aaa639de43268d0bfde704814356d97bb9aec297d92673aa",
+  "zip_sha256": "a12e36bb4df8d96dfd9293e8e463eeec163d4df6c494f9a645162b39bb2a81f1",
+  "pdf": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/output/pdf/JPX-v28-common-learning-rate-mobile-20260916.pdf",
+  "zip": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/output/JPX-v28-common-learning-rate-data-20260916.zip",
+  "active_baseline": "v7"
+}

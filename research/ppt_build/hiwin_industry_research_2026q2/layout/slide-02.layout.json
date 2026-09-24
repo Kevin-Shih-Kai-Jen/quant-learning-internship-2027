@@ -1,0 +1,1023 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/pkk25h",
+    "id": "pkk25h",
+    "slide": 2,
+    "layoutId": "/ppt/slideLayouts/slideLayout6.xml",
+    "layoutName": "Title Only",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "Color Block Theme",
+    "colors": {
+      "accent1": "#2ED978",
+      "accent2": "#9FB6FE",
+      "accent3": "#F3F161",
+      "accent4": "#FF5F27",
+      "accent5": "#5EC4FF",
+      "accent6": "#3C7DA3",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#393939",
+      "lt2": "#F5F5F5",
+      "hlink": "#FFA83A",
+      "folHlink": "#96607D"
+    },
+    "fontScheme": {
+      "name": "Inter",
+      "majorFont": {
+        "latinTypeface": "Inter"
+      },
+      "minorFont": {
+        "latinTypeface": "Inter"
+      }
+    },
+    "typefaces": [
+      "Heiti TC",
+      "Inter",
+      "Inter Medium"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout6.xml",
+      "name": "Title Only",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout6.xml/8",
+          "id": "8",
+          "name": "Footer Placeholder 4",
+          "bbox": [
+            41.33,
+            659.31,
+            374.67,
+            25.33
+          ],
+          "geometry": "rect",
+          "resolvedTextStyle": {
+            "anchor": 3,
+            "vertical": 1,
+            "verticalAlignment": "bottom",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          }
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout6.xml/9",
+          "id": "9",
+          "name": "Slide Number Placeholder 5",
+          "bbox": [
+            1184.18,
+            659.24,
+            54.48,
+            25.33
+          ],
+          "geometry": "rect",
+          "text": "‹#›",
+          "textPreview": "‹#›",
+          "resolvedTextStyle": {
+            "anchor": 3,
+            "vertical": 1,
+            "verticalAlignment": "bottom",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "‹#›",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "‹#›"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout6.xml/2",
+          "id": "2",
+          "name": "Title Placeholder 1",
+          "bbox": [
+            41.33,
+            36.12,
+            1197.33,
+            109.97
+          ],
+          "geometry": "rect",
+          "text": "Click to edit Master title style",
+          "textPreview": "Click to edit Master title style",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "vertical": 1,
+            "verticalAlignment": "top",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Click to edit Master title style",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Click to edit Master title style"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "type": "master",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/2",
+          "id": "2",
+          "name": "Title Placeholder 1",
+          "bbox": [
+            41.33,
+            36.12,
+            1197.33,
+            109.97
+          ],
+          "geometry": "rect",
+          "text": "Click to edit Master title style",
+          "textPreview": "Click to edit Master title style",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "vertical": 1,
+            "verticalAlignment": "top",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Click to edit Master title style",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Click to edit Master title style"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/3",
+          "id": "3",
+          "name": "Text Placeholder 2",
+          "bbox": [
+            41.33,
+            213.33,
+            1197.33,
+            416
+          ],
+          "geometry": "rect",
+          "text": "Click to edit Master text styles\nSecond level\nThird level\nFourth level\nFifth level",
+          "textPreview": "Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level",
+          "resolvedTextStyle": {
+            "vertical": 1,
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Click to edit Master text styles",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Click to edit Master text styles"
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "text": "Second level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Second level"
+                }
+              ]
+            },
+            {
+              "index": 3,
+              "text": "Third level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Third level"
+                }
+              ]
+            },
+            {
+              "index": 4,
+              "text": "Fourth level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Fourth level"
+                }
+              ]
+            },
+            {
+              "index": 5,
+              "text": "Fifth level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Fifth level"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/5",
+          "id": "5",
+          "name": "Footer Placeholder 4",
+          "bbox": [
+            41.33,
+            659.31,
+            374.67,
+            25.33
+          ],
+          "geometry": "rect",
+          "resolvedTextStyle": {
+            "anchor": 3,
+            "vertical": 1,
+            "verticalAlignment": "bottom",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          }
+        },
+        {
+          "order": 4,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/6",
+          "id": "6",
+          "name": "Slide Number Placeholder 5",
+          "bbox": [
+            1184.18,
+            659.24,
+            54.48,
+            25.33
+          ],
+          "geometry": "rect",
+          "text": "‹#›",
+          "textPreview": "‹#›",
+          "resolvedTextStyle": {
+            "anchor": 3,
+            "vertical": 1,
+            "verticalAlignment": "bottom",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "‹#›",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "‹#›"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/i1c3mxwv",
+      "id": "2",
+      "name": "Slide Number Placeholder 1",
+      "bbox": [
+        1184.18,
+        659.24,
+        54.48,
+        25.33
+      ],
+      "text": "2",
+      "textPreview": "2",
+      "resolvedFontSize": 14.67,
+      "resolvedTextStyle": {
+        "anchor": 3,
+        "vertical": 1,
+        "fontSize": 14.67,
+        "typeface": "Inter",
+        "color": "tx1",
+        "alignment": "right",
+        "verticalAlignment": "bottom",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "2"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "2",
+          "runs": [
+            {
+              "index": 1,
+              "text": "2"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/j2l4fixg",
+      "id": "3",
+      "name": "Title 2",
+      "bbox": [
+        41.33,
+        92.75,
+        822.67,
+        66.68
+      ],
+      "text": "今天的路線：先證據，再故事",
+      "textPreview": "今天的路線：先證據，再故事",
+      "resolvedFontSize": 38.67,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "vertical": 1,
+        "fontSize": 38.67,
+        "typeface": "Inter Medium",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "今天的路線：先證據，再故事"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "今天的路線：先證據，再故事",
+          "runs": [
+            {
+              "index": 1,
+              "text": "今天的路線：先證據，再故事"
+            }
+          ],
+          "bulletCharacter": "",
+          "lineSpacingPercent": 90000
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "kind": "table",
+      "scope": "slide",
+      "aid": "tb/zex8bqhg",
+      "id": "6",
+      "name": "Table 3",
+      "bbox": [
+        41.33,
+        177.33,
+        1197.34,
+        452
+      ],
+      "text": "01 | 最新財務口徑｜Q2 總損益、Q1 產品拆分\n02 | 兩個營收池｜元件 vs. 微米／奈米定位系統\n03 | 技術翻譯｜控制器、驅動器、馬達、感測器怎麼合作\n04 | 產業連結｜半導體、PCB、面板、工具機、自動化等\n05 | 未來一年｜已發生、公司說法、合理推論分開看\n06 | 研究缺口｜下一季要追哪些數字，才能驗證故事",
+      "textPreview": "01 | 最新財務口徑｜Q2 總損益、Q1 產品拆分 | 02 | 兩個營收池｜元件 vs. 微米／奈米定位系統 | 03 | 技術翻譯｜控制器、驅動器、馬達、感測器怎麼合作 | 04 | 產業連結｜半導體、PCB、面板、工具機、自動化等 | 05 | 未來一年｜已發生、公...",
+      "rows": 6,
+      "cols": 2,
+      "cells": [
+        {
+          "index": 1,
+          "row": 1,
+          "column": 1,
+          "bbox": [
+            41.33,
+            177.33,
+            92.23,
+            75.33
+          ],
+          "text": "01",
+          "textPreview": "01",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "01",
+              "lineSpacingPercent": 100000,
+              "resolvedTextStyle": {
+                "fontSize": 16,
+                "typeface": "Heiti TC",
+                "color": "#0077B6",
+                "bold": true,
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "01",
+                  "fontSize": 16,
+                  "typeface": "Heiti TC",
+                  "color": "#0077B6",
+                  "bold": true,
+                  "textTransform": "none"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "row": 1,
+          "column": 2,
+          "bbox": [
+            133.57,
+            177.33,
+            1105.1,
+            75.33
+          ],
+          "text": "最新財務口徑｜Q2 總損益、Q1 產品拆分",
+          "textPreview": "最新財務口徑｜Q2 總損益、Q1 產品拆分",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "最新財務口徑｜Q2 總損益、Q1 產品拆分",
+              "lineSpacingPercent": 100000,
+              "resolvedTextStyle": {
+                "fontSize": 15,
+                "typeface": "Heiti TC",
+                "color": "#111827",
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "最新財務口徑｜Q2 總損益、Q1 產品拆分",
+                  "fontSize": 15,
+                  "typeface": "Heiti TC",
+                  "color": "#111827",
+                  "textTransform": "none"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "row": 2,
+          "column": 1,
+          "bbox": [
+            41.33,
+            252.67,
+            92.23,
+            75.33
+          ],
+          "text": "02",
+          "textPreview": "02",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "02",
+              "lineSpacingPercent": 100000,
+              "resolvedTextStyle": {
+                "fontSize": 16,
+                "typeface": "Heiti TC",
+                "color": "#0077B6",
+                "bold": true,
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "02",
+                  "fontSize": 16,
+                  "typeface": "Heiti TC",
+                  "color": "#0077B6",
+                  "bold": true,
+                  "textTransform": "none"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "row": 2,
+          "column": 2,
+          "bbox": [
+            133.57,
+            252.67,
+            1105.1,
+            75.33
+          ],
+          "text": "兩個營收池｜元件 vs. 微米／奈米定位系統",
+          "textPreview": "兩個營收池｜元件 vs. 微米／奈米定位系統",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "兩個營收池｜元件 vs. 微米／奈米定位系統",
+              "lineSpacingPercent": 100000,
+              "resolvedTextStyle": {
+                "fontSize": 15,
+                "typeface": "Heiti TC",
+                "color": "#111827",
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "兩個營收池｜元件 vs. 微米／奈米定位系統",
+                  "fontSize": 15,
+                  "typeface": "Heiti TC",
+                  "color": "#111827",
+                  "textTransform": "none"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "row": 3,
+          "column": 1,
+          "bbox": [
+            41.33,
+            328,
+            92.23,
+            75.33
+          ],
+          "text": "03",
+          "textPreview": "03",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "03",
+              "lineSpacingPercent": 100000,
+              "resolvedTextStyle": {
+                "fontSize": 16,
+                "typeface": "Heiti TC",
+                "color": "#0077B6",
+                "bold": true,
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "03",
+                  "fontSize": 16,
+                  "typeface": "Heiti TC",
+                  "color": "#0077B6",
+                  "bold": true,
+                  "textTransform": "none"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "row": 3,
+          "column": 2,
+          "bbox": [
+            133.57,
+            328,
+            1105.1,
+            75.33
+          ],
+          "text": "技術翻譯｜控制器、驅動器、馬達、感測器怎麼合作",
+          "textPreview": "技術翻譯｜控制器、驅動器、馬達、感測器怎麼合作",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "技術翻譯｜控制器、驅動器、馬達、感測器怎麼合作",
+              "lineSpacingPercent": 100000,
+              "resolvedTextStyle": {
+                "fontSize": 15,
+                "typeface": "Heiti TC",
+                "color": "#111827",
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "技術翻譯｜控制器、驅動器、馬達、感測器怎麼合作",
+                  "fontSize": 15,
+                  "typeface": "Heiti TC",
+                  "color": "#111827",
+                  "textTransform": "none"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "row": 4,
+          "column": 1,
+          "bbox": [
+            41.33,
+            403.33,
+            92.23,
+            75.33
+          ],
+          "text": "04",
+          "textPreview": "04",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "04",
+              "lineSpacingPercent": 100000,
+              "resolvedTextStyle": {
+                "fontSize": 16,
+                "typeface": "Heiti TC",
+                "color": "#0077B6",
+                "bold": true,
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "04",
+                  "fontSize": 16,
+                  "typeface": "Heiti TC",
+                  "color": "#0077B6",
+                  "bold": true,
+                  "textTransform": "none"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "row": 4,
+          "column": 2,
+          "bbox": [
+            133.57,
+            403.33,
+            1105.1,
+            75.33
+          ],
+          "text": "產業連結｜半導體、PCB、面板、工具機、自動化等",
+          "textPreview": "產業連結｜半導體、PCB、面板、工具機、自動化等",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "產業連結｜半導體、PCB、面板、工具機、自動化等",
+              "lineSpacingPercent": 100000,
+              "resolvedTextStyle": {
+                "fontSize": 15,
+                "typeface": "Heiti TC",
+                "color": "#111827",
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "產業連結｜半導體、PCB、面板、工具機、自動化等",
+                  "fontSize": 15,
+                  "typeface": "Heiti TC",
+                  "color": "#111827",
+                  "textTransform": "none"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "row": 5,
+          "column": 1,
+          "bbox": [
+            41.33,
+            478.67,
+            92.23,
+            75.33
+          ],
+          "text": "05",
+          "textPreview": "05",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "05",
+              "lineSpacingPercent": 100000,
+              "resolvedTextStyle": {
+                "fontSize": 16,
+                "typeface": "Heiti TC",
+                "color": "#0077B6",
+                "bold": true,
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "05",
+                  "fontSize": 16,
+                  "typeface": "Heiti TC",
+                  "color": "#0077B6",
+                  "bold": true,
+                  "textTransform": "none"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "row": 5,
+          "column": 2,
+          "bbox": [
+            133.57,
+            478.67,
+            1105.1,
+            75.33
+          ],
+          "text": "未來一年｜已發生、公司說法、合理推論分開看",
+          "textPreview": "未來一年｜已發生、公司說法、合理推論分開看",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "未來一年｜已發生、公司說法、合理推論分開看",
+              "lineSpacingPercent": 100000,
+              "resolvedTextStyle": {
+                "fontSize": 15,
+                "typeface": "Heiti TC",
+                "color": "#111827",
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "未來一年｜已發生、公司說法、合理推論分開看",
+                  "fontSize": 15,
+                  "typeface": "Heiti TC",
+                  "color": "#111827",
+                  "textTransform": "none"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "row": 6,
+          "column": 1,
+          "bbox": [
+            41.33,
+            554,
+            92.23,
+            75.33
+          ],
+          "text": "06",
+          "textPreview": "06",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "06",
+              "lineSpacingPercent": 100000,
+              "resolvedTextStyle": {
+                "fontSize": 16,
+                "typeface": "Heiti TC",
+                "color": "#0077B6",
+                "bold": true,
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "06",
+                  "fontSize": 16,
+                  "typeface": "Heiti TC",
+                  "color": "#0077B6",
+                  "bold": true,
+                  "textTransform": "none"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "row": 6,
+          "column": 2,
+          "bbox": [
+            133.57,
+            554,
+            1105.1,
+            75.33
+          ],
+          "text": "研究缺口｜下一季要追哪些數字，才能驗證故事",
+          "textPreview": "研究缺口｜下一季要追哪些數字，才能驗證故事",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "研究缺口｜下一季要追哪些數字，才能驗證故事",
+              "lineSpacingPercent": 100000,
+              "resolvedTextStyle": {
+                "fontSize": 15,
+                "typeface": "Heiti TC",
+                "color": "#111827",
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "研究缺口｜下一季要追哪些數字，才能驗證故事",
+                  "fontSize": 15,
+                  "typeface": "Heiti TC",
+                  "color": "#111827",
+                  "textTransform": "none"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vy14bixk",
+      "id": "7",
+      "name": "Clickable source footer",
+      "bbox": [
+        42,
+        681,
+        1125,
+        24
+      ],
+      "geometry": "rect",
+      "text": "資料來源：[1] 公司財務資訊  ·  [2] 2025 年報",
+      "textPreview": "資料來源：[1] 公司財務資訊  ·  [2] 2025 年報",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "fontSize": 11,
+        "typeface": "Inter",
+        "color": "#667085",
+        "alignment": "left",
+        "wrap": "none",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "資料來源：[1] 公司財務資訊  ·  [2] 2025 年報"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "資料來源：[1] 公司財務資訊  ·  [2] 2025 年報",
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "color": "#667085"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "資料來源：",
+              "fontSize": 11,
+              "typeface": "Heiti TC",
+              "color": "#667085"
+            },
+            {
+              "index": 2,
+              "text": "[1] 公司財務資訊",
+              "fontSize": 11,
+              "typeface": "Heiti TC",
+              "color": "#667085"
+            },
+            {
+              "index": 3,
+              "text": "  ·  ",
+              "fontSize": 11,
+              "typeface": "Heiti TC",
+              "color": "#667085"
+            },
+            {
+              "index": 4,
+              "text": "[2] 2025 年報",
+              "fontSize": 11,
+              "typeface": "Heiti TC",
+              "color": "#667085"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

@@ -1,0 +1,148 @@
+{
+  "all_checks_passed": true,
+  "independent_model_checks": [
+    {
+      "family": "level_t",
+      "year": 2018,
+      "selected_rows": 1470,
+      "lambda": 100.0,
+      "independent_svd_max_inner_mse_error": 0.0
+    },
+    {
+      "family": "level_t",
+      "year": 2019,
+      "selected_rows": 1446,
+      "lambda": 10.0,
+      "independent_svd_max_inner_mse_error": 1.0842021724855044e-19
+    },
+    {
+      "family": "level_t",
+      "year": 2020,
+      "selected_rows": 1452,
+      "lambda": 100.0,
+      "independent_svd_max_inner_mse_error": 1.0842021724855044e-19
+    },
+    {
+      "family": "level_t",
+      "year": 2021,
+      "selected_rows": 1350,
+      "lambda": 100.0,
+      "independent_svd_max_inner_mse_error": 1.0842021724855044e-19
+    },
+    {
+      "family": "return_t",
+      "year": 2018,
+      "selected_rows": 1470,
+      "lambda": 100.0,
+      "independent_svd_max_inner_mse_error": 5.421010862427522e-20
+    },
+    {
+      "family": "return_t",
+      "year": 2019,
+      "selected_rows": 1446,
+      "lambda": 100.0,
+      "independent_svd_max_inner_mse_error": 1.0842021724855044e-19
+    },
+    {
+      "family": "return_t",
+      "year": 2020,
+      "selected_rows": 1452,
+      "lambda": 100.0,
+      "independent_svd_max_inner_mse_error": 5.421010862427522e-20
+    },
+    {
+      "family": "return_t",
+      "year": 2021,
+      "selected_rows": 1350,
+      "lambda": 100.0,
+      "independent_svd_max_inner_mse_error": 2.168404344971009e-19
+    }
+  ],
+  "independent_execution_checks": [
+    {
+      "key": "original_dynamic",
+      "intervals": 953,
+      "executed_trades": 5717,
+      "close_only": false,
+      "drawdown_recomputed": -0.3319006641348057
+    },
+    {
+      "key": "return_t_signed",
+      "intervals": 953,
+      "executed_trades": 5711,
+      "close_only": false,
+      "drawdown_recomputed": -0.5109729381817012
+    },
+    {
+      "key": "fixed_30_70",
+      "intervals": 953,
+      "executed_trades": 5717,
+      "close_only": false,
+      "drawdown_recomputed": -0.39181212437268154
+    },
+    {
+      "key": "level_t_signed",
+      "intervals": 953,
+      "executed_trades": 5717,
+      "close_only": false,
+      "drawdown_recomputed": -0.355548535642629
+    },
+    {
+      "key": "fixed_50_50",
+      "intervals": 953,
+      "executed_trades": 5717,
+      "close_only": false,
+      "drawdown_recomputed": -0.39601842758908057
+    },
+    {
+      "key": "level_t_expanding",
+      "intervals": 953,
+      "executed_trades": 5717,
+      "close_only": false,
+      "drawdown_recomputed": -0.3980487392019433
+    },
+    {
+      "key": "original_dynamic_close",
+      "intervals": 953,
+      "executed_trades": 5717,
+      "close_only": true,
+      "drawdown_recomputed": -0.42089419407714
+    },
+    {
+      "key": "fixed_30_70_close",
+      "intervals": 953,
+      "executed_trades": 5717,
+      "close_only": true,
+      "drawdown_recomputed": -0.4722026403521754
+    },
+    {
+      "key": "fixed_50_50_close",
+      "intervals": 953,
+      "executed_trades": 5717,
+      "close_only": true,
+      "drawdown_recomputed": -0.4561418665284229
+    },
+    {
+      "key": "fixed_70_30_close",
+      "intervals": 953,
+      "executed_trades": 5717,
+      "close_only": true,
+      "drawdown_recomputed": -0.4432447459553449
+    },
+    {
+      "key": "return_t_calendar_corrected_ols",
+      "intervals": 953,
+      "executed_trades": 5717,
+      "close_only": false,
+      "drawdown_recomputed": -0.41123525578920095
+    },
+    {
+      "key": "return_t_calendar_corrected_ridge",
+      "intervals": 953,
+      "executed_trades": 5717,
+      "close_only": false,
+      "drawdown_recomputed": -0.5109729381817012
+    }
+  ],
+  "scope": "Independent SVD inner lambda scores, selected predictions, raw fills, PnL and compounded drawdown; 10 paired baseline reproductions in main runner."
+}

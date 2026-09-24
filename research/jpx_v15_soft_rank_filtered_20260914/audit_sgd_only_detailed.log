@@ -1,0 +1,15 @@
+sgd_only audited days 200 seconds 97.0
+REPLAY_DRIFT 2018-02-01 [4.892356384985015e-08, 1.901490486396817e-08, 9.597724493444206e-08, 1.143214381841293e-07, 8.643300820884223e-08, 1.0926994172039425e-08, 7.609169936271478e-17]
+REPLAY_DRIFT 2018-05-09 [7.85980338923942e-06, 7.888454552358618e-06, 2.2658661154669612e-05, 2.8754099174117597e-05, 2.0204562711208926e-05, 8.54547477648024e-06, 4.4611138215001687e-17]
+sgd_only audited days 400 seconds 204.5
+sgd_only audited days 600 seconds 317.3
+sgd_only audited days 800 seconds 433.3
+sgd_only audited days 1000 seconds 545.6
+REPLAY_MAXIMA [7.85980338923942e-06, 7.888454552358618e-06, 2.2658661154669612e-05, 2.8754099174117597e-05, 2.0204562711208926e-05, 8.54547477648024e-06, 4.682246679075141e-15] finite_difference 1.2004373598508675e-10
+Traceback (most recent call last):
+  File "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v15_soft_rank_filtered_20260914/audit_results.py", line 115, in <module>
+    np.testing.assert_allclose(sharpe,results['validation']['official_style_unannualized_sharpe'],atol=1e-13)
+                                      ^^^^^^^^^^^^^^
+  File "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v15_soft_rank_filtered_20260914/audit_results.py", line 71, in audit
+    for block in range(2):
+AssertionError

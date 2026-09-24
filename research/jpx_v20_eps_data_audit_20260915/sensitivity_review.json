@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "quarter_recomputations": 60,
+  "growth_recomputations": 40,
+  "max_absolute_share_recomputation_error": 2.9802322387695312e-08,
+  "max_absolute_quarter_eps_recomputation_error": 1.4210854715202004e-14,
+  "max_absolute_growth_recomputation_error": 3.637978807091713e-12,
+  "ordinary_point_growth_signs_unchanged": true,
+  "ordinary_signs_unchanged_under_conditional_eps_rounding_ranges": true,
+  "point_estimate_over100_gate_changes": 0,
+  "E05_conditional_yoy": {
+    "CaseID": "E05",
+    "SampleType": "extreme",
+    "Growth": "YoY",
+    "ConditionalLower": 93.59825355359362,
+    "ConditionalUpper": 110.05863463990408,
+    "BaseIntervalContainsZero": false,
+    "OriginalGrowth": 1329.99999999991
+  },
+  "E10_conditional_yoy": {
+    "CaseID": "E10",
+    "SampleType": "extreme",
+    "Growth": "YoY",
+    "ConditionalLower": null,
+    "ConditionalUpper": null,
+    "BaseIntervalContainsZero": true,
+    "OriginalGrowth": 749.0000000001493
+  },
+  "assumptions_and_limits": [
+    "All outputs are sensitivity calculations, not an official corrected single-quarter EPS feed.",
+    "The inferred quarter average shares identity assumes cumulative weighted-average shares are measured on a common day-weighted basis, with comparable split/restatement bases. This accounting assumption was not verified for every issuer.",
+    "EPS-implied numerators are subtracted under the assumption of compatible EPS numerator definitions across periods.",
+    "The EPS lower/upper endpoints only propagate independently rounded reported EPS within +/- 0.005, while treating reported average shares as exact; they are conditional bounds, not statistical confidence intervals or unconditional true-EPS bounds.",
+    "If EPS was truncated rather than rounded to the nearest 0.01, or weighted-share conventions differ, those conditional bounds need revision.",
+    "Profit-based results subtract the rounded or truncated Profit field. Profit=0 need not mean exact zero profit; dividing its difference by inferred quarter shares cannot supply a trustworthy replacement near zero.",
+    "Zero gate changes describes point estimates only. E05 conditional YoY ranges from approximately 93.598 to 110.059 times and straddles the 100-times training exclusion threshold.",
+    "E10 year-base EPS sensitivity interval crosses zero; its year-growth ratio has no finite continuous conditional interval over that range.",
+    "A later issuer quarterly report can diagnose an earlier estimate but cannot be backfilled into a January 31 signal if first disclosed February 12.",
+    "The issuer-reported E05 single-quarter EPS numbers 13.39 and 0.12 are themselves rounded; comparing their displayed points with sensitivity bounds is not a proof of inconsistency. They must not be labeled as available January 31 without timing evidence."
+  ]
+}

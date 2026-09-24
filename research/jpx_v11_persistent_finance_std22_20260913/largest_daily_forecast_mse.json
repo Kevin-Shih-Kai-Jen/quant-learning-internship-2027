@@ -1,0 +1,58 @@
+{
+  "v10_baseline": [
+    {
+      "Date": "2018-02-06",
+      "AllStockForecastMSE": 0.12521239822064648
+    },
+    {
+      "Date": "2019-02-05",
+      "AllStockForecastMSE": 0.12107329515558746
+    },
+    {
+      "Date": "2021-08-11",
+      "AllStockForecastMSE": 0.1041801607737805
+    }
+  ],
+  "persistent_raw": [
+    {
+      "Date": "2021-11-15",
+      "AllStockForecastMSE": 0.2957147827108706
+    },
+    {
+      "Date": "2021-09-27",
+      "AllStockForecastMSE": 0.1538393613825434
+    },
+    {
+      "Date": "2021-08-12",
+      "AllStockForecastMSE": 0.14944952393715003
+    }
+  ],
+  "decay_std22": [
+    {
+      "Date": "2019-05-10",
+      "AllStockForecastMSE": 0.13637876288043227
+    },
+    {
+      "Date": "2018-02-06",
+      "AllStockForecastMSE": 0.11028264458074089
+    },
+    {
+      "Date": "2020-11-10",
+      "AllStockForecastMSE": 0.06843586016233712
+    }
+  ],
+  "persistent_std22": [
+    {
+      "Date": "2021-11-12",
+      "AllStockForecastMSE": 0.1904449490467082
+    },
+    {
+      "Date": "2021-10-18",
+      "AllStockForecastMSE": 0.16990415282464813
+    },
+    {
+      "Date": "2021-11-29",
+      "AllStockForecastMSE": 0.16426748806582725
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "source_sha256": {
+    "jpx_v30_profit_actual_forecast_20260916/experiment_defaults_snapshot.json": "a891c611d087aff7196f7508656946f77cc8cfef3ff3f8ae170e44010f4e83be",
+    "jpx_v8_soft_rank_20260912/inputs.pkl": "6b0ff60bfb8eab20ec7c6e087e746dd6e0ccc38b9633d1a11d98477d84857bc6",
+    "jpx_v14_filtered_forecast_events_20260914/financial_signal_features.pkl": "bf067c7cea6c1c7d14cd0bdbeda5ae995590f43fa1c04670e30b31036d5be03d",
+    "jpx_v14_filtered_forecast_events_20260914/financial_events.pkl": "ae1a7b1bc91a985d541b9b03e0443a5d785c4ae969b3dc14dc780551cca7ae07",
+    "jpx_v27_profit_forecast_state_20260916/financial_signal_features.pkl": "251a27ee354440c53853cc294c91dfdaff68fc6717fb2d8267cc9febd7668ead",
+    "jpx_v27_profit_forecast_state_20260916/feature_audit.json": "c52b0e565c09a9eec55ccebd4f6a68dc36a5a32ef272ba4b141de9e4001c2134",
+    "jpx_v27_profit_forecast_state_20260916/feature_manifest.json": "36bd185310a6fc106d181ad6f5a16b634d626f68c7f3e6b9529efed6944e970c",
+    "jpx_v27_profit_forecast_state_20260916/features.py": "47a876de1e4d4e4340a29e11edc6101c8a2389979aebc8ae997268361e9e5e46",
+    "jpx_v27_profit_forecast_state_20260916/state_events.pkl": "d587de65aac789f4d8c0d3fb898cfa72bdd71ce5642f986d52fc592f9ba785f9",
+    "jpx_v27_profit_forecast_state_20260916/signal_event_mapping.npz": "1c45ae794c4d9ac2bac646011051fc281b16c6eedc11878ffc772f53cf85f1dd",
+    "jpx_v30_profit_actual_forecast_20260916/run.py": "b597b51dc6ef88a54d9384af01a7e8d72aae78e15d2977173dbda9e1ee09a4e9",
+    "jpx_v30_profit_actual_forecast_20260916/experiment_plan.md": "4f5bb1a8ebb6f33774f934f5c733db642ad279818f86a9a2515dfbd93a07f6c1",
+    "jpx_v30_profit_actual_forecast_20260916/common_learning_rates.csv": "5627933f0e8800156f770dc9c9faa9179e3a6d6a197cc29e950f12d01077e88d",
+    "jpx_v28_common_learning_rate_20260916/common_learning_rates.csv": "d0be70a92db40e47d793465e24ab18a79c6ca9df3c5ae593e5f07aa07648bfb9"
+  },
+  "training_threshold": null,
+  "validation_threshold": null,
+  "models": {
+    "g": [],
+    "joint_r": [
+      "OperatingProfitActualGrowth"
+    ],
+    "joint_f": [
+      "ProfitLatestYoY"
+    ],
+    "joint_rf": [
+      "OperatingProfitActualGrowth",
+      "ProfitLatestYoY"
+    ],
+    "frozen_r": [
+      "OperatingProfitActualGrowth"
+    ],
+    "frozen_f": [
+      "ProfitLatestYoY"
+    ],
+    "frozen_rf": [
+      "OperatingProfitActualGrowth",
+      "ProfitLatestYoY"
+    ]
+  },
+  "selection_metric_priority": [
+    "Sharpe",
+    "RankIC"
+  ],
+  "rank_ic_positive_required": false,
+  "mse_used_for_selection": false,
+  "test_evaluated": false,
+  "frozen_g": "same-signal-day cached predictions from this experiment pure g model",
+  "learning_rate": "identical scalar each update in all seven models; predetermined full-model stability check"
+}

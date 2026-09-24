@@ -1,0 +1,13 @@
+{
+  "version": "v25",
+  "description": "Rerun prior single financial feature plus v7 g without extreme-value exclusion; 18 retrained, 3 unchanged reused",
+  "directory": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v25_single_features_unfiltered_20260916",
+  "status": "completed_experiment",
+  "retrained_models": 18,
+  "reused_models": 3,
+  "current_features": 16,
+  "legacy_features": 5,
+  "training_financial_abs_limit": null,
+  "evaluation_stock_pool_filtered": false,
+  "audit_passed": true
+}

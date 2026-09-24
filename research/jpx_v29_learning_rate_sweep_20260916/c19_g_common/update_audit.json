@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "checked_updates": 1199,
+  "max_gradient_abs_error": 2.4424906541753444e-15,
+  "max_parameter_step_abs_error": 4.85722573273506e-17,
+  "max_loss_abs_error": 6.938893903907228e-18,
+  "max_rate_abs_error": 0.0
+}

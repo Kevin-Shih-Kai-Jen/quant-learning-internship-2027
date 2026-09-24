@@ -1,0 +1,201 @@
+{
+  "version": "v27",
+  "audit_passed": true,
+  "comparison": [
+    {
+      "Variant": "g",
+      "Label": "純g",
+      "Sharpe": 0.0076788715624210736,
+      "RankIC": -0.0007338924981283103,
+      "MSE": 0.0006654329991342864,
+      "DeltaSharpeVsG": 0.0,
+      "DeltaRankICVsG": 0.0,
+      "MedianLearningRate": 0.0718187137730381
+    },
+    {
+      "Variant": "old_forecast",
+      "Label": "舊版：g＋累加預測年比",
+      "Sharpe": 0.012657113276118877,
+      "RankIC": -0.0003831390528420118,
+      "MSE": 0.0006646094793359871,
+      "DeltaSharpeVsG": 0.0049782417136978035,
+      "DeltaRankICVsG": 0.0003507534452862985,
+      "MedianLearningRate": 0.0701323758693056
+    },
+    {
+      "Variant": "old_joint",
+      "Label": "舊版：g＋累加預測年比＋相對修正",
+      "Sharpe": 0.011516205472893825,
+      "RankIC": -0.00019436559791794126,
+      "MSE": 0.0006643535291153397,
+      "DeltaSharpeVsG": 0.003837333910472751,
+      "DeltaRankICVsG": 0.0005395269002103691,
+      "MedianLearningRate": 0.0695127219185806
+    },
+    {
+      "Variant": "overwrite",
+      "Label": "A：g＋最新年比（覆蓋）",
+      "Sharpe": 0.011121961475682621,
+      "RankIC": -0.0007229739871105822,
+      "MSE": 0.0006638039682287578,
+      "DeltaSharpeVsG": 0.003443089913261548,
+      "DeltaRankICVsG": 1.0918511017728085e-05,
+      "MedianLearningRate": 0.0655697326362728
+    },
+    {
+      "Variant": "change_old",
+      "Label": "B：g＋r1×(new−old)＋r2×old",
+      "Sharpe": 0.0019352724446324635,
+      "RankIC": -0.0013637391870770924,
+      "MSE": 0.0006664489308204108,
+      "DeltaSharpeVsG": -0.00574359911778861,
+      "DeltaRankICVsG": -0.0006298466889487821,
+      "MedianLearningRate": 0.0627713554309694
+    }
+  ],
+  "paired_bootstrap": [
+    {
+      "Comparison": "overwrite - g",
+      "Metric": "Sharpe",
+      "Difference": 0.003443089913261548,
+      "CI95Low": -0.022254547130181546,
+      "CI95High": 0.030649623478355915
+    },
+    {
+      "Comparison": "overwrite - g",
+      "Metric": "RankIC",
+      "Difference": 1.0918511017728085e-05,
+      "CI95Low": -0.0023357080673177925,
+      "CI95High": 0.0017092373551999853
+    },
+    {
+      "Comparison": "change_old - g",
+      "Metric": "Sharpe",
+      "Difference": -0.00574359911778861,
+      "CI95Low": -0.03403511048896868,
+      "CI95High": 0.02675804865631206
+    },
+    {
+      "Comparison": "change_old - g",
+      "Metric": "RankIC",
+      "Difference": -0.0006298466889487821,
+      "CI95Low": -0.0031280497017241973,
+      "CI95High": 0.0016767890575390702
+    },
+    {
+      "Comparison": "change_old - overwrite",
+      "Metric": "Sharpe",
+      "Difference": -0.009186689031050159,
+      "CI95Low": -0.027033217925036785,
+      "CI95High": 0.01186403061578034
+    },
+    {
+      "Comparison": "change_old - overwrite",
+      "Metric": "RankIC",
+      "Difference": -0.0006407651999665102,
+      "CI95Low": -0.001984171707316327,
+      "CI95High": 0.0010233219550715585
+    },
+    {
+      "Comparison": "overwrite - old_forecast",
+      "Metric": "Sharpe",
+      "Difference": -0.0015351518004362557,
+      "CI95Low": -0.026764158478097416,
+      "CI95High": 0.025521654979369066
+    },
+    {
+      "Comparison": "overwrite - old_forecast",
+      "Metric": "RankIC",
+      "Difference": -0.0003398349342685704,
+      "CI95Low": -0.002412080983068145,
+      "CI95High": 0.0014822814020219548
+    },
+    {
+      "Comparison": "change_old - old_forecast",
+      "Metric": "Sharpe",
+      "Difference": -0.010721840831486414,
+      "CI95Low": -0.0375969979770276,
+      "CI95High": 0.021117313201120574
+    },
+    {
+      "Comparison": "change_old - old_forecast",
+      "Metric": "RankIC",
+      "Difference": -0.0009806001342350806,
+      "CI95Low": -0.003212931403329331,
+      "CI95High": 0.001385908277070304
+    },
+    {
+      "Comparison": "overwrite - old_joint",
+      "Metric": "Sharpe",
+      "Difference": -0.0003942439972112032,
+      "CI95Low": -0.025649813327893865,
+      "CI95High": 0.027340814128157965
+    },
+    {
+      "Comparison": "overwrite - old_joint",
+      "Metric": "RankIC",
+      "Difference": -0.000528608389192641,
+      "CI95Low": -0.002595149672853249,
+      "CI95High": 0.001341912957029087
+    },
+    {
+      "Comparison": "change_old - old_joint",
+      "Metric": "Sharpe",
+      "Difference": -0.009580933028261362,
+      "CI95Low": -0.036569497002430826,
+      "CI95High": 0.02230904437141447
+    },
+    {
+      "Comparison": "change_old - old_joint",
+      "Metric": "RankIC",
+      "Difference": -0.0011693735891591512,
+      "CI95Low": -0.003409433126935189,
+      "CI95High": 0.0012240062803548263
+    }
+  ],
+  "rank_ic_intervals": [
+    {
+      "Variant": "overwrite",
+      "RankIC": -0.0007229739871105822,
+      "CI95Low": -0.0072768707372746246,
+      "CI95High": 0.005204497172971943
+    },
+    {
+      "Variant": "change_old",
+      "RankIC": -0.0013637391870770924,
+      "CI95Low": -0.007440474145189956,
+      "CI95High": 0.004448097729645903
+    }
+  ],
+  "feature_audit": {
+    "passed": true,
+    "old_events_and_forecast_snapshots_exactly_reproduced": true,
+    "state_events": 38571,
+    "valid_events": 23899,
+    "nonzero_revision_events": 4608,
+    "same_quarter_revisions": 5,
+    "quarter_rollover_rebased_revisions": 4603,
+    "zero_delta_valid_states": 19291,
+    "invalid_state_events": 14672,
+    "mapped_stock_days": 2332001,
+    "forecast_formulas_checked": true,
+    "references_known_at_event_time": true,
+    "last_event_only_mapping_checked_all_rows": true,
+    "new_equals_delta_plus_old": true,
+    "transition_tests_passed": true
+  },
+  "optimization_diagnostics": {
+    "median_step_ratio_B_to_A": 0.9999999999999984,
+    "days_step_ratio_below_point_one": 25,
+    "total_update_days": 1199,
+    "minimum_step_ratio": 0.0014354314222270455,
+    "maximum_absolute_signals": {
+      "ProfitLatestYoY": 1367.3333333333333,
+      "ProfitYoYChange": 4200.0,
+      "ProfitPreviousYoY": 3987.85
+    }
+  },
+  "training_financial_abs_limit": null,
+  "validation_financial_abs_limit": null,
+  "active_baseline": "v7"
+}

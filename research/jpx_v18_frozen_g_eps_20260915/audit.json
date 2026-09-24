@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "variants": {
+    "qoq": {
+      "forecasts_checked": 2326022,
+      "updates_checked": 1199,
+      "official_sharpe": 0.006583673745570531,
+      "max_prediction_error": 1.077804512306102e-12
+    },
+    "yoy": {
+      "forecasts_checked": 2326022,
+      "updates_checked": 1199,
+      "official_sharpe": 0.006467783069611855,
+      "max_prediction_error": 2.1804780203638074e-13
+    },
+    "joint": {
+      "forecasts_checked": 2326022,
+      "updates_checked": 1199,
+      "official_sharpe": 0.006275861271222177,
+      "max_prediction_error": 5.81312775693732e-13
+    }
+  },
+  "shared_samples_and_learning_rates": true,
+  "frozen_g_point_in_time_source": "v16/price_only/predictions.npz"
+}

@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "same_label_dates_and_stock_counts": true,
+  "same_feature_matrix": true,
+  "same_seed_and_order": true,
+  "same_initial_parameters": true,
+  "same_learning_rate_grid_and_projection": true,
+  "only_difference": "additional floor(sqrt(N)) full-day updates"
+}

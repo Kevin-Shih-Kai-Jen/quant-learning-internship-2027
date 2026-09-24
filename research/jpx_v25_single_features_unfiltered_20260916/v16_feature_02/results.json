@@ -1,0 +1,33 @@
+{
+  "name": "v16_feature_02",
+  "feature": "NetSalesExpectedGrowth",
+  "includes_feature": true,
+  "parameter_count": 13,
+  "sharpe": 0.011727781242721788,
+  "scored_days": 953,
+  "mean_rank_ic": -0.0005031302989895937,
+  "rank_ic_days": 952,
+  "mean_hard_rank_mse": 0.16682929812178113,
+  "mean_return_mse": 0.0006653334476849132,
+  "training_updates": 1199,
+  "training_stock_days": 2325806,
+  "threshold_skipped_stock_days": 0,
+  "forecast_rows": 2326022,
+  "final_coefficients": {
+    "alpha": -0.001887239079332222,
+    "T5": -0.001457562075051361,
+    "T22": -0.004537806712968965,
+    "T60": -0.004541542501004328,
+    "V5": 0.00120014523569432,
+    "V22": 0.0010631668905491903,
+    "V60": 0.0011276545914948434,
+    "P5xV5": -0.00066906610536947,
+    "P22xV22": -0.002131863306234009,
+    "P60xV60": -0.0013981248924927203,
+    "PR1": 0.0014373342414516948,
+    "VR1": -0.0008188075976715504,
+    "NetSalesExpectedGrowth": 0.0002446364006829261
+  },
+  "parameter_asof": "2021-12-03",
+  "seconds": 3.1225326249996215
+}

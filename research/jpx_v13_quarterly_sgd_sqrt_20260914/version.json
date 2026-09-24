@@ -1,0 +1,36 @@
+{
+  "version": "v13",
+  "description": "Quarterly expectations inferred from residual annual guidance; actual surprise, forecast QoQ/YoY and revisions with exponential decay; alternating block SGD versus SGD plus floor(sqrt(N)) daily full-batch updates",
+  "directory": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v13_quarterly_sgd_sqrt_20260914",
+  "status": "completed_experiment",
+  "variants": [
+    "sgd_only",
+    "sgd_sqrt"
+  ],
+  "coefficient_count": 27,
+  "discount_constraints": [
+    0,
+    1
+  ],
+  "decay": "exp(-trading_age/9)",
+  "variant_sharpes": {
+    "sgd_only": -0.01685635680071009,
+    "sgd_sqrt": -0.042181653316308
+  },
+  "variant_mses": {
+    "sgd_only": 0.03820259065711418,
+    "sgd_sqrt": 0.0015956573592032987
+  },
+  "audit_passed": true,
+  "joint_step_warmup_overflow_repaired_with_alternating_blocks": true,
+  "data_semantics_review": "confirmed_issue_requires_repair",
+  "known_data_issues": [
+    {
+      "id": "forecast_revision_basis_1808_20180315",
+      "status": "confirmed_unrepaired",
+      "source_row": 22861,
+      "official_source": "https://www.haseko.co.jp/hc/ir/news/upload_files/20180315_1.pdf",
+      "description": "Nonconsolidated annual forecast incorrectly assigned to Consolidated_JP actuals; numerical replay audits do not validate missing accounting-basis semantics."
+    }
+  ]
+}

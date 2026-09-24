@@ -1,0 +1,206 @@
+{
+  "version": "v28",
+  "audit_passed": true,
+  "comparison": [
+    {
+      "Variant": "g_original",
+      "Label": "原純g：原步長",
+      "Sharpe": 0.0076788715624210736,
+      "RankIC": -0.0007338924981283103,
+      "MSE": 0.0006654329991342864
+    },
+    {
+      "Variant": "a_own",
+      "Label": "A：原各自步長",
+      "Sharpe": 0.011121961475682621,
+      "RankIC": -0.0007229739871105822,
+      "MSE": 0.0006638039682287578
+    },
+    {
+      "Variant": "b_own",
+      "Label": "B：原各自步長",
+      "Sharpe": 0.0019352724446324635,
+      "RankIC": -0.0013637391870770924,
+      "MSE": 0.0006664489308204108
+    },
+    {
+      "Variant": "g_common",
+      "Label": "純g：共同步長",
+      "Sharpe": 0.000811452212853662,
+      "RankIC": -0.0013888306369024732,
+      "MSE": 0.0006653327120114776
+    },
+    {
+      "Variant": "overwrite",
+      "Label": "A覆蓋：共同步長",
+      "Sharpe": 0.001063055157190221,
+      "RankIC": -0.0014692149406036869,
+      "MSE": 0.0006659524983014257
+    },
+    {
+      "Variant": "change_old",
+      "Label": "B差額＋舊值：共同步長",
+      "Sharpe": 0.002223593758919294,
+      "RankIC": -0.0013705999066653068,
+      "MSE": 0.0006664084033266055
+    }
+  ],
+  "paired_bootstrap": [
+    {
+      "Comparison": "change_old - overwrite",
+      "Metric": "Sharpe",
+      "Difference": 0.001160538601729073,
+      "CI95Low": -0.00236862309110811,
+      "CI95High": 0.00355768277281433
+    },
+    {
+      "Comparison": "change_old - overwrite",
+      "Metric": "RankIC",
+      "Difference": 9.861503393838013e-05,
+      "CI95Low": -4.897503295927307e-06,
+      "CI95High": 0.0001881531511072069
+    },
+    {
+      "Comparison": "overwrite - g_common",
+      "Metric": "Sharpe",
+      "Difference": 0.0002516029443365589,
+      "CI95Low": -0.002151660976877412,
+      "CI95High": 0.0033190262630924147
+    },
+    {
+      "Comparison": "overwrite - g_common",
+      "Metric": "RankIC",
+      "Difference": -8.038430370121367e-05,
+      "CI95Low": -0.00020263773279451369,
+      "CI95High": 4.240155391435605e-05
+    },
+    {
+      "Comparison": "change_old - g_common",
+      "Metric": "Sharpe",
+      "Difference": 0.001412141546065632,
+      "CI95Low": -0.0019509174022256201,
+      "CI95High": 0.004220486323163118
+    },
+    {
+      "Comparison": "change_old - g_common",
+      "Metric": "RankIC",
+      "Difference": 1.8230730237166464e-05,
+      "CI95Low": -7.280805275362533e-05,
+      "CI95High": 9.668849771962834e-05
+    },
+    {
+      "Comparison": "overwrite - g_original",
+      "Metric": "Sharpe",
+      "Difference": -0.006615816405230852,
+      "CI95Low": -0.03393710420967937,
+      "CI95High": 0.026760273458956745
+    },
+    {
+      "Comparison": "overwrite - g_original",
+      "Metric": "RankIC",
+      "Difference": -0.0007353224424753766,
+      "CI95Low": -0.003216694030583586,
+      "CI95High": 0.0015688979592812994
+    },
+    {
+      "Comparison": "change_old - g_original",
+      "Metric": "Sharpe",
+      "Difference": -0.0054552778035017796,
+      "CI95Low": -0.03376196652704914,
+      "CI95High": 0.027052517151109207
+    },
+    {
+      "Comparison": "change_old - g_original",
+      "Metric": "RankIC",
+      "Difference": -0.0006367074085369965,
+      "CI95Low": -0.0031474756080553186,
+      "CI95High": 0.001670190831814777
+    },
+    {
+      "Comparison": "g_common - g_original",
+      "Metric": "Sharpe",
+      "Difference": -0.006867419349567411,
+      "CI95Low": -0.03495940953929634,
+      "CI95High": 0.02588105874796315
+    },
+    {
+      "Comparison": "g_common - g_original",
+      "Metric": "RankIC",
+      "Difference": -0.0006549381387741629,
+      "CI95Low": -0.0031697585315857866,
+      "CI95High": 0.001686285814452232
+    },
+    {
+      "Comparison": "overwrite - a_own",
+      "Metric": "Sharpe",
+      "Difference": -0.0100589063184924,
+      "CI95Low": -0.02718713164037626,
+      "CI95High": 0.011252443830214058
+    },
+    {
+      "Comparison": "overwrite - a_own",
+      "Metric": "RankIC",
+      "Difference": -0.0007462409534931047,
+      "CI95Low": -0.0020573604606736306,
+      "CI95High": 0.0009174302700621055
+    },
+    {
+      "Comparison": "change_old - b_own",
+      "Metric": "Sharpe",
+      "Difference": 0.0002883213142868305,
+      "CI95Low": -0.0006514860502705892,
+      "CI95High": 0.0013597664895013102
+    },
+    {
+      "Comparison": "change_old - b_own",
+      "Metric": "RankIC",
+      "Difference": -6.860719588214345e-06,
+      "CI95Low": -3.658195315659554e-05,
+      "CI95High": 2.0261810269400754e-05
+    }
+  ],
+  "rank_ic_intervals": [
+    {
+      "Variant": "g_common",
+      "RankIC": -0.0013888306369024732,
+      "CI95Low": -0.007484495514237377,
+      "CI95High": 0.004474512189729646
+    },
+    {
+      "Variant": "overwrite",
+      "RankIC": -0.0014692149406036869,
+      "CI95Low": -0.007544180964711615,
+      "CI95High": 0.004402383003544229
+    },
+    {
+      "Variant": "change_old",
+      "RankIC": -0.0013705999066653068,
+      "CI95Low": -0.00746117894994067,
+      "CI95High": 0.004456550729511544
+    }
+  ],
+  "learning_rate_stats": {
+    "g_common": {
+      "changed_days": 954,
+      "days_below_one_tenth": 86,
+      "minimum_ratio": 0.0008190275603259827,
+      "median_ratio": 0.999980114411147
+    },
+    "overwrite": {
+      "changed_days": 588,
+      "days_below_one_tenth": 25,
+      "minimum_ratio": 0.0014354314222270455,
+      "median_ratio": 0.9999999999999961
+    },
+    "change_old": {
+      "changed_days": 359,
+      "days_below_one_tenth": 0,
+      "minimum_ratio": 0.501336014324578,
+      "median_ratio": 1.0
+    }
+  },
+  "common_rate_rule": "min(A own spectral rate, B own spectral rate), recomputed per known training batch; all three models use exactly the same scalar each day",
+  "training_financial_abs_limit": null,
+  "validation_financial_abs_limit": null,
+  "active_baseline": "v7"
+}

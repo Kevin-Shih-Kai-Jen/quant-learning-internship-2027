@@ -1,0 +1,275 @@
+{
+  "version": "v29",
+  "audit_passed": true,
+  "ranking": [
+    {
+      "ValidationRank": 1,
+      "Variant": "c1_change_old",
+      "Model": "change_old",
+      "Label": "B：差額＋舊值",
+      "Multiplier": 1.0,
+      "Sharpe": 0.0022235938,
+      "RankIC": -0.0013705999,
+      "ValidationDays": 953
+    },
+    {
+      "ValidationRank": 2,
+      "Variant": "c1_overwrite",
+      "Model": "overwrite",
+      "Label": "A：新值覆蓋",
+      "Multiplier": 1.0,
+      "Sharpe": 0.0010630552,
+      "RankIC": -0.0014692149,
+      "ValidationDays": 953
+    },
+    {
+      "ValidationRank": 3,
+      "Variant": "c1_g_common",
+      "Model": "g_common",
+      "Label": "純g",
+      "Multiplier": 1.0,
+      "Sharpe": 0.0008114522,
+      "RankIC": -0.0013888306,
+      "ValidationDays": 953
+    },
+    {
+      "ValidationRank": 4,
+      "Variant": "c15_g_common",
+      "Model": "g_common",
+      "Label": "純g",
+      "Multiplier": 1.5,
+      "Sharpe": -0.0041874022,
+      "RankIC": -0.0011081399,
+      "ValidationDays": 953
+    },
+    {
+      "ValidationRank": 5,
+      "Variant": "c15_overwrite",
+      "Model": "overwrite",
+      "Label": "A：新值覆蓋",
+      "Multiplier": 1.5,
+      "Sharpe": -0.0042069294,
+      "RankIC": -0.0011490452,
+      "ValidationDays": 953
+    },
+    {
+      "ValidationRank": 6,
+      "Variant": "c15_change_old",
+      "Model": "change_old",
+      "Label": "B：差額＋舊值",
+      "Multiplier": 1.5,
+      "Sharpe": -0.0044022809,
+      "RankIC": -0.0010986895,
+      "ValidationDays": 953
+    },
+    {
+      "ValidationRank": 7,
+      "Variant": "c05_overwrite",
+      "Model": "overwrite",
+      "Label": "A：新值覆蓋",
+      "Multiplier": 0.5,
+      "Sharpe": -0.0222676378,
+      "RankIC": -0.0030355269,
+      "ValidationDays": 953
+    },
+    {
+      "ValidationRank": 8,
+      "Variant": "c05_g_common",
+      "Model": "g_common",
+      "Label": "純g",
+      "Multiplier": 0.5,
+      "Sharpe": -0.0233915817,
+      "RankIC": -0.0029918983,
+      "ValidationDays": 953
+    },
+    {
+      "ValidationRank": 9,
+      "Variant": "c05_change_old",
+      "Model": "change_old",
+      "Label": "B：差額＋舊值",
+      "Multiplier": 0.5,
+      "Sharpe": -0.023420818,
+      "RankIC": -0.0029566142,
+      "ValidationDays": 953
+    },
+    {
+      "ValidationRank": 10,
+      "Variant": "c19_g_common",
+      "Model": "g_common",
+      "Label": "純g",
+      "Multiplier": 1.9,
+      "Sharpe": -0.0249524281,
+      "RankIC": -0.0020227328,
+      "ValidationDays": 953
+    },
+    {
+      "ValidationRank": 11,
+      "Variant": "c19_overwrite",
+      "Model": "overwrite",
+      "Label": "A：新值覆蓋",
+      "Multiplier": 1.9,
+      "Sharpe": -0.0284078114,
+      "RankIC": -0.0020217018,
+      "ValidationDays": 953
+    },
+    {
+      "ValidationRank": 12,
+      "Variant": "c19_change_old",
+      "Model": "change_old",
+      "Label": "B：差額＋舊值",
+      "Multiplier": 1.9,
+      "Sharpe": -0.0289806758,
+      "RankIC": -0.0020234134,
+      "ValidationDays": 953
+    },
+    {
+      "ValidationRank": 13,
+      "Variant": "c025_change_old",
+      "Model": "change_old",
+      "Label": "B：差額＋舊值",
+      "Multiplier": 0.25,
+      "Sharpe": -0.037057975,
+      "RankIC": -0.002917866,
+      "ValidationDays": 953
+    },
+    {
+      "ValidationRank": 14,
+      "Variant": "c025_overwrite",
+      "Model": "overwrite",
+      "Label": "A：新值覆蓋",
+      "Multiplier": 0.25,
+      "Sharpe": -0.0371816634,
+      "RankIC": -0.0029511525,
+      "ValidationDays": 953
+    },
+    {
+      "ValidationRank": 15,
+      "Variant": "c025_g_common",
+      "Model": "g_common",
+      "Label": "純g",
+      "Multiplier": 0.25,
+      "Sharpe": -0.0374724601,
+      "RankIC": -0.0029295047,
+      "ValidationDays": 953
+    }
+  ],
+  "best_per_model": [
+    {
+      "ValidationRank": 1,
+      "Variant": "c1_change_old",
+      "Model": "change_old",
+      "Label": "B：差額＋舊值",
+      "Multiplier": 1.0,
+      "Sharpe": 0.0022235938,
+      "RankIC": -0.0013705999,
+      "ValidationDays": 953
+    },
+    {
+      "ValidationRank": 2,
+      "Variant": "c1_overwrite",
+      "Model": "overwrite",
+      "Label": "A：新值覆蓋",
+      "Multiplier": 1.0,
+      "Sharpe": 0.0010630552,
+      "RankIC": -0.0014692149,
+      "ValidationDays": 953
+    },
+    {
+      "ValidationRank": 3,
+      "Variant": "c1_g_common",
+      "Model": "g_common",
+      "Label": "純g",
+      "Multiplier": 1.0,
+      "Sharpe": 0.0008114522,
+      "RankIC": -0.0013888306,
+      "ValidationDays": 953
+    }
+  ],
+  "selected_candidate": {
+    "version": "v29",
+    "variant": "c1_change_old",
+    "model": "change_old",
+    "multiplier": 1.0,
+    "selection_scope": "all existing validation, 953 days",
+    "selection_order": [
+      "Sharpe descending",
+      "RankIC descending as tie-breaker"
+    ],
+    "rank_ic_positive_required": false,
+    "mse_used_for_selection": false,
+    "Sharpe": 0.002223593758919294,
+    "RankIC": -0.0013705999066653068,
+    "test_evaluated": false,
+    "status": "validation_selected_candidate_only",
+    "training_loss": "ordinary MSE",
+    "learning_rate": "multiplier * min(A spectral rate, B spectral rate) each known training day",
+    "source_manifest": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v29_learning_rate_sweep_20260916/manifest.json",
+    "formal_baseline": "v7"
+  },
+  "original_v7": {
+    "Sharpe": 0.0076788715624210736,
+    "RankIC": -0.0007338924981283103
+  },
+  "paired_bootstrap": [
+    {
+      "Comparison": "c1_change_old - original_v7",
+      "Metric": "Sharpe",
+      "Difference": -0.0054552778035017796,
+      "CI95Low": -0.03376196652704914,
+      "CI95High": 0.027052517151109207
+    },
+    {
+      "Comparison": "c1_change_old - original_v7",
+      "Metric": "RankIC",
+      "Difference": -0.0006367074085369965,
+      "CI95Low": -0.0031474756080553186,
+      "CI95High": 0.001670190831814777
+    },
+    {
+      "Comparison": "c1_overwrite - original_v7",
+      "Metric": "Sharpe",
+      "Difference": -0.006615816405230852,
+      "CI95Low": -0.03393710420967937,
+      "CI95High": 0.026760273458956745
+    },
+    {
+      "Comparison": "c1_overwrite - original_v7",
+      "Metric": "RankIC",
+      "Difference": -0.0007353224424753766,
+      "CI95Low": -0.003216694030583586,
+      "CI95High": 0.0015688979592812994
+    },
+    {
+      "Comparison": "c1_g_common - original_v7",
+      "Metric": "Sharpe",
+      "Difference": -0.006867419349567411,
+      "CI95Low": -0.03495940953929634,
+      "CI95High": 0.02588105874796315
+    },
+    {
+      "Comparison": "c1_g_common - original_v7",
+      "Metric": "RankIC",
+      "Difference": -0.0006549381387741629,
+      "CI95Low": -0.0031697585315857866,
+      "CI95High": 0.001686285814452232
+    },
+    {
+      "Comparison": "c1_change_old - c1_g_common",
+      "Metric": "Sharpe",
+      "Difference": 0.001412141546065632,
+      "CI95Low": -0.0019509174022256201,
+      "CI95High": 0.004220486323163118
+    },
+    {
+      "Comparison": "c1_change_old - c1_g_common",
+      "Metric": "RankIC",
+      "Difference": 1.8230730237166464e-05,
+      "CI95Low": -7.280805275362533e-05,
+      "CI95High": 9.668849771962834e-05
+    }
+  ],
+  "test_evaluated": false,
+  "active_baseline": "v7",
+  "training_financial_abs_limit": null,
+  "validation_financial_abs_limit": null
+}

@@ -1,0 +1,21 @@
+{
+  "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v11_persistent_finance_std22_20260913/audit_features.py": "00c5c260a25189f7dbe6e899f3c60b67527a6c13cc80cabe0bcee7a661162ba3",
+  "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v11_persistent_finance_std22_20260913/native_mse.py": "8437e7e1ce9d8342d40594e3c7bce01ffed2c01906cc28895e5a07139e8e1a12",
+  "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v11_persistent_finance_std22_20260913/features.py": "a237facfe8aae98485fb099ad0774ec8f2212fd3b0810fde08758930e209f1db",
+  "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v11_persistent_finance_std22_20260913/audit_results.py": "1ede9492bb151ee116264b3fd66187d800f0a612e748e454c1882fcbf5c47110",
+  "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v11_persistent_finance_std22_20260913/run_v11.py": "a4108f939a36ce5ffc7b7b9e5f3b3ce8a7ae765966614781fa82417b243ac94e",
+  "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v11_persistent_finance_std22_20260913/preflight.py": "75a648f14eadb0b43c800375ff2e12c53a46e4b65c27f6910a6236ddd65f0fbe",
+  "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v11_persistent_finance_std22_20260913/write_report.py": "45e048eda4abdcb02629d90539ccb9bc3569199d0a3c2bc792eae3fe494495f7",
+  "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v11_persistent_finance_std22_20260913/mse.cpp": "2cef3d858596a7d72c5fc83db284ca9eb635a799ce7fd6d9cfc06251ce91ce0f",
+  "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v11_persistent_finance_std22_20260913/mse.dylib": "29e1c545bd484d73a41077613d2bc821dad47953ce4adb96a4bec0ccaf1b9de0",
+  "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v11_persistent_finance_std22_20260913/experiment_plan.md": "550eacff260637aa1da8d4594729b33b70b20ef16e80592530f3b28c3902dbd6",
+  "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v11_persistent_finance_std22_20260913/preflight.json": "ca96ecbfa2cb3968cf762fdb5ff875f7c2fcd15f176dcc4c6a6a75dad8ffee91",
+  "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v11_persistent_finance_std22_20260913/feature_audit.json": "87306b781574b7c7846ba3ac8d888a66815f415bb13bc982d8d476ad859d3d86",
+  "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v11_persistent_finance_std22_20260913/financial_persistent_features.pkl": "15de4dcc3ec628d542d54b7ded6ee87efc7392326362dbc957cc21a9f820789e",
+  "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v11_persistent_finance_std22_20260913/return_std22_features.pkl": "cd07c45b986550b4cd0924a79ef3817efe7e855ed79981b6969243630edc640a",
+  "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v8_soft_rank_20260912/inputs.pkl": "6b0ff60bfb8eab20ec7c6e087e746dd6e0ccc38b9633d1a11d98477d84857bc6",
+  "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v9_financial_decay_sgd_20260912/financial_signal_features.pkl": "dac61f819599c3884f1aa3956bf16f59ea6cf647584a388e449e32fa243ccb4d",
+  "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v9_financial_decay_sgd_20260912/financial_events.pkl": "5c6f872b4490c8dc558a9cb6b8a62eab9b1a3c7ca8c0b4259a3685e0dfdc4ae6",
+  "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v10_mse_sgd_financial_20260913/mse_sgd_financial/daily_spread_returns.csv": "9fb961acf195a9e070a5032ec57c1569494ff74c4cbecfcc92f991c40ecafa65",
+  "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v5_daily_returns_20260912/one_day_returns.pkl": "ff39a7274c03086a69b5e587413f21cf5fe1cbd15552d8cc0db0eddb4fd1dcf3"
+}

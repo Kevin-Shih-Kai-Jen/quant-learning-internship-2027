@@ -1,0 +1,7 @@
+{"g": {"passed": true, "forecasts_checked": 2326022, "updates_checked": 1199, "official_sharpe": 0.002695470976900166, "max_forecast_error": 1.6570078642530461e-13, "training_skipped": 0, "reused": false}}
+{"joint_r": {"passed": true, "forecasts_checked": 2326022, "updates_checked": 1199, "official_sharpe": 0.003312196001027478, "max_forecast_error": 1.652011860642233e-13, "training_skipped": 0, "reused": false}}
+{"joint_f": {"passed": true, "forecasts_checked": 2326022, "updates_checked": 1199, "official_sharpe": 0.0038427890638013575, "max_forecast_error": 1.652011860642233e-13, "training_skipped": 0, "reused": false}}
+{"joint_rf": {"passed": true, "forecasts_checked": 2326022, "updates_checked": 1199, "official_sharpe": 0.004002575868197129, "max_forecast_error": 1.6497914145929826e-13, "training_skipped": 0, "reused": false}}
+{"frozen_r": {"passed": true, "forecasts_checked": 2326022, "updates_checked": 1199, "official_sharpe": 0.004358037575776808, "max_forecast_error": 1.2514989045087077e-13, "training_skipped": 0, "reused": false}}
+{"frozen_f": {"passed": true, "forecasts_checked": 2326022, "updates_checked": 1199, "official_sharpe": 0.003153195210130082, "max_forecast_error": 7.907563492892677e-14, "training_skipped": 0, "reused": false}}
+{"frozen_rf": {"passed": true, "forecasts_checked": 2326022, "updates_checked": 1199, "official_sharpe": 0.004114075448292246, "max_forecast_error": 1.404432126150823e-13, "training_skipped": 0, "reused": false}}

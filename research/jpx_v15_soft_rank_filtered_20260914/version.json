@@ -1,0 +1,23 @@
+{
+  "version": "v15",
+  "description": "v14 frozen financial features and filtered training pool; sigmoid soft-rank loss with full reference-stock differentiation; per-stock SGD versus SGD plus floor(sqrt(N)) daily updates",
+  "directory": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v15_soft_rank_filtered_20260914",
+  "status": "completed_experiment",
+  "variants": [
+    "sgd_only",
+    "sgd_sqrt"
+  ],
+  "coefficient_count": 27,
+  "tau": 1.0,
+  "training_financial_abs_limit": 100,
+  "evaluation_stock_pool_filtered": false,
+  "variant_sharpes": {
+    "sgd_only": -0.006212734972380672,
+    "sgd_sqrt": -0.019457386712146734
+  },
+  "variant_rank_ic": {
+    "sgd_only": -0.000998676639733685,
+    "sgd_sqrt": -0.00320747189893669
+  },
+  "audit_passed": true
+}

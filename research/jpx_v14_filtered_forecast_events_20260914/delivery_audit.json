@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "report_links_verified": 6,
+  "active_baseline_unchanged": [
+    "v7",
+    "v7_equal"
+  ],
+  "all_json_finite": true
+}

@@ -1,0 +1,27 @@
+        Variant         Label    Sharpe  DeltaVsV7  MeanDailyGrossOneReturnBP  DailyGrossOneReturnStdBP    RankIC  ReturnMSE  NormalizedHardRankMSE
+             v7        原v7純價量  0.007679   0.000000                   0.227913                 29.680574 -0.000734   0.000665               0.166868
+        all_eps     g＋全部六項EPS -0.000232  -0.007910                  -0.006680                 28.849141 -0.001252   0.000773               0.166954
+     price_mask       純價量：同樣本  0.005644  -0.002035                   0.167483                 29.674061 -0.000695   0.000665               0.166861
+price_mask_step 純價量：同樣本同主模型步長  0.004603  -0.003076                   0.135927                 29.532401 -0.001414   0.000661               0.166981
+        Variant  ValidationYear  Days    Sharpe  MeanDailyGrossOneReturnBP
+             v7            2018   245 -0.011514                  -0.308246
+             v7            2019   241  0.050067                   1.159716
+             v7            2020   242  0.050857                   2.062766
+             v7            2021   225 -0.087605                  -2.159819
+        all_eps            2018   245 -0.044715                  -1.171845
+        all_eps            2019   241  0.029705                   0.658530
+        all_eps            2020   242  0.062807                   2.469785
+        all_eps            2021   225 -0.087351                  -2.114037
+     price_mask            2018   245 -0.012027                  -0.321806
+     price_mask            2019   241  0.048477                   1.120549
+     price_mask            2020   242  0.049952                   2.028182
+     price_mask            2021   225 -0.094383                  -2.321862
+price_mask_step            2018   245 -0.046145                  -1.218585
+price_mask_step            2019   241  0.029019                   0.659002
+price_mask_step            2020   242  0.077820                   3.140264
+price_mask_step            2021   225 -0.087223                  -2.180764
+               Comparison  DeltaSharpe   CI95Low  CI95High
+             all_eps - v7    -0.007910 -0.029463  0.012197
+     all_eps - price_mask    -0.005876 -0.028273  0.013776
+all_eps - price_mask_step    -0.004834 -0.014566  0.006797
+{"median_main_vs_price_step": 0.9975104370202352, "min_main_vs_price_step": 0.08792265291943686, "fraction_main_step_below_half": 0.15346121768140117}

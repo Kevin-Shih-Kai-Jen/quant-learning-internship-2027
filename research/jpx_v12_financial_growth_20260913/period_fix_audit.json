@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "old_mismatched_events": 74,
+  "forecast_key_changed_events": 74,
+  "feature_rows_changed": 3675,
+  "remaining_later_inferred_targets": [],
+  "retraining_reason": "Fiscal-year metadata correction, no outcome-based tuning"
+}

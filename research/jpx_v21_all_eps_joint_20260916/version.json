@@ -1,0 +1,17 @@
+{
+  "version": "v21",
+  "description": "Jointly train v7 price-volume and six unchanged EPS features with matched-sample and matched-step controls",
+  "directory": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v21_all_eps_joint_20260916",
+  "status": "completed_experiment",
+  "variants": [
+    "all_eps",
+    "price_mask",
+    "price_mask_step"
+  ],
+  "parameter_count": 18,
+  "main_sharpe": -0.00023156553745861617,
+  "baseline": "v7_equal",
+  "common_days": 953,
+  "eps_algorithm_unchanged": true,
+  "audit_passed": true
+}

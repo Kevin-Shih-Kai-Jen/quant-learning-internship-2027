@@ -1,0 +1,168 @@
+{
+  "passed": true,
+  "label_days": 1199,
+  "audited_batches": 2325806,
+  "forecast_rows_reproduced": 2326022,
+  "forecast_dates_reproduced": 1199,
+  "max_forecast_score_error": 0.0,
+  "max_official_spread_error": 8.881784197001252e-15,
+  "max_beta_step_rounding_error": 2.220446049250313e-16,
+  "independent_real_batch_replays": 27,
+  "finite_difference_real_batches": 6,
+  "max_analytic_gradient_error": 1.3981871216373065e-15,
+  "max_finite_difference_error": 4.812934760369675e-09,
+  "own_zero_input_nonzero_beta_gradient_batches": 1600512,
+  "zero_own_gradient_examples": [
+    {
+      "SignalDate": "2017-11-10",
+      "BatchIndex": 942,
+      "SecuritiesCode": 3156,
+      "OwnFeature": 0.0,
+      "BetaGradient": 1.2427590825964881e-08,
+      "Eta": 1.0
+    },
+    {
+      "SignalDate": "2017-11-10",
+      "BatchIndex": 1884,
+      "SecuritiesCode": 1721,
+      "OwnFeature": 0.0,
+      "BetaGradient": 3.8401663737707874e-07,
+      "Eta": 1.0
+    },
+    {
+      "SignalDate": "2019-06-17",
+      "BatchIndex": 0,
+      "SecuritiesCode": 7593,
+      "OwnFeature": 0.0,
+      "BetaGradient": 3.274847367559778e-06,
+      "Eta": 1.0
+    },
+    {
+      "SignalDate": "2019-06-17",
+      "BatchIndex": 970,
+      "SecuritiesCode": 8043,
+      "OwnFeature": 0.0,
+      "BetaGradient": 7.623247746127659e-07,
+      "Eta": 1.0
+    },
+    {
+      "SignalDate": "2019-06-17",
+      "BatchIndex": 1939,
+      "SecuritiesCode": 4551,
+      "OwnFeature": 0.0,
+      "BetaGradient": -7.81567553936548e-06,
+      "Eta": 1.0
+    },
+    {
+      "SignalDate": "2020-09-29",
+      "BatchIndex": 0,
+      "SecuritiesCode": 4078,
+      "OwnFeature": 0.0,
+      "BetaGradient": 1.585541370492839e-05,
+      "Eta": 1.0
+    },
+    {
+      "SignalDate": "2020-09-29",
+      "BatchIndex": 993,
+      "SecuritiesCode": 8304,
+      "OwnFeature": 0.0,
+      "BetaGradient": -7.523791718558282e-08,
+      "Eta": 0.6
+    },
+    {
+      "SignalDate": "2020-09-29",
+      "BatchIndex": 1985,
+      "SecuritiesCode": 9304,
+      "OwnFeature": 0.0,
+      "BetaGradient": -7.980731623435398e-08,
+      "Eta": 0.1
+    },
+    {
+      "SignalDate": "2021-11-08",
+      "BatchIndex": 0,
+      "SecuritiesCode": 9057,
+      "OwnFeature": 0.0,
+      "BetaGradient": -0.0010793052500301377,
+      "Eta": 1.0
+    },
+    {
+      "SignalDate": "2021-11-08",
+      "BatchIndex": 1995,
+      "SecuritiesCode": 8341,
+      "OwnFeature": 0.0,
+      "BetaGradient": 0.00043007465643521545,
+      "Eta": 1.0
+    },
+    {
+      "SignalDate": "2021-12-01",
+      "BatchIndex": 0,
+      "SecuritiesCode": 2702,
+      "OwnFeature": 0.0,
+      "BetaGradient": -5.359898711283453e-06,
+      "Eta": 1.0
+    },
+    {
+      "SignalDate": "2021-12-01",
+      "BatchIndex": 998,
+      "SecuritiesCode": 7995,
+      "OwnFeature": 0.0,
+      "BetaGradient": -9.074236352986926e-05,
+      "Eta": 1.0
+    },
+    {
+      "SignalDate": "2021-12-01",
+      "BatchIndex": 1995,
+      "SecuritiesCode": 6328,
+      "OwnFeature": 0.0,
+      "BetaGradient": -3.215861494678943e-05,
+      "Eta": 1.0
+    }
+  ],
+  "accepted_eta_counts": {
+    "1": 2256483,
+    "0.9": 11666,
+    "0.8": 10445,
+    "0.7": 9258,
+    "0.6": 8273,
+    "0.5": 7240,
+    "0.4": 6557,
+    "0.3": 5806,
+    "0.2": 4730,
+    "0.1": 2889,
+    "0.06": 21,
+    "0.007": 2,
+    "0.08": 38,
+    "0.07": 31,
+    "0.09": 30,
+    "0.04": 14,
+    "0.05": 24,
+    "0.03": 11,
+    "0.02": 4,
+    "0.01": 2
+  },
+  "initial_baseline_state_reproduced_dates": 214,
+  "first_financial_feature_training_date": "2017-11-14",
+  "all_zero_days_beta_unchanged": true,
+  "training_uses_frozen_signal_date_financial_features": true,
+  "no_future_label_updates": true,
+  "feature_audit": {
+    "passed": true,
+    "financial_events_audited": 39017,
+    "all_signal_rows_independently_reproduced": 2332001,
+    "source_announcement_timestamps_match_jst_unix_time": true,
+    "strict_1500_cutoff_verified": true,
+    "current_and_prior_components_known_asof_event": true,
+    "same_fiscal_period_and_accounting_basis_verified": true,
+    "all_features_expire_after_tenth_session": true,
+    "example_2753_2018_01_04_financial_feature": 0.0012355573901668832
+  },
+  "preflight": {
+    "passed": true,
+    "analytic_and_finite_difference_gradients": true,
+    "max_finite_difference_error": 9.095924013990953e-11,
+    "single_full_partial_batch_sequential_line_search_verified": true,
+    "zero_own_input_rank_gradient_example": 0.375,
+    "all_zero_feature_preserves_beta_and_exact_v8_updates": true,
+    "ten_session_decay_boundaries_pass": true
+  }
+}

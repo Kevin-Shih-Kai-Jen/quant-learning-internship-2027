@@ -1,0 +1,1 @@
+sgd_only {'days': 953, 'mean_daily_soft_rank_loss': 0.14368830910922373, 'mean_daily_flat_score_soft_rank_loss': 0.08332684512156917, 'beat_flat_score_loss_days': 1, 'flat_score_is_a_non_trading_diagnostic': True, 'temperature': 1.0, 'universe': 'all finite-label validation stocks, no training threshold filter'}

@@ -1,0 +1,21 @@
+{
+  "rows": 2332531,
+  "raw_return_ranges": {
+    "PR1": {
+      "min": -0.5785413744740533,
+      "max": 1.1195121951219513,
+      "undefined_rows": 11232
+    },
+    "VR1": {
+      "min": -1.0,
+      "max": 2226.4285714285716,
+      "undefined_rows": 7622
+    }
+  },
+  "validation_return_fallback_rows": 7514,
+  "selected_return_fallback_rows": 463,
+  "validation_t_fallback_rows": 46974,
+  "selected_t_fallback_rows": 9377,
+  "training_samples_unchanged_in_all_years": true,
+  "no_return_standardization_or_clipping": true
+}

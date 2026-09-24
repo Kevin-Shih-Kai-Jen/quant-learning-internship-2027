@@ -1,0 +1,11 @@
+{
+  "source_sha256": {
+    "jpx_v14_filtered_forecast_events_20260914/financial_signal_features.pkl": "bf067c7cea6c1c7d14cd0bdbeda5ae995590f43fa1c04670e30b31036d5be03d",
+    "jpx_v17_actual_forecast_revisions_20260915/financial_signal_features.pkl": "5a6340b793d4e3e772b4e8f43cf12a17dd1452c1fa98fd9a091c4b1f4d686a1e",
+    "jpx_v8_soft_rank_20260912/inputs.pkl": "6b0ff60bfb8eab20ec7c6e087e746dd6e0ccc38b9633d1a11d98477d84857bc6",
+    "jpx_v22_eps_thresholds_20260916/experiment_plan.md": "702382da6664cb6d5f2e38f423c9ecfc5bfe96cf464fbd71dde8e7e8e653d4ce",
+    "jpx_v22_eps_thresholds_20260916/run.py": "48bb9ce6f83699b83098d7a75538752a5379c421ef5b2fff1f961f5a65b738b5"
+  },
+  "eps_algorithm_unchanged": true,
+  "uses_external_filing_values": false
+}

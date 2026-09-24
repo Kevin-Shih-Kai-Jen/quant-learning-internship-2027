@@ -1,0 +1,26 @@
+[
+  {
+    "year": 2018,
+    "rows": 467627,
+    "all_ranks_identical": true,
+    "g_max_error": 9.996344030316351e-17
+  },
+  {
+    "year": 2019,
+    "rows": 468185,
+    "all_ranks_identical": true,
+    "g_max_error": 9.999054535747565e-17
+  },
+  {
+    "year": 2020,
+    "rows": 478799,
+    "all_ranks_identical": true,
+    "g_max_error": 9.999054535747565e-17
+  },
+  {
+    "year": 2021,
+    "rows": 449752,
+    "all_ranks_identical": true,
+    "g_max_error": 9.999054535747565e-17
+  }
+]

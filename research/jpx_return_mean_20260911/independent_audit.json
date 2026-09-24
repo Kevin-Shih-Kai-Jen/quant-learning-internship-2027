@@ -1,0 +1,9 @@
+{
+  "independent_rolling_mean_ratio_checks": 4898,
+  "exact_zero_candidate_excluded": true,
+  "products_and_raw_PR1_unchanged": true,
+  "previous_year_only_and_label_cutoffs_checked": true,
+  "same_market_dates_and_budgets": true,
+  "selected_predictions_recomputed": true,
+  "all_passed": true
+}

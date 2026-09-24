@@ -1,0 +1,193 @@
+{
+  "created": "2026-09-14",
+  "scope": "v14/v15 completed decayed experiments",
+  "no_decay_completed": false,
+  "sources": [
+    {
+      "source": "jpx_v15_soft_rank_filtered_20260914/comparison.csv",
+      "file": "comparison.csv",
+      "sha256": "9c0ea48db44b812c50c5f1727d4463e41e51a9747ea179c55d6c7e002906905b"
+    },
+    {
+      "source": "jpx_v15_soft_rank_filtered_20260914/comparison_by_year.csv",
+      "file": "comparison_by_year.csv",
+      "sha256": "1e18687600e057427643f3f8da5d7d4749492b3d8f6d00b793c30442fcaa7f6b"
+    },
+    {
+      "source": "jpx_v15_soft_rank_filtered_20260914/training_flat_score_baseline.csv",
+      "file": "training_flat_score_baseline.csv",
+      "sha256": "2e96293f3749e015f163579f9429fd88a9068b3e9c81a4ceaa226e5f98a2ecb0"
+    },
+    {
+      "source": "jpx_v15_soft_rank_filtered_20260914/training_flat_score_baseline.json",
+      "file": "training_flat_score_baseline.json",
+      "sha256": "6a41dfc9cd2ca8481c411563336b97d43ca8bc15d5b3b8a42690db641df13c8a"
+    },
+    {
+      "source": "jpx_v15_soft_rank_filtered_20260914/JPX-v15-soft-rank-report.md",
+      "file": "JPX-v15-soft-rank-report.md",
+      "sha256": "bbe959086108805958241cd09db8d175b2deb61e9b8117a62eea61b076e4bedd"
+    },
+    {
+      "source": "jpx_v15_soft_rank_filtered_20260914/delivery_audit.json",
+      "file": "delivery_audit.json",
+      "sha256": "abdf913b5fab472df80b9556a3b26be8574fdf9b82f1b0063baf1ec28deeaeca"
+    },
+    {
+      "source": "jpx_v14_filtered_forecast_events_20260914/feature_summary.json",
+      "file": "financial_feature_summary.json",
+      "sha256": "aaf0abd0d3e8877762ef45d5d65160b10f36b9228714af6a2241af17e349053c"
+    },
+    {
+      "source": "jpx_v14_filtered_forecast_events_20260914/JPX-v14-filtered-forecast-report.md",
+      "file": "JPX-v14-filtered-forecast-report.md",
+      "sha256": "65c87bf54363a38598b73f4512d63d978db8ca2f9096fdaffd295ae66d24263b"
+    },
+    {
+      "source": "jpx_v14_filtered_forecast_events_20260914/sgd_only/results.json",
+      "file": "M1/results.json",
+      "sha256": "d64d5ee5628d653eb3560ae44602067751c77692b8c0dd4f74548e38f2a911e9"
+    },
+    {
+      "source": "jpx_v14_filtered_forecast_events_20260914/sgd_only/daily_spread_returns.csv",
+      "file": "M1/daily_spread_returns.csv",
+      "sha256": "84ab145ea27a4cec0ab6bcf44373e9c01f0f3bd7e42bf66f1e72d5a370645d6f"
+    },
+    {
+      "source": "jpx_v14_filtered_forecast_events_20260914/sgd_only/training_updates.csv",
+      "file": "M1/training_updates.csv",
+      "sha256": "fbc95409825f0c0154b667c1a3b20c624fa07d970b1447de5e0c38a6f44410bc"
+    },
+    {
+      "source": "jpx_v14_filtered_forecast_events_20260914/sgd_only/parameter_history.csv",
+      "file": "M1/parameter_history.csv",
+      "sha256": "36c0896274862b0a78d2b8e3fa03282978dfb8bda9e41760c438b34ed53b20ac"
+    },
+    {
+      "source": "jpx_v14_filtered_forecast_events_20260914/sgd_only/audit.json",
+      "file": "M1/audit.json",
+      "sha256": "042ed78200bf2ca7efcd3dd063c20316dcd71bdc7e926ae95ea1242b67e0a0e2"
+    },
+    {
+      "source": "jpx_v14_filtered_forecast_events_20260914/sgd_only/diagnostic_daily.csv",
+      "file": "M1/diagnostic_daily.csv",
+      "sha256": "9d09fd965127907859072470a1d17027ee65f4fe735edec6838b2345c5296a39"
+    },
+    {
+      "source": "jpx_v14_filtered_forecast_events_20260914/sgd_only/largest_prediction_errors.csv",
+      "file": "M1/largest_prediction_errors.csv",
+      "sha256": "cb7a85a98b801ad0b6d38dfaf4798307d58fbb6f7a922b046eea2d9dfcc2e47a"
+    },
+    {
+      "source": "jpx_v14_filtered_forecast_events_20260914/sgd_sqrt/results.json",
+      "file": "M2/results.json",
+      "sha256": "5df67b98c9c65f10cb5d0f929f21a87da07952a55069a642bfa584df3c219e09"
+    },
+    {
+      "source": "jpx_v14_filtered_forecast_events_20260914/sgd_sqrt/daily_spread_returns.csv",
+      "file": "M2/daily_spread_returns.csv",
+      "sha256": "9174ecbb6f1c6a53f65e3ebbeadea2313d0f8a4205274992495043a5ab9e6f8b"
+    },
+    {
+      "source": "jpx_v14_filtered_forecast_events_20260914/sgd_sqrt/training_updates.csv",
+      "file": "M2/training_updates.csv",
+      "sha256": "9ae98ae883cc0ea0b6bc56befa715f974c9de38cdef3ac2b18562e700985007a"
+    },
+    {
+      "source": "jpx_v14_filtered_forecast_events_20260914/sgd_sqrt/parameter_history.csv",
+      "file": "M2/parameter_history.csv",
+      "sha256": "d18d15788e60ad989707f65e67b5692dabdc2a8f4801cf163f50c54a2c34ebd1"
+    },
+    {
+      "source": "jpx_v14_filtered_forecast_events_20260914/sgd_sqrt/audit.json",
+      "file": "M2/audit.json",
+      "sha256": "5c7e5c1a4d88a2ab1b638fac0562509ddb109316a42fcb1263584879d5b4f054"
+    },
+    {
+      "source": "jpx_v14_filtered_forecast_events_20260914/sgd_sqrt/diagnostic_daily.csv",
+      "file": "M2/diagnostic_daily.csv",
+      "sha256": "b65a0142b91c4de36f29ac03f552e3ab2e6fdd740b5f357d2e882a234b1304fc"
+    },
+    {
+      "source": "jpx_v14_filtered_forecast_events_20260914/sgd_sqrt/largest_prediction_errors.csv",
+      "file": "M2/largest_prediction_errors.csv",
+      "sha256": "b20f4f5b86159066e4531aed97a73254ec5f20dca099891e3464d7c6a080eddb"
+    },
+    {
+      "source": "jpx_v15_soft_rank_filtered_20260914/sgd_only/results.json",
+      "file": "S1/results.json",
+      "sha256": "79bb93918e3a9a15799885fccc799f26622b96d3fbdfd5262c8d640714e392fa"
+    },
+    {
+      "source": "jpx_v15_soft_rank_filtered_20260914/sgd_only/daily_spread_returns.csv",
+      "file": "S1/daily_spread_returns.csv",
+      "sha256": "6f655235237d0b76c2eeda60105a26c13be66aeced856f94c065e82da5b7cdf9"
+    },
+    {
+      "source": "jpx_v15_soft_rank_filtered_20260914/sgd_only/training_updates.csv",
+      "file": "S1/training_updates.csv",
+      "sha256": "6da4165b20c4f157f85c4ff39d6ea91e6ed2b918cca22de4b7264b6aad787c43"
+    },
+    {
+      "source": "jpx_v15_soft_rank_filtered_20260914/sgd_only/parameter_history.csv",
+      "file": "S1/parameter_history.csv",
+      "sha256": "1491e264cae9010147364172f7f286037ae7e03fdfb062566b4ef3abed5dc97a"
+    },
+    {
+      "source": "jpx_v15_soft_rank_filtered_20260914/sgd_only/audit.json",
+      "file": "S1/audit.json",
+      "sha256": "7cd6e9e97115477cb9f345d0c7d3e5bcfd7fd2f27e1255c4333d661f4c8fe6ec"
+    },
+    {
+      "source": "jpx_v15_soft_rank_filtered_20260914/sgd_only/daily_soft_rank_loss.csv",
+      "file": "S1/daily_soft_rank_loss.csv",
+      "sha256": "85f679fec6ff9280e07b0dc15bb2a399ad9fd81a289561026df5ad6fc9aa355b"
+    },
+    {
+      "source": "jpx_v15_soft_rank_filtered_20260914/sgd_only/score_diagnostics.json",
+      "file": "S1/score_diagnostics.json",
+      "sha256": "eccf0401da96ba4120cece5f65c69366ab9d0b9bc9fc0bc3b0421149ec867564"
+    },
+    {
+      "source": "jpx_v15_soft_rank_filtered_20260914/sgd_sqrt/results.json",
+      "file": "S2/results.json",
+      "sha256": "449539672cae22de1d53738a55dc62ab20bbc1a7df019e7380de09b3663f4d8d"
+    },
+    {
+      "source": "jpx_v15_soft_rank_filtered_20260914/sgd_sqrt/daily_spread_returns.csv",
+      "file": "S2/daily_spread_returns.csv",
+      "sha256": "4b86fc3e8b8b7a8fa694b326ba97373878a865ec29c1cc3655c65727ee463751"
+    },
+    {
+      "source": "jpx_v15_soft_rank_filtered_20260914/sgd_sqrt/training_updates.csv",
+      "file": "S2/training_updates.csv",
+      "sha256": "a5d1e788505bb35bf0b37b43b32bb963dee944ba992a1fafd18e6273057de5cc"
+    },
+    {
+      "source": "jpx_v15_soft_rank_filtered_20260914/sgd_sqrt/parameter_history.csv",
+      "file": "S2/parameter_history.csv",
+      "sha256": "40778c6fa562e5b6e3cdfc5aa46b92770cdc8c99c15df749e8b2e9582ace48d5"
+    },
+    {
+      "source": "jpx_v15_soft_rank_filtered_20260914/sgd_sqrt/audit.json",
+      "file": "S2/audit.json",
+      "sha256": "560175f45f8cebb2e7dbed0e8b4cb0232ff44a5db84c18223a8bca3e2c7575c9"
+    },
+    {
+      "source": "jpx_v15_soft_rank_filtered_20260914/sgd_sqrt/daily_soft_rank_loss.csv",
+      "file": "S2/daily_soft_rank_loss.csv",
+      "sha256": "4a8c6d6f68d817725946cef278285e7e685bc3fcdd4a540216fc00cb3202a964"
+    },
+    {
+      "source": "jpx_v15_soft_rank_filtered_20260914/sgd_sqrt/score_diagnostics.json",
+      "file": "S2/score_diagnostics.json",
+      "sha256": "6b0b6c3c14379058e93b0fec2ce595af87eb57693b7814886365750b41979b5a"
+    }
+  ],
+  "derived_counts": {
+    "daily_rows": 3812,
+    "training_rows": 4796,
+    "parameter_values": 108
+  },
+  "pdf_pages": 10
+}

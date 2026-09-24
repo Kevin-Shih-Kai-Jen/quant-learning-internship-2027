@@ -1,0 +1,16 @@
+{
+  "source_sha256": {
+    "jpx_v20_eps_data_audit_20260915/selected_cases.pkl": "e47beb3df2485ec2620dfca5b675be700f17630b3ea758fdb6006936a3a4d4fa",
+    "jpx_v20_eps_data_audit_20260915/selected_source_records.csv": "77afc34f8babe479e9a28cedf5d472ac05f5d1b53ba808dad99715339343a644",
+    "jpx_v20_eps_data_audit_20260915/reconstruct.py": "28581bfcd5afc001fdb571e2c3baf592051dbda9af79a36d5086fa24972202b4",
+    "jpx_v20_eps_data_audit_20260915/source_timing_audit.py": "a5de7878e93e10331e2218db7cdc125be4e6b71cc3227434e50084f87d4e0fac",
+    "jpx_v20_eps_data_audit_20260915/source_timing_audit.json": "d41194c35fae2260461fc81ed9ed3e4db43f643ec95fe104640d514b20e32d35",
+    "jpx_v20_eps_data_audit_20260915/audit_plan.md": "1dd4080cb8975fafc035ee8fdbb227096d17a617fe367cb5d6ff7f53a41d3930",
+    "jpx_v20_eps_data_audit_20260915/report.py": "d680ec33f848417c7d7cce2d3b01e3516f6d9799187d7fe7593afb1da750e006",
+    "jpx_v19_qoq_predict_yoy_20260915/predictions.pkl": "4649d2ad0418b7fff84d11cf859bf452d964901da99b80ebe2ad23bdb4ddd6b5",
+    "jpx_v20_eps_data_audit_20260915/ordinary_primary_sources.json": "a7edb5d0e832dde7ee7bbfe7200f957fa861ac778da60c25982a2a9eb1836e61",
+    "jpx_v20_eps_data_audit_20260915/extreme_primary_sources.json": "da8edb1acc6a15277e019f8e99558e1b5997cbf866c45fdfd45f0a7947481e8d",
+    "jpx_v20_eps_data_audit_20260915/sensitivity_review.json": "e075e13e329e799b77b560b0763b9d5adea4d1feaf33327b6f50a452333b055c",
+    "jpx_v20_eps_data_audit_20260915/case_findings.csv": "58f934f7ae25a2931206b18b0c96dcfaf6d220d7c7636d78b2f184c986d9dbff"
+  }
+}

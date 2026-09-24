@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "parameter_count": 27,
+  "finite_difference_max_error": 1.9954415723943963e-13,
+  "independent_grid_replay_substeps": 144,
+  "discount_boundary_projection": true,
+  "zero_financial_inputs_leave_parameters_unchanged": true
+}

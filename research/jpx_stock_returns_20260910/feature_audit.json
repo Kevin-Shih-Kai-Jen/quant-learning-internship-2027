@@ -1,0 +1,28 @@
+{
+  "price": {
+    "inserted_missing_market_dates": 0,
+    "market_wide_closures_excluded_from_lookbacks_only": [
+      "2020-10-01"
+    ],
+    "zero_or_numerically_zero_std_rows": {
+      "5": 553,
+      "22": 5,
+      "60": 0
+    }
+  },
+  "volume": {
+    "constant_volume_window_rows": {
+      "5": 420,
+      "22": 215,
+      "60": 177
+    },
+    "volume_adjustment": "Volume * cumulative AdjustmentFactor strictly before signal date",
+    "constant_window_policy": "zero z-score for a complete constant window",
+    "missing_policy": "never impute unavailable volume; fail if baseline-eligible row lacks a feature",
+    "baseline_eligible_rows_missing_volume_features": 0
+  },
+  "raw_sha256": "bf774a86f834e5338bba74f2356ebb750f93a1cc4e89b064ee07251e8ed851db",
+  "rows": 2332531,
+  "new_eligible": 2197201,
+  "old_eligible": 2166453
+}

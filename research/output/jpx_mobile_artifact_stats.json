@@ -1,0 +1,55 @@
+{
+  "pdf": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/output/pdf/JPX-model-diagnostics-mobile-20260914.pdf",
+  "mse_excluded_contribution_share_M1": 0.7515505508899833,
+  "mse_reduction": 0.9367236313291875,
+  "models": [
+    {
+      "Version": "v14",
+      "Variant": "sgd_only",
+      "Loss": "Return MSE",
+      "Sharpe": -0.0176008978114999,
+      "MeanRankIC": -0.0016147041907826,
+      "NormalizedHardRankMSE": 0.1670145381619326,
+      "Days": 953,
+      "Model": "M1",
+      "MeanDailyReturnBP": -0.5044028055483509,
+      "ReturnMSE": 0.021107046627895275
+    },
+    {
+      "Version": "v14",
+      "Variant": "sgd_sqrt",
+      "Loss": "Return MSE",
+      "Sharpe": -0.0298727502065605,
+      "MeanRankIC": -0.0028513268647727,
+      "NormalizedHardRankMSE": 0.1672206447127654,
+      "Days": 953,
+      "Model": "M2",
+      "MeanDailyReturnBP": -1.0268931451443186,
+      "ReturnMSE": 0.0013355772639787318
+    },
+    {
+      "Version": "v15",
+      "Variant": "sgd_only",
+      "Loss": "Soft rank",
+      "Sharpe": -0.0062127349723807,
+      "MeanRankIC": -0.0009986766397336,
+      "NormalizedHardRankMSE": 0.1669118827748076,
+      "Days": 953,
+      "Model": "S1",
+      "MeanDailyReturnBP": -0.23393133645810027,
+      "ReturnMSE": null
+    },
+    {
+      "Version": "v15",
+      "Variant": "sgd_sqrt",
+      "Loss": "Soft rank",
+      "Sharpe": -0.0194573867121467,
+      "MeanRankIC": -0.0032074718989366,
+      "NormalizedHardRankMSE": 0.167280008287515,
+      "Days": 953,
+      "Model": "S2",
+      "MeanDailyReturnBP": -0.739019079101608,
+      "ReturnMSE": null
+    }
+  ]
+}

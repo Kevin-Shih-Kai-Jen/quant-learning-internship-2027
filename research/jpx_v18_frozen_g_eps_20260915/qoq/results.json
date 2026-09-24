@@ -1,0 +1,16 @@
+{
+  "variant": "qoq",
+  "features": [
+    "EPSActualQoQ"
+  ],
+  "sharpe": 0.006583673745570527,
+  "mean_rank_ic": -0.0005656359776807627,
+  "return_mse": 0.0007438055582601323,
+  "training_stock_days": 2323958,
+  "skipped_stock_days": 1848,
+  "updates": 1199,
+  "days": 953,
+  "final_coefficients": {
+    "EPSActualQoQ": 0.0007198537017173539
+  }
+}

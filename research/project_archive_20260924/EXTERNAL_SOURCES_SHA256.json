@@ -1,0 +1,23 @@
+[
+  {
+    "original_path": "/Users/coolguy/Desktop/JPX_data/modelling/JPX_data.zip",
+    "saved_path": "external_sources/JPX_data.zip",
+    "size": 222933782,
+    "sha256": "aaf930192e68d16924e662ef8190d913b06ac1e9e71c23fb8ce9ee3f418ddb0a",
+    "verified": true
+  },
+  {
+    "original_path": "/Users/coolguy/Desktop/JPX_data/modelling/JPX-market-regime-experiment.zip",
+    "saved_path": "external_sources/JPX-market-regime-experiment.zip",
+    "size": 13480078,
+    "sha256": "f5fcbb52ac3ba10b5f1586b84c863c01486e6cedaf78f04dd24d0e4210ce4750",
+    "verified": true
+  },
+  {
+    "original_path": "/Users/coolguy/.codex/plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-team-alignment/assets/reference.pptx",
+    "saved_path": "external_sources/team-alignment-reference.pptx",
+    "size": 7330920,
+    "sha256": "72b9f23a07bfd679cde36757acb11ec99900b4be0f5d393a5b4e8c6fdce4286d",
+    "verified": true
+  }
+]

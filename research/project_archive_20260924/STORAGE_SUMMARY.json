@@ -1,0 +1,16 @@
+{
+  "measured_at": "2026-09-24T15:01:01+0800",
+  "units": "bytes; decimal GB = bytes/1e9",
+  "project_initial_logical_bytes": 13802874642,
+  "project_final_logical_bytes_before_this_small_statistics_file": 11901054444,
+  "net_project_reduction_bytes": 1901820198,
+  "archived_files": 139,
+  "original_archived_bytes": 4849362597,
+  "compressed_bytes": 2689036921,
+  "gross_compression_savings_bytes": 2160325676,
+  "readable_bundle_bytes": 5595935,
+  "readable_bundle_members": 1342,
+  "disk_free_bytes": 4844806144,
+  "github_uploaded": false,
+  "original_content_verified_files": 10279
+}

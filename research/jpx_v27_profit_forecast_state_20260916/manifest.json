@@ -1,0 +1,33 @@
+{
+  "source_sha256": {
+    "JPX-experiment-defaults.json": "4195fa1c3d96235756a3ba07c64c597355856f569075e1d2330b69c1bd5eddd2",
+    "jpx_v8_soft_rank_20260912/inputs.pkl": "6b0ff60bfb8eab20ec7c6e087e746dd6e0ccc38b9633d1a11d98477d84857bc6",
+    "jpx_v27_profit_forecast_state_20260916/financial_signal_features.pkl": "251a27ee354440c53853cc294c91dfdaff68fc6717fb2d8267cc9febd7668ead",
+    "jpx_v27_profit_forecast_state_20260916/state_events.pkl": "d587de65aac789f4d8c0d3fb898cfa72bdd71ce5642f986d52fc592f9ba785f9",
+    "jpx_v27_profit_forecast_state_20260916/feature_audit.json": "c52b0e565c09a9eec55ccebd4f6a68dc36a5a32ef272ba4b141de9e4001c2134",
+    "jpx_v27_profit_forecast_state_20260916/feature_manifest.json": "36bd185310a6fc106d181ad6f5a16b634d626f68c7f3e6b9529efed6944e970c",
+    "jpx_v27_profit_forecast_state_20260916/run.py": "f7d19467f2d8815f4031ee7a3cce34ba9686a6a5947690c29773502445791d3f",
+    "jpx_v27_profit_forecast_state_20260916/features.py": "47a876de1e4d4e4340a29e11edc6101c8a2389979aebc8ae997268361e9e5e46",
+    "jpx_v27_profit_forecast_state_20260916/experiment_plan.md": "d8210099d605a72f7939204f33733cbe62a2ff64c3a11792090cccab887d74e3",
+    "jpx_v23_g_thresholds_20260916/no_skip/daily_metrics.csv": "d2101669f04f470acc9dc2b78f37b4fb32dd00e2e316946f97db84c7c972a410",
+    "jpx_v23_g_thresholds_20260916/no_skip/results.json": "4b4dd937e3830ebd16097a69784f2977019c3cbeca5e015f49675fad64a868d9",
+    "jpx_v23_g_thresholds_20260916/no_skip/training_updates.csv": "de323dcd1f15f85ee5066da9ffb8e4189de70104cc94146e39a9fdcc32d8cfef",
+    "jpx_v25_single_features_unfiltered_20260916/v16_feature_09/daily_metrics.csv": "2ca5e877ba8beb5c012f519eef04cdb64a62c5ec2fda51e6bd7314009f291d92",
+    "jpx_v25_single_features_unfiltered_20260916/v16_feature_09/results.json": "e2e55d72c3bcd8c942dc66a765a6bf207d7bdbb8841587386c8f59b14131965f",
+    "jpx_v25_single_features_unfiltered_20260916/v16_feature_09/training_updates.csv": "244c0357a1ac92fd6028e0bc41288ccdcd8d282ef4f719379b7d7c0502cd6b6d",
+    "jpx_v26_profit_forecast_revision_20260916/joint/daily_metrics.csv": "aac198209ff9fa9fad27a815ce4741b20d5dd6214c6f09d2b750bcf221f45212",
+    "jpx_v26_profit_forecast_revision_20260916/joint/results.json": "15bce14ddd6e596440758c4372c24706e92bd791adf5fe5607782cfd592d844f",
+    "jpx_v26_profit_forecast_revision_20260916/joint/training_updates.csv": "37cebe770a9e34525cd648ecdaeaa9dd911493a3282446a102bde8c0c46fc4d4"
+  },
+  "training_threshold": null,
+  "validation_threshold": null,
+  "models": {
+    "overwrite": [
+      "ProfitLatestYoY"
+    ],
+    "change_old": [
+      "ProfitYoYChange",
+      "ProfitPreviousYoY"
+    ]
+  }
+}

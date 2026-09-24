@@ -1,0 +1,15 @@
+{
+  "selected_cases": 20,
+  "ordinary_cases": 10,
+  "extreme_cases": 10,
+  "quarter_checks": 60,
+  "naive_values_reproduced_exactly": true,
+  "all_extreme_year_base_abs_le_009": true,
+  "extreme_year_bases_direct_1q": 4,
+  "extreme_year_bases_differenced": 6,
+  "over100_classification_sensitivity_changes": 0,
+  "ordinary_growth_sign_changes": 0,
+  "zero_reported_profit_nonzero_eps_quarters": 2,
+  "status": "Sensitivity calculation only, not an official corrected EPS feed",
+  "method": "Day-weighted reconstruction of quarterly average shares, EPS-implied numerator and separately rounded Profit; no retraining or cache mutation"
+}

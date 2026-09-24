@@ -1,0 +1,13 @@
+{
+  "repository": "Kevin-Shih-Kai-Jen/quant-learning-internship-2027",
+  "visibility": "private",
+  "pack_max_bytes": 805306368,
+  "excluded_directories": [".git", "node_modules", "__pycache__", ".next", ".cache", ".wrangler", ".openai", ".venv", "github_repo_20260924"],
+  "excluded_filenames": [".DS_Store"],
+  "text_extensions": [".md", ".txt", ".py", ".c", ".cpp", ".h", ".sh", ".json", ".toml", ".yaml", ".yml", ".js", ".jsx", ".ts", ".tsx", ".css", ".html", ".lock", ".log", ".sha256", ".conf"],
+  "text_max_bytes": 8388608,
+  "csv_git_max_bytes": 262144,
+  "document_git_max_bytes": 2097152,
+  "image_git_max_bytes": 204800,
+  "policy": "Historical experiment contents are immutable. No source deletion. Version large evidence as release assets; verify SHA-256 before publication. Never make this research/data repository public automatically."
+}

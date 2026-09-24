@@ -1,0 +1,21 @@
+{
+  "version": "v29",
+  "variant": "c1_change_old",
+  "model": "change_old",
+  "multiplier": 1.0,
+  "selection_scope": "all existing validation, 953 days",
+  "selection_order": [
+    "Sharpe descending",
+    "RankIC descending as tie-breaker"
+  ],
+  "rank_ic_positive_required": false,
+  "mse_used_for_selection": false,
+  "Sharpe": 0.002223593758919294,
+  "RankIC": -0.0013705999066653068,
+  "test_evaluated": false,
+  "status": "validation_selected_candidate_only",
+  "training_loss": "ordinary MSE",
+  "learning_rate": "multiplier * min(A spectral rate, B spectral rate) each known training day",
+  "source_manifest": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v29_learning_rate_sweep_20260916/manifest.json",
+  "formal_baseline": "v7"
+}

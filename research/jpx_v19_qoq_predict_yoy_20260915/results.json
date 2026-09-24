@@ -1,0 +1,44 @@
+{
+  "version": "v19",
+  "target": "EPS actual YoY",
+  "predictor": "EPS actual QoQ",
+  "formula": "(current-old)/abs(old)",
+  "raw_events_no_decay": true,
+  "training": "past availability days expanding OLS; joint abs<=100 mask; no forecast requirement",
+  "validation_start": "2018-12-28",
+  "validation_end": "2021-12-01",
+  "all_actual_events": 38568,
+  "valid_pairs": 27474,
+  "invalid_pairs": 11094,
+  "excluded_from_training": 219,
+  "primary": {
+    "N": 21813,
+    "Dates": 600,
+    "MSE": 33.641473328078966,
+    "RMSE": 5.800127009650648,
+    "BaselineMSE": 34.32016410279383,
+    "BaselineRMSE": 5.858341412276501,
+    "MSEImprovement": 0.019775277667148927,
+    "MAE": 1.800998814420927,
+    "MedianAbsoluteError": 0.6437734994643746
+  },
+  "including_extremes": {
+    "N": 21993,
+    "Dates": 600,
+    "MSE": 1749.8596441238944,
+    "RMSE": 41.83132371947958,
+    "BaselineMSE": 1730.2225605408125,
+    "BaselineRMSE": 41.595944039543234,
+    "MSEImprovement": -0.011349455284494825,
+    "MAE": 3.5012859952380206,
+    "MedianAbsoluteError": 0.6494023680948227
+  },
+  "validation_extreme_events": 180,
+  "ols_independent_fit_checks": 783,
+  "first_validation_training_n": 5432,
+  "last_validation_training_n": 27243,
+  "last_coefficients": {
+    "a": 0.3708321926198956,
+    "B": 0.139860932039988
+  }
+}

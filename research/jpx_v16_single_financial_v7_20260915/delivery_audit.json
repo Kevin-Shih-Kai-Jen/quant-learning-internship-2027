@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "models": 31,
+  "comparison_rows": 15,
+  "yearly_rows": 60,
+  "common_days": 953,
+  "active_version_unchanged": "v7",
+  "latest_experiment": "v16",
+  "report_exists": true
+}

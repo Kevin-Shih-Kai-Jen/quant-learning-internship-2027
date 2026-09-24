@@ -1,0 +1,48 @@
+{
+  "version": "v29",
+  "description": "Validation sweep of 0.25/0.5/1/1.5/1.9 times common learning rate; Sharpe primary, Rank IC secondary, no MSE selection",
+  "directory": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v29_learning_rate_sweep_20260916",
+  "status": "completed_experiment",
+  "variants": [
+    "c025_g_common",
+    "c025_overwrite",
+    "c025_change_old",
+    "c05_g_common",
+    "c05_overwrite",
+    "c05_change_old",
+    "c1_g_common",
+    "c1_overwrite",
+    "c1_change_old",
+    "c15_g_common",
+    "c15_overwrite",
+    "c15_change_old",
+    "c19_g_common",
+    "c19_overwrite",
+    "c19_change_old"
+  ],
+  "audit_passed": true,
+  "test_evaluated": false,
+  "selected_candidate": {
+    "version": "v29",
+    "variant": "c1_change_old",
+    "model": "change_old",
+    "multiplier": 1.0,
+    "selection_scope": "all existing validation, 953 days",
+    "selection_order": [
+      "Sharpe descending",
+      "RankIC descending as tie-breaker"
+    ],
+    "rank_ic_positive_required": false,
+    "mse_used_for_selection": false,
+    "Sharpe": 0.002223593758919294,
+    "RankIC": -0.0013705999066653068,
+    "test_evaluated": false,
+    "status": "validation_selected_candidate_only",
+    "training_loss": "ordinary MSE",
+    "learning_rate": "multiplier * min(A spectral rate, B spectral rate) each known training day",
+    "source_manifest": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v29_learning_rate_sweep_20260916/manifest.json",
+    "formal_baseline": "v7"
+  },
+  "training_financial_abs_limit": null,
+  "validation_financial_abs_limit": null
+}

@@ -1,0 +1,10 @@
+{
+  "balanced_signs": true,
+  "all_positive_transfer": true,
+  "all_negative_transfer": true,
+  "scarce_positive_transfer": true,
+  "zero_predictions_cash": true,
+  "deterministic_tie_break": true,
+  "insufficient_candidates_no_duplicates": true,
+  "all_passed": true
+}

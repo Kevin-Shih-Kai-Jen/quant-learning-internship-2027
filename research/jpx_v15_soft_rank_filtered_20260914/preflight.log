@@ -1,0 +1,4 @@
+{'passed': True, 'finite_difference_max_abs_error': np.float64(1.536870630758358e-11), 'finite_difference_parameters': 81, 'independent_grid_substeps': 46, 'shift_invariance': True, 'average_ties': True, 'cross_stock_gradient': True, 'stable_large_score_range': True, 'worker_determinism': True, 'zero_financial_columns_zero_gradient': True, 'soft_rank_sum_identity': True, 'excluded_stock_absent_from_reference': True}
+benchmark 1 6.404487040999811
+benchmark 4 3.4510132079994946
+benchmark 8 2.803183958001682

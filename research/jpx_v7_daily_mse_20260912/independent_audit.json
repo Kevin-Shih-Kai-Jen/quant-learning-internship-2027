@@ -1,0 +1,35 @@
+{
+  "all_checks_passed": true,
+  "variants": {
+    "v7_equal": {
+      "all_checks_passed": true,
+      "every_training_day_used_once": 1199,
+      "one_parameter_update_per_date_verified": true,
+      "zero_initialization_and_continuity_verified": true,
+      "all_forecast_ranks_and_frozen_training_weights_verified": true,
+      "no_future_labels_used": true,
+      "all_daily_mse_gradients_and_single_updates_independently_recomputed": true,
+      "learning_rates_crosschecked_with_singular_values": true,
+      "parameter_max_error": 1.9165983904112505e-16,
+      "gradient_max_error": 7.815970093361102e-14,
+      "forecast_max_error": 1.6797674362578618e-13,
+      "official_sharpe_independent": 0.007678871562421057,
+      "all_validation_universes_equal_v5": true
+    },
+    "v7_jpx": {
+      "all_checks_passed": true,
+      "every_training_day_used_once": 1199,
+      "one_parameter_update_per_date_verified": true,
+      "zero_initialization_and_continuity_verified": true,
+      "all_forecast_ranks_and_frozen_training_weights_verified": true,
+      "no_future_labels_used": true,
+      "all_daily_mse_gradients_and_single_updates_independently_recomputed": true,
+      "learning_rates_crosschecked_with_singular_values": true,
+      "parameter_max_error": 1.9309640691966834e-16,
+      "gradient_max_error": 1.5027978861326119e-12,
+      "forecast_max_error": 1.8879342533750787e-13,
+      "official_sharpe_independent": -0.04018309809990261,
+      "all_validation_universes_equal_v5": true
+    }
+  }
+}

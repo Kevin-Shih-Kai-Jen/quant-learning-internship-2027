@@ -1,0 +1,13 @@
+{
+  "status": "pass",
+  "checkedAt": "2026-09-01T11:57:24.722Z",
+  "workspace": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/ppt_build/team_alignment_hiwin",
+  "finalPptx": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/大銀微系統_產品與應用產業_外行人版.pptx",
+  "starterPptx": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/ppt_build/team_alignment_hiwin/template-starter.pptx",
+  "mapPath": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/ppt_build/team_alignment_hiwin/template-frame-map.json",
+  "starterLayoutDir": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/ppt_build/team_alignment_hiwin/template-starter-layout",
+  "finalLayoutDir": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/ppt_build/team_alignment_hiwin/authored-layout",
+  "editDir": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/ppt_build/team_alignment_hiwin",
+  "issueCount": 0,
+  "issues": []
+}

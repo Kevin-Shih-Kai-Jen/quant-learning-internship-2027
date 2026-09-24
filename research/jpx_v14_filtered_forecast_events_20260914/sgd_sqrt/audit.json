@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "days_replayed": 1199,
+  "stock_updates_replayed": 2323512,
+  "full_updates_replayed": 52189,
+  "replay_method": "independent Jacobian replay, anchored every 8 stocks and each full pass; checkpoints regenerate bitwise-identical full traces",
+  "gradient_substeps_replayed": 4751402,
+  "max_relative_errors_loss_before_after_gradinf_norm_descent": [
+    2.994200889163892e-15,
+    2.994200889163892e-15,
+    1.3656336160015648e-14,
+    2.7640370777417953e-14,
+    4.5310614028142704e-15
+  ],
+  "max_daily_final_parameter_error": 1.887379141862766e-15,
+  "max_relative_daily_stage_loss_error": 2.1686739079324038e-16,
+  "independent_numpy_full_grid_substeps": 130,
+  "finite_difference_relative_error": 2.15512860343023e-13,
+  "forecast_rows_reproduced": 2326022,
+  "all_integer_ranks_equal": true,
+  "max_prediction_error": 1.6431300764452317e-13,
+  "max_spread_error": 2.6645352591003757e-15,
+  "validation_sharpe_reproduced": -0.029872750206560526,
+  "seconds": 50.80759458300054
+}

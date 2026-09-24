@@ -1,0 +1,39 @@
+{
+  "inputs": {
+    "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v8_soft_rank_20260912/inputs.pkl": "6b0ff60bfb8eab20ec7c6e087e746dd6e0ccc38b9633d1a11d98477d84857bc6",
+    "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v11_persistent_finance_std22_20260913/return_std22_features.pkl": "cd07c45b986550b4cd0924a79ef3817efe7e855ed79981b6969243630edc640a",
+    "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v14_filtered_forecast_events_20260914/financial_signal_features.pkl": "bf067c7cea6c1c7d14cd0bdbeda5ae995590f43fa1c04670e30b31036d5be03d",
+    "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v14_filtered_forecast_events_20260914/feature_audit.json": "de43645c94a97c9f4452170cd5fc31e6d67c72a234283cf832de89f6a1e4d4c2"
+  },
+  "source": {
+    "build.py": "bbfcf3da73242c0043b5e360de7ac26f655afb396f41e56cba0a61ec27274c63",
+    "run.py": "fb097bfb06a8eb7ff46fad400f3db9b08f01175392b7d424457955c909b08773",
+    "compare_baseline.py": "a4174ffaaf718ae816d6a163bc9c3f7d304107e7d921ff2ec43e4cdfefcd73a3",
+    "features.py": "485ff2318a8b9b5b0f68943aa68341199e61cc4b06d0cb5d46925632102ff1ab",
+    "native.py": "d3a2722dbd4be8a3b3a3d754e46a236ae9566e3ae916b72f43b3eeb02b778f11",
+    "audit_inputs.py": "b743a771072536fb7669426a8f038dd866e3e4d6000fde5aea3e1641a416c00e",
+    "score_diagnostics.py": "3598d430788ac97073f2ea0907269a730f6bde5287f74ba62937314c42501175",
+    "audit_results.py": "c1f3271fa96d5aa0d5d1df7ba28a65856c3d66e8dec1a3ca1bc84322f3b07b80",
+    "training_baseline.py": "1b207ba542c4dce064c575a20987f8132e4dd2b110857a553a4bafab6d564eaa",
+    "preflight.py": "46fd32a1be3e30e60cd7e2ad5f49ebddb8261b04001069a8dbbf87f492134af9",
+    "write_report.py": "d09cb7a89b59a20f1a2f8e69c033962653622a7d5f6882718a249dd27a8b84da",
+    "refine_replay.py": "0715c8e23d042f6b87c992c8e25cf2f37679fafe07481f4b8f0611de676245e7",
+    "model_checkpoints.cpp": "d41c9022dc3cbaf4574e31a6238f6cc7f664873ce5600c5fef6548bef5778cc5",
+    "model.cpp": "c5d8cd4dfa7583a4156e29dd3b9d345147ced50c7b75691a48b3aea307a22d09",
+    "replay.cpp": "113b80e573a7a140c6e9c137a46dd8e1ce97f1a5f573cbcf5a17cd40d59d6001",
+    "replay_segments.cpp": "06b03f370d691b31b005664c97e4417cf9aecef10c2663c93bbcf997b32198ef",
+    "replay_segments.dylib": "71ce01a5aca680e38589a04f98666fe4c8aae316fbb8a2782e000d33c7ced2c5",
+    "model.dylib": "aea865ed9b6de8eb76b910b4b7b65a2fd095d95f97855b38ce7f981b50501ff6",
+    "replay.dylib": "222fdcdf89103309927459c971ab4f2894d26cf1f434941647e3b38169af5b97",
+    "model_checkpoints.dylib": "2398c97337bb541ff329b6402530f84f057f5b6d2a696c8c298ea4335f247b55",
+    "experiment_plan.md": "529275227662e92b3f52b4c6e07f943ed4fec60cb3edc9e5da8a7174c73271cb"
+  },
+  "runtime": {
+    "python": "3.14.2 (main, Dec  5 2025, 16:49:16) [Clang 16.0.0 (clang-1600.0.26.6)]",
+    "numpy": "2.4.6",
+    "pandas": "3.0.3",
+    "platform": "macOS-26.5.1-arm64-arm-64bit-Mach-O"
+  },
+  "compiler": "clang++ -O3 -std=c++17 -dynamiclib -framework Accelerate",
+  "cpu_workers": 8
+}

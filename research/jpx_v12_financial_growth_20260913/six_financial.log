@@ -1,0 +1,12 @@
+six_financial 2017-05-30 label_days 98 seconds 7.7
+six_financial 2017-10-23 label_days 198 seconds 17.2
+six_financial 2018-03-22 label_days 298 seconds 27.0
+six_financial 2018-08-15 label_days 398 seconds 38.5
+six_financial 2019-01-16 label_days 498 seconds 50.0
+six_financial 2019-06-17 label_days 598 seconds 62.0
+six_financial 2019-11-13 label_days 698 seconds 74.1
+six_financial 2020-04-13 label_days 798 seconds 86.2
+six_financial 2020-09-09 label_days 898 seconds 97.7
+six_financial 2021-02-08 label_days 998 seconds 109.5
+six_financial 2021-07-06 label_days 1098 seconds 121.4
+DONE {"version": "v12", "variant": "six_financial", "validation": {"official_style_unannualized_sharpe": 0.008874453092358695, "annualized_equivalent_sqrt252": 0.14087757542453536, "signal_days": 953, "scored_days": 953, "unscorable_selected_missing_label_days": 0, "ranked_rows": 1864363, "stocks_per_day_min": 1896, "stocks_per_day_max": 2000, "fallback_rows": 46974, "selected_fallback_rows": 14731, "unavailable_target_rows": 3, "missing_selected_target_rows": 0, "mean_official_spread": 0.00994910304503927, "sample_std_official_spread": 1.121094780883557, "mean_illustrative_gross_one_return": 2.487275761259818e-05, "exact_official_metric_difference": 5.204170427930421e-18}, "label_days": 1199, "training_stocks": 2325806, "batches": 2325806, "accepted_updates": 2301510, "small_gradient_skips": 17, "no_acceptable_eta_skips": 24279, "candidate_evaluations": 70934169, "financial_gradient_dominates_batches": 2205533, "eps_gradient_dominates_batches": 2182414, "mean_daily_forecast_mse": 0.5438716426558454, "full_day_loss_increased_days": 617, "final_coefficients": {"alpha": 0.0071064586869499695, "T5": -0.001936018425862744, "T22": -0.012268896241441776, "T60": -0.005568257133385329, "V5": 0.0018172170061220958, "V22": 0.011390429514653057, "V60": -0.005876837225579617, "P5xV5": -0.0021632927180630914, "P22xV22": 0.009915505524909954, "P60xV60": 0.000556349263436149, "PR1": -0.00785318576155627, "VR1": 0.007487077074873834, "ActualNetSalesGrowth": 0.003403586395672828, "ActualOperatingProfitGrowth": 0.0007114074235069434, "ActualEPS": 0.0032344150771100983, "ForecastNetSalesGrowth": 0.006778091244552678, "ForecastOperatingProfitGrowth": 0.002901607705578532, "ForecastEPS": -0.001093590233455115}, "last_forecast_date": "2021-12-01", "final_parameter_asof": "2021-12-03", "seconds": 213.3848307080043, "internal_checks_passed": true}

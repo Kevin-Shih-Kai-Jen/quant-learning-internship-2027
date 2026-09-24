@@ -1,0 +1,30 @@
+{
+  "version": "v20",
+  "task": "20-case EPS data audit",
+  "selected_cases": 20,
+  "source_fields_checked": 1218,
+  "source_timing_passed": true,
+  "confirmed_material_eps_subtraction_mismatch": {
+    "case": "E05",
+    "code": 4617,
+    "old_current_eps": 13.31,
+    "old_year_eps": 0.01,
+    "official_current_eps": 13.39,
+    "official_year_eps": 0.12,
+    "official_document_date": "2020-02-12",
+    "original_event_date": "2020-01-31",
+    "source": "https://www.cmp.co.jp/IR/2020/2020_f-report_3q.pdf"
+  },
+  "later_revision_case": "E07",
+  "source_value_mismatch": {
+    "case": "N09",
+    "source_row": 86273,
+    "raw_csv_eps": -62.5,
+    "issuer_pdf_eps": -62.56,
+    "issuer_date": "2021-08-06",
+    "cause": "unresolved"
+  },
+  "sensitivity_only": true,
+  "models_retrained": false,
+  "active_baseline": "v7"
+}

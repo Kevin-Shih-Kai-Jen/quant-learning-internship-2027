@@ -1,0 +1,162 @@
+{
+  "main_variant": "v7_equal",
+  "reference_variant": "v7_jpx",
+  "features": [
+    "T5",
+    "T22",
+    "T60",
+    "V5",
+    "V22",
+    "V60",
+    "P5xV5",
+    "P22xV22",
+    "P60xV60",
+    "PR1",
+    "VR1"
+  ],
+  "step_size_rule": "1/(2*largest eigenvalue of daily weighted X transpose X)",
+  "common_days": 953,
+  "comparison": {
+    "v7_equal": {
+      "common_days": 953,
+      "official_unannualized_sharpe": 0.0076788715624210805
+    },
+    "v7_jpx": {
+      "common_days": 953,
+      "official_unannualized_sharpe": -0.04018309809990258
+    },
+    "v5": {
+      "common_days": 953,
+      "official_unannualized_sharpe": 0.046741952393526874
+    }
+  },
+  "annual": [
+    {
+      "validation_year": 2018,
+      "days": 245,
+      "v7_equal": -0.011513767098899553,
+      "v7_jpx": -0.05010428699890403,
+      "v5": -0.036724713837330086
+    },
+    {
+      "validation_year": 2019,
+      "days": 241,
+      "v7_equal": 0.05006717553385377,
+      "v7_jpx": 0.01968895784734614,
+      "v5": 0.1185365901978653
+    },
+    {
+      "validation_year": 2020,
+      "days": 242,
+      "v7_equal": 0.05085734661690185,
+      "v7_jpx": -0.04718710747452115,
+      "v5": 0.07414952496892292
+    },
+    {
+      "validation_year": 2021,
+      "days": 225,
+      "v7_equal": -0.08760480813901657,
+      "v7_jpx": -0.08541288960012881,
+      "v5": 0.03640065916418198
+    }
+  ],
+  "variants": {
+    "v7_equal": {
+      "variant": "v7_equal",
+      "validation": {
+        "official_style_unannualized_sharpe": 0.007678871562421042,
+        "annualized_equivalent_sqrt252": 0.12189830702263245,
+        "signal_days": 953,
+        "scored_days": 953,
+        "unscorable_selected_missing_label_days": 0,
+        "ranked_rows": 1864363,
+        "stocks_per_day_min": 1896,
+        "stocks_per_day_max": 2000,
+        "fallback_rows": 46974,
+        "selected_fallback_rows": 7572,
+        "unavailable_target_rows": 3,
+        "missing_selected_target_rows": 0,
+        "mean_official_spread": 0.009116532667688224,
+        "sample_std_official_spread": 1.1872229654553386,
+        "mean_illustrative_gross_one_return": 2.279133166922054e-05,
+        "exact_official_metric_difference": 3.8163916471489756e-17
+      },
+      "daily_updates": 1199,
+      "initial_parameter": "zeros once, 2017-01-04",
+      "no_history_replay": true,
+      "one_step_per_date": true,
+      "training_loss": "ordinary daily MSE, no square root or across-date average",
+      "training_weight_rule": "all observed-label stocks equal",
+      "total_positive_weight_training_rows": 2325806,
+      "dates_with_missing_positive_weight_targets": 216,
+      "missing_positive_weight_targets": 216,
+      "final_parameter_asof": "2021-12-03",
+      "last_forecast_date": "2021-12-01",
+      "final_coefficients": {
+        "alpha": -0.001869755172082421,
+        "T5": -0.0014563893407749406,
+        "T22": -0.00453561991700192,
+        "T60": -0.004537748048098176,
+        "V5": 0.0011955026264586373,
+        "V22": 0.001062869206519687,
+        "V60": 0.0011327339753318566,
+        "P5xV5": -0.0006687558714495074,
+        "P22xV22": -0.002131817177059379,
+        "P60xV60": -0.0013970414649810505,
+        "PR1": 0.0014079447277792988,
+        "VR1": -0.0008201904722552019
+      },
+      "all_internal_checks_passed": true
+    },
+    "v7_jpx": {
+      "variant": "v7_jpx",
+      "validation": {
+        "official_style_unannualized_sharpe": -0.04018309809990261,
+        "annualized_equivalent_sqrt252": -0.6378869068827263,
+        "signal_days": 953,
+        "scored_days": 953,
+        "unscorable_selected_missing_label_days": 0,
+        "ranked_rows": 1864363,
+        "stocks_per_day_min": 1896,
+        "stocks_per_day_max": 2000,
+        "fallback_rows": 46974,
+        "selected_fallback_rows": 8501,
+        "unavailable_target_rows": 3,
+        "missing_selected_target_rows": 0,
+        "mean_official_spread": -0.052540900636079385,
+        "sample_std_official_spread": 1.3075373259038672,
+        "mean_illustrative_gross_one_return": -0.00013135225159019852,
+        "exact_official_metric_difference": 2.7755575615628914e-17
+      },
+      "daily_updates": 1199,
+      "initial_parameter": "zeros once, 2017-01-04",
+      "no_history_replay": true,
+      "one_step_per_date": true,
+      "training_loss": "ordinary daily MSE, no square root or across-date average",
+      "training_weight_rule": "own prediction-time extreme 200 on each side, raw positive magnitudes 2 to 1, zero outside, normalize total",
+      "total_positive_weight_training_rows": 479599,
+      "dates_with_missing_positive_weight_targets": 1,
+      "missing_positive_weight_targets": 1,
+      "final_parameter_asof": "2021-12-03",
+      "last_forecast_date": "2021-12-01",
+      "final_coefficients": {
+        "alpha": -0.0013158430390944136,
+        "T5": -0.0006782816079711232,
+        "T22": -0.0009780961102573784,
+        "T60": -0.0015360942310344275,
+        "V5": 0.0006208254638622793,
+        "V22": 0.00019311977163794436,
+        "V60": 0.0004162293848275964,
+        "P5xV5": -0.00016151398411353357,
+        "P22xV22": -0.0010818610013782497,
+        "P60xV60": -0.0017816201983596235,
+        "PR1": 0.00023683127694214165,
+        "VR1": -0.00018294828951052943
+      },
+      "all_internal_checks_passed": true
+    }
+  },
+  "costs_included": false,
+  "formal_test_used": false,
+  "official_metric_source": "https://www.kaggle.com/code/smeitoma/jpx-competition-metric-definition"
+}

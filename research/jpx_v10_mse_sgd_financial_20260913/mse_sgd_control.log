@@ -1,0 +1,12 @@
+mse_sgd_control 2017-05-30 label_days 98 beta 0.0 seconds 3.9
+mse_sgd_control 2017-10-23 label_days 198 beta 0.0 seconds 7.7
+mse_sgd_control 2018-03-22 label_days 298 beta 0.0 seconds 11.3
+mse_sgd_control 2018-08-15 label_days 398 beta 0.0 seconds 15.0
+mse_sgd_control 2019-01-16 label_days 498 beta 0.0 seconds 18.7
+mse_sgd_control 2019-06-17 label_days 598 beta 0.0 seconds 22.4
+mse_sgd_control 2019-11-13 label_days 698 beta 0.0 seconds 26.1
+mse_sgd_control 2020-04-13 label_days 798 beta 0.0 seconds 29.9
+mse_sgd_control 2020-09-09 label_days 898 beta 0.0 seconds 33.7
+mse_sgd_control 2021-02-08 label_days 998 beta 0.0 seconds 37.7
+mse_sgd_control 2021-07-06 label_days 1098 beta 0.0 seconds 41.5
+DONE {"version": "v10", "variant": "mse_sgd_control", "validation": {"official_style_unannualized_sharpe": -0.0431134454909343, "annualized_equivalent_sqrt252": -0.6844047295929071, "signal_days": 953, "scored_days": 953, "unscorable_selected_missing_label_days": 0, "ranked_rows": 1864363, "stocks_per_day_min": 1896, "stocks_per_day_max": 2000, "fallback_rows": 46974, "selected_fallback_rows": 8768, "unavailable_target_rows": 3, "missing_selected_target_rows": 0, "mean_official_spread": -0.05568273426440106, "sample_std_official_spread": 1.2915398811284928, "mean_illustrative_gross_one_return": -0.0001392068356610026, "exact_official_metric_difference": 1.3877787807814457e-17}, "label_days": 1199, "training_stocks": 2325806, "batches": 2325806, "accepted_updates": 2325798, "small_gradient_skips": 5, "no_acceptable_eta_skips": 3, "candidate_evaluations": 8552940, "hit_upper_eta_batches": 0, "own_zero_feature_nonzero_beta_gradient_batches": 0, "own_zero_feature_actual_beta_changes": 0, "financial_gradient_dominates_batches": 0, "full_day_loss_increased_days": 546, "mean_daily_forecast_mse": 0.004559377908741141, "mean_rank_ic": -0.0022885752728281595, "mean_normalized_hard_rank_mse": 0.16712684319000776, "final_coefficients": {"alpha": 0.0135219384523307, "T5": -0.013649467824820152, "T22": 0.030961268921721796, "T60": -0.0012265352479549723, "V5": -0.02015714271745991, "V22": -0.011713178103190131, "V60": 0.004415229231424179, "P5xV5": -0.016228201420514024, "P22xV22": -0.02413775967543765, "P60xV60": -0.0043649888258062335, "PR1": 0.02946479493910437, "VR1": 0.00790230413123001, "FinancialMarginYoYDecay": 0.0}, "last_forecast_date": "2021-12-01", "final_parameter_asof": "2021-12-03", "seconds": 98.4761494159975, "internal_checks_passed": true}

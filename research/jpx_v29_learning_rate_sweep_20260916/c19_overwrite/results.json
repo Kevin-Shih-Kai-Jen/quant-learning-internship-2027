@@ -1,0 +1,37 @@
+{
+  "name": "c19_overwrite",
+  "features": [
+    "ProfitLatestYoY"
+  ],
+  "includes_feature": true,
+  "parameter_count": 13,
+  "sharpe": -0.028407811376976143,
+  "scored_days": 953,
+  "mean_rank_ic": -0.0020217018333369583,
+  "rank_ic_days": 952,
+  "mean_hard_rank_mse": 0.16708238576468604,
+  "mean_return_mse": 0.0009426343200090543,
+  "training_updates": 1199,
+  "training_stock_days": 2325806,
+  "threshold_skipped_stock_days": 0,
+  "forecast_rows": 2326022,
+  "final_coefficients": {
+    "alpha": -0.002727850017262903,
+    "T5": 0.0007102303526034299,
+    "T22": -0.0021335275156822864,
+    "T60": -0.000858883208873546,
+    "V5": 0.0007425788984405384,
+    "V22": -0.00032585533484774795,
+    "V60": 0.0007644034426933868,
+    "P5xV5": 0.00011351678416140114,
+    "P22xV22": -0.0001950902290959922,
+    "P60xV60": -8.677626775974384e-05,
+    "PR1": 0.005832708675354567,
+    "VR1": -0.0001949953422399238,
+    "ProfitLatestYoY": 0.0001456325593275496
+  },
+  "parameter_asof": "2021-12-03",
+  "seconds": 3.2600243329980003,
+  "model": "overwrite",
+  "multiplier": 1.9
+}

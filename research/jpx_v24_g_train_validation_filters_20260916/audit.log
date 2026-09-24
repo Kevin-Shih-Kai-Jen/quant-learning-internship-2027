@@ -1,0 +1,5 @@
+{"none_none": {"evaluated_stock_days": 1864363, "days": 953, "rank_ic_days": 952, "sharpe": 0.007678871562421042, "min_daily_pool": 1896}}
+{"100_100": {"evaluated_stock_days": 1861607, "days": 953, "rank_ic_days": 952, "sharpe": 0.0063033885272349415, "min_daily_pool": 1884}}
+{"10_10": {"evaluated_stock_days": 1834934, "days": 953, "rank_ic_days": 952, "sharpe": 0.004279273953645739, "min_daily_pool": 1763}}
+{"none_100": {"evaluated_stock_days": 1861607, "days": 953, "rank_ic_days": 952, "sharpe": 0.008000686600347452, "min_daily_pool": 1884}}
+{"none_10": {"evaluated_stock_days": 1834934, "days": 953, "rank_ic_days": 952, "sharpe": 0.004427331476523485, "min_daily_pool": 1763}}

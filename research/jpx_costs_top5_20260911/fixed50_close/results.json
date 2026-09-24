@@ -1,0 +1,646 @@
+{
+  "key": "fixed50_close",
+  "name": "固定多50%空50%／收盤出場",
+  "close_only": true,
+  "scenarios": {
+    "zero": {
+      "performance": {
+        "days": 953,
+        "cumulative_return": 0.5690404843469841,
+        "annualized_return_252": 0.12649993413470484,
+        "max_drawdown": -0.2806200629485063,
+        "sharpe_252_rf0": 0.6814852068418699,
+        "daily_mean": 0.0005567736701923456,
+        "daily_std": 0.012969478894817331,
+        "positive_day_fraction": 0.5120671563483735,
+        "ending_wealth_per_100": 156.9040484346984,
+        "simple_sum_return": 0.5306053076933054
+      },
+      "rates": {
+        "commission_bp": 0,
+        "spread_bp": 0,
+        "slippage_bp": 0,
+        "borrow_annual": 0
+      },
+      "costs_in_starting_capital_units": {
+        "Commission": 0.0,
+        "Spread": 0.0,
+        "Slippage": 0.0,
+        "Borrow": 0.0,
+        "TotalCost": 0.0
+      },
+      "average_roundtrip_turnover": 1.9987696458681146,
+      "annual": [
+        {
+          "year": 2018,
+          "performance": {
+            "days": 245,
+            "cumulative_return": 0.19077501236763728,
+            "annualized_return_252": 0.19673026924693904,
+            "max_drawdown": -0.06374713059697223,
+            "sharpe_252_rf0": 1.172451843346584,
+            "daily_mean": 0.000766378566143799,
+            "daily_std": 0.01037644543434287,
+            "positive_day_fraction": 0.5265306122448979,
+            "ending_wealth_per_100": 119.07750123676372,
+            "simple_sum_return": 0.18776274870523077
+          }
+        },
+        {
+          "year": 2019,
+          "performance": {
+            "days": 241,
+            "cumulative_return": 0.18407685267250873,
+            "annualized_return_252": 0.19324378462128267,
+            "max_drawdown": -0.28062006294850705,
+            "sharpe_252_rf0": 0.874920645364368,
+            "daily_mean": 0.0008084749713746949,
+            "daily_std": 0.014668921531186584,
+            "positive_day_fraction": 0.5062240663900415,
+            "ending_wealth_per_100": 118.40768526725087,
+            "simple_sum_return": 0.19484246810130146
+          }
+        },
+        {
+          "year": 2020,
+          "performance": {
+            "days": 242,
+            "cumulative_return": 0.20221934365215355,
+            "annualized_return_252": 0.21140349836291739,
+            "max_drawdown": -0.1458708088454591,
+            "sharpe_252_rf0": 1.0290316309157945,
+            "daily_mean": 0.0008461988895549845,
+            "daily_std": 0.013054011679713106,
+            "positive_day_fraction": 0.5330578512396694,
+            "ending_wealth_per_100": 120.22193436521536,
+            "simple_sum_return": 0.20478013127230627
+          }
+        },
+        {
+          "year": 2021,
+          "performance": {
+            "days": 225,
+            "cumulative_return": -0.07436272745159689,
+            "annualized_return_252": -0.08290624929600499,
+            "max_drawdown": -0.18556454705273984,
+            "sharpe_252_rf0": -0.29625842382293793,
+            "daily_mean": -0.0002523557350468135,
+            "daily_std": 0.013522056350110388,
+            "positive_day_fraction": 0.48,
+            "ending_wealth_per_100": 92.56372725484032,
+            "simple_sum_return": -0.05678004038553304
+          }
+        }
+      ]
+    },
+    "low": {
+      "performance": {
+        "days": 953,
+        "cumulative_return": -0.13024780506378808,
+        "annualized_return_252": -0.03622762289028403,
+        "max_drawdown": -0.4128790327570976,
+        "sharpe_252_rf0": -0.07642620380855365,
+        "daily_mean": -6.242510218919885e-05,
+        "daily_std": 0.012966335188449776,
+        "positive_day_fraction": 0.48478488982161594,
+        "ending_wealth_per_100": 86.9752194936212,
+        "simple_sum_return": -0.0594911223863065
+      },
+      "rates": {
+        "commission_bp": 1,
+        "spread_bp": 1,
+        "slippage_bp": 1,
+        "borrow_annual": 0.01
+      },
+      "costs_in_starting_capital_units": {
+        "Commission": 20.26634171535901,
+        "Spread": 20.26634171535901,
+        "Slippage": 20.26634171535901,
+        "Borrow": 1.9943574588295425,
+        "TotalCost": 62.79338260490658
+      },
+      "average_roundtrip_turnover": 1.9981703177962333,
+      "annual": [
+        {
+          "year": 2018,
+          "performance": {
+            "days": 245,
+            "cumulative_return": 0.023988216254400507,
+            "annualized_return_252": 0.024681984313632332,
+            "max_drawdown": -0.10875115072061081,
+            "sharpe_252_rf0": 0.22987895089883434,
+            "daily_mean": 0.00015021012445283163,
+            "daily_std": 0.010372901881246661,
+            "positive_day_fraction": 0.47346938775510206,
+            "ending_wealth_per_100": 102.39882162544005,
+            "simple_sum_return": 0.03680148049094375
+          }
+        },
+        {
+          "year": 2019,
+          "performance": {
+            "days": 241,
+            "cumulative_return": 0.019631909393604596,
+            "annualized_return_252": 0.02053711192407759,
+            "max_drawdown": -0.3385312979388019,
+            "sharpe_252_rf0": 0.20331284272288436,
+            "daily_mean": 0.00018784124594163406,
+            "daily_std": 0.014666497681097417,
+            "positive_day_fraction": 0.4896265560165975,
+            "ending_wealth_per_100": 101.96319093936046,
+            "simple_sum_return": 0.04526974027193381
+          }
+        },
+        {
+          "year": 2020,
+          "performance": {
+            "days": 242,
+            "cumulative_return": 0.03486054322129495,
+            "annualized_return_252": 0.036326921311383265,
+            "max_drawdown": -0.19221799350106394,
+            "sharpe_252_rf0": 0.2755023192693922,
+            "daily_mean": 0.0002265031475089963,
+            "daily_std": 0.013051164165980098,
+            "positive_day_fraction": 0.5206611570247934,
+            "ending_wealth_per_100": 103.48605432212949,
+            "simple_sum_return": 0.0548137616971771
+          }
+        },
+        {
+          "year": 2021,
+          "performance": {
+            "days": 225,
+            "cumulative_return": -0.19503809536020555,
+            "annualized_return_252": -0.21572500816922568,
+            "max_drawdown": -0.24047063287186698,
+            "sharpe_252_rf0": -1.0249375309237736,
+            "daily_mean": -0.0008727826882060492,
+            "daily_std": 0.013517892780339815,
+            "positive_day_fraction": 0.4533333333333333,
+            "ending_wealth_per_100": 80.49619046397945,
+            "simple_sum_return": -0.1963761048463611
+          }
+        }
+      ]
+    },
+    "middle": {
+      "performance": {
+        "days": 953,
+        "cumulative_return": -0.7791030856542271,
+        "annualized_return_252": -0.3292119752206162,
+        "max_drawdown": -0.7791030856542271,
+        "sharpe_252_rf0": -1.8365477292989223,
+        "daily_mean": -0.001499256701473525,
+        "daily_std": 0.012959076380966713,
+        "positive_day_fraction": 0.4155299055613851,
+        "ending_wealth_per_100": 22.08969143457729,
+        "simple_sum_return": -1.4287916365042692
+      },
+      "rates": {
+        "commission_bp": 5,
+        "spread_bp": 2.5,
+        "slippage_bp": 2.5,
+        "borrow_annual": 0.03
+      },
+      "costs_in_starting_capital_units": {
+        "Commission": 55.1378147760158,
+        "Spread": 27.5689073880079,
+        "Slippage": 27.5689073880079,
+        "Borrow": 3.168445548422306,
+        "TotalCost": 113.44407510045392
+      },
+      "average_roundtrip_turnover": 1.9967732831912544,
+      "annual": [
+        {
+          "year": 2018,
+          "performance": {
+            "days": 245,
+            "cumulative_return": -0.27894429980512525,
+            "annualized_return_252": -0.2856504416313874,
+            "max_drawdown": -0.3039291120575558,
+            "sharpe_252_rf0": -1.96123535905203,
+            "daily_mean": -0.0012805194900294104,
+            "daily_std": 0.010364700301630227,
+            "positive_day_fraction": 0.3836734693877551,
+            "ending_wealth_per_100": 72.10557001948747,
+            "simple_sum_return": -0.31372727505720555
+          }
+        },
+        {
+          "year": 2019,
+          "performance": {
+            "days": 241,
+            "cumulative_return": -0.2794767443884185,
+            "annualized_return_252": -0.2901761155200272,
+            "max_drawdown": -0.4784520489978308,
+            "sharpe_252_rf0": -1.3555552852188244,
+            "daily_mean": -0.001251910838136528,
+            "daily_std": 0.014660758336245952,
+            "positive_day_fraction": 0.43568464730290457,
+            "ending_wealth_per_100": 72.05232556115814,
+            "simple_sum_return": -0.30171051199090326
+          }
+        },
+        {
+          "year": 2020,
+          "performance": {
+            "days": 242,
+            "cumulative_return": -0.2693754062851993,
+            "annualized_return_252": -0.2787898676719589,
+            "max_drawdown": -0.3225674567501393,
+            "sharpe_252_rf0": -1.4738914576582234,
+            "daily_mean": -0.0012111488506989544,
+            "daily_std": 0.01304464576267674,
+            "positive_day_fraction": 0.43388429752066116,
+            "ending_wealth_per_100": 73.06245937148007,
+            "simple_sum_return": -0.29309802186914696
+          }
+        },
+        {
+          "year": 2021,
+          "performance": {
+            "days": 225,
+            "cumulative_return": -0.41805955040040954,
+            "annualized_return_252": -0.4546642481544363,
+            "max_drawdown": -0.42460313987345655,
+            "sharpe_252_rf0": -2.717255397908912,
+            "daily_mean": -0.002312248122608949,
+            "daily_std": 0.013508410376015028,
+            "positive_day_fraction": 0.4088888888888889,
+            "ending_wealth_per_100": 58.194044959959044,
+            "simple_sum_return": -0.5202558275870135
+          }
+        }
+      ]
+    },
+    "high": {
+      "performance": {
+        "days": 953,
+        "cumulative_return": -0.9711459252066289,
+        "annualized_return_252": -0.6084065042570914,
+        "max_drawdown": -0.9711459252066289,
+        "sharpe_252_rf0": -4.449273216126041,
+        "daily_mean": -0.0036293755787067086,
+        "daily_std": 0.012949205044418283,
+        "positive_day_fraction": 0.35047219307450156,
+        "ending_wealth_per_100": 2.885407479337111,
+        "simple_sum_return": -3.4587949265074935
+      },
+      "rates": {
+        "commission_bp": 10,
+        "spread_bp": 5,
+        "slippage_bp": 5,
+        "borrow_annual": 0.1
+      },
+      "costs_in_starting_capital_units": {
+        "Commission": 56.99143652797691,
+        "Spread": 28.495718263988454,
+        "Slippage": 28.495718263988454,
+        "Borrow": 5.209475862122236,
+        "TotalCost": 119.19234891807605
+      },
+      "average_roundtrip_turnover": 1.994780896083453,
+      "annual": [
+        {
+          "year": 2018,
+          "performance": {
+            "days": 245,
+            "cumulative_return": -0.5704843566907374,
+            "annualized_return_252": -0.5807310786905701,
+            "max_drawdown": -0.5704843566907374,
+            "sharpe_252_rf0": -5.197646002202143,
+            "daily_mean": -0.0033899912267300854,
+            "daily_std": 0.010353618228888877,
+            "positive_day_fraction": 0.3224489795918367,
+            "ending_wealth_per_100": 42.95156433092625,
+            "simple_sum_return": -0.8305478505488709
+          }
+        },
+        {
+          "year": 2019,
+          "performance": {
+            "days": 241,
+            "cumulative_return": -0.5703136029400733,
+            "annualized_return_252": -0.5865647641698656,
+            "max_drawdown": -0.6367911198184744,
+            "sharpe_252_rf0": -3.6736836498996976,
+            "daily_mean": -0.00339145982784715,
+            "daily_std": 0.01465497872065464,
+            "positive_day_fraction": 0.37344398340248963,
+            "ending_wealth_per_100": 42.96863970599267,
+            "simple_sum_return": -0.8173418185111632
+          }
+        },
+        {
+          "year": 2020,
+          "performance": {
+            "days": 242,
+            "cumulative_return": -0.5647727303317605,
+            "annualized_return_252": -0.5794796551009247,
+            "max_drawdown": -0.5705125432976734,
+            "sharpe_252_rf0": -4.07550598526037,
+            "daily_mean": -0.0033466470619761355,
+            "daily_std": 0.013035528668955904,
+            "positive_day_fraction": 0.3677685950413223,
+            "ending_wealth_per_100": 43.522726966823946,
+            "simple_sum_return": -0.8098885889982248
+          }
+        },
+        {
+          "year": 2021,
+          "performance": {
+            "days": 225,
+            "cumulative_return": -0.6407800372078303,
+            "annualized_return_252": -0.6823098723414571,
+            "max_drawdown": -0.6440533686702795,
+            "sharpe_252_rf0": -5.234149493374274,
+            "daily_mean": -0.004448962970885489,
+            "daily_std": 0.013493137283906474,
+            "positive_day_fraction": 0.3377777777777778,
+            "ending_wealth_per_100": 35.92199627921697,
+            "simple_sum_return": -1.001016668449235
+          }
+        }
+      ]
+    },
+    "commission_only": {
+      "performance": {
+        "days": 953,
+        "cumulative_return": -0.394547998626804,
+        "annualized_return_252": -0.12425886553914312,
+        "max_drawdown": -0.5385324657041817,
+        "sharpe_252_rf0": -0.5416968562112449,
+        "daily_mean": -0.00044238937484860486,
+        "daily_std": 0.01296428718482687,
+        "positive_day_fraction": 0.4648478488982162,
+        "ending_wealth_per_100": 60.5452001373196,
+        "simple_sum_return": -0.4215970742307204
+      },
+      "rates": {
+        "commission_bp": 5,
+        "spread_bp": 0,
+        "slippage_bp": 0,
+        "borrow_annual": 0
+      },
+      "costs_in_starting_capital_units": {
+        "Commission": 85.00221262320645,
+        "Spread": 0.0,
+        "Slippage": 0.0,
+        "Borrow": 0.0,
+        "TotalCost": 85.00221262320645
+      },
+      "average_roundtrip_turnover": 1.9977709689977043,
+      "annual": [
+        {
+          "year": 2018,
+          "performance": {
+            "days": 245,
+            "cumulative_return": -0.06767930087196694,
+            "annualized_return_252": -0.0695441637781331,
+            "max_drawdown": -0.15618988535709588,
+            "sharpe_252_rf0": -0.35596707897753554,
+            "daily_mean": -0.00023254719993762304,
+            "daily_std": 0.010370544279880338,
+            "positive_day_fraction": 0.4448979591836735,
+            "ending_wealth_per_100": 93.23206991280331,
+            "simple_sum_return": -0.056974063984717646
+          }
+        },
+        {
+          "year": 2019,
+          "performance": {
+            "days": 241,
+            "cumulative_return": -0.06933917869776474,
+            "annualized_return_252": -0.07238668475420829,
+            "max_drawdown": -0.37774359402373114,
+            "sharpe_252_rf0": -0.20671866750361165,
+            "daily_mean": -0.0001909575557050743,
+            "daily_std": 0.014664167763820256,
+            "positive_day_fraction": 0.46887966804979253,
+            "ending_wealth_per_100": 93.06608213022352,
+            "simple_sum_return": -0.046020770924922905
+          }
+        },
+        {
+          "year": 2020,
+          "performance": {
+            "days": 242,
+            "cumulative_return": -0.055747214522546384,
+            "annualized_return_252": -0.05798273061929393,
+            "max_drawdown": -0.21932321259889487,
+            "sharpe_252_rf0": -0.18502456415967508,
+            "daily_mean": -0.00015209727489188548,
+            "daily_std": 0.013049453177707108,
+            "positive_day_fraction": 0.5,
+            "ending_wealth_per_100": 94.42527854774536,
+            "simple_sum_return": -0.03680754052383629
+          }
+        },
+        {
+          "year": 2021,
+          "performance": {
+            "days": 225,
+            "cumulative_return": -0.2610165935919865,
+            "annualized_return_252": -0.28735892745998715,
+            "max_drawdown": -0.2880043508008504,
+            "sharpe_252_rf0": -1.4709637752488445,
+            "daily_mean": -0.0012524208835433045,
+            "daily_std": 0.013516012768208952,
+            "positive_day_fraction": 0.4444444444444444,
+            "ending_wealth_per_100": 73.89834064080135,
+            "simple_sum_return": -0.2817946987972435
+          }
+        }
+      ]
+    },
+    "commission_spread": {
+      "performance": {
+        "days": 953,
+        "cumulative_return": -0.6239007253950848,
+        "annualized_return_252": -0.22785647011534982,
+        "max_drawdown": -0.6660038967158949,
+        "sharpe_252_rf0": -1.1531963066248019,
+        "daily_mean": -0.0009415965696994643,
+        "daily_std": 0.012961697905889042,
+        "positive_day_fraction": 0.44176285414480587,
+        "ending_wealth_per_100": 37.60992746049151,
+        "simple_sum_return": -0.8973415309235895
+      },
+      "rates": {
+        "commission_bp": 5,
+        "spread_bp": 2.5,
+        "slippage_bp": 0,
+        "borrow_annual": 0
+      },
+      "costs_in_starting_capital_units": {
+        "Commission": 68.57819696434821,
+        "Spread": 34.289098482174104,
+        "Slippage": 0.0,
+        "Borrow": 0.0,
+        "TotalCost": 102.86729544652232
+      },
+      "average_roundtrip_turnover": 1.9972720047350698,
+      "annual": [
+        {
+          "year": 2018,
+          "performance": {
+            "days": 245,
+            "cumulative_return": -0.17503948820569615,
+            "annualized_return_252": -0.1795624353871016,
+            "max_drawdown": -0.2264455159086548,
+            "sharpe_252_rf0": -1.1202551928827564,
+            "daily_mean": -0.0007316357846615674,
+            "daily_std": 0.010367600251022634,
+            "positive_day_fraction": 0.4204081632653061,
+            "ending_wealth_per_100": 82.49605117943038,
+            "simple_sum_return": -0.17925076724208402
+          }
+        },
+        {
+          "year": 2019,
+          "performance": {
+            "days": 241,
+            "cumulative_return": -0.17491781914590088,
+            "annualized_return_252": -0.18212698911703806,
+            "max_drawdown": -0.4273508080162639,
+            "sharpe_252_rf0": -0.7473956991721404,
+            "daily_mean": -0.0006902993129270423,
+            "daily_std": 0.014661794127742715,
+            "positive_day_fraction": 0.44813278008298757,
+            "ending_wealth_per_100": 82.50821808540991,
+            "simple_sum_return": -0.1663621344154172
+          }
+        },
+        {
+          "year": 2020,
+          "performance": {
+            "days": 242,
+            "cumulative_return": -0.16316358866122171,
+            "annualized_return_252": -0.16930059831270383,
+            "max_drawdown": -0.25841946957561424,
+            "sharpe_252_rf0": -0.7919152485360411,
+            "daily_mean": -0.0006508715641402881,
+            "daily_std": 0.013047186279154889,
+            "positive_day_fraction": 0.47107438016528924,
+            "ending_wealth_per_100": 83.68364113387783,
+            "simple_sum_return": -0.15751091852194973
+          }
+        },
+        {
+          "year": 2021,
+          "performance": {
+            "days": 225,
+            "cumulative_return": -0.33971480619954886,
+            "annualized_return_252": -0.37179795498943413,
+            "max_drawdown": -0.3512661639643676,
+            "sharpe_252_rf0": -2.058269560720627,
+            "daily_mean": -0.0017520787144183936,
+            "daily_std": 0.013512995511057908,
+            "positive_day_fraction": 0.4266666666666667,
+            "ending_wealth_per_100": 66.02851938004511,
+            "simple_sum_return": -0.3942177107441386
+          }
+        }
+      ]
+    },
+    "commission_spread_slippage": {
+      "performance": {
+        "days": 953,
+        "cumulative_return": -0.7663718163728941,
+        "annualized_return_252": -0.31919879883676594,
+        "max_drawdown": -0.7663718163728941,
+        "sharpe_252_rf0": -1.764634132944009,
+        "daily_mean": -0.0014405544620392295,
+        "daily_std": 0.012959113004036526,
+        "positive_day_fraction": 0.41867785939139557,
+        "ending_wealth_per_100": 23.362818362710595,
+        "simple_sum_return": -1.3728484023233858
+      },
+      "rates": {
+        "commission_bp": 5,
+        "spread_bp": 2.5,
+        "slippage_bp": 2.5,
+        "borrow_annual": 0
+      },
+      "costs_in_starting_capital_units": {
+        "Commission": 56.30023112699041,
+        "Spread": 28.150115563495206,
+        "Slippage": 28.150115563495206,
+        "Borrow": 0.0,
+        "TotalCost": 112.60046225398082
+      },
+      "average_roundtrip_turnover": 1.9967732896716472,
+      "annual": [
+        {
+          "year": 2018,
+          "performance": {
+            "days": 245,
+            "cumulative_return": -0.27003673573061304,
+            "annualized_return_252": -0.2765719915518986,
+            "max_drawdown": -0.29697924274807386,
+            "sharpe_252_rf0": -1.8845948964729642,
+            "daily_mean": -0.0012304750864675386,
+            "daily_std": 0.010364660583597762,
+            "positive_day_fraction": 0.3836734693877551,
+            "ending_wealth_per_100": 72.9963264269387,
+            "simple_sum_return": -0.30146639618454696
+          }
+        },
+        {
+          "year": 2019,
+          "performance": {
+            "days": 241,
+            "cumulative_return": -0.26851911842368403,
+            "annualized_return_252": -0.2788845916802777,
+            "max_drawdown": -0.47300330115014155,
+            "sharpe_252_rf0": -1.2879775369548923,
+            "daily_mean": -0.0011893916486918569,
+            "daily_std": 0.014659422654228933,
+            "positive_day_fraction": 0.43983402489626555,
+            "ending_wealth_per_100": 73.14808815763159,
+            "simple_sum_return": -0.2866433873347375
+          }
+        },
+        {
+          "year": 2020,
+          "performance": {
+            "days": 242,
+            "cumulative_return": -0.2583604844740709,
+            "annualized_return_252": -0.26746407164630037,
+            "max_drawdown": -0.31556560091622754,
+            "sharpe_252_rf0": -1.3987130325674377,
+            "daily_mean": -0.0011493969068747541,
+            "daily_std": 0.013044927597687966,
+            "positive_day_fraction": 0.44214876033057854,
+            "ending_wealth_per_100": 74.1639515525929,
+            "simple_sum_return": -0.2781540514636905
+          }
+        },
+        {
+          "year": 2021,
+          "performance": {
+            "days": 225,
+            "cumulative_return": -0.4100320941413311,
+            "annualized_return_252": -0.4462320801597386,
+            "max_drawdown": -0.4167375186892748,
+            "sharpe_252_rf0": -2.6455438263931406,
+            "daily_mean": -0.0022514869659573814,
+            "daily_std": 0.013509981273259827,
+            "positive_day_fraction": 0.4088888888888889,
+            "ending_wealth_per_100": 58.99679058586689,
+            "simple_sum_return": -0.5065845673404108
+          }
+        }
+      ]
+    }
+  },
+  "break_even_all_in_per_leg_bp_by_borrow_rate": {
+    "0.0": 2.365276834461838,
+    "0.03": 2.071285096462816
+  },
+  "gross_executed_trades": 5717,
+  "gross_short_trades": 2702,
+  "gross_mean_short_exposure": 0.47746511431438615,
+  "gross_mean_daily_return_bp": 5.567736701923456,
+  "zero_cost_baseline_max_daily_error": 0.0
+}

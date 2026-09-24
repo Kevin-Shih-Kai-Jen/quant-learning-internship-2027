@@ -1,0 +1,62 @@
+{
+  "method": "Paired circular moving-block bootstrap; resample same date blocks for both variants",
+  "block_length": 20,
+  "replicates": 5000,
+  "seed": 20260914,
+  "warning": "Exploratory uncertainty conditional on this reused validation sample; not an untouched holdout and not proof of stationarity.",
+  "RankIC_sgd_only": {
+    "mean": -0.0022389363060177168,
+    "finite_days": 952,
+    "95pct_percentile_CI": [
+      -0.007586729177201707,
+      0.0031848371277065817
+    ]
+  },
+  "RankIC_sgd_sqrt": {
+    "mean": -0.003962577051158466,
+    "finite_days": 952,
+    "95pct_percentile_CI": [
+      -0.009327276231404492,
+      0.0011325348007723383
+    ]
+  },
+  "RankIC_sqrt_minus_only": {
+    "mean": -0.0017236407451407484,
+    "finite_days": 952,
+    "95pct_percentile_CI": [
+      -0.009081987279692484,
+      0.005053613194121064
+    ]
+  },
+  "LongShortReturn_sgd_only": {
+    "mean": -9.521807058920967e-05,
+    "finite_days": 953,
+    "95pct_percentile_CI": [
+      -0.0004490613031411271,
+      0.00025174652119214653
+    ]
+  },
+  "LongShortReturn_sgd_sqrt": {
+    "mean": -0.0002788272840298225,
+    "finite_days": 953,
+    "95pct_percentile_CI": [
+      -0.0006496817955925395,
+      7.222723122885496e-05
+    ]
+  },
+  "LongShortReturn_sqrt_minus_only": {
+    "mean": -0.00018360921344061284,
+    "finite_days": 953,
+    "95pct_percentile_CI": [
+      -0.0006365851430371978,
+      0.0002749084655086956
+    ]
+  },
+  "Sharpe_sqrt_minus_only": {
+    "difference": -0.025325296515598283,
+    "95pct_percentile_CI": [
+      -0.10242058899931307,
+      0.05160818389354077
+    ]
+  }
+}

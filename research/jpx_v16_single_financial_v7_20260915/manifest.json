@@ -1,0 +1,34 @@
+{
+  "source_sha256": {
+    "jpx_v8_soft_rank_20260912/inputs.pkl": "6b0ff60bfb8eab20ec7c6e087e746dd6e0ccc38b9633d1a11d98477d84857bc6",
+    "jpx_v14_filtered_forecast_events_20260914/financial_signal_features.pkl": "bf067c7cea6c1c7d14cd0bdbeda5ae995590f43fa1c04670e30b31036d5be03d",
+    "jpx_v14_filtered_forecast_events_20260914/feature_audit.json": "de43645c94a97c9f4452170cd5fc31e6d67c72a234283cf832de89f6a1e4d4c2",
+    "jpx_v7_daily_mse_20260912/run_v7.py": "89754cf208a53d80d601a272089ed0009867ebcd78ce158f09945f92740dc73c",
+    "jpx_v16_single_financial_v7_20260915/experiment_plan.md": "f2569cef4c9a50b6963059871b5001d14c3758e011fe72c7bf816092a64d1c8a",
+    "jpx_v16_single_financial_v7_20260915/run.py": "fc476ce47bf52879fd5a169af694f51c274317b17d322e6b2fdd91a0dce74c2c",
+    "jpx_v16_single_financial_v7_20260915/audit.py": "bdea3f7e666e2c33967f60ab8ff4fe04e4ba101985553e5086657ad8427ddd5f",
+    "jpx_v16_single_financial_v7_20260915/report.py": "f9c3afb6e13f7c756489d8b8c790fdd70bb1e178e2343b0248aacdaaa2099abf"
+  },
+  "financial_features": [
+    "NetSalesActualGrowth",
+    "NetSalesExpectedGrowth",
+    "NetSalesForecastQoQ",
+    "NetSalesForecastYoY",
+    "NetSalesRevision",
+    "OperatingProfitActualGrowth",
+    "OperatingProfitExpectedGrowth",
+    "OperatingProfitForecastQoQ",
+    "OperatingProfitForecastYoY",
+    "OperatingProfitRevision",
+    "EPSActualGrowth",
+    "EPSExpectedGrowth",
+    "EPSForecastQoQ",
+    "EPSForecastYoY",
+    "EPSRevision"
+  ],
+  "baseline": "v7_equal",
+  "decay": "exp(-trading_age/9)",
+  "threshold": 100,
+  "feature_selection": "one independent raw financial component per model",
+  "no_standardization_of_PR1_VR1": true
+}

@@ -1,0 +1,63 @@
+{
+  "passed": true,
+  "days_replayed": 1199,
+  "stock_updates_replayed": 2323512,
+  "full_updates_replayed": 0,
+  "replay_method": "Independent direct score/Jacobian replay of every recorded accepted rate; anchored at first/middle/last SGD stocks and every full update. Full candidate grids independently checked at deterministic sampled snapshots.",
+  "gradient_substeps_replayed": 4647024,
+  "max_relative_errors_loss_before_after_gradinf_norm_descent_anchor_gradient": [
+    7.50829973035251e-08,
+    7.508347142954749e-08,
+    4.6099677785694926e-08,
+    5.6529345237449914e-08,
+    5.6529345237449914e-08,
+    1.6819232278749816e-08,
+    4.682246679075141e-15
+  ],
+  "max_daily_final_parameter_error": null,
+  "max_relative_daily_stage_loss_error": null,
+  "reused_completed_daily_replay_certificate": true,
+  "all_daily_final_parameter_checks_passed": true,
+  "all_daily_stage_loss_checks_passed": true,
+  "refined_days": {
+    "2018-02-01": {
+      "passed": true,
+      "checkpoint_stride": 8,
+      "all_regenerated_training_arrays_bitwise_equal": true,
+      "max_relative_errors_loss_before_after_gradinf_norm_descent": [
+        6.5805311778814e-16,
+        6.2778318875465175e-16,
+        3.319573755886456e-15,
+        3.4500993654059446e-15,
+        9.571432857339363e-16
+      ],
+      "max_relative_checkpoint_parameter_error": 6.293373911913009e-16,
+      "stock_steps": 1896,
+      "full_steps": 0
+    },
+    "2018-05-09": {
+      "passed": true,
+      "checkpoint_stride": 8,
+      "all_regenerated_training_arrays_bitwise_equal": true,
+      "max_relative_errors_loss_before_after_gradinf_norm_descent": [
+        9.507480032854945e-16,
+        1.1415458770009405e-15,
+        3.816351336829834e-15,
+        6.28264044319146e-15,
+        2.4568146550242793e-15
+      ],
+      "max_relative_checkpoint_parameter_error": 1.4423933385332115e-15,
+      "stock_steps": 1902,
+      "full_steps": 0
+    }
+  },
+  "independent_numpy_full_grid_substeps": 78,
+  "finite_difference_relative_error": 1.2004373598508675e-10,
+  "forecast_rows_reproduced": 2326022,
+  "all_integer_ranks_equal": true,
+  "max_score_error": 1.8189894035458565e-12,
+  "same_v14_training_schedule_and_pools": true,
+  "max_spread_error": 3.552713678800501e-15,
+  "validation_sharpe_reproduced": -0.006212734972380692,
+  "seconds": 15.055796708000344
+}

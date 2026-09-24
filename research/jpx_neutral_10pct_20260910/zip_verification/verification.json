@@ -1,0 +1,109 @@
+{
+  "data_zip": "/Users/coolguy/Desktop/JPX_data/modelling/JPX_data.zip",
+  "data_zip_sha256": "aaf930192e68d16924e662ef8190d913b06ac1e9e71c23fb8ce9ee3f418ddb0a",
+  "inputs": {
+    "stock_prices.csv": {
+      "zip_member": "JPX_data/raw/train_files/stock_prices.csv",
+      "sha256": "bf774a86f834e5338bba74f2356ebb750f93a1cc4e89b064ee07251e8ed851db",
+      "matches_original_manifest": true
+    },
+    "financials.csv": {
+      "zip_member": "JPX_data/raw/train_files/financials.csv",
+      "sha256": "7e48cb0a053875f849712a8965a8cdf7487749761216cce24216033a9998b4c4",
+      "matches_original_manifest": true
+    }
+  },
+  "input_dimensions": {
+    "stock_rows": 2332531,
+    "stock_count": 2000,
+    "stock_start": "2017-01-04",
+    "stock_end": "2021-12-03",
+    "financial_rows": 92956,
+    "test_named_members": []
+  },
+  "proxy_max_abs_differences": {
+    "Close": 2.842170943040401e-14,
+    "MarketReturn": 9.974659986866641e-17,
+    "CoveredStocks": 0.0,
+    "ObservedUniverseStocks": 0.0,
+    "ShareCoverage": 1.1102230246251565e-16,
+    "StaleMarkedWeight": 9.996344030316351e-17,
+    "LargestStockWeight": 9.71445146547012e-17,
+    "T5": 9.514611321037592e-14,
+    "T22": 4.5075054799781356e-14,
+    "T60": 1.3322676295501878e-14
+  },
+  "market_folds": [
+    {
+      "train_year": 2017,
+      "validation_year": 2018,
+      "train_rows": 157,
+      "last_training_label_exit": "2017-12-29",
+      "first_validation_signal": "2017-12-29",
+      "coefficient_max_abs_difference": 1.588356182691264e-17
+    },
+    {
+      "train_year": 2018,
+      "validation_year": 2019,
+      "train_rows": 243,
+      "last_training_label_exit": "2018-12-28",
+      "first_validation_signal": "2018-12-28",
+      "coefficient_max_abs_difference": 5.854691731421724e-18
+    },
+    {
+      "train_year": 2019,
+      "validation_year": 2020,
+      "train_rows": 239,
+      "last_training_label_exit": "2019-12-30",
+      "first_validation_signal": "2019-12-30",
+      "coefficient_max_abs_difference": 1.0299920638612292e-17
+    },
+    {
+      "train_year": 2020,
+      "validation_year": 2021,
+      "train_rows": 240,
+      "last_training_label_exit": "2020-12-30",
+      "first_validation_signal": "2020-12-30",
+      "coefficient_max_abs_difference": 2.8189256484623115e-17
+    }
+  ],
+  "market_signal_max_abs_difference": 1.2435798918408736e-16,
+  "threshold_decimal_return": 0.1,
+  "neutral_days": 953,
+  "prediction_min_pct": -0.46374835957753524,
+  "prediction_max_pct": 0.31925579034974444,
+  "strategy": {
+    "days": 953,
+    "cumulative_return": 0.2742933463728927,
+    "annualized_return_252": 0.06619390082473098,
+    "max_drawdown": -0.2550761603262247,
+    "sharpe_252_rf0": 0.46765172934135146,
+    "daily_mean": 0.0003094078017503978,
+    "daily_std": 0.010502894086858363,
+    "positive_day_fraction": 0.5414480587618048,
+    "ending_wealth_per_100": 127.42933463728927,
+    "simple_sum_return": 0.2948656350681291
+  },
+  "previous_dynamic_reference": {
+    "days": 953,
+    "cumulative_return": 0.5406270340333397,
+    "annualized_return_252": 0.12106940687860757,
+    "max_drawdown": -0.22220480051834623,
+    "sharpe_252_rf0": 0.6840228450055579,
+    "daily_mean": 0.0005282982497407101,
+    "daily_std": 0.01226051846446668,
+    "positive_day_fraction": 0.5424973767051416,
+    "ending_wealth_per_100": 154.06270340333396,
+    "simple_sum_return": 0.5034682320028967
+  },
+  "daily_return_max_abs_difference_from_previous_run": 9.974659986866641e-17,
+  "independent_fill_max_abs_difference": 4.547473508864641e-13,
+  "selected_positions": 5718,
+  "executed_positions": 5717,
+  "delayed_positions": 1,
+  "stock_model_refit": false,
+  "market_model_reproduced": true,
+  "test_data_used": false,
+  "scope": "ZIP stock/financial sources; rebuilt market proxy and market fits; frozen original stock orders; original target-touch/carry engine; zero trading costs",
+  "all_checks_passed": true
+}

@@ -1,0 +1,5 @@
+﻿Variant,Sharpe,TrainingSkippedStocks,Features
+eps_actual_joint,0.0078101608697511826,1848,"EPSActualQoQ,EPSActualGrowth"
+eps_qoq_joint_mask,0.011212967652861176,1848,EPSActualQoQ
+eps_yoy_joint_mask,0.0038746068122820737,1848,EPSActualGrowth
+eps_actual_joint_control,0.0059803586867626,1848,

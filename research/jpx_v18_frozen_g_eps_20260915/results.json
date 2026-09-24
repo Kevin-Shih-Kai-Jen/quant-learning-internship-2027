@@ -1,0 +1,83 @@
+{
+  "comparison": [
+    {
+      "Variant": "g",
+      "Label": "原 v7 價量 g",
+      "Sharpe": 0.0076788715624210736,
+      "DeltaVsV7": 0.0,
+      "PreviousJointlyTrainedSharpe": 0.0076788715624210736,
+      "MeanDailyReturnBP": 0.22791331669219947,
+      "DailyReturnStdBP": 29.680574136383104,
+      "MeanRankIC": -0.0007338924981283103,
+      "ReturnMSE": 0.0006654329991342864
+    },
+    {
+      "Variant": "qoq",
+      "Label": "固定 g + EPS 實際季增",
+      "Sharpe": 0.006583673745570535,
+      "DeltaVsV7": -0.0010951978168505386,
+      "PreviousJointlyTrainedSharpe": 0.011212967652861176,
+      "MeanDailyReturnBP": 0.19360329537555093,
+      "DailyReturnStdBP": 29.406574939380494,
+      "MeanRankIC": -0.0005656359776807619,
+      "ReturnMSE": 0.0007438055582600829
+    },
+    {
+      "Variant": "yoy",
+      "Label": "固定 g + EPS 實際年增",
+      "Sharpe": 0.006467783069611891,
+      "DeltaVsV7": -0.0012110884928091823,
+      "PreviousJointlyTrainedSharpe": 0.0038746068122820737,
+      "MeanDailyReturnBP": 0.1895294446342895,
+      "DailyReturnStdBP": 29.30361803950666,
+      "MeanRankIC": -0.0008111579106373685,
+      "ReturnMSE": 0.0006743329960994135
+    },
+    {
+      "Variant": "joint",
+      "Label": "固定 g + EPS 季增 + 年增",
+      "Sharpe": 0.006275861271222179,
+      "DeltaVsV7": -0.0014030102911988945,
+      "PreviousJointlyTrainedSharpe": 0.0078101608697511826,
+      "MeanDailyReturnBP": 0.18284043251931056,
+      "DailyReturnStdBP": 29.133918775054784,
+      "MeanRankIC": -0.000632542610505576,
+      "ReturnMSE": 0.0007540765180478819
+    }
+  ],
+  "bootstrap": [
+    {
+      "Comparison": "qoq - g",
+      "DeltaSharpe": -0.0010951978168505386,
+      "CI95Low": -0.0067133976290879825,
+      "CI95High": 0.004628824481733923
+    },
+    {
+      "Comparison": "yoy - g",
+      "DeltaSharpe": -0.0012110884928091823,
+      "CI95Low": -0.006043263320885118,
+      "CI95High": 0.0041350639113338595
+    },
+    {
+      "Comparison": "joint - g",
+      "DeltaSharpe": -0.0014030102911988945,
+      "CI95Low": -0.008932863897002026,
+      "CI95High": 0.007403926073827248
+    },
+    {
+      "Comparison": "joint - qoq",
+      "DeltaSharpe": -0.0003078124743483559,
+      "CI95Low": -0.005399922871694872,
+      "CI95High": 0.005514931480012154
+    },
+    {
+      "Comparison": "joint - yoy",
+      "DeltaSharpe": -0.00019192179838971226,
+      "CI95Low": -0.005876885875412791,
+      "CI95High": 0.005800646293147244
+    }
+  ],
+  "bootstrap_block": 20,
+  "bootstrap_replicates": 4000,
+  "audit_passed": true
+}

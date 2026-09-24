@@ -1,0 +1,11 @@
+{
+  "version": "v20",
+  "description": "20-case EPS source, quarter construction and disclosure-time audit",
+  "directory": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v20_eps_data_audit_20260915",
+  "status": "completed_data_audit",
+  "selected_cases": 20,
+  "raw_source_and_timing_passed": true,
+  "data_semantics_review": "confirmed_issues_require_repair",
+  "models_retrained": false,
+  "active_baseline": "v7_equal"
+}

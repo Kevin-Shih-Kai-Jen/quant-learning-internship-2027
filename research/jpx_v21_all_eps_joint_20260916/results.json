@@ -1,0 +1,85 @@
+{
+  "version": "v21",
+  "comparison": [
+    {
+      "Variant": "v7",
+      "Label": "原v7純價量",
+      "Sharpe": 0.0076788715624210736,
+      "DeltaVsV7": 0.0,
+      "MeanDailyGrossOneReturnBP": 0.22791331669219947,
+      "DailyGrossOneReturnStdBP": 29.680574136383104,
+      "RankIC": -0.0007338924981283103,
+      "ReturnMSE": 0.0006654329991342864,
+      "NormalizedHardRankMSE": 0.16686775586856528
+    },
+    {
+      "Variant": "all_eps",
+      "Label": "g＋全部六項EPS",
+      "Sharpe": -0.0002315655374586234,
+      "DeltaVsV7": -0.007910437099879698,
+      "MeanDailyGrossOneReturnBP": -0.006680466867968104,
+      "DailyGrossOneReturnStdBP": 28.849141117017222,
+      "RankIC": -0.0012520571553714752,
+      "ReturnMSE": 0.0007733306014031463,
+      "NormalizedHardRankMSE": 0.1669541138869882
+    },
+    {
+      "Variant": "price_mask",
+      "Label": "純價量：同樣本",
+      "Sharpe": 0.0056440729193155265,
+      "DeltaVsV7": -0.002034798643105547,
+      "MeanDailyGrossOneReturnBP": 0.16748256356153013,
+      "DailyGrossOneReturnStdBP": 29.674060905265954,
+      "RankIC": -0.0006946316221499791,
+      "ReturnMSE": 0.0006654501230726227,
+      "NormalizedHardRankMSE": 0.1668612127011877
+    },
+    {
+      "Variant": "price_mask_step",
+      "Label": "純價量：同樣本同主模型步長",
+      "Sharpe": 0.004602632860408777,
+      "DeltaVsV7": -0.0030762387020122966,
+      "MeanDailyGrossOneReturnBP": 0.135926798650518,
+      "DailyGrossOneReturnStdBP": 29.532400861199232,
+      "RankIC": -0.00141412918815768,
+      "ReturnMSE": 0.0006606356342284969,
+      "NormalizedHardRankMSE": 0.16698112533238263
+    }
+  ],
+  "bootstrap": [
+    {
+      "Comparison": "all_eps - v7",
+      "DeltaSharpe": -0.007910437099879698,
+      "CI95Low": -0.02946339971247049,
+      "CI95High": 0.012197295266609173
+    },
+    {
+      "Comparison": "all_eps - price_mask",
+      "DeltaSharpe": -0.00587563845677415,
+      "CI95Low": -0.02827297694279869,
+      "CI95High": 0.013775770273836753
+    },
+    {
+      "Comparison": "all_eps - price_mask_step",
+      "DeltaSharpe": -0.0048341983978674,
+      "CI95Low": -0.014566250027569488,
+      "CI95High": 0.006796672882847936
+    }
+  ],
+  "learning_rate_diagnostics": {
+    "median_main_vs_price_step": 0.9975104370202352,
+    "min_main_vs_price_step": 0.08792265291943686,
+    "fraction_main_step_below_half": 0.15346121768140117
+  },
+  "features": [
+    "EPSActualQoQ",
+    "EPSActualGrowth",
+    "EPSExpectedGrowth",
+    "EPSForecastActualQoQ",
+    "EPSForecastActualYoY",
+    "EPSRevisionRelative"
+  ],
+  "eps_algorithm_unchanged": true,
+  "jointly_train_price_and_eps": true,
+  "audit_passed": true
+}

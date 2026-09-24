@@ -1,0 +1,255 @@
+{
+  "version": "v23",
+  "audit_passed": true,
+  "comparison": [
+    {
+      "Model": "g_no_skip",
+      "Family": "g",
+      "Threshold": "no_skip",
+      "Label": "不跳過（原v7）",
+      "Sharpe": 0.0076788715624210736,
+      "RankIC": -0.0007338924981283103,
+      "MSE": 0.0006654329991342864,
+      "SkippedTrainingStockDays": 0,
+      "TrainingStockDays": 2325806,
+      "MedianLearningRate": 0.0718187137730381
+    },
+    {
+      "Model": "g_skip100",
+      "Family": "g",
+      "Threshold": "skip100",
+      "Label": "超過100倍跳過",
+      "Sharpe": 0.0056440729193155265,
+      "RankIC": -0.0006946316221499791,
+      "MSE": 0.0006654501230726227,
+      "SkippedTrainingStockDays": 3025,
+      "TrainingStockDays": 2322781,
+      "MedianLearningRate": 0.0720024870860774
+    },
+    {
+      "Model": "g_skip10",
+      "Family": "g",
+      "Threshold": "skip10",
+      "Label": "超過10倍跳過",
+      "Sharpe": 0.005385623162820589,
+      "RankIC": -0.0007016753755101851,
+      "MSE": 0.0006659717034691017,
+      "SkippedTrainingStockDays": 32541,
+      "TrainingStockDays": 2293265,
+      "MedianLearningRate": 0.0729630236974157
+    },
+    {
+      "Model": "eps_no_skip",
+      "Family": "eps",
+      "Threshold": "no_skip",
+      "Label": "不跳過",
+      "Sharpe": -0.04662784524566025,
+      "RankIC": -0.004407042977396601,
+      "MSE": 0.0006436570738789587,
+      "SkippedTrainingStockDays": 0,
+      "TrainingStockDays": 2325806,
+      "MedianLearningRate": 0.0141878998831224
+    },
+    {
+      "Model": "eps_skip100",
+      "Family": "eps",
+      "Threshold": "skip100",
+      "Label": "超過100倍跳過",
+      "Sharpe": -0.0002315655374586234,
+      "RankIC": -0.0012520571553714752,
+      "MSE": 0.0007733306014031463,
+      "SkippedTrainingStockDays": 3025,
+      "TrainingStockDays": 2322781,
+      "MedianLearningRate": 0.0543240715359297
+    },
+    {
+      "Model": "eps_skip10",
+      "Family": "eps",
+      "Threshold": "skip10",
+      "Label": "超過10倍跳過",
+      "Sharpe": 0.0030303545159861413,
+      "RankIC": -0.0006214360870281608,
+      "MSE": 0.0009993150787688373,
+      "SkippedTrainingStockDays": 32541,
+      "TrainingStockDays": 2293265,
+      "MedianLearningRate": 0.0729168568415275
+    }
+  ],
+  "paired_bootstrap": [
+    {
+      "Comparison": "g_skip100 - g_no_skip",
+      "Metric": "Sharpe",
+      "Difference": -0.002034798643105547,
+      "CI95Low": -0.003978888467974731,
+      "CI95High": 0.0006635897410589447
+    },
+    {
+      "Comparison": "g_skip100 - g_no_skip",
+      "Metric": "RankIC",
+      "Difference": 3.926087597833116e-05,
+      "CI95Low": -6.520662345236814e-05,
+      "CI95High": 0.00015900951576965569
+    },
+    {
+      "Comparison": "g_skip10 - g_no_skip",
+      "Metric": "Sharpe",
+      "Difference": -0.002293248399600485,
+      "CI95Low": -0.007468038061835655,
+      "CI95High": 0.003184697182702888
+    },
+    {
+      "Comparison": "g_skip10 - g_no_skip",
+      "Metric": "RankIC",
+      "Difference": 3.2217122618125147e-05,
+      "CI95Low": -0.00029944927299558233,
+      "CI95High": 0.0004273731574422937
+    },
+    {
+      "Comparison": "g_skip10 - g_skip100",
+      "Metric": "Sharpe",
+      "Difference": -0.0002584497564949379,
+      "CI95Low": -0.0058334942082244635,
+      "CI95High": 0.004823815005056333
+    },
+    {
+      "Comparison": "g_skip10 - g_skip100",
+      "Metric": "RankIC",
+      "Difference": -7.043753360206012e-06,
+      "CI95Low": -0.00028791272764715,
+      "CI95High": 0.0003166116749018354
+    },
+    {
+      "Comparison": "eps_no_skip - g_no_skip",
+      "Metric": "Sharpe",
+      "Difference": -0.05430671680808132,
+      "CI95Low": -0.11635208381189581,
+      "CI95High": 0.009227179728518197
+    },
+    {
+      "Comparison": "eps_no_skip - g_no_skip",
+      "Metric": "RankIC",
+      "Difference": -0.003673150479268291,
+      "CI95Low": -0.00919346428653482,
+      "CI95High": 0.0021355379703685996
+    },
+    {
+      "Comparison": "eps_skip100 - g_skip100",
+      "Metric": "Sharpe",
+      "Difference": -0.00587563845677415,
+      "CI95Low": -0.02827297694279869,
+      "CI95High": 0.013775770273836753
+    },
+    {
+      "Comparison": "eps_skip100 - g_skip100",
+      "Metric": "RankIC",
+      "Difference": -0.0005574255332214961,
+      "CI95Low": -0.0025157727774648164,
+      "CI95High": 0.0011298661878798816
+    },
+    {
+      "Comparison": "eps_skip10 - g_skip10",
+      "Metric": "Sharpe",
+      "Difference": -0.0023552686468344473,
+      "CI95Low": -0.017667249148451403,
+      "CI95High": 0.01457752134930161
+    },
+    {
+      "Comparison": "eps_skip10 - g_skip10",
+      "Metric": "RankIC",
+      "Difference": 8.023928848202436e-05,
+      "CI95Low": -0.0006781082855655401,
+      "CI95High": 0.0008448769532894819
+    }
+  ],
+  "rank_ic_intervals": [
+    {
+      "Model": "g_no_skip",
+      "RankIC": -0.0007338924981283103,
+      "CI95Low": -0.006987829142865509,
+      "CI95High": 0.005450343705174769
+    },
+    {
+      "Model": "g_skip100",
+      "RankIC": -0.0006946316221499791,
+      "CI95Low": -0.006919771657733716,
+      "CI95High": 0.00550807985529018
+    },
+    {
+      "Model": "g_skip10",
+      "RankIC": -0.0007016753755101851,
+      "CI95Low": -0.006974900135515744,
+      "CI95High": 0.005430788025361633
+    },
+    {
+      "Model": "eps_no_skip",
+      "RankIC": -0.004407042977396601,
+      "CI95Low": -0.01047921768915973,
+      "CI95High": 0.002452195017727202
+    },
+    {
+      "Model": "eps_skip100",
+      "RankIC": -0.0012520571553714752,
+      "CI95Low": -0.007446434589696054,
+      "CI95High": 0.004955080898458407
+    },
+    {
+      "Model": "eps_skip10",
+      "RankIC": -0.0006214360870281608,
+      "CI95Low": -0.00690124222405634,
+      "CI95High": 0.005359600899736477
+    }
+  ],
+  "eps_vs_g": [
+    {
+      "Threshold": "no_skip",
+      "Label": "不跳過",
+      "GSharpe": 0.0076788715624210736,
+      "EPSSharpe": -0.04662784524566025,
+      "DeltaSharpe": -0.05430671680808132,
+      "GRankIC": -0.0007338924981283103,
+      "EPSRankIC": -0.004407042977396601,
+      "DeltaRankIC": -0.003673150479268291
+    },
+    {
+      "Threshold": "skip100",
+      "Label": "超過100倍跳過",
+      "GSharpe": 0.0056440729193155265,
+      "EPSSharpe": -0.0002315655374586234,
+      "DeltaSharpe": -0.00587563845677415,
+      "GRankIC": -0.0006946316221499791,
+      "EPSRankIC": -0.0012520571553714752,
+      "DeltaRankIC": -0.0005574255332214961
+    },
+    {
+      "Threshold": "skip10",
+      "Label": "超過10倍跳過",
+      "GSharpe": 0.005385623162820589,
+      "EPSSharpe": 0.0030303545159861413,
+      "DeltaSharpe": -0.0023552686468344473,
+      "GRankIC": -0.0007016753755101851,
+      "EPSRankIC": -0.0006214360870281608,
+      "DeltaRankIC": 8.023928848202436e-05
+    }
+  ],
+  "learning_rates": [
+    {
+      "Threshold": "no_skip",
+      "MedianEPSvsGStepRatio": 0.21937340821687576,
+      "FractionEPSRateBelowHalf": 0.6196830692243537
+    },
+    {
+      "Threshold": "skip100",
+      "MedianEPSvsGStepRatio": 0.9975104370202352,
+      "FractionEPSRateBelowHalf": 0.15346121768140117
+    },
+    {
+      "Threshold": "skip10",
+      "MedianEPSvsGStepRatio": 0.9997605703449157,
+      "FractionEPSRateBelowHalf": 0.0
+    }
+  ],
+  "rank_ic_days": 952,
+  "sharpe_days": 953,
+  "excluded_rank_ic_date": "2020-09-29",
+  "active_baseline": "v7"
+}

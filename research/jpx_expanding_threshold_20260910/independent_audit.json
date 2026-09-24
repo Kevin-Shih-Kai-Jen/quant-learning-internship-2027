@@ -1,0 +1,23 @@
+[
+  {
+    "year": 2019,
+    "temporal_split_verified": true,
+    "quantiles_verified": true,
+    "independent_return_drawdown_verified": true,
+    "selection_verified": true
+  },
+  {
+    "year": 2020,
+    "temporal_split_verified": true,
+    "quantiles_verified": true,
+    "independent_return_drawdown_verified": true,
+    "selection_verified": true
+  },
+  {
+    "year": 2021,
+    "temporal_split_verified": true,
+    "quantiles_verified": true,
+    "independent_return_drawdown_verified": true,
+    "selection_verified": true
+  }
+]

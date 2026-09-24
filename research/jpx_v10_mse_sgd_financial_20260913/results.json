@@ -1,0 +1,195 @@
+{
+  "version": "v10",
+  "main_variant": "mse_sgd_financial",
+  "control_variant": "mse_sgd_control",
+  "loss": "mean((g - Target)**2); single-observation SGD loss is (g_i-Target_i)**2",
+  "soft_rank_used": false,
+  "learning_rate_rule": "inherited v9 SGD eta grid and Armijo; actual candidate MSE evaluation",
+  "comparison": {
+    "mse_sgd_control": {
+      "common_days": 953,
+      "official_unannualized_sharpe": -0.043113445490934314,
+      "mean_daily_spread": -0.05568273426440106,
+      "sample_std_daily_spread": 1.2915398811284928,
+      "mean_daily_forecast_mse": 0.004559377908741141
+    },
+    "mse_sgd_financial": {
+      "common_days": 953,
+      "official_unannualized_sharpe": -0.039490891392459114,
+      "mean_daily_spread": -0.05088636001058986,
+      "sample_std_daily_spread": 1.2885594175346151,
+      "mean_daily_forecast_mse": 0.004982069633052845
+    },
+    "v7_equal": {
+      "common_days": 953,
+      "official_unannualized_sharpe": 0.0076788715624210805,
+      "mean_daily_spread": 0.009116532667688224,
+      "sample_std_daily_spread": 1.1872229654553386,
+      "mean_daily_forecast_mse": 0.0006654329991343369
+    },
+    "v9_sgd": {
+      "common_days": 953,
+      "official_unannualized_sharpe": -0.019538328097322002,
+      "mean_daily_spread": -0.029599017208743056,
+      "sample_std_daily_spread": 1.5149206759814833,
+      "mean_daily_forecast_mse": null
+    }
+  },
+  "annual": [
+    {
+      "validation_year": 2018,
+      "days": 245,
+      "mse_sgd_control": 0.0796312787847365,
+      "mse_sgd_financial": 0.07982330481819147,
+      "v7_equal": -0.011513767098899553,
+      "v9_sgd": -0.03318395176281637
+    },
+    {
+      "validation_year": 2019,
+      "days": 241,
+      "mse_sgd_control": -0.08020681028026902,
+      "mse_sgd_financial": -0.07510743244967312,
+      "v7_equal": 0.05006717553385377,
+      "v9_sgd": -0.04644646628675425
+    },
+    {
+      "validation_year": 2020,
+      "days": 242,
+      "mse_sgd_control": -0.08973266847918251,
+      "mse_sgd_financial": -0.08146911949449209,
+      "v7_equal": 0.05085734661690185,
+      "v9_sgd": -0.027951682236684174
+    },
+    {
+      "validation_year": 2021,
+      "days": 225,
+      "mse_sgd_control": -0.06341079669196413,
+      "mse_sgd_financial": -0.06627525353620857,
+      "v7_equal": -0.08760480813901657,
+      "v9_sgd": 0.031531826320787576
+    }
+  ],
+  "models": {
+    "mse_sgd_control": {
+      "version": "v10",
+      "variant": "mse_sgd_control",
+      "validation": {
+        "official_style_unannualized_sharpe": -0.0431134454909343,
+        "annualized_equivalent_sqrt252": -0.6844047295929071,
+        "signal_days": 953,
+        "scored_days": 953,
+        "unscorable_selected_missing_label_days": 0,
+        "ranked_rows": 1864363,
+        "stocks_per_day_min": 1896,
+        "stocks_per_day_max": 2000,
+        "fallback_rows": 46974,
+        "selected_fallback_rows": 8768,
+        "unavailable_target_rows": 3,
+        "missing_selected_target_rows": 0,
+        "mean_official_spread": -0.05568273426440106,
+        "sample_std_official_spread": 1.2915398811284928,
+        "mean_illustrative_gross_one_return": -0.0001392068356610026,
+        "exact_official_metric_difference": 1.3877787807814457e-17
+      },
+      "label_days": 1199,
+      "training_stocks": 2325806,
+      "batches": 2325806,
+      "accepted_updates": 2325798,
+      "small_gradient_skips": 5,
+      "no_acceptable_eta_skips": 3,
+      "candidate_evaluations": 8552940,
+      "hit_upper_eta_batches": 0,
+      "own_zero_feature_nonzero_beta_gradient_batches": 0,
+      "own_zero_feature_actual_beta_changes": 0,
+      "financial_gradient_dominates_batches": 0,
+      "full_day_loss_increased_days": 546,
+      "mean_daily_forecast_mse": 0.004559377908741141,
+      "mean_rank_ic": -0.0022885752728281595,
+      "mean_normalized_hard_rank_mse": 0.16712684319000776,
+      "final_coefficients": {
+        "alpha": 0.0135219384523307,
+        "T5": -0.013649467824820152,
+        "T22": 0.030961268921721796,
+        "T60": -0.0012265352479549723,
+        "V5": -0.02015714271745991,
+        "V22": -0.011713178103190131,
+        "V60": 0.004415229231424179,
+        "P5xV5": -0.016228201420514024,
+        "P22xV22": -0.02413775967543765,
+        "P60xV60": -0.0043649888258062335,
+        "PR1": 0.02946479493910437,
+        "VR1": 0.00790230413123001,
+        "FinancialMarginYoYDecay": 0.0
+      },
+      "last_forecast_date": "2021-12-01",
+      "final_parameter_asof": "2021-12-03",
+      "seconds": 98.4761494159975,
+      "internal_checks_passed": true
+    },
+    "mse_sgd_financial": {
+      "version": "v10",
+      "variant": "mse_sgd_financial",
+      "validation": {
+        "official_style_unannualized_sharpe": -0.039490891392459114,
+        "annualized_equivalent_sqrt252": -0.6268984660602483,
+        "signal_days": 953,
+        "scored_days": 953,
+        "unscorable_selected_missing_label_days": 0,
+        "ranked_rows": 1864363,
+        "stocks_per_day_min": 1896,
+        "stocks_per_day_max": 2000,
+        "fallback_rows": 46974,
+        "selected_fallback_rows": 8771,
+        "unavailable_target_rows": 3,
+        "missing_selected_target_rows": 0,
+        "mean_official_spread": -0.05088636001058986,
+        "sample_std_official_spread": 1.2885594175346151,
+        "mean_illustrative_gross_one_return": -0.00012721590002647467,
+        "exact_official_metric_difference": 0.0
+      },
+      "label_days": 1199,
+      "training_stocks": 2325806,
+      "batches": 2325806,
+      "accepted_updates": 2325798,
+      "small_gradient_skips": 5,
+      "no_acceptable_eta_skips": 3,
+      "candidate_evaluations": 8557087,
+      "hit_upper_eta_batches": 0,
+      "own_zero_feature_nonzero_beta_gradient_batches": 0,
+      "own_zero_feature_actual_beta_changes": 0,
+      "financial_gradient_dominates_batches": 148,
+      "full_day_loss_increased_days": 550,
+      "mean_daily_forecast_mse": 0.004982069633052845,
+      "mean_rank_ic": -0.002124958155190809,
+      "mean_normalized_hard_rank_mse": 0.16709957477105633,
+      "final_coefficients": {
+        "alpha": 0.01352232976971595,
+        "T5": -0.013667881594835164,
+        "T22": 0.03096955295215412,
+        "T60": -0.0012279276136183753,
+        "V5": -0.020162516425609817,
+        "V22": -0.011720463932546887,
+        "V60": 0.004415639313360607,
+        "P5xV5": -0.01622875801393399,
+        "P22xV22": -0.024140212718359155,
+        "P60xV60": -0.004369471464184538,
+        "PR1": 0.03001411835766845,
+        "VR1": 0.00789425516805417,
+        "FinancialMarginYoYDecay": 0.01631301023976049
+      },
+      "last_forecast_date": "2021-12-01",
+      "final_parameter_asof": "2021-12-03",
+      "seconds": 101.90121654199902,
+      "internal_checks_passed": true
+    }
+  },
+  "common_scorable_days": 953,
+  "costs_included": false,
+  "formal_test_used": false,
+  "audit_passed": true,
+  "paired_audit": {
+    "passed": true,
+    "exact_matching_initial_parameter_dates": 214,
+    "first_financial_input_update_date": "2017-11-14"
+  }
+}

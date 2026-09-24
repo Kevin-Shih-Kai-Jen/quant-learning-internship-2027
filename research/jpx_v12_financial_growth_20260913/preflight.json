@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "gradient_finite_difference_max_error": 6.36136976428503e-13,
+  "sequential_batches_replayed": 29,
+  "all_six_zero_inputs_preserve_coefficients": true,
+  "legacy_price_only_steps_reproduce_exactly": true,
+  "large_raw_eps_no_acceptable_eta_skip_verified": true
+}

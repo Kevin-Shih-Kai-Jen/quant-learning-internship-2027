@@ -1,0 +1,168 @@
+{
+  "outputSlides": [
+    {
+      "outputSlide": 1,
+      "sourceSlide": 1,
+      "narrativeRole": "opening thesis",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        { "action": "rewrite", "shapeId": "sh/7qp4be9c", "purpose": "deck title" },
+        { "action": "rewrite", "shapeId": "sh/65g3298r", "purpose": "subtitle" }
+      ]
+    },
+    {
+      "outputSlide": 2,
+      "sourceSlide": 4,
+      "narrativeRole": "core product thesis and equipment link",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        { "action": "rewrite", "shapeId": "sh/p0rel8vu", "purpose": "page number" },
+        { "action": "rewrite", "shapeId": "sh/ozydc3u9", "purpose": "main thesis" },
+        { "action": "rewrite", "shapeId": "sh/rm1k7yt4", "purpose": "component callout" },
+        { "action": "rewrite", "shapeId": "sh/sna103ap", "purpose": "platform callout" },
+        { "action": "delete", "shapeId": "sh/1cj2d8b6", "purpose": "empty footer placeholder" }
+      ]
+    },
+    {
+      "outputSlide": 3,
+      "sourceSlide": 15,
+      "narrativeRole": "three-stage control-system explanation",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        { "action": "rewrite", "shapeId": "sh/it4rm5wv", "purpose": "stage label" },
+        { "action": "rewrite", "shapeId": "sh/76p4jqls", "purpose": "page number" },
+        { "action": "rewrite", "shapeId": "sh/hsvat0fa", "purpose": "slide title" },
+        { "action": "rewrite", "shapeId": "sh/judsvqxg", "purpose": "stage label" },
+        { "action": "rewrite", "shapeId": "sh/0z29cbyh", "purpose": "stage label" },
+        { "action": "rewrite", "shapeId": "sh/gjax03m9", "purpose": "controller card" },
+        { "action": "rewrite", "shapeId": "sh/ehsfyt43", "purpose": "motor card" },
+        { "action": "rewrite", "shapeId": "sh/o7ah4nm5", "purpose": "feedback card" },
+        { "action": "delete", "shapeId": "sh/s7y5sv2x", "purpose": "empty footer placeholder" }
+      ]
+    },
+    {
+      "outputSlide": 4,
+      "sourceSlide": 9,
+      "narrativeRole": "motor and motion-product comparison table",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        { "action": "rewrite", "shapeId": "sh/94zaxgfa", "purpose": "page number" },
+        { "action": "rewrite", "shapeId": "sh/83qtobep", "purpose": "slide title" },
+        { "action": "rewrite", "shapeId": "sh/cnu1kzyd", "purpose": "table introduction" },
+        { "action": "rewrite", "sourceElementId": "tb/2x0ne10r", "purpose": "product-family table" },
+        { "action": "delete", "shapeId": "sh/0b65obm9", "purpose": "empty footer placeholder" }
+      ]
+    },
+    {
+      "outputSlide": 5,
+      "sourceSlide": 8,
+      "narrativeRole": "linear motor versus servo comparison",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        { "action": "rewrite", "shapeId": "sh/983ap0ru", "purpose": "page number" },
+        { "action": "rewrite", "shapeId": "sh/87atgfq9", "purpose": "slide title" },
+        { "action": "rewrite", "shapeId": "sh/g72x4zyd", "purpose": "linear motor card" },
+        { "action": "rewrite", "shapeId": "sh/ri9g7uhw", "purpose": "linear motor bullets" },
+        { "action": "rewrite", "shapeId": "sh/98rehwve", "purpose": "servo card" },
+        { "action": "rewrite", "shapeId": "sh/n6pwfmd8", "purpose": "servo bullets" },
+        { "action": "rewrite", "shapeId": "sh/0jydkreh", "purpose": "comparison introduction" },
+        { "action": "rewrite", "shapeId": "sh/jq5w365o", "purpose": "comparison takeaway" },
+        { "action": "delete", "shapeId": "sh/6h0fypgb", "purpose": "empty footer placeholder" }
+      ]
+    },
+    {
+      "outputSlide": 6,
+      "sourceSlide": 11,
+      "narrativeRole": "four rotary motor explanations",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        { "action": "rewrite", "shapeId": "sh/ofqtgnyt", "purpose": "direct-drive explanation" },
+        { "action": "rewrite", "shapeId": "sh/xcryxg7y", "purpose": "page number" },
+        { "action": "rewrite", "shapeId": "sh/9gza9sze", "purpose": "torque motor explanation" },
+        { "action": "rewrite", "shapeId": "sh/wbih4b6d", "purpose": "slide title" },
+        { "action": "rewrite", "shapeId": "sh/n69grmpw", "purpose": "servo motor explanation" },
+        { "action": "rewrite", "shapeId": "sh/250zy18b", "purpose": "spindle motor explanation" },
+        { "action": "delete", "shapeId": "sh/98rytw72", "purpose": "empty footer placeholder" }
+      ]
+    },
+    {
+      "outputSlide": 7,
+      "sourceSlide": 13,
+      "narrativeRole": "core industry application map",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        { "action": "rewrite", "shapeId": "sh/i1czm1oj", "purpose": "page number" },
+        { "action": "rewrite", "shapeId": "sh/j2l0f6p4", "purpose": "slide title" },
+        { "action": "rewrite", "shapeId": "sh/vaxg7ulo", "purpose": "semiconductor description" },
+        { "action": "rewrite", "shapeId": "sh/876xwfmx", "purpose": "semiconductor topic" },
+        { "action": "rewrite", "shapeId": "sh/7mdg3als", "purpose": "electronics description" },
+        { "action": "rewrite", "shapeId": "sh/6l4fu547", "purpose": "electronics topic" },
+        { "action": "rewrite", "shapeId": "sh/lkvy103m", "purpose": "machine-tool description" },
+        { "action": "rewrite", "shapeId": "sh/kjmxsfm1", "purpose": "machine-tool topic" },
+        { "action": "rewrite", "shapeId": "sh/cnqh8fux", "purpose": "automation description" },
+        { "action": "rewrite", "shapeId": "sh/xozyhkbi", "purpose": "automation topic" },
+        { "action": "rewrite", "shapeId": "sh/bq9orito", "purpose": "industry-map introduction" },
+        { "action": "delete", "shapeId": "sh/q50nydsj", "purpose": "empty footer placeholder" }
+      ]
+    },
+    {
+      "outputSlide": 8,
+      "sourceSlide": 11,
+      "narrativeRole": "extended industry application map",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        { "action": "rewrite", "shapeId": "sh/ofqtgnyt", "purpose": "electric vehicle explanation" },
+        { "action": "rewrite", "shapeId": "sh/xcryxg7y", "purpose": "page number" },
+        { "action": "rewrite", "shapeId": "sh/9gza9sze", "purpose": "medical explanation" },
+        { "action": "rewrite", "shapeId": "sh/wbih4b6d", "purpose": "slide title" },
+        { "action": "rewrite", "shapeId": "sh/n69grmpw", "purpose": "optics explanation" },
+        { "action": "rewrite", "shapeId": "sh/250zy18b", "purpose": "robotics explanation" },
+        { "action": "delete", "shapeId": "sh/98rytw72", "purpose": "empty footer placeholder" }
+      ]
+    },
+    {
+      "outputSlide": 9,
+      "sourceSlide": 19,
+      "narrativeRole": "why customers pay for higher-end systems",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        { "action": "delete", "shapeId": "sh/8v2pobax", "purpose": "empty footer placeholder" },
+        { "action": "rewrite", "shapeId": "sh/vitozqt8", "purpose": "page number" },
+        { "action": "rewrite", "shapeId": "sh/jmd83atk", "purpose": "slide title" },
+        { "action": "rewrite", "shapeId": "sh/il47u5sz", "purpose": "precision card" },
+        { "action": "rewrite", "shapeId": "sh/cri1gnql", "purpose": "speed card" },
+        { "action": "rewrite", "shapeId": "sh/dsri9sr6", "purpose": "integration card" },
+        { "action": "rewrite", "shapeId": "sh/0vi1k7qx", "purpose": "premium rationale introduction" }
+      ]
+    },
+    {
+      "outputSlide": 10,
+      "sourceSlide": 24,
+      "narrativeRole": "closing summary bumper",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        { "action": "rewrite", "shapeId": "sh/nux8zidc", "purpose": "closing headline" },
+        { "action": "rewrite", "shapeId": "sh/2to76dcr", "purpose": "memorization line" },
+        { "action": "delete", "shapeId": "sh/1sfqxsv6", "purpose": "empty off-canvas textbox" },
+        { "action": "delete", "shapeId": "sh/9wzq1svi", "purpose": "empty off-canvas textbox" }
+      ]
+    }
+  ],
+  "omittedSourceSlides": [
+    { "sourceSlide": 2, "reason": "agenda not needed in a short teaching deck" },
+    { "sourceSlide": 3, "reason": "section divider not needed" },
+    { "sourceSlide": 5, "reason": "no external product photo is needed" },
+    { "sourceSlide": 6, "reason": "image-heavy pattern not needed" },
+    { "sourceSlide": 7, "reason": "checklist pattern is less direct than the selected comparison layouts" },
+    { "sourceSlide": 10, "reason": "selected four-point grid provides more readable copy" },
+    { "sourceSlide": 12, "reason": "no quantitative chart claim is needed" },
+    { "sourceSlide": 14, "reason": "three-card timeline better supports the feedback chain" },
+    { "sourceSlide": 16, "reason": "no quantitative chart claim is needed" },
+    { "sourceSlide": 17, "reason": "no external imagery is needed" },
+    { "sourceSlide": 18, "reason": "no external imagery is needed" },
+    { "sourceSlide": 20, "reason": "no project schedule is needed" },
+    { "sourceSlide": 21, "reason": "no calendar is needed" },
+    { "sourceSlide": 22, "reason": "no calendar is needed" },
+    { "sourceSlide": 23, "reason": "three-column icon pattern is redundant with selected explanation slides" }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "source_quarter_value_checks": 82422,
+  "growth_pairs_checked": 27474,
+  "previous_qoq_values_reproduced": 27474,
+  "previous_yoy_values_reproduced": 24674,
+  "predictions_checked": 27458,
+  "expanding_batches_checked": 783,
+  "all_training_dates_strictly_before_prediction": true
+}

@@ -1,0 +1,18 @@
+{
+  "sgd_only": {
+    "mean_flat_training_loss": 0.08334408920663687,
+    "mean_loss_after_sgd": 0.12485432551633557,
+    "mean_loss_after_full": 0.12485432551633557,
+    "after_sgd_beats_flat_days": 9,
+    "after_full_beats_flat_days": 9,
+    "days": 1199
+  },
+  "sgd_sqrt": {
+    "mean_flat_training_loss": 0.08334408920663687,
+    "mean_loss_after_sgd": 0.12447684646800546,
+    "mean_loss_after_full": 0.10536395166545608,
+    "after_sgd_beats_flat_days": 9,
+    "after_full_beats_flat_days": 45,
+    "days": 1199
+  }
+}

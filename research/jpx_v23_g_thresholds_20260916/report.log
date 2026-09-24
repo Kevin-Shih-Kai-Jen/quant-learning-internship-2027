@@ -1,0 +1,31 @@
+      Model Family Threshold    Label    Sharpe    RankIC      MSE  SkippedTrainingStockDays  TrainingStockDays  MedianLearningRate
+  g_no_skip      g   no_skip 不跳過（原v7）  0.007679 -0.000734 0.000665                         0            2325806            0.071819
+  g_skip100      g   skip100 超過100倍跳過  0.005644 -0.000695 0.000665                      3025            2322781            0.072002
+   g_skip10      g    skip10  超過10倍跳過  0.005386 -0.000702 0.000666                     32541            2293265            0.072963
+eps_no_skip    eps   no_skip      不跳過 -0.046628 -0.004407 0.000644                         0            2325806            0.014188
+eps_skip100    eps   skip100 超過100倍跳過 -0.000232 -0.001252 0.000773                      3025            2322781            0.054324
+ eps_skip10    eps    skip10  超過10倍跳過  0.003030 -0.000621 0.000999                     32541            2293265            0.072917
+             Comparison Metric  Difference   CI95Low  CI95High
+  g_skip100 - g_no_skip Sharpe   -0.002035 -0.003979  0.000664
+  g_skip100 - g_no_skip RankIC    0.000039 -0.000065  0.000159
+   g_skip10 - g_no_skip Sharpe   -0.002293 -0.007468  0.003185
+   g_skip10 - g_no_skip RankIC    0.000032 -0.000299  0.000427
+   g_skip10 - g_skip100 Sharpe   -0.000258 -0.005833  0.004824
+   g_skip10 - g_skip100 RankIC   -0.000007 -0.000288  0.000317
+eps_no_skip - g_no_skip Sharpe   -0.054307 -0.116352  0.009227
+eps_no_skip - g_no_skip RankIC   -0.003673 -0.009193  0.002136
+eps_skip100 - g_skip100 Sharpe   -0.005876 -0.028273  0.013776
+eps_skip100 - g_skip100 RankIC   -0.000557 -0.002516  0.001130
+  eps_skip10 - g_skip10 Sharpe   -0.002355 -0.017667  0.014578
+  eps_skip10 - g_skip10 RankIC    0.000080 -0.000678  0.000845
+      Model    RankIC   CI95Low  CI95High
+  g_no_skip -0.000734 -0.006988  0.005450
+  g_skip100 -0.000695 -0.006920  0.005508
+   g_skip10 -0.000702 -0.006975  0.005431
+eps_no_skip -0.004407 -0.010479  0.002452
+eps_skip100 -0.001252 -0.007446  0.004955
+ eps_skip10 -0.000621 -0.006901  0.005360
+Threshold    Label  GSharpe  EPSSharpe  DeltaSharpe   GRankIC  EPSRankIC  DeltaRankIC
+  no_skip      不跳過 0.007679  -0.046628    -0.054307 -0.000734  -0.004407    -0.003673
+  skip100 超過100倍跳過 0.005644  -0.000232    -0.005876 -0.000695  -0.001252    -0.000557
+   skip10  超過10倍跳過 0.005386   0.003030    -0.002355 -0.000702  -0.000621     0.000080

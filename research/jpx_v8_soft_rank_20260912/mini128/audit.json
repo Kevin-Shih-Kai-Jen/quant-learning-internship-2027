@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "label_days": 1199,
+  "audited_batches": 18741,
+  "accepted_updates": 18726,
+  "skipped_updates": 15,
+  "independent_real_batch_replays": 15,
+  "finite_difference_real_batches": 5,
+  "max_analytic_gradient_error": 1.457167719820518e-16,
+  "max_finite_difference_gradient_error": 1.5894206610578276e-10,
+  "forecast_rows_reproduced": 2326022,
+  "forecast_dates_reproduced": 1199,
+  "max_official_daily_spread_difference": 8.881784197001252e-15,
+  "accepted_eta_counts": {
+    "1": 16876,
+    "0.9": 385,
+    "0.8": 371,
+    "0.7": 315,
+    "0.6": 257,
+    "0.5": 222,
+    "0.4": 168,
+    "0.3": 96,
+    "0.2": 27,
+    "0.1": 9
+  },
+  "minimum_armijo_margin": 0.0,
+  "all_batch_sizes_and_full_coverage_verified": true,
+  "no_future_label_updates": true,
+  "cross_year_parameter_continuity": true
+}

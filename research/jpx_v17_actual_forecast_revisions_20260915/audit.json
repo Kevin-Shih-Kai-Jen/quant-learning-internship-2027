@@ -1,0 +1,183 @@
+{
+  "passed": true,
+  "model_count": 16,
+  "models": [
+    {
+      "name": "eps_forecast_actual_qoq",
+      "passed": true,
+      "all_forecast_rows": 2326022,
+      "all_integer_ranks_checked": true,
+      "all_953_daily_returns_checked": true,
+      "official_sharpe_recalculated": 0.010706426035814207,
+      "max_independent_score_abs_error": 6.661338147750939e-13,
+      "all_1199_updates_independently_checked_in_update_audit": true,
+      "all_threshold_masks_and_training_timing_checked": true
+    },
+    {
+      "name": "eps_forecast_actual_qoq_control",
+      "passed": true,
+      "all_forecast_rows": 2326022,
+      "all_integer_ranks_checked": true,
+      "all_953_daily_returns_checked": true,
+      "official_sharpe_recalculated": 0.007609535514889657,
+      "max_independent_score_abs_error": 2.0261570199409107e-13,
+      "all_1199_updates_independently_checked_in_update_audit": true,
+      "all_threshold_masks_and_training_timing_checked": true
+    },
+    {
+      "name": "eps_forecast_actual_yoy",
+      "passed": true,
+      "all_forecast_rows": 2326022,
+      "all_integer_ranks_checked": true,
+      "all_953_daily_returns_checked": true,
+      "official_sharpe_recalculated": 0.0055670675253004015,
+      "max_independent_score_abs_error": 1.5432100042289676e-13,
+      "all_1199_updates_independently_checked_in_update_audit": true,
+      "all_threshold_masks_and_training_timing_checked": true
+    },
+    {
+      "name": "eps_forecast_actual_yoy_control",
+      "passed": true,
+      "all_forecast_rows": 2326022,
+      "all_integer_ranks_checked": true,
+      "all_953_daily_returns_checked": true,
+      "official_sharpe_recalculated": 0.007334166326532131,
+      "max_independent_score_abs_error": 1.9423351815817114e-13,
+      "all_1199_updates_independently_checked_in_update_audit": true,
+      "all_threshold_masks_and_training_timing_checked": true
+    },
+    {
+      "name": "sales_revision_relative",
+      "passed": true,
+      "all_forecast_rows": 2326022,
+      "all_integer_ranks_checked": true,
+      "all_953_daily_returns_checked": true,
+      "official_sharpe_recalculated": 0.007223244085231326,
+      "max_independent_score_abs_error": 2.0261570199409107e-13,
+      "all_1199_updates_independently_checked_in_update_audit": true,
+      "all_threshold_masks_and_training_timing_checked": true
+    },
+    {
+      "name": "sales_revision_relative_control",
+      "passed": true,
+      "all_forecast_rows": 2326022,
+      "all_integer_ranks_checked": true,
+      "all_953_daily_returns_checked": true,
+      "official_sharpe_recalculated": 0.007634565399773715,
+      "max_independent_score_abs_error": 1.6797674362578618e-13,
+      "all_1199_updates_independently_checked_in_update_audit": true,
+      "all_threshold_masks_and_training_timing_checked": true
+    },
+    {
+      "name": "profit_revision_relative",
+      "passed": true,
+      "all_forecast_rows": 2326022,
+      "all_integer_ranks_checked": true,
+      "all_953_daily_returns_checked": true,
+      "official_sharpe_recalculated": 0.006374311013339354,
+      "max_independent_score_abs_error": 5.967448757360216e-14,
+      "all_1199_updates_independently_checked_in_update_audit": true,
+      "all_threshold_masks_and_training_timing_checked": true
+    },
+    {
+      "name": "profit_revision_relative_control",
+      "passed": true,
+      "all_forecast_rows": 2326022,
+      "all_integer_ranks_checked": true,
+      "all_953_daily_returns_checked": true,
+      "official_sharpe_recalculated": 0.007408278904194933,
+      "max_independent_score_abs_error": 1.3522516439934407e-13,
+      "all_1199_updates_independently_checked_in_update_audit": true,
+      "all_threshold_masks_and_training_timing_checked": true
+    },
+    {
+      "name": "eps_revision_relative",
+      "passed": true,
+      "all_forecast_rows": 2326022,
+      "all_integer_ranks_checked": true,
+      "all_953_daily_returns_checked": true,
+      "official_sharpe_recalculated": 0.011274517154546046,
+      "max_independent_score_abs_error": 2.1360690993788012e-13,
+      "all_1199_updates_independently_checked_in_update_audit": true,
+      "all_threshold_masks_and_training_timing_checked": true
+    },
+    {
+      "name": "eps_revision_relative_control",
+      "passed": true,
+      "all_forecast_rows": 2326022,
+      "all_integer_ranks_checked": true,
+      "all_953_daily_returns_checked": true,
+      "official_sharpe_recalculated": 0.007320184283905321,
+      "max_independent_score_abs_error": 1.8818280267396403e-13,
+      "all_1199_updates_independently_checked_in_update_audit": true,
+      "all_threshold_masks_and_training_timing_checked": true
+    },
+    {
+      "name": "eps_actual_qoq",
+      "passed": true,
+      "all_forecast_rows": 2326022,
+      "all_integer_ranks_checked": true,
+      "all_953_daily_returns_checked": true,
+      "official_sharpe_recalculated": 0.0113686486189891,
+      "max_independent_score_abs_error": 1.3242740237728867e-12,
+      "all_1199_updates_independently_checked_in_update_audit": true,
+      "all_threshold_masks_and_training_timing_checked": true
+    },
+    {
+      "name": "eps_actual_qoq_control",
+      "passed": true,
+      "all_forecast_rows": 2326022,
+      "all_integer_ranks_checked": true,
+      "all_953_daily_returns_checked": true,
+      "official_sharpe_recalculated": 0.006626893824646224,
+      "max_independent_score_abs_error": 6.916689443414725e-14,
+      "all_1199_updates_independently_checked_in_update_audit": true,
+      "all_threshold_masks_and_training_timing_checked": true
+    },
+    {
+      "name": "eps_actual_joint",
+      "passed": true,
+      "all_forecast_rows": 2326022,
+      "all_integer_ranks_checked": true,
+      "all_953_daily_returns_checked": true,
+      "official_sharpe_recalculated": 0.0078101608697511826,
+      "max_independent_score_abs_error": 1.2043699371133698e-12,
+      "all_1199_updates_independently_checked_in_update_audit": true,
+      "all_threshold_masks_and_training_timing_checked": true
+    },
+    {
+      "name": "eps_actual_joint_control",
+      "passed": true,
+      "all_forecast_rows": 2326022,
+      "all_integer_ranks_checked": true,
+      "all_953_daily_returns_checked": true,
+      "official_sharpe_recalculated": 0.0059803586867625885,
+      "max_independent_score_abs_error": 6.916689443414725e-14,
+      "all_1199_updates_independently_checked_in_update_audit": true,
+      "all_threshold_masks_and_training_timing_checked": true
+    },
+    {
+      "name": "eps_qoq_joint_mask",
+      "passed": true,
+      "all_forecast_rows": 2326022,
+      "all_integer_ranks_checked": true,
+      "all_953_daily_returns_checked": true,
+      "official_sharpe_recalculated": 0.011212967652861157,
+      "max_independent_score_abs_error": 9.676703882632864e-13,
+      "all_1199_updates_independently_checked_in_update_audit": true,
+      "all_threshold_masks_and_training_timing_checked": true
+    },
+    {
+      "name": "eps_yoy_joint_mask",
+      "passed": true,
+      "all_forecast_rows": 2326022,
+      "all_integer_ranks_checked": true,
+      "all_953_daily_returns_checked": true,
+      "official_sharpe_recalculated": 0.0038746068122820884,
+      "max_independent_score_abs_error": 1.6409096303959814e-13,
+      "all_1199_updates_independently_checked_in_update_audit": true,
+      "all_threshold_masks_and_training_timing_checked": true
+    }
+  ],
+  "feature_audit_passed": true
+}

@@ -1,0 +1,7 @@
+{
+  "single_day_400_stock_rmse_matches_direct_formula": true,
+  "gradient_matches_direct_and_finite_difference": true,
+  "zero_residual_valid_subgradient": true,
+  "negative_gradient_step_reduces_single_day_loss": true,
+  "replay_is_sequential_daily_updates_without_loss_averaging": true
+}

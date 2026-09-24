@@ -1,0 +1,19 @@
+{
+  "variant": "none_none",
+  "training_variant": "no_skip",
+  "validation_threshold": null,
+  "sharpe": 0.0076788715624210805,
+  "rank_ic": -0.0007338924981283135,
+  "rank_ic_days": 952,
+  "mean_mse": 0.0006654329991343369,
+  "validation_days": 953,
+  "retained_stock_days": 1864363,
+  "excluded_stock_days": 0,
+  "excluded_pct": 0.0,
+  "min_daily_stocks": 1896,
+  "mean_daily_stocks": 1956.3095487932844,
+  "training_skipped_stock_days": 0,
+  "old_long_excluded_total": 0,
+  "old_short_excluded_total": 0,
+  "source_predictions": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v23_g_thresholds_20260916/no_skip/predictions.npz"
+}

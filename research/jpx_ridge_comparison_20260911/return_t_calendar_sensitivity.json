@@ -1,0 +1,27 @@
+{
+  "description": "Both OLS and Ridge order entry/exit dates remapped to the same actual-market timeline, correcting the inherited 2020-10-01 closure mismatch. Models and training unchanged.",
+  "ols": {
+    "days": 953,
+    "cumulative_return": 0.3579424881200437,
+    "annualized_return_252": 0.08427032760364095,
+    "max_drawdown": -0.41123525578920106,
+    "sharpe_252_rf0": 0.46935371403515846,
+    "daily_mean": 0.00042294287479913633,
+    "daily_std": 0.014304797836389375,
+    "positive_day_fraction": 0.5634837355718783,
+    "ending_wealth_per_100": 135.79424881200438,
+    "simple_sum_return": 0.4030645596835769
+  },
+  "ridge": {
+    "days": 953,
+    "cumulative_return": -0.08275632654207432,
+    "annualized_return_252": -0.022582959626853305,
+    "max_drawdown": -0.5109729381817001,
+    "sharpe_252_rf0": 0.05317546991112885,
+    "daily_mean": 5.769559414554851e-05,
+    "daily_std": 0.0172239035151005,
+    "positive_day_fraction": 0.5330535152151101,
+    "ending_wealth_per_100": 91.72436734579257,
+    "simple_sum_return": 0.05498390122070773
+  }
+}

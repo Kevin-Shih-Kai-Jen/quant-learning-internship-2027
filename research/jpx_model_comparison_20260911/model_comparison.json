@@ -1,0 +1,591 @@
+{
+  "scope": "953 matching intervals; 2018-01-04 entry through 2021-12-03 exit; zero costs; repeatedly used development validation",
+  "benchmark": {
+    "days": 953,
+    "cumulative_return": 0.19242646555204312,
+    "annualized_return_252": 0.047636608959731985,
+    "max_drawdown": -0.3179889924526026,
+    "sharpe_252_rf0": 0.3336692970202763,
+    "daily_mean": 0.0002628282087520947,
+    "daily_std": 0.012504202528080178,
+    "positive_day_fraction": 0.5246589716684156,
+    "ending_wealth_per_100": 119.24264655520432,
+    "simple_sum_return": 0.2504752829407463
+  },
+  "all_current_exit_variants": [
+    {
+      "name": "原始動態 regime",
+      "performance": {
+        "days": 953,
+        "cumulative_return": 0.5406270340333439,
+        "annualized_return_252": 0.12106940687860845,
+        "max_drawdown": -0.22220480051834612,
+        "sharpe_252_rf0": 0.6840228450055622,
+        "daily_mean": 0.0005282982497407146,
+        "daily_std": 0.01226051846446671,
+        "positive_day_fraction": 0.5424973767051416,
+        "ending_wealth_per_100": 154.06270340333438,
+        "simple_sum_return": 0.503468232002901
+      },
+      "stock_features": "價格／量水準T值＋同期間交乘",
+      "stock_training": "previous year only",
+      "market": "市場模型只用上一年；g 正負切換，無中性帶",
+      "allocation": "每側前三名，側內50/30/20；初始70/30或30/70",
+      "source": "使用者原始ZIP:jpx_market_regime_results/regime/results.json",
+      "beats_benchmark_return": true,
+      "lower_drawdown_than_benchmark": true,
+      "both_conditions_met": true
+    },
+    {
+      "name": "return的T值＋1日價格T",
+      "performance": {
+        "days": 953,
+        "cumulative_return": 0.4739342640178337,
+        "annualized_return_252": 0.10802702095013528,
+        "max_drawdown": -0.3609445631682222,
+        "sharpe_252_rf0": 0.5702375037704493,
+        "daily_mean": 0.0005055193198281545,
+        "daily_std": 0.01407285625053057,
+        "positive_day_fraction": 0.5634837355718783,
+        "ending_wealth_per_100": 147.39342640178336,
+        "simple_sum_return": 0.4817599117962312
+      },
+      "stock_features": "價量return的前22日T值，含TPR1，交乘",
+      "stock_training": "previous year only",
+      "market": "市場expanding＋既定平滑中性帶",
+      "allocation": "每側前三名，側內50/30/20",
+      "source": "jpx_return_t_20260911/results.json:return_t",
+      "beats_benchmark_return": true,
+      "lower_drawdown_than_benchmark": false,
+      "both_conditions_met": false
+    },
+    {
+      "name": "固定初始30/70",
+      "performance": {
+        "days": 953,
+        "cumulative_return": 0.36746671240090145,
+        "annualized_return_252": 0.0862760750841518,
+        "max_drawdown": -0.22029206329042517,
+        "sharpe_252_rf0": 0.5207591305564168,
+        "daily_mean": 0.0004045032187303022,
+        "daily_std": 0.01233063263019948,
+        "positive_day_fraction": 0.5781741867785939,
+        "ending_wealth_per_100": 136.74667124009014,
+        "simple_sum_return": 0.38549156744997803
+      },
+      "stock_features": "價格／量水準T值＋同期間交乘",
+      "stock_training": "previous year only",
+      "market": "不依市場g調整預算",
+      "allocation": "每側前三名，側內50/30/20；初始30/70",
+      "source": "使用者原始ZIP:jpx_market_regime_results/fixed_30_70/results.json",
+      "beats_benchmark_return": true,
+      "lower_drawdown_than_benchmark": true,
+      "both_conditions_met": true
+    },
+    {
+      "name": "價量水準T＋平滑中性帶",
+      "performance": {
+        "days": 953,
+        "cumulative_return": 0.3478040004500922,
+        "annualized_return_252": 0.08212381680570546,
+        "max_drawdown": -0.23056249336492052,
+        "sharpe_252_rf0": 0.520135875096829,
+        "daily_mean": 0.0003802396553493359,
+        "daily_std": 0.011604885740349733,
+        "positive_day_fraction": 0.540398740818468,
+        "ending_wealth_per_100": 134.78040004500923,
+        "simple_sum_return": 0.3623683915479171
+      },
+      "stock_features": "價格／量水準T值＋同期間交乘",
+      "stock_training": "previous year only",
+      "market": "市場expanding；初始±0.1%，正負各10%邊界，0.6當年＋0.4去年原始邊界",
+      "allocation": "每側前三名，側內50/30/20",
+      "source": "jpx_signed_band_20260910/results.json:scenarios/signed_smoothed",
+      "beats_benchmark_return": true,
+      "lower_drawdown_than_benchmark": true,
+      "both_conditions_met": true
+    },
+    {
+      "name": "固定初始50/50",
+      "performance": {
+        "days": 953,
+        "cumulative_return": 0.2742933463728927,
+        "annualized_return_252": 0.06619390082473098,
+        "max_drawdown": -0.2550761603262247,
+        "sharpe_252_rf0": 0.46765172934135146,
+        "daily_mean": 0.0003094078017503978,
+        "daily_std": 0.010502894086858363,
+        "positive_day_fraction": 0.5414480587618048,
+        "ending_wealth_per_100": 127.42933463728927,
+        "simple_sum_return": 0.2948656350681291
+      },
+      "stock_features": "價格／量水準T值＋同期間交乘",
+      "stock_training": "previous year only",
+      "market": "不依市場g調整預算；亦等同曾測的±10%全中性結果",
+      "allocation": "每側前三名，側內50/30/20；初始50/50",
+      "source": "使用者原始ZIP:jpx_market_regime_results/baseline_replay/results.json",
+      "beats_benchmark_return": true,
+      "lower_drawdown_than_benchmark": true,
+      "both_conditions_met": true
+    },
+    {
+      "name": "價量水準T＋市場expanding、無中性帶",
+      "performance": {
+        "days": 953,
+        "cumulative_return": 0.24350262643740073,
+        "annualized_return_252": 0.05932019287768209,
+        "max_drawdown": -0.29341155007677033,
+        "sharpe_252_rf0": 0.394690945990439,
+        "daily_mean": 0.0003021293706035365,
+        "daily_std": 0.01215167238832162,
+        "positive_day_fraction": 0.5435466946484785,
+        "ending_wealth_per_100": 124.35026264374007,
+        "simple_sum_return": 0.2879292901851703
+      },
+      "stock_features": "價格／量水準T值＋同期間交乘",
+      "stock_training": "previous year only",
+      "market": "市場expanding；依g正負切換",
+      "allocation": "每側前三名，側內50/30/20",
+      "source": "jpx_signed_band_20260910/results.json:scenarios/expanding_no_neutral",
+      "beats_benchmark_return": true,
+      "lower_drawdown_than_benchmark": true,
+      "both_conditions_met": true
+    },
+    {
+      "name": "固定初始70/30",
+      "performance": {
+        "days": 953,
+        "cumulative_return": 0.15313047888043618,
+        "annualized_return_252": 0.03839455617334364,
+        "max_drawdown": -0.341595675948384,
+        "sharpe_252_rf0": 0.29774261404103347,
+        "daily_mean": 0.00021448374666773585,
+        "daily_std": 0.011435460572734842,
+        "positive_day_fraction": 0.5257082896117523,
+        "ending_wealth_per_100": 115.31304788804361,
+        "simple_sum_return": 0.20440301057435226
+      },
+      "stock_features": "價格／量水準T值＋同期間交乘",
+      "stock_training": "previous year only",
+      "market": "不依市場g調整預算",
+      "allocation": "每側前三名，側內50/30/20；初始70/30",
+      "source": "使用者原始ZIP:jpx_market_regime_results/fixed_70_30/results.json",
+      "beats_benchmark_return": false,
+      "lower_drawdown_than_benchmark": false,
+      "both_conditions_met": false
+    },
+    {
+      "name": "未標準化return",
+      "performance": {
+        "days": 953,
+        "cumulative_return": -0.06558091683665723,
+        "annualized_return_252": -0.01777632741347379,
+        "max_drawdown": -0.4099950705968525,
+        "sharpe_252_rf0": 0.11767534969291923,
+        "daily_mean": 0.00015854754067618008,
+        "daily_std": 0.021388202271999408,
+        "positive_day_fraction": 0.5424973767051416,
+        "ending_wealth_per_100": 93.44190831633428,
+        "simple_sum_return": 0.1510958062643996
+      },
+      "stock_features": "原始價量5/22/60日return＋交乘",
+      "stock_training": "previous year only",
+      "market": "市場expanding＋既定平滑中性帶",
+      "allocation": "每側前三名，側內50/30/20",
+      "source": "jpx_stock_returns_20260910/results.json:new_returns",
+      "beats_benchmark_return": false,
+      "lower_drawdown_than_benchmark": false,
+      "both_conditions_met": false
+    },
+    {
+      "name": "return的T值＋前十等權",
+      "performance": {
+        "days": 953,
+        "cumulative_return": -0.20516722391785613,
+        "annualized_return_252": -0.058912275523813395,
+        "max_drawdown": -0.3211649181419599,
+        "sharpe_252_rf0": -0.4076178936524979,
+        "daily_mean": -0.00020807562036880193,
+        "daily_std": 0.008103417744374022,
+        "positive_day_fraction": 0.4994753410283316,
+        "ending_wealth_per_100": 79.4832776082144,
+        "simple_sum_return": -0.19829606621146825
+      },
+      "stock_features": "價量return的前22日T值，含TPR1，交乘",
+      "stock_training": "previous year only",
+      "market": "市場expanding＋既定平滑中性帶",
+      "allocation": "每側前十名，側內等權",
+      "source": "jpx_return_t_top10_20260911/results.json:top10_equal",
+      "beats_benchmark_return": false,
+      "lower_drawdown_than_benchmark": false,
+      "both_conditions_met": false
+    },
+    {
+      "name": "return的T值＋前十等權＋Ridge",
+      "performance": {
+        "days": 953,
+        "cumulative_return": -0.3693168098623425,
+        "annualized_return_252": -0.11475299449551468,
+        "max_drawdown": -0.5834258115003323,
+        "sharpe_252_rf0": -0.5887018708120016,
+        "daily_mean": -0.00041937094923671074,
+        "daily_std": 0.01130845299236113,
+        "positive_day_fraction": 0.5047219307450157,
+        "ending_wealth_per_100": 63.06831901376575,
+        "simple_sum_return": -0.39966051462258534
+      },
+      "stock_features": "價量return的前22日T值，含TPR1，交乘；λ內層選取",
+      "stock_training": "previous year only",
+      "market": "市場expanding＋既定平滑中性帶",
+      "allocation": "每側前十名，側內等權",
+      "source": "jpx_ridge_top10_20260911/results.json:ridge_top10",
+      "beats_benchmark_return": false,
+      "lower_drawdown_than_benchmark": false,
+      "both_conditions_met": false
+    },
+    {
+      "name": "未標準化return＋個股expanding",
+      "performance": {
+        "days": 953,
+        "cumulative_return": -0.4146953876555879,
+        "annualized_return_252": -0.13206091682388965,
+        "max_drawdown": -0.475156974339767,
+        "sharpe_252_rf0": -0.26649438353223387,
+        "daily_mean": -0.00034668800973985264,
+        "daily_std": 0.020651472893543573,
+        "positive_day_fraction": 0.5634837355718783,
+        "ending_wealth_per_100": 58.53046123444121,
+        "simple_sum_return": -0.3303936732820796
+      },
+      "stock_features": "原始價量5/22/60日return＋交乘",
+      "stock_training": "expanding from 2017",
+      "market": "市場expanding＋既定平滑中性帶",
+      "allocation": "每側前三名，側內50/30/20",
+      "source": "jpx_stock_expanding_20260911/results.json:expanding_stock_returns",
+      "beats_benchmark_return": false,
+      "lower_drawdown_than_benchmark": false,
+      "both_conditions_met": false
+    },
+    {
+      "name": "return／22日平均−1＋PR1",
+      "performance": {
+        "days": 953,
+        "cumulative_return": -0.5277311878854966,
+        "annualized_return_252": -0.179938393445514,
+        "max_drawdown": -0.7757600640309362,
+        "sharpe_252_rf0": -0.34777073064318936,
+        "daily_mean": -0.0005141261030086198,
+        "daily_std": 0.023468044166428587,
+        "positive_day_fraction": 0.5194123819517313,
+        "ending_wealth_per_100": 47.22688121145035,
+        "simple_sum_return": -0.4899621761672147
+      },
+      "stock_features": "價量return除以前22日平均−1，原PR1，交乘",
+      "stock_training": "previous year only",
+      "market": "市場expanding＋既定平滑中性帶",
+      "allocation": "每側前三名，側內50/30/20",
+      "source": "jpx_return_mean_20260911/results.json:ratio_plus_pr1",
+      "beats_benchmark_return": false,
+      "lower_drawdown_than_benchmark": false,
+      "both_conditions_met": false
+    }
+  ],
+  "better_current_exit_variants": [
+    {
+      "name": "原始動態 regime",
+      "performance": {
+        "days": 953,
+        "cumulative_return": 0.5406270340333439,
+        "annualized_return_252": 0.12106940687860845,
+        "max_drawdown": -0.22220480051834612,
+        "sharpe_252_rf0": 0.6840228450055622,
+        "daily_mean": 0.0005282982497407146,
+        "daily_std": 0.01226051846446671,
+        "positive_day_fraction": 0.5424973767051416,
+        "ending_wealth_per_100": 154.06270340333438,
+        "simple_sum_return": 0.503468232002901
+      },
+      "stock_features": "價格／量水準T值＋同期間交乘",
+      "stock_training": "previous year only",
+      "market": "市場模型只用上一年；g 正負切換，無中性帶",
+      "allocation": "每側前三名，側內50/30/20；初始70/30或30/70",
+      "source": "使用者原始ZIP:jpx_market_regime_results/regime/results.json",
+      "beats_benchmark_return": true,
+      "lower_drawdown_than_benchmark": true,
+      "both_conditions_met": true
+    },
+    {
+      "name": "return的T值＋1日價格T",
+      "performance": {
+        "days": 953,
+        "cumulative_return": 0.4739342640178337,
+        "annualized_return_252": 0.10802702095013528,
+        "max_drawdown": -0.3609445631682222,
+        "sharpe_252_rf0": 0.5702375037704493,
+        "daily_mean": 0.0005055193198281545,
+        "daily_std": 0.01407285625053057,
+        "positive_day_fraction": 0.5634837355718783,
+        "ending_wealth_per_100": 147.39342640178336,
+        "simple_sum_return": 0.4817599117962312
+      },
+      "stock_features": "價量return的前22日T值，含TPR1，交乘",
+      "stock_training": "previous year only",
+      "market": "市場expanding＋既定平滑中性帶",
+      "allocation": "每側前三名，側內50/30/20",
+      "source": "jpx_return_t_20260911/results.json:return_t",
+      "beats_benchmark_return": true,
+      "lower_drawdown_than_benchmark": false,
+      "both_conditions_met": false
+    },
+    {
+      "name": "固定初始30/70",
+      "performance": {
+        "days": 953,
+        "cumulative_return": 0.36746671240090145,
+        "annualized_return_252": 0.0862760750841518,
+        "max_drawdown": -0.22029206329042517,
+        "sharpe_252_rf0": 0.5207591305564168,
+        "daily_mean": 0.0004045032187303022,
+        "daily_std": 0.01233063263019948,
+        "positive_day_fraction": 0.5781741867785939,
+        "ending_wealth_per_100": 136.74667124009014,
+        "simple_sum_return": 0.38549156744997803
+      },
+      "stock_features": "價格／量水準T值＋同期間交乘",
+      "stock_training": "previous year only",
+      "market": "不依市場g調整預算",
+      "allocation": "每側前三名，側內50/30/20；初始30/70",
+      "source": "使用者原始ZIP:jpx_market_regime_results/fixed_30_70/results.json",
+      "beats_benchmark_return": true,
+      "lower_drawdown_than_benchmark": true,
+      "both_conditions_met": true
+    },
+    {
+      "name": "價量水準T＋平滑中性帶",
+      "performance": {
+        "days": 953,
+        "cumulative_return": 0.3478040004500922,
+        "annualized_return_252": 0.08212381680570546,
+        "max_drawdown": -0.23056249336492052,
+        "sharpe_252_rf0": 0.520135875096829,
+        "daily_mean": 0.0003802396553493359,
+        "daily_std": 0.011604885740349733,
+        "positive_day_fraction": 0.540398740818468,
+        "ending_wealth_per_100": 134.78040004500923,
+        "simple_sum_return": 0.3623683915479171
+      },
+      "stock_features": "價格／量水準T值＋同期間交乘",
+      "stock_training": "previous year only",
+      "market": "市場expanding；初始±0.1%，正負各10%邊界，0.6當年＋0.4去年原始邊界",
+      "allocation": "每側前三名，側內50/30/20",
+      "source": "jpx_signed_band_20260910/results.json:scenarios/signed_smoothed",
+      "beats_benchmark_return": true,
+      "lower_drawdown_than_benchmark": true,
+      "both_conditions_met": true
+    },
+    {
+      "name": "固定初始50/50",
+      "performance": {
+        "days": 953,
+        "cumulative_return": 0.2742933463728927,
+        "annualized_return_252": 0.06619390082473098,
+        "max_drawdown": -0.2550761603262247,
+        "sharpe_252_rf0": 0.46765172934135146,
+        "daily_mean": 0.0003094078017503978,
+        "daily_std": 0.010502894086858363,
+        "positive_day_fraction": 0.5414480587618048,
+        "ending_wealth_per_100": 127.42933463728927,
+        "simple_sum_return": 0.2948656350681291
+      },
+      "stock_features": "價格／量水準T值＋同期間交乘",
+      "stock_training": "previous year only",
+      "market": "不依市場g調整預算；亦等同曾測的±10%全中性結果",
+      "allocation": "每側前三名，側內50/30/20；初始50/50",
+      "source": "使用者原始ZIP:jpx_market_regime_results/baseline_replay/results.json",
+      "beats_benchmark_return": true,
+      "lower_drawdown_than_benchmark": true,
+      "both_conditions_met": true
+    },
+    {
+      "name": "價量水準T＋市場expanding、無中性帶",
+      "performance": {
+        "days": 953,
+        "cumulative_return": 0.24350262643740073,
+        "annualized_return_252": 0.05932019287768209,
+        "max_drawdown": -0.29341155007677033,
+        "sharpe_252_rf0": 0.394690945990439,
+        "daily_mean": 0.0003021293706035365,
+        "daily_std": 0.01215167238832162,
+        "positive_day_fraction": 0.5435466946484785,
+        "ending_wealth_per_100": 124.35026264374007,
+        "simple_sum_return": 0.2879292901851703
+      },
+      "stock_features": "價格／量水準T值＋同期間交乘",
+      "stock_training": "previous year only",
+      "market": "市場expanding；依g正負切換",
+      "allocation": "每側前三名，側內50/30/20",
+      "source": "jpx_signed_band_20260910/results.json:scenarios/expanding_no_neutral",
+      "beats_benchmark_return": true,
+      "lower_drawdown_than_benchmark": true,
+      "both_conditions_met": true
+    }
+  ],
+  "separate_close_only_diagnostics": [
+    {
+      "name": "原始動態 regime／收盤出場診斷",
+      "performance": {
+        "days": 953,
+        "cumulative_return": 0.881066856967738,
+        "annualized_return_252": 0.18184411110861887,
+        "max_drawdown": -0.26388380587998117,
+        "sharpe_252_rf0": 0.8157543764876732,
+        "daily_mean": 0.0007772812005628197,
+        "daily_std": 0.01512582327275579,
+        "positive_day_fraction": 0.5089192025183631,
+        "ending_wealth_per_100": 188.1066856967738,
+        "simple_sum_return": 0.7407489841363671
+      },
+      "source": "使用者原始ZIP:jpx_market_regime_results/regime/results.json",
+      "execution": "相同預測及預定選股，改成收盤出場，無目標價觸及退出",
+      "same_953_dates": true,
+      "daily_metrics_recomputed": true,
+      "beats_benchmark_return": true,
+      "lower_drawdown_than_benchmark": true,
+      "both_conditions_met": true
+    },
+    {
+      "name": "固定初始30/70／收盤出場診斷",
+      "performance": {
+        "days": 953,
+        "cumulative_return": 0.7363229336072548,
+        "annualized_return_252": 0.1570844133872631,
+        "max_drawdown": -0.296925223944868,
+        "sharpe_252_rf0": 0.7048372759912003,
+        "daily_mean": 0.0007054707718140964,
+        "daily_std": 0.01588877560557564,
+        "positive_day_fraction": 0.527806925498426,
+        "ending_wealth_per_100": 173.63229336072547,
+        "simple_sum_return": 0.6723136455388339
+      },
+      "source": "使用者原始ZIP:jpx_market_regime_results/fixed_30_70/results.json",
+      "execution": "相同預測及預定選股，改成收盤出場，無目標價觸及退出",
+      "same_953_dates": true,
+      "daily_metrics_recomputed": true,
+      "beats_benchmark_return": true,
+      "lower_drawdown_than_benchmark": true,
+      "both_conditions_met": true
+    },
+    {
+      "name": "固定初始50/50／收盤出場診斷",
+      "performance": {
+        "days": 953,
+        "cumulative_return": 0.5690404843469841,
+        "annualized_return_252": 0.12649993413470484,
+        "max_drawdown": -0.2806200629485063,
+        "sharpe_252_rf0": 0.6814852068418699,
+        "daily_mean": 0.0005567736701923456,
+        "daily_std": 0.012969478894817331,
+        "positive_day_fraction": 0.5120671563483735,
+        "ending_wealth_per_100": 156.9040484346984,
+        "simple_sum_return": 0.5306053076933054
+      },
+      "source": "使用者原始ZIP:jpx_market_regime_results/baseline_replay/results.json",
+      "execution": "相同預測及預定選股，改成收盤出場，無目標價觸及退出",
+      "same_953_dates": true,
+      "daily_metrics_recomputed": true,
+      "beats_benchmark_return": true,
+      "lower_drawdown_than_benchmark": true,
+      "both_conditions_met": true
+    },
+    {
+      "name": "固定初始70/30／收盤出場診斷",
+      "performance": {
+        "days": 953,
+        "cumulative_return": 0.3529052007503073,
+        "annualized_return_252": 0.08320531697621769,
+        "max_drawdown": -0.321461044408609,
+        "sharpe_252_rf0": 0.47823742263306107,
+        "daily_mean": 0.0004087893148604366,
+        "daily_std": 0.013569262645149094,
+        "positive_day_fraction": 0.5036726128016789,
+        "ending_wealth_per_100": 135.29052007503074,
+        "simple_sum_return": 0.3895762170619961
+      },
+      "source": "使用者原始ZIP:jpx_market_regime_results/fixed_70_30/results.json",
+      "execution": "相同預測及預定選股，改成收盤出場，無目標價觸及退出",
+      "same_953_dates": true,
+      "daily_metrics_recomputed": true,
+      "beats_benchmark_return": true,
+      "lower_drawdown_than_benchmark": false,
+      "both_conditions_met": false
+    }
+  ],
+  "verification": [
+    {
+      "name": "原始動態 regime",
+      "same_953_dates": true,
+      "daily_metrics_recomputed": true
+    },
+    {
+      "name": "固定初始30/70",
+      "same_953_dates": true,
+      "daily_metrics_recomputed": true
+    },
+    {
+      "name": "固定初始50/50",
+      "same_953_dates": true,
+      "daily_metrics_recomputed": true
+    },
+    {
+      "name": "固定初始70/30",
+      "same_953_dates": true,
+      "daily_metrics_recomputed": true
+    },
+    {
+      "name": "價量水準T＋平滑中性帶",
+      "same_953_dates": true,
+      "daily_metrics_recomputed": true
+    },
+    {
+      "name": "價量水準T＋市場expanding、無中性帶",
+      "same_953_dates": true,
+      "daily_metrics_recomputed": true
+    },
+    {
+      "name": "未標準化return",
+      "same_953_dates": true,
+      "daily_metrics_recomputed": true
+    },
+    {
+      "name": "未標準化return＋個股expanding",
+      "same_953_dates": true,
+      "daily_metrics_recomputed": true
+    },
+    {
+      "name": "return／22日平均−1＋PR1",
+      "same_953_dates": true,
+      "daily_metrics_recomputed": true
+    },
+    {
+      "name": "return的T值＋1日價格T",
+      "same_953_dates": true,
+      "daily_metrics_recomputed": true
+    },
+    {
+      "name": "return的T值＋前十等權",
+      "same_953_dates": true,
+      "daily_metrics_recomputed": true
+    },
+    {
+      "name": "return的T值＋前十等權＋Ridge",
+      "same_953_dates": true,
+      "daily_metrics_recomputed": true
+    }
+  ],
+  "excluded_partial_period": "expanding_threshold only selected 2019 (241 intervals), so not full-period comparable",
+  "deduplicated_aliases": [
+    "initial fixed50/50",
+    "original v3",
+    "±10% all-neutral replay"
+  ]
+}

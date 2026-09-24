@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "checked_updates": 3597,
+  "max_gradient_error": 6.245004513516506e-17,
+  "frozen_g_source_unchanged": true,
+  "learning_rate_matches_v17_joint": true
+}

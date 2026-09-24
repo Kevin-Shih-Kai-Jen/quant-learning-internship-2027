@@ -1,0 +1,51 @@
+{
+  "RankIC": {
+    "MeanDifference": -0.001723640745140745,
+    "MedianDifference": 0.0006572638971047587,
+    "SqrtHigherFraction": 0.5057712486883525,
+    "DailyDifferenceStd": 0.09734821383749535
+  },
+  "PearsonIC": {
+    "MeanDifference": -0.002225098803806426,
+    "MedianDifference": -0.00030659713881209163,
+    "SqrtHigherFraction": 0.49737670514165794,
+    "DailyDifferenceStd": 0.0793950518454539
+  },
+  "LongShortReturn": {
+    "MeanDifference": -0.00018360921344061162,
+    "MedianDifference": -3.351353337305643e-05,
+    "SqrtHigherFraction": 0.49422875131164745,
+    "DailyDifferenceStd": 0.007282607109812272
+  },
+  "MSE": {
+    "MeanDifference": -0.03660693329791088,
+    "MedianDifference": -0.003264626040736615,
+    "SqrtHigherFraction": 0.011542497376705142,
+    "DailyDifferenceStd": 0.31689758298676085
+  },
+  "MSEDecomposition": {
+    "CrossSectionMeanBiasSquared": -0.0006543688194355759,
+    "PredictionVariance": -0.03594815704590612,
+    "TargetVariance": 0.0,
+    "PredictionTargetCovariance": 2.203716284592502e-06
+  },
+  "overlap": {
+    "Period": "all",
+    "Days": 953,
+    "PredictionRankCorrelation": 0.32664226165391497,
+    "PredictionPearsonCorrelation": 0.25296544869872234,
+    "LongOverlapFraction": 0.308588667366212,
+    "ShortOverlapFraction": 0.3069150052465897,
+    "OnlyLongSqrtShortFraction": 0.08510493179433369,
+    "OnlyShortSqrtLongFraction": 0.07982686253934942
+  },
+  "notes": [
+    "All diagnostics use already-saved validation forecasts. No training or parameter selection.",
+    "Returns are decimal. LongShortReturn is long weighted return minus short weighted return; half of it is illustrative gross-one 50/50 portfolio return.",
+    "Spearman IC uses average tied ranks of g and Target, excluding missing/non-finite Target. Comparisons use the same stock universe.",
+    "Financial and price-part IC are fixed-prediction decomposition, not separately trained ablations and not causal attribution.",
+    "MSE = cross-sectional mean bias squared + prediction variance + target variance - 2 prediction-target covariance, then averaged equally across days.",
+    "Overlap is intersection size / 200 for each selected side; random set overlap would be about 200/N but does not account for common covariates.",
+    "Mean IC omits undefined correlations: all stocks have Target=0 on 2020-09-29, hence 952 finite IC days out of 953 validation days."
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "R_events": 23486,
+  "R_signal_reconstructed_all_rows": true,
+  "F_signal_reconstructed_all_rows": true,
+  "signal_timing_checked": true,
+  "valid_F_updates_matching_R_events": 21135,
+  "all_R_event_relations": {
+    "future_quarter": 23486
+  },
+  "valid_F_event_relations": {
+    "future_quarter": 21135
+  },
+  "R_inherited_coverage_rule": "v14 A event requires both actual growth and preannouncement expected growth finite",
+  "R_state": "sum of decayed historical actual events",
+  "F_state": "latest forecast state only, decayed since last state update",
+  "same_announcement_future_forecast_identity_checked": true,
+  "contribution_reconstruction_passed": true,
+  "frozen_g_exactly_matches_control": true
+}

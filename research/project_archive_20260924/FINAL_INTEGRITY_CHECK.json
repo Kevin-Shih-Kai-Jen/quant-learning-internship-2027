@@ -1,0 +1,10 @@
+{
+  "checked_at": "2026-09-24T14:59:42+0800",
+  "baseline_files": 10279,
+  "verified_regular_files": 10140,
+  "verified_archived_files": 139,
+  "verified_logical_bytes": 13003962385,
+  "failures": [],
+  "all_research_content_preserved": true,
+  "scope": "All 10279 manifest files; node_modules excluded and untouched; symlinks unchanged; no new backtests run"
+}

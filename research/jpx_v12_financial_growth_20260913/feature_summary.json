@@ -1,0 +1,63 @@
+{
+  "source_sha256": "7e48cb0a053875f849712a8965a8cdf7487749761216cce24216033a9998b4c4",
+  "selected_source_rows": 48142,
+  "raw_rows": 92956,
+  "dispositions": {
+    "regular_statements": 38759,
+    "interim_statement_current_year": 29334,
+    "revision_missing_or_ambiguous_basis": 396,
+    "forecast_revision_without_selected_fields": 1384,
+    "fy_statement_next_year": 10158,
+    "annual_forecast_revision_applied": 5645,
+    "correction_applied": 1030,
+    "correction_missing_or_ambiguous_original": 123,
+    "nonannual_forecast_revision_excluded": 805
+  },
+  "event_count": 45283,
+  "signal_rows": 2332001,
+  "validation_rows": 1864363,
+  "features": {
+    "ActualNetSalesGrowth": {
+      "min": -1.0,
+      "max": 58.680489731437596,
+      "validation_valid_rows": 1704169,
+      "validation_nonzero_rows": 1703931,
+      "zero_base_events": 4
+    },
+    "ActualOperatingProfitGrowth": {
+      "min": -304.3333333333333,
+      "max": 1109.8958333333333,
+      "validation_valid_rows": 1632734,
+      "validation_nonzero_rows": 1631861,
+      "zero_base_events": 7
+    },
+    "ActualEPS": {
+      "min": -2422.53,
+      "max": 4032.6,
+      "validation_valid_rows": 1859216,
+      "validation_nonzero_rows": 1859153,
+      "zero_base_events": 0
+    },
+    "ForecastNetSalesGrowth": {
+      "min": -1.0,
+      "max": 58.33649289099526,
+      "validation_valid_rows": 1595562,
+      "validation_nonzero_rows": 1595081,
+      "zero_base_events": 0
+    },
+    "ForecastOperatingProfitGrowth": {
+      "min": -332.3333333333333,
+      "max": 401.42857142857144,
+      "validation_valid_rows": 1549336,
+      "validation_nonzero_rows": 1548347,
+      "zero_base_events": 3
+    },
+    "ForecastEPS": {
+      "min": -1997.76,
+      "max": 4202.88,
+      "validation_valid_rows": 1675116,
+      "validation_nonzero_rows": 1671770,
+      "zero_base_events": 0
+    }
+  }
+}

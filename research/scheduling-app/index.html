@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>排班小站 - v1</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar">
+        <h1>排班小站（MVP）</h1>
+        <p>
+          先做一版「能跑、能改、能出候選班表」的本地離線版本。先不接外部 AI，
+          後續可接 OpenAI 做自然語言輸入整理。
+        </p>
+      </header>
+
+      <section class="status-row">
+        <span id="statusText">準備中</span>
+        <button id="exportAllBtn" type="button">匯出整體資料(JSON)</button>
+      </section>
+
+      <section class="card panel">
+        <h2>1. 群組</h2>
+        <div class="form-line">
+          <label for="groupName">群組名稱</label>
+          <input id="groupName" type="text" placeholder="例如：門市A" />
+          <button id="addGroupBtn" type="button">建立群組</button>
+        </div>
+        <div class="form-line">
+          <label for="groupSelect">目前群組</label>
+          <select id="groupSelect"></select>
+        </div>
+
+        <div id="memberPanel" class="panel-body"></div>
+      </section>
+
+      <section class="grid-2">
+        <section class="card panel">
+          <h2>2. 員工</h2>
+          <div class="form-line">
+            <label for="memberName">員工姓名</label>
+            <input id="memberName" type="text" placeholder="例如：王小明" />
+            <label for="memberMax">每期上限</label>
+            <input id="memberMax" type="number" min="1" value="10" />
+            <button id="addMemberBtn" type="button">新增員工</button>
+          </div>
+          <div id="memberList"></div>
+        </section>
+
+        <section class="card panel">
+          <h2>3. 排班需求</h2>
+          <div class="form-line">
+            <label for="periodName">期次名稱</label>
+            <input id="periodName" type="text" placeholder="例如：2026-09-第一週" />
+            <label for="periodStart">起始日</label>
+            <input id="periodStart" type="date" />
+          </div>
+          <div class="form-line">
+            <label for="periodDays">天數</label>
+            <input id="periodDays" type="number" min="1" max="14" value="7" />
+            <label for="maxShiftsPerDay">每人每日最多班數</label>
+            <input id="maxShiftsPerDay" type="number" min="1" max="5" value="1" />
+            <button id="addPeriodBtn" type="button">新增期次</button>
+          </div>
+          <div id="periodShifts"></div>
+          <div id="periodList"></div>
+        </section>
+      </section>
+
+      <section class="card panel">
+        <h2>4. 需求回報（可自由輸入 / 結構化輸入）</h2>
+        <div id="inputPanelEmpty" class="hint">請先完成群組、員工與期次</div>
+        <div id="inputPanelBody" class="hidden"></div>
+      </section>
+
+      <section class="card panel">
+        <h2>5. 班表生成與審核</h2>
+        <div id="solvePanelEmpty" class="hint">先完成需求回報</div>
+        <div id="solvePanelBody" class="hidden">
+          <div class="form-line">
+            <label for="solveMode">候選數量上限</label>
+            <select id="solveMode">
+              <option value="3">3</option>
+              <option value="5">5</option>
+            </select>
+            <label for="solveProfile">運行模式</label>
+            <select id="solveProfile">
+              <option value="night">夜間節能（長時）</option>
+              <option value="balanced">平衡</option>
+              <option value="fast">加速</option>
+            </select>
+            <label for="solveRunMinutes">最長執行(分鐘，0=不限)</label>
+            <input id="solveRunMinutes" type="number" min="0" step="0.25" value="240" />
+            <button id="solveBtn" type="button">開始排班（回溯）</button>
+            <button id="solveResumeBtn" type="button" class="ghost" disabled>續算（接續）</button>
+            <button id="stopSolveBtn" type="button" class="ghost" disabled>停止排班</button>
+            <span id="solveStats"></span>
+          </div>
+          <div id="solveModeHint" class="small muted">
+            夜間節能會增加節奏放慢、加上短暫休眠，減少長時間高負載；加速模式可拿到較快結果但耗電更高。
+          </div>
+          <div id="solveConflicts" class="small muted"></div>
+          <div id="candidateList"></div>
+          <div class="form-line">
+            <button id="exportPeriodJsonBtn" type="button">匯出本期 JSON</button>
+            <button id="exportPeriodCsvBtn" type="button">匯出本期 CSV</button>
+            <button id="publishBtn" type="button">標記為「已選定」</button>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="script.js" type="module"></script>
+  </body>
+</html>

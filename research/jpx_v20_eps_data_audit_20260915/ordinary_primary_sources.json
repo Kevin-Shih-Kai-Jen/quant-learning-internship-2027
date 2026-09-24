@@ -1,0 +1,313 @@
+{
+  "Scope": "Ten ordinary selected EPS audit cases; online primary financial statements cross-check, not a full issuer audit",
+  "AsOf": "2026-09-15",
+  "Cases": [
+    {
+      "CaseID": "N01",
+      "Code": 6952,
+      "Company": "Casio",
+      "Status": "partial_primary_source_verified",
+      "Sources": [
+        {
+          "URL": "https://www.casio.co.jp/content/dam/casio/global/corporate/ir/library/results/2020/tansin20_1st.pdf",
+          "Title": "2020 March FY Q1 earnings release",
+          "PublicationDate": "2019-08-01",
+          "Quality": "company_or_exchange_original",
+          "SourceReadLevel": "full_document"
+        }
+      ],
+      "VerifiedCumulativeEPS": 19.97,
+      "VerifiedWeightedAverageShares": 245574629,
+      "VerifiedStandaloneQuarterEPS": 19.97,
+      "Notes": "Consolidated JP; 2019-04-01 to 2019-06-30. Prior-year Q1 EPS 19.54 and weighted shares 246,324,419 also shown; both match local data. Q1 cumulative EPS is already standalone quarter. Treasury shares rose from 12,699,990 at FY start to 15,684,407 at quarter end. Pages 1-2.",
+      "Gaps": [
+        "Not all historical baseline source documents were independently retrieved."
+      ],
+      "SourceReadLevel": "full_document",
+      "WeightedSharesPrecision": 1
+    },
+    {
+      "CaseID": "N02",
+      "Code": 1893,
+      "Company": "Penta-Ocean Construction",
+      "Status": "partial_primary_source_verified",
+      "Sources": [
+        {
+          "URL": "https://www.penta-ocean.co.jp/ir/data/securities/070/pdf/70-valuable_securities2Q.pdf",
+          "Title": "70th fiscal period Q2 securities report",
+          "PublicationDate": "2019-11-08",
+          "Quality": "company_or_exchange_original",
+          "SourceReadLevel": "full_document"
+        }
+      ],
+      "VerifiedCumulativeEPS": 42.31,
+      "VerifiedWeightedAverageShares": 285365000,
+      "VerifiedStandaloneQuarterEPS": 21.57,
+      "Notes": "Company-hosted original quarterly report. Consolidated JP; current cumulative 2019-04-01 to 2019-09-30. Standalone 2019-07-01 to 2019-09-30 EPS 21.57; prior-year comparable standalone EPS 20.09, whereas local cumulative subtraction gives 20.08. Weighted shares reported in thousands (285,365 thousand), not exact-to-share validation. Original earnings release PDF retrieval timed out.",
+      "Gaps": [
+        "Not all historical baseline source documents were independently retrieved."
+      ],
+      "SourceReadLevel": "full_document",
+      "WeightedSharesPrecision": 1000,
+      "VerifiedPreviousYearQuarterEPS": 20.09
+    },
+    {
+      "CaseID": "N03",
+      "Code": 9441,
+      "Company": "Bell-Park",
+      "Status": "partial_primary_source_verified",
+      "Sources": [
+        {
+          "URL": "https://www2.jpx.co.jp/disc/94410/140120191105418998.pdf",
+          "Title": "2019 December FY Q3 earnings release",
+          "PublicationDate": "2019-11-06",
+          "Quality": "company_or_exchange_original",
+          "SourceReadLevel": "full_document"
+        },
+        {
+          "URL": "https://buffett-code-archives.s3.amazonaws.com/edinet_archives/S100H8D8.pdf",
+          "Title": "Bell-Park 2019 Q3 company-authored EDINET report, archive mirror",
+          "PublicationDate": "2019-11-06",
+          "Quality": "company_authored_report_mirror",
+          "SourceReadLevel": "primary_search_extract"
+        }
+      ],
+      "VerifiedCumulativeEPS": 346.72,
+      "VerifiedWeightedAverageShares": 6413683,
+      "VerifiedStandaloneQuarterEPS": null,
+      "Notes": "Consolidated JP; 2019-01-01 to 2019-09-30. Prior-year cumulative EPS 234.60, weighted shares 6,413,736. No retrospective restatement reported. Current EPS and weighted shares match local inputs. Later annual/quarter-report search found standalone current 97.05 and prior-year 38.10 versus local 38.11; separate primary-document retrieval still pending. Supplementary indexed extract of company-authored EDINET PDF confirms standalone current 97.05 and prior-year 38.10; this mirror is an additional extract, not a full independently fetched original-host document.",
+      "Gaps": [
+        "Not all historical baseline source documents were independently retrieved."
+      ],
+      "SourceReadLevel": "full_document",
+      "WeightedSharesPrecision": 1
+    },
+    {
+      "CaseID": "N04",
+      "Code": 6005,
+      "Company": "Miura",
+      "Status": "partial_primary_source_verified",
+      "Sources": [
+        {
+          "URL": "https://www.miuraz.co.jp/ir/pdf/tanshin/202008.pdf",
+          "Title": "2021 March FY Q1 IFRS earnings release",
+          "PublicationDate": "2020-08-05",
+          "Quality": "company_or_exchange_original",
+          "SourceReadLevel": "full_document"
+        }
+      ],
+      "VerifiedCumulativeEPS": 15.82,
+      "VerifiedWeightedAverageShares": 112696090,
+      "VerifiedStandaloneQuarterEPS": 15.82,
+      "Notes": "Consolidated IFRS; 2020-04-01 to 2020-06-30. Basic EPS 15.82, diluted EPS 15.79; local uses basic EPS. Prior-year Q1 basic EPS 17.12, diluted 17.08, weighted shares 112,573,648. Q1 is standalone; policy change flagged in release, no basis mixing seen in inspected values.",
+      "Gaps": [
+        "Not all historical baseline source documents were independently retrieved."
+      ],
+      "SourceReadLevel": "full_document",
+      "WeightedSharesPrecision": 1
+    },
+    {
+      "CaseID": "N05",
+      "Code": 3914,
+      "Company": "JIG-SAW",
+      "Status": "partial_primary_source_verified",
+      "Sources": [
+        {
+          "URL": "https://fs2.magicalir.net/edinet/2021/3914/S100M7UG.pdf",
+          "Title": "21st fiscal period Q2 securities report, 2020 comparative column",
+          "PublicationDate": "2021-08-12",
+          "Quality": "company_authored_later_report_on_ir_host_search_index",
+          "SourceReadLevel": "primary_search_extract"
+        }
+      ],
+      "VerifiedCumulativeEPS": 28.1,
+      "VerifiedWeightedAverageShares": 6558708,
+      "VerifiedStandaloneQuarterEPS": 11.54,
+      "Notes": "Later company-authored EDINET report on IR hosting provider: 2020-01-01 to 2020-06-30 comparative cumulative EPS 28.10 and weighted shares 6,558,708; standalone 2020-04-01 to 2020-06-30 EPS 11.54. Local naive subtraction 28.10-16.57=11.53, a 0.01 yen difference. Later comparative evidence must not be backfilled into 2020 without earlier disclosure verification.",
+      "Gaps": [
+        "2020-08-07 original earnings release and 2020-08-13 original quarterly report could not yet be fetched.",
+        "Current facts verified from indexed extract of later 2021 company-authored report; not proof of original 2020 publication availability."
+      ],
+      "SourceReadLevel": "primary_search_extract",
+      "WeightedSharesPrecision": 1
+    },
+    {
+      "CaseID": "N06",
+      "Code": 3087,
+      "Company": "Doutor Nichires Holdings",
+      "Status": "partial_primary_source_verified",
+      "Sources": [
+        {
+          "URL": "https://www2.jpx.co.jp/disc/30870/140120200408491128.pdf",
+          "Title": "2020 February FY earnings release",
+          "PublicationDate": "2020-04-14",
+          "Quality": "company_or_exchange_original",
+          "SourceReadLevel": "full_document"
+        }
+      ],
+      "VerifiedCumulativeEPS": 137.13,
+      "VerifiedWeightedAverageShares": 44182000,
+      "VerifiedStandaloneQuarterEPS": null,
+      "Notes": "Consolidated JP; 2019-03-01 to 2020-02-29. Prior FY EPS 133.89. EPS note page 21 shows weighted shares 44,182 thousand (local exact 44,182,936; only thousand precision independently checked). Announcement also discloses future cancellation of 5,000,000 treasury shares on 2020-04-30; cancellation after measurement period is not evidence that historical denominator changed.",
+      "Gaps": [
+        "Standalone Q4 EPS not found in inspected earnings release.",
+        "Exact share-count field on page 2 not yet readable via extraction.",
+        "Not all older baseline documents retrieved."
+      ],
+      "SourceReadLevel": "full_document",
+      "WeightedSharesPrecision": 1000
+    },
+    {
+      "CaseID": "N07",
+      "Code": 3738,
+      "Company": "T-Gaia",
+      "Status": "partial_primary_source_verified",
+      "Sources": [
+        {
+          "URL": "https://pdf.irpocket.com/C3738/GbYe/YRwz/ga7I.pdf",
+          "Title": "2022 March FY Q1 earnings release",
+          "PublicationDate": "2021-08-02",
+          "Quality": "company_ir_provider_original",
+          "SourceReadLevel": "full_document"
+        }
+      ],
+      "VerifiedCumulativeEPS": 57.85,
+      "VerifiedWeightedAverageShares": 55735134,
+      "VerifiedStandaloneQuarterEPS": 57.85,
+      "Notes": "Full original company IR-provider PDF retrieved. Consolidated JP, 2021-04-01 to 2021-06-30, basic EPS 57.85; prior-year Q1 60.99. Weighted shares 55,735,134 current / 55,732,173 prior-year. All match local. Q1 is standalone. Revenue-recognition policy changed with retrospective application to comparative figures, despite the separate error-restatement flag being No. This is an accounting comparability warning; the inspected EPS values still match.",
+      "Gaps": [
+        "Previous Q4 baseline EPS source documents not independently retrieved."
+      ],
+      "SourceReadLevel": "full_document",
+      "WeightedSharesPrecision": 1
+    },
+    {
+      "CaseID": "N08",
+      "Code": 5970,
+      "Company": "G-TEKT",
+      "Status": "partial_primary_source_verified",
+      "Sources": [
+        {
+          "URL": "https://www2.jpx.co.jp/disc/59700/140120211104425226.pdf",
+          "Title": "2022 March FY Q2 earnings release",
+          "PublicationDate": "2021-11-05",
+          "Quality": "company_or_exchange_original",
+          "SourceReadLevel": "full_document"
+        },
+        {
+          "URL": "https://f.irbank.net/pdf/E02228/ir/S100PLHB.pdf",
+          "Title": "G-TEKT 2022 Q2 company-authored EDINET report, 2021 comparative",
+          "PublicationDate": null,
+          "Quality": "company_authored_later_report_mirror",
+          "SourceReadLevel": "primary_search_extract"
+        }
+      ],
+      "VerifiedCumulativeEPS": 74.59,
+      "VerifiedWeightedAverageShares": 42943475,
+      "VerifiedStandaloneQuarterEPS": null,
+      "Notes": "Consolidated JP; 2021-04-01 to 2021-09-30. Prior-year cumulative EPS 4.39 and weighted shares 42,931,135. No retrospective restatement; accounting standards change flagged. Later annual-report search shows standalone Q2 EPS 42.33, versus local cumulative subtraction 74.59-32.25=42.34; direct official standalone disclosure still pending. Supplementary indexed extract of later company-authored EDINET PDF confirms 2021 Q2 standalone 42.33. Do not use later comparative disclosure as historical availability evidence.",
+      "Gaps": [
+        "Not all historical baseline source documents were independently retrieved."
+      ],
+      "SourceReadLevel": "full_document",
+      "WeightedSharesPrecision": 1
+    },
+    {
+      "CaseID": "N09",
+      "Code": 4572,
+      "Company": "Carna Biosciences",
+      "Status": "partial_primary_source_verified",
+      "Sources": [
+        {
+          "URL": "https://www.carnabio.com/output/irlibrary/686_ja.pdf",
+          "Title": "2021 December FY Q3 earnings release",
+          "PublicationDate": "2021-11-08",
+          "Quality": "company_or_exchange_original",
+          "SourceReadLevel": "full_document"
+        },
+        {
+          "URL": "https://www.carnabio.com/output/irlibrary/688_ja.pdf",
+          "Title": "19th period Q3 securities report",
+          "PublicationDate": "2021-11-09",
+          "Quality": "company_original",
+          "SourceReadLevel": "full_document"
+        },
+        {
+          "URL": "https://www.carnabio.com/output/irlibrary/685_ja.pdf",
+          "Title": "19th period Q2 securities report",
+          "PublicationDate": "2021-08-10",
+          "Quality": "company_original",
+          "SourceReadLevel": "full_document"
+        },
+        {
+          "URL": "https://www.carnabio.com/output/irlibrary/663_ja.pdf",
+          "Title": "18th period Q3 securities report",
+          "PublicationDate": "2020-11-10",
+          "Quality": "company_original",
+          "SourceReadLevel": "full_document"
+        },
+        {
+          "URL": "https://www.carnabio.com/output/irlibrary/682_ja.pdf",
+          "Title": "2021 December FY Q2 earnings release",
+          "PublicationDate": "2021-08-06",
+          "Quality": "company_original",
+          "SourceReadLevel": "full_document"
+        }
+      ],
+      "VerifiedCumulativeEPS": -94.24,
+      "VerifiedWeightedAverageShares": 12501154,
+      "VerifiedStandaloneQuarterEPS": -31.68,
+      "Notes": "Current Q3 cumulative EPS -94.24 and weighted shares 12,501,154 match. Original Q3 securities report (2021-11-09), page 5, directly reports standalone current -31.68 and prior-year quarter -20.29 (local -31.74 and -20.33). Original Q2 report 2021-08-10 reports standalone Q2 -39.46 (local -39.41). CRITICAL: 2021-08-06 Q2 earnings release PDF reports cumulative EPS -62.56, but local SourceRow 86273 has -62.50; Q2 report confirms -62.56, and both sources have 12,411,031 weighted shares. Correcting this one cumulative input makes rounded subtraction -94.24-(-62.56)=-31.68. Thus the current-quarter 0.06 discrepancy must not be attributed solely to weighted-share nonadditivity. Reason for local-vs-PDF difference remains unresolved. Source Q2 profit is -776,472 thousand yen, while local raw Profit is rounded to -776 million. Share issuance also occurred, but effects require separate calculation.",
+      "Gaps": [
+        "The original downloaded dataset/XBRL vs issuer PDF version discrepancy for SourceRow 86273 remains unresolved; no input was changed.",
+        "Q3 standalone report was published 2021-11-09, after the 2021-11-08 earnings release. Do not backfill its values before actual publication/availability.",
+        "Quarter report publication time within day not verified."
+      ],
+      "SourceReadLevel": "full_document",
+      "WeightedSharesPrecision": 1,
+      "VerifiedPreviousQuarterEPS": -39.46,
+      "VerifiedPreviousYearQuarterEPS": -20.29,
+      "InputDiscrepancy": {
+        "SourceRow": 86273,
+        "Field": "EarningsPerShare",
+        "LocalValue": -62.5,
+        "CompanyPDFValue": -62.56,
+        "CompanyPDFURL": "https://www.carnabio.com/output/irlibrary/682_ja.pdf",
+        "CompanyReportValue": -62.56,
+        "CompanyReportPublicationDate": "2021-08-10",
+        "Cause": "unresolved: vendor/extraction/XBRL-original-vs-PDF-version; not established"
+      }
+    },
+    {
+      "CaseID": "N10",
+      "Code": 9502,
+      "Company": "Chubu Electric Power",
+      "Status": "partial_primary_source_verified",
+      "Sources": [
+        {
+          "URL": "https://www.chuden.co.jp/ir/ir_siryo/kessan/__icsFiles/afieldfile/2021/04/28/2020tanshin_4qua.pdf",
+          "Title": "2021 March FY earnings release",
+          "PublicationDate": "2021-04-28",
+          "Quality": "company_or_exchange_original",
+          "SourceReadLevel": "full_document"
+        }
+      ],
+      "VerifiedCumulativeEPS": 194.65,
+      "VerifiedWeightedAverageShares": 756232000,
+      "VerifiedStandaloneQuarterEPS": null,
+      "Notes": "Consolidated JP; 2020-04-01 to 2021-03-31. EPS note page 18 confirms 194.65; parent-attributable profit 147,202 million yen and weighted shares 756,232 thousand. Local exact shares 756,232,212 only verified to thousand precision. BBT trust holdings deducted from EPS denominator; standalone Q4 not in inspected release.",
+      "Gaps": [
+        "Front pages are image-only in retrieved text, so exact-to-share validation not complete.",
+        "Standalone Q4 and historical baseline source documents not yet independently fetched."
+      ],
+      "SourceReadLevel": "full_document",
+      "WeightedSharesPrecision": 1000
+    }
+  ],
+  "Limitations": [
+    "No model inputs or cached financial features changed.",
+    "A later comparative report is independent accounting evidence but is not automatically point-in-time available for historical modelling.",
+    "Rounded cumulative EPS subtraction is approximate even if underlying weighted shares barely change.",
+    "Shares stored here may be rounded to thousand precision when that is all the original inspected table disclosed."
+  ]
+}

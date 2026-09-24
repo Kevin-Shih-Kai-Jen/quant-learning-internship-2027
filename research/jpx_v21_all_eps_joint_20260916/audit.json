@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "variants": {
+    "all_eps": {
+      "forecasts_checked": 2326022,
+      "updates_checked": 1199,
+      "official_sharpe": -0.0002315655374586307,
+      "max_prediction_error": 1.0342837697407958e-12
+    },
+    "price_mask": {
+      "forecasts_checked": 2326022,
+      "updates_checked": 1199,
+      "official_sharpe": 0.005644072919315517,
+      "max_prediction_error": 8.965050923848139e-14
+    },
+    "price_mask_step": {
+      "forecasts_checked": 2326022,
+      "updates_checked": 1199,
+      "official_sharpe": 0.004602632860408805,
+      "max_prediction_error": 1.542654892716655e-13
+    }
+  },
+  "all_six_features_unchanged_from_source_caches": true,
+  "shared_training_mask": true,
+  "main_and_step_control_rates_identical": true,
+  "source_hashes_unchanged": true
+}

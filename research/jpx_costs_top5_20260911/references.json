@@ -1,0 +1,26 @@
+{
+  "checked_on": "2026-09-11",
+  "purpose": "Current official explanations only; not historical 2018-2021 calibration",
+  "sources": [
+    {
+      "title": "IBKR commissions: Japan",
+      "url": "https://www.interactivebrokers.com/en/pricing/commissions-stocks.php",
+      "facts": "Tier1 .05%, minimum JPY80; fixed .08%, minimum JPY80; tiered exchange and clearing costs separate"
+    },
+    {
+      "title": "IBKR short sale cost",
+      "url": "https://investors.interactivebrokers.com/en/pricing/short-sale-cost.php?menu=A",
+      "facts": "Actual borrow based on settled positions, collateral and changing rate; simplified replay uses entry notional and calendar holding days"
+    },
+    {
+      "title": "IBKR securities financing",
+      "url": "https://www.interactivebrokers.com/en/trading/securities-financing.php",
+      "facts": "Borrow availability and fee rates depend on instrument and time"
+    },
+    {
+      "title": "JPX trading units",
+      "url": "https://www.jpx.co.jp/english/equities/trading/domestic/03.html",
+      "facts": "100-share domestic stock units standardized 2018-10-01"
+    }
+  ]
+}

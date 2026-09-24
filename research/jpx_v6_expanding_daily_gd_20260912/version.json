@@ -1,0 +1,19 @@
+{
+  "version": "v6",
+  "description": "Expanding chronological replay; one gradient update per historical 400-stock daily RMSE batch; no loss averaging across dates; continuous parameter state",
+  "directory": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v6_expanding_daily_gd_20260912",
+  "features": [
+    "T5",
+    "T22",
+    "T60",
+    "V5",
+    "V22",
+    "V60",
+    "P5xV5",
+    "P22xV22",
+    "P60xV60",
+    "PR1",
+    "VR1"
+  ],
+  "official_style_unannualized_sharpe": -0.06252334231900525
+}

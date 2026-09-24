@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "finite_difference_max_error": 1.840645691419951e-13,
+  "sequential_batches_checked": 17,
+  "v7_daily_equal_mse_gradient_matches": true,
+  "zero_feature_beta_unchanged": true,
+  "intercept_updates": true,
+  "no_allowed_eta_skip_verified": true
+}

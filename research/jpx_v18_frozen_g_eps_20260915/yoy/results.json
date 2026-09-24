@@ -1,0 +1,16 @@
+{
+  "variant": "yoy",
+  "features": [
+    "EPSActualGrowth"
+  ],
+  "sharpe": 0.006467783069611885,
+  "mean_rank_ic": -0.0008111579106373702,
+  "return_mse": 0.0006743329960994637,
+  "training_stock_days": 2323958,
+  "skipped_stock_days": 1848,
+  "updates": 1199,
+  "days": 953,
+  "final_coefficients": {
+    "EPSActualGrowth": 0.0011915180965491987
+  }
+}

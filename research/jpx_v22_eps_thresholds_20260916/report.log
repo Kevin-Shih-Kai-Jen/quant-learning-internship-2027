@@ -1,0 +1,39 @@
+Variant    Label    Sharpe  DailyMeanMSE  PooledStockDayMSE  RootMeanDailyMSEPct  DeltaSharpeVs100  MSEChangeVs100Pct  DailyMSEP95  DailyMSEMax  AbsPredictionP99  AbsPredictionP999  AbsPredictionMax  PredictionsAbove100Pct    RankIC  TrainingStockDays  SkippedTrainingStockDays  SkipPct  MedianLearningRate  MSEImprovementVsZeroPct
+skip100 超過100倍跳過 -0.000232      0.000773           0.000772             2.780882          0.000000           0.000000     0.001851     0.015424          0.034180           0.081662          4.732371                      29 -0.001252            2322781                      3025 0.130062            0.054324               -30.582554
+ skip10  超過10倍跳過  0.003030      0.000999           0.000996             3.161195          0.003262          29.222234     0.002359     0.062507          0.036427           0.086252         10.891547                      48 -0.000621            2293265                     32541 1.399128            0.072917               -68.741693
+no_skip    完全不跳過 -0.046628      0.000644           0.000644             2.537040         -0.046396         -16.768188     0.001453     0.019384          0.023129           0.066648          2.044633                       4 -0.004407            2325806                         0 0.000000            0.014188                -8.686226
+Variant  ValidationYear  Days    Sharpe  DailyMeanMSE  DailyMSEMax
+skip100            2018   245 -0.044715      0.000982     0.014345
+skip100            2019   241  0.029705      0.000529     0.003238
+skip100            2020   242  0.062807      0.001000     0.015424
+skip100            2021   225 -0.087351      0.000564     0.003860
+ skip10            2018   245 -0.018631      0.001643     0.062507
+ skip10            2019   241  0.043226      0.000590     0.007428
+ skip10            2020   242  0.041016      0.001037     0.015338
+ skip10            2021   225 -0.078092      0.000697     0.009711
+no_skip            2018   245 -0.075555      0.000633     0.004439
+no_skip            2019   241  0.057234      0.000485     0.003306
+no_skip            2020   242 -0.010571      0.000947     0.019384
+no_skip            2021   225 -0.204586      0.000499     0.001141
+Variant     Stratum  StockDays  SamplePct      MSE  SquaredErrorSharePct  ZeroForecastMSE
+skip100     abs<=10    1834931  98.421496 0.000662             84.336872         0.000593
+skip100 10<abs<=100      26673   1.430679 0.000675              1.251017         0.000570
+skip100     abs>100       2756   0.147826 0.075298             14.412111         0.000564
+ skip10     abs<=10    1834931  98.421496 0.000667             65.943418         0.000593
+ skip10 10<abs<=100      26673   1.430679 0.000824              1.183477         0.000570
+ skip10     abs>100       2756   0.147826 0.221468             32.873106         0.000564
+no_skip     abs<=10    1834931  98.421496 0.000636             97.157666         0.000593
+no_skip 10<abs<=100      26673   1.430679 0.000612              1.360019         0.000570
+no_skip     abs>100       2756   0.147826 0.006457              1.482315         0.000564
+Variant  MedianRate  MinRate  MedianRateRatioVs100  RateRatioP01Vs100  FractionRateBelowTenthOf100
+skip100    0.054324 0.000190              1.000000           1.000000                     0.000000
+ skip10    0.072917 0.000189              1.010988           0.984333                     0.000000
+no_skip    0.014188 0.000003              0.272245           0.000463                     0.328607
+       Comparison Metric  Difference   CI95Low  CI95High
+ skip10 - skip100 Sharpe    0.003262 -0.021882  0.029404
+ skip10 - skip100    MSE    0.000226  0.000042  0.000543
+no_skip - skip100 Sharpe   -0.046396 -0.107247  0.017133
+no_skip - skip100    MSE   -0.000130 -0.000268 -0.000045
+ skip10 - no_skip Sharpe    0.049658 -0.014766  0.113385
+ skip10 - no_skip    MSE    0.000356  0.000095  0.000810
+Zero forecast MSE: 0.0005922158657347868

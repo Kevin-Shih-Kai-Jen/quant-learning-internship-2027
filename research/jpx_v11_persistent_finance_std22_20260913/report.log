@@ -1,0 +1,109 @@
+{
+  "comparison": {
+    "v10_baseline": {
+      "common_days": 953,
+      "official_unannualized_sharpe": -0.039490891392459114,
+      "mean_daily_forecast_mse": 0.004982069633052845,
+      "mean_daily_spread": -0.05088636001058986,
+      "sample_std_daily_spread": 1.2885594175346151,
+      "median_daily_forecast_mse": 0.0024575968201649904
+    },
+    "persistent_raw": {
+      "common_days": 953,
+      "official_unannualized_sharpe": -0.03930988917473998,
+      "mean_daily_forecast_mse": 0.007427571793579042,
+      "mean_daily_spread": -0.050724562050314614,
+      "sample_std_daily_spread": 1.2903766231655915,
+      "median_daily_forecast_mse": 0.00302552390120598
+    },
+    "decay_std22": {
+      "common_days": 953,
+      "official_unannualized_sharpe": -0.023271783409472835,
+      "mean_daily_forecast_mse": 0.004782250937243626,
+      "mean_daily_spread": -0.027438017717581437,
+      "sample_std_daily_spread": 1.1790251410819133,
+      "median_daily_forecast_mse": 0.0025188329886130854
+    },
+    "persistent_std22": {
+      "common_days": 953,
+      "official_unannualized_sharpe": -0.026764713366491225,
+      "mean_daily_forecast_mse": 0.007029714241045577,
+      "mean_daily_spread": -0.031954721680941434,
+      "sample_std_daily_spread": 1.1939123443387207,
+      "median_daily_forecast_mse": 0.0031512518815758144
+    }
+  },
+  "contrasts": {
+    "remove_decay_raw": {
+      "official_unannualized_sharpe": 0.00018100221771913394,
+      "mean_daily_forecast_mse": 0.002445502160526197
+    },
+    "std22_with_decay": {
+      "official_unannualized_sharpe": 0.01621910798298628,
+      "mean_daily_forecast_mse": -0.00019981869580921931
+    },
+    "both_changes": {
+      "official_unannualized_sharpe": 0.012726178025967889,
+      "mean_daily_forecast_mse": 0.002047644607992732
+    },
+    "remove_decay_after_std22": {
+      "official_unannualized_sharpe": -0.0034929299570183904,
+      "mean_daily_forecast_mse": 0.0022474633038019514
+    },
+    "std22_after_remove_decay": {
+      "official_unannualized_sharpe": 0.012545175808248755,
+      "mean_daily_forecast_mse": -0.0003978575525334649
+    }
+  },
+  "annual": [
+    {
+      "validation_year": 2018,
+      "days": 245,
+      "v10_baseline": 0.07982330481819147,
+      "v10_baseline_forecast_mse": 0.004464848880764488,
+      "persistent_raw": 0.08715801016997356,
+      "persistent_raw_forecast_mse": 0.004541670224658381,
+      "decay_std22": 0.10111671664712582,
+      "decay_std22_forecast_mse": 0.004485837487794902,
+      "persistent_std22": 0.09671280844331884,
+      "persistent_std22_forecast_mse": 0.004600613789013573
+    },
+    {
+      "validation_year": 2019,
+      "days": 241,
+      "v10_baseline": -0.07510743244967312,
+      "v10_baseline_forecast_mse": 0.004014669111518375,
+      "persistent_raw": -0.08314137778813027,
+      "persistent_raw_forecast_mse": 0.003760886621886304,
+      "decay_std22": -0.08844803297008294,
+      "decay_std22_forecast_mse": 0.003685018888066039,
+      "persistent_std22": -0.09612036719311444,
+      "persistent_std22_forecast_mse": 0.0037277829435285225
+    },
+    {
+      "validation_year": 2020,
+      "days": 242,
+      "v10_baseline": -0.08146911949449209,
+      "v10_baseline_forecast_mse": 0.005847769143722477,
+      "persistent_raw": -0.08152545971798668,
+      "persistent_raw_forecast_mse": 0.0074205401422869095,
+      "decay_std22": -0.025741019443431944,
+      "decay_std22_forecast_mse": 0.005870950195459784,
+      "persistent_std22": -0.03248317220037981,
+      "persistent_std22_forecast_mse": 0.007267268971342891
+    },
+    {
+      "validation_year": 2021,
+      "days": 225,
+      "v10_baseline": -0.06627525353620857,
+      "v10_baseline_forecast_mse": 0.005650351092690193,
+      "persistent_raw": -0.0661404735905912,
+      "persistent_raw_forecast_mse": 0.01450498810636219,
+      "decay_std22": -0.1083294782022802,
+      "decay_std22_forecast_mse": 0.005109313152703292,
+      "persistent_std22": -0.10065101249965079,
+      "persistent_std22_forecast_mse": 0.012955966724234469
+    }
+  ],
+  "report": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v11_persistent_finance_std22_20260913/JPX-v11-persistent-finance-std22-report.md"
+}

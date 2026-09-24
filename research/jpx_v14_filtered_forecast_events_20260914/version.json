@@ -1,0 +1,25 @@
+{
+  "version": "v14",
+  "description": "Quarterly expectation event model; skip stock-day training if any absolute financial component exceeds 100; no new forecast event on unchanged annual guidance; exclude accounting-basis-ambiguous revisions/corrections; block SGD versus SGD plus floor(sqrt(filtered N)) daily updates",
+  "directory": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v14_filtered_forecast_events_20260914",
+  "status": "completed_experiment",
+  "variants": [
+    "sgd_only",
+    "sgd_sqrt"
+  ],
+  "coefficient_count": 27,
+  "training_financial_abs_limit": 100,
+  "evaluation_stock_pool_filtered": false,
+  "old_events_continue_exponential_decay": true,
+  "unknown_basis_revisions_excluded": true,
+  "variant_sharpes": {
+    "sgd_only": -0.017600897811499917,
+    "sgd_sqrt": -0.029872750206560533
+  },
+  "variant_mses": {
+    "sgd_only": 0.021107046627895275,
+    "sgd_sqrt": 0.0013355772639787318
+  },
+  "threshold_skipped_training_rows": 2294,
+  "audit_passed": true
+}

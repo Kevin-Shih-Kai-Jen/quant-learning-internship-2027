@@ -1,0 +1,117 @@
+{
+  "version": "v6",
+  "features": [
+    "T5",
+    "T22",
+    "T60",
+    "V5",
+    "V22",
+    "V60",
+    "P5xV5",
+    "P22xV22",
+    "P60xV60",
+    "PR1",
+    "VR1"
+  ],
+  "loss": "each historical day separately: sqrt(mean of squared errors across its 400 selected stocks); no across-date averaging",
+  "optimizer": "one chronological replay epoch over the expanding historical window per label-release date; one daily-batch RMSE gradient step per historical day with Armijo backtracking; one zero initialization",
+  "raw_feature_standardization": false,
+  "formal_test_used": false,
+  "costs_included": false,
+  "validation_total": {
+    "official_style_unannualized_sharpe": -0.06252334231900525,
+    "annualized_equivalent_sqrt252": -0.9925272894758901,
+    "signal_days": 953,
+    "scored_days": 953,
+    "unscorable_selected_missing_label_days": 0,
+    "ranked_rows": 1864363,
+    "stocks_per_day_min": 1896,
+    "stocks_per_day_max": 2000,
+    "fallback_rows": 46974,
+    "selected_fallback_rows": 8558,
+    "unavailable_target_rows": 3,
+    "missing_selected_target_rows": 0,
+    "mean_official_spread": -0.08639337992647828,
+    "sample_std_official_spread": 1.3817780163716107,
+    "mean_illustrative_gross_one_return": -0.00021598344981619568,
+    "exact_official_metric_difference": 1.3877787807814457e-17
+  },
+  "common_scored_days": 953,
+  "comparison": {
+    "v6": {
+      "official_unannualized_sharpe": -0.06252334231900526
+    },
+    "v5": {
+      "official_unannualized_sharpe": 0.046741952393526874
+    }
+  },
+  "annual": [
+    {
+      "validation_year": 2018,
+      "common_days": 245,
+      "v6": {
+        "official_unannualized_sharpe": -0.04159594701602625
+      },
+      "v5": {
+        "official_unannualized_sharpe": -0.036724713837330086
+      }
+    },
+    {
+      "validation_year": 2019,
+      "common_days": 241,
+      "v6": {
+        "official_unannualized_sharpe": -0.009105999201013676
+      },
+      "v5": {
+        "official_unannualized_sharpe": 0.1185365901978653
+      }
+    },
+    {
+      "validation_year": 2020,
+      "common_days": 242,
+      "v6": {
+        "official_unannualized_sharpe": -0.09726993635250608
+      },
+      "v5": {
+        "official_unannualized_sharpe": 0.07414952496892292
+      }
+    },
+    {
+      "validation_year": 2021,
+      "common_days": 225,
+      "v6": {
+        "official_unannualized_sharpe": -0.08269238933887033
+      },
+      "v5": {
+        "official_unannualized_sharpe": 0.03640065916418198
+      }
+    }
+  ],
+  "warmup_start": "2017-01-04",
+  "validation_start": "2017-12-29",
+  "last_forecast_date": "2021-12-01",
+  "final_parameter_asof": "2021-12-03",
+  "training_days": 1198,
+  "training_rows": 479200,
+  "excluded_incomplete_label_cohorts": 1,
+  "update_days": 1197,
+  "total_daily_batch_visits": 717290,
+  "accepted_gradient_steps": 717290,
+  "stalled_steps": 0,
+  "final_last_batch_rmse_after_step": 0.03620108361825141,
+  "final_coefficients": {
+    "alpha": -0.004890092861580979,
+    "T5": 0.0015255494580374118,
+    "T22": 0.00016378779448966685,
+    "T60": -0.0006253356948278466,
+    "V5": 0.0009170889631706862,
+    "V22": -9.505281169162834e-06,
+    "V60": -0.00025004361869617527,
+    "P5xV5": -0.0008516048464517461,
+    "P22xV22": -0.0007536500466993955,
+    "P60xV60": -4.2850609236532166e-05,
+    "PR1": 0.021533503456901804,
+    "VR1": -0.0006149313667219908
+  },
+  "internal_checks_passed": true
+}

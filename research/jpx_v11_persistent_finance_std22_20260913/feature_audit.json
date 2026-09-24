@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "audited_financial_rows": 2332001,
+  "persistent_expired_feature_rows": 1355584,
+  "audited_return_feature_cells": 4664002,
+  "scalar_past_window_checks": 12000,
+  "max_std22_error": 5.684341886080802e-14,
+  "max_scaled_return_error": 1.7763568394002505e-15,
+  "examples": [
+    {
+      "Code": 1301,
+      "Date": "2017-02-06",
+      "WindowStart": "2017-01-05",
+      "RawReturn": 0.0018382352941177516,
+      "Std22": 0.00471394203433132,
+      "ScaledReturn": 0.38995712733207333
+    }
+  ],
+  "source_returns_rebuilt_from_adjusted_price_and_volume": true,
+  "same_mse_sgd_kernel_as_v10": true,
+  "same_nonreturn_features_and_labels": true,
+  "source_v9_feature_audit_passed": true
+}

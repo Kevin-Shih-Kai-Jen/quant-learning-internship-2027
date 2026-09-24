@@ -1,0 +1,59 @@
+  Variant             Label   Sharpe    RankIC
+        g          純g（共同步長） 0.002695 -0.001032
+  joint_r        共同訓練：g＋實際R 0.003312 -0.001008
+  joint_f 共同訓練：g＋Forecast F 0.003843 -0.001097
+ joint_rf        共同訓練：g＋R＋F 0.004003 -0.001071
+ frozen_r          固定g：＋實際R 0.004358 -0.000991
+ frozen_f   固定g：＋Forecast F 0.003153 -0.001095
+frozen_rf          固定g：＋R＋F 0.004114 -0.001047
+            Comparison Metric  Difference   CI95Low  CI95High
+    joint_rf - joint_r Sharpe    0.000690 -0.001574  0.002892
+    joint_rf - joint_r RankIC   -0.000062 -0.000152  0.000025
+    joint_rf - joint_f Sharpe    0.000160 -0.002937  0.004764
+    joint_rf - joint_f RankIC    0.000026 -0.000101  0.000196
+  frozen_rf - frozen_r Sharpe   -0.000244 -0.003057  0.002649
+  frozen_rf - frozen_r RankIC   -0.000056 -0.000145  0.000037
+  frozen_rf - frozen_f Sharpe    0.000961 -0.002163  0.005149
+  frozen_rf - frozen_f RankIC    0.000048 -0.000077  0.000225
+          joint_rf - g Sharpe    0.001307 -0.002375  0.006269
+          joint_rf - g RankIC   -0.000038 -0.000185  0.000173
+         frozen_rf - g Sharpe    0.001419 -0.002519  0.006571
+         frozen_rf - g RankIC   -0.000015 -0.000166  0.000201
+    frozen_r - joint_r Sharpe    0.001046 -0.000960  0.002756
+    frozen_r - joint_r RankIC    0.000018 -0.000023  0.000062
+    frozen_f - joint_f Sharpe   -0.000690 -0.002247  0.001302
+    frozen_f - joint_f RankIC    0.000001 -0.000024  0.000034
+  frozen_rf - joint_rf Sharpe    0.000111 -0.002034  0.002082
+  frozen_rf - joint_rf RankIC    0.000024 -0.000020  0.000073
+frozen_r - original_v7 Sharpe   -0.003321 -0.036440  0.033244
+frozen_r - original_v7 RankIC   -0.000257 -0.003017  0.002709
+{"passed": true, "R_events": 23486, "R_signal_reconstructed_all_rows": true, "F_signal_reconstructed_all_rows": true, "signal_timing_checked": true, "valid_F_updates_matching_R_events": 21135, "all_R_event_relations": {"future_quarter": 23486}, "valid_F_event_relations": {"future_quarter": 21135}, "R_inherited_coverage_rule": "v14 A event requires both actual growth and preannouncement expected growth finite", "R_state": "sum of decayed historical actual events", "F_state": "latest forecast state only, decayed since last state update", "same_announcement_future_forecast_identity_checked": true, "contribution_reconstruction_passed": true, "frozen_g_exactly_matches_control": true}
+  Variant  ValidationYear  Days    Sharpe    RankIC
+        g            2018   245 -0.031482 -0.002372
+        g            2019   241  0.021442  0.000885
+        g            2020   242  0.078965  0.004322
+        g            2021   225 -0.103536 -0.007363
+  joint_r            2018   245 -0.021604 -0.002054
+  joint_r            2019   241  0.018029  0.000742
+  joint_r            2020   242  0.078067  0.004296
+  joint_r            2021   225 -0.106872 -0.007425
+  joint_f            2018   245 -0.030685 -0.002350
+  joint_f            2019   241  0.023493  0.000906
+  joint_f            2020   242  0.079629  0.004262
+  joint_f            2021   225 -0.101840 -0.007616
+ joint_rf            2018   245 -0.020903 -0.002078
+ joint_rf            2019   241  0.020011  0.000755
+ joint_rf            2020   242  0.078162  0.004232
+ joint_rf            2021   225 -0.105922 -0.007608
+ frozen_r            2018   245 -0.019881 -0.002017
+ frozen_r            2019   241  0.019355  0.000763
+ frozen_r            2020   242  0.079067  0.004318
+ frozen_r            2021   225 -0.106484 -0.007438
+ frozen_f            2018   245 -0.030491 -0.002340
+ frozen_f            2019   241  0.020570  0.000907
+ frozen_f            2020   242  0.079551  0.004250
+ frozen_f            2021   225 -0.103108 -0.007610
+frozen_rf            2018   245 -0.021939 -0.002023
+frozen_rf            2019   241  0.019941  0.000781
+frozen_rf            2020   242  0.080043  0.004242
+frozen_rf            2021   225 -0.108263 -0.007608

@@ -1,0 +1,34 @@
+  Variant TrainingFilter ValidationFilter   Sharpe    RankIC      MSE  ValidationExcludedStockDays  ValidationExcludedPct  ValidationRetainedStockDays  MinDailyStocks  TrainingSkippedStockDays  ReplacedLongStockDays  ReplacedShortStockDays
+none_none            不跳過              不跳過 0.007679 -0.000734 0.000665                            0               0.000000                      1864363            1896                         0                      0                       0
+  100_100           100倍             100倍 0.006303 -0.000658 0.000665                         2756               0.147825                      1861607            1884                      3025                    339                     352
+    10_10            10倍              10倍 0.004279 -0.000651 0.000666                        29429               1.578502                      1834934            1763                     32541                   3497                    3760
+ none_100            不跳過             100倍 0.008001 -0.000699 0.000665                         2756               0.147825                      1861607            1884                         0                    342                     347
+  none_10            不跳過              10倍 0.004427 -0.000689 0.000666                        29429               1.578502                      1834934            1763                         0                   3498                    3717
+          Comparison Metric  Difference   CI95Low  CI95High
+ 100_100 - none_none Sharpe   -0.001375 -0.003797  0.001418
+ 100_100 - none_none RankIC    0.000076 -0.000053  0.000202
+   10_10 - none_none Sharpe   -0.003400 -0.010735  0.004439
+   10_10 - none_none RankIC    0.000082 -0.000285  0.000526
+     10_10 - 100_100 Sharpe   -0.002024 -0.009486  0.005470
+     10_10 - 100_100 RankIC    0.000007 -0.000315  0.000383
+  100_100 - 100_none Sharpe    0.000659 -0.001124  0.002140
+  100_100 - 100_none RankIC    0.000036 -0.000029  0.000093
+     10_10 - 10_none Sharpe   -0.001106 -0.006433  0.004291
+     10_10 - 10_none RankIC    0.000050 -0.000122  0.000228
+  100_100 - none_100 Sharpe   -0.001697 -0.003628  0.001035
+  100_100 - none_100 RankIC    0.000040 -0.000065  0.000161
+     10_10 - none_10 Sharpe   -0.000148 -0.005388  0.005176
+     10_10 - none_10 RankIC    0.000038 -0.000293  0.000433
+none_100 - none_none Sharpe    0.000322 -0.001516  0.001819
+none_100 - none_none RankIC    0.000035 -0.000029  0.000091
+ none_10 - none_none Sharpe   -0.003252 -0.008000  0.001690
+ none_10 - none_none RankIC    0.000045 -0.000127  0.000230
+  Variant    RankIC   CI95Low  CI95High
+none_none -0.000734 -0.006988  0.005450
+  100_100 -0.000658 -0.006891  0.005530
+    10_10 -0.000651 -0.006944  0.005515
+ none_100 -0.000699 -0.006951  0.005505
+  none_10 -0.000689 -0.006958  0.005528
+Threshold  PreviousSharpe  FilteredSharpe  DeltaSharpe  PreviousRankIC  FilteredRankIC  DeltaRankIC
+     100倍        0.005644        0.006303     0.000659       -0.000695       -0.000658     0.000036
+      10倍        0.005386        0.004279    -0.001106       -0.000702       -0.000651     0.000050

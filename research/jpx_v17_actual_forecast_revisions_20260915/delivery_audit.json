@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "new_models": 16,
+  "primary_models": 7,
+  "comparison_rows": 7,
+  "annual_rows": 28,
+  "common_days": 953,
+  "active_baseline": "v7",
+  "all_revisions_updated": true
+}

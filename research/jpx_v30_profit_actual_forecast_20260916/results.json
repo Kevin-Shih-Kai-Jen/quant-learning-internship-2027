@@ -1,0 +1,230 @@
+{
+  "version": "v30",
+  "audit_passed": true,
+  "comparison": [
+    {
+      "Variant": "g",
+      "Label": "純g（共同步長）",
+      "Sharpe": 0.0026954709769001573,
+      "RankIC": -0.0010322326565895127
+    },
+    {
+      "Variant": "joint_r",
+      "Label": "共同訓練：g＋實際R",
+      "Sharpe": 0.0033121960010274736,
+      "RankIC": -0.0010081465271413491
+    },
+    {
+      "Variant": "joint_f",
+      "Label": "共同訓練：g＋Forecast F",
+      "Sharpe": 0.003842789063801366,
+      "RankIC": -0.001096605637694812
+    },
+    {
+      "Variant": "joint_rf",
+      "Label": "共同訓練：g＋R＋F",
+      "Sharpe": 0.004002575868197111,
+      "RankIC": -0.0010705936093944569
+    },
+    {
+      "Variant": "frozen_r",
+      "Label": "固定g：＋實際R",
+      "Sharpe": 0.004358037575776821,
+      "RankIC": -0.0009906443062350984
+    },
+    {
+      "Variant": "frozen_f",
+      "Label": "固定g：＋Forecast F",
+      "Sharpe": 0.0031531952101300606,
+      "RankIC": -0.0010951788528662458
+    },
+    {
+      "Variant": "frozen_rf",
+      "Label": "固定g：＋R＋F",
+      "Sharpe": 0.004114075448292248,
+      "RankIC": -0.0010468704547618546
+    }
+  ],
+  "validation_winner": "frozen_r",
+  "original_v7": {
+    "Sharpe": 0.0076788715624210736,
+    "RankIC": -0.0007338924981283103
+  },
+  "paired_bootstrap": [
+    {
+      "Comparison": "joint_rf - joint_r",
+      "Metric": "Sharpe",
+      "Difference": 0.0006903798671696374,
+      "CI95Low": -0.0015740611687000273,
+      "CI95High": 0.002892394451549949
+    },
+    {
+      "Comparison": "joint_rf - joint_r",
+      "Metric": "RankIC",
+      "Difference": -6.244708225310773e-05,
+      "CI95Low": -0.00015218567853195544,
+      "CI95High": 2.514523351089786e-05
+    },
+    {
+      "Comparison": "joint_rf - joint_f",
+      "Metric": "Sharpe",
+      "Difference": 0.00015978680439574476,
+      "CI95Low": -0.0029371565964145196,
+      "CI95High": 0.0047639132362989195
+    },
+    {
+      "Comparison": "joint_rf - joint_f",
+      "Metric": "RankIC",
+      "Difference": 2.601202830035507e-05,
+      "CI95Low": -0.0001005314375548395,
+      "CI95High": 0.00019616033520613265
+    },
+    {
+      "Comparison": "frozen_rf - frozen_r",
+      "Metric": "Sharpe",
+      "Difference": -0.00024396212748457272,
+      "CI95Low": -0.0030569401552648008,
+      "CI95High": 0.002649160744291189
+    },
+    {
+      "Comparison": "frozen_rf - frozen_r",
+      "Metric": "RankIC",
+      "Difference": -5.622614852675615e-05,
+      "CI95Low": -0.00014500966488967628,
+      "CI95High": 3.729431101627077e-05
+    },
+    {
+      "Comparison": "frozen_rf - frozen_f",
+      "Metric": "Sharpe",
+      "Difference": 0.0009608802381621873,
+      "CI95Low": -0.0021626670752394007,
+      "CI95High": 0.005148763065258763
+    },
+    {
+      "Comparison": "frozen_rf - frozen_f",
+      "Metric": "RankIC",
+      "Difference": 4.8308398104391194e-05,
+      "CI95Low": -7.684428301809224e-05,
+      "CI95High": 0.00022465603446307218
+    },
+    {
+      "Comparison": "joint_rf - g",
+      "Metric": "Sharpe",
+      "Difference": 0.0013071048912969537,
+      "CI95Low": -0.002375352920465833,
+      "CI95High": 0.006269152569994945
+    },
+    {
+      "Comparison": "joint_rf - g",
+      "Metric": "RankIC",
+      "Difference": -3.836095280494419e-05,
+      "CI95Low": -0.00018468914671077632,
+      "CI95High": 0.00017292265810638535
+    },
+    {
+      "Comparison": "frozen_rf - g",
+      "Metric": "Sharpe",
+      "Difference": 0.0014186044713920907,
+      "CI95Low": -0.002518736343435051,
+      "CI95High": 0.006570668636706162
+    },
+    {
+      "Comparison": "frozen_rf - g",
+      "Metric": "RankIC",
+      "Difference": -1.4637798172341876e-05,
+      "CI95Low": -0.0001657484271323869,
+      "CI95High": 0.00020117638510541946
+    },
+    {
+      "Comparison": "frozen_r - joint_r",
+      "Metric": "Sharpe",
+      "Difference": 0.0010458415747493471,
+      "CI95Low": -0.0009598562961411537,
+      "CI95High": 0.0027556123724083678
+    },
+    {
+      "Comparison": "frozen_r - joint_r",
+      "Metric": "RankIC",
+      "Difference": 1.7502220906250726e-05,
+      "CI95Low": -2.3425396001962115e-05,
+      "CI95High": 6.210229271958271e-05
+    },
+    {
+      "Comparison": "frozen_f - joint_f",
+      "Metric": "Sharpe",
+      "Difference": -0.0006895938536713056,
+      "CI95Low": -0.002246721475434589,
+      "CI95High": 0.001302143166682813
+    },
+    {
+      "Comparison": "frozen_f - joint_f",
+      "Metric": "RankIC",
+      "Difference": 1.4267848285661865e-06,
+      "CI95Low": -2.3773971086229994e-05,
+      "CI95High": 3.416061340926851e-05
+    },
+    {
+      "Comparison": "frozen_rf - joint_rf",
+      "Metric": "Sharpe",
+      "Difference": 0.000111499580095137,
+      "CI95Low": -0.002034147788833395,
+      "CI95High": 0.0020816664846596412
+    },
+    {
+      "Comparison": "frozen_rf - joint_rf",
+      "Metric": "RankIC",
+      "Difference": 2.3723154632602312e-05,
+      "CI95Low": -1.9813297916774944e-05,
+      "CI95High": 7.314262631240257e-05
+    },
+    {
+      "Comparison": "frozen_r - original_v7",
+      "Metric": "Sharpe",
+      "Difference": -0.003320833986644253,
+      "CI95Low": -0.03643997555565767,
+      "CI95High": 0.033244222347390134
+    },
+    {
+      "Comparison": "frozen_r - original_v7",
+      "Metric": "RankIC",
+      "Difference": -0.00025675180810678813,
+      "CI95Low": -0.0030167863724820977,
+      "CI95High": 0.0027090708429648846
+    }
+  ],
+  "learning_rate_decision": {
+    "prior_schedule_failed_stability": true,
+    "unstable_days": 94,
+    "common_rate_changed_days": 642,
+    "rule": "if any original step violates full-model bound, all seven models use min(original step, full model spectral step) each day; otherwise retain original steps",
+    "minimum_ratio": 0.01028809434362266,
+    "median_ratio": 0.9999995429887318
+  },
+  "diagnostics": {
+    "passed": true,
+    "R_events": 23486,
+    "R_signal_reconstructed_all_rows": true,
+    "F_signal_reconstructed_all_rows": true,
+    "signal_timing_checked": true,
+    "valid_F_updates_matching_R_events": 21135,
+    "all_R_event_relations": {
+      "future_quarter": 23486
+    },
+    "valid_F_event_relations": {
+      "future_quarter": 21135
+    },
+    "R_inherited_coverage_rule": "v14 A event requires both actual growth and preannouncement expected growth finite",
+    "R_state": "sum of decayed historical actual events",
+    "F_state": "latest forecast state only, decayed since last state update",
+    "same_announcement_future_forecast_identity_checked": true,
+    "contribution_reconstruction_passed": true,
+    "frozen_g_exactly_matches_control": true
+  },
+  "test_evaluated": false,
+  "selection_priority": [
+    "Sharpe",
+    "RankIC"
+  ],
+  "mse_used_for_selection": false,
+  "formal_baseline": "v7"
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "year": 2018,
+    "train_rows": 341063,
+    "coefficient_max_error": 2.949029909160572e-17,
+    "selection_rows": 1470,
+    "prediction_max_error": 9.215718466126788e-16
+  },
+  {
+    "year": 2019,
+    "train_rows": 451552,
+    "coefficient_max_error": 1.3118846287074604e-17,
+    "selection_rows": 1446,
+    "prediction_max_error": 3.6377151291233645e-15
+  },
+  {
+    "year": 2020,
+    "train_rows": 450406,
+    "coefficient_max_error": 6.326319676452918e-17,
+    "selection_rows": 1452,
+    "prediction_max_error": 1.1112204906238432e-14
+  },
+  {
+    "year": 2021,
+    "train_rows": 465079,
+    "coefficient_max_error": 7.947201924318748e-17,
+    "selection_rows": 1350,
+    "prediction_max_error": 5.359454199882485e-13
+  }
+]

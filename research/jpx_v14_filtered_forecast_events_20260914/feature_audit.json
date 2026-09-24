@@ -1,0 +1,23 @@
+{
+  "remaining_quarter_example": {
+    "old": 30,
+    "new": 35,
+    "fixed_base": 20,
+    "revision": 0.25
+  },
+  "synthetic_passed": true,
+  "unchanged_forecast_no_new_signal": true,
+  "missing_forecast_preserves_state_no_event": true,
+  "ambiguous_revision_excluded": true,
+  "strict_absolute_100_training_filter_tested": true,
+  "passed": true,
+  "source_rows": 48142,
+  "events": 167891,
+  "reference_checks": 496850,
+  "quarter_snapshots": 38585,
+  "arithmetic_max_error": 0.0,
+  "all_signal_rows_checked": 2332001,
+  "decay_recurrence_max_error": 8.881784197001252e-16,
+  "unique_actual_and_initial_forecast_events": true,
+  "strict_preannouncement_forecasts": true
+}

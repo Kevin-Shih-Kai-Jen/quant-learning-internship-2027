@@ -1,0 +1,7 @@
+﻿Feature,Label,Trigger,Formula
+EPSActualQoQ,EPS實際季增,實績公布,(本季實績-前季實績)/abs(前季實績)
+EPSActualGrowth,EPS實際年增,實績公布；沿用舊事件有效性條件,(本季實績-去年同季實績)/abs(去年同季實績)
+EPSExpectedGrowth,實績公布時的事前預期成長,實績公布；預測凍結於公布前,(事前本季預測-去年同季實績)/abs(去年同季實績)
+EPSForecastActualQoQ,EPS預測對前季實績,Forecast事件,(本季預測-已知前季實績)/abs(已知前季實績)
+EPSForecastActualYoY,EPS預測對去年同季實績,Forecast事件,(本季預測-已知去年同季實績)/abs(已知去年同季實績)
+EPSRevisionRelative,EPS預期修正,同基準單季Forecast改變,(新單季預測-舊單季預測)/舊單季預測

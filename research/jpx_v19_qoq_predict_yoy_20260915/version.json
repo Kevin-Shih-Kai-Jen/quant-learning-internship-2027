@@ -1,0 +1,10 @@
+{
+  "version": "v19",
+  "description": "Expanding OLS predicts raw EPS YoY from QoQ; intercept-only historical-mean comparison; 2018 warmup and 2019-2021 evaluation",
+  "directory": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v19_qoq_predict_yoy_20260915",
+  "status": "completed_experiment",
+  "audit_passed": true,
+  "financial_prediction_only": true,
+  "mse_improvement_all": -0.011349455284494825,
+  "mse_improvement_within_100": 0.019775277667148927
+}

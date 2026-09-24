@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "pdf_pages": 2,
+  "all_pages_visually_reviewed": true,
+  "numeric_text_checked": true,
+  "archive_entries": 113,
+  "archive_crc_passed": true,
+  "archive_matches_sources": true,
+  "pdf_sha256": "68b4c03af376b2bc99cd75316a3db0de8dab5bcfff43a72b8df8ea0f6cda5201",
+  "zip_sha256": "6c8eb7a48b06cc5aae3954834908d3518b3bb8f54fd9471ed8e5a73409550c08",
+  "pdf": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/output/pdf/JPX-v29-learning-rate-sweep-mobile-20260916.pdf",
+  "zip": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/output/JPX-v29-learning-rate-sweep-data-20260916.zip",
+  "active_baseline": "v7",
+  "validation_candidate": "c1_change_old",
+  "test_evaluated": false
+}

@@ -1,0 +1,191 @@
+[
+  {
+    "name": "v16_feature_01",
+    "feature": "NetSalesActualGrowth",
+    "cache": "v14",
+    "source": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v16_single_financial_v7_20260915/feature_01",
+    "old_skipped": 8,
+    "status": "current",
+    "reuse": false
+  },
+  {
+    "name": "v16_feature_02",
+    "feature": "NetSalesExpectedGrowth",
+    "cache": "v14",
+    "source": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v16_single_financial_v7_20260915/feature_02",
+    "old_skipped": 9,
+    "status": "current",
+    "reuse": false
+  },
+  {
+    "name": "v16_feature_03",
+    "feature": "NetSalesForecastQoQ",
+    "cache": "v14",
+    "source": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v16_single_financial_v7_20260915/feature_03",
+    "old_skipped": 0,
+    "status": "current",
+    "reuse": true
+  },
+  {
+    "name": "v16_feature_04",
+    "feature": "NetSalesForecastYoY",
+    "cache": "v14",
+    "source": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v16_single_financial_v7_20260915/feature_04",
+    "old_skipped": 0,
+    "status": "current",
+    "reuse": true
+  },
+  {
+    "name": "v16_feature_05",
+    "feature": "NetSalesRevision",
+    "cache": "v14",
+    "source": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v16_single_financial_v7_20260915/feature_05",
+    "old_skipped": 0,
+    "status": "legacy_replaced",
+    "reuse": true
+  },
+  {
+    "name": "v16_feature_06",
+    "feature": "OperatingProfitActualGrowth",
+    "cache": "v14",
+    "source": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v16_single_financial_v7_20260915/feature_06",
+    "old_skipped": 247,
+    "status": "current",
+    "reuse": false
+  },
+  {
+    "name": "v16_feature_07",
+    "feature": "OperatingProfitExpectedGrowth",
+    "cache": "v14",
+    "source": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v16_single_financial_v7_20260915/feature_07",
+    "old_skipped": 321,
+    "status": "current",
+    "reuse": false
+  },
+  {
+    "name": "v16_feature_08",
+    "feature": "OperatingProfitForecastQoQ",
+    "cache": "v14",
+    "source": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v16_single_financial_v7_20260915/feature_08",
+    "old_skipped": 150,
+    "status": "current",
+    "reuse": false
+  },
+  {
+    "name": "v16_feature_09",
+    "feature": "OperatingProfitForecastYoY",
+    "cache": "v14",
+    "source": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v16_single_financial_v7_20260915/feature_09",
+    "old_skipped": 104,
+    "status": "current",
+    "reuse": false
+  },
+  {
+    "name": "v16_feature_10",
+    "feature": "OperatingProfitRevision",
+    "cache": "v14",
+    "source": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v16_single_financial_v7_20260915/feature_10",
+    "old_skipped": 34,
+    "status": "legacy_replaced",
+    "reuse": false
+  },
+  {
+    "name": "v16_feature_11",
+    "feature": "EPSActualGrowth",
+    "cache": "v14",
+    "source": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v16_single_financial_v7_20260915/feature_11",
+    "old_skipped": 748,
+    "status": "current",
+    "reuse": false
+  },
+  {
+    "name": "v16_feature_12",
+    "feature": "EPSExpectedGrowth",
+    "cache": "v14",
+    "source": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v16_single_financial_v7_20260915/feature_12",
+    "old_skipped": 564,
+    "status": "current",
+    "reuse": false
+  },
+  {
+    "name": "v16_feature_13",
+    "feature": "EPSForecastQoQ",
+    "cache": "v14",
+    "source": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v16_single_financial_v7_20260915/feature_13",
+    "old_skipped": 346,
+    "status": "legacy_replaced",
+    "reuse": false
+  },
+  {
+    "name": "v16_feature_14",
+    "feature": "EPSForecastYoY",
+    "cache": "v14",
+    "source": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v16_single_financial_v7_20260915/feature_14",
+    "old_skipped": 212,
+    "status": "legacy_replaced",
+    "reuse": false
+  },
+  {
+    "name": "v16_feature_15",
+    "feature": "EPSRevision",
+    "cache": "v14",
+    "source": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v16_single_financial_v7_20260915/feature_15",
+    "old_skipped": 150,
+    "status": "legacy_replaced",
+    "reuse": false
+  },
+  {
+    "name": "v17_eps_forecast_actual_qoq",
+    "feature": "EPSForecastActualQoQ",
+    "cache": "v17",
+    "source": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v17_actual_forecast_revisions_20260915/eps_forecast_actual_qoq",
+    "old_skipped": 456,
+    "status": "current",
+    "reuse": false
+  },
+  {
+    "name": "v17_eps_forecast_actual_yoy",
+    "feature": "EPSForecastActualYoY",
+    "cache": "v17",
+    "source": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v17_actual_forecast_revisions_20260915/eps_forecast_actual_yoy",
+    "old_skipped": 351,
+    "status": "current",
+    "reuse": false
+  },
+  {
+    "name": "v17_sales_revision_relative",
+    "feature": "NetSalesRevisionRelative",
+    "cache": "v17",
+    "source": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v17_actual_forecast_revisions_20260915/sales_revision_relative",
+    "old_skipped": 4,
+    "status": "current",
+    "reuse": false
+  },
+  {
+    "name": "v17_profit_revision_relative",
+    "feature": "OperatingProfitRevisionRelative",
+    "cache": "v17",
+    "source": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v17_actual_forecast_revisions_20260915/profit_revision_relative",
+    "old_skipped": 55,
+    "status": "current",
+    "reuse": false
+  },
+  {
+    "name": "v17_eps_revision_relative",
+    "feature": "EPSRevisionRelative",
+    "cache": "v17",
+    "source": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v17_actual_forecast_revisions_20260915/eps_revision_relative",
+    "old_skipped": 206,
+    "status": "current",
+    "reuse": false
+  },
+  {
+    "name": "v17_eps_actual_qoq",
+    "feature": "EPSActualQoQ",
+    "cache": "v17",
+    "source": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v17_actual_forecast_revisions_20260915/eps_actual_qoq",
+    "old_skipped": 1100,
+    "status": "current",
+    "reuse": false
+  }
+]

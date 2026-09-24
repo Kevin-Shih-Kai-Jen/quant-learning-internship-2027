@@ -1,0 +1,97 @@
+{
+  "source_sha256": {
+    "jpx_v29_learning_rate_sweep_20260916/experiment_defaults_snapshot.json": "a891c611d087aff7196f7508656946f77cc8cfef3ff3f8ae170e44010f4e83be",
+    "jpx_v8_soft_rank_20260912/inputs.pkl": "6b0ff60bfb8eab20ec7c6e087e746dd6e0ccc38b9633d1a11d98477d84857bc6",
+    "jpx_v27_profit_forecast_state_20260916/financial_signal_features.pkl": "251a27ee354440c53853cc294c91dfdaff68fc6717fb2d8267cc9febd7668ead",
+    "jpx_v27_profit_forecast_state_20260916/feature_audit.json": "c52b0e565c09a9eec55ccebd4f6a68dc36a5a32ef272ba4b141de9e4001c2134",
+    "jpx_v27_profit_forecast_state_20260916/feature_manifest.json": "36bd185310a6fc106d181ad6f5a16b634d626f68c7f3e6b9529efed6944e970c",
+    "jpx_v27_profit_forecast_state_20260916/features.py": "47a876de1e4d4e4340a29e11edc6101c8a2389979aebc8ae997268361e9e5e46",
+    "jpx_v29_learning_rate_sweep_20260916/run.py": "641680e8bfc597662711a8da9a1f9d7a003971fcb403c98c75d9f718211955c8",
+    "jpx_v29_learning_rate_sweep_20260916/experiment_plan.md": "11b49f291ea0af0f5ce5ef1422d5e157cf8b9289333ac4c6735eeed47711093e",
+    "jpx_v29_learning_rate_sweep_20260916/common_learning_rates.csv": "d0be70a92db40e47d793465e24ab18a79c6ca9df3c5ae593e5f07aa07648bfb9",
+    "jpx_v23_g_thresholds_20260916/no_skip/daily_metrics.csv": "d2101669f04f470acc9dc2b78f37b4fb32dd00e2e316946f97db84c7c972a410",
+    "jpx_v23_g_thresholds_20260916/no_skip/results.json": "4b4dd937e3830ebd16097a69784f2977019c3cbeca5e015f49675fad64a868d9",
+    "jpx_v23_g_thresholds_20260916/no_skip/training_updates.csv": "de323dcd1f15f85ee5066da9ffb8e4189de70104cc94146e39a9fdcc32d8cfef",
+    "jpx_v28_common_learning_rate_20260916/g_common/daily_metrics.csv": "31a4c9decc3cbeca8371b06eb53a07d286f950c659f65e63aba2e9d0d5206b43",
+    "jpx_v28_common_learning_rate_20260916/g_common/results.json": "a10aee7615974bfc67334cfd844ef0677e2dbf7ebbe5a5582c6e2efbb9c6c58a",
+    "jpx_v28_common_learning_rate_20260916/g_common/training_updates.csv": "73aad82eb0f6c4ea950f3f7f024c592078ba4e84702ec09b530a50294083d2e7",
+    "jpx_v28_common_learning_rate_20260916/overwrite/daily_metrics.csv": "ee56b217f7c1d57fbe61d59668da3be3da377f77f890e19975ed25f2141a2984",
+    "jpx_v28_common_learning_rate_20260916/overwrite/results.json": "7665eff4353759f58ab14dcb4170954635c009d9dd272dfe25c4e0a054477ab9",
+    "jpx_v28_common_learning_rate_20260916/overwrite/training_updates.csv": "790275d5dbc8bc12d6e0c67c363158d709a7e5d9772d2481daed90ae1b7c406f",
+    "jpx_v28_common_learning_rate_20260916/change_old/daily_metrics.csv": "4da2ff6d46e258d85f9c1398f02bea0c7aee006066532f79107195122f252808",
+    "jpx_v28_common_learning_rate_20260916/change_old/results.json": "5d9cc39cbe2f7e9f189d5f0edfaf34671ea751c03cad3491504db5af994f543c",
+    "jpx_v28_common_learning_rate_20260916/change_old/training_updates.csv": "8b21d7a39529782d2e9f08f2291a6a6a6244d69c9258edec9b9e21f87fcdebe4"
+  },
+  "training_threshold": null,
+  "validation_threshold": null,
+  "models": {
+    "c025_g_common": {
+      "model": "g_common",
+      "multiplier": 0.25
+    },
+    "c025_overwrite": {
+      "model": "overwrite",
+      "multiplier": 0.25
+    },
+    "c025_change_old": {
+      "model": "change_old",
+      "multiplier": 0.25
+    },
+    "c05_g_common": {
+      "model": "g_common",
+      "multiplier": 0.5
+    },
+    "c05_overwrite": {
+      "model": "overwrite",
+      "multiplier": 0.5
+    },
+    "c05_change_old": {
+      "model": "change_old",
+      "multiplier": 0.5
+    },
+    "c1_g_common": {
+      "model": "g_common",
+      "multiplier": 1.0
+    },
+    "c1_overwrite": {
+      "model": "overwrite",
+      "multiplier": 1.0
+    },
+    "c1_change_old": {
+      "model": "change_old",
+      "multiplier": 1.0
+    },
+    "c15_g_common": {
+      "model": "g_common",
+      "multiplier": 1.5
+    },
+    "c15_overwrite": {
+      "model": "overwrite",
+      "multiplier": 1.5
+    },
+    "c15_change_old": {
+      "model": "change_old",
+      "multiplier": 1.5
+    },
+    "c19_g_common": {
+      "model": "g_common",
+      "multiplier": 1.9
+    },
+    "c19_overwrite": {
+      "model": "overwrite",
+      "multiplier": 1.9
+    },
+    "c19_change_old": {
+      "model": "change_old",
+      "multiplier": 1.9
+    }
+  },
+  "selection_metric_priority": [
+    "Sharpe",
+    "RankIC"
+  ],
+  "rank_ic_positive_required": false,
+  "mse_used_for_selection": false,
+  "test_evaluated": false,
+  "learning_rate": "multiplier times common per-day spectral rate; same multiplier same rate across g/A/B"
+}

@@ -1,0 +1,4 @@
+﻿Feature,Events,NegativeOldForecastEvents,Formula
+EPSRevisionRelative,9227,1294,"(new-old)/old, signed denominator"
+NetSalesRevisionRelative,5721,14,"(new-old)/old, signed denominator"
+OperatingProfitRevisionRelative,5773,847,"(new-old)/old, signed denominator"

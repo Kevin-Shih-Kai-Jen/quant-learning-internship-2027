@@ -1,0 +1,33 @@
+{
+  "name": "v17_eps_revision_relative",
+  "feature": "EPSRevisionRelative",
+  "includes_feature": true,
+  "parameter_count": 13,
+  "sharpe": -0.016582524436126907,
+  "scored_days": 953,
+  "mean_rank_ic": -0.0025394686569166726,
+  "rank_ic_days": 952,
+  "mean_hard_rank_mse": 0.16716867326532808,
+  "mean_return_mse": 0.0006633870599185241,
+  "training_updates": 1199,
+  "training_stock_days": 2325806,
+  "threshold_skipped_stock_days": 0,
+  "forecast_rows": 2326022,
+  "final_coefficients": {
+    "alpha": -0.0018691124711679892,
+    "T5": -0.001458147510301387,
+    "T22": -0.004535036301782151,
+    "T60": -0.004536939476248303,
+    "V5": 0.0011914023297327659,
+    "V22": 0.001073856037608469,
+    "V60": 0.0011248776354657285,
+    "P5xV5": -0.0006695313533443655,
+    "P22xV22": -0.0021305337931544974,
+    "P60xV60": -0.0013974576337350828,
+    "PR1": 0.0014094490042219404,
+    "VR1": -0.0008200017694784337,
+    "EPSRevisionRelative": 8.903716619648906e-05
+  },
+  "parameter_asof": "2021-12-03",
+  "seconds": 3.1392065000000002
+}

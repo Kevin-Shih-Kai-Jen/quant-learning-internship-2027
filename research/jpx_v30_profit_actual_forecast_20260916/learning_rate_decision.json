@@ -1,0 +1,8 @@
+{
+  "prior_schedule_failed_stability": true,
+  "unstable_days": 94,
+  "common_rate_changed_days": 642,
+  "rule": "if any original step violates full-model bound, all seven models use min(original step, full model spectral step) each day; otherwise retain original steps",
+  "minimum_ratio": 0.01028809434362266,
+  "median_ratio": 0.9999995429887318
+}

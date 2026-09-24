@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "pdf_pages": 2,
+  "rendered_pages_visually_checked": 2,
+  "pdf_values_checked": true,
+  "zip_crc_passed": true,
+  "zip_members_match_sources": true,
+  "zip_members": 125,
+  "retrained": 18,
+  "reused": 3,
+  "defaults_do_not_skip_extremes": true,
+  "active_version": "v7",
+  "pdf_sha256": "c4c4ff9058bc3872403490c8276ff121495ec0d161f3fa018b732ae3e0e0bc7a",
+  "zip_sha256": "8fc2f7f1996e8f81ba2209837c11c44ee0188eccf21e8f45b447e1414c2d7ed0"
+}

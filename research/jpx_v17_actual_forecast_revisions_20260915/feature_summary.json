@@ -1,0 +1,45 @@
+{
+  "ranges": {
+    "EPSForecastActualQoQ": {
+      "min": -174.00119806771568,
+      "max": 12188.999999025198,
+      "over100_signal_rows": 458
+    },
+    "EPSForecastActualYoY": {
+      "min": -201.85714285716261,
+      "max": 2786.9999369016555,
+      "over100_signal_rows": 351
+    },
+    "NetSalesRevisionRelative": {
+      "min": -153.1325301204819,
+      "max": 88.23529411764706,
+      "over100_signal_rows": 4
+    },
+    "OperatingProfitRevisionRelative": {
+      "min": -250.0,
+      "max": 300.0,
+      "over100_signal_rows": 55
+    },
+    "EPSRevisionRelative": {
+      "min": -1678.9995193948034,
+      "max": 2307.000000000459,
+      "over100_signal_rows": 206
+    },
+    "EPSActualQoQ": {
+      "min": -1277.1437665525236,
+      "max": 16820.999345819444,
+      "over100_signal_rows": 1100
+    },
+    "EPSActualGrowth": {
+      "min": -827.8591562494767,
+      "max": 3303.0005608655542,
+      "over100_signal_rows": 751
+    }
+  },
+  "source_sha256": {
+    "jpx_v14_filtered_forecast_events_20260914/financial_records.pkl": "9fcf0244e583c9190e45a870250b6f5f004bca7754b9617a6348f1ac673e2f8c",
+    "jpx_v14_filtered_forecast_events_20260914/financial_events.pkl": "ae1a7b1bc91a985d541b9b03e0443a5d785c4ae969b3dc14dc780551cca7ae07",
+    "jpx_v14_filtered_forecast_events_20260914/financial_signal_features.pkl": "bf067c7cea6c1c7d14cd0bdbeda5ae995590f43fa1c04670e30b31036d5be03d",
+    "jpx_v17_actual_forecast_revisions_20260915/features.py": "94776d3d108ccad11eb4c0517aa75ccce469a3fac847f03c3e62eb5d5f217de4"
+  }
+}

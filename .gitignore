@@ -1,0 +1,22 @@
+node_modules/
+__pycache__/
+*.pyc
+.DS_Store
+.env
+.env.*
+!.env.example
+.venv/
+.next/
+.wrangler/
+.openai/
+.upload-cache/
+data/upload-plans/
+# Downloaded research payload is held in Releases; do not re-add it to Git.
+*.npz
+*.pkl
+*.gz
+*.tar
+*.zip
+*.pptx
+*.dylib
+*.so

@@ -1,0 +1,72 @@
+{
+  "comparison": {
+    "mse_sgd_control": {
+      "common_days": 953,
+      "official_unannualized_sharpe": -0.043113445490934314,
+      "mean_daily_spread": -0.05568273426440106,
+      "sample_std_daily_spread": 1.2915398811284928,
+      "mean_daily_forecast_mse": 0.004559377908741141
+    },
+    "mse_sgd_financial": {
+      "common_days": 953,
+      "official_unannualized_sharpe": -0.039490891392459114,
+      "mean_daily_spread": -0.05088636001058986,
+      "sample_std_daily_spread": 1.2885594175346151,
+      "mean_daily_forecast_mse": 0.004982069633052845
+    },
+    "v7_equal": {
+      "common_days": 953,
+      "official_unannualized_sharpe": 0.0076788715624210805,
+      "mean_daily_spread": 0.009116532667688224,
+      "sample_std_daily_spread": 1.1872229654553386,
+      "mean_daily_forecast_mse": 0.0006654329991343369
+    },
+    "v9_sgd": {
+      "common_days": 953,
+      "official_unannualized_sharpe": -0.019538328097322002,
+      "mean_daily_spread": -0.029599017208743056,
+      "sample_std_daily_spread": 1.5149206759814833,
+      "mean_daily_forecast_mse": null
+    }
+  },
+  "annual": [
+    {
+      "validation_year": 2018,
+      "days": 245,
+      "mse_sgd_control": 0.0796312787847365,
+      "mse_sgd_financial": 0.07982330481819147,
+      "v7_equal": -0.011513767098899553,
+      "v9_sgd": -0.03318395176281637
+    },
+    {
+      "validation_year": 2019,
+      "days": 241,
+      "mse_sgd_control": -0.08020681028026902,
+      "mse_sgd_financial": -0.07510743244967312,
+      "v7_equal": 0.05006717553385377,
+      "v9_sgd": -0.04644646628675425
+    },
+    {
+      "validation_year": 2020,
+      "days": 242,
+      "mse_sgd_control": -0.08973266847918251,
+      "mse_sgd_financial": -0.08146911949449209,
+      "v7_equal": 0.05085734661690185,
+      "v9_sgd": -0.027951682236684174
+    },
+    {
+      "validation_year": 2021,
+      "days": 225,
+      "mse_sgd_control": -0.06341079669196413,
+      "mse_sgd_financial": -0.06627525353620857,
+      "v7_equal": -0.08760480813901657,
+      "v9_sgd": 0.031531826320787576
+    }
+  ],
+  "paired_audit": {
+    "passed": true,
+    "exact_matching_initial_parameter_dates": 214,
+    "first_financial_input_update_date": "2017-11-14"
+  },
+  "report": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v10_mse_sgd_financial_20260913/JPX-v10-MSE-SGD-financial-report.md"
+}

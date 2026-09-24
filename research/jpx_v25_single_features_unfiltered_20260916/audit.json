@@ -1,0 +1,199 @@
+{
+  "passed": true,
+  "models": 21,
+  "variants": {
+    "v16_feature_01": {
+      "passed": true,
+      "forecasts_checked": 2326022,
+      "updates_checked": 1199,
+      "official_sharpe": 0.011705010928685883,
+      "max_forecast_error": 1.6736612096224235e-13,
+      "training_skipped": 0,
+      "reused": false
+    },
+    "v16_feature_02": {
+      "passed": true,
+      "forecasts_checked": 2326022,
+      "updates_checked": 1199,
+      "official_sharpe": 0.01172778124272176,
+      "max_forecast_error": 1.6736612096224235e-13,
+      "training_skipped": 0,
+      "reused": false
+    },
+    "v16_feature_03": {
+      "passed": true,
+      "forecasts_checked": 2326022,
+      "updates_checked": 1199,
+      "official_sharpe": 0.007934377982738147,
+      "max_forecast_error": 1.2551071293387395e-13,
+      "training_skipped": 0,
+      "reused": true
+    },
+    "v16_feature_04": {
+      "passed": true,
+      "forecasts_checked": 2326022,
+      "updates_checked": 1199,
+      "official_sharpe": 0.00840310311832662,
+      "max_forecast_error": 1.6736612096224235e-13,
+      "training_skipped": 0,
+      "reused": true
+    },
+    "v16_feature_05": {
+      "passed": true,
+      "forecasts_checked": 2326022,
+      "updates_checked": 1199,
+      "official_sharpe": 0.007390606008783898,
+      "max_forecast_error": 1.6736612096224235e-13,
+      "training_skipped": 0,
+      "reused": true
+    },
+    "v16_feature_06": {
+      "passed": true,
+      "forecasts_checked": 2326022,
+      "updates_checked": 1199,
+      "official_sharpe": 0.014509305656384834,
+      "max_forecast_error": 1.6736612096224235e-13,
+      "training_skipped": 0,
+      "reused": false
+    },
+    "v16_feature_07": {
+      "passed": true,
+      "forecasts_checked": 2326022,
+      "updates_checked": 1199,
+      "official_sharpe": -0.005804302065583723,
+      "max_forecast_error": 1.6736612096224235e-13,
+      "training_skipped": 0,
+      "reused": false
+    },
+    "v16_feature_08": {
+      "passed": true,
+      "forecasts_checked": 2326022,
+      "updates_checked": 1199,
+      "official_sharpe": -0.013145504181415572,
+      "max_forecast_error": 1.6753265441593612e-13,
+      "training_skipped": 0,
+      "reused": false
+    },
+    "v16_feature_09": {
+      "passed": true,
+      "forecasts_checked": 2326022,
+      "updates_checked": 1199,
+      "official_sharpe": 0.012657113276118893,
+      "max_forecast_error": 1.6736612096224235e-13,
+      "training_skipped": 0,
+      "reused": false
+    },
+    "v16_feature_10": {
+      "passed": true,
+      "forecasts_checked": 2326022,
+      "updates_checked": 1199,
+      "official_sharpe": 0.00020364760282732392,
+      "max_forecast_error": 1.6736612096224235e-13,
+      "training_skipped": 0,
+      "reused": false
+    },
+    "v16_feature_11": {
+      "passed": true,
+      "forecasts_checked": 2326022,
+      "updates_checked": 1199,
+      "official_sharpe": -0.023575618814488747,
+      "max_forecast_error": 2.770561557952078e-13,
+      "training_skipped": 0,
+      "reused": false
+    },
+    "v16_feature_12": {
+      "passed": true,
+      "forecasts_checked": 2326022,
+      "updates_checked": 1199,
+      "official_sharpe": -0.01132802666135412,
+      "max_forecast_error": 1.8918200339612667e-13,
+      "training_skipped": 0,
+      "reused": false
+    },
+    "v16_feature_13": {
+      "passed": true,
+      "forecasts_checked": 2326022,
+      "updates_checked": 1199,
+      "official_sharpe": 0.0070403049531814164,
+      "max_forecast_error": 1.109667913112844e-13,
+      "training_skipped": 0,
+      "reused": false
+    },
+    "v16_feature_14": {
+      "passed": true,
+      "forecasts_checked": 2326022,
+      "updates_checked": 1199,
+      "official_sharpe": 0.0059012853981171036,
+      "max_forecast_error": 1.6736612096224235e-13,
+      "training_skipped": 0,
+      "reused": false
+    },
+    "v16_feature_15": {
+      "passed": true,
+      "forecasts_checked": 2326022,
+      "updates_checked": 1199,
+      "official_sharpe": 0.0147669833307359,
+      "max_forecast_error": 1.6736612096224235e-13,
+      "training_skipped": 0,
+      "reused": false
+    },
+    "v17_eps_forecast_actual_qoq": {
+      "passed": true,
+      "forecasts_checked": 2326022,
+      "updates_checked": 1199,
+      "official_sharpe": -0.005596502773449272,
+      "max_forecast_error": 9.272582701669307e-13,
+      "training_skipped": 0,
+      "reused": false
+    },
+    "v17_eps_forecast_actual_yoy": {
+      "passed": true,
+      "forecasts_checked": 2326022,
+      "updates_checked": 1199,
+      "official_sharpe": -0.00402104463458826,
+      "max_forecast_error": 1.7247314687551807e-13,
+      "training_skipped": 0,
+      "reused": false
+    },
+    "v17_sales_revision_relative": {
+      "passed": true,
+      "forecasts_checked": 2326022,
+      "updates_checked": 1199,
+      "official_sharpe": 0.007118184252377258,
+      "max_forecast_error": 2.0261570199409107e-13,
+      "training_skipped": 0,
+      "reused": false
+    },
+    "v17_profit_revision_relative": {
+      "passed": true,
+      "forecasts_checked": 2326022,
+      "updates_checked": 1199,
+      "official_sharpe": 0.007730222125168874,
+      "max_forecast_error": 1.6392442958590436e-13,
+      "training_skipped": 0,
+      "reused": false
+    },
+    "v17_eps_revision_relative": {
+      "passed": true,
+      "forecasts_checked": 2326022,
+      "updates_checked": 1199,
+      "official_sharpe": -0.016582524436126893,
+      "max_forecast_error": 1.5615286841352827e-13,
+      "training_skipped": 0,
+      "reused": false
+    },
+    "v17_eps_actual_qoq": {
+      "passed": true,
+      "forecasts_checked": 2326022,
+      "updates_checked": 1199,
+      "official_sharpe": -0.008629560335064564,
+      "max_forecast_error": 1.2572165530855273e-12,
+      "training_skipped": 0,
+      "reused": false
+    }
+  },
+  "all_training_rows_preserved": true,
+  "all_evaluation_pools_full": true,
+  "all_source_hashes_unchanged": true,
+  "training_gradient_and_step_checks_passed": true
+}

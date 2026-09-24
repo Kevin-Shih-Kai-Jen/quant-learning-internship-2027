@@ -1,0 +1,13 @@
+{
+  "version": "v27",
+  "description": "Latest operating-profit forecast YoY state: overwrite versus weighted change and old level, common-basis quarter rollovers",
+  "directory": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v27_profit_forecast_state_20260916",
+  "status": "completed_experiment",
+  "variants": [
+    "overwrite",
+    "change_old"
+  ],
+  "audit_passed": true,
+  "training_financial_abs_limit": null,
+  "validation_financial_abs_limit": null
+}

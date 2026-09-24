@@ -1,0 +1,39 @@
+{
+  "passed": true,
+  "models": 3,
+  "variants": {
+    "g_common": {
+      "passed": true,
+      "forecasts_checked": 2326022,
+      "updates_checked": 1199,
+      "official_sharpe": 0.0008114522128536463,
+      "max_forecast_error": 1.66644475996236e-13,
+      "training_skipped": 0,
+      "reused": false
+    },
+    "overwrite": {
+      "passed": true,
+      "forecasts_checked": 2326022,
+      "updates_checked": 1199,
+      "official_sharpe": 0.0010630551571902257,
+      "max_forecast_error": 1.6620038678638593e-13,
+      "training_skipped": 0,
+      "reused": false
+    },
+    "change_old": {
+      "passed": true,
+      "forecasts_checked": 2326022,
+      "updates_checked": 1199,
+      "official_sharpe": 0.0022235937589192905,
+      "max_forecast_error": 1.8773871346411397e-13,
+      "training_skipped": 0,
+      "reused": false
+    }
+  },
+  "all_training_rows_preserved": true,
+  "all_evaluation_pools_full": true,
+  "all_source_hashes_unchanged": true,
+  "training_gradient_and_step_checks_passed": true,
+  "all_models_identical_learning_rates": true,
+  "common_rate_recomputed_from_known_features": true
+}

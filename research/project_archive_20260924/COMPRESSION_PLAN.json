@@ -1,0 +1,702 @@
+{
+  "format": "gzip (lossless)",
+  "originals_removed": false,
+  "candidates": [
+    {
+      "path": "jpx_v12_financial_growth_20260913/six_financial/training_updates.csv",
+      "size": 1089445,
+      "mtime_ns": 1789305510906322419
+    },
+    {
+      "path": "jpx_v12_financial_growth_20260913/pre_period_fix/six_financial/training_updates.csv",
+      "size": 1089518,
+      "mtime_ns": 1789304755356908603
+    },
+    {
+      "path": "jpx_v14_filtered_forecast_events_20260914/source_dispositions.csv",
+      "size": 1098911,
+      "mtime_ns": 1789354231124169613
+    },
+    {
+      "path": "jpx_v15_soft_rank_filtered_20260914/sgd_sqrt/parameter_history.csv",
+      "size": 1163066,
+      "mtime_ns": 1789358677467552379
+    },
+    {
+      "path": "jpx_v15_soft_rank_filtered_20260914/sgd_only/parameter_history.csv",
+      "size": 1164094,
+      "mtime_ns": 1789356641538049989
+    },
+    {
+      "path": "jpx_expanding_threshold_20260910/inner_2021/q75/selected_trades.csv",
+      "size": 1183246,
+      "mtime_ns": 1789043449081682897
+    },
+    {
+      "path": "jpx_expanding_threshold_20260910/inner_2021/q50/selected_trades.csv",
+      "size": 1199252,
+      "mtime_ns": 1789043448192061723
+    },
+    {
+      "path": "jpx_expanding_threshold_20260910/inner_2021/q25/selected_trades.csv",
+      "size": 1211828,
+      "mtime_ns": 1789043447283188400
+    },
+    {
+      "path": "jpx_v23_g_thresholds_20260916/all_models_daily.csv",
+      "size": 1226678,
+      "mtime_ns": 1789543443965241380
+    },
+    {
+      "path": "jpx_v30_profit_actual_forecast_20260916/all_models_daily.csv",
+      "size": 1255389,
+      "mtime_ns": 1789561272587946561
+    },
+    {
+      "path": "jpx_v13_quarterly_sgd_sqrt_20260914/diagnostics_20260914/ranking/daily_metrics.csv",
+      "size": 1278767,
+      "mtime_ns": 1789352692448548154
+    },
+    {
+      "path": "jpx_v14_filtered_forecast_events_20260914/sgd_only/parameter_history.csv",
+      "size": 1301192,
+      "mtime_ns": 1789354430962856024
+    },
+    {
+      "path": "jpx_v13_quarterly_sgd_sqrt_20260914/sgd_only/parameter_history.csv",
+      "size": 1305501,
+      "mtime_ns": 1789351032172370028
+    },
+    {
+      "path": "jpx_v15_soft_rank_filtered_20260914/sgd_only/training_updates.csv",
+      "size": 1310360,
+      "mtime_ns": 1789356641629953766
+    },
+    {
+      "path": "jpx_v15_soft_rank_filtered_20260914/sgd_sqrt/training_updates.csv",
+      "size": 1311805,
+      "mtime_ns": 1789358677527651474
+    },
+    {
+      "path": "jpx_v13_quarterly_sgd_sqrt_20260914/sgd_sqrt/parameter_history.csv",
+      "size": 1325454,
+      "mtime_ns": 1789351088819009321
+    },
+    {
+      "path": "jpx_v14_filtered_forecast_events_20260914/sgd_sqrt/parameter_history.csv",
+      "size": 1326341,
+      "mtime_ns": 1789354492538869472
+    },
+    {
+      "path": "jpx_v24_g_train_validation_filters_20260916/all_models_daily.csv",
+      "size": 1370672,
+      "mtime_ns": 1789544088495546012
+    },
+    {
+      "path": "jpx_v13_quarterly_sgd_sqrt_20260914/sgd_only/training_updates.csv",
+      "size": 1448643,
+      "mtime_ns": 1789351032237181023
+    },
+    {
+      "path": "jpx_v14_filtered_forecast_events_20260914/sgd_only/training_updates.csv",
+      "size": 1453773,
+      "mtime_ns": 1789354431026680642
+    },
+    {
+      "path": "jpx_v13_quarterly_sgd_sqrt_20260914/sgd_sqrt/training_updates.csv",
+      "size": 1473092,
+      "mtime_ns": 1789351088883567910
+    },
+    {
+      "path": "jpx_v14_filtered_forecast_events_20260914/sgd_sqrt/training_updates.csv",
+      "size": 1483054,
+      "mtime_ns": 1789354492603230863
+    },
+    {
+      "path": "jpx_return_t_top10_20260911/position_events.csv",
+      "size": 2120526,
+      "mtime_ns": 1789130953109263285
+    },
+    {
+      "path": "jpx_ridge_top10_20260911/position_events.csv",
+      "size": 2126405,
+      "mtime_ns": 1789132442531249916
+    },
+    {
+      "path": "jpx_v12_financial_growth_20260913/source_dispositions.csv",
+      "size": 2494715,
+      "mtime_ns": 1789305142987007515
+    },
+    {
+      "path": "jpx_v12_financial_growth_20260913/pre_period_fix/source_dispositions.csv",
+      "size": 2494715,
+      "mtime_ns": 1789304027766089467
+    },
+    {
+      "path": "jpx_v29_learning_rate_sweep_20260916/all_models_daily.csv",
+      "size": 2540235,
+      "mtime_ns": 1789558767865555497
+    },
+    {
+      "path": "jpx_v30_profit_actual_forecast_20260916/announcement_quarter_alignment.csv",
+      "size": 2553831,
+      "mtime_ns": 1789561094433687202
+    },
+    {
+      "path": "jpx_v17_actual_forecast_revisions_20260915/all_models_daily.csv",
+      "size": 2590459,
+      "mtime_ns": 1789440989075844891
+    },
+    {
+      "path": "jpx_ridge_comparison_20260911/fixed_50_50_close/selected_trades.csv",
+      "size": 3048776,
+      "mtime_ns": 1789133665590817980
+    },
+    {
+      "path": "jpx_costs_top5_20260911/fixed50_close/gross_trade_templates.csv",
+      "size": 3070236,
+      "mtime_ns": 1789134592150229528
+    },
+    {
+      "path": "jpx_costs_top5_20260911/fixed30_close/gross_trade_templates.csv",
+      "size": 3093898,
+      "mtime_ns": 1789134529020080839
+    },
+    {
+      "path": "jpx_costs_top5_20260911/dynamic_close/gross_trade_templates.csv",
+      "size": 3094140,
+      "mtime_ns": 1789134466187813034
+    },
+    {
+      "path": "jpx_ridge_comparison_20260911/fixed_50_50/selected_trades.csv",
+      "size": 3095803,
+      "mtime_ns": 1789133640242734834
+    },
+    {
+      "path": "jpx_neutral_10pct_20260910/selected_trades.csv",
+      "size": 3102865,
+      "mtime_ns": 1789023456695866468
+    },
+    {
+      "path": "jpx_neutral_10pct_20260910/zip_verification/selected_trades.csv",
+      "size": 3102865,
+      "mtime_ns": 1789023850075883983
+    },
+    {
+      "path": "jpx_expanding_threshold_20260910/baseline_replay/selected_trades.csv",
+      "size": 3102865,
+      "mtime_ns": 1789043443851189880
+    },
+    {
+      "path": "jpx_signed_band_20260910/baseline_50_50/selected_trades.csv",
+      "size": 3102865,
+      "mtime_ns": 1789046963323388127
+    },
+    {
+      "path": "jpx_costs_top5_20260911/dynamic_target/gross_trade_templates.csv",
+      "size": 3126601,
+      "mtime_ns": 1789134655105273483
+    },
+    {
+      "path": "jpx_costs_top5_20260911/fixed30_target/gross_trade_templates.csv",
+      "size": 3129104,
+      "mtime_ns": 1789134718169886612
+    },
+    {
+      "path": "jpx_ridge_comparison_20260911/fixed_30_70_close/selected_trades.csv",
+      "size": 3132960,
+      "mtime_ns": 1789133659253380587
+    },
+    {
+      "path": "jpx_ridge_comparison_20260911/fixed_30_70/selected_trades.csv",
+      "size": 3173233,
+      "mtime_ns": 1789133627629294859
+    },
+    {
+      "path": "jpx_ridge_comparison_20260911/level_t_signed/selected_trades.csv",
+      "size": 3204222,
+      "mtime_ns": 1789133633938676101
+    },
+    {
+      "path": "jpx_signed_band_20260910/signed_smoothed/selected_trades.csv",
+      "size": 3215357,
+      "mtime_ns": 1789046956989911995
+    },
+    {
+      "path": "jpx_ridge_comparison_20260911/original_dynamic_close/selected_trades.csv",
+      "size": 3223663,
+      "mtime_ns": 1789133652914901782
+    },
+    {
+      "path": "jpx_stock_returns_20260910/selected_trades.csv",
+      "size": 3247360,
+      "mtime_ns": 1789048265020845044
+    },
+    {
+      "path": "jpx_return_t_20260911/selected_trades.csv",
+      "size": 3253668,
+      "mtime_ns": 1789104925817344743
+    },
+    {
+      "path": "jpx_stock_expanding_20260911/selected_trades.csv",
+      "size": 3255624,
+      "mtime_ns": 1789102126245628738
+    },
+    {
+      "path": "jpx_ridge_comparison_20260911/return_t_calendar_corrected_ols/selected_trades.csv",
+      "size": 3255808,
+      "mtime_ns": 1789133675177806025
+    },
+    {
+      "path": "jpx_ridge_comparison_20260911/return_t_signed/selected_trades.csv",
+      "size": 3259419,
+      "mtime_ns": 1789133621319866286
+    },
+    {
+      "path": "jpx_return_mean_20260911/selected_trades.csv",
+      "size": 3261099,
+      "mtime_ns": 1789103180630828131
+    },
+    {
+      "path": "jpx_ridge_comparison_20260911/return_t_calendar_corrected_ridge/selected_trades.csv",
+      "size": 3262986,
+      "mtime_ns": 1789133678404273512
+    },
+    {
+      "path": "jpx_ridge_comparison_20260911/original_dynamic/selected_trades.csv",
+      "size": 3264614,
+      "mtime_ns": 1789133615194017762
+    },
+    {
+      "path": "jpx_ridge_comparison_20260911/level_t_expanding/selected_trades.csv",
+      "size": 3274105,
+      "mtime_ns": 1789133646560179837
+    },
+    {
+      "path": "jpx_ridge_comparison_20260911/fixed_70_30_close/selected_trades.csv",
+      "size": 3281187,
+      "mtime_ns": 1789133671980649217
+    },
+    {
+      "path": "jpx_signed_band_20260910/expanding_no_neutral/selected_trades.csv",
+      "size": 3288478,
+      "mtime_ns": 1789046960150508913
+    },
+    {
+      "path": "jpx_return_t_top10_20260911/requested_orders.csv",
+      "size": 3354037,
+      "mtime_ns": 1789130945289028271
+    },
+    {
+      "path": "jpx_ridge_top10_20260911/requested_orders.csv",
+      "size": 3354536,
+      "mtime_ns": 1789132438189536638
+    },
+    {
+      "path": "jpx_v25_single_features_unfiltered_20260916/all_models_daily.csv",
+      "size": 3410925,
+      "mtime_ns": 1789544704086217080
+    },
+    {
+      "path": "jpx_neutral_10pct_20260910/zip_verification/rebuilt_proxy/share_disclosure_events.csv",
+      "size": 3567951,
+      "mtime_ns": 1789023844515756877
+    },
+    {
+      "path": "jpx_expanding_threshold_20260910/market_proxy/share_disclosure_events.csv",
+      "size": 3567951,
+      "mtime_ns": 1789043440101902935
+    },
+    {
+      "path": "jpx_signed_band_20260910/market_proxy/share_disclosure_events.csv",
+      "size": 3567951,
+      "mtime_ns": 1789046953204138439
+    },
+    {
+      "path": "jpx_costs_top5_20260911/fixed50_close/zero/trades.csv",
+      "size": 3783598,
+      "mtime_ns": 1789134593143196029
+    },
+    {
+      "path": "jpx_costs_top5_20260911/dynamic_close/zero/trades.csv",
+      "size": 3805447,
+      "mtime_ns": 1789134467184522163
+    },
+    {
+      "path": "jpx_costs_top5_20260911/fixed30_close/zero/trades.csv",
+      "size": 3805449,
+      "mtime_ns": 1789134530015131433
+    },
+    {
+      "path": "jpx_costs_top5_20260911/dynamic_target/zero/trades.csv",
+      "size": 3844716,
+      "mtime_ns": 1789134656096817478
+    },
+    {
+      "path": "jpx_costs_top5_20260911/fixed30_target/zero/trades.csv",
+      "size": 3847434,
+      "mtime_ns": 1789134719165169986
+    },
+    {
+      "path": "jpx_costs_top5_20260911/fixed50_close/commission_only/trades.csv",
+      "size": 4169299,
+      "mtime_ns": 1789134597207507214
+    },
+    {
+      "path": "jpx_costs_top5_20260911/fixed30_close/commission_only/trades.csv",
+      "size": 4193227,
+      "mtime_ns": 1789134534074508181
+    },
+    {
+      "path": "jpx_costs_top5_20260911/dynamic_close/commission_only/trades.csv",
+      "size": 4193700,
+      "mtime_ns": 1789134471213271422
+    },
+    {
+      "path": "jpx_costs_top5_20260911/dynamic_target/commission_only/trades.csv",
+      "size": 4232204,
+      "mtime_ns": 1789134660229790402
+    },
+    {
+      "path": "jpx_costs_top5_20260911/fixed30_target/commission_only/trades.csv",
+      "size": 4234823,
+      "mtime_ns": 1789134723265155550
+    },
+    {
+      "path": "jpx_costs_top5_20260911/fixed50_close/commission_spread/trades.csv",
+      "size": 4266779,
+      "mtime_ns": 1789134598245717027
+    },
+    {
+      "path": "jpx_costs_top5_20260911/fixed30_close/commission_spread/trades.csv",
+      "size": 4290757,
+      "mtime_ns": 1789134535112072195
+    },
+    {
+      "path": "jpx_costs_top5_20260911/dynamic_close/commission_spread/trades.csv",
+      "size": 4291421,
+      "mtime_ns": 1789134472229551686
+    },
+    {
+      "path": "jpx_costs_top5_20260911/dynamic_target/commission_spread/trades.csv",
+      "size": 4332230,
+      "mtime_ns": 1789134661260855439
+    },
+    {
+      "path": "jpx_costs_top5_20260911/fixed30_target/commission_spread/trades.csv",
+      "size": 4334465,
+      "mtime_ns": 1789134724345363978
+    },
+    {
+      "path": "jpx_costs_top5_20260911/fixed50_close/commission_spread_slippage/trades.csv",
+      "size": 4367124,
+      "mtime_ns": 1789134599301338885
+    },
+    {
+      "path": "jpx_costs_top5_20260911/fixed30_close/commission_spread_slippage/trades.csv",
+      "size": 4390748,
+      "mtime_ns": 1789134536150827019
+    },
+    {
+      "path": "jpx_costs_top5_20260911/dynamic_close/commission_spread_slippage/trades.csv",
+      "size": 4392682,
+      "mtime_ns": 1789134473254821750
+    },
+    {
+      "path": "jpx_costs_top5_20260911/fixed50_close/middle/trades.csv",
+      "size": 4416337,
+      "mtime_ns": 1789134595146767896
+    },
+    {
+      "path": "jpx_costs_top5_20260911/fixed50_close/low/trades.csv",
+      "size": 4425962,
+      "mtime_ns": 1789134594148351569
+    },
+    {
+      "path": "jpx_costs_top5_20260911/fixed50_close/high/trades.csv",
+      "size": 4429537,
+      "mtime_ns": 1789134596170580415
+    },
+    {
+      "path": "jpx_costs_top5_20260911/dynamic_target/commission_spread_slippage/trades.csv",
+      "size": 4434531,
+      "mtime_ns": 1789134662300424886
+    },
+    {
+      "path": "jpx_costs_top5_20260911/fixed30_target/commission_spread_slippage/trades.csv",
+      "size": 4436743,
+      "mtime_ns": 1789134725413032968
+    },
+    {
+      "path": "jpx_costs_top5_20260911/fixed30_close/middle/trades.csv",
+      "size": 4439098,
+      "mtime_ns": 1789134532016514171
+    },
+    {
+      "path": "jpx_costs_top5_20260911/dynamic_close/middle/trades.csv",
+      "size": 4441533,
+      "mtime_ns": 1789134469178656173
+    },
+    {
+      "path": "jpx_costs_top5_20260911/fixed30_close/low/trades.csv",
+      "size": 4447182,
+      "mtime_ns": 1789134531012062842
+    },
+    {
+      "path": "jpx_costs_top5_20260911/dynamic_close/low/trades.csv",
+      "size": 4449211,
+      "mtime_ns": 1789134468187385704
+    },
+    {
+      "path": "jpx_costs_top5_20260911/fixed30_close/high/trades.csv",
+      "size": 4452707,
+      "mtime_ns": 1789134533040928323
+    },
+    {
+      "path": "jpx_costs_top5_20260911/dynamic_close/high/trades.csv",
+      "size": 4454479,
+      "mtime_ns": 1789134470195136468
+    },
+    {
+      "path": "jpx_costs_top5_20260911/dynamic_target/middle/trades.csv",
+      "size": 4483651,
+      "mtime_ns": 1789134658105748052
+    },
+    {
+      "path": "jpx_costs_top5_20260911/fixed30_target/middle/trades.csv",
+      "size": 4485754,
+      "mtime_ns": 1789134721170594836
+    },
+    {
+      "path": "jpx_costs_top5_20260911/dynamic_target/low/trades.csv",
+      "size": 4487705,
+      "mtime_ns": 1789134657098043693
+    },
+    {
+      "path": "jpx_costs_top5_20260911/fixed30_target/low/trades.csv",
+      "size": 4489571,
+      "mtime_ns": 1789134720171976353
+    },
+    {
+      "path": "jpx_costs_top5_20260911/dynamic_target/high/trades.csv",
+      "size": 4497527,
+      "mtime_ns": 1789134659188474092
+    },
+    {
+      "path": "jpx_costs_top5_20260911/fixed30_target/high/trades.csv",
+      "size": 4499818,
+      "mtime_ns": 1789134722200791671
+    },
+    {
+      "path": "jpx_v16_single_financial_v7_20260915/all_models_daily.csv",
+      "size": 4612489,
+      "mtime_ns": 1789438515236227415
+    },
+    {
+      "path": "jpx_v19_qoq_predict_yoy_20260915/all_actual_events.pkl",
+      "size": 5693952,
+      "mtime_ns": 1789465979439033211
+    },
+    {
+      "path": "jpx_v19_qoq_predict_yoy_20260915/predictions.pkl",
+      "size": 6366951,
+      "mtime_ns": 1789465995962039032
+    },
+    {
+      "path": "jpx_v19_qoq_predict_yoy_20260915/all_actual_events.csv",
+      "size": 7458876,
+      "mtime_ns": 1789465979692134011
+    },
+    {
+      "path": "jpx_v27_profit_forecast_state_20260916/state_events.csv",
+      "size": 7544410,
+      "mtime_ns": 1789556507520352316
+    },
+    {
+      "path": "jpx_v13_quarterly_sgd_sqrt_20260914/diagnostics_20260914/features/quarter_rollforward.csv",
+      "size": 9389214,
+      "mtime_ns": 1789352703645632663
+    },
+    {
+      "path": "jpx_v19_qoq_predict_yoy_20260915/event_predictions.csv",
+      "size": 10260256,
+      "mtime_ns": 1789465996321333710
+    },
+    {
+      "path": "jpx_v14_filtered_forecast_events_20260914/quarter_forecasts.pkl",
+      "size": 10409076,
+      "mtime_ns": 1789354231095875293
+    },
+    {
+      "path": "jpx_v9_financial_decay_sgd_20260912/financial_events.pkl",
+      "size": 10837482,
+      "mtime_ns": 1789216860300001741
+    },
+    {
+      "path": "jpx_ridge_top10_20260911/selected_trades.csv",
+      "size": 11163762,
+      "mtime_ns": 1789132442448375282
+    },
+    {
+      "path": "jpx_return_t_top10_20260911/selected_trades.csv",
+      "size": 11219004,
+      "mtime_ns": 1789130953021190654
+    },
+    {
+      "path": "jpx_v27_profit_forecast_state_20260916/state_events.pkl",
+      "size": 11357460,
+      "mtime_ns": 1789556493262104064
+    },
+    {
+      "path": "jpx_v9_financial_decay_sgd_20260912/financial_events.csv",
+      "size": 11807518,
+      "mtime_ns": 1789216860658305772
+    },
+    {
+      "path": "jpx_v13_quarterly_sgd_sqrt_20260914/quarter_forecasts.pkl",
+      "size": 12168159,
+      "mtime_ns": 1789350557512572028
+    },
+    {
+      "path": "jpx_v17_actual_forecast_revisions_20260915/superseded_absolute_revision/new_financial_events.pkl",
+      "size": 23282688,
+      "mtime_ns": 1789440451060423133
+    },
+    {
+      "path": "jpx_v17_actual_forecast_revisions_20260915/new_financial_events.pkl",
+      "size": 25332400,
+      "mtime_ns": 1789440746311752818
+    },
+    {
+      "path": "jpx_v9_financial_decay_sgd_20260912/financial_records.pkl",
+      "size": 28054670,
+      "mtime_ns": 1789216853260910659
+    },
+    {
+      "path": "jpx_v12_financial_growth_20260913/financial_events.pkl",
+      "size": 29099333,
+      "mtime_ns": 1789305142942041264
+    },
+    {
+      "path": "jpx_v12_financial_growth_20260913/pre_period_fix/financial_events.pkl",
+      "size": 29133579,
+      "mtime_ns": 1789304027722490493
+    },
+    {
+      "path": "jpx_v12_financial_growth_20260913/financial_records.pkl",
+      "size": 30800859,
+      "mtime_ns": 1789305128292709562
+    },
+    {
+      "path": "jpx_v12_financial_growth_20260913/pre_period_fix/financial_records.pkl",
+      "size": 30800859,
+      "mtime_ns": 1789304014098061490
+    },
+    {
+      "path": "jpx_v13_quarterly_sgd_sqrt_20260914/financial_records.pkl",
+      "size": 30800859,
+      "mtime_ns": 1789350542853523845
+    },
+    {
+      "path": "jpx_v14_filtered_forecast_events_20260914/financial_records.pkl",
+      "size": 30800859,
+      "mtime_ns": 1789354217663821316
+    },
+    {
+      "path": "jpx_v14_filtered_forecast_events_20260914/financial_events.pkl",
+      "size": 34708075,
+      "mtime_ns": 1789354230800128686
+    },
+    {
+      "path": "jpx_v13_quarterly_sgd_sqrt_20260914/financial_events.pkl",
+      "size": 51691017,
+      "mtime_ns": 1789350557168044103
+    },
+    {
+      "path": "jpx_v9_financial_decay_sgd_20260912/financial_signal_features.pkl",
+      "size": 53637211,
+      "mtime_ns": 1789216862837074727
+    },
+    {
+      "path": "jpx_v11_persistent_finance_std22_20260913/financial_persistent_features.pkl",
+      "size": 53637270,
+      "mtime_ns": 1789267043879873038
+    },
+    {
+      "path": "jpx_v27_profit_forecast_state_20260916/financial_signal_features.pkl",
+      "size": 55968891,
+      "mtime_ns": 1789556507159988561
+    },
+    {
+      "path": "jpx_return_mean_20260911/price_return_1d.pkl",
+      "size": 55981872,
+      "mtime_ns": 1789102655445598907
+    },
+    {
+      "path": "jpx_v11_persistent_finance_std22_20260913/return_std22_features.pkl",
+      "size": 74625076,
+      "mtime_ns": 1789267043585144547
+    },
+    {
+      "path": "jpx_v5_daily_returns_20260912/one_day_returns.pkl",
+      "size": 74642176,
+      "mtime_ns": 1789192068629780468
+    },
+    {
+      "path": "jpx_v17_actual_forecast_revisions_20260915/superseded_absolute_revision/financial_signal_features.pkl",
+      "size": 111937107,
+      "mtime_ns": 1789440639353407558
+    },
+    {
+      "path": "jpx_v17_actual_forecast_revisions_20260915/financial_signal_features.pkl",
+      "size": 130593142,
+      "mtime_ns": 1789440756391105310
+    },
+    {
+      "path": "jpx_v12_financial_growth_20260913/financial_signal_features.pkl",
+      "size": 135257724,
+      "mtime_ns": 1789305146066682669
+    },
+    {
+      "path": "jpx_v12_financial_growth_20260913/pre_period_fix/financial_signal_features.pkl",
+      "size": 135257724,
+      "mtime_ns": 1789304030732621106
+    },
+    {
+      "path": "jpx_stock_returns_20260910/bars.pkl",
+      "size": 167943421,
+      "mtime_ns": 1789048167203895234
+    },
+    {
+      "path": "jpx_v13_quarterly_sgd_sqrt_20260914/financial_signal_features.pkl",
+      "size": 289169454,
+      "mtime_ns": 1789350562875040170
+    },
+    {
+      "path": "jpx_v14_filtered_forecast_events_20260914/financial_signal_features.pkl",
+      "size": 310157671,
+      "mtime_ns": 1789354236554877985
+    },
+    {
+      "path": "jpx_v8_soft_rank_20260912/inputs.pkl",
+      "size": 468803515,
+      "mtime_ns": 1789213159545419153
+    },
+    {
+      "path": "jpx_return_mean_20260911/ratio_features.pkl",
+      "size": 583136162,
+      "mtime_ns": 1789103172827731995
+    },
+    {
+      "path": "jpx_stock_returns_20260910/features.pkl",
+      "size": 620455777,
+      "mtime_ns": 1789048167001167468
+    },
+    {
+      "path": "jpx_return_t_20260911/return_t_features.pkl",
+      "size": 751079029,
+      "mtime_ns": 1789104917544276235
+    }
+  ],
+  "total_original_bytes": 4849362597
+}

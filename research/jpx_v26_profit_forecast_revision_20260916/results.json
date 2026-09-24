@@ -1,0 +1,104 @@
+{
+  "version": "v26",
+  "audit_passed": true,
+  "features": [
+    "OperatingProfitForecastYoY",
+    "OperatingProfitRevisionRelative"
+  ],
+  "comparison": [
+    {
+      "Variant": "g",
+      "Label": "純價量g",
+      "Sharpe": 0.0076788715624210736,
+      "RankIC": -0.0007338924981283103,
+      "MSE": 0.0006654329991342864,
+      "DeltaSharpeVsG": 0.0,
+      "DeltaRankICVsG": 0.0,
+      "MedianLearningRate": 0.0718187137730381
+    },
+    {
+      "Variant": "forecast",
+      "Label": "g＋營業利益預測對去年預測",
+      "Sharpe": 0.012657113276118877,
+      "RankIC": -0.0003831390528420118,
+      "MSE": 0.0006646094793359871,
+      "DeltaSharpeVsG": 0.0049782417136978035,
+      "DeltaRankICVsG": 0.0003507534452862985,
+      "MedianLearningRate": 0.0701323758693056
+    },
+    {
+      "Variant": "revision",
+      "Label": "g＋營業利益預期修正",
+      "Sharpe": 0.0077302221251689006,
+      "RankIC": -0.0005608866796275356,
+      "MSE": 0.0006650916436516731,
+      "DeltaSharpeVsG": 5.135056274782699e-05,
+      "DeltaRankICVsG": 0.0001730058185007747,
+      "MedianLearningRate": 0.0707990135129178
+    },
+    {
+      "Variant": "joint",
+      "Label": "g＋兩項營業利益特徵",
+      "Sharpe": 0.011516205472893825,
+      "RankIC": -0.00019436559791794126,
+      "MSE": 0.0006643535291153397,
+      "DeltaSharpeVsG": 0.003837333910472751,
+      "DeltaRankICVsG": 0.0005395269002103691,
+      "MedianLearningRate": 0.0695127219185806
+    }
+  ],
+  "paired_bootstrap": [
+    {
+      "Comparison": "joint - g",
+      "Metric": "Sharpe",
+      "Difference": 0.003837333910472751,
+      "CI95Low": -0.004469906927672315,
+      "CI95High": 0.013173965385997004
+    },
+    {
+      "Comparison": "joint - g",
+      "Metric": "RankIC",
+      "Difference": 0.0005395269002103691,
+      "CI95Low": -0.00036735361835969104,
+      "CI95High": 0.0011513029484673865
+    },
+    {
+      "Comparison": "joint - forecast",
+      "Metric": "Sharpe",
+      "Difference": -0.0011409078032250525,
+      "CI95Low": -0.005872518969533906,
+      "CI95High": 0.002570294155143245
+    },
+    {
+      "Comparison": "joint - forecast",
+      "Metric": "RankIC",
+      "Difference": 0.00018877345492407054,
+      "CI95Low": -0.00010250855681513571,
+      "CI95High": 0.0005583354360042263
+    },
+    {
+      "Comparison": "joint - revision",
+      "Metric": "Sharpe",
+      "Difference": 0.003785983347724924,
+      "CI95Low": -0.0025736715813908955,
+      "CI95High": 0.01021337457753047
+    },
+    {
+      "Comparison": "joint - revision",
+      "Metric": "RankIC",
+      "Difference": 0.00036652108170959435,
+      "CI95Low": -0.00039313116545620723,
+      "CI95High": 0.000921993032050461
+    }
+  ],
+  "joint_rank_ic_interval": {
+    "RankIC": -0.00019436559791794126,
+    "CI95Low": -0.006640075710077838,
+    "CI95High": 0.005904388594934224
+  },
+  "joint_highest_sharpe": false,
+  "joint_highest_rank_ic": true,
+  "training_financial_abs_limit": null,
+  "validation_financial_abs_limit": null,
+  "active_baseline": "v7"
+}

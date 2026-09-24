@@ -1,0 +1,55 @@
+{
+  "all_checks_passed": true,
+  "analytic_official_scale_and_ddof_checked": true,
+  "positive_g_still_has_bottom_200_shorts": true,
+  "positive_rescaling_preserves_ranks": true,
+  "predictor_rejects_target_input": true,
+  "all_daily_ranks_and_200_each_side_checked": true,
+  "missing_selected_targets": 0,
+  "selected_prediction_max_error": 9.999054535747565e-17,
+  "years": [
+    {
+      "year": 2018,
+      "ranked_rows": 467627,
+      "selected_rows": 98000,
+      "training_rows": 341063,
+      "g_max_abs_error": 9.996344030316351e-17
+    },
+    {
+      "year": 2019,
+      "ranked_rows": 468185,
+      "selected_rows": 96400,
+      "training_rows": 451552,
+      "g_max_abs_error": 9.999054535747565e-17
+    },
+    {
+      "year": 2020,
+      "ranked_rows": 478799,
+      "selected_rows": 96800,
+      "training_rows": 450406,
+      "g_max_abs_error": 9.999054535747565e-17
+    },
+    {
+      "year": 2021,
+      "ranked_rows": 449752,
+      "selected_rows": 90000,
+      "training_rows": 465079,
+      "g_max_abs_error": 9.996344030316351e-17
+    }
+  ],
+  "independent_score": 0.04674195239352688,
+  "raw_returns": {
+    "all_raw_rows_checked": 2332531,
+    "checks": {
+      "PR1": {
+        "max_abs_error": 2.220446049250313e-16,
+        "undefined_rows": 11232
+      },
+      "VR1": {
+        "max_abs_error": 1.4210854715202004e-14,
+        "undefined_rows": 7622
+      }
+    }
+  },
+  "annualization_not_applied_to_official_score": true
+}

@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "old_events_and_forecast_snapshots_exactly_reproduced": true,
+  "state_events": 38571,
+  "valid_events": 23899,
+  "nonzero_revision_events": 4608,
+  "same_quarter_revisions": 5,
+  "quarter_rollover_rebased_revisions": 4603,
+  "zero_delta_valid_states": 19291,
+  "invalid_state_events": 14672,
+  "mapped_stock_days": 2332001,
+  "forecast_formulas_checked": true,
+  "references_known_at_event_time": true,
+  "last_event_only_mapping_checked_all_rows": true,
+  "new_equals_delta_plus_old": true,
+  "transition_tests_passed": true
+}

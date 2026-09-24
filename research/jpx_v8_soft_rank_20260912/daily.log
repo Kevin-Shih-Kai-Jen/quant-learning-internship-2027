@@ -1,0 +1,33 @@
+daily 2017-05-30 label_days 98 seconds 23.4
+daily 2017-10-23 label_days 198 seconds 63.3
+daily 2018-03-22 label_days 298 seconds 113.5
+daily 2018-08-15 label_days 398 seconds 151.0
+daily 2019-01-16 label_days 498 seconds 174.0
+daily 2019-06-17 label_days 598 seconds 195.7
+daily 2019-11-13 label_days 698 seconds 217.2
+daily 2020-04-13 label_days 798 seconds 238.3
+daily 2020-09-09 label_days 898 seconds 260.2
+daily 2021-02-08 label_days 998 seconds 282.4
+daily 2021-07-06 label_days 1098 seconds 304.7
+Traceback (most recent call last):
+  File "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v8_soft_rank_20260912/run_v8.py", line 140, in <module>
+    else:run(a)
+         ~~~^^^
+  File "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v8_soft_rank_20260912/run_v8.py", line 105, in run
+    save(out/'results.json',result);print('DONE',json.dumps(result),flush=True)
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v7_daily_mse_20260912/run_v7.py", line 14, in save
+    path.write_text(json.dumps(obj,ensure_ascii=False,indent=2,allow_nan=False))
+                    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.2/Frameworks/Python.framework/Versions/3.14/lib/python3.14/json/__init__.py", line 242, in dumps
+    **kw).encode(obj)
+          ~~~~~~^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.2/Frameworks/Python.framework/Versions/3.14/lib/python3.14/json/encoder.py", line 202, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/opt/homebrew/Cellar/python@3.14/3.14.2/Frameworks/Python.framework/Versions/3.14/lib/python3.14/json/encoder.py", line 263, in iterencode
+    return _iterencode(o, 0)
+  File "/opt/homebrew/Cellar/python@3.14/3.14.2/Frameworks/Python.framework/Versions/3.14/lib/python3.14/json/encoder.py", line 182, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+                    f'is not JSON serializable')
+TypeError: Object of type int64 is not JSON serializable
+when serializing dict item 'full_day_loss_increased_days'

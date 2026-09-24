@@ -1,0 +1,50 @@
+     Variant                   Label   Sharpe    RankIC      MSE  DeltaSharpeVsG  DeltaRankICVsG  MedianLearningRate
+           g                      純g 0.007679 -0.000734 0.000665        0.000000        0.000000            0.071819
+old_forecast             舊版：g＋累加預測年比 0.012657 -0.000383 0.000665        0.004978        0.000351            0.070132
+   old_joint        舊版：g＋累加預測年比＋相對修正 0.011516 -0.000194 0.000664        0.003837        0.000540            0.069513
+   overwrite            A：g＋最新年比（覆蓋） 0.011122 -0.000723 0.000664        0.003443        0.000011            0.065570
+  change_old B：g＋r1×(new−old)＋r2×old 0.001935 -0.001364 0.000666       -0.005744       -0.000630            0.062771
+     Variant  ValidationYear  Days    Sharpe    RankIC      MSE
+           g            2018   245 -0.011514 -0.001318 0.000666
+           g            2019   241  0.050067  0.000502 0.000488
+           g            2020   242  0.050857  0.002987 0.000991
+           g            2021   225 -0.087605 -0.005408 0.000504
+old_forecast            2018   245 -0.015150 -0.001788 0.000666
+old_forecast            2019   241  0.050045  0.000711 0.000488
+old_forecast            2020   242  0.050246  0.002886 0.000991
+old_forecast            2021   225 -0.056979 -0.003527 0.000501
+   old_joint            2018   245 -0.015915 -0.001638 0.000666
+   old_joint            2019   241  0.051135  0.000713 0.000488
+   old_joint            2020   242  0.050454  0.002854 0.000991
+   old_joint            2021   225 -0.062996 -0.002860 0.000500
+   overwrite            2018   245 -0.029650 -0.002318 0.000666
+   overwrite            2019   241  0.063569  0.001897 0.000486
+   overwrite            2020   242  0.072518  0.003041 0.000990
+   overwrite            2021   225 -0.105330 -0.005825 0.000501
+  change_old            2018   245 -0.032887 -0.002359 0.000666
+  change_old            2019   241  0.030451  0.001030 0.000487
+  change_old            2020   242  0.050453  0.000203 0.000995
+  change_old            2021   225 -0.064761 -0.004522 0.000506
+               Comparison Metric  Difference   CI95Low  CI95High
+            overwrite - g Sharpe    0.003443 -0.022255  0.030650
+            overwrite - g RankIC    0.000011 -0.002336  0.001709
+           change_old - g Sharpe   -0.005744 -0.034035  0.026758
+           change_old - g RankIC   -0.000630 -0.003128  0.001677
+   change_old - overwrite Sharpe   -0.009187 -0.027033  0.011864
+   change_old - overwrite RankIC   -0.000641 -0.001984  0.001023
+ overwrite - old_forecast Sharpe   -0.001535 -0.026764  0.025522
+ overwrite - old_forecast RankIC   -0.000340 -0.002412  0.001482
+change_old - old_forecast Sharpe   -0.010722 -0.037597  0.021117
+change_old - old_forecast RankIC   -0.000981 -0.003213  0.001386
+    overwrite - old_joint Sharpe   -0.000394 -0.025650  0.027341
+    overwrite - old_joint RankIC   -0.000529 -0.002595  0.001342
+   change_old - old_joint Sharpe   -0.009581 -0.036569  0.022309
+   change_old - old_joint RankIC   -0.001169 -0.003409  0.001224
+   Variant    RankIC   CI95Low  CI95High
+ overwrite -0.000723 -0.007277  0.005204
+change_old -0.001364 -0.007440  0.004448
+   Variant         Parameter     Value       AsOf
+change_old               PR1  0.001448 2021-12-03
+change_old               VR1 -0.000172 2021-12-03
+change_old   ProfitYoYChange -0.000015 2021-12-03
+change_old ProfitPreviousYoY  0.000199 2021-12-03

@@ -1,0 +1,8 @@
+{
+  "total_mean_daily_mse_difference": 0.0022474633038019514,
+  "top_stock_code": 4883,
+  "top_stock_difference": 0.001464618298028898,
+  "top_stock_share_of_net_difference": 0.6516761788952267,
+  "top_5_share_of_net_difference": 0.9967055599818723,
+  "interpretation": "Additive ex-post error attribution between independently trained variants, not a causal isolation of the financial coefficient."
+}

@@ -1,0 +1,8 @@
+{
+  "adopted": false,
+  "reason": "Keep the in-progress training implementation unchanged; modest acceleration does not justify restarting.",
+  "full_day_benchmark": "2018-09-06",
+  "original_seconds": 3.0854100420001487,
+  "simd_seconds": 2.560224875000131,
+  "all_traces_bitwise_equal_on_benchmark": true
+}

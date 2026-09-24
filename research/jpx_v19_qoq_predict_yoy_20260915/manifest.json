@@ -1,0 +1,8 @@
+{
+  "source_sha256": {
+    "jpx_v14_filtered_forecast_events_20260914/financial_records.pkl": "9fcf0244e583c9190e45a870250b6f5f004bca7754b9617a6348f1ac673e2f8c",
+    "jpx_v14_filtered_forecast_events_20260914/features.py": "1abb20b6bbd90b5d77abce4c7e475c9aa23c0f7b6c6cacfeb5ec22b6529c96c3",
+    "jpx_v19_qoq_predict_yoy_20260915/run.py": "d8235d81c5a2f52261d57deea81c5e12667554448c600b10cb7d07836fa93a2f",
+    "jpx_v8_soft_rank_20260912/inputs.pkl": "6b0ff60bfb8eab20ec7c6e087e746dd6e0ccc38b9633d1a11d98477d84857bc6"
+  }
+}

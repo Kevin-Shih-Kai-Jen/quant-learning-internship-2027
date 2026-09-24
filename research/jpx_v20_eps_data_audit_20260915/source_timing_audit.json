@@ -1,0 +1,73 @@
+{
+  "passed": true,
+  "raw_archive": "/Users/coolguy/Desktop/JPX_data/modelling/JPX_data.zip",
+  "raw_member": "JPX_data/raw/train_files/financials.csv",
+  "raw_member_sha256": "7e48cb0a053875f849712a8965a8cdf7487749761216cce24216033a9998b4c4",
+  "selected_cases": 20,
+  "unique_source_rows": 87,
+  "source_field_checks": 1218,
+  "fields_checked": [
+    "SecuritiesCode",
+    "EarningsPerShare",
+    "Profit",
+    "AverageNumberOfShares",
+    "DisclosedUnixTime",
+    "DisclosureNumber",
+    "Date",
+    "DisclosedDate",
+    "CurrentFiscalYearStartDate",
+    "CurrentPeriodEndDate",
+    "CurrentFiscalYearEndDate",
+    "TypeOfDocument",
+    "TypeOfCurrentPeriod",
+    "DisclosedTime"
+  ],
+  "raw_cache_and_export_mismatches": [],
+  "reference_occurrences_checked": 100,
+  "all_selected_cached_derived_timestamps_basis_and_market_positions_match": true,
+  "all_references_are_latest_known_regular_statement_rows": true,
+  "selected_reference_checks_failed": [],
+  "selected_at_or_after_close_cases": 18,
+  "selected_date_disclosed_date_mismatch_cases": 0,
+  "market_excludes_2020_10_01": true,
+  "synthetic_close_and_market_closure_tests": [
+    {
+      "EffectiveTimestamp": "2020-09-30 14:59:59",
+      "ExpectedAvailableDate": "2020-09-30",
+      "ActualAvailableDate": "2020-09-30",
+      "Passed": true
+    },
+    {
+      "EffectiveTimestamp": "2020-09-30 15:00:00",
+      "ExpectedAvailableDate": "2020-10-02",
+      "ActualAvailableDate": "2020-10-02",
+      "Passed": true
+    },
+    {
+      "EffectiveTimestamp": "2020-10-01 12:00:00",
+      "ExpectedAvailableDate": "2020-10-02",
+      "ActualAvailableDate": "2020-10-02",
+      "Passed": true
+    },
+    {
+      "EffectiveTimestamp": "2020-10-02 14:59:59",
+      "ExpectedAvailableDate": "2020-10-02",
+      "ActualAvailableDate": "2020-10-02",
+      "Passed": true
+    },
+    {
+      "EffectiveTimestamp": "2020-10-02 15:00:00",
+      "ExpectedAvailableDate": "2020-10-05",
+      "ActualAvailableDate": "2020-10-05",
+      "Passed": true
+    }
+  ],
+  "limitations": [
+    "This checks the 20 selected cases and 87 underlying raw dataset rows, not the entire financial dataset.",
+    "Issuer-original figures and true dissemination times require independent issuer documents; raw ZIP matching alone does not establish their correctness.",
+    "The availability convention uses the first recorded trading close strictly after publication (15:00 JST for this historical sample), conservatively deferring exact-close disclosures.",
+    "The trading calendar is independently mapped from existing price-date groups with 2020-10-01 explicitly excluded; this is not a separate official exchange-calendar audit.",
+    "Generic NumericalCorrection rows remain excluded by the existing feature design; latest-known checks cover regular statements with an explicit accounting basis.",
+    "This subaudit does not endorse subtracting cumulative EPS across changing share denominators or split bases; EPS economic comparability is audited separately."
+  ]
+}

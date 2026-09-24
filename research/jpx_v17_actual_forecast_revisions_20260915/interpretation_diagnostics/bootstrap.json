@@ -1,0 +1,38 @@
+[
+  {
+    "Comparison": "eps_joint_minus_qoq_same_mask",
+    "ObservedDeltaSharpe": -0.003402806783109993,
+    "Lower95": -0.01134336454615859,
+    "Upper95": 0.006049031195020171,
+    "Replicates": 4000,
+    "BlockTradingDays": 20,
+    "ExploratoryNotMultipleTestingAdjusted": true
+  },
+  {
+    "Comparison": "sales_revision_minus_control",
+    "ObservedDeltaSharpe": -0.00041132131454241043,
+    "Lower95": -0.00103457404738288,
+    "Upper95": 0.00027388893324869866,
+    "Replicates": 4000,
+    "BlockTradingDays": 20,
+    "ExploratoryNotMultipleTestingAdjusted": true
+  },
+  {
+    "Comparison": "profit_revision_minus_control",
+    "ObservedDeltaSharpe": -0.0010339678908555918,
+    "Lower95": -0.0038521889937784114,
+    "Upper95": 0.0016706842862017378,
+    "Replicates": 4000,
+    "BlockTradingDays": 20,
+    "ExploratoryNotMultipleTestingAdjusted": true
+  },
+  {
+    "Comparison": "eps_revision_minus_control",
+    "ObservedDeltaSharpe": 0.003954332870640699,
+    "Lower95": 0.0005793278299057671,
+    "Upper95": 0.00831200032407137,
+    "Replicates": 4000,
+    "BlockTradingDays": 20,
+    "ExploratoryNotMultipleTestingAdjusted": true
+  }
+]

@@ -1,0 +1,63 @@
+processed sgd_only 1864363
+processed sgd_sqrt 1864363
+ Variant Period  Days    RankIC  PearsonIC  PricePartRankIC  FinancialPartRankIC  PredictionMean  PredictionStd  TargetMean  TargetStd      MSE  ZeroMSE  CrossSectionMeanBiasSquared  CenteredMSE  PredictionVariance  TargetVariance  PredictionTargetCovariance  FinancialAbsShare  MeanAbsoluteFinancial  MeanAbsolutePrice  LongWeightedReturn  ShortWeightedReturn  LongShortReturn  LongExcessUniverse  ShortExcessUniverse  RankICPositiveFraction  LongShortPositiveFraction    Sharpe  MedianDailyMSE  MedianDailyPredictionStd  FractionMSEBelowZeroPrediction  Top10MSEDaysFraction  MSEOverZero
+sgd_only    all   953 -0.002239  -0.001579        -0.001821            -0.002466        0.001503       0.095851    0.000176   0.020635 0.038203 0.000592                     0.001034     0.037168            0.036712        0.000449                   -0.000004           0.115863               0.005726           0.038324            0.000106             0.000201        -0.000095           -0.000070             0.000025                0.478489                   0.478489 -0.016856        0.004088                  0.054517                        0.001049              0.543722    64.507881
+sgd_only   2018   245  0.009448   0.007885         0.009859            -0.003636       -0.000246       0.064419   -0.000837   0.020489 0.008686 0.000587                     0.000884     0.007802            0.007386        0.000435                    0.000010           0.090724               0.004029           0.038185           -0.000571            -0.001004         0.000433            0.000266            -0.000166                0.542857                   0.514286  0.088660        0.003227                  0.049215                        0.004082              0.443727    14.799272
+sgd_only   2019   241 -0.005472  -0.006294        -0.005617            -0.006301        0.002102       0.098753    0.000876   0.018944 0.067203 0.000454                     0.000802     0.066400            0.066013        0.000372                   -0.000008           0.106498               0.005096           0.034879            0.000670             0.000938        -0.000268           -0.000206             0.000062                0.468880                   0.452282 -0.069624        0.003441                  0.050551                        0.000000              0.881481   148.130683
+sgd_only   2020   242 -0.004537   0.000002        -0.003273            -0.002431        0.005525       0.075118    0.000243   0.023552 0.011029 0.000841                     0.001542     0.009487            0.008898        0.000595                    0.000003           0.088637               0.004029           0.044253            0.000025             0.000182        -0.000157           -0.000218            -0.000062                0.475207                   0.483471 -0.019137        0.005080                  0.058663                        0.000000              0.321297    13.120632
+sgd_only   2021   225 -0.009040  -0.008529        -0.008920             0.002876       -0.001562       0.149266    0.000458   0.019470 0.068507 0.000479                     0.000900     0.067607            0.067174        0.000390                   -0.000021           0.182549               0.010072           0.035788            0.000326             0.000745        -0.000419           -0.000132             0.000287                0.422222                   0.462222 -0.090541        0.005297                  0.065626                        0.000000              0.558914   142.949057
+sgd_sqrt    all   953 -0.003963  -0.003804        -0.003975             0.001181        0.000255       0.014019    0.000176   0.020635 0.001596 0.000592                     0.000380     0.001216            0.000764        0.000449                   -0.000001           0.082784               0.000981           0.011971            0.000041             0.000320        -0.000279           -0.000135             0.000144                0.490031                   0.491081 -0.042182        0.000639                  0.006867                        0.160546              0.280587     2.694385
+sgd_sqrt   2018   245 -0.003371  -0.005131        -0.003147            -0.002808       -0.001436       0.011162   -0.000837   0.020489 0.001834 0.000587                     0.000523     0.001311            0.000882        0.000435                    0.000003           0.075547               0.000736           0.010618           -0.000910            -0.000728        -0.000182           -0.000072             0.000110                0.502041                   0.518367 -0.037719        0.000544                  0.005339                        0.187755              0.629581     3.124443
+sgd_sqrt   2019   241 -0.002699  -0.003087        -0.003101             0.001514        0.001319       0.013549    0.000876   0.018944 0.001427 0.000454                     0.000196     0.001232            0.000855        0.000372                   -0.000002           0.085111               0.000881           0.009790            0.000714             0.001023        -0.000310           -0.000163             0.000147                0.518672                   0.502075 -0.070657        0.000532                  0.005759                        0.149378              0.532999     3.146328
+sgd_sqrt   2020   242 -0.004669  -0.002489        -0.004270             0.000372        0.001017       0.014583    0.000243   0.023552 0.001773 0.000841                     0.000565     0.001208            0.000604        0.000595                   -0.000005           0.083788               0.001017           0.014364            0.000038             0.000353        -0.000315           -0.000206             0.000110                0.475207                   0.471074 -0.030156        0.000809                  0.009077                        0.173554              0.343501     2.109043
+sgd_sqrt   2021   225 -0.005204  -0.004537        -0.005499             0.006036        0.000138       0.017026    0.000458   0.019470 0.001326 0.000479                     0.000224     0.001102            0.000707        0.000390                   -0.000003           0.087090               0.001316           0.013206            0.000360             0.000672        -0.000312           -0.000098             0.000214                0.462222                   0.471111 -0.066391        0.000671                  0.008273                        0.128889              0.293734     2.766885
+{
+  "RankIC": {
+    "MeanDifference": -0.001723640745140745,
+    "MedianDifference": 0.0006572638971047587,
+    "SqrtHigherFraction": 0.5057712486883525,
+    "DailyDifferenceStd": 0.09734821383749535
+  },
+  "PearsonIC": {
+    "MeanDifference": -0.002225098803806426,
+    "MedianDifference": -0.00030659713881209163,
+    "SqrtHigherFraction": 0.49737670514165794,
+    "DailyDifferenceStd": 0.0793950518454539
+  },
+  "LongShortReturn": {
+    "MeanDifference": -0.00018360921344061162,
+    "MedianDifference": -3.351353337305643e-05,
+    "SqrtHigherFraction": 0.49422875131164745,
+    "DailyDifferenceStd": 0.007282607109812272
+  },
+  "MSE": {
+    "MeanDifference": -0.03660693329791088,
+    "MedianDifference": -0.003264626040736615,
+    "SqrtHigherFraction": 0.011542497376705142,
+    "DailyDifferenceStd": 0.31689758298676085
+  },
+  "MSEDecomposition": {
+    "CrossSectionMeanBiasSquared": -0.0006543688194355759,
+    "PredictionVariance": -0.03594815704590612,
+    "TargetVariance": 0.0,
+    "PredictionTargetCovariance": 2.203716284592502e-06
+  },
+  "overlap": {
+    "Period": "all",
+    "Days": 953,
+    "PredictionRankCorrelation": 0.32664226165391497,
+    "PredictionPearsonCorrelation": 0.25296544869872234,
+    "LongOverlapFraction": 0.308588667366212,
+    "ShortOverlapFraction": 0.3069150052465897,
+    "OnlyLongSqrtShortFraction": 0.08510493179433369,
+    "OnlyShortSqrtLongFraction": 0.07982686253934942
+  },
+  "notes": [
+    "All diagnostics use already-saved validation forecasts. No training or parameter selection.",
+    "Returns are decimal. LongShortReturn is long weighted return minus short weighted return; half of it is illustrative gross-one 50/50 portfolio return.",
+    "Spearman IC uses average tied ranks of g and Target, excluding missing/non-finite Target. Comparisons use the same stock universe.",
+    "Financial and price-part IC are fixed-prediction decomposition, not separately trained ablations and not causal attribution.",
+    "MSE = cross-sectional mean bias squared + prediction variance + target variance - 2 prediction-target covariance, then averaged equally across days.",
+    "Overlap is intersection size / 200 for each selected side; random set overlap would be about 200/N but does not account for common covariates."
+  ]
+}

@@ -1,0 +1,162 @@
+[
+  {
+    "validation_year": 2018,
+    "training_year": 2017,
+    "fit_asof": "2017-12-29",
+    "train_rows": 341063,
+    "v4_train_rows": 341063,
+    "last_training_label_exit": "2017-12-29",
+    "coefficients": {
+      "alpha": 0.0015008820192789103,
+      "T5": -6.314941502888641e-05,
+      "T22": 0.00019882754162986644,
+      "T60": -0.0001886470223277949,
+      "V5": 3.258514656885456e-05,
+      "V22": -0.0003464007593965465,
+      "V60": 1.9997884629570018e-05,
+      "P5xV5": -2.6121096134823507e-05,
+      "P22xV22": -5.4188212899164136e-05,
+      "P60xV60": 5.485931038546368e-05,
+      "PR1": 0.01143201044177842,
+      "VR1": 2.226688645047219e-05
+    },
+    "fit": {
+      "method": "direct raw-feature least squares; independent QR check; no input standardization or regularization",
+      "train_mse": 0.00036479832333157213,
+      "matrix_rank": 12,
+      "design_condition_number": 230.13495123329974,
+      "qr_max_coefficient_difference": 4.336808689942018e-17,
+      "normal_residual_max": 3.631646697012153e-18
+    },
+    "training_return_ranges": {
+      "PR1": {
+        "min": -0.24767801857585137,
+        "max": 0.5853658536585367
+      },
+      "VR1": {
+        "min": -0.9898477157360406,
+        "max": 286.5
+      }
+    }
+  },
+  {
+    "validation_year": 2019,
+    "training_year": 2018,
+    "fit_asof": "2018-12-28",
+    "train_rows": 451552,
+    "v4_train_rows": 451552,
+    "last_training_label_exit": "2018-12-28",
+    "coefficients": {
+      "alpha": -0.000926309701325401,
+      "T5": 0.0008905003420949619,
+      "T22": -0.00011585072992129655,
+      "T60": -0.0005532944481118374,
+      "V5": -0.000331222301887471,
+      "V22": 0.0002843953062698275,
+      "V60": 0.00013594496626758823,
+      "P5xV5": 0.00022317636994252798,
+      "P22xV22": -0.00020569209236868973,
+      "P60xV60": -5.548149143632543e-05,
+      "PR1": -0.01802491109896438,
+      "VR1": -2.3601824223503162e-05
+    },
+    "fit": {
+      "method": "direct raw-feature least squares; independent QR check; no input standardization or regularization",
+      "train_mse": 0.0005854594977907332,
+      "matrix_rank": 12,
+      "design_condition_number": 164.51633979009102,
+      "qr_max_coefficient_difference": 1.1449174941446927e-16,
+      "normal_residual_max": 7.484475562640492e-18
+    },
+    "training_return_ranges": {
+      "PR1": {
+        "min": -0.294973544973545,
+        "max": 0.4201680672268908
+      },
+      "VR1": {
+        "min": -0.9948717948717949,
+        "max": 610.9739534883721
+      }
+    }
+  },
+  {
+    "validation_year": 2020,
+    "training_year": 2019,
+    "fit_asof": "2019-12-30",
+    "train_rows": 450406,
+    "v4_train_rows": 450406,
+    "last_training_label_exit": "2019-12-30",
+    "coefficients": {
+      "alpha": 0.0007913401760043184,
+      "T5": 0.00011337014163487345,
+      "T22": 0.0002311854971906388,
+      "T60": -0.0003689016094923408,
+      "V5": 3.541787413362348e-05,
+      "V22": -0.00029551815759632167,
+      "V60": -4.0746455551748016e-05,
+      "P5xV5": 0.00010785663676352914,
+      "P22xV22": 9.392544313474126e-05,
+      "P60xV60": 3.522661471653578e-05,
+      "PR1": -0.023186720897168833,
+      "VR1": 5.046425126658193e-05
+    },
+    "fit": {
+      "method": "direct raw-feature least squares; independent QR check; no input standardization or regularization",
+      "train_mse": 0.0004464385328479082,
+      "matrix_rank": 12,
+      "design_condition_number": 192.45945399187121,
+      "qr_max_coefficient_difference": 1.1102230246251565e-16,
+      "normal_residual_max": 2.0653718474740983e-18
+    },
+    "training_return_ranges": {
+      "PR1": {
+        "min": -0.350262697022767,
+        "max": 0.48134777376654636
+      },
+      "VR1": {
+        "min": -0.9928057553956835,
+        "max": 1053.492125984252
+      }
+    }
+  },
+  {
+    "validation_year": 2021,
+    "training_year": 2020,
+    "fit_asof": "2020-12-30",
+    "train_rows": 465079,
+    "v4_train_rows": 465079,
+    "last_training_label_exit": "2020-12-30",
+    "coefficients": {
+      "alpha": 0.0003356108583795566,
+      "T5": -0.0003786063856114501,
+      "T22": 0.000647553102329284,
+      "T60": 0.00012576294097088844,
+      "V5": 0.0002556522802239384,
+      "V22": 0.0005528431172625309,
+      "V60": -0.0007353245175811423,
+      "P5xV5": -0.00013305809323372873,
+      "P22xV22": -0.0003664405316950722,
+      "P60xV60": 7.830539977620477e-05,
+      "PR1": 0.011604219539798394,
+      "VR1": -7.074010552558547e-05
+    },
+    "fit": {
+      "method": "direct raw-feature least squares; independent QR check; no input standardization or regularization",
+      "train_mse": 0.00083810942761336,
+      "matrix_rank": 12,
+      "design_condition_number": 138.22330928154273,
+      "qr_max_coefficient_difference": 2.949029909160572e-17,
+      "normal_residual_max": 5.101592951173057e-18
+    },
+    "training_return_ranges": {
+      "PR1": {
+        "min": -0.5785413744740533,
+        "max": 0.403225806451613
+      },
+      "VR1": {
+        "min": -0.993103448275862,
+        "max": 231.81728395061728
+      }
+    }
+  }
+]

@@ -1,0 +1,218 @@
+[
+  {
+    "validation_year": 2018,
+    "fit_asof": "2017-12-29",
+    "train_rows": 298439,
+    "training_first_signal": "2017-05-02",
+    "training_last_signal": "2017-12-27",
+    "last_training_label_exit": "2017-12-29",
+    "coefficients": {
+      "alpha": 0.001419781168054919,
+      "QPR5": 1.0453518329008978e-07,
+      "QPR22": -1.7913411150154e-09,
+      "QPR60": -3.924925385701132e-09,
+      "QVR5": -8.767166615798978e-09,
+      "QVR22": -1.215156870517348e-08,
+      "QVR60": 4.919739111957054e-09,
+      "QPR5xQVR5": 6.091988797574501e-12,
+      "QPR22xQVR22": -1.90312106033328e-09,
+      "QPR60xQVR60": 4.6245123142547563e-10,
+      "PR1": 0.000924903399181508
+    },
+    "fit": {
+      "solver": "SVD with reversible max-absolute column equilibration; QR cross-check; coefficients restored to raw units",
+      "rank": 11,
+      "svd_rcond": 2.4424906541753444e-15,
+      "equilibrated_condition_number": 817.0977495838981,
+      "internal_column_scales": [
+        1.0,
+        147709.93482820824,
+        3858337.3024845943,
+        68520.09726417126,
+        597810.5405413918,
+        873189.9482564449,
+        558427.6028204404,
+        172008092.7264313,
+        9148845.26430706,
+        870062.7264197116,
+        0.5853658536585367
+      ],
+      "qr_max_prediction_difference": 7.979727989493313e-17,
+      "equilibrated_normal_residual": 2.1265953579356945e-18,
+      "train_mse": 0.0003624496019095699
+    },
+    "validation_rows": 454181,
+    "previous_validation_rows": 462505,
+    "validation_mse": 0.0005949658210242424,
+    "previous_model_mse_same_rows": 0.0005913759645862475,
+    "zero_prediction_mse": 0.0005867232510998262,
+    "prediction_abs_quantiles": {
+      "0.5": 0.0014193563545182098,
+      "0.99": 0.0014864866356112964,
+      "1.0": 1.2463952477498255
+    },
+    "mean_daily_rank_ic": -0.0021103689589725247
+  },
+  {
+    "validation_year": 2019,
+    "fit_asof": "2018-12-28",
+    "train_rows": 450467,
+    "training_first_signal": "2018-01-04",
+    "training_last_signal": "2018-12-26",
+    "last_training_label_exit": "2018-12-28",
+    "coefficients": {
+      "alpha": -0.000836934138546781,
+      "QPR5": -1.1622003820739646e-08,
+      "QPR22": 1.1609425208936512e-08,
+      "QPR60": -2.378096357974648e-08,
+      "QVR5": -3.144206619011564e-09,
+      "QVR22": -1.3780355046216563e-08,
+      "QVR60": 2.7325077318170135e-08,
+      "QPR5xQVR5": -1.7178384807078683e-10,
+      "QPR22xQVR22": -3.396062609545876e-11,
+      "QPR60xQVR60": -7.765568293217999e-10,
+      "PR1": -0.008715123510131852
+    },
+    "fit": {
+      "solver": "SVD with reversible max-absolute column equilibration; QR cross-check; coefficients restored to raw units",
+      "rank": 11,
+      "svd_rcond": 2.4424906541753444e-15,
+      "equilibrated_condition_number": 2193.960347625135,
+      "internal_column_scales": [
+        1.0,
+        718281.2490141318,
+        132531.75847054983,
+        261967.3247236966,
+        482165.2793734797,
+        5747742.770674702,
+        1301048.254477089,
+        68399920.08532512,
+        692358294.0064722,
+        2740614.860520775,
+        0.4201680672268908
+      ],
+      "qr_max_prediction_difference": 4.388850394221322e-16,
+      "equilibrated_normal_residual": 3.8788254721053464e-18,
+      "train_mse": 0.0005854691148826751
+    },
+    "validation_rows": 452634,
+    "previous_validation_rows": 462577,
+    "validation_mse": 0.0004535180670957592,
+    "previous_model_mse_same_rows": 0.00045524684418653575,
+    "zero_prediction_mse": 0.0004514299277920354,
+    "prediction_abs_quantiles": {
+      "0.5": 0.0008370620288702948,
+      "0.99": 0.001371358537630888,
+      "1.0": 0.060552532558932184
+    },
+    "mean_daily_rank_ic": 0.01102450487132378
+  },
+  {
+    "validation_year": 2020,
+    "fit_asof": "2019-12-30",
+    "train_rows": 448864,
+    "training_first_signal": "2019-01-04",
+    "training_last_signal": "2019-12-26",
+    "last_training_label_exit": "2019-12-30",
+    "coefficients": {
+      "alpha": 0.000825800748541339,
+      "QPR5": -1.0278230305148638e-07,
+      "QPR22": 7.359809471738008e-09,
+      "QPR60": -1.3349720230537593e-08,
+      "QVR5": 1.5044715456414652e-09,
+      "QVR22": -5.209868699397674e-10,
+      "QVR60": 3.7536715394764705e-09,
+      "QPR5xQVR5": -7.93649706827408e-10,
+      "QPR22xQVR22": -2.057715603875612e-09,
+      "QPR60xQVR60": -5.007095541471154e-10,
+      "PR1": -0.014584457653996125
+    },
+    "fit": {
+      "solver": "SVD with reversible max-absolute column equilibration; QR cross-check; coefficients restored to raw units",
+      "rank": 11,
+      "svd_rcond": 2.4424906541753444e-15,
+      "equilibrated_condition_number": 1793.5750224091778,
+      "internal_column_scales": [
+        1.0,
+        282993.89748204715,
+        306546.68435215834,
+        679986.4730714898,
+        17347459.530304633,
+        1175966.7869334929,
+        897537.9029004799,
+        30796060.94337703,
+        7382079.345590974,
+        3570984.0599431517,
+        0.48134777376654636
+      ],
+      "qr_max_prediction_difference": 6.938893903907228e-17,
+      "equilibrated_normal_residual": 1.6131555586113547e-18,
+      "train_mse": 0.00044621471398133966
+    },
+    "validation_rows": 465507,
+    "previous_validation_rows": 473387,
+    "validation_mse": 0.0008337435871690012,
+    "previous_model_mse_same_rows": 0.0008334761062458853,
+    "zero_prediction_mse": 0.0008329884482148115,
+    "prediction_abs_quantiles": {
+      "0.5": 0.0008351713273571452,
+      "0.99": 0.0019309752621502454,
+      "1.0": 0.3817354564072848
+    },
+    "mean_daily_rank_ic": 0.007212135172391445
+  },
+  {
+    "validation_year": 2021,
+    "fit_asof": "2020-12-30",
+    "train_rows": 463587,
+    "training_first_signal": "2020-01-06",
+    "training_last_signal": "2020-12-28",
+    "last_training_label_exit": "2020-12-30",
+    "coefficients": {
+      "alpha": 0.0002850883421667713,
+      "QPR5": -3.489645557404798e-08,
+      "QPR22": 1.3885429387018677e-08,
+      "QPR60": -9.870612598902321e-08,
+      "QVR5": -4.1329522511899465e-08,
+      "QVR22": 6.269416327578896e-09,
+      "QVR60": -1.1792656210942352e-08,
+      "QPR5xQVR5": -1.4498130681510617e-09,
+      "QPR22xQVR22": -7.990276644041468e-10,
+      "QPR60xQVR60": 9.267259478287933e-09,
+      "PR1": 0.007593981211712209
+    },
+    "fit": {
+      "solver": "SVD with reversible max-absolute column equilibration; QR cross-check; coefficients restored to raw units",
+      "rank": 11,
+      "svd_rcond": 2.4424906541753444e-15,
+      "equilibrated_condition_number": 3639.306477377468,
+      "internal_column_scales": [
+        1.0,
+        665217.8965616567,
+        369203.59124347224,
+        2449236.550342796,
+        964154.2893362959,
+        1862168.191355364,
+        125350.40201888392,
+        14923445.754922766,
+        186019013.25017098,
+        12214603.5776259,
+        0.5785413744740533
+      ],
+      "qr_max_prediction_difference": 1.5959455978986625e-16,
+      "equilibrated_normal_residual": 3.007936199525001e-19,
+      "train_mse": 0.0008355751421471977
+    },
+    "validation_rows": 440509,
+    "previous_validation_rows": 446536,
+    "validation_mse": 0.0004803415381003428,
+    "previous_model_mse_same_rows": 0.00048073802356707915,
+    "zero_prediction_mse": 0.0004805587449718327,
+    "prediction_abs_quantiles": {
+      "0.5": 0.00028510299752855923,
+      "0.99": 0.0007709184346901723,
+      "1.0": 0.22272749368306327
+    },
+    "mean_daily_rank_ic": 0.004795146853292736
+  }
+]

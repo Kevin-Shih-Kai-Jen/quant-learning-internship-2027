@@ -1,0 +1,33 @@
+{
+  "name": "feature_10",
+  "feature": "OperatingProfitRevision",
+  "includes_feature": true,
+  "parameter_count": 13,
+  "sharpe": 0.0070221871241078525,
+  "scored_days": 953,
+  "mean_rank_ic": -0.0007348250342624893,
+  "rank_ic_days": 952,
+  "mean_hard_rank_mse": 0.16686791116732963,
+  "mean_return_mse": 0.0006653789936205319,
+  "training_updates": 1199,
+  "training_stock_days": 2325772,
+  "threshold_skipped_stock_days": 34,
+  "forecast_rows": 2326022,
+  "final_coefficients": {
+    "alpha": -0.0018776817109794359,
+    "T5": -0.0015688229031516011,
+    "T22": -0.004548456995749049,
+    "T60": -0.004512479330059857,
+    "V5": 0.0012036051675947046,
+    "V22": 0.001082903656572531,
+    "V60": 0.001188341537175783,
+    "P5xV5": -0.0005790374532747714,
+    "P22xV22": -0.0021039401969815555,
+    "P60xV60": -0.0013699717891493936,
+    "PR1": 0.0014002555493964459,
+    "VR1": -0.0008507282119140345,
+    "OperatingProfitRevision": -0.00020111939468390658
+  },
+  "parameter_asof": "2021-12-03",
+  "seconds": 3.159847834000061
+}

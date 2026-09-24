@@ -1,0 +1,156 @@
+[
+  {
+    "validation_year": 2018,
+    "fit_asof": "2017-12-29",
+    "train_rows": 344393,
+    "train_rows_by_signal_year": {
+      "2017": 344393
+    },
+    "training_first_signal": "2017-03-31",
+    "training_last_signal": "2017-12-27",
+    "last_training_label_exit": "2017-12-29",
+    "added_training_rows": 344393,
+    "coefficients": {
+      "alpha": 0.001438080031795213,
+      "PR5": 0.004986969407865181,
+      "PR22": -0.0016366873362346863,
+      "PR60": 0.000530314741071685,
+      "VR5": -1.5537471020892104e-05,
+      "VR22": -1.2531794061659138e-05,
+      "VR60": 4.9595320663095695e-05,
+      "PR5xVR5": 1.4635774949324939e-05,
+      "PR22xVR22": -1.6818439655250314e-05,
+      "PR60xVR60": -4.83647589141501e-05
+    },
+    "fit": {
+      "solver": "conjugate gradient; raw features; no preconditioning",
+      "iterations": 19,
+      "gradient_inf_norm": 1.8388068845354155e-15,
+      "ols_coefficient_max_error": 4.0766001685454967e-16,
+      "gram_condition_number": 407918.8629850728,
+      "train_mse": 0.0003628248103943542
+    },
+    "validation_rows": 462505,
+    "validation_mse": 0.0005878070980049944,
+    "previous_year_model_mse_same_rows": 0.0005878070980049944,
+    "zero_prediction_mse": 0.0005831706941317678,
+    "mean_daily_rank_ic": -0.0135711790913116
+  },
+  {
+    "validation_year": 2019,
+    "fit_asof": "2018-12-28",
+    "train_rows": 806860,
+    "train_rows_by_signal_year": {
+      "2017": 348147,
+      "2018": 458713
+    },
+    "training_first_signal": "2017-03-31",
+    "training_last_signal": "2018-12-26",
+    "last_training_label_exit": "2018-12-28",
+    "added_training_rows": 462467,
+    "coefficients": {
+      "alpha": 0.00017039841420286202,
+      "PR5": -0.001078528145610509,
+      "PR22": -0.00447943112038004,
+      "PR60": 0.0023136364535454126,
+      "VR5": -3.3895402094043005e-05,
+      "VR22": 1.280483447253714e-05,
+      "VR60": 3.6764834947610775e-05,
+      "PR5xVR5": 0.00011998272315842524,
+      "PR22xVR22": -3.27938645476757e-05,
+      "PR60xVR60": -3.7736125811475176e-05
+    },
+    "fit": {
+      "solver": "conjugate gradient; raw features; no preconditioning",
+      "iterations": 16,
+      "gradient_inf_norm": 8.272625206390272e-15,
+      "ols_coefficient_max_error": 4.407742617076882e-15,
+      "gram_condition_number": 143597.01911167914,
+      "train_mse": 0.000489112761556691
+    },
+    "validation_rows": 462577,
+    "validation_mse": 0.000447873222070168,
+    "previous_year_model_mse_same_rows": 0.0004517287246773768,
+    "zero_prediction_mse": 0.00044786138238770616,
+    "mean_daily_rank_ic": 0.009322920276631317
+  },
+  {
+    "validation_year": 2020,
+    "fit_asof": "2019-12-30",
+    "train_rows": 1269407,
+    "train_rows_by_signal_year": {
+      "2017": 348147,
+      "2018": 462532,
+      "2019": 458728
+    },
+    "training_first_signal": "2017-03-31",
+    "training_last_signal": "2019-12-26",
+    "last_training_label_exit": "2019-12-30",
+    "added_training_rows": 462547,
+    "coefficients": {
+      "alpha": 0.00046579979886407334,
+      "PR5": 0.00010719990447399113,
+      "PR22": -0.0035643917673856516,
+      "PR60": 0.0008334701212141178,
+      "VR5": -2.60603699139201e-05,
+      "VR22": -4.34457877650955e-06,
+      "VR60": 3.0442699166942265e-05,
+      "PR5xVR5": 2.524823749936312e-05,
+      "PR22xVR22": -1.5410014375606352e-06,
+      "PR60xVR60": -3.112540099701013e-05
+    },
+    "fit": {
+      "solver": "conjugate gradient; raw features; no preconditioning",
+      "iterations": 17,
+      "gradient_inf_norm": 1.5249628816660366e-14,
+      "ols_coefficient_max_error": 1.6447186020345124e-15,
+      "gram_condition_number": 102860.65830146064,
+      "train_mse": 0.00047459139746621615
+    },
+    "validation_rows": 473387,
+    "validation_mse": 0.0008306282965222559,
+    "previous_year_model_mse_same_rows": 0.0008303564358940669,
+    "zero_prediction_mse": 0.0008298715155399998,
+    "mean_daily_rank_ic": -0.004937037076813925
+  },
+  {
+    "validation_year": 2021,
+    "fit_asof": "2020-12-30",
+    "train_rows": 1744723,
+    "train_rows_by_signal_year": {
+      "2017": 348147,
+      "2018": 462532,
+      "2019": 462612,
+      "2020": 471432
+    },
+    "training_first_signal": "2017-03-31",
+    "training_last_signal": "2020-12-28",
+    "last_training_label_exit": "2020-12-30",
+    "added_training_rows": 475316,
+    "coefficients": {
+      "alpha": 0.0004395637434485832,
+      "PR5": -0.00012111005594331457,
+      "PR22": 0.0005354097469212221,
+      "PR60": -0.0012126518644134813,
+      "VR5": -3.164076181483653e-05,
+      "VR22": 1.808215040666469e-05,
+      "VR60": 4.1702468635384803e-07,
+      "PR5xVR5": 8.23363274701622e-06,
+      "PR22xVR22": -2.5865612179571684e-05,
+      "PR60xVR60": -5.6345151013845195e-06
+    },
+    "fit": {
+      "solver": "conjugate gradient; raw features; no preconditioning",
+      "iterations": 17,
+      "gradient_inf_norm": 3.3991770986493974e-15,
+      "ols_coefficient_max_error": 4.9615463105188995e-16,
+      "gram_condition_number": 77517.82374128762,
+      "train_mse": 0.0005714305345478217
+    },
+    "validation_rows": 446536,
+    "validation_mse": 0.0004783326919552572,
+    "previous_year_model_mse_same_rows": 0.0004787960546489861,
+    "zero_prediction_mse": 0.00047857975665563954,
+    "mean_daily_rank_ic": 0.006906887487200029
+  }
+]

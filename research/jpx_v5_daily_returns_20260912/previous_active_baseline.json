@@ -1,0 +1,32 @@
+{
+  "selected_on": "2026-09-12",
+  "reason": "User requested original level-T stock model under JPX ranking rules, without regime, long200 and short200 with official weights",
+  "mode": "jpx_competition_style_historical_ranking",
+  "baseline_directory": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_official_ranking_20260912",
+  "runner": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_official_ranking_20260912/run_experiment.py",
+  "stock_model_directory": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_official_ranking_20260912",
+  "stock_features": [
+    "T5",
+    "T22",
+    "T60",
+    "V5",
+    "V22",
+    "V60",
+    "P5xV5",
+    "P22xV22",
+    "P60xV60"
+  ],
+  "stock_training": "previous calendar year; unregularized MSE; original coefficients reproduced",
+  "regime": false,
+  "ridge": false,
+  "softmax": false,
+  "sign_transfer": false,
+  "portfolio_size_each_side": 200,
+  "rank_weights": "linear 2 to 1, most extreme rank on each side receives 2",
+  "official_style_unannualized_sharpe": 0.017499327610949928,
+  "annualized_reference_sharpe": 0.2777932138165174,
+  "formal_test_used": false,
+  "historical_universe_proxy": "provided core stocks per date, excluding contemporaneous SupervisionFlag",
+  "undefined_T_inference_fallback": "0 per missing base feature; products recomputed; training unchanged",
+  "previous_configuration": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_return_t_top10_20260911"
+}

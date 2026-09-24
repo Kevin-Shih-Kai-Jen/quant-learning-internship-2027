@@ -1,0 +1,51 @@
+{
+  "version": "v19",
+  "target": "EPS actual YoY",
+  "predictor": "EPS actual QoQ",
+  "formula": "(current-old)/abs(old)",
+  "raw_events_no_decay": true,
+  "training": "past availability days expanding OLS; joint abs<=100 mask; no forecast requirement",
+  "validation_start": "2018-12-28",
+  "validation_end": "2021-12-01",
+  "all_actual_events": 38568,
+  "valid_pairs": 27474,
+  "invalid_pairs": 11094,
+  "excluded_from_training": 219,
+  "primary": {
+    "N": 21813,
+    "Dates": 600,
+    "MSE": 33.641473328078966,
+    "RMSE": 5.800127009650648,
+    "BaselineMSE": 34.32016410279383,
+    "BaselineRMSE": 5.858341412276501,
+    "MSEImprovement": 0.019775277667148927,
+    "MAE": 1.800998814420927,
+    "MedianAbsoluteError": 0.6437734994643746
+  },
+  "including_extremes": {
+    "N": 21993,
+    "Dates": 600,
+    "MSE": 1749.8596441238944,
+    "RMSE": 41.83132371947958,
+    "BaselineMSE": 1730.2225605408125,
+    "BaselineRMSE": 41.595944039543234,
+    "MSEImprovement": -0.011349455284494825,
+    "MAE": 3.5012859952380206,
+    "MedianAbsoluteError": 0.6494023680948227
+  },
+  "validation_extreme_events": 180,
+  "ols_independent_fit_checks": 783,
+  "first_validation_training_n": 5432,
+  "last_validation_training_n": 27243,
+  "last_coefficients": {
+    "a": 0.3708321926198956,
+    "B": 0.139860932039988
+  }
+}
+             Scope  ValidationYear    N  Dates         MSE      RMSE  BaselineMSE  BaselineRMSE  MSEImprovement      MAE  MedianAbsoluteError
+        within_100            2019 7295    199   26.254906  5.123954    27.025508      5.198606        0.028514 1.530745             0.638992
+        within_100            2020 7249    216   25.503597  5.050109    26.041224      5.103060        0.020645 1.664583             0.645755
+        within_100            2021 7269    185   49.169947  7.012129    49.897074      7.063786        0.014573 2.208260             0.649244
+including_extremes            2019 7337    199  677.789011 26.034381   647.947318     25.454809       -0.046056 2.493499             0.641742
+including_extremes            2020 7312    216  817.119790 28.585307   791.989965     28.142316       -0.031730 3.016442             0.653239
+including_extremes            2021 7344    185 3749.584052 61.233847  3745.610659     61.201394       -0.001061 4.990843             0.658478

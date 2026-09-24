@@ -1,0 +1,33 @@
+{
+  "source_sha256": {
+    "jpx_v17_actual_forecast_revisions_20260915/features.py": "94776d3d108ccad11eb4c0517aa75ccce469a3fac847f03c3e62eb5d5f217de4",
+    "jpx_v17_actual_forecast_revisions_20260915/run.py": "7b2d23e0b57e2da41d08bf47d766a8e90112c0eadd54d2c727d9f835fdf0aeeb",
+    "jpx_v17_actual_forecast_revisions_20260915/audit.py": "86400798e4ad6fb74fae76b4bab351115c8a11ecec2e90db5c9c7e137963d726",
+    "jpx_v17_actual_forecast_revisions_20260915/report.py": "d09b48c8e826ddecb39d2e644bbbc8f9d6a2923c4b4cc15d44cd389995c50d3f",
+    "jpx_v17_actual_forecast_revisions_20260915/experiment_plan.md": "442a17802ca65460115aeea09cca0cd20977337b50da07c79898560be7945491",
+    "jpx_v17_actual_forecast_revisions_20260915/financial_signal_features.pkl": "5a6340b793d4e3e772b4e8f43cf12a17dd1452c1fa98fd9a091c4b1f4d686a1e",
+    "jpx_v17_actual_forecast_revisions_20260915/feature_audit.json": "ed25b4bf7ab928bde6ca11da50e831b7bf4e73bf57f837c18320deed5db61cb7",
+    "jpx_v8_soft_rank_20260912/inputs.pkl": "6b0ff60bfb8eab20ec7c6e087e746dd6e0ccc38b9633d1a11d98477d84857bc6",
+    "jpx_v16_single_financial_v7_20260915/feature_15/results.json": "24b91c81ccc980644c9987341a5a7fa3a90132760b1f3de79c8718af1cd38180",
+    "jpx_v16_single_financial_v7_20260915/feature_14/results.json": "c3c2d71e7e86bed125517d135b00232ab353d28a5cc123d0296ef972edf0496a",
+    "jpx_v16_single_financial_v7_20260915/feature_12/results.json": "138dc9a88f00867ebffad147deda7e0bee0bce581ebaf00f0258df7fcda863d9",
+    "jpx_v16_single_financial_v7_20260915/feature_05/results.json": "2e55ab3b6cf7d2290c06a51dc11ca49f596c80c4fb7f709623c170d584d5089b",
+    "jpx_v16_single_financial_v7_20260915/feature_10/results.json": "65617e38c0b3812f2b83badad325c3494d5b947d7eef3694d5c370a6a7aa30a6",
+    "jpx_v16_single_financial_v7_20260915/price_only/results.json": "d58f6655772658c00ce20b028007bc5738c32268366e1ebff2602915bddc5eab",
+    "jpx_v16_single_financial_v7_20260915/feature_13/results.json": "308cb88a33fa314e3ff9a7810b77b2936bc397c328a5538cfb4ef2127c65808d",
+    "jpx_v16_single_financial_v7_20260915/feature_11/results.json": "8265051a13632b7dcbbce32634611f1db28dd4a2b7900a2776752d8cb8b3c2f2"
+  },
+  "reused_old_models": [
+    "feature_05",
+    "feature_10",
+    "feature_11",
+    "feature_12",
+    "feature_13",
+    "feature_14",
+    "feature_15",
+    "price_only"
+  ],
+  "revisions_denominator": "signed old quarterly forecast",
+  "zero_denominator": "no event",
+  "validation_common_days": 953
+}

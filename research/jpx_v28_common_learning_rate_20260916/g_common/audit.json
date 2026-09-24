@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "forecasts_checked": 2326022,
+  "updates_checked": 1199,
+  "official_sharpe": 0.0008114522128536463,
+  "max_forecast_error": 1.66644475996236e-13,
+  "training_skipped": 0,
+  "reused": false
+}

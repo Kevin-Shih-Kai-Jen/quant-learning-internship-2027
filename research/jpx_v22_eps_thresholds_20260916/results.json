@@ -1,0 +1,150 @@
+{
+  "version": "v22",
+  "audit_passed": true,
+  "comparison": [
+    {
+      "Variant": "skip100",
+      "Label": "超過100倍跳過",
+      "Sharpe": -0.0002315655374586234,
+      "DailyMeanMSE": 0.0007733306014031463,
+      "PooledStockDayMSE": 0.0007723346116023002,
+      "RootMeanDailyMSEPct": 2.780882236634889,
+      "DeltaSharpeVs100": 0.0,
+      "MSEChangeVs100Pct": 0.0,
+      "DailyMSEP95": 0.0018508422118695593,
+      "DailyMSEMax": 0.0154238469133003,
+      "AbsPredictionP99": 0.034179813625014654,
+      "AbsPredictionP999": 0.08166248359167563,
+      "AbsPredictionMax": 4.7323714680713405,
+      "PredictionsAbove100Pct": 29,
+      "RankIC": -0.0012520571553714752,
+      "TrainingStockDays": 2322781,
+      "SkippedTrainingStockDays": 3025,
+      "SkipPct": 0.13006243856968294,
+      "MedianLearningRate": 0.0543240715359297,
+      "MSEImprovementVsZeroPct": -30.582553786133857
+    },
+    {
+      "Variant": "skip10",
+      "Label": "超過10倍跳過",
+      "Sharpe": 0.0030303545159861413,
+      "DailyMeanMSE": 0.0009993150787688373,
+      "PooledStockDayMSE": 0.0009959076347393005,
+      "RootMeanDailyMSEPct": 3.1611945191158943,
+      "DeltaSharpeVs100": 0.003261920053444765,
+      "MSEChangeVs100Pct": 29.222233926300124,
+      "DailyMSEP95": 0.0023592507149222193,
+      "DailyMSEMax": 0.0625069698270405,
+      "AbsPredictionP99": 0.036426912809206055,
+      "AbsPredictionP999": 0.08625182320857853,
+      "AbsPredictionMax": 10.891547498989736,
+      "PredictionsAbove100Pct": 48,
+      "RankIC": -0.0006214360870281608,
+      "TrainingStockDays": 2293265,
+      "SkippedTrainingStockDays": 32541,
+      "SkipPct": 1.3991278722301,
+      "MedianLearningRate": 0.0729168568415275,
+      "MSEImprovementVsZeroPct": -68.7416931204546
+    },
+    {
+      "Variant": "no_skip",
+      "Label": "完全不跳過",
+      "Sharpe": -0.04662784524566025,
+      "DailyMeanMSE": 0.0006436570738789587,
+      "PooledStockDayMSE": 0.0006439062469582273,
+      "RootMeanDailyMSEPct": 2.5370397590084366,
+      "DeltaSharpeVs100": -0.04639627970820163,
+      "MSEChangeVs100Pct": -16.768187795608426,
+      "DailyMSEP95": 0.0014533482465854189,
+      "DailyMSEMax": 0.0193838805256017,
+      "AbsPredictionP99": 0.02312943396260448,
+      "AbsPredictionP999": 0.06664813301072485,
+      "AbsPredictionMax": 2.0446334685847045,
+      "PredictionsAbove100Pct": 4,
+      "RankIC": -0.004407042977396601,
+      "TrainingStockDays": 2325806,
+      "SkippedTrainingStockDays": 0,
+      "SkipPct": 0.0,
+      "MedianLearningRate": 0.0141878998831224,
+      "MSEImprovementVsZeroPct": -8.686225938973568
+    }
+  ],
+  "paired_bootstrap": [
+    {
+      "Comparison": "skip10 - skip100",
+      "Metric": "Sharpe",
+      "Difference": 0.003261920053444765,
+      "CI95Low": -0.021882285428738442,
+      "CI95High": 0.02940419311955784
+    },
+    {
+      "Comparison": "skip10 - skip100",
+      "Metric": "MSE",
+      "Difference": 0.00022598447736569107,
+      "CI95Low": 4.1954196457527037e-05,
+      "CI95High": 0.0005434389856847244
+    },
+    {
+      "Comparison": "no_skip - skip100",
+      "Metric": "Sharpe",
+      "Difference": -0.04639627970820163,
+      "CI95Low": -0.10724662346429775,
+      "CI95High": 0.017132648426301935
+    },
+    {
+      "Comparison": "no_skip - skip100",
+      "Metric": "MSE",
+      "Difference": -0.0001296735275241876,
+      "CI95Low": -0.0002677685615992067,
+      "CI95High": -4.516746682473742e-05
+    },
+    {
+      "Comparison": "skip10 - no_skip",
+      "Metric": "Sharpe",
+      "Difference": 0.04965819976164639,
+      "CI95Low": -0.01476582260576183,
+      "CI95High": 0.11338503593600058
+    },
+    {
+      "Comparison": "skip10 - no_skip",
+      "Metric": "MSE",
+      "Difference": 0.00035565800488987867,
+      "CI95Low": 9.529627464610298e-05,
+      "CI95High": 0.0008098761310496031
+    }
+  ],
+  "learning_rates": [
+    {
+      "Variant": "skip100",
+      "MedianRate": 0.0543240715359297,
+      "MinRate": 0.0001904846065143,
+      "MedianRateRatioVs100": 1.0,
+      "RateRatioP01Vs100": 1.0,
+      "FractionRateBelowTenthOf100": 0.0
+    },
+    {
+      "Variant": "skip10",
+      "MedianRate": 0.0729168568415275,
+      "MinRate": 0.0001894764777237,
+      "MedianRateRatioVs100": 1.0109876832070923,
+      "RateRatioP01Vs100": 0.98433303168382,
+      "FractionRateBelowTenthOf100": 0.0
+    },
+    {
+      "Variant": "no_skip",
+      "MedianRate": 0.0141878998831224,
+      "MinRate": 3.3943859288752513e-06,
+      "MedianRateRatioVs100": 0.27224476936075503,
+      "RateRatioP01Vs100": 0.0004632131333594121,
+      "FractionRateBelowTenthOf100": 0.3286071726438699
+    }
+  ],
+  "zero_forecast_daily_mean_mse": 0.0005922158657347868,
+  "v7_reference": {
+    "sharpe": 0.0076788715624210736,
+    "mse": 0.0006654329991342864
+  },
+  "validation_days": 953,
+  "validation_stock_days": 1864363,
+  "validation_known_target_stock_days": 1864360
+}

@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "pdf_pages": 2,
+  "all_pages_visually_reviewed": true,
+  "zip_crc_passed": true,
+  "final_audit_passed": true,
+  "active_baseline": "v7",
+  "zip_sha256": "e26f20695f7cc043d82040a8d7758abf04cd9704dd57f30a8cdc1a8f7231b937"
+}

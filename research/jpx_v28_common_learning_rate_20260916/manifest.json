@@ -1,0 +1,36 @@
+{
+  "source_sha256": {
+    "JPX-experiment-defaults.json": "4195fa1c3d96235756a3ba07c64c597355856f569075e1d2330b69c1bd5eddd2",
+    "jpx_v8_soft_rank_20260912/inputs.pkl": "6b0ff60bfb8eab20ec7c6e087e746dd6e0ccc38b9633d1a11d98477d84857bc6",
+    "jpx_v27_profit_forecast_state_20260916/financial_signal_features.pkl": "251a27ee354440c53853cc294c91dfdaff68fc6717fb2d8267cc9febd7668ead",
+    "jpx_v27_profit_forecast_state_20260916/feature_audit.json": "c52b0e565c09a9eec55ccebd4f6a68dc36a5a32ef272ba4b141de9e4001c2134",
+    "jpx_v27_profit_forecast_state_20260916/feature_manifest.json": "36bd185310a6fc106d181ad6f5a16b634d626f68c7f3e6b9529efed6944e970c",
+    "jpx_v27_profit_forecast_state_20260916/run.py": "f7d19467f2d8815f4031ee7a3cce34ba9686a6a5947690c29773502445791d3f",
+    "jpx_v27_profit_forecast_state_20260916/features.py": "47a876de1e4d4e4340a29e11edc6101c8a2389979aebc8ae997268361e9e5e46",
+    "jpx_v28_common_learning_rate_20260916/run.py": "2e43a00075a5f1cd7242f733ac8c0c3e764dc5001cdd6108a9fe742ffbddbfc5",
+    "jpx_v28_common_learning_rate_20260916/experiment_plan.md": "8384e9ecaca5d46ed29cc02217e4188fed23892f7d2a88d249e7afcd6e72d331",
+    "jpx_v28_common_learning_rate_20260916/common_learning_rates.csv": "d0be70a92db40e47d793465e24ab18a79c6ca9df3c5ae593e5f07aa07648bfb9",
+    "jpx_v23_g_thresholds_20260916/no_skip/daily_metrics.csv": "d2101669f04f470acc9dc2b78f37b4fb32dd00e2e316946f97db84c7c972a410",
+    "jpx_v23_g_thresholds_20260916/no_skip/results.json": "4b4dd937e3830ebd16097a69784f2977019c3cbeca5e015f49675fad64a868d9",
+    "jpx_v23_g_thresholds_20260916/no_skip/training_updates.csv": "de323dcd1f15f85ee5066da9ffb8e4189de70104cc94146e39a9fdcc32d8cfef",
+    "jpx_v27_profit_forecast_state_20260916/overwrite/daily_metrics.csv": "965523c40555fc5f837e3ce7de292f73b8db08e8396b3b42629c970e4ffd3529",
+    "jpx_v27_profit_forecast_state_20260916/overwrite/results.json": "59221006e0038f2d8c8dde91da7e74787819536f0ebd2b202c4a795b481679ef",
+    "jpx_v27_profit_forecast_state_20260916/overwrite/training_updates.csv": "8be4a81b1bd43c742eabfb1e3e8ed217eb2299680f99431161a0092e8324fed2",
+    "jpx_v27_profit_forecast_state_20260916/change_old/daily_metrics.csv": "264b8a1d1cae7b2a16d0a2d9bda2b5d0b28ba6c92e067e1b1179d4285b2e2bc4",
+    "jpx_v27_profit_forecast_state_20260916/change_old/results.json": "ee375ac1009edaa2b3107af1163c8f7b19b4f5f27fecc3d760824358bb544841",
+    "jpx_v27_profit_forecast_state_20260916/change_old/training_updates.csv": "f5b2db9dd777f52a35c4105a6b9f3a8117de367d1b59508456f7b45a7e125a47"
+  },
+  "training_threshold": null,
+  "validation_threshold": null,
+  "models": {
+    "g_common": [],
+    "overwrite": [
+      "ProfitLatestYoY"
+    ],
+    "change_old": [
+      "ProfitYoYChange",
+      "ProfitPreviousYoY"
+    ]
+  },
+  "learning_rate": "same per-day scalar: min(A own spectral rate, B own spectral rate); no outcome-based tuning"
+}

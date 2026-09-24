@@ -1,0 +1,4 @@
+﻿ValidationRank,Variant,Model,Label,Multiplier,Sharpe,RankIC,ValidationDays
+1,c1_change_old,change_old,B：差額＋舊值,1.0,0.002223593758919294,-0.0013705999066653068,953
+2,c1_overwrite,overwrite,A：新值覆蓋,1.0,0.001063055157190221,-0.0014692149406036869,953
+3,c1_g_common,g_common,純g,1.0,0.000811452212853662,-0.0013888306369024732,953

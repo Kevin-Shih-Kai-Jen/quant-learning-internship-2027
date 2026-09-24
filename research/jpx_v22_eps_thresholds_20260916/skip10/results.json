@@ -1,0 +1,43 @@
+{
+  "variant": "skip10",
+  "features": [
+    "EPSActualQoQ",
+    "EPSActualGrowth",
+    "EPSExpectedGrowth",
+    "EPSForecastActualQoQ",
+    "EPSForecastActualYoY",
+    "EPSRevisionRelative"
+  ],
+  "threshold": 10.0,
+  "parameter_count": 18,
+  "sharpe": 0.003030354515986138,
+  "mean_rank_ic": -0.0006214360870281631,
+  "mean_return_mse": 0.000999315078768889,
+  "mean_hard_rank_mse": 0.1668490136467611,
+  "training_stock_days": 2293265,
+  "threshold_skipped_stock_days": 32541,
+  "updates": 1199,
+  "forecast_rows": 2326022,
+  "days": 953,
+  "final_coefficients": {
+    "alpha": -0.0018993345620459939,
+    "T5": -0.0014780845279183535,
+    "T22": -0.004580162323776055,
+    "T60": -0.004556726687573673,
+    "V5": 0.0010804298771915164,
+    "V22": 0.001030320186890874,
+    "V60": 0.0011572581879849965,
+    "P5xV5": -0.0007139525802234167,
+    "P22xV22": -0.0021894960524624914,
+    "P60xV60": -0.001285039742287405,
+    "PR1": 0.001394500460988547,
+    "VR1": -0.0007774701765564049,
+    "EPSActualQoQ": 2.1281566680336826e-05,
+    "EPSActualGrowth": -6.11284616588634e-05,
+    "EPSExpectedGrowth": -0.00016940373956995524,
+    "EPSForecastActualQoQ": -0.00010381436576400495,
+    "EPSForecastActualYoY": 0.00017670214998497148,
+    "EPSRevisionRelative": 2.7297274270404297e-05
+  },
+  "parameter_asof": "2021-12-03"
+}

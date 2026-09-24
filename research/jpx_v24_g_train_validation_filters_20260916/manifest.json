@@ -1,0 +1,25 @@
+{
+  "source_sha256": {
+    "jpx_v23_g_thresholds_20260916/audit.json": "41418d70f9418609cf93046fb407b42dcc3513af2026fc6a8d036b06ed2ef9a3",
+    "jpx_v23_g_thresholds_20260916/run.py": "1f4da07b7cae418de1ef0526b10a0d9202bfdf24f45af9d7979cee9c0384c241",
+    "jpx_v14_filtered_forecast_events_20260914/financial_signal_features.pkl": "bf067c7cea6c1c7d14cd0bdbeda5ae995590f43fa1c04670e30b31036d5be03d",
+    "jpx_v17_actual_forecast_revisions_20260915/financial_signal_features.pkl": "5a6340b793d4e3e772b4e8f43cf12a17dd1452c1fa98fd9a091c4b1f4d686a1e",
+    "jpx_v8_soft_rank_20260912/inputs.pkl": "6b0ff60bfb8eab20ec7c6e087e746dd6e0ccc38b9633d1a11d98477d84857bc6",
+    "jpx_v24_g_train_validation_filters_20260916/run.py": "52d2a6f7ce07625656effdbfcb47198fdb691570e6be8e83fc737836621f0374",
+    "jpx_v24_g_train_validation_filters_20260916/experiment_plan.md": "c4d4e7205dbc585a86b6d4546b06cbc45d3e1eaa347a733c0ae3057509483179",
+    "jpx_v23_g_thresholds_20260916/no_skip/predictions.npz": "a29f497479e57fa928608dd9d9776212b49bcd5d93736b4ec684e658dda1ecff",
+    "jpx_v23_g_thresholds_20260916/no_skip/parameter_history.csv": "106e518a715d3fa6f9eced434495b0d5e051a9aeca290bf7effeab627aedfe3e",
+    "jpx_v23_g_thresholds_20260916/no_skip/training_updates.csv": "de323dcd1f15f85ee5066da9ffb8e4189de70104cc94146e39a9fdcc32d8cfef",
+    "jpx_v23_g_thresholds_20260916/no_skip/results.json": "4b4dd937e3830ebd16097a69784f2977019c3cbeca5e015f49675fad64a868d9",
+    "jpx_v23_g_thresholds_20260916/skip100/predictions.npz": "0f6519ca5be14aee70167d0906c8205a4fbfba723b2a7a8a0772a971b5ff92d1",
+    "jpx_v23_g_thresholds_20260916/skip100/parameter_history.csv": "0a6a3ce9ea49f70233873c9d083966b42c5226a3c96c11d74c2269a12fdb0e80",
+    "jpx_v23_g_thresholds_20260916/skip100/training_updates.csv": "f44f29d6a1147c8d6cdca8feea6efec80f40beeeb737f34378d53c1ea600e9a2",
+    "jpx_v23_g_thresholds_20260916/skip100/results.json": "b61a6a5c6bcef5d86b7f5d1b99ec61e60c348f94a6c58bf5cbb50a41a1b2a2b9",
+    "jpx_v23_g_thresholds_20260916/skip10/predictions.npz": "52c1ff207df9c3dbd26156405adda95aae4e99556c091584f73437498803e6b8",
+    "jpx_v23_g_thresholds_20260916/skip10/parameter_history.csv": "ca2bdd34d37604aa07d2f887699e36c21b65183c38b289fcc4c5ef71884f5595",
+    "jpx_v23_g_thresholds_20260916/skip10/training_updates.csv": "e1fe57cd30c421fe22be349fb78ce4b123c3d5ad5a84f575a1df7769e8ea2347",
+    "jpx_v23_g_thresholds_20260916/skip10/results.json": "ad29c7fc8c5e07fdda2900886fdf30f73c902595c120c2f91d98bfb157bca5f1"
+  },
+  "training_reused_unchanged": true,
+  "threshold_uses_only_signal_date_features": true
+}

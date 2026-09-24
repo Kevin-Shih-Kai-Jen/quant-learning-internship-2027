@@ -1,0 +1,27 @@
+{
+  "version": "v10",
+  "description": "v7 ordinary return MSE with v9 per-stock SGD and frozen 10-session operating-margin YoY decay; paired zero-financial-feature control",
+  "directory": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v10_mse_sgd_financial_20260913",
+  "status": "completed_experiment",
+  "main_variant": "mse_sgd_financial",
+  "reference_variant": "mse_sgd_control",
+  "features": [
+    "T5",
+    "T22",
+    "T60",
+    "V5",
+    "V22",
+    "V60",
+    "P5xV5",
+    "P22xV22",
+    "P60xV60",
+    "PR1",
+    "VR1",
+    "FinancialMarginYoYDecay"
+  ],
+  "soft_rank_used": false,
+  "decay_sessions": 10,
+  "official_style_unannualized_sharpe": -0.039490891392459114,
+  "control_official_style_unannualized_sharpe": -0.043113445490934314,
+  "audit_passed": true
+}

@@ -1,0 +1,14 @@
+{
+  "v7_equal": {
+    "single_update_equals_theta_minus_learning_rate_gradient": true,
+    "analytic_gradient_and_finite_difference_agree": true,
+    "daily_mse_decreases": true,
+    "positive_weight_stocks": 1200
+  },
+  "v7_jpx": {
+    "single_update_equals_theta_minus_learning_rate_gradient": true,
+    "analytic_gradient_and_finite_difference_agree": true,
+    "daily_mse_decreases": true,
+    "positive_weight_stocks": 400
+  }
+}

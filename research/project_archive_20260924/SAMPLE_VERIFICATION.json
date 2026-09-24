@@ -1,0 +1,11 @@
+{
+  "original_path": "jpx_return_mean_20260911/price_return_1d.pkl",
+  "compressed_path": "sample_lossless/price_return_1d.pkl.gz",
+  "original_bytes": 55981872,
+  "compressed_bytes": 13572387,
+  "sha256_original_and_restored": "4f0b6dcfce9f7f85efe7613a6c008acb60aa8dfdcae6e1dddd809a9e6259e411",
+  "round_trip_verified": true,
+  "original_retained": false,
+  "sample_copy_removed_after_full_archival": true,
+  "verified_archive_path": "compressed_data/jpx_return_mean_20260911/price_return_1d.pkl.gz"
+}

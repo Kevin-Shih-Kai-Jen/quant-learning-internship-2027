@@ -1,0 +1,20 @@
+{
+  "version": "v18",
+  "description": "Freeze point-in-time v7 g; learn EPS QoQ, YoY, and joint coefficients with shared training mask and step schedule",
+  "directory": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v18_frozen_g_eps_20260915",
+  "status": "completed_experiment",
+  "variants": [
+    "qoq",
+    "yoy",
+    "joint"
+  ],
+  "baseline": "v7_equal",
+  "common_days": 953,
+  "audit_passed": true,
+  "variant_sharpes": {
+    "g": 0.0076788715624210736,
+    "qoq": 0.006583673745570535,
+    "yoy": 0.006467783069611891,
+    "joint": 0.006275861271222179
+  }
+}

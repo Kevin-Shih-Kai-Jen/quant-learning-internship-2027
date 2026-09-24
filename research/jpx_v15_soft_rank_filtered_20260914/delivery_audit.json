@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "variants": 2,
+  "comparison_rows": 4,
+  "validation_days_each": 953,
+  "all_training_and_forecast_audits_passed": true,
+  "input_hashes_unchanged": true,
+  "active_baseline": "v7_equal",
+  "latest_experiment": "v15",
+  "report_complete": true
+}

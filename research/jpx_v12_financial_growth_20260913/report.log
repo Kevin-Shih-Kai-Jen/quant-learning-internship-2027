@@ -1,0 +1,83 @@
+{
+  "comparison": {
+    "price_only": {
+      "common_days": 953,
+      "official_unannualized_sharpe": -0.028080452381802574,
+      "mean_daily_forecast_mse": 0.0044915722564777966,
+      "mean_daily_spread": -0.033405747510733774,
+      "sample_std_daily_spread": 1.1896442071703317
+    },
+    "six_financial": {
+      "common_days": 953,
+      "official_unannualized_sharpe": 0.00887445309235869,
+      "mean_daily_forecast_mse": 0.5438716426558454,
+      "mean_daily_spread": 0.00994910304503927,
+      "sample_std_daily_spread": 1.121094780883557
+    },
+    "v11_decay_std22": {
+      "common_days": 953,
+      "official_unannualized_sharpe": -0.023271783409472835,
+      "mean_daily_forecast_mse": 0.004782250937243626,
+      "mean_daily_spread": -0.027438017717581437,
+      "sample_std_daily_spread": 1.1790251410819133
+    },
+    "v7_equal": {
+      "common_days": 953,
+      "official_unannualized_sharpe": 0.0076788715624210805,
+      "mean_daily_forecast_mse": 0.0006654329991343369,
+      "mean_daily_spread": 0.009116532667688224,
+      "sample_std_daily_spread": 1.1872229654553386
+    }
+  },
+  "annual": [
+    {
+      "validation_year": 2018,
+      "days": 245,
+      "price_only": 0.10183509818933477,
+      "price_only_forecast_mse": 0.004484553451229432,
+      "six_financial": -0.0116242862391192,
+      "six_financial_forecast_mse": 0.3927877389288721,
+      "v11_decay_std22": 0.10111671664712582,
+      "v11_decay_std22_forecast_mse": 0.004485837487794902,
+      "v7_equal": -0.011513767098899553,
+      "v7_equal_forecast_mse": 0.0006659566651103739
+    },
+    {
+      "validation_year": 2019,
+      "days": 241,
+      "price_only": -0.0863510690705296,
+      "price_only_forecast_mse": 0.0036851528204093036,
+      "six_financial": -0.051773930186270405,
+      "six_financial_forecast_mse": 0.5383698172672855,
+      "v11_decay_std22": -0.08844803297008294,
+      "v11_decay_std22_forecast_mse": 0.003685018888066039,
+      "v7_equal": 0.05006717553385377,
+      "v7_equal_forecast_mse": 0.00048808446997050014
+    },
+    {
+      "validation_year": 2020,
+      "days": 242,
+      "price_only": -0.03642459807651308,
+      "price_only_forecast_mse": 0.005788214131301307,
+      "six_financial": 0.00807041748201486,
+      "six_financial_forecast_mse": 0.5868504770285363,
+      "v11_decay_std22": -0.025741019443431944,
+      "v11_decay_std22_forecast_mse": 0.005870950195459784,
+      "v7_equal": 0.05085734661690185,
+      "v7_equal_forecast_mse": 0.0009913960390998278
+    },
+    {
+      "validation_year": 2021,
+      "days": 225,
+      "price_only": -0.11644976467396566,
+      "price_only_forecast_mse": 0.003968369401682539,
+      "six_financial": 0.07338074658504791,
+      "six_financial_forecast_mse": 0.6680521689383351,
+      "v11_decay_std22": -0.1083294782022802,
+      "v11_decay_std22_forecast_mse": 0.005109313152703292,
+      "v7_equal": -0.08760480813901657,
+      "v7_equal_forecast_mse": 0.0005042314066574783
+    }
+  ],
+  "report": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v12_financial_growth_20260913/JPX-v12-six-financial-features-report.md"
+}

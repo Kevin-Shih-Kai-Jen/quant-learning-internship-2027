@@ -1,0 +1,2 @@
+{"overwrite": {"passed": true, "forecasts_checked": 2326022, "updates_checked": 1199, "official_sharpe": 0.011121961475682621, "max_forecast_error": 1.6736612096224235e-13, "training_skipped": 0, "reused": false}}
+{"change_old": {"passed": true, "forecasts_checked": 2326022, "updates_checked": 1199, "official_sharpe": 0.0019352724446324342, "max_forecast_error": 1.6620038678638593e-13, "training_skipped": 0, "reused": false}}

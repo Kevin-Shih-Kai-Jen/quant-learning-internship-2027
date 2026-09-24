@@ -1,0 +1,61 @@
+{
+  "passed": true,
+  "R_events": 23486,
+  "R_signal_reconstructed_all_rows": true,
+  "F_signal_reconstructed_all_rows": true,
+  "signal_timing_checked": true,
+  "valid_F_updates_matching_R_events": 21135,
+  "all_R_event_relations": {
+    "future_quarter": 23486
+  },
+  "valid_F_event_relations": {
+    "future_quarter": 21135
+  },
+  "R_inherited_coverage_rule": "v14 A event requires both actual growth and preannouncement expected growth finite",
+  "R_state": "sum of decayed historical actual events",
+  "F_state": "latest forecast state only, decayed since last state update",
+  "same_announcement_future_forecast_identity_checked": true,
+  "contribution_reconstruction_passed": true,
+  "frozen_g_exactly_matches_control": true
+}
+                  Sample  StockDays  Pearson  Spearman  OppositeSignFraction
+          all_validation    1864363 0.005161  0.099486              0.304663
+ near_update_0_to_2_days      93231 0.004537  0.106554              0.312096
+              other_days    1771132 0.005134  0.098913              0.304272
+            both_nonzero    1278751 0.007666  0.112285              0.444185
+both_nonzero_near_update      65983 0.006738  0.119178              0.440977
+  Variant  MeanAbsR  MeanAbsF  BothNonzeroStockDays  OppositeContributionFraction  AggregateCancellationFraction
+  joint_r  0.000021  0.000000                     0                           NaN                       0.000000
+  joint_f  0.000000  0.000018                     0                           NaN                       0.000000
+ joint_rf  0.000021  0.000018               1278749                      0.491770                       0.074577
+ frozen_r  0.000022  0.000000                     0                           NaN                       0.000000
+ frozen_f  0.000000  0.000019                     0                           NaN                       0.000000
+frozen_rf  0.000022  0.000019               1278749                      0.490312                       0.074743
+  Variant  MeanAbsoluteGChange  GScoreSpearmanVsPureG
+  joint_r             0.000008               0.999988
+  joint_f             0.000006               0.999994
+ joint_rf             0.000012               0.999979
+ frozen_r             0.000000               1.000000
+ frozen_f             0.000000               1.000000
+frozen_rf             0.000000               1.000000
+                    Feature  NonzeroStockDays  MaxAbsolute  NonzeroMedianAbsolute  NonzeroP99Absolute
+OperatingProfitActualGrowth           1534107  1738.000414               0.007051            2.569410
+            ProfitLatestYoY           1381563  1367.333333               0.008848            1.743243
+  Variant                     Feature  FinalCoefficient  SignFlips       Min      Max
+  joint_r OperatingProfitActualGrowth         -0.000039        148 -0.000597 0.000787
+  joint_f             ProfitLatestYoY          0.000019        145 -0.000875 0.000828
+ joint_rf OperatingProfitActualGrowth         -0.000035        146 -0.000599 0.000819
+ joint_rf             ProfitLatestYoY          0.000020        145 -0.000875 0.000828
+ frozen_r OperatingProfitActualGrowth         -0.000045        148 -0.000585 0.000915
+ frozen_f             ProfitLatestYoY          0.000019        127 -0.001127 0.000956
+frozen_rf OperatingProfitActualGrowth         -0.000041        146 -0.000571 0.000916
+frozen_rf             ProfitLatestYoY          0.000021        129 -0.001127 0.000956
+  Variant                     Feature  MedianAbsGradient  MaxAbsGradient  MedianAbsParameterUpdate  MaxAbsParameterUpdate
+  joint_r OperatingProfitActualGrowth           0.000474        0.173402                  0.000016               0.001192
+  joint_f             ProfitLatestYoY           0.000393        0.533504                  0.000015               0.000973
+ joint_rf OperatingProfitActualGrowth           0.000474        0.173418                  0.000016               0.001222
+ joint_rf             ProfitLatestYoY           0.000390        0.546165                  0.000015               0.000974
+ frozen_r OperatingProfitActualGrowth           0.000451        0.181402                  0.000016               0.001145
+ frozen_f             ProfitLatestYoY           0.000395        0.489479                  0.000017               0.000958
+frozen_rf OperatingProfitActualGrowth           0.000450        0.181434                  0.000016               0.001171
+frozen_rf             ProfitLatestYoY           0.000394        0.502503                  0.000016               0.000959

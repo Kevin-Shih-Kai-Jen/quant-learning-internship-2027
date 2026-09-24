@@ -1,0 +1,1033 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/g20n3m",
+    "id": "g20n3m",
+    "slide": 13,
+    "layoutId": "/ppt/slideLayouts/slideLayout6.xml",
+    "layoutName": "Title Only",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "Color Block Theme",
+    "colors": {
+      "accent1": "#2ED978",
+      "accent2": "#9FB6FE",
+      "accent3": "#F3F161",
+      "accent4": "#FF5F27",
+      "accent5": "#5EC4FF",
+      "accent6": "#3C7DA3",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#393939",
+      "lt2": "#F5F5F5",
+      "hlink": "#FFA83A",
+      "folHlink": "#96607D"
+    },
+    "fontScheme": {
+      "name": "Inter",
+      "majorFont": {
+        "latinTypeface": "Inter"
+      },
+      "minorFont": {
+        "latinTypeface": "Inter"
+      }
+    },
+    "typefaces": [
+      "Heiti TC",
+      "Inter"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout6.xml",
+      "name": "Title Only",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout6.xml/8",
+          "id": "8",
+          "name": "Footer Placeholder 4",
+          "bbox": [
+            41.33,
+            659.31,
+            374.67,
+            25.33
+          ],
+          "geometry": "rect",
+          "resolvedTextStyle": {
+            "anchor": 3,
+            "vertical": 1,
+            "verticalAlignment": "bottom",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          }
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout6.xml/9",
+          "id": "9",
+          "name": "Slide Number Placeholder 5",
+          "bbox": [
+            1184.18,
+            659.24,
+            54.48,
+            25.33
+          ],
+          "geometry": "rect",
+          "text": "‹#›",
+          "textPreview": "‹#›",
+          "resolvedTextStyle": {
+            "anchor": 3,
+            "vertical": 1,
+            "verticalAlignment": "bottom",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "‹#›",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "‹#›"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout6.xml/2",
+          "id": "2",
+          "name": "Title Placeholder 1",
+          "bbox": [
+            41.33,
+            36.12,
+            1197.33,
+            109.97
+          ],
+          "geometry": "rect",
+          "text": "Click to edit Master title style",
+          "textPreview": "Click to edit Master title style",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "vertical": 1,
+            "verticalAlignment": "top",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Click to edit Master title style",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Click to edit Master title style"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "type": "master",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/2",
+          "id": "2",
+          "name": "Title Placeholder 1",
+          "bbox": [
+            41.33,
+            36.12,
+            1197.33,
+            109.97
+          ],
+          "geometry": "rect",
+          "text": "Click to edit Master title style",
+          "textPreview": "Click to edit Master title style",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "vertical": 1,
+            "verticalAlignment": "top",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Click to edit Master title style",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Click to edit Master title style"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/3",
+          "id": "3",
+          "name": "Text Placeholder 2",
+          "bbox": [
+            41.33,
+            213.33,
+            1197.33,
+            416
+          ],
+          "geometry": "rect",
+          "text": "Click to edit Master text styles\nSecond level\nThird level\nFourth level\nFifth level",
+          "textPreview": "Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level",
+          "resolvedTextStyle": {
+            "vertical": 1,
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Click to edit Master text styles",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Click to edit Master text styles"
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "text": "Second level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Second level"
+                }
+              ]
+            },
+            {
+              "index": 3,
+              "text": "Third level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Third level"
+                }
+              ]
+            },
+            {
+              "index": 4,
+              "text": "Fourth level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Fourth level"
+                }
+              ]
+            },
+            {
+              "index": 5,
+              "text": "Fifth level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Fifth level"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/5",
+          "id": "5",
+          "name": "Footer Placeholder 4",
+          "bbox": [
+            41.33,
+            659.31,
+            374.67,
+            25.33
+          ],
+          "geometry": "rect",
+          "resolvedTextStyle": {
+            "anchor": 3,
+            "vertical": 1,
+            "verticalAlignment": "bottom",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          }
+        },
+        {
+          "order": 4,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/6",
+          "id": "6",
+          "name": "Slide Number Placeholder 5",
+          "bbox": [
+            1184.18,
+            659.24,
+            54.48,
+            25.33
+          ],
+          "geometry": "rect",
+          "text": "‹#›",
+          "textPreview": "‹#›",
+          "resolvedTextStyle": {
+            "anchor": 3,
+            "vertical": 1,
+            "verticalAlignment": "bottom",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "‹#›",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "‹#›"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0zepk3e1",
+      "id": "532",
+      "name": "Google Shape;532;p58",
+      "bbox": [
+        1184.18,
+        659.24,
+        54.48,
+        25.33
+      ],
+      "geometry": "rect",
+      "text": "13",
+      "textPreview": "13",
+      "resolvedFontSize": 14.67,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "vertical": 1,
+        "fontSize": 14.67,
+        "typeface": "Inter",
+        "color": "tx1",
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "useParagraphSpacing": true
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "13"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "13",
+          "runs": [
+            {
+              "index": 1,
+              "text": "13"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/10n6t8fm",
+      "id": "533",
+      "name": "Google Shape;533;p58",
+      "bbox": [
+        42,
+        25,
+        1120,
+        65
+      ],
+      "geometry": "rect",
+      "text": "Dexterity Mech：目前最接近可驗證營收的機器人機會",
+      "textPreview": "Dexterity Mech：目前最接近可驗證營收的機器人機會",
+      "resolvedFontSize": 29,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "vertical": 1,
+        "fontSize": 29,
+        "typeface": "Heiti TC",
+        "color": "tx1",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "useParagraphSpacing": true
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Dexterity Mech：目前最接近可驗證營收的機器人機會"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Dexterity Mech：目前最接近可驗證營收的機器人機會",
+          "resolvedTextStyle": {
+            "fontSize": 29,
+            "typeface": "Heiti TC",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Dexterity Mech：目前最接近可驗證營收的機器人機會",
+              "fontSize": 29,
+              "typeface": "Heiti TC",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "lineSpacingPercent": 90000
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/tcz2l4vm",
+      "id": "3",
+      "name": "Google Shape;534;p58",
+      "bbox": [
+        42,
+        103,
+        1115,
+        40
+      ],
+      "geometry": "rect",
+      "text": "它不是雙足人形，而是物流用移動式雙臂機器人；商業化比家庭人形更靠近現場需求。",
+      "textPreview": "它不是雙足人形，而是物流用移動式雙臂機器人；商業化比家庭人形更靠近現場需求。",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "vertical": 1,
+        "fontSize": 15,
+        "typeface": "Heiti TC",
+        "color": "#475467",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "useParagraphSpacing": true
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "它不是雙足人形，而是物流用移動式雙臂機器人；商業化比家庭人形更靠近現場需求。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "它不是雙足人形，而是物流用移動式雙臂機器人；商業化比家庭人形更靠近現場需求。",
+          "lineSpacingPercent": 114000,
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Heiti TC",
+            "color": "#475467"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "它不是雙足人形，而是物流用移動式雙臂機器人；商業化比家庭人形更靠近現場需求。",
+              "fontSize": 15,
+              "typeface": "Heiti TC",
+              "color": "#475467"
+            }
+          ],
+          "bulletCharacter": "•",
+          "marginLeft": 228600,
+          "indent": -228600
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/21g7mdw7",
+      "id": "534",
+      "bbox": [
+        36,
+        154,
+        1145,
+        472
+      ],
+      "geometry": "rect",
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/qt4rm5w7",
+      "id": "535",
+      "bbox": [
+        48,
+        168,
+        520,
+        400
+      ],
+      "geometry": "roundRect",
+      "alt": "Dexterity Mech 物流雙臂機器人",
+      "contentType": "image/jpeg",
+      "imageCrop": {
+        "left": 0.02,
+        "top": 0.05,
+        "right": 0.02,
+        "bottom": 0.12
+      },
+      "imageFit": "cover",
+      "imageMask": {
+        "geometry": "roundRect",
+        "adjustmentList": [
+          {
+            "name": "adj",
+            "formula": "val 2000"
+          }
+        ]
+      },
+      "asset": {
+        "assetId": "54e2cb4c-212d-484a-9739-34252a431cd3",
+        "contentType": "image/jpeg",
+        "byteLength": 484134
+      }
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/o3yponed",
+      "id": "536",
+      "bbox": [
+        600,
+        166,
+        555,
+        104
+      ],
+      "geometry": "roundRect",
+      "text": "已部署\nFedEx 美國據點擴大部署；日本合作方規劃未來數年導入超過 1,000 台 Mech。",
+      "textPreview": "已部署 | FedEx 美國據點擴大部署；日本合作方規劃未來數年導入超過 1,000 台 Mech。",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Inter",
+        "color": "tx1",
+        "alignment": "left",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "已部署"
+          },
+          {
+            "index": 2,
+            "text": "FedEx 美國據點擴大部署；日本合作方規劃未來數年導入超過 1,000 台"
+          },
+          {
+            "index": 3,
+            "text": "Mech。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "已部署",
+          "spaceAfter": 450,
+          "runs": [
+            {
+              "index": 1,
+              "text": "已部署",
+              "fontSize": 22.67,
+              "typeface": "Heiti TC",
+              "color": "#17324D",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "FedEx 美國據點擴大部署；日本合作方規劃未來數年導入超過 1,000 台 Mech。",
+          "runs": [
+            {
+              "index": 1,
+              "text": "FedEx 美國據點擴大部署；日本合作方規劃未來數年導入超過 1,000 台 Mech。",
+              "fontSize": 16.67,
+              "typeface": "Heiti TC",
+              "color": "#344054"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 1
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/p47qxsfy",
+      "id": "537",
+      "bbox": [
+        600,
+        282,
+        555,
+        104
+      ],
+      "geometry": "roundRect",
+      "text": "HIWIN 關聯\nDexterity 官網寫明精密運動元件來自 HIWIN；HIWIN 官方曾公布共同開發八軸機器手臂。",
+      "textPreview": "HIWIN 關聯 | Dexterity 官網寫明精密運動元件來自 HIWIN；HIWIN 官方曾公布共同開發八軸機器手臂。",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Inter",
+        "color": "tx1",
+        "alignment": "left",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "HIWIN 關聯"
+          },
+          {
+            "index": 2,
+            "text": "Dexterity 官網寫明精密運動元件來自 HIWIN；HIWIN"
+          },
+          {
+            "index": 3,
+            "text": "官方曾公布共同開發八軸機器手臂。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "HIWIN 關聯",
+          "spaceAfter": 450,
+          "runs": [
+            {
+              "index": 1,
+              "text": "HIWIN 關聯",
+              "fontSize": 22.67,
+              "typeface": "Heiti TC",
+              "color": "#17324D",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "Dexterity 官網寫明精密運動元件來自 HIWIN；HIWIN 官方曾公布共同開發八軸機器手臂。",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Dexterity 官網寫明精密運動元件來自 HIWIN；HIWIN 官方曾公布共同開發八軸機器手臂。",
+              "fontSize": 16.67,
+              "typeface": "Heiti TC",
+              "color": "#344054"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 1
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/i5c7a9g3",
+      "id": "538",
+      "bbox": [
+        600,
+        398,
+        555,
+        104
+      ],
+      "geometry": "roundRect",
+      "text": "供應鏈最新狀態\nDexterity 現頁面列 Kawasaki 製造手臂、Sanmina 在加州組裝測試；不能說整台由大銀供應。",
+      "textPreview": "供應鏈最新狀態 | Dexterity 現頁面列 Kawasaki 製造手臂、Sanmina 在加州組裝測試；不能說整台由大銀供應。",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Inter",
+        "color": "tx1",
+        "alignment": "left",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "供應鏈最新狀態"
+          },
+          {
+            "index": 2,
+            "text": "Dexterity 現頁面列 Kawasaki 製造手臂、Sanmina"
+          },
+          {
+            "index": 3,
+            "text": "在加州組裝測試；不能說整台由大銀供應。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "供應鏈最新狀態",
+          "spaceAfter": 450,
+          "runs": [
+            {
+              "index": 1,
+              "text": "供應鏈最新狀態",
+              "fontSize": 22.67,
+              "typeface": "Heiti TC",
+              "color": "#17324D",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "Dexterity 現頁面列 Kawasaki 製造手臂、Sanmina 在加州組裝測試；不能說整台由大銀供應。",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Dexterity 現頁面列 Kawasaki 製造手臂、Sanmina 在加州組裝測試；不能說整台由大銀供應。",
+              "fontSize": 16.67,
+              "typeface": "Heiti TC",
+              "color": "#344054"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 1
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/36lojex8",
+      "id": "539",
+      "bbox": [
+        600,
+        514,
+        555,
+        76
+      ],
+      "geometry": "roundRect",
+      "text": "大銀最可能賣\n馬達、驅動、編碼器與運動控制；實際品項、價值量及認列公司未揭露。",
+      "textPreview": "大銀最可能賣 | 馬達、驅動、編碼器與運動控制；實際品項、價值量及認列公司未揭露。",
+      "resolvedFontSize": 23.89,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Inter",
+        "color": "tx1",
+        "alignment": "left",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "大銀最可能賣"
+          },
+          {
+            "index": 2,
+            "text": "馬達、驅動、編碼器與運動控制；實際品項、價值量及認列公司未揭露"
+          },
+          {
+            "index": 3,
+            "text": "。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "大銀最可能賣",
+          "spaceAfter": 450,
+          "runs": [
+            {
+              "index": 1,
+              "text": "大銀最可能賣",
+              "fontSize": 22.67,
+              "typeface": "Heiti TC",
+              "color": "#B54708",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "馬達、驅動、編碼器與運動控制；實際品項、價值量及認列公司未揭露。",
+          "runs": [
+            {
+              "index": 1,
+              "text": "馬達、驅動、編碼器與運動控制；實際品項、價值量及認列公司未揭露。",
+              "fontSize": 16.67,
+              "typeface": "Heiti TC",
+              "color": "#344054"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 1
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zqtwrql0",
+      "id": "540",
+      "name": "Clickable source footer",
+      "bbox": [
+        42,
+        681,
+        1125,
+        24
+      ],
+      "geometry": "rect",
+      "text": "資料來源：[1] Dexterity Mech  ·  [2] HIWIN 合作  ·  [3] 日本千台計畫",
+      "textPreview": "資料來源：[1] Dexterity Mech  ·  [2] HIWIN 合作  ·  [3] 日本千台計畫",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "fontSize": 11,
+        "typeface": "Inter",
+        "color": "#667085",
+        "alignment": "left",
+        "wrap": "none",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "資料來源：[1] Dexterity Mech  ·  [2] HIWIN 合作  ·  [3] 日本千台計畫"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "資料來源：[1] Dexterity Mech  ·  [2] HIWIN 合作  ·  [3] 日本千台計畫",
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "color": "#667085"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "資料來源：",
+              "fontSize": 11,
+              "typeface": "Heiti TC",
+              "color": "#667085"
+            },
+            {
+              "index": 2,
+              "text": "[1] Dexterity Mech",
+              "fontSize": 11,
+              "typeface": "Heiti TC",
+              "color": "#667085"
+            },
+            {
+              "index": 3,
+              "text": "  ·  ",
+              "fontSize": 11,
+              "typeface": "Heiti TC",
+              "color": "#667085"
+            },
+            {
+              "index": 4,
+              "text": "[2] HIWIN 合作",
+              "fontSize": 11,
+              "typeface": "Heiti TC",
+              "color": "#667085"
+            },
+            {
+              "index": 5,
+              "text": "  ·  ",
+              "fontSize": 11,
+              "typeface": "Heiti TC",
+              "color": "#667085"
+            },
+            {
+              "index": 6,
+              "text": "[3] 日本千台計畫",
+              "fontSize": 11,
+              "typeface": "Heiti TC",
+              "color": "#667085"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

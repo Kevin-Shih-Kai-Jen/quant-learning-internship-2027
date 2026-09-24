@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "all_prediction_and_rank_rows": 2326022,
+  "max_saved_score_difference": 1.249000902703301e-16,
+  "all_953_daily_spreads_match": true,
+  "sharpe": 0.0076788715624210736
+}

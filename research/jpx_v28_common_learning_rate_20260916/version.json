@@ -1,0 +1,14 @@
+{
+  "version": "v28",
+  "description": "Common per-day learning rate for operating-profit forecast overwrite, delta+old, and pure price-volume control",
+  "directory": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v28_common_learning_rate_20260916",
+  "status": "completed_experiment",
+  "variants": [
+    "g_common",
+    "overwrite",
+    "change_old"
+  ],
+  "audit_passed": true,
+  "training_financial_abs_limit": null,
+  "validation_financial_abs_limit": null
+}

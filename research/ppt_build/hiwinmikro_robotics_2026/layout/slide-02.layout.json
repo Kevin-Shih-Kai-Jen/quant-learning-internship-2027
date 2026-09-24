@@ -1,0 +1,1023 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/if4fbh",
+    "id": "if4fbh",
+    "slide": 2,
+    "layoutId": "/ppt/slideLayouts/slideLayout6.xml",
+    "layoutName": "Title Only",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "Color Block Theme",
+    "colors": {
+      "accent1": "#2ED978",
+      "accent2": "#9FB6FE",
+      "accent3": "#F3F161",
+      "accent4": "#FF5F27",
+      "accent5": "#5EC4FF",
+      "accent6": "#3C7DA3",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#393939",
+      "lt2": "#F5F5F5",
+      "hlink": "#FFA83A",
+      "folHlink": "#96607D"
+    },
+    "fontScheme": {
+      "name": "Inter",
+      "majorFont": {
+        "latinTypeface": "Inter"
+      },
+      "minorFont": {
+        "latinTypeface": "Inter"
+      }
+    },
+    "typefaces": [
+      "Heiti TC",
+      "Inter",
+      "Inter Medium"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout6.xml",
+      "name": "Title Only",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout6.xml/8",
+          "id": "8",
+          "name": "Footer Placeholder 4",
+          "bbox": [
+            41.33,
+            659.31,
+            374.67,
+            25.33
+          ],
+          "geometry": "rect",
+          "resolvedTextStyle": {
+            "anchor": 3,
+            "vertical": 1,
+            "verticalAlignment": "bottom",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          }
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout6.xml/9",
+          "id": "9",
+          "name": "Slide Number Placeholder 5",
+          "bbox": [
+            1184.18,
+            659.24,
+            54.48,
+            25.33
+          ],
+          "geometry": "rect",
+          "text": "‹#›",
+          "textPreview": "‹#›",
+          "resolvedTextStyle": {
+            "anchor": 3,
+            "vertical": 1,
+            "verticalAlignment": "bottom",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "‹#›",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "‹#›"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout6.xml/2",
+          "id": "2",
+          "name": "Title Placeholder 1",
+          "bbox": [
+            41.33,
+            36.12,
+            1197.33,
+            109.97
+          ],
+          "geometry": "rect",
+          "text": "Click to edit Master title style",
+          "textPreview": "Click to edit Master title style",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "vertical": 1,
+            "verticalAlignment": "top",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Click to edit Master title style",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Click to edit Master title style"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "type": "master",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/2",
+          "id": "2",
+          "name": "Title Placeholder 1",
+          "bbox": [
+            41.33,
+            36.12,
+            1197.33,
+            109.97
+          ],
+          "geometry": "rect",
+          "text": "Click to edit Master title style",
+          "textPreview": "Click to edit Master title style",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "vertical": 1,
+            "verticalAlignment": "top",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Click to edit Master title style",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Click to edit Master title style"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/3",
+          "id": "3",
+          "name": "Text Placeholder 2",
+          "bbox": [
+            41.33,
+            213.33,
+            1197.33,
+            416
+          ],
+          "geometry": "rect",
+          "text": "Click to edit Master text styles\nSecond level\nThird level\nFourth level\nFifth level",
+          "textPreview": "Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level",
+          "resolvedTextStyle": {
+            "vertical": 1,
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Click to edit Master text styles",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Click to edit Master text styles"
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "text": "Second level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Second level"
+                }
+              ]
+            },
+            {
+              "index": 3,
+              "text": "Third level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Third level"
+                }
+              ]
+            },
+            {
+              "index": 4,
+              "text": "Fourth level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Fourth level"
+                }
+              ]
+            },
+            {
+              "index": 5,
+              "text": "Fifth level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Fifth level"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/5",
+          "id": "5",
+          "name": "Footer Placeholder 4",
+          "bbox": [
+            41.33,
+            659.31,
+            374.67,
+            25.33
+          ],
+          "geometry": "rect",
+          "resolvedTextStyle": {
+            "anchor": 3,
+            "vertical": 1,
+            "verticalAlignment": "bottom",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          }
+        },
+        {
+          "order": 4,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/6",
+          "id": "6",
+          "name": "Slide Number Placeholder 5",
+          "bbox": [
+            1184.18,
+            659.24,
+            54.48,
+            25.33
+          ],
+          "geometry": "rect",
+          "text": "‹#›",
+          "textPreview": "‹#›",
+          "resolvedTextStyle": {
+            "anchor": 3,
+            "vertical": 1,
+            "verticalAlignment": "bottom",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "‹#›",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "‹#›"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kzy5krep",
+      "id": "2",
+      "name": "Slide Number Placeholder 1",
+      "bbox": [
+        1184.18,
+        659.24,
+        54.48,
+        25.33
+      ],
+      "text": "2",
+      "textPreview": "2",
+      "resolvedFontSize": 14.67,
+      "resolvedTextStyle": {
+        "anchor": 3,
+        "vertical": 1,
+        "fontSize": 14.67,
+        "typeface": "Inter",
+        "color": "tx1",
+        "alignment": "right",
+        "verticalAlignment": "bottom",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "2"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "2",
+          "runs": [
+            {
+              "index": 1,
+              "text": "2"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/l076dwfa",
+      "id": "3",
+      "name": "Title 2",
+      "bbox": [
+        41.33,
+        92.75,
+        822.67,
+        66.68
+      ],
+      "text": "今天的路線：先把機器拆開，再談訂單",
+      "textPreview": "今天的路線：先把機器拆開，再談訂單",
+      "resolvedFontSize": 38.67,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "vertical": 1,
+        "fontSize": 38.67,
+        "typeface": "Inter Medium",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "今天的路線：先把機器拆開，再談訂單"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "今天的路線：先把機器拆開，再談訂單",
+          "runs": [
+            {
+              "index": 1,
+              "text": "今天的路線：先把機器拆開，再談訂單"
+            }
+          ],
+          "bulletCharacter": "",
+          "lineSpacingPercent": 90000
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "kind": "table",
+      "scope": "slide",
+      "aid": "tb/dsjupgf6",
+      "id": "6",
+      "name": "Table 3",
+      "bbox": [
+        41.33,
+        177.33,
+        1197.34,
+        452
+      ],
+      "text": "01 | 大銀在機器人裡做什麼｜馬達、驅控、回授、模組\n02 | 目前營收證據｜哪些是既有業務，哪些沒有單獨揭露\n03 | 人形機器人｜旋轉關節、線性致動、控制與散熱\n04 | 合作進度｜Dexterity、Boston Dynamics、Figure AI\n05 | 擴產與市場節奏｜能不能接到爆發訂單\n06 | 財務敏感度｜只做情境，不當公司指引或目標價",
+      "textPreview": "01 | 大銀在機器人裡做什麼｜馬達、驅控、回授、模組 | 02 | 目前營收證據｜哪些是既有業務，哪些沒有單獨揭露 | 03 | 人形機器人｜旋轉關節、線性致動、控制與散熱 | 04 | 合作進度｜Dexterity、Boston Dynamics、Figure AI |...",
+      "rows": 6,
+      "cols": 2,
+      "cells": [
+        {
+          "index": 1,
+          "row": 1,
+          "column": 1,
+          "bbox": [
+            41.33,
+            177.33,
+            92.23,
+            75.33
+          ],
+          "text": "01",
+          "textPreview": "01",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "01",
+              "lineSpacingPercent": 100000,
+              "resolvedTextStyle": {
+                "fontSize": 16,
+                "typeface": "Heiti TC",
+                "color": "#0077B6",
+                "bold": true,
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "01",
+                  "fontSize": 16,
+                  "typeface": "Heiti TC",
+                  "color": "#0077B6",
+                  "bold": true,
+                  "textTransform": "none"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "row": 1,
+          "column": 2,
+          "bbox": [
+            133.57,
+            177.33,
+            1105.1,
+            75.33
+          ],
+          "text": "大銀在機器人裡做什麼｜馬達、驅控、回授、模組",
+          "textPreview": "大銀在機器人裡做什麼｜馬達、驅控、回授、模組",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "大銀在機器人裡做什麼｜馬達、驅控、回授、模組",
+              "lineSpacingPercent": 100000,
+              "resolvedTextStyle": {
+                "fontSize": 14.51,
+                "typeface": "Heiti TC",
+                "color": "#111827",
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "大銀在機器人裡做什麼｜馬達、驅控、回授、模組",
+                  "fontSize": 14.51,
+                  "typeface": "Heiti TC",
+                  "color": "#111827",
+                  "textTransform": "none"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "row": 2,
+          "column": 1,
+          "bbox": [
+            41.33,
+            252.67,
+            92.23,
+            75.33
+          ],
+          "text": "02",
+          "textPreview": "02",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "02",
+              "lineSpacingPercent": 100000,
+              "resolvedTextStyle": {
+                "fontSize": 16,
+                "typeface": "Heiti TC",
+                "color": "#0077B6",
+                "bold": true,
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "02",
+                  "fontSize": 16,
+                  "typeface": "Heiti TC",
+                  "color": "#0077B6",
+                  "bold": true,
+                  "textTransform": "none"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "row": 2,
+          "column": 2,
+          "bbox": [
+            133.57,
+            252.67,
+            1105.1,
+            75.33
+          ],
+          "text": "目前營收證據｜哪些是既有業務，哪些沒有單獨揭露",
+          "textPreview": "目前營收證據｜哪些是既有業務，哪些沒有單獨揭露",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "目前營收證據｜哪些是既有業務，哪些沒有單獨揭露",
+              "lineSpacingPercent": 100000,
+              "resolvedTextStyle": {
+                "fontSize": 14.51,
+                "typeface": "Heiti TC",
+                "color": "#111827",
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "目前營收證據｜哪些是既有業務，哪些沒有單獨揭露",
+                  "fontSize": 14.51,
+                  "typeface": "Heiti TC",
+                  "color": "#111827",
+                  "textTransform": "none"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "row": 3,
+          "column": 1,
+          "bbox": [
+            41.33,
+            328,
+            92.23,
+            75.33
+          ],
+          "text": "03",
+          "textPreview": "03",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "03",
+              "lineSpacingPercent": 100000,
+              "resolvedTextStyle": {
+                "fontSize": 16,
+                "typeface": "Heiti TC",
+                "color": "#0077B6",
+                "bold": true,
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "03",
+                  "fontSize": 16,
+                  "typeface": "Heiti TC",
+                  "color": "#0077B6",
+                  "bold": true,
+                  "textTransform": "none"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "row": 3,
+          "column": 2,
+          "bbox": [
+            133.57,
+            328,
+            1105.1,
+            75.33
+          ],
+          "text": "人形機器人｜旋轉關節、線性致動、控制與散熱",
+          "textPreview": "人形機器人｜旋轉關節、線性致動、控制與散熱",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "人形機器人｜旋轉關節、線性致動、控制與散熱",
+              "lineSpacingPercent": 100000,
+              "resolvedTextStyle": {
+                "fontSize": 14.51,
+                "typeface": "Heiti TC",
+                "color": "#111827",
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "人形機器人｜旋轉關節、線性致動、控制與散熱",
+                  "fontSize": 14.51,
+                  "typeface": "Heiti TC",
+                  "color": "#111827",
+                  "textTransform": "none"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "row": 4,
+          "column": 1,
+          "bbox": [
+            41.33,
+            403.33,
+            92.23,
+            75.33
+          ],
+          "text": "04",
+          "textPreview": "04",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "04",
+              "lineSpacingPercent": 100000,
+              "resolvedTextStyle": {
+                "fontSize": 16,
+                "typeface": "Heiti TC",
+                "color": "#0077B6",
+                "bold": true,
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "04",
+                  "fontSize": 16,
+                  "typeface": "Heiti TC",
+                  "color": "#0077B6",
+                  "bold": true,
+                  "textTransform": "none"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "row": 4,
+          "column": 2,
+          "bbox": [
+            133.57,
+            403.33,
+            1105.1,
+            75.33
+          ],
+          "text": "合作進度｜Dexterity、Boston Dynamics、Figure AI",
+          "textPreview": "合作進度｜Dexterity、Boston Dynamics、Figure AI",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "合作進度｜Dexterity、Boston Dynamics、Figure AI",
+              "lineSpacingPercent": 100000,
+              "resolvedTextStyle": {
+                "fontSize": 14.51,
+                "typeface": "Heiti TC",
+                "color": "#111827",
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "合作進度｜Dexterity、Boston Dynamics、Figure AI",
+                  "fontSize": 14.51,
+                  "typeface": "Heiti TC",
+                  "color": "#111827",
+                  "textTransform": "none"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "row": 5,
+          "column": 1,
+          "bbox": [
+            41.33,
+            478.67,
+            92.23,
+            75.33
+          ],
+          "text": "05",
+          "textPreview": "05",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "05",
+              "lineSpacingPercent": 100000,
+              "resolvedTextStyle": {
+                "fontSize": 16,
+                "typeface": "Heiti TC",
+                "color": "#0077B6",
+                "bold": true,
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "05",
+                  "fontSize": 16,
+                  "typeface": "Heiti TC",
+                  "color": "#0077B6",
+                  "bold": true,
+                  "textTransform": "none"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "row": 5,
+          "column": 2,
+          "bbox": [
+            133.57,
+            478.67,
+            1105.1,
+            75.33
+          ],
+          "text": "擴產與市場節奏｜能不能接到爆發訂單",
+          "textPreview": "擴產與市場節奏｜能不能接到爆發訂單",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "擴產與市場節奏｜能不能接到爆發訂單",
+              "lineSpacingPercent": 100000,
+              "resolvedTextStyle": {
+                "fontSize": 14.51,
+                "typeface": "Heiti TC",
+                "color": "#111827",
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "擴產與市場節奏｜能不能接到爆發訂單",
+                  "fontSize": 14.51,
+                  "typeface": "Heiti TC",
+                  "color": "#111827",
+                  "textTransform": "none"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "row": 6,
+          "column": 1,
+          "bbox": [
+            41.33,
+            554,
+            92.23,
+            75.33
+          ],
+          "text": "06",
+          "textPreview": "06",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "06",
+              "lineSpacingPercent": 100000,
+              "resolvedTextStyle": {
+                "fontSize": 16,
+                "typeface": "Heiti TC",
+                "color": "#0077B6",
+                "bold": true,
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "06",
+                  "fontSize": 16,
+                  "typeface": "Heiti TC",
+                  "color": "#0077B6",
+                  "bold": true,
+                  "textTransform": "none"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "row": 6,
+          "column": 2,
+          "bbox": [
+            133.57,
+            554,
+            1105.1,
+            75.33
+          ],
+          "text": "財務敏感度｜只做情境，不當公司指引或目標價",
+          "textPreview": "財務敏感度｜只做情境，不當公司指引或目標價",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "財務敏感度｜只做情境，不當公司指引或目標價",
+              "lineSpacingPercent": 100000,
+              "resolvedTextStyle": {
+                "fontSize": 14.51,
+                "typeface": "Heiti TC",
+                "color": "#111827",
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "財務敏感度｜只做情境，不當公司指引或目標價",
+                  "fontSize": 14.51,
+                  "typeface": "Heiti TC",
+                  "color": "#111827",
+                  "textTransform": "none"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/t476hwf6",
+      "id": "7",
+      "name": "Clickable source footer",
+      "bbox": [
+        42,
+        681,
+        1125,
+        24
+      ],
+      "geometry": "rect",
+      "text": "資料來源：[1] 大銀產品總覽  ·  [2] HIWIN 集團分工",
+      "textPreview": "資料來源：[1] 大銀產品總覽  ·  [2] HIWIN 集團分工",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "fontSize": 11,
+        "typeface": "Inter",
+        "color": "#667085",
+        "alignment": "left",
+        "wrap": "none",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "資料來源：[1] 大銀產品總覽  ·  [2] HIWIN 集團分工"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "資料來源：[1] 大銀產品總覽  ·  [2] HIWIN 集團分工",
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "color": "#667085"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "資料來源：",
+              "fontSize": 11,
+              "typeface": "Heiti TC",
+              "color": "#667085"
+            },
+            {
+              "index": 2,
+              "text": "[1] 大銀產品總覽",
+              "fontSize": 11,
+              "typeface": "Heiti TC",
+              "color": "#667085"
+            },
+            {
+              "index": 3,
+              "text": "  ·  ",
+              "fontSize": 11,
+              "typeface": "Heiti TC",
+              "color": "#667085"
+            },
+            {
+              "index": 4,
+              "text": "[2] HIWIN 集團分工",
+              "fontSize": 11,
+              "typeface": "Heiti TC",
+              "color": "#667085"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

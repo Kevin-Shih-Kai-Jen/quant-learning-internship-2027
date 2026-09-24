@@ -1,0 +1,35 @@
+{
+  "name": "eps_revision_relative_control",
+  "features": [],
+  "mask_features": [
+    "EPSRevisionRelative"
+  ],
+  "includes_feature": false,
+  "parameter_count": 12,
+  "sharpe": 0.007320184283905357,
+  "scored_days": 953,
+  "mean_rank_ic": -0.0007387472462977971,
+  "rank_ic_days": 952,
+  "mean_hard_rank_mse": 0.16686856496042898,
+  "mean_return_mse": 0.0006654304527147245,
+  "training_updates": 1199,
+  "training_stock_days": 2325600,
+  "threshold_skipped_stock_days": 206,
+  "forecast_rows": 2326022,
+  "final_coefficients": {
+    "alpha": -0.0018698219468141148,
+    "T5": -0.0014565058490833502,
+    "T22": -0.004535337018349327,
+    "T60": -0.0045378388254217,
+    "V5": 0.0011951159090803519,
+    "V22": 0.0010647224113228349,
+    "V60": 0.001131331147801257,
+    "P5xV5": -0.0006687960267396924,
+    "P22xV22": -0.0021316283109240157,
+    "P60xV60": -0.0013971476555892845,
+    "PR1": 0.0014070165662214836,
+    "VR1": -0.0008201553278410036
+  },
+  "parameter_asof": "2021-12-03",
+  "seconds": 3.1165011250000134
+}

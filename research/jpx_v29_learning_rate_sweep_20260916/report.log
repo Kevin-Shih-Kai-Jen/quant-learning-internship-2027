@@ -1,0 +1,43 @@
+ ValidationRank         Variant      Model   Label  Multiplier    Sharpe    RankIC  ValidationDays
+              1   c1_change_old change_old B：差額＋舊值        1.00  0.002224 -0.001371             953
+              2    c1_overwrite  overwrite  A：新值覆蓋        1.00  0.001063 -0.001469             953
+              3     c1_g_common   g_common      純g        1.00  0.000811 -0.001389             953
+              4    c15_g_common   g_common      純g        1.50 -0.004187 -0.001108             953
+              5   c15_overwrite  overwrite  A：新值覆蓋        1.50 -0.004207 -0.001149             953
+              6  c15_change_old change_old B：差額＋舊值        1.50 -0.004402 -0.001099             953
+              7   c05_overwrite  overwrite  A：新值覆蓋        0.50 -0.022268 -0.003036             953
+              8    c05_g_common   g_common      純g        0.50 -0.023392 -0.002992             953
+              9  c05_change_old change_old B：差額＋舊值        0.50 -0.023421 -0.002957             953
+             10    c19_g_common   g_common      純g        1.90 -0.024952 -0.002023             953
+             11   c19_overwrite  overwrite  A：新值覆蓋        1.90 -0.028408 -0.002022             953
+             12  c19_change_old change_old B：差額＋舊值        1.90 -0.028981 -0.002023             953
+             13 c025_change_old change_old B：差額＋舊值        0.25 -0.037058 -0.002918             953
+             14  c025_overwrite  overwrite  A：新值覆蓋        0.25 -0.037182 -0.002951             953
+             15   c025_g_common   g_common      純g        0.25 -0.037472 -0.002930             953
+ ValidationRank       Variant      Model   Label  Multiplier   Sharpe    RankIC  ValidationDays
+              1 c1_change_old change_old B：差額＋舊值         1.0 0.002224 -0.001371             953
+              2  c1_overwrite  overwrite  A：新值覆蓋         1.0 0.001063 -0.001469             953
+              3   c1_g_common   g_common      純g         1.0 0.000811 -0.001389             953
+      Variant      Model  Multiplier  ValidationYear  Days    Sharpe    RankIC
+  c1_g_common   g_common         1.0            2018   245 -0.029325 -0.002298
+  c1_g_common   g_common         1.0            2019   241  0.031636  0.000979
+  c1_g_common   g_common         1.0            2020   242  0.049439  0.000128
+  c1_g_common   g_common         1.0            2021   225 -0.073914 -0.004559
+ c1_overwrite  overwrite         1.0            2018   245 -0.029321 -0.002290
+ c1_overwrite  overwrite         1.0            2019   241  0.032936  0.001006
+ c1_overwrite  overwrite         1.0            2020   242  0.050100  0.000104
+ c1_overwrite  overwrite         1.0            2021   225 -0.075024 -0.004913
+c1_change_old change_old         1.0            2018   245 -0.032649 -0.002360
+c1_change_old change_old         1.0            2019   241  0.033092  0.001016
+c1_change_old change_old         1.0            2020   242  0.050456  0.000204
+c1_change_old change_old         1.0            2021   225 -0.066234 -0.004535
+                 Comparison Metric  Difference   CI95Low  CI95High
+c1_change_old - original_v7 Sharpe   -0.005455 -0.033762  0.027053
+c1_change_old - original_v7 RankIC   -0.000637 -0.003147  0.001670
+ c1_overwrite - original_v7 Sharpe   -0.006616 -0.033937  0.026760
+ c1_overwrite - original_v7 RankIC   -0.000735 -0.003217  0.001569
+  c1_g_common - original_v7 Sharpe   -0.006867 -0.034959  0.025881
+  c1_g_common - original_v7 RankIC   -0.000655 -0.003170  0.001686
+c1_change_old - c1_g_common Sharpe    0.001412 -0.001951  0.004220
+c1_change_old - c1_g_common RankIC    0.000018 -0.000073  0.000097
+{"version": "v29", "variant": "c1_change_old", "model": "change_old", "multiplier": 1.0, "selection_scope": "all existing validation, 953 days", "selection_order": ["Sharpe descending", "RankIC descending as tie-breaker"], "rank_ic_positive_required": false, "mse_used_for_selection": false, "Sharpe": 0.002223593758919294, "RankIC": -0.0013705999066653068, "test_evaluated": false, "status": "validation_selected_candidate_only", "training_loss": "ordinary MSE", "learning_rate": "multiplier * min(A spectral rate, B spectral rate) each known training day", "source_manifest": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v29_learning_rate_sweep_20260916/manifest.json", "formal_baseline": "v7"}

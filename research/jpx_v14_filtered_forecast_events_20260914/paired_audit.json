@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "same_filtered_stock_days": true,
+  "same_features": true,
+  "same_seed_initial_state_and_optimizer": true,
+  "only_within_v14_difference": "additional floor(sqrt(filtered finite-label N)) daily full updates",
+  "complete_evaluation_stock_pool_preserved": true
+}

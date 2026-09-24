@@ -1,0 +1,26 @@
+{
+  "all_checks_passed": true,
+  "native_loss_and_gradients_match_numpy": true,
+  "finite_difference_gradients_pass": true,
+  "line_search_and_entire_sequential_update_pass_match_independent_code": [
+    {
+      "batch_size": 1,
+      "steps": 17,
+      "final_partial_batch": 1
+    },
+    {
+      "batch_size": 5,
+      "steps": 4,
+      "final_partial_batch": 2
+    },
+    {
+      "batch_size": 17,
+      "steps": 1,
+      "final_partial_batch": 17
+    }
+  ],
+  "partial_batch_uses_remaining_count": true,
+  "every_rank_uses_full_stock_universe": true,
+  "downward_learning_rate_grid_exercised": true,
+  "zero_gradient_skip_exercised": true
+}

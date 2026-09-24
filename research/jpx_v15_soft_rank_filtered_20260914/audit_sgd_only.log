@@ -1,0 +1,13 @@
+sgd_only audited days 200 seconds 75.3
+sgd_only audited days 400 seconds 157.3
+sgd_only audited days 600 seconds 249.8
+sgd_only audited days 800 seconds 363.7
+sgd_only audited days 1000 seconds 478.3
+Traceback (most recent call last):
+  File "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v15_soft_rank_filtered_20260914/audit_results.py", line 100, in <module>
+    'replay_method':'Independent direct score/Jacobian replay of every recorded accepted rate; anchored at first/middle/last SGD stocks and every full update. Full candidate grids independently checked at deterministic sampled snapshots.',
+                                  ^^^^^^^^^^^^^^
+  File "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v15_soft_rank_filtered_20260914/audit_results.py", line 63, in audit
+    a=before.copy();b=before.copy();a[j]+=1e-6;b[j]-=1e-6
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

@@ -1,0 +1,14 @@
+{
+  "version": "v26",
+  "description": "Joint operating-profit forecast YoY and relative forecast revision plus v7 g, unfiltered",
+  "directory": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v26_profit_forecast_revision_20260916",
+  "status": "completed_experiment",
+  "parameter_count": 14,
+  "features": [
+    "OperatingProfitForecastYoY",
+    "OperatingProfitRevisionRelative"
+  ],
+  "main_sharpe": 0.011516205472893825,
+  "main_rank_ic": -0.00019436559791794126,
+  "audit_passed": true
+}

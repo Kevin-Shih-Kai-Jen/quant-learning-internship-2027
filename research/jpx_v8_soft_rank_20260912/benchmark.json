@@ -1,0 +1,17 @@
+[
+  {
+    "batch_size": 2000,
+    "seconds_for_2000_stock_day": 0.17560087499987276,
+    "trial_evaluations": 10
+  },
+  {
+    "batch_size": 128,
+    "seconds_for_2000_stock_day": 0.1715592500004277,
+    "trial_evaluations": 160
+  },
+  {
+    "batch_size": 1,
+    "seconds_for_2000_stock_day": 0.18699179099894536,
+    "trial_evaluations": 19975
+  }
+]

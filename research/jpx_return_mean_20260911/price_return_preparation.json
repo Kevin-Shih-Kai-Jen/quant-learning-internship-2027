@@ -1,0 +1,7 @@
+{
+  "formula": "adjusted_price[t] / adjusted_price[t-1] - 1",
+  "market_calendar": "same as existing validated features; market-wide closure carries prior feature",
+  "rows": 2332531,
+  "finite_rows": 2321299,
+  "active_model_changed": false
+}

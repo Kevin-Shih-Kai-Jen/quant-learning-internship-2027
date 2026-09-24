@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "matching_initial_dates": 214,
+  "raw_pair": "v10_baseline vs persistent_raw",
+  "scaled_pair": "decay_std22 vs persistent_std22"
+}

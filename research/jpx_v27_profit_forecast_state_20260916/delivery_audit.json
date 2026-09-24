@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "pdf_pages": 2,
+  "all_pages_visually_reviewed": true,
+  "numeric_text_checked": true,
+  "archive_entries": 34,
+  "archive_crc_passed": true,
+  "archive_matches_sources": true,
+  "pdf_sha256": "d48781b3f17c51cb072fc2bd1ee20f9bb6cfc714bde9333bf3fc22967c2c24d2",
+  "zip_sha256": "cfc701410b247ef0541cec3955bc12a80db653f325c52cafadd8c5c4a6a0f151",
+  "pdf": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/output/pdf/JPX-v27-profit-forecast-state-mobile-20260916.pdf",
+  "zip": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/output/JPX-v27-profit-forecast-state-data-20260916.zip",
+  "active_baseline": "v7"
+}

@@ -1,0 +1,25 @@
+{
+  "selected_on": "2026-09-11",
+  "reason": "User requested each side top 10 with equal allocation within regime budgets",
+  "baseline_directory": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_return_t_top10_20260911",
+  "runner": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_return_t_top10_20260911/run_experiment.py",
+  "stock_model_directory": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_return_t_20260911",
+  "stock_training": "previous calendar year; frozen validated annual fits",
+  "stock_features": "22-session T of price returns 1/5/22/60 and volume returns 5/22/60, plus three same-window T products",
+  "portfolio": "10 initial slots each side; equal within initial regime budget; original wrong-sign transfer and execution retained",
+  "market_regime": "unchanged expanding market T model with signed smoothed boundaries",
+  "strategy_metrics": {
+    "days": 953,
+    "cumulative_return": -0.20516722391785613,
+    "annualized_return_252": -0.058912275523813395,
+    "max_drawdown": -0.3211649181419599,
+    "sharpe_252_rf0": -0.4076178936524979,
+    "daily_mean": -0.00020807562036880193,
+    "daily_std": 0.008103417744374022,
+    "positive_day_fraction": 0.4994753410283316,
+    "ending_wealth_per_100": 79.4832776082144,
+    "simple_sum_return": -0.19829606621146825
+  },
+  "previous_configuration_directory": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_return_t_20260911",
+  "new_feature_proposals_applied": false
+}

@@ -1,0 +1,16 @@
+{
+  "raw_train_member": "JPX_data/raw/train_files/stock_prices.csv",
+  "raw_train_sha256": "bf774a86f834e5338bba74f2356ebb750f93a1cc4e89b064ee07251e8ed851db",
+  "rows": 2332531,
+  "stocks": 2000,
+  "start": "2017-01-04",
+  "end": "2021-12-03",
+  "missing_close": 7608,
+  "non_unit_factor_rows": 730,
+  "factor_matches_existing_all_rows": true,
+  "target_rebuilt_rows": 2328293,
+  "target_abs_error_max": 0.001977811284227648,
+  "target_abs_error_gt_1e_8": 57161,
+  "test_read": false,
+  "note": "Forward-filled adjusted prices used ONLY for offline label-definition audit; future labels never supplied to a prediction model. This is not a trading-execution audit."
+}

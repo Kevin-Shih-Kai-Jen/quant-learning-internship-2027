@@ -1,0 +1,103 @@
+{
+  "daily_stock_rows_both_eligible": {
+    "n": 1862647,
+    "pearson": 0.08301490516845873,
+    "spearman": 0.22753076698811786
+  },
+  "daily_stock_rows_both_nonzero": {
+    "n": 1602553,
+    "pearson": 0.08640606506576219,
+    "spearman": 0.2477696407304336
+  },
+  "paired_raw_announcement_events": {
+    "n": 24475,
+    "pearson": 0.14113867785466178,
+    "spearman": 0.3121234137195079
+  },
+  "joint_rate_vs_qoq_same_mask": {
+    "median": 0.9999348346860496,
+    "min": 0.24111729514783595,
+    "fraction_below_half": 0.014178482068390326
+  },
+  "mean_daily_descriptive": {
+    "PredictorRankCorrelation": 0.24127205313026676,
+    "YoYRankResidualVsTargetRank": 0.0007079413981911342,
+    "QoQRankIC": 0.0020110663637128057,
+    "YoYRankIC": 0.0014690816108751804,
+    "OpposingFinancialContributionsFraction": 0.4139153442310006
+  },
+  "revisions": [
+    {
+      "Feature": "NetSalesRevisionRelative",
+      "Variant": "sales_revision_relative",
+      "ValidationEvents": 4926,
+      "ValidationDatesWithNewEvent": 489,
+      "ValidationEventStocks": 1602,
+      "FractionValidationRowsAge0to9": 0.026401510864568756,
+      "ValidationNegativeOldBaseEvents": 11,
+      "ValidationNegativeOldBaseFraction": 0.002233049127080796,
+      "DaysPortfolioDifferentFromMatchedControl": 919,
+      "FractionSelectedStocksAge0to9": 0.03253934942287513,
+      "MeanDailyReturnDeltaBP": -0.012307548476774443,
+      "ModelDailyMeanBP": 0.21427269477165622,
+      "ControlDailyMeanBP": 0.22658024324843093,
+      "ModelDailyStdBP": 29.66432980020123,
+      "ControlDailyStdBP": 29.67821105509955,
+      "MeanDailyDeltaBPByLastEventAge": {
+        "age_0": 0.0027162839478179954,
+        "age_1_9": -0.008082267827904673,
+        "age_10_plus": -0.008740830261958522,
+        "never": 0.0017992656652550407
+      },
+      "NegativeLastForecastBaseMeanDeltaBP": -0.0020590593201253
+    },
+    {
+      "Feature": "OperatingProfitRevisionRelative",
+      "Variant": "profit_revision_relative",
+      "ValidationEvents": 4966,
+      "ValidationDatesWithNewEvent": 493,
+      "ValidationEventStocks": 1589,
+      "FractionValidationRowsAge0to9": 0.02662196149569585,
+      "ValidationNegativeOldBaseEvents": 795,
+      "ValidationNegativeOldBaseFraction": 0.16008860249697945,
+      "DaysPortfolioDifferentFromMatchedControl": 949,
+      "FractionSelectedStocksAge0to9": 0.03432843651626443,
+      "MeanDailyReturnDeltaBP": -0.031100104214547442,
+      "ModelDailyMeanBP": 0.18893430348070672,
+      "ControlDailyMeanBP": 0.22003440769525393,
+      "ModelDailyStdBP": 29.639956865194463,
+      "ControlDailyStdBP": 29.70115063711502,
+      "MeanDailyDeltaBPByLastEventAge": {
+        "age_0": 0.01001927239587884,
+        "age_1_9": -0.0042750571107766505,
+        "age_10_plus": 0.013529226838988672,
+        "never": -0.050373546338633376
+      },
+      "NegativeLastForecastBaseMeanDeltaBP": -0.039181975957217445
+    },
+    {
+      "Feature": "EPSRevisionRelative",
+      "Variant": "eps_revision_relative",
+      "ValidationEvents": 7806,
+      "ValidationDatesWithNewEvent": 578,
+      "ValidationEventStocks": 1786,
+      "FractionValidationRowsAge0to9": 0.04185665559764917,
+      "ValidationNegativeOldBaseEvents": 1173,
+      "ValidationNegativeOldBaseFraction": 0.15026902382782475,
+      "DaysPortfolioDifferentFromMatchedControl": 952,
+      "FractionSelectedStocksAge0to9": 0.05160807974816369,
+      "MeanDailyReturnDeltaBP": 0.11650911150215748,
+      "ModelDailyMeanBP": 0.3338595971321972,
+      "ControlDailyMeanBP": 0.21735048563003953,
+      "ModelDailyStdBP": 29.611875396154367,
+      "ControlDailyStdBP": 29.691941787303044,
+      "MeanDailyDeltaBPByLastEventAge": {
+        "age_0": 0.015554796778153118,
+        "age_1_9": 0.040744831760156516,
+        "age_10_plus": 0.05443757882975621,
+        "never": 0.0057719041341102294
+      },
+      "NegativeLastForecastBaseMeanDeltaBP": 0.08174012626426592
+    }
+  ]
+}

@@ -1,0 +1,217 @@
+[
+  {
+    "size": 6142549,
+    "sha256": "3c23004f43221a726df5d2690cdea7d45a6bbd4234185a47697a535a867bd279",
+    "paths": [
+      "大銀微系統_產品與應用產業_外行人版.pptx",
+      "ppt_build/team_alignment_hiwin/themed-final.pptx"
+    ]
+  },
+  {
+    "size": 3102865,
+    "sha256": "13ed619b67e4449fae0bd680bdecb76b37b17cc88604610e84399f71bdcfb93a",
+    "paths": [
+      "jpx_neutral_10pct_20260910/selected_trades.csv",
+      "jpx_neutral_10pct_20260910/zip_verification/selected_trades.csv",
+      "jpx_expanding_threshold_20260910/baseline_replay/selected_trades.csv",
+      "jpx_signed_band_20260910/baseline_50_50/selected_trades.csv"
+    ]
+  },
+  {
+    "size": 3567951,
+    "sha256": "f8ed52e46446469e4289b3320bd5f148b61891b8207d733f7b709831f46bedc3",
+    "paths": [
+      "jpx_neutral_10pct_20260910/zip_verification/rebuilt_proxy/share_disclosure_events.csv",
+      "jpx_expanding_threshold_20260910/market_proxy/share_disclosure_events.csv",
+      "jpx_signed_band_20260910/market_proxy/share_disclosure_events.csv"
+    ]
+  },
+  {
+    "size": 5875415,
+    "sha256": "a522dcb9dbdfc0c47fa5ffdca46bc38030bd96877ec7a4700ff0db0868c6e212",
+    "paths": [
+      ".chart-data-bb22bt/candidate.pptx",
+      "output/大銀微系統_機器人與人形機器人_研究簡報_2026_Mac相容版.pptx"
+    ]
+  },
+  {
+    "size": 6201404,
+    "sha256": "8a88f88dd950e58257517a6c2e9971acf193a33d863a6f5c27e562b3154a3f2d",
+    "paths": [
+      "output/大銀微系統_產業連結與營收拆解_研究簡報_2026Q2.pptx",
+      ".chart-data-A7NyGy/candidate.pptx"
+    ]
+  },
+  {
+    "size": 1164094,
+    "sha256": "1491e264cae9010147364172f7f286037ae7e03fdfb062566b4ef3abed5dc97a",
+    "paths": [
+      "jpx_v15_soft_rank_filtered_20260914/sgd_only/parameter_history.csv",
+      "output/jpx_mobile_data_20260914/S1/parameter_history.csv"
+    ]
+  },
+  {
+    "size": 1310360,
+    "sha256": "6da4165b20c4f157f85c4ff39d6ea91e6ed2b918cca22de4b7264b6aad787c43",
+    "paths": [
+      "jpx_v15_soft_rank_filtered_20260914/sgd_only/training_updates.csv",
+      "output/jpx_mobile_data_20260914/S1/training_updates.csv"
+    ]
+  },
+  {
+    "size": 1163066,
+    "sha256": "40778c6fa562e5b6e3cdfc5aa46b92770cdc8c99c15df749e8b2e9582ace48d5",
+    "paths": [
+      "jpx_v15_soft_rank_filtered_20260914/sgd_sqrt/parameter_history.csv",
+      "output/jpx_mobile_data_20260914/S2/parameter_history.csv"
+    ]
+  },
+  {
+    "size": 1311805,
+    "sha256": "a5d1e788505bb35bf0b37b43b32bb963dee944ba992a1fafd18e6273057de5cc",
+    "paths": [
+      "jpx_v15_soft_rank_filtered_20260914/sgd_sqrt/training_updates.csv",
+      "output/jpx_mobile_data_20260914/S2/training_updates.csv"
+    ]
+  },
+  {
+    "size": 21982699,
+    "sha256": "f693a168783354c1114bb2a69c354e9ca2e4c320779162dc5c6d52bfbdb6cd83",
+    "paths": [
+      "jpx_v16_single_financial_v7_20260915/price_only/predictions.npz",
+      "jpx_v16_single_financial_v7_20260915/control_05/predictions.npz",
+      "jpx_v16_single_financial_v7_20260915/control_04/predictions.npz",
+      "jpx_v16_single_financial_v7_20260915/control_03/predictions.npz"
+    ]
+  },
+  {
+    "size": 21982441,
+    "sha256": "ddd91ac2a2170d850d6dcea7dcf442066be29c3a272af8a8d2c97551bae1f891",
+    "paths": [
+      "jpx_v16_single_financial_v7_20260915/feature_05/predictions.npz",
+      "jpx_v25_single_features_unfiltered_20260916/v16_feature_05/predictions.npz"
+    ]
+  },
+  {
+    "size": 21982171,
+    "sha256": "6d2cdf7b8d82294e26d1ad2563b4040244b618924be0373f2fa738c810faaba6",
+    "paths": [
+      "jpx_v16_single_financial_v7_20260915/feature_04/predictions.npz",
+      "jpx_v25_single_features_unfiltered_20260916/v16_feature_04/predictions.npz"
+    ]
+  },
+  {
+    "size": 21982844,
+    "sha256": "9a92cfda317b597bc86768b241b99b1f48be164d598c9d5b847f54cdfed93b92",
+    "paths": [
+      "jpx_v16_single_financial_v7_20260915/feature_03/predictions.npz",
+      "jpx_v25_single_features_unfiltered_20260916/v16_feature_03/predictions.npz"
+    ]
+  },
+  {
+    "size": 5265990,
+    "sha256": "1569479477f65251f38c57fd935dec52182b023ffb3fcd2732fb70fdc351d7e5",
+    "paths": [
+      "output/大銀微系統_產業連結與營收拆解_研究簡報_2026Q2_Mac字型修正版.pptx",
+      "ppt_build/hiwin_industry_research_2026q2/candidate-hiwin-research-mac-fontfix.pptx"
+    ]
+  },
+  {
+    "size": 5875464,
+    "sha256": "25cb09b4e829ea620ab77b5253ac487239daa363f04acfe909868af24467dd1c",
+    "paths": [
+      "output/大銀微系統_機器人與人形機器人_完整研究簡報_2026_Mac相容版.pptx",
+      ".chart-data-3nItKd/candidate.pptx"
+    ]
+  },
+  {
+    "size": 1301192,
+    "sha256": "36c0896274862b0a78d2b8e3fa03282978dfb8bda9e41760c438b34ed53b20ac",
+    "paths": [
+      "output/jpx_mobile_data_20260914/M1/parameter_history.csv",
+      "jpx_v14_filtered_forecast_events_20260914/sgd_only/parameter_history.csv"
+    ]
+  },
+  {
+    "size": 1453773,
+    "sha256": "fbc95409825f0c0154b667c1a3b20c624fa07d970b1447de5e0c38a6f44410bc",
+    "paths": [
+      "output/jpx_mobile_data_20260914/M1/training_updates.csv",
+      "jpx_v14_filtered_forecast_events_20260914/sgd_only/training_updates.csv"
+    ]
+  },
+  {
+    "size": 1326341,
+    "sha256": "d18d15788e60ad989707f65e67b5692dabdc2a8f4801cf163f50c54a2c34ebd1",
+    "paths": [
+      "output/jpx_mobile_data_20260914/M2/parameter_history.csv",
+      "jpx_v14_filtered_forecast_events_20260914/sgd_sqrt/parameter_history.csv"
+    ]
+  },
+  {
+    "size": 1483054,
+    "sha256": "9ae98ae883cc0ea0b6bc56befa715f974c9de38cdef3ac2b18562e700985007a",
+    "paths": [
+      "output/jpx_mobile_data_20260914/M2/training_updates.csv",
+      "jpx_v14_filtered_forecast_events_20260914/sgd_sqrt/training_updates.csv"
+    ]
+  },
+  {
+    "size": 21975674,
+    "sha256": "3c28289458ac01f70b94c3c7806a8f9cd9928cdb9ac381a44c1588caeeb01197",
+    "paths": [
+      "jpx_v29_learning_rate_sweep_20260916/c1_overwrite/predictions.npz",
+      "jpx_v28_common_learning_rate_20260916/overwrite/predictions.npz"
+    ]
+  },
+  {
+    "size": 21975547,
+    "sha256": "227110aa020af51a9af8b4ac8a1d723617b027faa782fe90821fc3a2e895e90a",
+    "paths": [
+      "jpx_v29_learning_rate_sweep_20260916/c1_g_common/predictions.npz",
+      "jpx_v28_common_learning_rate_20260916/g_common/predictions.npz"
+    ]
+  },
+  {
+    "size": 21975874,
+    "sha256": "122780d72338770d5ea1e88659edb33f2f9e33fbd7bd46385356ef96ecf27603",
+    "paths": [
+      "jpx_v29_learning_rate_sweep_20260916/c1_change_old/predictions.npz",
+      "jpx_v28_common_learning_rate_20260916/change_old/predictions.npz"
+    ]
+  },
+  {
+    "size": 2494715,
+    "sha256": "d14ec2aaf42459a915f4dac7662feafcdcf937e8d43dca28ce818e4f95742490",
+    "paths": [
+      "jpx_v12_financial_growth_20260913/source_dispositions.csv",
+      "jpx_v12_financial_growth_20260913/pre_period_fix/source_dispositions.csv"
+    ]
+  },
+  {
+    "size": 30800859,
+    "sha256": "9fcf0244e583c9190e45a870250b6f5f004bca7754b9617a6348f1ac673e2f8c",
+    "paths": [
+      "jpx_v12_financial_growth_20260913/financial_records.pkl",
+      "jpx_v12_financial_growth_20260913/pre_period_fix/financial_records.pkl",
+      "jpx_v13_quarterly_sgd_sqrt_20260914/financial_records.pkl",
+      "jpx_v14_filtered_forecast_events_20260914/financial_records.pkl"
+    ]
+  },
+  {
+    "size": 21987030,
+    "sha256": "8aacae426f0e973933c389fb109f1adc678152ddac2245d3c8c3aa8723b1575b",
+    "paths": [
+      "jpx_v21_all_eps_joint_20260916/all_eps/predictions.npz",
+      "jpx_v22_eps_thresholds_20260916/skip100/predictions.npz"
+    ]
+  },
+  {
+    "size": 21982467,
+    "sha256": "0f6519ca5be14aee70167d0906c8205a4fbfba723b2a7a8a0772a971b5ff92d1",
+    "paths": [
+      "jpx_v21_all_eps_joint_20260916/price_mask/predictions.npz",
+      "jpx_v23_g_thresholds_20260916/skip100/predictions.npz"
+    ]
+  }
+]

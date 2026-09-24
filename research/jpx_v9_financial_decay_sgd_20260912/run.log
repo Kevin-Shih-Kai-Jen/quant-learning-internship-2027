@@ -1,0 +1,13 @@
+v9_sgd 2017-05-30 label_days 98 beta 0.0 seconds 19.2
+v9_sgd 2017-10-23 label_days 198 beta 0.0 seconds 39.0
+v9_sgd 2018-03-22 label_days 298 beta 0.8686677897446927 seconds 59.6
+v9_sgd 2018-08-15 label_days 398 beta -0.2768726440209172 seconds 81.0
+v9_sgd 2019-01-16 label_days 498 beta 1.4180108486775558 seconds 102.5
+v9_sgd 2019-06-17 label_days 598 beta -0.6104297915264277 seconds 124.4
+v9_sgd 2019-11-13 label_days 698 beta 0.3484291632660254 seconds 146.4
+v9_sgd 2020-04-13 label_days 798 beta 0.7099211949302927 seconds 168.8
+v9_sgd 2020-09-09 label_days 898 beta -2.319223118174651 seconds 191.5
+v9_sgd 2021-02-08 label_days 998 beta -1.0574407664915837 seconds 214.5
+v9_sgd 2021-07-06 label_days 1098 beta -0.29103001019061 seconds 237.3
+DONE {"version": "v9", "variant": "sgd", "validation": {"official_style_unannualized_sharpe": -0.019538328097322023, "annualized_equivalent_sqrt252": -0.3101613430769992, "signal_days": 953, "scored_days": 953, "unscorable_selected_missing_label_days": 0, "ranked_rows": 1864363, "stocks_per_day_min": 1896, "stocks_per_day_max": 2000, "fallback_rows": 46974, "selected_fallback_rows": 8543, "unavailable_target_rows": 3, "missing_selected_target_rows": 0, "mean_official_spread": -0.029599017208743056, "sample_std_official_spread": 1.5149206759814833, "mean_illustrative_gross_one_return": -7.399754302185767e-05, "exact_official_metric_difference": 2.0816681711721685e-17}, "label_days": 1199, "training_stocks": 2325806, "batches": 2325806, "accepted_updates": 2323524, "small_gradient_skips": 2169, "no_acceptable_eta_skips": 113, "candidate_evaluations": 23032900, "hit_upper_eta_batches": 2256483, "own_zero_feature_nonzero_beta_gradient_batches": 1600512, "own_zero_feature_actual_beta_changes": 1602582, "financial_gradient_dominates_batches": 93, "full_day_loss_increased_days": 287, "mean_rank_ic": -0.0029625853630754965, "mean_normalized_hard_rank_mse": 0.16723919416690258, "final_coefficients": {"alpha": 0.0, "T5": 0.21840286370432466, "T22": 0.13949722614887164, "T60": 0.5428942418888505, "V5": -0.611038254082664, "V22": 0.42506990433367053, "V60": -0.08553716241194154, "P5xV5": -0.6653963470813592, "P22xV22": 0.1648967050904867, "P60xV60": 0.2890727422934222, "PR1": 1.1060295948855012, "VR1": 1.0056447510480975, "FinancialMarginYoYDecay": 0.2992557654778443}, "last_forecast_date": "2021-12-01", "final_parameter_asof": "2021-12-03", "seconds": 311.3743424589993, "internal_checks_passed": true}
+COMPARISON {"v9_sgd": {"common_days": 953, "official_unannualized_sharpe": -0.019538328097322002}, "v8_sgd": {"common_days": 953, "official_unannualized_sharpe": -0.03164664017856846}, "v7_equal": {"common_days": 953, "official_unannualized_sharpe": 0.0076788715624210736}}

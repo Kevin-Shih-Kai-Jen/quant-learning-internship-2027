@@ -1,0 +1,15 @@
+{
+  "version": "v23",
+  "description": "Pure v7 g with EPS-based training masks: 10, 100, none; Sharpe and Rank IC evaluation",
+  "directory": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v23_g_thresholds_20260916",
+  "status": "completed_experiment",
+  "variants": [
+    "no_skip",
+    "skip100",
+    "skip10"
+  ],
+  "baseline": "v7",
+  "parameter_count": 12,
+  "common_days": 953,
+  "audit_passed": true
+}

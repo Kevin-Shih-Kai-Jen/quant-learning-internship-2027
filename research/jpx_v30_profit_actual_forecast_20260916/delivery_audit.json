@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "pdf_pages": 2,
+  "all_pages_visually_reviewed": true,
+  "numeric_text_checked": true,
+  "archive_entries": 69,
+  "archive_crc_passed": true,
+  "archive_matches_sources": true,
+  "pdf_sha256": "b6953f47c25f7c64748c508d75a9ecb3795168ff2ab5bcd64beec54cb013c47c",
+  "zip_sha256": "f5a2b9d3d08e0def5073e709a10a09e51e7967216aa282791d8503cb9c934324",
+  "pdf": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/output/pdf/JPX-v30-profit-actual-forecast-mobile-20260916.pdf",
+  "zip": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/output/JPX-v30-profit-actual-forecast-data-20260916.zip",
+  "active_baseline": "v7",
+  "test_evaluated": false
+}

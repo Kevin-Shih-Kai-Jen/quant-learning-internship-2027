@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "financial_source": "v14 frozen audited cache",
+  "all_signal_rows": 2332001,
+  "eligible_rows": 2329700,
+  "ineligible_rows": 2301,
+  "all_feature_thresholds_recomputed": true,
+  "source_inputs": {
+    "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v8_soft_rank_20260912/inputs.pkl": "6b0ff60bfb8eab20ec7c6e087e746dd6e0ccc38b9633d1a11d98477d84857bc6",
+    "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v11_persistent_finance_std22_20260913/return_std22_features.pkl": "cd07c45b986550b4cd0924a79ef3817efe7e855ed79981b6969243630edc640a",
+    "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v14_filtered_forecast_events_20260914/financial_signal_features.pkl": "bf067c7cea6c1c7d14cd0bdbeda5ae995590f43fa1c04670e30b31036d5be03d",
+    "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v14_filtered_forecast_events_20260914/feature_audit.json": "de43645c94a97c9f4452170cd5fc31e6d67c72a234283cf832de89f6a1e4d4c2"
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "passed": true,
+  "days_replayed": 1199,
+  "stock_updates_replayed": 2323512,
+  "full_updates_replayed": 52189,
+  "replay_method": "Independent direct score/Jacobian replay of every recorded accepted rate; anchored at first/middle/last SGD stocks and every full update. Full candidate grids independently checked at deterministic sampled snapshots.",
+  "gradient_substeps_replayed": 4751402,
+  "max_relative_errors_loss_before_after_gradinf_norm_descent_anchor_gradient": [
+    2.7718924936537358e-08,
+    2.771905959339771e-08,
+    3.2171104478978084e-08,
+    6.379119550728614e-08,
+    2.7707566988071877e-08,
+    1.4714843371428673e-08,
+    1.795282430708414e-15
+  ],
+  "max_daily_final_parameter_error": 1.1102230246251565e-16,
+  "max_relative_daily_stage_loss_error": 9.581997647444189e-17,
+  "reused_completed_daily_replay_certificate": false,
+  "all_daily_final_parameter_checks_passed": true,
+  "all_daily_stage_loss_checks_passed": true,
+  "refined_days": {
+    "2017-05-11": {
+      "passed": true,
+      "checkpoint_stride": 8,
+      "all_regenerated_training_arrays_bitwise_equal": true,
+      "max_relative_errors_loss_before_after_gradinf_norm_descent": [
+        3.293002424329183e-15,
+        3.365570281582191e-15,
+        2.3775111498318756e-15,
+        4.3934672839746856e-15,
+        2.437017296764226e-15
+      ],
+      "max_relative_checkpoint_parameter_error": 3.096935685773161e-15,
+      "stock_steps": 1868,
+      "full_steps": 43
+    },
+    "2017-09-13": {
+      "passed": true,
+      "checkpoint_stride": 8,
+      "all_regenerated_training_arrays_bitwise_equal": true,
+      "max_relative_errors_loss_before_after_gradinf_norm_descent": [
+        3.4779866359828913e-16,
+        6.393741975663604e-16,
+        1.2402788205215131e-15,
+        2.108059362940365e-15,
+        1.0177412026782311e-15
+      ],
+      "max_relative_checkpoint_parameter_error": 7.127560968172375e-16,
+      "stock_steps": 1877,
+      "full_steps": 43
+    },
+    "2017-10-27": {
+      "passed": true,
+      "checkpoint_stride": 8,
+      "all_regenerated_training_arrays_bitwise_equal": true,
+      "max_relative_errors_loss_before_after_gradinf_norm_descent": [
+        8.425279863834846e-16,
+        1.0199023598709663e-15,
+        8.853576806203199e-16,
+        2.0784620637633346e-15,
+        8.019466270950419e-16
+      ],
+      "max_relative_checkpoint_parameter_error": 4.0445394175703416e-16,
+      "stock_steps": 1885,
+      "full_steps": 43
+    },
+    "2021-02-15": {
+      "passed": true,
+      "checkpoint_stride": 8,
+      "all_regenerated_training_arrays_bitwise_equal": true,
+      "max_relative_errors_loss_before_after_gradinf_norm_descent": [
+        2.0410246058676458e-15,
+        2.8859172289229633e-15,
+        1.967278203292826e-14,
+        4.1852370823510423e-14,
+        1.3919042362968876e-14
+      ],
+      "max_relative_checkpoint_parameter_error": 7.465390273455662e-15,
+      "stock_steps": 1986,
+      "full_steps": 44
+    }
+  },
+  "independent_numpy_full_grid_substeps": 130,
+  "finite_difference_relative_error": 1.1521620943101649e-10,
+  "forecast_rows_reproduced": 2326022,
+  "all_integer_ranks_equal": true,
+  "max_score_error": 4.547473508864641e-13,
+  "same_v14_training_schedule_and_pools": true,
+  "max_spread_error": 5.329070518200751e-15,
+  "validation_sharpe_reproduced": -0.01945738671214674,
+  "seconds": 929.652876958
+}

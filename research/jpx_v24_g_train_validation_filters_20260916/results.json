@@ -1,0 +1,263 @@
+{
+  "version": "v24",
+  "audit_passed": true,
+  "comparison": [
+    {
+      "Variant": "none_none",
+      "TrainingFilter": "不跳過",
+      "ValidationFilter": "不跳過",
+      "Sharpe": 0.0076788715624210805,
+      "RankIC": -0.0007338924981283135,
+      "MSE": 0.0006654329991343369,
+      "ValidationExcludedStockDays": 0,
+      "ValidationExcludedPct": 0.0,
+      "ValidationRetainedStockDays": 1864363,
+      "MinDailyStocks": 1896,
+      "TrainingSkippedStockDays": 0,
+      "ReplacedLongStockDays": 0,
+      "ReplacedShortStockDays": 0
+    },
+    {
+      "Variant": "100_100",
+      "TrainingFilter": "100倍",
+      "ValidationFilter": "100倍",
+      "Sharpe": 0.006303388527234949,
+      "RankIC": -0.0006581395284312847,
+      "MSE": 0.0006654445139977187,
+      "ValidationExcludedStockDays": 2756,
+      "ValidationExcludedPct": 0.14782528938838627,
+      "ValidationRetainedStockDays": 1861607,
+      "MinDailyStocks": 1884,
+      "TrainingSkippedStockDays": 3025,
+      "ReplacedLongStockDays": 339,
+      "ReplacedShortStockDays": 352
+    },
+    {
+      "Variant": "10_10",
+      "TrainingFilter": "10倍",
+      "ValidationFilter": "10倍",
+      "Sharpe": 0.004279273953645721,
+      "RankIC": -0.0006514386660386204,
+      "MSE": 0.0006661804812686035,
+      "ValidationExcludedStockDays": 29429,
+      "ValidationExcludedPct": 1.5785016115423873,
+      "ValidationRetainedStockDays": 1834934,
+      "MinDailyStocks": 1763,
+      "TrainingSkippedStockDays": 32541,
+      "ReplacedLongStockDays": 3497,
+      "ReplacedShortStockDays": 3760
+    },
+    {
+      "Variant": "none_100",
+      "TrainingFilter": "不跳過",
+      "ValidationFilter": "100倍",
+      "Sharpe": 0.008000686600347466,
+      "RankIC": -0.0006985757992572783,
+      "MSE": 0.0006654275471009964,
+      "ValidationExcludedStockDays": 2756,
+      "ValidationExcludedPct": 0.14782528938838627,
+      "ValidationRetainedStockDays": 1861607,
+      "MinDailyStocks": 1884,
+      "TrainingSkippedStockDays": 0,
+      "ReplacedLongStockDays": 342,
+      "ReplacedShortStockDays": 347
+    },
+    {
+      "Variant": "none_10",
+      "TrainingFilter": "不跳過",
+      "ValidationFilter": "10倍",
+      "Sharpe": 0.004427331476523491,
+      "RankIC": -0.0006889777962693515,
+      "MSE": 0.0006656431267136298,
+      "ValidationExcludedStockDays": 29429,
+      "ValidationExcludedPct": 1.5785016115423873,
+      "ValidationRetainedStockDays": 1834934,
+      "MinDailyStocks": 1763,
+      "TrainingSkippedStockDays": 0,
+      "ReplacedLongStockDays": 3498,
+      "ReplacedShortStockDays": 3717
+    }
+  ],
+  "paired_bootstrap": [
+    {
+      "Comparison": "100_100 - none_none",
+      "Metric": "Sharpe",
+      "Difference": -0.0013754830351861268,
+      "CI95Low": -0.003796596505069479,
+      "CI95High": 0.0014175460139966298
+    },
+    {
+      "Comparison": "100_100 - none_none",
+      "Metric": "RankIC",
+      "Difference": 7.575296969702754e-05,
+      "CI95Low": -5.283110225829775e-05,
+      "CI95High": 0.00020225053338438894
+    },
+    {
+      "Comparison": "10_10 - none_none",
+      "Metric": "Sharpe",
+      "Difference": -0.0033995976087753538,
+      "CI95Low": -0.010735415198890737,
+      "CI95High": 0.004438943129679773
+    },
+    {
+      "Comparison": "10_10 - none_none",
+      "Metric": "RankIC",
+      "Difference": 8.24538320896897e-05,
+      "CI95Low": -0.00028474031889628017,
+      "CI95High": 0.000526098289923323
+    },
+    {
+      "Comparison": "10_10 - 100_100",
+      "Metric": "Sharpe",
+      "Difference": -0.002024114573589227,
+      "CI95Low": -0.009486285031470426,
+      "CI95High": 0.005469534558050648
+    },
+    {
+      "Comparison": "10_10 - 100_100",
+      "Metric": "RankIC",
+      "Difference": 6.700862392662165e-06,
+      "CI95Low": -0.0003153449611097274,
+      "CI95High": 0.0003832996846912507
+    },
+    {
+      "Comparison": "100_100 - 100_none",
+      "Metric": "Sharpe",
+      "Difference": 0.0006593156079194203,
+      "CI95Low": -0.0011244299007345075,
+      "CI95High": 0.0021398958099418863
+    },
+    {
+      "Comparison": "100_100 - 100_none",
+      "Metric": "RankIC",
+      "Difference": 3.649209371869638e-05,
+      "CI95Low": -2.85930601833881e-05,
+      "CI95High": 9.32865421854121e-05
+    },
+    {
+      "Comparison": "10_10 - 10_none",
+      "Metric": "Sharpe",
+      "Difference": -0.0011063492091748688,
+      "CI95Low": -0.006433204083779605,
+      "CI95High": 0.004290501326408289
+    },
+    {
+      "Comparison": "10_10 - 10_none",
+      "Metric": "RankIC",
+      "Difference": 5.023670947156456e-05,
+      "CI95Low": -0.0001222722289531032,
+      "CI95High": 0.00022779170443944043
+    },
+    {
+      "Comparison": "100_100 - none_100",
+      "Metric": "Sharpe",
+      "Difference": -0.0016972980731125263,
+      "CI95Low": -0.0036282791742554446,
+      "CI95High": 0.001034987574398733
+    },
+    {
+      "Comparison": "100_100 - none_100",
+      "Metric": "RankIC",
+      "Difference": 4.043627082599469e-05,
+      "CI95Low": -6.537753419153001e-05,
+      "CI95High": 0.00016116209866135463
+    },
+    {
+      "Comparison": "10_10 - none_10",
+      "Metric": "Sharpe",
+      "Difference": -0.00014805752287777585,
+      "CI95Low": -0.0053877078191668605,
+      "CI95High": 0.005175706986162984
+    },
+    {
+      "Comparison": "10_10 - none_10",
+      "Metric": "RankIC",
+      "Difference": 3.753913023072991e-05,
+      "CI95Low": -0.0002929471693249641,
+      "CI95High": 0.00043255152049893864
+    },
+    {
+      "Comparison": "none_100 - none_none",
+      "Metric": "Sharpe",
+      "Difference": 0.00032181503792639947,
+      "CI95Low": -0.0015155809920492562,
+      "CI95High": 0.001818774862916283
+    },
+    {
+      "Comparison": "none_100 - none_none",
+      "Metric": "RankIC",
+      "Difference": 3.531669887103285e-05,
+      "CI95Low": -2.92705510838853e-05,
+      "CI95High": 9.13098418306814e-05
+    },
+    {
+      "Comparison": "none_10 - none_none",
+      "Metric": "Sharpe",
+      "Difference": -0.003251540085897578,
+      "CI95Low": -0.008000170977945404,
+      "CI95High": 0.0016904480870380608
+    },
+    {
+      "Comparison": "none_10 - none_none",
+      "Metric": "RankIC",
+      "Difference": 4.4914701858959796e-05,
+      "CI95Low": -0.00012665293267951196,
+      "CI95High": 0.00022955983534183818
+    }
+  ],
+  "rank_ic_intervals": [
+    {
+      "Variant": "none_none",
+      "RankIC": -0.0007338924981283103,
+      "CI95Low": -0.006987829142865509,
+      "CI95High": 0.005450343705174769
+    },
+    {
+      "Variant": "100_100",
+      "RankIC": -0.0006581395284312827,
+      "CI95Low": -0.00689125340809934,
+      "CI95High": 0.005530170617219671
+    },
+    {
+      "Variant": "10_10",
+      "RankIC": -0.0006514386660386206,
+      "CI95Low": -0.0069441791838239985,
+      "CI95High": 0.005515139922885432
+    },
+    {
+      "Variant": "none_100",
+      "RankIC": -0.0006985757992572774,
+      "CI95Low": -0.006950727456226029,
+      "CI95High": 0.005504781129258387
+    },
+    {
+      "Variant": "none_10",
+      "RankIC": -0.0006889777962693505,
+      "CI95Low": -0.006958344539013191,
+      "CI95High": 0.005527563015316541
+    }
+  ],
+  "validation_filter_increment": [
+    {
+      "Threshold": "100倍",
+      "PreviousSharpe": 0.0056440729193155265,
+      "FilteredSharpe": 0.006303388527234947,
+      "DeltaSharpe": 0.0006593156079194203,
+      "PreviousRankIC": -0.0006946316221499791,
+      "FilteredRankIC": -0.0006581395284312827,
+      "DeltaRankIC": 3.649209371869638e-05
+    },
+    {
+      "Threshold": "10倍",
+      "PreviousSharpe": 0.005385623162820589,
+      "FilteredSharpe": 0.00427927395364572,
+      "DeltaSharpe": -0.0011063492091748688,
+      "PreviousRankIC": -0.0007016753755101851,
+      "FilteredRankIC": -0.0006514386660386206,
+      "DeltaRankIC": 5.023670947156456e-05
+    }
+  ],
+  "training_reused_unchanged": true,
+  "active_baseline": "v7"
+}

@@ -1,0 +1,36 @@
+{
+  "name": "joint_f",
+  "features": [
+    "ProfitLatestYoY"
+  ],
+  "includes_feature": true,
+  "frozen_g": false,
+  "parameter_count": 13,
+  "sharpe": 0.003842789063801365,
+  "scored_days": 953,
+  "mean_rank_ic": -0.0010966056376948137,
+  "rank_ic_days": 952,
+  "mean_hard_rank_mse": 0.16692820248721998,
+  "mean_return_mse": 0.0006626702330858346,
+  "training_updates": 1199,
+  "training_stock_days": 2325806,
+  "threshold_skipped_stock_days": 0,
+  "forecast_rows": 2326022,
+  "final_coefficients": {
+    "alpha": -0.0006893063600005354,
+    "T5": -0.0005443825117435792,
+    "T22": -0.0005520726329740562,
+    "T60": -0.00015857578861549104,
+    "V5": 0.0010605881887253187,
+    "V22": -0.00017059435116748183,
+    "V60": 9.861803595296569e-05,
+    "P5xV5": 0.0005595858408235808,
+    "P22xV22": -0.00020226399959138116,
+    "P60xV60": -4.419748906462491e-05,
+    "PR1": 0.001139046951799432,
+    "VR1": -0.00021286097785515654,
+    "ProfitLatestYoY": 1.9343751131253124e-05
+  },
+  "parameter_asof": "2021-12-03",
+  "seconds": 3.132563208000647
+}

@@ -1,0 +1,704 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/gl2422",
+    "id": "gl2422",
+    "slide": 19,
+    "layoutId": "/ppt/slideLayouts/slideLayout1.xml",
+    "layoutName": "Title Slide",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "Color Block Theme",
+    "colors": {
+      "accent1": "#2ED978",
+      "accent2": "#9FB6FE",
+      "accent3": "#F3F161",
+      "accent4": "#FF5F27",
+      "accent5": "#5EC4FF",
+      "accent6": "#3C7DA3",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#393939",
+      "lt2": "#F5F5F5",
+      "hlink": "#FFA83A",
+      "folHlink": "#96607D"
+    },
+    "fontScheme": {
+      "name": "Inter",
+      "majorFont": {
+        "latinTypeface": "Inter"
+      },
+      "minorFont": {
+        "latinTypeface": "Inter"
+      }
+    },
+    "typefaces": [
+      "Heiti TC",
+      "Inter",
+      "Inter SemiBold"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout1.xml",
+      "name": "Title Slide",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout1.xml/2",
+          "id": "2",
+          "name": "Title 1",
+          "bbox": [
+            41.33,
+            109.33,
+            786.67,
+            261.57
+          ],
+          "text": "Click to edit Master title style",
+          "textPreview": "Click to edit Master title style",
+          "resolvedTextStyle": {
+            "anchor": 3,
+            "verticalAlignment": "bottom"
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Click to edit Master title style",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Click to edit Master title style"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout1.xml/3",
+          "id": "3",
+          "name": "Subtitle 2",
+          "bbox": [
+            41.33,
+            457.33,
+            581.33,
+            172
+          ],
+          "text": "Click to edit Master subtitle style",
+          "textPreview": "Click to edit Master subtitle style",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Click to edit Master subtitle style",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Click to edit Master subtitle style"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "type": "master",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/2",
+          "id": "2",
+          "name": "Title Placeholder 1",
+          "bbox": [
+            41.33,
+            36.12,
+            1197.33,
+            109.97
+          ],
+          "geometry": "rect",
+          "text": "Click to edit Master title style",
+          "textPreview": "Click to edit Master title style",
+          "resolvedTextStyle": {
+            "anchor": 1,
+            "vertical": 1,
+            "verticalAlignment": "top",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Click to edit Master title style",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Click to edit Master title style"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/3",
+          "id": "3",
+          "name": "Text Placeholder 2",
+          "bbox": [
+            41.33,
+            213.33,
+            1197.33,
+            416
+          ],
+          "geometry": "rect",
+          "text": "Click to edit Master text styles\nSecond level\nThird level\nFourth level\nFifth level",
+          "textPreview": "Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level",
+          "resolvedTextStyle": {
+            "vertical": 1,
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Click to edit Master text styles",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Click to edit Master text styles"
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "text": "Second level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Second level"
+                }
+              ]
+            },
+            {
+              "index": 3,
+              "text": "Third level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Third level"
+                }
+              ]
+            },
+            {
+              "index": 4,
+              "text": "Fourth level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Fourth level"
+                }
+              ]
+            },
+            {
+              "index": 5,
+              "text": "Fifth level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Fifth level"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/5",
+          "id": "5",
+          "name": "Footer Placeholder 4",
+          "bbox": [
+            41.33,
+            659.31,
+            374.67,
+            25.33
+          ],
+          "geometry": "rect",
+          "resolvedTextStyle": {
+            "anchor": 3,
+            "vertical": 1,
+            "verticalAlignment": "bottom",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          }
+        },
+        {
+          "order": 4,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/6",
+          "id": "6",
+          "name": "Slide Number Placeholder 5",
+          "bbox": [
+            1184.18,
+            659.24,
+            54.48,
+            25.33
+          ],
+          "geometry": "rect",
+          "text": "‹#›",
+          "textPreview": "‹#›",
+          "resolvedTextStyle": {
+            "anchor": 3,
+            "vertical": 1,
+            "verticalAlignment": "bottom",
+            "insets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "‹#›",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "‹#›"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kne54vmx",
+      "id": "4",
+      "name": "Title 3",
+      "bbox": [
+        65.76,
+        47.21,
+        706.61,
+        252.12
+      ],
+      "text": "最後，用四句話說完大銀的機器人故事",
+      "textPreview": "最後，用四句話說完大銀的機器人故事",
+      "resolvedFontSize": 64.85,
+      "resolvedTextStyle": {
+        "anchor": 3,
+        "vertical": 1,
+        "fontSize": 80,
+        "typeface": "Inter SemiBold",
+        "color": "accent1",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "bottom",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.81,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "最後，用四句話說"
+          },
+          {
+            "index": 2,
+            "text": "完大銀的機器人故"
+          },
+          {
+            "index": 3,
+            "text": "事"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "最後，用四句話說完大銀的機器人故事",
+          "runs": [
+            {
+              "index": 1,
+              "text": "最後，用四句話說完大銀的機器人故事",
+              "fontSize": 96,
+              "color": {
+                "type": "theme",
+                "value": "accent6",
+                "transform": {
+                  "darken": 0.25
+                }
+              }
+            }
+          ],
+          "bulletCharacter": "",
+          "lineSpacingPercent": 90000
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/lonmdg3i",
+      "id": "5",
+      "name": "Subtitle 4",
+      "bbox": [
+        68,
+        312,
+        1120,
+        158
+      ],
+      "text": "大銀現在主要靠｜半導體與自動化相關的精密運動元件、定位系統賺錢；機器人營收未單列。\n機器人關聯是｜提供馬達、驅動、控制、位置回授與運動模組；集團再補螺桿、減速機與軸承。\n未來一年最值得觀察｜Dexterity 新一代八軸手臂能否送樣、驗收並在 2027 小量生產，以及人形關節是否出現具名量產單。\n我們目前最不確定｜機器人台數、單機價值、專屬毛利、認列公司、產能與 Figure／Boston 的直接訂單。",
+      "textPreview": "大銀現在主要靠｜半導體與自動化相關的精密運動元件、定位系統賺錢；機器人營收未單列。 | 機器人關聯是｜提供馬達、驅動、控制、位置回授與運動模組；集團再補螺桿、減速機與軸承。 | 未來一年最值得觀察｜Dexterity 新一代八軸手臂能否送樣、驗收並在 2027 小量生產，以...",
+      "resolvedFontSize": 31.95,
+      "resolvedTextStyle": {
+        "vertical": 1,
+        "fontSize": 32,
+        "typeface": "Inter",
+        "color": "tx1",
+        "alignment": "left",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 7,
+        "lines": [
+          {
+            "index": 1,
+            "text": "大銀現在主要靠｜半導體與自動化相關的精密運動元件、定位系統賺錢；機器人營收未單列。"
+          },
+          {
+            "index": 2,
+            "text": ""
+          },
+          {
+            "index": 3,
+            "text": "機器人關聯是｜提供馬達、驅動、控制、位置回授與運動模組；集團再補螺桿、減速機與軸承。"
+          },
+          {
+            "index": 4,
+            "text": ""
+          },
+          {
+            "index": 5,
+            "text": "未來一年最值得觀察｜Dexterity 新一代八軸手臂能否送樣、驗收並在 2027 小量生產，以及人形關節是否出現具名量產單。"
+          },
+          {
+            "index": 6,
+            "text": ""
+          },
+          {
+            "index": 7,
+            "text": "我們目前最不確定｜機器人台數、單機價值、專屬毛利、認列公司、產能與 Figure／Boston 的直接訂單。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "大銀現在主要靠｜半導體與自動化相關的精密運動元件、定位系統賺錢；機器人營收未單列。",
+          "spaceAfter": 320,
+          "resolvedTextStyle": {
+            "autoFit": "shrinkText",
+            "autoFitScale": 1
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "大銀現在主要靠｜",
+              "fontSize": 20.67,
+              "typeface": "Heiti TC",
+              "color": "#17324D",
+              "bold": true
+            },
+            {
+              "index": 2,
+              "text": "半導體與自動化相關的精密運動元件、定位系統賺錢；機器人營收未單列。",
+              "fontSize": 20.67,
+              "typeface": "Heiti TC",
+              "color": "#111827"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0,
+          "indent": 0,
+          "lineSpacingPercent": 90000
+        },
+        {
+          "index": 2,
+          "text": "機器人關聯是｜提供馬達、驅動、控制、位置回授與運動模組；集團再補螺桿、減速機與軸承。",
+          "spaceAfter": 320,
+          "resolvedTextStyle": {
+            "autoFit": "shrinkText",
+            "autoFitScale": 1
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "機器人關聯是｜",
+              "fontSize": 20.67,
+              "typeface": "Heiti TC",
+              "color": "#17324D",
+              "bold": true
+            },
+            {
+              "index": 2,
+              "text": "提供馬達、驅動、控制、位置回授與運動模組；集團再補螺桿、減速機與軸承。",
+              "fontSize": 20.67,
+              "typeface": "Heiti TC",
+              "color": "#111827"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0,
+          "indent": 0,
+          "lineSpacingPercent": 90000
+        },
+        {
+          "index": 3,
+          "text": "未來一年最值得觀察｜Dexterity 新一代八軸手臂能否送樣、驗收並在 2027 小量生產，以及人形關節是否出現具名量產單。",
+          "spaceAfter": 320,
+          "resolvedTextStyle": {
+            "autoFit": "shrinkText",
+            "autoFitScale": 1
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "未來一年最值得觀察｜",
+              "fontSize": 20.67,
+              "typeface": "Heiti TC",
+              "color": "#17324D",
+              "bold": true
+            },
+            {
+              "index": 2,
+              "text": "Dexterity 新一代八軸手臂能否送樣、驗收並在 2027 小量生產，以及人形關節是否出現具名量產單。",
+              "fontSize": 20.67,
+              "typeface": "Heiti TC",
+              "color": "#111827"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0,
+          "indent": 0,
+          "lineSpacingPercent": 90000
+        },
+        {
+          "index": 4,
+          "text": "我們目前最不確定｜機器人台數、單機價值、專屬毛利、認列公司、產能與 Figure／Boston 的直接訂單。",
+          "resolvedTextStyle": {
+            "autoFit": "shrinkText",
+            "autoFitScale": 1
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "我們目前最不確定｜",
+              "fontSize": 20.67,
+              "typeface": "Heiti TC",
+              "color": "#17324D",
+              "bold": true
+            },
+            {
+              "index": 2,
+              "text": "機器人台數、單機價值、專屬毛利、認列公司、產能與 Figure／Boston 的直接訂單。",
+              "fontSize": 20.67,
+              "typeface": "Heiti TC",
+              "color": "#111827"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0,
+          "indent": 0,
+          "lineSpacingPercent": 90000
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/utori5wb",
+      "id": "7",
+      "name": "Picture 7",
+      "bbox": [
+        0,
+        500.09,
+        1280,
+        219.91
+      ],
+      "contentType": "image/png",
+      "imageCrop": {
+        "left": 0,
+        "top": 0.25645,
+        "right": 0,
+        "bottom": 0.61469
+      },
+      "asset": {
+        "assetId": "/ppt/media/image3.png",
+        "contentType": "image/png",
+        "byteLength": 5122537
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image3.png",
+        "contentType": "image/png",
+        "byteLength": 5122537
+      }
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8ry58vm9",
+      "id": "8",
+      "name": "Clickable source footer",
+      "bbox": [
+        42,
+        478,
+        1120,
+        24
+      ],
+      "geometry": "rect",
+      "text": "資料來源：[1] 大銀產品  ·  [2] HIWIN 人形展示  ·  [3] Dexterity 時程",
+      "textPreview": "資料來源：[1] 大銀產品  ·  [2] HIWIN 人形展示  ·  [3] Dexterity 時程",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "fontSize": 11,
+        "typeface": "Inter",
+        "color": "#667085",
+        "alignment": "left",
+        "wrap": "none",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "資料來源：[1] 大銀產品  ·  [2] HIWIN 人形展示  ·  [3] Dexterity 時程"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "資料來源：[1] 大銀產品  ·  [2] HIWIN 人形展示  ·  [3] Dexterity 時程",
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "color": "#667085"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "資料來源：",
+              "fontSize": 11,
+              "typeface": "Heiti TC",
+              "color": "#667085"
+            },
+            {
+              "index": 2,
+              "text": "[1] 大銀產品",
+              "fontSize": 11,
+              "typeface": "Heiti TC",
+              "color": "#667085"
+            },
+            {
+              "index": 3,
+              "text": "  ·  ",
+              "fontSize": 11,
+              "typeface": "Heiti TC",
+              "color": "#667085"
+            },
+            {
+              "index": 4,
+              "text": "[2] HIWIN 人形展示",
+              "fontSize": 11,
+              "typeface": "Heiti TC",
+              "color": "#667085"
+            },
+            {
+              "index": 5,
+              "text": "  ·  ",
+              "fontSize": 11,
+              "typeface": "Heiti TC",
+              "color": "#667085"
+            },
+            {
+              "index": 6,
+              "text": "[3] Dexterity 時程",
+              "fontSize": 11,
+              "typeface": "Heiti TC",
+              "color": "#667085"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

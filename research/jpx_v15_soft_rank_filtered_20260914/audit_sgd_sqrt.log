@@ -1,0 +1,13 @@
+sgd_sqrt audited days 200 seconds 202.7
+sgd_sqrt audited days 400 seconds 416.3
+sgd_sqrt audited days 600 seconds 631.6
+sgd_sqrt audited days 800 seconds 873.0
+sgd_sqrt audited days 1000 seconds 1283.7
+Traceback (most recent call last):
+  File "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v15_soft_rank_filtered_20260914/audit_results.py", line 111, in <module>
+    rm=ranking_metrics(valid).set_index('Date')
+                                      ~^^^^^^^^
+  File "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v15_soft_rank_filtered_20260914/audit_results.py", line 67, in audit
+    previous=z['theta_after']
+       ^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v13_quarterly_sgd_sqrt_20260914/run.py", line 80, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v13_quarterly_sgd_sqrt_20260914/run.py", line 79, in main
+    for variant in (sys.argv[1:] or VARIANTS):run(variant,f,x,groups,cal,fin)
+                                              ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v13_quarterly_sgd_sqrt_20260914/run.py", line 26, in run
+    theta,tr,snap,losses=train(x[ix],y,theta,order,full)
+                         ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v13_quarterly_sgd_sqrt_20260914/native.py", line 36, in train
+    assert status==len(trace),(status,n)
+           ^^^^^^^^^^^^^^^^^^
+AssertionError: (-1, 1875)

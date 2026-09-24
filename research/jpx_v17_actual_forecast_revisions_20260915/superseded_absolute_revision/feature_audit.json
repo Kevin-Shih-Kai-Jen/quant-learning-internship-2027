@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "old_167891_events_reproduced_exactly": true,
+  "new_events": 79024,
+  "event_counts": {
+    "EPSActualQoQ": 34209,
+    "EPSForecastActualQoQ": 18455,
+    "EPSForecastActualYoY": 14866,
+    "OperatingProfitRevisionRelative": 5773,
+    "NetSalesRevisionRelative": 5721
+  },
+  "invalid_or_zero_baseline_events_skipped": {
+    "EPSActualQoQ": 4359,
+    "EPSForecastActualQoQ": 1941,
+    "EPSForecastActualYoY": 5530,
+    "OperatingProfitRevisionRelative": 1
+  },
+  "all_event_formulas_checked": 79024,
+  "all_event_references_known_at_event_time": true,
+  "actual_bases_independently_rebuilt_from_raw_ytd": true,
+  "signal_rows": 2332001,
+  "direct_decayed_sum_checks": 25336,
+  "direct_decayed_sum_max_abs_error": 9.094947017729282e-13,
+  "old_EPSActualGrowth_reused_exactly": true
+}

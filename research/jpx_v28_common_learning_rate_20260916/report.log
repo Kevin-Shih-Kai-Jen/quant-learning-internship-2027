@@ -1,0 +1,73 @@
+   Variant       Label   Sharpe    RankIC      MSE
+g_original     原純g：原步長 0.007679 -0.000734 0.000665
+     a_own     A：原各自步長 0.011122 -0.000723 0.000664
+     b_own     B：原各自步長 0.001935 -0.001364 0.000666
+  g_common     純g：共同步長 0.000811 -0.001389 0.000665
+ overwrite    A覆蓋：共同步長 0.001063 -0.001469 0.000666
+change_old B差額＋舊值：共同步長 0.002224 -0.001371 0.000666
+   Variant  ValidationYear  Days    Sharpe    RankIC      MSE
+g_original            2018   245 -0.011514 -0.001318 0.000666
+g_original            2019   241  0.050067  0.000502 0.000488
+g_original            2020   242  0.050857  0.002987 0.000991
+g_original            2021   225 -0.087605 -0.005408 0.000504
+     a_own            2018   245 -0.029650 -0.002318 0.000666
+     a_own            2019   241  0.063569  0.001897 0.000486
+     a_own            2020   242  0.072518  0.003041 0.000990
+     a_own            2021   225 -0.105330 -0.005825 0.000501
+     b_own            2018   245 -0.032887 -0.002359 0.000666
+     b_own            2019   241  0.030451  0.001030 0.000487
+     b_own            2020   242  0.050453  0.000203 0.000995
+     b_own            2021   225 -0.064761 -0.004522 0.000506
+  g_common            2018   245 -0.029325 -0.002298 0.000666
+  g_common            2019   241  0.031636  0.000979 0.000486
+  g_common            2020   242  0.049439  0.000128 0.000994
+  g_common            2021   225 -0.073914 -0.004559 0.000503
+ overwrite            2018   245 -0.029321 -0.002290 0.000666
+ overwrite            2019   241  0.032936  0.001006 0.000486
+ overwrite            2020   242  0.050100  0.000104 0.000995
+ overwrite            2021   225 -0.075024 -0.004913 0.000505
+change_old            2018   245 -0.032649 -0.002360 0.000666
+change_old            2019   241  0.033092  0.001016 0.000487
+change_old            2020   242  0.050456  0.000204 0.000995
+change_old            2021   225 -0.066234 -0.004535 0.000506
+             Comparison Metric  Difference   CI95Low  CI95High
+ change_old - overwrite Sharpe    0.001161 -0.002369  0.003558
+ change_old - overwrite RankIC    0.000099 -0.000005  0.000188
+   overwrite - g_common Sharpe    0.000252 -0.002152  0.003319
+   overwrite - g_common RankIC   -0.000080 -0.000203  0.000042
+  change_old - g_common Sharpe    0.001412 -0.001951  0.004220
+  change_old - g_common RankIC    0.000018 -0.000073  0.000097
+ overwrite - g_original Sharpe   -0.006616 -0.033937  0.026760
+ overwrite - g_original RankIC   -0.000735 -0.003217  0.001569
+change_old - g_original Sharpe   -0.005455 -0.033762  0.027053
+change_old - g_original RankIC   -0.000637 -0.003147  0.001670
+  g_common - g_original Sharpe   -0.006867 -0.034959  0.025881
+  g_common - g_original RankIC   -0.000655 -0.003170  0.001686
+      overwrite - a_own Sharpe   -0.010059 -0.027187  0.011252
+      overwrite - a_own RankIC   -0.000746 -0.002057  0.000917
+     change_old - b_own Sharpe    0.000288 -0.000651  0.001360
+     change_old - b_own RankIC   -0.000007 -0.000037  0.000020
+   Variant    RankIC   CI95Low  CI95High
+  g_common -0.001389 -0.007484  0.004475
+ overwrite -0.001469 -0.007544  0.004402
+change_old -0.001371 -0.007461  0.004457
+{
+  "g_common": {
+    "changed_days": 954,
+    "days_below_one_tenth": 86,
+    "minimum_ratio": 0.0008190275603259827,
+    "median_ratio": 0.999980114411147
+  },
+  "overwrite": {
+    "changed_days": 588,
+    "days_below_one_tenth": 25,
+    "minimum_ratio": 0.0014354314222270455,
+    "median_ratio": 0.9999999999999961
+  },
+  "change_old": {
+    "changed_days": 359,
+    "days_below_one_tenth": 0,
+    "minimum_ratio": 0.501336014324578,
+    "median_ratio": 1.0
+  }
+}

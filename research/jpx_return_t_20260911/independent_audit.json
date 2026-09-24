@@ -1,0 +1,11 @@
+{
+  "independent_mean_std_T_checks": 5716,
+  "zero_std_sample_checks": 0,
+  "all_zero_std_rows_excluded": true,
+  "products_checked": true,
+  "market_closure_features_carried": true,
+  "previous_year_only_and_label_cutoffs_checked": true,
+  "same_market_dates_and_budgets": true,
+  "selected_predictions_recomputed": true,
+  "all_passed": true
+}

@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "all_forecast_rows": 2326022,
+  "all_integer_ranks_match": true,
+  "max_independent_score_error": 1.6736612096224235e-13,
+  "official_sharpe_recalculated": 0.007390606008783898,
+  "selected_missing_targets": 0,
+  "all_1199_update_numerics_checked_in_update_audit": true,
+  "matched_control_schedule_and_mask_counts_checked": true
+}

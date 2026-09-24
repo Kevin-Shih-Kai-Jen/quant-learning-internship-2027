@@ -1,0 +1,26 @@
+{
+  "v5": {
+    "days": 953,
+    "mean_daily_rank_ic": 0.004594675196946801,
+    "ic_scorable_days": 952,
+    "mean_daily_forecast_mse": 0.0005947916950705765,
+    "mean_daily_zero_forecast_mse": 0.0005922158657347868,
+    "oos_r2_vs_zero_by_mean_daily_mse": -0.004349477082302933
+  },
+  "v7_equal": {
+    "days": 953,
+    "mean_daily_rank_ic": -0.0007338924981283135,
+    "ic_scorable_days": 952,
+    "mean_daily_forecast_mse": 0.0006654329991343364,
+    "mean_daily_zero_forecast_mse": 0.0005922158657347868,
+    "oos_r2_vs_zero_by_mean_daily_mse": -0.12363250908299483
+  },
+  "v7_jpx": {
+    "days": 953,
+    "mean_daily_rank_ic": -0.004096096582673584,
+    "ic_scorable_days": 952,
+    "mean_daily_forecast_mse": 0.0006283424049569775,
+    "mean_daily_zero_forecast_mse": 0.0005922158657347868,
+    "oos_r2_vs_zero_by_mean_daily_mse": -0.06100231573054371
+  }
+}

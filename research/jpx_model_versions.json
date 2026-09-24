@@ -1,0 +1,690 @@
+{
+  "named_on": "2026-09-12",
+  "active_version": "v7",
+  "versions": [
+    {
+      "version": "v4",
+      "description": "Original nine level price/volume T features under official JPX ranking metric",
+      "directory": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_official_ranking_20260912",
+      "features": [
+        "T5",
+        "T22",
+        "T60",
+        "V5",
+        "V22",
+        "V60",
+        "P5xV5",
+        "P22xV22",
+        "P60xV60"
+      ],
+      "official_style_unannualized_sharpe": 0.017499327610949928
+    },
+    {
+      "version": "v5",
+      "description": "v4 features plus raw PR1 and VR1; all coefficients refitted",
+      "directory": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v5_daily_returns_20260912",
+      "features": [
+        "T5",
+        "T22",
+        "T60",
+        "V5",
+        "V22",
+        "V60",
+        "P5xV5",
+        "P22xV22",
+        "P60xV60",
+        "PR1",
+        "VR1"
+      ],
+      "official_style_unannualized_sharpe": 0.04674195239352687
+    },
+    {
+      "version": "v6",
+      "description": "Expanding chronological replay; one gradient update per historical 400-stock daily RMSE batch; no loss averaging across dates; continuous parameter state",
+      "directory": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v6_expanding_daily_gd_20260912",
+      "features": [
+        "T5",
+        "T22",
+        "T60",
+        "V5",
+        "V22",
+        "V60",
+        "P5xV5",
+        "P22xV22",
+        "P60xV60",
+        "PR1",
+        "VR1"
+      ],
+      "official_style_unannualized_sharpe": -0.06252334231900525
+    },
+    {
+      "version": "v7",
+      "description": "One daily MSE gradient step with continuous parameters; all-stock equal-weight main model and JPX-rank-weight reference",
+      "directory": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v7_daily_mse_20260912",
+      "features": [
+        "T5",
+        "T22",
+        "T60",
+        "V5",
+        "V22",
+        "V60",
+        "P5xV5",
+        "P22xV22",
+        "P60xV60",
+        "PR1",
+        "VR1"
+      ],
+      "main_variant": "v7_equal",
+      "reference_variant": "v7_jpx",
+      "official_style_unannualized_sharpe": 0.007678871562421042,
+      "reference_official_style_unannualized_sharpe": -0.04018309809990261
+    },
+    {
+      "version": "v8",
+      "description": "Same-stock true rank minus soft predicted rank, normalized squared loss; daily / per-stock / mini128 comparisons",
+      "directory": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v8_soft_rank_20260912",
+      "status": "completed_experiment",
+      "features": [
+        "T5",
+        "T22",
+        "T60",
+        "V5",
+        "V22",
+        "V60",
+        "P5xV5",
+        "P22xV22",
+        "P60xV60",
+        "PR1",
+        "VR1"
+      ],
+      "main_variant": "daily",
+      "reference_variants": [
+        "sgd",
+        "mini128"
+      ],
+      "tau": 1.0,
+      "official_style_unannualized_sharpe": -0.035271852956148465,
+      "variant_sharpes": {
+        "daily": -0.035271852956148465,
+        "sgd": -0.03164664017856846,
+        "mini128": -0.04360392038377803
+      },
+      "audit_passed": true
+    },
+    {
+      "version": "v9",
+      "description": "v8 soft-rank SGD with a 10-trading-session linearly decaying operating-margin year-over-year difference; jointly learned beta",
+      "directory": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v9_financial_decay_sgd_20260912",
+      "status": "completed_experiment",
+      "main_variant": "sgd",
+      "features": [
+        "T5",
+        "T22",
+        "T60",
+        "V5",
+        "V22",
+        "V60",
+        "P5xV5",
+        "P22xV22",
+        "P60xV60",
+        "PR1",
+        "VR1",
+        "FinancialMarginYoYDecay"
+      ],
+      "decay_sessions": 10,
+      "tau": 1.0,
+      "official_style_unannualized_sharpe": -0.019538328097322002,
+      "reference_v8_sgd_sharpe": -0.03164664017856846,
+      "audit_passed": true
+    },
+    {
+      "version": "v10",
+      "description": "v7 ordinary return MSE with v9 per-stock SGD and frozen 10-session operating-margin YoY decay; paired zero-financial-feature control",
+      "directory": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v10_mse_sgd_financial_20260913",
+      "status": "completed_experiment",
+      "main_variant": "mse_sgd_financial",
+      "reference_variant": "mse_sgd_control",
+      "features": [
+        "T5",
+        "T22",
+        "T60",
+        "V5",
+        "V22",
+        "V60",
+        "P5xV5",
+        "P22xV22",
+        "P60xV60",
+        "PR1",
+        "VR1",
+        "FinancialMarginYoYDecay"
+      ],
+      "soft_rank_used": false,
+      "decay_sessions": 10,
+      "official_style_unannualized_sharpe": -0.039490891392459114,
+      "control_official_style_unannualized_sharpe": -0.043113445490934314,
+      "audit_passed": true
+    },
+    {
+      "version": "v11",
+      "description": "2x2 v10 MSE SGD comparison: persistent operating-margin YoY signal and PR1/VR1 divided by own 22-session sample standard deviations",
+      "directory": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v11_persistent_finance_std22_20260913",
+      "status": "completed_experiment",
+      "main_variant": "persistent_std22",
+      "best_historical_variant": "decay_std22",
+      "reference_variant": "v10_baseline",
+      "soft_rank_used": false,
+      "standardized_returns": [
+        "PR1",
+        "VR1"
+      ],
+      "std_window": 22,
+      "std_ddof": 1,
+      "std_includes_signal_day": true,
+      "demeaned": false,
+      "variant_sharpes": {
+        "v10_baseline": -0.039490891392459114,
+        "persistent_raw": -0.03930988917473998,
+        "decay_std22": -0.023271783409472835,
+        "persistent_std22": -0.026764713366491225
+      },
+      "audit_passed": true
+    },
+    {
+      "version": "v12",
+      "description": "Price/volume with standardized PR1 and VR1 plus six persistent financial features: actual sales/OP YoY growth and raw EPS, annual forecast sales/OP growth versus prior actual FY, and raw forecast EPS",
+      "directory": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v12_financial_growth_20260913",
+      "status": "completed_experiment",
+      "main_variant": "six_financial",
+      "control_variant": "price_only",
+      "features": [
+        "T5",
+        "T22",
+        "T60",
+        "V5",
+        "V22",
+        "V60",
+        "P5xV5",
+        "P22xV22",
+        "P60xV60",
+        "PR1",
+        "VR1",
+        "ActualNetSalesGrowth",
+        "ActualOperatingProfitGrowth",
+        "ActualEPS",
+        "ForecastNetSalesGrowth",
+        "ForecastOperatingProfitGrowth",
+        "ForecastEPS"
+      ],
+      "coefficient_count": 18,
+      "growth_formula": "(current-base)/abs(base)",
+      "eps_raw": true,
+      "financial_decay": false,
+      "soft_rank_used": false,
+      "official_style_unannualized_sharpe": 0.00887445309235869,
+      "control_official_style_unannualized_sharpe": -0.028080452381802574,
+      "mean_daily_forecast_mse": 0.5438716426558454,
+      "audit_passed": true,
+      "fiscal_year_shortening_fix_applied": true
+    },
+    {
+      "version": "v13",
+      "description": "Quarterly expectations inferred from residual annual guidance; actual surprise, forecast QoQ/YoY and revisions with exponential decay; alternating block SGD versus SGD plus floor(sqrt(N)) daily full-batch updates",
+      "directory": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v13_quarterly_sgd_sqrt_20260914",
+      "status": "completed_experiment",
+      "variants": [
+        "sgd_only",
+        "sgd_sqrt"
+      ],
+      "coefficient_count": 27,
+      "discount_constraints": [
+        0,
+        1
+      ],
+      "decay": "exp(-trading_age/9)",
+      "variant_sharpes": {
+        "sgd_only": -0.01685635680071009,
+        "sgd_sqrt": -0.042181653316308
+      },
+      "variant_mses": {
+        "sgd_only": 0.03820259065711418,
+        "sgd_sqrt": 0.0015956573592032987
+      },
+      "audit_passed": true,
+      "joint_step_warmup_overflow_repaired_with_alternating_blocks": true,
+      "data_semantics_review": "confirmed_issue_requires_repair",
+      "known_data_issues": [
+        {
+          "id": "forecast_revision_basis_1808_20180315",
+          "status": "confirmed_unrepaired",
+          "source_row": 22861,
+          "official_source": "https://www.haseko.co.jp/hc/ir/news/upload_files/20180315_1.pdf",
+          "description": "Nonconsolidated annual forecast incorrectly assigned to Consolidated_JP actuals; numerical replay audits do not validate missing accounting-basis semantics."
+        }
+      ]
+    },
+    {
+      "version": "v14",
+      "description": "Quarterly expectation event model; skip stock-day training if any absolute financial component exceeds 100; no new forecast event on unchanged annual guidance; exclude accounting-basis-ambiguous revisions/corrections; block SGD versus SGD plus floor(sqrt(filtered N)) daily updates",
+      "directory": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v14_filtered_forecast_events_20260914",
+      "status": "completed_experiment",
+      "variants": [
+        "sgd_only",
+        "sgd_sqrt"
+      ],
+      "coefficient_count": 27,
+      "training_financial_abs_limit": 100,
+      "evaluation_stock_pool_filtered": false,
+      "old_events_continue_exponential_decay": true,
+      "unknown_basis_revisions_excluded": true,
+      "variant_sharpes": {
+        "sgd_only": -0.017600897811499917,
+        "sgd_sqrt": -0.029872750206560533
+      },
+      "variant_mses": {
+        "sgd_only": 0.021107046627895275,
+        "sgd_sqrt": 0.0013355772639787318
+      },
+      "threshold_skipped_training_rows": 2294,
+      "audit_passed": true
+    },
+    {
+      "version": "v15",
+      "description": "v14 frozen financial features and filtered training pool; sigmoid soft-rank loss with full reference-stock differentiation; per-stock SGD versus SGD plus floor(sqrt(N)) daily updates",
+      "directory": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v15_soft_rank_filtered_20260914",
+      "status": "completed_experiment",
+      "variants": [
+        "sgd_only",
+        "sgd_sqrt"
+      ],
+      "coefficient_count": 27,
+      "tau": 1.0,
+      "training_financial_abs_limit": 100,
+      "evaluation_stock_pool_filtered": false,
+      "variant_sharpes": {
+        "sgd_only": -0.006212734972380672,
+        "sgd_sqrt": -0.019457386712146734
+      },
+      "variant_rank_ic": {
+        "sgd_only": -0.000998676639733685,
+        "sgd_sqrt": -0.00320747189893669
+      },
+      "audit_passed": true
+    },
+    {
+      "version": "v16",
+      "description": "v7 ordinary daily MSE, raw PR1/VR1; add each of 15 decayed financial components separately with matched-sample price-only controls",
+      "directory": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v16_single_financial_v7_20260915",
+      "status": "completed_experiment",
+      "baseline": "v7_equal",
+      "variants": [
+        "price_only",
+        "feature_01",
+        "feature_02",
+        "feature_03",
+        "feature_04",
+        "feature_05",
+        "feature_06",
+        "feature_07",
+        "feature_08",
+        "feature_09",
+        "feature_10",
+        "feature_11",
+        "feature_12",
+        "feature_13",
+        "feature_14",
+        "feature_15",
+        "control_01",
+        "control_02",
+        "control_03",
+        "control_04",
+        "control_05",
+        "control_06",
+        "control_07",
+        "control_08",
+        "control_09",
+        "control_10",
+        "control_11",
+        "control_12",
+        "control_13",
+        "control_14",
+        "control_15"
+      ],
+      "baseline_sharpe": 0.0076788715624210736,
+      "common_days": 953,
+      "single_financial_feature_count": 15,
+      "audit_passed": true,
+      "best_feature": "OperatingProfitActualGrowth",
+      "best_sharpe": 0.011693662228076825,
+      "eps_data_review": {
+        "status": "confirmed_issues_require_repair",
+        "audit_version": "v20",
+        "scope": "EPS components only; historical numerical results retained under original data definition",
+        "issues": [
+          "Cumulative EPS subtraction can materially differ from disclosed standalone-quarter EPS",
+          "At least one original dataset EPS differs from company PDF; source discrepancy cause unresolved"
+        ],
+        "audit_report": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v20_eps_data_audit_20260915/JPX-v20-eps-data-audit-report.md"
+      }
+    },
+    {
+      "version": "v17",
+      "description": "EPS forecast versus known actuals; all three forecast revisions relative to signed old forecast; joint EPS actual QoQ and YoY on v7 daily MSE",
+      "directory": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v17_actual_forecast_revisions_20260915",
+      "status": "completed_experiment",
+      "variants": [
+        "eps_forecast_actual_qoq",
+        "eps_forecast_actual_qoq_control",
+        "eps_forecast_actual_yoy",
+        "eps_forecast_actual_yoy_control",
+        "sales_revision_relative",
+        "sales_revision_relative_control",
+        "profit_revision_relative",
+        "profit_revision_relative_control",
+        "eps_revision_relative",
+        "eps_revision_relative_control",
+        "eps_actual_qoq",
+        "eps_actual_qoq_control",
+        "eps_actual_joint",
+        "eps_actual_joint_control",
+        "eps_qoq_joint_mask",
+        "eps_yoy_joint_mask"
+      ],
+      "baseline": "v7_equal",
+      "common_days": 953,
+      "audit_passed": true,
+      "joint_eps_sharpe": 0.0078101608697511826,
+      "revision_definition": "(new-old)/old, signed",
+      "eps_data_review": {
+        "status": "confirmed_issues_require_repair",
+        "audit_version": "v20",
+        "scope": "EPS components only; historical numerical results retained under original data definition",
+        "issues": [
+          "Cumulative EPS subtraction can materially differ from disclosed standalone-quarter EPS",
+          "At least one original dataset EPS differs from company PDF; source discrepancy cause unresolved"
+        ],
+        "audit_report": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v20_eps_data_audit_20260915/JPX-v20-eps-data-audit-report.md"
+      }
+    },
+    {
+      "version": "v18",
+      "description": "Freeze point-in-time v7 g; learn EPS QoQ, YoY, and joint coefficients with shared training mask and step schedule",
+      "directory": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v18_frozen_g_eps_20260915",
+      "status": "completed_experiment",
+      "variants": [
+        "qoq",
+        "yoy",
+        "joint"
+      ],
+      "baseline": "v7_equal",
+      "common_days": 953,
+      "audit_passed": true,
+      "variant_sharpes": {
+        "g": 0.0076788715624210736,
+        "qoq": 0.006583673745570535,
+        "yoy": 0.006467783069611891,
+        "joint": 0.006275861271222179
+      },
+      "eps_data_review": {
+        "status": "confirmed_issues_require_repair",
+        "audit_version": "v20",
+        "scope": "EPS components only; historical numerical results retained under original data definition",
+        "issues": [
+          "Cumulative EPS subtraction can materially differ from disclosed standalone-quarter EPS",
+          "At least one original dataset EPS differs from company PDF; source discrepancy cause unresolved"
+        ],
+        "audit_report": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v20_eps_data_audit_20260915/JPX-v20-eps-data-audit-report.md"
+      }
+    },
+    {
+      "version": "v19",
+      "description": "Expanding OLS predicts raw EPS YoY from QoQ; intercept-only historical-mean comparison; 2018 warmup and 2019-2021 evaluation",
+      "directory": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v19_qoq_predict_yoy_20260915",
+      "status": "completed_experiment",
+      "audit_passed": true,
+      "financial_prediction_only": true,
+      "mse_improvement_all": -0.011349455284494825,
+      "mse_improvement_within_100": 0.019775277667148927,
+      "eps_data_review": {
+        "status": "confirmed_issues_require_repair",
+        "audit_version": "v20",
+        "scope": "EPS components only; historical numerical results retained under original data definition",
+        "issues": [
+          "Cumulative EPS subtraction can materially differ from disclosed standalone-quarter EPS",
+          "At least one original dataset EPS differs from company PDF; source discrepancy cause unresolved"
+        ],
+        "audit_report": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v20_eps_data_audit_20260915/JPX-v20-eps-data-audit-report.md"
+      }
+    },
+    {
+      "version": "v20",
+      "description": "20-case EPS source, quarter construction and disclosure-time audit",
+      "directory": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v20_eps_data_audit_20260915",
+      "status": "completed_data_audit",
+      "selected_cases": 20,
+      "raw_source_and_timing_passed": true,
+      "data_semantics_review": "confirmed_issues_require_repair",
+      "models_retrained": false,
+      "active_baseline": "v7_equal"
+    },
+    {
+      "version": "v21",
+      "description": "Jointly train v7 price-volume and six unchanged EPS features with matched-sample and matched-step controls",
+      "directory": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v21_all_eps_joint_20260916",
+      "status": "completed_experiment",
+      "variants": [
+        "all_eps",
+        "price_mask",
+        "price_mask_step"
+      ],
+      "parameter_count": 18,
+      "main_sharpe": -0.00023156553745861617,
+      "baseline": "v7_equal",
+      "common_days": 953,
+      "eps_algorithm_unchanged": true,
+      "audit_passed": true
+    },
+    {
+      "version": "v22",
+      "description": "Joint g plus six EPS: training thresholds 100, 10, none; same full evaluation universe",
+      "directory": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v22_eps_thresholds_20260916",
+      "status": "completed_experiment",
+      "variants": [
+        "skip100",
+        "skip10",
+        "no_skip"
+      ],
+      "baseline": "v21_all_eps",
+      "common_days": 953,
+      "audit_passed": true
+    },
+    {
+      "version": "v23",
+      "description": "Pure v7 g with EPS-based training masks: 10, 100, none; Sharpe and Rank IC evaluation",
+      "directory": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v23_g_thresholds_20260916",
+      "status": "completed_experiment",
+      "variants": [
+        "no_skip",
+        "skip100",
+        "skip10"
+      ],
+      "baseline": "v7",
+      "parameter_count": 12,
+      "common_days": 953,
+      "audit_passed": true
+    },
+    {
+      "version": "v24",
+      "description": "Pure g with matched training and validation EPS thresholds, plus same-pool unfiltered-training controls",
+      "directory": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v24_g_train_validation_filters_20260916",
+      "status": "completed_experiment",
+      "variants": [
+        "none_none",
+        "100_100",
+        "10_10",
+        "none_100",
+        "none_10"
+      ],
+      "baseline": "v7",
+      "common_days": 953,
+      "audit_passed": true,
+      "training_reused": true
+    },
+    {
+      "version": "v25",
+      "description": "Rerun prior single financial feature plus v7 g without extreme-value exclusion; 18 retrained, 3 unchanged reused",
+      "directory": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v25_single_features_unfiltered_20260916",
+      "status": "completed_experiment",
+      "retrained_models": 18,
+      "reused_models": 3,
+      "current_features": 16,
+      "legacy_features": 5,
+      "training_financial_abs_limit": null,
+      "evaluation_stock_pool_filtered": false,
+      "audit_passed": true
+    },
+    {
+      "version": "v26",
+      "description": "Joint operating-profit forecast YoY and relative forecast revision plus v7 g, unfiltered",
+      "directory": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v26_profit_forecast_revision_20260916",
+      "status": "completed_experiment",
+      "parameter_count": 14,
+      "features": [
+        "OperatingProfitForecastYoY",
+        "OperatingProfitRevisionRelative"
+      ],
+      "main_sharpe": 0.011516205472893825,
+      "main_rank_ic": -0.00019436559791794126,
+      "audit_passed": true
+    },
+    {
+      "version": "v27",
+      "description": "Latest operating-profit forecast YoY state: overwrite versus weighted change and old level, common-basis quarter rollovers",
+      "directory": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v27_profit_forecast_state_20260916",
+      "status": "completed_experiment",
+      "variants": [
+        "overwrite",
+        "change_old"
+      ],
+      "audit_passed": true,
+      "training_financial_abs_limit": null,
+      "validation_financial_abs_limit": null
+    },
+    {
+      "version": "v28",
+      "description": "Common per-day learning rate for operating-profit forecast overwrite, delta+old, and pure price-volume control",
+      "directory": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v28_common_learning_rate_20260916",
+      "status": "completed_experiment",
+      "variants": [
+        "g_common",
+        "overwrite",
+        "change_old"
+      ],
+      "audit_passed": true,
+      "training_financial_abs_limit": null,
+      "validation_financial_abs_limit": null
+    },
+    {
+      "version": "v29",
+      "description": "Validation sweep of 0.25/0.5/1/1.5/1.9 times common learning rate; Sharpe primary, Rank IC secondary, no MSE selection",
+      "directory": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v29_learning_rate_sweep_20260916",
+      "status": "completed_experiment",
+      "variants": [
+        "c025_g_common",
+        "c025_overwrite",
+        "c025_change_old",
+        "c05_g_common",
+        "c05_overwrite",
+        "c05_change_old",
+        "c1_g_common",
+        "c1_overwrite",
+        "c1_change_old",
+        "c15_g_common",
+        "c15_overwrite",
+        "c15_change_old",
+        "c19_g_common",
+        "c19_overwrite",
+        "c19_change_old"
+      ],
+      "audit_passed": true,
+      "test_evaluated": false,
+      "selected_candidate": {
+        "version": "v29",
+        "variant": "c1_change_old",
+        "model": "change_old",
+        "multiplier": 1.0,
+        "selection_scope": "all existing validation, 953 days",
+        "selection_order": [
+          "Sharpe descending",
+          "RankIC descending as tie-breaker"
+        ],
+        "rank_ic_positive_required": false,
+        "mse_used_for_selection": false,
+        "Sharpe": 0.002223593758919294,
+        "RankIC": -0.0013705999066653068,
+        "test_evaluated": false,
+        "status": "validation_selected_candidate_only",
+        "training_loss": "ordinary MSE",
+        "learning_rate": "multiplier * min(A spectral rate, B spectral rate) each known training day",
+        "source_manifest": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v29_learning_rate_sweep_20260916/manifest.json",
+        "formal_baseline": "v7"
+      },
+      "training_financial_abs_limit": null,
+      "validation_financial_abs_limit": null
+    },
+    {
+      "version": "v30",
+      "description": "Seven matched-rate joint/frozen-g models of operating-profit actual YoY and latest forecast YoY, with timing/scale/contribution diagnostics",
+      "directory": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v30_profit_actual_forecast_20260916",
+      "status": "completed_experiment",
+      "variants": [
+        "g",
+        "joint_r",
+        "joint_f",
+        "joint_rf",
+        "frozen_r",
+        "frozen_f",
+        "frozen_rf"
+      ],
+      "audit_passed": true,
+      "test_evaluated": false,
+      "validation_winner": "frozen_r"
+    }
+  ],
+  "active_variant": "v7_equal",
+  "latest_experiment": "v30",
+  "experiment_defaults": {
+    "updated_on": "2026-09-16",
+    "authority": "User: future training must not skip extreme values",
+    "training_financial_abs_limit": null,
+    "skip_training_for_extreme_values": false,
+    "validation_financial_abs_limit": null,
+    "skip_validation_for_extreme_values": false,
+    "primary_metrics": [
+      "Sharpe",
+      "RankIC"
+    ],
+    "diagnostic_metrics": [
+      "MSE"
+    ],
+    "baseline": "v7_equal",
+    "eps_algorithm": "unchanged",
+    "financial_decay": "exp(-trading_age/9)",
+    "historical_experiment_artifacts_immutable": true,
+    "selection_metric_priority": [
+      "Sharpe",
+      "RankIC"
+    ],
+    "rank_ic_positive_required": false,
+    "mse_used_for_selection": false,
+    "hyperparameter_selection_scope": "existing validation; reserve test for final overall evaluation",
+    "selection_authority": "2026-09-16 user: Sharpe first, Rank IC second; MSE not used for selection"
+  },
+  "latest_validation_candidate": {
+    "version": "v30",
+    "variant": "frozen_r",
+    "Sharpe": 0.004358037575776821,
+    "RankIC": -0.0009906443062350984,
+    "test_evaluated": false,
+    "status": "validation_candidate_only"
+  }
+}

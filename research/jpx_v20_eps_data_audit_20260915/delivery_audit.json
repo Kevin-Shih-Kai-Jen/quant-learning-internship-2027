@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "pages_visually_checked": 3,
+  "selected_cases": 20,
+  "zip_crc_passed": true,
+  "original_financial_caches_unchanged_by_this_audit": true,
+  "models_retrained": false,
+  "zip_sha256": "95ecc8eaeed16328f94946d08d953fd36451d8f934685a6b2f3068dd9d93a9af"
+}

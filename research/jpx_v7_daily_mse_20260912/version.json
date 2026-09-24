@@ -1,0 +1,22 @@
+{
+  "version": "v7",
+  "description": "One daily MSE gradient step with continuous parameters; all-stock equal-weight main model and JPX-rank-weight reference",
+  "directory": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v7_daily_mse_20260912",
+  "features": [
+    "T5",
+    "T22",
+    "T60",
+    "V5",
+    "V22",
+    "V60",
+    "P5xV5",
+    "P22xV22",
+    "P60xV60",
+    "PR1",
+    "VR1"
+  ],
+  "main_variant": "v7_equal",
+  "reference_variant": "v7_jpx",
+  "official_style_unannualized_sharpe": 0.007678871562421042,
+  "reference_official_style_unannualized_sharpe": -0.04018309809990261
+}

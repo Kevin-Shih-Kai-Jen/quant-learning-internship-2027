@@ -1,0 +1,24 @@
+{
+  "name": "frozen_r",
+  "features": [
+    "OperatingProfitActualGrowth"
+  ],
+  "includes_feature": true,
+  "frozen_g": true,
+  "parameter_count": 1,
+  "sharpe": 0.004358037575776826,
+  "scored_days": 953,
+  "mean_rank_ic": -0.0009906443062350995,
+  "rank_ic_days": 952,
+  "mean_hard_rank_mse": 0.16691054295069543,
+  "mean_return_mse": 0.0006623055358748227,
+  "training_updates": 1199,
+  "training_stock_days": 2325806,
+  "threshold_skipped_stock_days": 0,
+  "forecast_rows": 2326022,
+  "final_coefficients": {
+    "OperatingProfitActualGrowth": -4.518930407066852e-05
+  },
+  "parameter_asof": "2021-12-03",
+  "seconds": 2.7890287500013073
+}

@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "checkpoint_stride": 8,
+  "all_regenerated_training_arrays_bitwise_equal": true,
+  "max_relative_errors_loss_before_after_gradinf_norm_descent": [
+    6.5805311778814e-16,
+    6.2778318875465175e-16,
+    3.319573755886456e-15,
+    3.4500993654059446e-15,
+    9.571432857339363e-16
+  ],
+  "max_relative_checkpoint_parameter_error": 6.293373911913009e-16,
+  "stock_steps": 1896,
+  "full_steps": 0
+}

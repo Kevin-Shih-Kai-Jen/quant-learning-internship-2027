@@ -1,0 +1,16 @@
+AUDITED eps_forecast_actual_qoq 0.010706426035814207
+AUDITED eps_forecast_actual_qoq_control 0.007609535514889657
+AUDITED eps_forecast_actual_yoy 0.0055670675253004015
+AUDITED eps_forecast_actual_yoy_control 0.007334166326532131
+AUDITED sales_revision_relative 0.007223244085231326
+AUDITED sales_revision_relative_control 0.007634565399773715
+AUDITED profit_revision_relative 0.006374311013339354
+AUDITED profit_revision_relative_control 0.007408278904194933
+AUDITED eps_revision_relative 0.011274517154546046
+AUDITED eps_revision_relative_control 0.007320184283905321
+AUDITED eps_actual_qoq 0.0113686486189891
+AUDITED eps_actual_qoq_control 0.006626893824646224
+AUDITED eps_actual_joint 0.0078101608697511826
+AUDITED eps_actual_joint_control 0.0059803586867625885
+AUDITED eps_qoq_joint_mask 0.011212967652861157
+AUDITED eps_yoy_joint_mask 0.0038746068122820884

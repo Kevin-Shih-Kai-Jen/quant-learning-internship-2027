@@ -1,0 +1,11 @@
+{
+  "median_step_ratio_B_to_A": 0.9999999999999984,
+  "days_step_ratio_below_point_one": 25,
+  "total_update_days": 1199,
+  "minimum_step_ratio": 0.0014354314222270455,
+  "maximum_absolute_signals": {
+    "ProfitLatestYoY": 1367.3333333333333,
+    "ProfitYoYChange": 4200.0,
+    "ProfitPreviousYoY": 3987.85
+  }
+}

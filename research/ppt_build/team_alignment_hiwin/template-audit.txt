@@ -1,0 +1,61 @@
+Team Alignment template audit
+
+Source: assets/reference.pptx from artifact-template-team-alignment
+Source size: 24 slides, 16:9, 1280 × 720 design frame
+
+Source slide inventory
+1. Title cover with oversized dark-blue headline, two-line subtitle, and a bottom gradient image strip.
+2. Agenda with four numbered topics.
+3. Section divider with left copy and right gradient image.
+4. Large-message thesis with two icon callouts.
+5. Half text / half image.
+6. One-column message with large image.
+7. One-column explanation plus checklist.
+8. Intro plus two comparison cards.
+9. Intro plus five-column data table.
+10. Intro plus 2 × 2 rounded-card grid.
+11. Four-point open grid.
+12. Chart plus three stacked cards.
+13. Intro plus four topic rows.
+14. Three-milestone text timeline.
+15. Three-card milestone timeline.
+16. Line chart plus two statistic cards.
+17. Three columns with images.
+18. Four columns with images.
+19. Three rounded cards with icons and intro.
+20. Gantt chart.
+21. Seven-day calendar.
+22. Five-day calendar.
+23. Three-column icon explanation.
+24. Closing bumper matching the cover.
+
+Selected reusable patterns
+- Slide 1: cover.
+- Slide 4: plain-language thesis.
+- Slide 15: controller-to-motion feedback chain.
+- Slide 9: motor-family comparison table.
+- Slide 8: linear motor versus servo-plus-ballscrew comparison.
+- Slide 11: four rotary-product explanations and four extended industries.
+- Slide 13: four core industry links.
+- Slide 19: reasons customers pay for higher-end motion systems.
+- Slide 24: memorable closing line.
+
+Brand and visual rules
+- White canvas, black body text, dark blue oversized bumper text, bright blue accents, and pale-blue cards.
+- Inter/Helvetica Neue typography as inherited from the source deck.
+- Large left-aligned headings; generous whitespace; body copy should stay short and explanatory.
+- Page numbers remain in the bottom-right on body slides.
+- Existing rounded cards, lines, icons, image strips, and spacing are inherited and not redrawn.
+
+Inherited placeholder audit
+- All visible sample titles, lorem ipsum copy, dates, table values, and page numbers on mapped slides are rewritten in place.
+- Empty PowerPoint footer placeholders on mapped body slides are explicitly deleted.
+- The two off-canvas empty textboxes on source slide 24 are explicitly deleted.
+- Decorative icons, cards, timeline lines/dots, and gradient image strips are preserved.
+
+Insertion contract
+- No custom overlay layout is permitted.
+- Each output slide duplicates one audited source slide.
+- All narrative content must fit inherited text, table, or subtitle slots.
+- Speaker notes may receive a concise talk track and a [Sources] block.
+

@@ -1,0 +1,11 @@
+{
+  "analytic_lambda_mse_units_checked": true,
+  "intercept_not_penalized": true,
+  "penalty_is_on_existing_feature_units": true,
+  "inner_folds_have_no_future_labels": true,
+  "same_date_stocks_kept_together": true,
+  "lambda_choice_recomputed_from_inner_scores": true,
+  "outer_validation_not_used_for_lambda": true,
+  "all_years_at_upper_grid_boundary": true,
+  "all_passed": true
+}

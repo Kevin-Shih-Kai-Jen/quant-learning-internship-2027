@@ -1,0 +1,23 @@
+{"skip100": {"forecasts_checked": 2326022, "updates_checked": 1199, "official_sharpe": 0.005644072919315517, "max_prediction_error": 8.965050923848139e-14}}
+{"skip10": {"forecasts_checked": 2326022, "updates_checked": 1199, "official_sharpe": 0.00538562316282057, "max_prediction_error": 7.072120666862247e-14}}
+{"no_skip": {"forecasts_checked": 2326022, "updates_checked": 1199, "official_sharpe": 0.007678871562421042, "max_prediction_error": 1.6614487563515468e-13}}
+{
+  "skip100": {
+    "forecasts_checked": 2326022,
+    "updates_checked": 1199,
+    "official_sharpe": 0.005644072919315517,
+    "max_prediction_error": 8.965050923848139e-14
+  },
+  "skip10": {
+    "forecasts_checked": 2326022,
+    "updates_checked": 1199,
+    "official_sharpe": 0.00538562316282057,
+    "max_prediction_error": 7.072120666862247e-14
+  },
+  "no_skip": {
+    "forecasts_checked": 2326022,
+    "updates_checked": 1199,
+    "official_sharpe": 0.007678871562421042,
+    "max_prediction_error": 1.6614487563515468e-13
+  }
+}

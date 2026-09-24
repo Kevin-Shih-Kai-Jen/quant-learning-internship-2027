@@ -1,0 +1,12 @@
+{
+  "python": "3.14.2 (main, Dec  5 2025, 16:49:16) [Clang 16.0.0 (clang-1600.0.26.6)]",
+  "numpy": "2.4.6",
+  "pandas": "3.0.3",
+  "platform": "macOS-26.5.1-arm64-arm-64bit-Mach-O",
+  "runtime_choice": "same runtime as v8, required for its pandas pickle compatibility",
+  "compiler": "clang++ -O3 -std=c++17 -dynamiclib -framework Accelerate",
+  "thread_limits": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1"
+  }
+}

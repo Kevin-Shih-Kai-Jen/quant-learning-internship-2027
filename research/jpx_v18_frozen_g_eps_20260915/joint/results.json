@@ -1,0 +1,18 @@
+{
+  "variant": "joint",
+  "features": [
+    "EPSActualQoQ",
+    "EPSActualGrowth"
+  ],
+  "sharpe": 0.006275861271222182,
+  "mean_rank_ic": -0.0006325426105055781,
+  "return_mse": 0.0007540765180479312,
+  "training_stock_days": 2323958,
+  "skipped_stock_days": 1848,
+  "updates": 1199,
+  "days": 953,
+  "final_coefficients": {
+    "EPSActualQoQ": 0.0007320647547829431,
+    "EPSActualGrowth": 0.001194667349314774
+  }
+}

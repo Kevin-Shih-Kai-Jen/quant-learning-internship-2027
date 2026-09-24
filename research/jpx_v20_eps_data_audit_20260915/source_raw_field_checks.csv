@@ -1,0 +1,1219 @@
+SourceRow,Field,RawValue,CacheValue,ExportValue,CacheMatches,ExportMatches
+17357,SecuritiesCode,6962.0,6962.0,6962.0,True,True
+17357,EarningsPerShare,52.33,52.33,52.33,True,True
+17357,Profit,422000000,422000000,422000000,True,True
+17357,AverageNumberOfShares,8075221,8075221,8075221,True,True
+17357,DisclosedUnixTime,1510294800.0,1510294800.0,1510294800.0,True,True
+17357,DisclosureNumber,20170920475653.0,20170920475653.0,20170920475653.0,True,True
+17357,Date,2017-11-10,2017-11-10 00:00:00,2017-11-10,True,True
+17357,DisclosedDate,2017-11-10,2017-11-10 00:00:00,2017-11-10,True,True
+17357,CurrentFiscalYearStartDate,2017-04-01,2017-04-01 00:00:00,2017-04-01,True,True
+17357,CurrentPeriodEndDate,2017-09-30,2017-09-30 00:00:00,2017-09-30,True,True
+17357,CurrentFiscalYearEndDate,2018-03-31,2018-03-31 00:00:00,2018-03-31,True,True
+17357,TypeOfDocument,2QFinancialStatements_Consolidated_JP,2QFinancialStatements_Consolidated_JP,2QFinancialStatements_Consolidated_JP,True,True
+17357,TypeOfCurrentPeriod,2Q,2Q,2Q,True,True
+17357,DisclosedTime,15:20:00,15:20:00,15:20:00,True,True
+20328,SecuritiesCode,6777.0,6777.0,6777.0,True,True
+20328,EarningsPerShare,47.32,47.32,47.32,True,True
+20328,Profit,556000000,556000000,556000000,True,True
+20328,AverageNumberOfShares,11760728,11760728,11760728,True,True
+20328,DisclosedUnixTime,1517811000.0,1517811000.0,1517811000.0,True,True
+20328,DisclosureNumber,20180202462646.0,20180202462646.0,20180202462646.0,True,True
+20328,Date,2018-02-05,2018-02-05 00:00:00,2018-02-05,True,True
+20328,DisclosedDate,2018-02-05,2018-02-05 00:00:00,2018-02-05,True,True
+20328,CurrentFiscalYearStartDate,2017-04-01,2017-04-01 00:00:00,2017-04-01,True,True
+20328,CurrentPeriodEndDate,2017-12-31,2017-12-31 00:00:00,2017-12-31,True,True
+20328,CurrentFiscalYearEndDate,2018-03-31,2018-03-31 00:00:00,2018-03-31,True,True
+20328,TypeOfDocument,3QFinancialStatements_Consolidated_JP,3QFinancialStatements_Consolidated_JP,3QFinancialStatements_Consolidated_JP,True,True
+20328,TypeOfCurrentPeriod,3Q,3Q,3Q,True,True
+20328,DisclosedTime,15:10:00,15:10:00,15:10:00,True,True
+21981,SecuritiesCode,6962.0,6962.0,6962.0,True,True
+21981,EarningsPerShare,52.4,52.4,52.4,True,True
+21981,Profit,423000000,423000000,423000000,True,True
+21981,AverageNumberOfShares,8074960,8074960,8074960,True,True
+21981,DisclosedUnixTime,1518502800.0,1518502800.0,1518502800.0,True,True
+21981,DisclosureNumber,20171225441819.0,20171225441819.0,20171225441819.0,True,True
+21981,Date,2018-02-13,2018-02-13 00:00:00,2018-02-13,True,True
+21981,DisclosedDate,2018-02-13,2018-02-13 00:00:00,2018-02-13,True,True
+21981,CurrentFiscalYearStartDate,2017-04-01,2017-04-01 00:00:00,2017-04-01,True,True
+21981,CurrentPeriodEndDate,2017-12-31,2017-12-31 00:00:00,2017-12-31,True,True
+21981,CurrentFiscalYearEndDate,2018-03-31,2018-03-31 00:00:00,2018-03-31,True,True
+21981,TypeOfDocument,3QFinancialStatements_Consolidated_JP,3QFinancialStatements_Consolidated_JP,3QFinancialStatements_Consolidated_JP,True,True
+21981,TypeOfCurrentPeriod,3Q,3Q,3Q,True,True
+21981,DisclosedTime,15:20:00,15:20:00,15:20:00,True,True
+26161,SecuritiesCode,6777.0,6777.0,6777.0,True,True
+26161,EarningsPerShare,47.33,47.33,47.33,True,True
+26161,Profit,556000000,556000000,556000000,True,True
+26161,AverageNumberOfShares,11760710,11760710,11760710,True,True
+26161,DisclosedUnixTime,1526019000.0,1526019000.0,1526019000.0,True,True
+26161,DisclosureNumber,20180511434578.0,20180511434578.0,20180511434578.0,True,True
+26161,Date,2018-05-11,2018-05-11 00:00:00,2018-05-11,True,True
+26161,DisclosedDate,2018-05-11,2018-05-11 00:00:00,2018-05-11,True,True
+26161,CurrentFiscalYearStartDate,2017-04-01,2017-04-01 00:00:00,2017-04-01,True,True
+26161,CurrentPeriodEndDate,2018-03-31,2018-03-31 00:00:00,2018-03-31,True,True
+26161,CurrentFiscalYearEndDate,2018-03-31,2018-03-31 00:00:00,2018-03-31,True,True
+26161,TypeOfDocument,FYFinancialStatements_Consolidated_JP,FYFinancialStatements_Consolidated_JP,FYFinancialStatements_Consolidated_JP,True,True
+26161,TypeOfCurrentPeriod,FY,FY,FY,True,True
+26161,DisclosedTime,15:10:00,15:10:00,15:10:00,True,True
+29368,SecuritiesCode,6952.0,6952.0,6952.0,True,True
+29368,EarningsPerShare,19.54,19.54,19.54,True,True
+29368,Profit,4813000000,4813000000,4813000000,True,True
+29368,AverageNumberOfShares,246324419,246324419,246324419,True,True
+29368,DisclosedUnixTime,1533103200.0,1533103200.0,1533103200.0,True,True
+29368,DisclosureNumber,20180707478201.0,20180707478201.0,20180707478201.0,True,True
+29368,Date,2018-08-01,2018-08-01 00:00:00,2018-08-01,True,True
+29368,DisclosedDate,2018-08-01,2018-08-01 00:00:00,2018-08-01,True,True
+29368,CurrentFiscalYearStartDate,2018-04-01,2018-04-01 00:00:00,2018-04-01,True,True
+29368,CurrentPeriodEndDate,2018-06-30,2018-06-30 00:00:00,2018-06-30,True,True
+29368,CurrentFiscalYearEndDate,2019-03-31,2019-03-31 00:00:00,2019-03-31,True,True
+29368,TypeOfDocument,1QFinancialStatements_Consolidated_JP,1QFinancialStatements_Consolidated_JP,1QFinancialStatements_Consolidated_JP,True,True
+29368,TypeOfCurrentPeriod,1Q,1Q,1Q,True,True
+29368,DisclosedTime,15:00:00,15:00:00,15:00:00,True,True
+29523,SecuritiesCode,9441.0,9441.0,9441.0,True,True
+29523,EarningsPerShare,196.49,196.49,196.49,True,True
+29523,Profit,1260000000,1260000000,1260000000,True,True
+29523,AverageNumberOfShares,6413756,6413756,6413756,True,True
+29523,DisclosedUnixTime,1533180600.0,1533180600.0,1533180600.0,True,True
+29523,DisclosureNumber,20180801489681.0,20180801489681.0,20180801489681.0,True,True
+29523,Date,2018-08-02,2018-08-02 00:00:00,2018-08-02,True,True
+29523,DisclosedDate,2018-08-02,2018-08-02 00:00:00,2018-08-02,True,True
+29523,CurrentFiscalYearStartDate,2018-01-01,2018-01-01 00:00:00,2018-01-01,True,True
+29523,CurrentPeriodEndDate,2018-06-30,2018-06-30 00:00:00,2018-06-30,True,True
+29523,CurrentFiscalYearEndDate,2018-12-31,2018-12-31 00:00:00,2018-12-31,True,True
+29523,TypeOfDocument,2QFinancialStatements_Consolidated_JP,2QFinancialStatements_Consolidated_JP,2QFinancialStatements_Consolidated_JP,True,True
+29523,TypeOfCurrentPeriod,2Q,2Q,2Q,True,True
+29523,DisclosedTime,12:30:00,12:30:00,12:30:00,True,True
+29798,SecuritiesCode,1893.0,1893.0,1893.0,True,True
+29798,EarningsPerShare,17.94,17.94,17.94,True,True
+29798,Profit,5119000000,5119000000,5119000000,True,True
+29798,AverageNumberOfShares,285446554,285446554,285446554,True,True
+29798,DisclosedUnixTime,1533535200.0,1533535200.0,1533535200.0,True,True
+29798,DisclosureNumber,20180803491179.0,20180803491179.0,20180803491179.0,True,True
+29798,Date,2018-08-06,2018-08-06 00:00:00,2018-08-06,True,True
+29798,DisclosedDate,2018-08-06,2018-08-06 00:00:00,2018-08-06,True,True
+29798,CurrentFiscalYearStartDate,2018-04-01,2018-04-01 00:00:00,2018-04-01,True,True
+29798,CurrentPeriodEndDate,2018-06-30,2018-06-30 00:00:00,2018-06-30,True,True
+29798,CurrentFiscalYearEndDate,2019-03-31,2019-03-31 00:00:00,2019-03-31,True,True
+29798,TypeOfDocument,1QFinancialStatements_Consolidated_JP,1QFinancialStatements_Consolidated_JP,1QFinancialStatements_Consolidated_JP,True,True
+29798,TypeOfCurrentPeriod,1Q,1Q,1Q,True,True
+29798,DisclosedTime,15:00:00,15:00:00,15:00:00,True,True
+31214,SecuritiesCode,6962.0,6962.0,6962.0,True,True
+31214,EarningsPerShare,20.62,20.62,20.62,True,True
+31214,Profit,166000000,166000000,166000000,True,True
+31214,AverageNumberOfShares,8073964,8073964,8073964,True,True
+31214,DisclosedUnixTime,1533881400.0,1533881400.0,1533881400.0,True,True
+31214,DisclosureNumber,20180717481545.0,20180717481545.0,20180717481545.0,True,True
+31214,Date,2018-08-10,2018-08-10 00:00:00,2018-08-10,True,True
+31214,DisclosedDate,2018-08-10,2018-08-10 00:00:00,2018-08-10,True,True
+31214,CurrentFiscalYearStartDate,2018-04-01,2018-04-01 00:00:00,2018-04-01,True,True
+31214,CurrentPeriodEndDate,2018-06-30,2018-06-30 00:00:00,2018-06-30,True,True
+31214,CurrentFiscalYearEndDate,2019-03-31,2019-03-31 00:00:00,2019-03-31,True,True
+31214,TypeOfDocument,1QFinancialStatements_Consolidated_JP,1QFinancialStatements_Consolidated_JP,1QFinancialStatements_Consolidated_JP,True,True
+31214,TypeOfCurrentPeriod,1Q,1Q,1Q,True,True
+31214,DisclosedTime,15:10:00,15:10:00,15:10:00,True,True
+31534,SecuritiesCode,3825.0,3825.0,3825.0,True,True
+31534,EarningsPerShare,6.91,6.91,6.91,True,True
+31534,Profit,393000000,393000000,393000000,True,True
+31534,AverageNumberOfShares,56961318,56961318,56961318,True,True
+31534,DisclosedUnixTime,1534228200.0,1534228200.0,1534228200.0,True,True
+31534,DisclosureNumber,20180814497494.0,20180814497494.0,20180814497494.0,True,True
+31534,Date,2018-08-14,2018-08-14 00:00:00,2018-08-14,True,True
+31534,DisclosedDate,2018-08-14,2018-08-14 00:00:00,2018-08-14,True,True
+31534,CurrentFiscalYearStartDate,2018-04-01,2018-04-01 00:00:00,2018-04-01,True,True
+31534,CurrentPeriodEndDate,2018-06-30,2018-06-30 00:00:00,2018-06-30,True,True
+31534,CurrentFiscalYearEndDate,2019-03-31,2019-03-31 00:00:00,2019-03-31,True,True
+31534,TypeOfDocument,1QFinancialStatements_Consolidated_JP,1QFinancialStatements_Consolidated_JP,1QFinancialStatements_Consolidated_JP,True,True
+31534,TypeOfCurrentPeriod,1Q,1Q,1Q,True,True
+31534,DisclosedTime,15:30:00,15:30:00,15:30:00,True,True
+33417,SecuritiesCode,4617.0,4617.0,4617.0,True,True
+33417,EarningsPerShare,-7.9,-7.9,-7.9,True,True
+33417,Profit,-505000000,-505000000,-505000000,True,True
+33417,AverageNumberOfShares,64013255,64013255,64013255,True,True
+33417,DisclosedUnixTime,1540960200.0,1540960200.0,1540960200.0,True,True
+33417,DisclosureNumber,20180926410829.0,20180926410829.0,20180926410829.0,True,True
+33417,Date,2018-10-31,2018-10-31 00:00:00,2018-10-31,True,True
+33417,DisclosedDate,2018-10-31,2018-10-31 00:00:00,2018-10-31,True,True
+33417,CurrentFiscalYearStartDate,2018-04-01,2018-04-01 00:00:00,2018-04-01,True,True
+33417,CurrentPeriodEndDate,2018-09-30,2018-09-30 00:00:00,2018-09-30,True,True
+33417,CurrentFiscalYearEndDate,2019-03-31,2019-03-31 00:00:00,2019-03-31,True,True
+33417,TypeOfDocument,2QFinancialStatements_Consolidated_JP,2QFinancialStatements_Consolidated_JP,2QFinancialStatements_Consolidated_JP,True,True
+33417,TypeOfCurrentPeriod,2Q,2Q,2Q,True,True
+33417,DisclosedTime,13:30:00,13:30:00,13:30:00,True,True
+33536,SecuritiesCode,6777.0,6777.0,6777.0,True,True
+33536,EarningsPerShare,24.85,24.85,24.85,True,True
+33536,Profit,292000000,292000000,292000000,True,True
+33536,AverageNumberOfShares,11760657,11760657,11760657,True,True
+33536,DisclosedUnixTime,1540966200.0,1540966200.0,1540966200.0,True,True
+33536,DisclosureNumber,20181031426714.0,20181031426714.0,20181031426714.0,True,True
+33536,Date,2018-10-31,2018-10-31 00:00:00,2018-10-31,True,True
+33536,DisclosedDate,2018-10-31,2018-10-31 00:00:00,2018-10-31,True,True
+33536,CurrentFiscalYearStartDate,2018-04-01,2018-04-01 00:00:00,2018-04-01,True,True
+33536,CurrentPeriodEndDate,2018-09-30,2018-09-30 00:00:00,2018-09-30,True,True
+33536,CurrentFiscalYearEndDate,2019-03-31,2019-03-31 00:00:00,2019-03-31,True,True
+33536,TypeOfDocument,2QFinancialStatements_Consolidated_JP,2QFinancialStatements_Consolidated_JP,2QFinancialStatements_Consolidated_JP,True,True
+33536,TypeOfCurrentPeriod,2Q,2Q,2Q,True,True
+33536,DisclosedTime,15:10:00,15:10:00,15:10:00,True,True
+33990,SecuritiesCode,9441.0,9441.0,9441.0,True,True
+33990,EarningsPerShare,234.6,234.6,234.6,True,True
+33990,Profit,1504000000,1504000000,1504000000,True,True
+33990,AverageNumberOfShares,6413736,6413736,6413736,True,True
+33990,DisclosedUnixTime,1541129400.0,1541129400.0,1541129400.0,True,True
+33990,DisclosureNumber,20181101428078.0,20181101428078.0,20181101428078.0,True,True
+33990,Date,2018-11-02,2018-11-02 00:00:00,2018-11-02,True,True
+33990,DisclosedDate,2018-11-02,2018-11-02 00:00:00,2018-11-02,True,True
+33990,CurrentFiscalYearStartDate,2018-01-01,2018-01-01 00:00:00,2018-01-01,True,True
+33990,CurrentPeriodEndDate,2018-09-30,2018-09-30 00:00:00,2018-09-30,True,True
+33990,CurrentFiscalYearEndDate,2018-12-31,2018-12-31 00:00:00,2018-12-31,True,True
+33990,TypeOfDocument,3QFinancialStatements_Consolidated_JP,3QFinancialStatements_Consolidated_JP,3QFinancialStatements_Consolidated_JP,True,True
+33990,TypeOfCurrentPeriod,3Q,3Q,3Q,True,True
+33990,DisclosedTime,12:30:00,12:30:00,12:30:00,True,True
+34621,SecuritiesCode,1893.0,1893.0,1893.0,True,True
+34621,EarningsPerShare,38.02,38.02,38.02,True,True
+34621,Profit,10852000000,10852000000,10852000000,True,True
+34621,AverageNumberOfShares,285423065,285423065,285423065,True,True
+34621,DisclosedUnixTime,1541656800.0,1541656800.0,1541656800.0,True,True
+34621,DisclosureNumber,20181106431268.0,20181106431268.0,20181106431268.0,True,True
+34621,Date,2018-11-08,2018-11-08 00:00:00,2018-11-08,True,True
+34621,DisclosedDate,2018-11-08,2018-11-08 00:00:00,2018-11-08,True,True
+34621,CurrentFiscalYearStartDate,2018-04-01,2018-04-01 00:00:00,2018-04-01,True,True
+34621,CurrentPeriodEndDate,2018-09-30,2018-09-30 00:00:00,2018-09-30,True,True
+34621,CurrentFiscalYearEndDate,2019-03-31,2019-03-31 00:00:00,2019-03-31,True,True
+34621,TypeOfDocument,2QFinancialStatements_Consolidated_JP,2QFinancialStatements_Consolidated_JP,2QFinancialStatements_Consolidated_JP,True,True
+34621,TypeOfCurrentPeriod,2Q,2Q,2Q,True,True
+34621,DisclosedTime,15:00:00,15:00:00,15:00:00,True,True
+35277,SecuritiesCode,6962.0,6962.0,6962.0,True,True
+35277,EarningsPerShare,8.55,8.55,8.55,True,True
+35277,Profit,69000000,69000000,69000000,True,True
+35277,AverageNumberOfShares,8073786,8073786,8073786,True,True
+35277,DisclosedUnixTime,1541744400.0,1541744400.0,1541744400.0,True,True
+35277,DisclosureNumber,20180925410252.0,20180925410252.0,20180925410252.0,True,True
+35277,Date,2018-11-09,2018-11-09 00:00:00,2018-11-09,True,True
+35277,DisclosedDate,2018-11-09,2018-11-09 00:00:00,2018-11-09,True,True
+35277,CurrentFiscalYearStartDate,2018-04-01,2018-04-01 00:00:00,2018-04-01,True,True
+35277,CurrentPeriodEndDate,2018-09-30,2018-09-30 00:00:00,2018-09-30,True,True
+35277,CurrentFiscalYearEndDate,2019-03-31,2019-03-31 00:00:00,2019-03-31,True,True
+35277,TypeOfDocument,2QFinancialStatements_Consolidated_JP,2QFinancialStatements_Consolidated_JP,2QFinancialStatements_Consolidated_JP,True,True
+35277,TypeOfCurrentPeriod,2Q,2Q,2Q,True,True
+35277,DisclosedTime,15:20:00,15:20:00,15:20:00,True,True
+36075,SecuritiesCode,3825.0,3825.0,3825.0,True,True
+36075,EarningsPerShare,6.87,6.87,6.87,True,True
+36075,Profit,391000000,391000000,391000000,True,True
+36075,AverageNumberOfShares,56977149,56977149,56977149,True,True
+36075,DisclosedUnixTime,1542177000.0,1542177000.0,1542177000.0,True,True
+36075,DisclosureNumber,20181113436847.0,20181113436847.0,20181113436847.0,True,True
+36075,Date,2018-11-14,2018-11-14 00:00:00,2018-11-14,True,True
+36075,DisclosedDate,2018-11-14,2018-11-14 00:00:00,2018-11-14,True,True
+36075,CurrentFiscalYearStartDate,2018-04-01,2018-04-01 00:00:00,2018-04-01,True,True
+36075,CurrentPeriodEndDate,2018-09-30,2018-09-30 00:00:00,2018-09-30,True,True
+36075,CurrentFiscalYearEndDate,2019-03-31,2019-03-31 00:00:00,2019-03-31,True,True
+36075,TypeOfDocument,2QFinancialStatements_Consolidated_JP,2QFinancialStatements_Consolidated_JP,2QFinancialStatements_Consolidated_JP,True,True
+36075,TypeOfCurrentPeriod,2Q,2Q,2Q,True,True
+36075,DisclosedTime,15:30:00,15:30:00,15:30:00,True,True
+36912,SecuritiesCode,3087.0,3087.0,3087.0,True,True
+36912,EarningsPerShare,118.32,118.32,118.32,True,True
+36912,Profit,5227000000,5227000000,5227000000,True,True
+36912,AverageNumberOfShares,44183037,44183037,44183037,True,True
+36912,DisclosedUnixTime,1547188200.0,1547188200.0,1547188200.0,True,True
+36912,DisclosureNumber,20181229456366.0,20181229456366.0,20181229456366.0,True,True
+36912,Date,2019-01-11,2019-01-11 00:00:00,2019-01-11,True,True
+36912,DisclosedDate,2019-01-11,2019-01-11 00:00:00,2019-01-11,True,True
+36912,CurrentFiscalYearStartDate,2018-03-01,2018-03-01 00:00:00,2018-03-01,True,True
+36912,CurrentPeriodEndDate,2018-11-30,2018-11-30 00:00:00,2018-11-30,True,True
+36912,CurrentFiscalYearEndDate,2019-02-28,2019-02-28 00:00:00,2019-02-28,True,True
+36912,TypeOfDocument,3QFinancialStatements_Consolidated_JP,3QFinancialStatements_Consolidated_JP,3QFinancialStatements_Consolidated_JP,True,True
+36912,TypeOfCurrentPeriod,3Q,3Q,3Q,True,True
+36912,DisclosedTime,15:30:00,15:30:00,15:30:00,True,True
+37695,SecuritiesCode,4617.0,4617.0,4617.0,True,True
+37695,EarningsPerShare,-7.89,-7.89,-7.89,True,True
+37695,Profit,-497000000,-497000000,-497000000,True,True
+37695,AverageNumberOfShares,63078545,63078545,63078545,True,True
+37695,DisclosedUnixTime,1548909000.0,1548909000.0,1548909000.0,True,True
+37695,DisclosureNumber,20181225454198.0,20181225454198.0,20181225454198.0,True,True
+37695,Date,2019-01-31,2019-01-31 00:00:00,2019-01-31,True,True
+37695,DisclosedDate,2019-01-31,2019-01-31 00:00:00,2019-01-31,True,True
+37695,CurrentFiscalYearStartDate,2018-04-01,2018-04-01 00:00:00,2018-04-01,True,True
+37695,CurrentPeriodEndDate,2018-12-31,2018-12-31 00:00:00,2018-12-31,True,True
+37695,CurrentFiscalYearEndDate,2019-03-31,2019-03-31 00:00:00,2019-03-31,True,True
+37695,TypeOfDocument,3QFinancialStatements_Consolidated_JP,3QFinancialStatements_Consolidated_JP,3QFinancialStatements_Consolidated_JP,True,True
+37695,TypeOfCurrentPeriod,3Q,3Q,3Q,True,True
+37695,DisclosedTime,13:30:00,13:30:00,13:30:00,True,True
+37797,SecuritiesCode,6777.0,6777.0,6777.0,True,True
+37797,EarningsPerShare,49.85,49.85,49.85,True,True
+37797,Profit,586000000,586000000,586000000,True,True
+37797,AverageNumberOfShares,11760657,11760657,11760657,True,True
+37797,DisclosedUnixTime,1548915000.0,1548915000.0,1548915000.0,True,True
+37797,DisclosureNumber,20190131466778.0,20190131466778.0,20190131466778.0,True,True
+37797,Date,2019-01-31,2019-01-31 00:00:00,2019-01-31,True,True
+37797,DisclosedDate,2019-01-31,2019-01-31 00:00:00,2019-01-31,True,True
+37797,CurrentFiscalYearStartDate,2018-04-01,2018-04-01 00:00:00,2018-04-01,True,True
+37797,CurrentPeriodEndDate,2018-12-31,2018-12-31 00:00:00,2018-12-31,True,True
+37797,CurrentFiscalYearEndDate,2019-03-31,2019-03-31 00:00:00,2019-03-31,True,True
+37797,TypeOfDocument,3QFinancialStatements_Consolidated_JP,3QFinancialStatements_Consolidated_JP,3QFinancialStatements_Consolidated_JP,True,True
+37797,TypeOfCurrentPeriod,3Q,3Q,3Q,True,True
+37797,DisclosedTime,15:10:00,15:10:00,15:10:00,True,True
+37809,SecuritiesCode,6952.0,6952.0,6952.0,True,True
+37809,EarningsPerShare,68.92,68.92,68.92,True,True
+37809,Profit,16976000000,16976000000,16976000000,True,True
+37809,AverageNumberOfShares,246323502,246323502,246323502,True,True
+37809,DisclosedUnixTime,1548914400.0,1548914400.0,1548914400.0,True,True
+37809,DisclosureNumber,20190123462328.0,20190123462328.0,20190123462328.0,True,True
+37809,Date,2019-01-31,2019-01-31 00:00:00,2019-01-31,True,True
+37809,DisclosedDate,2019-01-31,2019-01-31 00:00:00,2019-01-31,True,True
+37809,CurrentFiscalYearStartDate,2018-04-01,2018-04-01 00:00:00,2018-04-01,True,True
+37809,CurrentPeriodEndDate,2018-12-31,2018-12-31 00:00:00,2018-12-31,True,True
+37809,CurrentFiscalYearEndDate,2019-03-31,2019-03-31 00:00:00,2019-03-31,True,True
+37809,TypeOfDocument,3QFinancialStatements_Consolidated_JP,3QFinancialStatements_Consolidated_JP,3QFinancialStatements_Consolidated_JP,True,True
+37809,TypeOfCurrentPeriod,3Q,3Q,3Q,True,True
+37809,DisclosedTime,15:00:00,15:00:00,15:00:00,True,True
+39722,SecuritiesCode,6962.0,6962.0,6962.0,True,True
+39722,EarningsPerShare,-49.33,-49.33,-49.33,True,True
+39722,Profit,-398000000,-398000000,-398000000,True,True
+39722,AverageNumberOfShares,8073617,8073617,8073617,True,True
+39722,DisclosedUnixTime,1549952400.0,1549952400.0,1549952400.0,True,True
+39722,DisclosureNumber,20190123462625.0,20190123462625.0,20190123462625.0,True,True
+39722,Date,2019-02-12,2019-02-12 00:00:00,2019-02-12,True,True
+39722,DisclosedDate,2019-02-12,2019-02-12 00:00:00,2019-02-12,True,True
+39722,CurrentFiscalYearStartDate,2018-04-01,2018-04-01 00:00:00,2018-04-01,True,True
+39722,CurrentPeriodEndDate,2018-12-31,2018-12-31 00:00:00,2018-12-31,True,True
+39722,CurrentFiscalYearEndDate,2019-03-31,2019-03-31 00:00:00,2019-03-31,True,True
+39722,TypeOfDocument,3QFinancialStatements_Consolidated_JP,3QFinancialStatements_Consolidated_JP,3QFinancialStatements_Consolidated_JP,True,True
+39722,TypeOfCurrentPeriod,3Q,3Q,3Q,True,True
+39722,DisclosedTime,15:20:00,15:20:00,15:20:00,True,True
+41576,SecuritiesCode,3087.0,3087.0,3087.0,True,True
+41576,EarningsPerShare,133.89,133.89,133.89,True,True
+41576,Profit,5915000000,5915000000,5915000000,True,True
+41576,AverageNumberOfShares,44183023,44183023,44183023,True,True
+41576,DisclosedUnixTime,1555050600.0,1555050600.0,1555050600.0,True,True
+41576,DisclosureNumber,20190325494290.0,20190325494290.0,20190325494290.0,True,True
+41576,Date,2019-04-12,2019-04-12 00:00:00,2019-04-12,True,True
+41576,DisclosedDate,2019-04-12,2019-04-12 00:00:00,2019-04-12,True,True
+41576,CurrentFiscalYearStartDate,2018-03-01,2018-03-01 00:00:00,2018-03-01,True,True
+41576,CurrentPeriodEndDate,2019-02-28,2019-02-28 00:00:00,2019-02-28,True,True
+41576,CurrentFiscalYearEndDate,2019-02-28,2019-02-28 00:00:00,2019-02-28,True,True
+41576,TypeOfDocument,FYFinancialStatements_Consolidated_JP,FYFinancialStatements_Consolidated_JP,FYFinancialStatements_Consolidated_JP,True,True
+41576,TypeOfCurrentPeriod,FY,FY,FY,True,True
+41576,DisclosedTime,15:30:00,15:30:00,15:30:00,True,True
+42832,SecuritiesCode,9441.0,9441.0,9441.0,True,True
+42832,EarningsPerShare,186.99,186.99,186.99,True,True
+42832,Profit,1199000000,1199000000,1199000000,True,True
+42832,AverageNumberOfShares,6413698,6413698,6413698,True,True
+42832,DisclosedUnixTime,1557288000.0,1557288000.0,1557288000.0,True,True
+42832,DisclosureNumber,20190507416016.0,20190507416016.0,20190507416016.0,True,True
+42832,Date,2019-05-08,2019-05-08 00:00:00,2019-05-08,True,True
+42832,DisclosedDate,2019-05-08,2019-05-08 00:00:00,2019-05-08,True,True
+42832,CurrentFiscalYearStartDate,2019-01-01,2019-01-01 00:00:00,2019-01-01,True,True
+42832,CurrentPeriodEndDate,2019-03-31,2019-03-31 00:00:00,2019-03-31,True,True
+42832,CurrentFiscalYearEndDate,2019-12-31,2019-12-31 00:00:00,2019-12-31,True,True
+42832,TypeOfDocument,1QFinancialStatements_Consolidated_JP,1QFinancialStatements_Consolidated_JP,1QFinancialStatements_Consolidated_JP,True,True
+42832,TypeOfCurrentPeriod,1Q,1Q,1Q,True,True
+42832,DisclosedTime,13:00:00,13:00:00,13:00:00,True,True
+43373,SecuritiesCode,3914.0,3914.0,3914.0,True,True
+43373,EarningsPerShare,14.61,14.61,14.61,True,True
+43373,Profit,95000000,95000000,95000000,True,True
+43373,AverageNumberOfShares,6564420,6564420,6564420,True,True
+43373,DisclosedUnixTime,1557468000.0,1557468000.0,1557468000.0,True,True
+43373,DisclosureNumber,20190509419199.0,20190509419199.0,20190509419199.0,True,True
+43373,Date,2019-05-10,2019-05-10 00:00:00,2019-05-10,True,True
+43373,DisclosedDate,2019-05-10,2019-05-10 00:00:00,2019-05-10,True,True
+43373,CurrentFiscalYearStartDate,2019-01-01,2019-01-01 00:00:00,2019-01-01,True,True
+43373,CurrentPeriodEndDate,2019-03-31,2019-03-31 00:00:00,2019-03-31,True,True
+43373,CurrentFiscalYearEndDate,2019-12-31,2019-12-31 00:00:00,2019-12-31,True,True
+43373,TypeOfDocument,1QFinancialStatements_Consolidated_JP,1QFinancialStatements_Consolidated_JP,1QFinancialStatements_Consolidated_JP,True,True
+43373,TypeOfCurrentPeriod,1Q,1Q,1Q,True,True
+43373,DisclosedTime,15:00:00,15:00:00,15:00:00,True,True
+43588,SecuritiesCode,6777.0,6777.0,6777.0,True,True
+43588,EarningsPerShare,57.35,57.35,57.35,True,True
+43588,Profit,674000000,674000000,674000000,True,True
+43588,AverageNumberOfShares,11760653,11760653,11760653,True,True
+43588,DisclosedUnixTime,1557468600.0,1557468600.0,1557468600.0,True,True
+43588,DisclosureNumber,20190510420622.0,20190510420622.0,20190510420622.0,True,True
+43588,Date,2019-05-10,2019-05-10 00:00:00,2019-05-10,True,True
+43588,DisclosedDate,2019-05-10,2019-05-10 00:00:00,2019-05-10,True,True
+43588,CurrentFiscalYearStartDate,2018-04-01,2018-04-01 00:00:00,2018-04-01,True,True
+43588,CurrentPeriodEndDate,2019-03-31,2019-03-31 00:00:00,2019-03-31,True,True
+43588,CurrentFiscalYearEndDate,2019-03-31,2019-03-31 00:00:00,2019-03-31,True,True
+43588,TypeOfDocument,FYFinancialStatements_Consolidated_JP,FYFinancialStatements_Consolidated_JP,FYFinancialStatements_Consolidated_JP,True,True
+43588,TypeOfCurrentPeriod,FY,FY,FY,True,True
+43588,DisclosedTime,15:10:00,15:10:00,15:10:00,True,True
+44672,SecuritiesCode,6952.0,6952.0,6952.0,True,True
+44672,EarningsPerShare,89.86,89.86,89.86,True,True
+44672,Profit,22135000000,22135000000,22135000000,True,True
+44672,AverageNumberOfShares,246323016,246323016,246323016,True,True
+44672,DisclosedUnixTime,1557813600.0,1557813600.0,1557813600.0,True,True
+44672,DisclosureNumber,20190417406067.0,20190417406067.0,20190417406067.0,True,True
+44672,Date,2019-05-14,2019-05-14 00:00:00,2019-05-14,True,True
+44672,DisclosedDate,2019-05-14,2019-05-14 00:00:00,2019-05-14,True,True
+44672,CurrentFiscalYearStartDate,2018-04-01,2018-04-01 00:00:00,2018-04-01,True,True
+44672,CurrentPeriodEndDate,2019-03-31,2019-03-31 00:00:00,2019-03-31,True,True
+44672,CurrentFiscalYearEndDate,2019-03-31,2019-03-31 00:00:00,2019-03-31,True,True
+44672,TypeOfDocument,FYFinancialStatements_Consolidated_JP,FYFinancialStatements_Consolidated_JP,FYFinancialStatements_Consolidated_JP,True,True
+44672,TypeOfCurrentPeriod,FY,FY,FY,True,True
+44672,DisclosedTime,15:00:00,15:00:00,15:00:00,True,True
+47149,SecuritiesCode,4617.0,4617.0,4617.0,True,True
+47149,EarningsPerShare,0.92,0.92,0.92,True,True
+47149,Profit,55000000,55000000,55000000,True,True
+47149,AverageNumberOfShares,60541486,60541486,60541486,True,True
+47149,DisclosedUnixTime,1564547400.0,1564547400.0,1564547400.0,True,True
+47149,DisclosureNumber,20190704467315.0,20190704467315.0,20190704467315.0,True,True
+47149,Date,2019-07-31,2019-07-31 00:00:00,2019-07-31,True,True
+47149,DisclosedDate,2019-07-31,2019-07-31 00:00:00,2019-07-31,True,True
+47149,CurrentFiscalYearStartDate,2019-04-01,2019-04-01 00:00:00,2019-04-01,True,True
+47149,CurrentPeriodEndDate,2019-06-30,2019-06-30 00:00:00,2019-06-30,True,True
+47149,CurrentFiscalYearEndDate,2020-03-31,2020-03-31 00:00:00,2020-03-31,True,True
+47149,TypeOfDocument,1QFinancialStatements_Consolidated_JP,1QFinancialStatements_Consolidated_JP,1QFinancialStatements_Consolidated_JP,True,True
+47149,TypeOfCurrentPeriod,1Q,1Q,1Q,True,True
+47149,DisclosedTime,13:30:00,13:30:00,13:30:00,True,True
+47523,SecuritiesCode,6952.0,6952.0,6952.0,True,True
+47523,EarningsPerShare,19.97,19.97,19.97,True,True
+47523,Profit,4903000000,4903000000,4903000000,True,True
+47523,AverageNumberOfShares,245574629,245574629,245574629,True,True
+47523,DisclosedUnixTime,1564639200.0,1564639200.0,1564639200.0,True,True
+47523,DisclosureNumber,20190716472092.0,20190716472092.0,20190716472092.0,True,True
+47523,Date,2019-08-01,2019-08-01 00:00:00,2019-08-01,True,True
+47523,DisclosedDate,2019-08-01,2019-08-01 00:00:00,2019-08-01,True,True
+47523,CurrentFiscalYearStartDate,2019-04-01,2019-04-01 00:00:00,2019-04-01,True,True
+47523,CurrentPeriodEndDate,2019-06-30,2019-06-30 00:00:00,2019-06-30,True,True
+47523,CurrentFiscalYearEndDate,2020-03-31,2020-03-31 00:00:00,2020-03-31,True,True
+47523,TypeOfDocument,1QFinancialStatements_Consolidated_JP,1QFinancialStatements_Consolidated_JP,1QFinancialStatements_Consolidated_JP,True,True
+47523,TypeOfCurrentPeriod,1Q,1Q,1Q,True,True
+47523,DisclosedTime,15:00:00,15:00:00,15:00:00,True,True
+47949,SecuritiesCode,1893.0,1893.0,1893.0,True,True
+47949,EarningsPerShare,20.74,20.74,20.74,True,True
+47949,Profit,5918000000,5918000000,5918000000,True,True
+47949,AverageNumberOfShares,285358761,285358761,285358761,True,True
+47949,DisclosedUnixTime,1565071200.0,1565071200.0,1565071200.0,True,True
+47949,DisclosureNumber,20190805482168.0,20190805482168.0,20190805482168.0,True,True
+47949,Date,2019-08-06,2019-08-06 00:00:00,2019-08-06,True,True
+47949,DisclosedDate,2019-08-06,2019-08-06 00:00:00,2019-08-06,True,True
+47949,CurrentFiscalYearStartDate,2019-04-01,2019-04-01 00:00:00,2019-04-01,True,True
+47949,CurrentPeriodEndDate,2019-06-30,2019-06-30 00:00:00,2019-06-30,True,True
+47949,CurrentFiscalYearEndDate,2020-03-31,2020-03-31 00:00:00,2020-03-31,True,True
+47949,TypeOfDocument,1QFinancialStatements_Consolidated_JP,1QFinancialStatements_Consolidated_JP,1QFinancialStatements_Consolidated_JP,True,True
+47949,TypeOfCurrentPeriod,1Q,1Q,1Q,True,True
+47949,DisclosedTime,15:00:00,15:00:00,15:00:00,True,True
+48003,SecuritiesCode,4792.0,4792.0,4792.0,True,True
+48003,EarningsPerShare,0.01,0.01,0.01,True,True
+48003,Profit,0,0,0,True,True
+48003,AverageNumberOfShares,18996667,18996667,18996667,True,True
+48003,DisclosedUnixTime,1565071200.0,1565071200.0,1565071200.0,True,True
+48003,DisclosureNumber,20190804482103.0,20190804482103.0,20190804482103.0,True,True
+48003,Date,2019-08-06,2019-08-06 00:00:00,2019-08-06,True,True
+48003,DisclosedDate,2019-08-06,2019-08-06 00:00:00,2019-08-06,True,True
+48003,CurrentFiscalYearStartDate,2019-04-01,2019-04-01 00:00:00,2019-04-01,True,True
+48003,CurrentPeriodEndDate,2019-06-30,2019-06-30 00:00:00,2019-06-30,True,True
+48003,CurrentFiscalYearEndDate,2020-03-31,2020-03-31 00:00:00,2020-03-31,True,True
+48003,TypeOfDocument,1QFinancialStatements_Consolidated_JP,1QFinancialStatements_Consolidated_JP,1QFinancialStatements_Consolidated_JP,True,True
+48003,TypeOfCurrentPeriod,1Q,1Q,1Q,True,True
+48003,DisclosedTime,15:00:00,15:00:00,15:00:00,True,True
+48118,SecuritiesCode,9441.0,9441.0,9441.0,True,True
+48118,EarningsPerShare,249.67,249.67,249.67,True,True
+48118,Profit,1601000000,1601000000,1601000000,True,True
+48118,AverageNumberOfShares,6413697,6413697,6413697,True,True
+48118,DisclosedUnixTime,1565062200.0,1565062200.0,1565062200.0,True,True
+48118,DisclosureNumber,20190805482781.0,20190805482781.0,20190805482781.0,True,True
+48118,Date,2019-08-06,2019-08-06 00:00:00,2019-08-06,True,True
+48118,DisclosedDate,2019-08-06,2019-08-06 00:00:00,2019-08-06,True,True
+48118,CurrentFiscalYearStartDate,2019-01-01,2019-01-01 00:00:00,2019-01-01,True,True
+48118,CurrentPeriodEndDate,2019-06-30,2019-06-30 00:00:00,2019-06-30,True,True
+48118,CurrentFiscalYearEndDate,2019-12-31,2019-12-31 00:00:00,2019-12-31,True,True
+48118,TypeOfDocument,2QFinancialStatements_Consolidated_JP,2QFinancialStatements_Consolidated_JP,2QFinancialStatements_Consolidated_JP,True,True
+48118,TypeOfCurrentPeriod,2Q,2Q,2Q,True,True
+48118,DisclosedTime,12:30:00,12:30:00,12:30:00,True,True
+48236,SecuritiesCode,6005.0,6005.0,6005.0,True,True
+48236,EarningsPerShare,17.12,17.12,17.12,True,True
+48236,Profit,1927000000,1927000000,1927000000,True,True
+48236,AverageNumberOfShares,112573648,112573648,112573648,True,True
+48236,DisclosedUnixTime,1565157600.0,1565157600.0,1565157600.0,True,True
+48236,DisclosureNumber,20190806483542.0,20190806483542.0,20190806483542.0,True,True
+48236,Date,2019-08-07,2019-08-07 00:00:00,2019-08-07,True,True
+48236,DisclosedDate,2019-08-07,2019-08-07 00:00:00,2019-08-07,True,True
+48236,CurrentFiscalYearStartDate,2019-04-01,2019-04-01 00:00:00,2019-04-01,True,True
+48236,CurrentPeriodEndDate,2019-06-30,2019-06-30 00:00:00,2019-06-30,True,True
+48236,CurrentFiscalYearEndDate,2020-03-31,2020-03-31 00:00:00,2020-03-31,True,True
+48236,TypeOfDocument,1QFinancialStatements_Consolidated_IFRS,1QFinancialStatements_Consolidated_IFRS,1QFinancialStatements_Consolidated_IFRS,True,True
+48236,TypeOfCurrentPeriod,1Q,1Q,1Q,True,True
+48236,DisclosedTime,15:00:00,15:00:00,15:00:00,True,True
+48966,SecuritiesCode,3914.0,3914.0,3914.0,True,True
+48966,EarningsPerShare,29.28,29.28,29.28,True,True
+48966,Profit,192000000,192000000,192000000,True,True
+48966,AverageNumberOfShares,6558068,6558068,6558068,True,True
+48966,DisclosedUnixTime,1565330400.0,1565330400.0,1565330400.0,True,True
+48966,DisclosureNumber,20190808486115.0,20190808486115.0,20190808486115.0,True,True
+48966,Date,2019-08-09,2019-08-09 00:00:00,2019-08-09,True,True
+48966,DisclosedDate,2019-08-09,2019-08-09 00:00:00,2019-08-09,True,True
+48966,CurrentFiscalYearStartDate,2019-01-01,2019-01-01 00:00:00,2019-01-01,True,True
+48966,CurrentPeriodEndDate,2019-06-30,2019-06-30 00:00:00,2019-06-30,True,True
+48966,CurrentFiscalYearEndDate,2019-12-31,2019-12-31 00:00:00,2019-12-31,True,True
+48966,TypeOfDocument,2QFinancialStatements_Consolidated_JP,2QFinancialStatements_Consolidated_JP,2QFinancialStatements_Consolidated_JP,True,True
+48966,TypeOfCurrentPeriod,2Q,2Q,2Q,True,True
+48966,DisclosedTime,15:00:00,15:00:00,15:00:00,True,True
+49645,SecuritiesCode,3825.0,3825.0,3825.0,True,True
+49645,EarningsPerShare,-7.61,-7.61,-7.61,True,True
+49645,Profit,-436000000,-436000000,-436000000,True,True
+49645,AverageNumberOfShares,57370141,57370141,57370141,True,True
+49645,DisclosedUnixTime,1565764200.0,1565764200.0,1565764200.0,True,True
+49645,DisclosureNumber,20190814488344.0,20190814488344.0,20190814488344.0,True,True
+49645,Date,2019-08-14,2019-08-14 00:00:00,2019-08-14,True,True
+49645,DisclosedDate,2019-08-14,2019-08-14 00:00:00,2019-08-14,True,True
+49645,CurrentFiscalYearStartDate,2019-04-01,2019-04-01 00:00:00,2019-04-01,True,True
+49645,CurrentPeriodEndDate,2019-06-30,2019-06-30 00:00:00,2019-06-30,True,True
+49645,CurrentFiscalYearEndDate,2020-03-31,2020-03-31 00:00:00,2020-03-31,True,True
+49645,TypeOfDocument,1QFinancialStatements_Consolidated_JP,1QFinancialStatements_Consolidated_JP,1QFinancialStatements_Consolidated_JP,True,True
+49645,TypeOfCurrentPeriod,1Q,1Q,1Q,True,True
+49645,DisclosedTime,15:30:00,15:30:00,15:30:00,True,True
+50037,SecuritiesCode,3843.0,3843.0,3843.0,True,True
+50037,EarningsPerShare,-8.14,-8.14,-8.14,True,True
+50037,Profit,-180000000,-180000000,-180000000,True,True
+50037,AverageNumberOfShares,22189599,22189599,22189599,True,True
+50037,DisclosedUnixTime,1568354400.0,1568354400.0,1568354400.0,True,True
+50037,DisclosureNumber,20190912497524.0,20190912497524.0,20190912497524.0,True,True
+50037,Date,2019-09-13,2019-09-13 00:00:00,2019-09-13,True,True
+50037,DisclosedDate,2019-09-13,2019-09-13 00:00:00,2019-09-13,True,True
+50037,CurrentFiscalYearStartDate,2019-05-01,2019-05-01 00:00:00,2019-05-01,True,True
+50037,CurrentPeriodEndDate,2019-07-31,2019-07-31 00:00:00,2019-07-31,True,True
+50037,CurrentFiscalYearEndDate,2020-04-30,2020-04-30 00:00:00,2020-04-30,True,True
+50037,TypeOfDocument,1QFinancialStatements_Consolidated_JP,1QFinancialStatements_Consolidated_JP,1QFinancialStatements_Consolidated_JP,True,True
+50037,TypeOfCurrentPeriod,1Q,1Q,1Q,True,True
+50037,DisclosedTime,15:00:00,15:00:00,15:00:00,True,True
+50611,SecuritiesCode,3087.0,3087.0,3087.0,True,True
+50611,EarningsPerShare,87.7,87.7,87.7,True,True
+50611,Profit,3874000000,3874000000,3874000000,True,True
+50611,AverageNumberOfShares,44182972,44182972,44182972,True,True
+50611,DisclosedUnixTime,1571121000.0,1571121000.0,1571121000.0,True,True
+50611,DisclosureNumber,20191003404603.0,20191003404603.0,20191003404603.0,True,True
+50611,Date,2019-10-15,2019-10-15 00:00:00,2019-10-15,True,True
+50611,DisclosedDate,2019-10-15,2019-10-15 00:00:00,2019-10-15,True,True
+50611,CurrentFiscalYearStartDate,2019-03-01,2019-03-01 00:00:00,2019-03-01,True,True
+50611,CurrentPeriodEndDate,2019-08-31,2019-08-31 00:00:00,2019-08-31,True,True
+50611,CurrentFiscalYearEndDate,2020-02-29,2020-02-29 00:00:00,2020-02-29,True,True
+50611,TypeOfDocument,2QFinancialStatements_Consolidated_JP,2QFinancialStatements_Consolidated_JP,2QFinancialStatements_Consolidated_JP,True,True
+50611,TypeOfCurrentPeriod,2Q,2Q,2Q,True,True
+50611,DisclosedTime,15:30:00,15:30:00,15:30:00,True,True
+51545,SecuritiesCode,4617.0,4617.0,4617.0,True,True
+51545,EarningsPerShare,15.68,15.68,15.68,True,True
+51545,Profit,943000000,943000000,943000000,True,True
+51545,AverageNumberOfShares,60148535,60148535,60148535,True,True
+51545,DisclosedUnixTime,1572496200.0,1572496200.0,1572496200.0,True,True
+51545,DisclosureNumber,20191001403705.0,20191001403705.0,20191001403705.0,True,True
+51545,Date,2019-10-31,2019-10-31 00:00:00,2019-10-31,True,True
+51545,DisclosedDate,2019-10-31,2019-10-31 00:00:00,2019-10-31,True,True
+51545,CurrentFiscalYearStartDate,2019-04-01,2019-04-01 00:00:00,2019-04-01,True,True
+51545,CurrentPeriodEndDate,2019-09-30,2019-09-30 00:00:00,2019-09-30,True,True
+51545,CurrentFiscalYearEndDate,2020-03-31,2020-03-31 00:00:00,2020-03-31,True,True
+51545,TypeOfDocument,2QFinancialStatements_Consolidated_JP,2QFinancialStatements_Consolidated_JP,2QFinancialStatements_Consolidated_JP,True,True
+51545,TypeOfCurrentPeriod,2Q,2Q,2Q,True,True
+51545,DisclosedTime,13:30:00,13:30:00,13:30:00,True,True
+52463,SecuritiesCode,9441.0,9441.0,9441.0,True,True
+52463,EarningsPerShare,346.72,346.72,346.72,True,True
+52463,Profit,2223000000,2223000000,2223000000,True,True
+52463,AverageNumberOfShares,6413683,6413683,6413683,True,True
+52463,DisclosedUnixTime,1573020900.0,1573020900.0,1573020900.0,True,True
+52463,DisclosureNumber,20191105418998.0,20191105418998.0,20191105418998.0,True,True
+52463,Date,2019-11-06,2019-11-06 00:00:00,2019-11-06,True,True
+52463,DisclosedDate,2019-11-06,2019-11-06 00:00:00,2019-11-06,True,True
+52463,CurrentFiscalYearStartDate,2019-01-01,2019-01-01 00:00:00,2019-01-01,True,True
+52463,CurrentPeriodEndDate,2019-09-30,2019-09-30 00:00:00,2019-09-30,True,True
+52463,CurrentFiscalYearEndDate,2019-12-31,2019-12-31 00:00:00,2019-12-31,True,True
+52463,TypeOfDocument,3QFinancialStatements_Consolidated_JP,3QFinancialStatements_Consolidated_JP,3QFinancialStatements_Consolidated_JP,True,True
+52463,TypeOfCurrentPeriod,3Q,3Q,3Q,True,True
+52463,DisclosedTime,15:15:00,15:15:00,15:15:00,True,True
+52784,SecuritiesCode,1893.0,1893.0,1893.0,True,True
+52784,EarningsPerShare,42.31,42.31,42.31,True,True
+52784,Profit,12073000000,12073000000,12073000000,True,True
+52784,AverageNumberOfShares,285365053,285365053,285365053,True,True
+52784,DisclosedUnixTime,1573189200.0,1573189200.0,1573189200.0,True,True
+52784,DisclosureNumber,20191107420936.0,20191107420936.0,20191107420936.0,True,True
+52784,Date,2019-11-08,2019-11-08 00:00:00,2019-11-08,True,True
+52784,DisclosedDate,2019-11-08,2019-11-08 00:00:00,2019-11-08,True,True
+52784,CurrentFiscalYearStartDate,2019-04-01,2019-04-01 00:00:00,2019-04-01,True,True
+52784,CurrentPeriodEndDate,2019-09-30,2019-09-30 00:00:00,2019-09-30,True,True
+52784,CurrentFiscalYearEndDate,2020-03-31,2020-03-31 00:00:00,2020-03-31,True,True
+52784,TypeOfDocument,2QFinancialStatements_Consolidated_JP,2QFinancialStatements_Consolidated_JP,2QFinancialStatements_Consolidated_JP,True,True
+52784,TypeOfCurrentPeriod,2Q,2Q,2Q,True,True
+52784,DisclosedTime,14:00:00,14:00:00,14:00:00,True,True
+54220,SecuritiesCode,3825.0,3825.0,3825.0,True,True
+54220,EarningsPerShare,-69.66,-69.66,-69.66,True,True
+54220,Profit,-4032000000,-4032000000,-4032000000,True,True
+54220,AverageNumberOfShares,57891705,57891705,57891705,True,True
+54220,DisclosedUnixTime,1573714800.0,1573714800.0,1573714800.0,True,True
+54220,DisclosureNumber,20191114427111.0,20191114427111.0,20191114427111.0,True,True
+54220,Date,2019-11-14,2019-11-14 00:00:00,2019-11-14,True,True
+54220,DisclosedDate,2019-11-14,2019-11-14 00:00:00,2019-11-14,True,True
+54220,CurrentFiscalYearStartDate,2019-04-01,2019-04-01 00:00:00,2019-04-01,True,True
+54220,CurrentPeriodEndDate,2019-09-30,2019-09-30 00:00:00,2019-09-30,True,True
+54220,CurrentFiscalYearEndDate,2020-03-31,2020-03-31 00:00:00,2020-03-31,True,True
+54220,TypeOfDocument,2QFinancialStatements_Consolidated_JP,2QFinancialStatements_Consolidated_JP,2QFinancialStatements_Consolidated_JP,True,True
+54220,TypeOfCurrentPeriod,2Q,2Q,2Q,True,True
+54220,DisclosedTime,16:00:00,16:00:00,16:00:00,True,True
+54748,SecuritiesCode,3843.0,3843.0,3843.0,True,True
+54748,EarningsPerShare,-8.2,-8.2,-8.2,True,True
+54748,Profit,-181000000,-181000000,-181000000,True,True
+54748,AverageNumberOfShares,22197262,22197262,22197262,True,True
+54748,DisclosedUnixTime,1576216800.0,1576216800.0,1576216800.0,True,True
+54748,DisclosureNumber,20191213436695.0,20191213436695.0,20191213436695.0,True,True
+54748,Date,2019-12-13,2019-12-13 00:00:00,2019-12-13,True,True
+54748,DisclosedDate,2019-12-13,2019-12-13 00:00:00,2019-12-13,True,True
+54748,CurrentFiscalYearStartDate,2019-05-01,2019-05-01 00:00:00,2019-05-01,True,True
+54748,CurrentPeriodEndDate,2019-10-31,2019-10-31 00:00:00,2019-10-31,True,True
+54748,CurrentFiscalYearEndDate,2020-04-30,2020-04-30 00:00:00,2020-04-30,True,True
+54748,TypeOfDocument,2QFinancialStatements_Consolidated_JP,2QFinancialStatements_Consolidated_JP,2QFinancialStatements_Consolidated_JP,True,True
+54748,TypeOfCurrentPeriod,2Q,2Q,2Q,True,True
+54748,DisclosedTime,15:00:00,15:00:00,15:00:00,True,True
+55215,SecuritiesCode,3087.0,3087.0,3087.0,True,True
+55215,EarningsPerShare,120.22,120.22,120.22,True,True
+55215,Profit,5311000000,5311000000,5311000000,True,True
+55215,AverageNumberOfShares,44182957,44182957,44182957,True,True
+55215,DisclosedUnixTime,1578983400.0,1578983400.0,1578983400.0,True,True
+55215,DisclosureNumber,20200106443682.0,20200106443682.0,20200106443682.0,True,True
+55215,Date,2020-01-14,2020-01-14 00:00:00,2020-01-14,True,True
+55215,DisclosedDate,2020-01-14,2020-01-14 00:00:00,2020-01-14,True,True
+55215,CurrentFiscalYearStartDate,2019-03-01,2019-03-01 00:00:00,2019-03-01,True,True
+55215,CurrentPeriodEndDate,2019-11-30,2019-11-30 00:00:00,2019-11-30,True,True
+55215,CurrentFiscalYearEndDate,2020-02-29,2020-02-29 00:00:00,2020-02-29,True,True
+55215,TypeOfDocument,3QFinancialStatements_Consolidated_JP,3QFinancialStatements_Consolidated_JP,3QFinancialStatements_Consolidated_JP,True,True
+55215,TypeOfCurrentPeriod,3Q,3Q,3Q,True,True
+55215,DisclosedTime,15:30:00,15:30:00,15:30:00,True,True
+55978,SecuritiesCode,4617.0,4617.0,4617.0,True,True
+55978,EarningsPerShare,28.99,28.99,28.99,True,True
+55978,Profit,1733000000,1733000000,1733000000,True,True
+55978,AverageNumberOfShares,59781232,59781232,59781232,True,True
+55978,DisclosedUnixTime,1580445000.0,1580445000.0,1580445000.0,True,True
+55978,DisclosureNumber,20191226441901.0,20191226441901.0,20191226441901.0,True,True
+55978,Date,2020-01-31,2020-01-31 00:00:00,2020-01-31,True,True
+55978,DisclosedDate,2020-01-31,2020-01-31 00:00:00,2020-01-31,True,True
+55978,CurrentFiscalYearStartDate,2019-04-01,2019-04-01 00:00:00,2019-04-01,True,True
+55978,CurrentPeriodEndDate,2019-12-31,2019-12-31 00:00:00,2019-12-31,True,True
+55978,CurrentFiscalYearEndDate,2020-03-31,2020-03-31 00:00:00,2020-03-31,True,True
+55978,TypeOfDocument,3QFinancialStatements_Consolidated_JP,3QFinancialStatements_Consolidated_JP,3QFinancialStatements_Consolidated_JP,True,True
+55978,TypeOfCurrentPeriod,3Q,3Q,3Q,True,True
+55978,DisclosedTime,13:30:00,13:30:00,13:30:00,True,True
+56258,SecuritiesCode,9502.0,9502.0,9502.0,True,True
+56258,EarningsPerShare,201.82,201.82,201.82,True,True
+56258,Profit,152672000000,152672000000,152672000000,True,True
+56258,AverageNumberOfShares,756478816,756478816,756478816,True,True
+56258,DisclosedUnixTime,1580450400.0,1580450400.0,1580450400.0,True,True
+56258,DisclosureNumber,20191216437757.0,20191216437757.0,20191216437757.0,True,True
+56258,Date,2020-01-31,2020-01-31 00:00:00,2020-01-31,True,True
+56258,DisclosedDate,2020-01-31,2020-01-31 00:00:00,2020-01-31,True,True
+56258,CurrentFiscalYearStartDate,2019-04-01,2019-04-01 00:00:00,2019-04-01,True,True
+56258,CurrentPeriodEndDate,2019-12-31,2019-12-31 00:00:00,2019-12-31,True,True
+56258,CurrentFiscalYearEndDate,2020-03-31,2020-03-31 00:00:00,2020-03-31,True,True
+56258,TypeOfDocument,3QFinancialStatements_Consolidated_JP,3QFinancialStatements_Consolidated_JP,3QFinancialStatements_Consolidated_JP,True,True
+56258,TypeOfCurrentPeriod,3Q,3Q,3Q,True,True
+56258,DisclosedTime,15:00:00,15:00:00,15:00:00,True,True
+56344,SecuritiesCode,6005.0,6005.0,6005.0,True,True
+56344,EarningsPerShare,87.56,87.56,87.56,True,True
+56344,Profit,9864000000,9864000000,9864000000,True,True
+56344,AverageNumberOfShares,112655732,112655732,112655732,True,True
+56344,DisclosedUnixTime,1580709600.0,1580709600.0,1580709600.0,True,True
+56344,DisclosureNumber,20200131455484.0,20200131455484.0,20200131455484.0,True,True
+56344,Date,2020-02-03,2020-02-03 00:00:00,2020-02-03,True,True
+56344,DisclosedDate,2020-02-03,2020-02-03 00:00:00,2020-02-03,True,True
+56344,CurrentFiscalYearStartDate,2019-04-01,2019-04-01 00:00:00,2019-04-01,True,True
+56344,CurrentPeriodEndDate,2019-12-31,2019-12-31 00:00:00,2019-12-31,True,True
+56344,CurrentFiscalYearEndDate,2020-03-31,2020-03-31 00:00:00,2020-03-31,True,True
+56344,TypeOfDocument,3QFinancialStatements_Consolidated_IFRS,3QFinancialStatements_Consolidated_IFRS,3QFinancialStatements_Consolidated_IFRS,True,True
+56344,TypeOfCurrentPeriod,3Q,3Q,3Q,True,True
+56344,DisclosedTime,15:00:00,15:00:00,15:00:00,True,True
+56828,SecuritiesCode,4792.0,4792.0,4792.0,True,True
+56828,EarningsPerShare,39.21,39.21,39.21,True,True
+56828,Profit,745000000,745000000,745000000,True,True
+56828,AverageNumberOfShares,18997309,18997309,18997309,True,True
+56828,DisclosedUnixTime,1580968800.0,1580968800.0,1580968800.0,True,True
+56828,DisclosureNumber,20200206458997.0,20200206458997.0,20200206458997.0,True,True
+56828,Date,2020-02-06,2020-02-06 00:00:00,2020-02-06,True,True
+56828,DisclosedDate,2020-02-06,2020-02-06 00:00:00,2020-02-06,True,True
+56828,CurrentFiscalYearStartDate,2019-04-01,2019-04-01 00:00:00,2019-04-01,True,True
+56828,CurrentPeriodEndDate,2019-12-31,2019-12-31 00:00:00,2019-12-31,True,True
+56828,CurrentFiscalYearEndDate,2020-03-31,2020-03-31 00:00:00,2020-03-31,True,True
+56828,TypeOfDocument,3QFinancialStatements_Consolidated_JP,3QFinancialStatements_Consolidated_JP,3QFinancialStatements_Consolidated_JP,True,True
+56828,TypeOfCurrentPeriod,3Q,3Q,3Q,True,True
+56828,DisclosedTime,15:00:00,15:00:00,15:00:00,True,True
+59961,SecuritiesCode,3087.0,3087.0,3087.0,True,True
+59961,EarningsPerShare,137.13,137.13,137.13,True,True
+59961,Profit,6058000000,6058000000,6058000000,True,True
+59961,AverageNumberOfShares,44182936,44182936,44182936,True,True
+59961,DisclosedUnixTime,1586845800.0,1586845800.0,1586845800.0,True,True
+59961,DisclosureNumber,20200408491128.0,20200408491128.0,20200408491128.0,True,True
+59961,Date,2020-04-14,2020-04-14 00:00:00,2020-04-14,True,True
+59961,DisclosedDate,2020-04-14,2020-04-14 00:00:00,2020-04-14,True,True
+59961,CurrentFiscalYearStartDate,2019-03-01,2019-03-01 00:00:00,2019-03-01,True,True
+59961,CurrentPeriodEndDate,2020-02-29,2020-02-29 00:00:00,2020-02-29,True,True
+59961,CurrentFiscalYearEndDate,2020-02-29,2020-02-29 00:00:00,2020-02-29,True,True
+59961,TypeOfDocument,FYFinancialStatements_Consolidated_JP,FYFinancialStatements_Consolidated_JP,FYFinancialStatements_Consolidated_JP,True,True
+59961,TypeOfCurrentPeriod,FY,FY,FY,True,True
+59961,DisclosedTime,15:30:00,15:30:00,15:30:00,True,True
+60977,SecuritiesCode,3914.0,3914.0,3914.0,True,True
+60977,EarningsPerShare,16.57,16.57,16.57,True,True
+60977,Profit,108000000,108000000,108000000,True,True
+60977,AverageNumberOfShares,6553375,6553375,6553375,True,True
+60977,DisclosedUnixTime,1588917600.0,1588917600.0,1588917600.0,True,True
+60977,DisclosureNumber,20200507405549.0,20200507405549.0,20200507405549.0,True,True
+60977,Date,2020-05-08,2020-05-08 00:00:00,2020-05-08,True,True
+60977,DisclosedDate,2020-05-08,2020-05-08 00:00:00,2020-05-08,True,True
+60977,CurrentFiscalYearStartDate,2020-01-01,2020-01-01 00:00:00,2020-01-01,True,True
+60977,CurrentPeriodEndDate,2020-03-31,2020-03-31 00:00:00,2020-03-31,True,True
+60977,CurrentFiscalYearEndDate,2020-12-31,2020-12-31 00:00:00,2020-12-31,True,True
+60977,TypeOfDocument,1QFinancialStatements_Consolidated_JP,1QFinancialStatements_Consolidated_JP,1QFinancialStatements_Consolidated_JP,True,True
+60977,TypeOfCurrentPeriod,1Q,1Q,1Q,True,True
+60977,DisclosedTime,15:00:00,15:00:00,15:00:00,True,True
+62872,SecuritiesCode,6005.0,6005.0,6005.0,True,True
+62872,EarningsPerShare,122.01,122.01,122.01,True,True
+62872,Profit,13746000000,13746000000,13746000000,True,True
+62872,AverageNumberOfShares,112665795,112665795,112665795,True,True
+62872,DisclosedUnixTime,1589522400.0,1589522400.0,1589522400.0,True,True
+62872,DisclosureNumber,20200512410306.0,20200512410306.0,20200512410306.0,True,True
+62872,Date,2020-05-15,2020-05-15 00:00:00,2020-05-15,True,True
+62872,DisclosedDate,2020-05-15,2020-05-15 00:00:00,2020-05-15,True,True
+62872,CurrentFiscalYearStartDate,2019-04-01,2019-04-01 00:00:00,2019-04-01,True,True
+62872,CurrentPeriodEndDate,2020-03-31,2020-03-31 00:00:00,2020-03-31,True,True
+62872,CurrentFiscalYearEndDate,2020-03-31,2020-03-31 00:00:00,2020-03-31,True,True
+62872,TypeOfDocument,FYFinancialStatements_Consolidated_IFRS,FYFinancialStatements_Consolidated_IFRS,FYFinancialStatements_Consolidated_IFRS,True,True
+62872,TypeOfCurrentPeriod,FY,FY,FY,True,True
+62872,DisclosedTime,15:00:00,15:00:00,15:00:00,True,True
+63208,SecuritiesCode,9502.0,9502.0,9502.0,True,True
+63208,EarningsPerShare,216.11,216.11,216.11,True,True
+63208,Profit,163472000000,163472000000,163472000000,True,True
+63208,AverageNumberOfShares,756444696,756444696,756444696,True,True
+63208,DisclosedUnixTime,1589790600.0,1589790600.0,1589790600.0,True,True
+63208,DisclosureNumber,20200309476590.0,20200309476590.0,20200309476590.0,True,True
+63208,Date,2020-05-18,2020-05-18 00:00:00,2020-05-18,True,True
+63208,DisclosedDate,2020-05-18,2020-05-18 00:00:00,2020-05-18,True,True
+63208,CurrentFiscalYearStartDate,2019-04-01,2019-04-01 00:00:00,2019-04-01,True,True
+63208,CurrentPeriodEndDate,2020-03-31,2020-03-31 00:00:00,2020-03-31,True,True
+63208,CurrentFiscalYearEndDate,2020-03-31,2020-03-31 00:00:00,2020-03-31,True,True
+63208,TypeOfDocument,FYFinancialStatements_Consolidated_JP,FYFinancialStatements_Consolidated_JP,FYFinancialStatements_Consolidated_JP,True,True
+63208,TypeOfCurrentPeriod,FY,FY,FY,True,True
+63208,DisclosedTime,17:30:00,17:30:00,17:30:00,True,True
+63311,SecuritiesCode,4792.0,4792.0,4792.0,True,True
+63311,EarningsPerShare,64.9,64.9,64.9,True,True
+63311,Profit,1233000000,1233000000,1233000000,True,True
+63311,AverageNumberOfShares,18997525,18997525,18997525,True,True
+63311,DisclosedUnixTime,1589954400.0,1589954400.0,1589954400.0,True,True
+63311,DisclosureNumber,20200520419345.0,20200520419345.0,20200520419345.0,True,True
+63311,Date,2020-05-20,2020-05-20 00:00:00,2020-05-20,True,True
+63311,DisclosedDate,2020-05-20,2020-05-20 00:00:00,2020-05-20,True,True
+63311,CurrentFiscalYearStartDate,2019-04-01,2019-04-01 00:00:00,2019-04-01,True,True
+63311,CurrentPeriodEndDate,2020-03-31,2020-03-31 00:00:00,2020-03-31,True,True
+63311,CurrentFiscalYearEndDate,2020-03-31,2020-03-31 00:00:00,2020-03-31,True,True
+63311,TypeOfDocument,FYFinancialStatements_Consolidated_JP,FYFinancialStatements_Consolidated_JP,FYFinancialStatements_Consolidated_JP,True,True
+63311,TypeOfCurrentPeriod,FY,FY,FY,True,True
+63311,DisclosedTime,15:00:00,15:00:00,15:00:00,True,True
+64889,SecuritiesCode,2884.0,2884.0,2884.0,True,True
+64889,EarningsPerShare,0.01,0.01,0.01,True,True
+64889,Profit,0,0,0,True,True
+64889,AverageNumberOfShares,22334988,22334988,22334988,True,True
+64889,DisclosedUnixTime,1594794600.0,1594794600.0,1594794600.0,True,True
+64889,DisclosureNumber,20200715462844.0,20200715462844.0,20200715462844.0,True,True
+64889,Date,2020-07-15,2020-07-15 00:00:00,2020-07-15,True,True
+64889,DisclosedDate,2020-07-15,2020-07-15 00:00:00,2020-07-15,True,True
+64889,CurrentFiscalYearStartDate,2020-03-01,2020-03-01 00:00:00,2020-03-01,True,True
+64889,CurrentPeriodEndDate,2020-05-31,2020-05-31 00:00:00,2020-05-31,True,True
+64889,CurrentFiscalYearEndDate,2021-02-28,2021-02-28 00:00:00,2021-02-28,True,True
+64889,TypeOfDocument,1QFinancialStatements_Consolidated_JP,1QFinancialStatements_Consolidated_JP,1QFinancialStatements_Consolidated_JP,True,True
+64889,TypeOfCurrentPeriod,1Q,1Q,1Q,True,True
+64889,DisclosedTime,15:30:00,15:30:00,15:30:00,True,True
+65090,SecuritiesCode,6305.0,6305.0,6305.0,True,True
+65090,EarningsPerShare,0.95,0.95,0.95,True,True
+65090,Profit,201000000,201000000,201000000,True,True
+65090,AverageNumberOfShares,212653069,212653069,212653069,True,True
+65090,DisclosedUnixTime,1595829600.0,1595829600.0,1595829600.0,True,True
+65090,DisclosureNumber,20200727466879.0,20200727466879.0,20200727466879.0,True,True
+65090,Date,2020-07-27,2020-07-27 00:00:00,2020-07-27,True,True
+65090,DisclosedDate,2020-07-27,2020-07-27 00:00:00,2020-07-27,True,True
+65090,CurrentFiscalYearStartDate,2020-04-01,2020-04-01 00:00:00,2020-04-01,True,True
+65090,CurrentPeriodEndDate,2020-06-30,2020-06-30 00:00:00,2020-06-30,True,True
+65090,CurrentFiscalYearEndDate,2021-03-31,2021-03-31 00:00:00,2021-03-31,True,True
+65090,TypeOfDocument,1QFinancialStatements_Consolidated_IFRS,1QFinancialStatements_Consolidated_IFRS,1QFinancialStatements_Consolidated_IFRS,True,True
+65090,TypeOfCurrentPeriod,1Q,1Q,1Q,True,True
+65090,DisclosedTime,15:00:00,15:00:00,15:00:00,True,True
+66270,SecuritiesCode,7994.0,7994.0,7994.0,True,True
+66270,EarningsPerShare,0.01,0.01,0.01,True,True
+66270,Profit,1000000,1000000,1000000,True,True
+66270,AverageNumberOfShares,110141071,110141071,110141071,True,True
+66270,DisclosedUnixTime,1596520800.0,1596520800.0,1596520800.0,True,True
+66270,DisclosureNumber,20200803473112.0,20200803473112.0,20200803473112.0,True,True
+66270,Date,2020-08-04,2020-08-04 00:00:00,2020-08-04,True,True
+66270,DisclosedDate,2020-08-04,2020-08-04 00:00:00,2020-08-04,True,True
+66270,CurrentFiscalYearStartDate,2020-04-01,2020-04-01 00:00:00,2020-04-01,True,True
+66270,CurrentPeriodEndDate,2020-06-30,2020-06-30 00:00:00,2020-06-30,True,True
+66270,CurrentFiscalYearEndDate,2021-03-31,2021-03-31 00:00:00,2021-03-31,True,True
+66270,TypeOfDocument,1QFinancialStatements_Consolidated_JP,1QFinancialStatements_Consolidated_JP,1QFinancialStatements_Consolidated_JP,True,True
+66270,TypeOfCurrentPeriod,1Q,1Q,1Q,True,True
+66270,DisclosedTime,15:00:00,15:00:00,15:00:00,True,True
+66351,SecuritiesCode,3738.0,3738.0,3738.0,True,True
+66351,EarningsPerShare,60.99,60.99,60.99,True,True
+66351,Profit,3399000000,3399000000,3399000000,True,True
+66351,AverageNumberOfShares,55732173,55732173,55732173,True,True
+66351,DisclosedUnixTime,1596607200.0,1596607200.0,1596607200.0,True,True
+66351,DisclosureNumber,20200805474740.0,20200805474740.0,20200805474740.0,True,True
+66351,Date,2020-08-05,2020-08-05 00:00:00,2020-08-05,True,True
+66351,DisclosedDate,2020-08-05,2020-08-05 00:00:00,2020-08-05,True,True
+66351,CurrentFiscalYearStartDate,2020-04-01,2020-04-01 00:00:00,2020-04-01,True,True
+66351,CurrentPeriodEndDate,2020-06-30,2020-06-30 00:00:00,2020-06-30,True,True
+66351,CurrentFiscalYearEndDate,2021-03-31,2021-03-31 00:00:00,2021-03-31,True,True
+66351,TypeOfDocument,1QFinancialStatements_Consolidated_JP,1QFinancialStatements_Consolidated_JP,1QFinancialStatements_Consolidated_JP,True,True
+66351,TypeOfCurrentPeriod,1Q,1Q,1Q,True,True
+66351,DisclosedTime,15:00:00,15:00:00,15:00:00,True,True
+66398,SecuritiesCode,5970.0,5970.0,5970.0,True,True
+66398,EarningsPerShare,-38.71,-38.71,-38.71,True,True
+66398,Profit,-1661000000,-1661000000,-1661000000,True,True
+66398,AverageNumberOfShares,42931140,42931140,42931140,True,True
+66398,DisclosedUnixTime,1596612600.0,1596612600.0,1596612600.0,True,True
+66398,DisclosureNumber,20200805474933.0,20200805474933.0,20200805474933.0,True,True
+66398,Date,2020-08-05,2020-08-05 00:00:00,2020-08-05,True,True
+66398,DisclosedDate,2020-08-05,2020-08-05 00:00:00,2020-08-05,True,True
+66398,CurrentFiscalYearStartDate,2020-04-01,2020-04-01 00:00:00,2020-04-01,True,True
+66398,CurrentPeriodEndDate,2020-06-30,2020-06-30 00:00:00,2020-06-30,True,True
+66398,CurrentFiscalYearEndDate,2021-03-31,2021-03-31 00:00:00,2021-03-31,True,True
+66398,TypeOfDocument,1QFinancialStatements_Consolidated_JP,1QFinancialStatements_Consolidated_JP,1QFinancialStatements_Consolidated_JP,True,True
+66398,TypeOfCurrentPeriod,1Q,1Q,1Q,True,True
+66398,DisclosedTime,16:30:00,16:30:00,16:30:00,True,True
+66401,SecuritiesCode,6005.0,6005.0,6005.0,True,True
+66401,EarningsPerShare,15.82,15.82,15.82,True,True
+66401,Profit,1783000000,1783000000,1783000000,True,True
+66401,AverageNumberOfShares,112696090,112696090,112696090,True,True
+66401,DisclosedUnixTime,1596607200.0,1596607200.0,1596607200.0,True,True
+66401,DisclosureNumber,20200804473930.0,20200804473930.0,20200804473930.0,True,True
+66401,Date,2020-08-05,2020-08-05 00:00:00,2020-08-05,True,True
+66401,DisclosedDate,2020-08-05,2020-08-05 00:00:00,2020-08-05,True,True
+66401,CurrentFiscalYearStartDate,2020-04-01,2020-04-01 00:00:00,2020-04-01,True,True
+66401,CurrentPeriodEndDate,2020-06-30,2020-06-30 00:00:00,2020-06-30,True,True
+66401,CurrentFiscalYearEndDate,2021-03-31,2021-03-31 00:00:00,2021-03-31,True,True
+66401,TypeOfDocument,1QFinancialStatements_Consolidated_IFRS,1QFinancialStatements_Consolidated_IFRS,1QFinancialStatements_Consolidated_IFRS,True,True
+66401,TypeOfCurrentPeriod,1Q,1Q,1Q,True,True
+66401,DisclosedTime,15:00:00,15:00:00,15:00:00,True,True
+66647,SecuritiesCode,4792.0,4792.0,4792.0,True,True
+66647,EarningsPerShare,-13.2,-13.2,-13.2,True,True
+66647,Profit,-250000000,-250000000,-250000000,True,True
+66647,AverageNumberOfShares,18999217,18999217,18999217,True,True
+66647,DisclosedUnixTime,1596693600.0,1596693600.0,1596693600.0,True,True
+66647,DisclosureNumber,20200806476646.0,20200806476646.0,20200806476646.0,True,True
+66647,Date,2020-08-06,2020-08-06 00:00:00,2020-08-06,True,True
+66647,DisclosedDate,2020-08-06,2020-08-06 00:00:00,2020-08-06,True,True
+66647,CurrentFiscalYearStartDate,2020-04-01,2020-04-01 00:00:00,2020-04-01,True,True
+66647,CurrentPeriodEndDate,2020-06-30,2020-06-30 00:00:00,2020-06-30,True,True
+66647,CurrentFiscalYearEndDate,2021-03-31,2021-03-31 00:00:00,2021-03-31,True,True
+66647,TypeOfDocument,1QFinancialStatements_Consolidated_JP,1QFinancialStatements_Consolidated_JP,1QFinancialStatements_Consolidated_JP,True,True
+66647,TypeOfCurrentPeriod,1Q,1Q,1Q,True,True
+66647,DisclosedTime,15:00:00,15:00:00,15:00:00,True,True
+66688,SecuritiesCode,5902.0,5902.0,5902.0,True,True
+66688,EarningsPerShare,0.09,0.09,0.09,True,True
+66688,Profit,1000000,1000000,1000000,True,True
+66688,AverageNumberOfShares,12187675,12187675,12187675,True,True
+66688,DisclosedUnixTime,1596697200.0,1596697200.0,1596697200.0,True,True
+66688,DisclosureNumber,20200806476126.0,20200806476126.0,20200806476126.0,True,True
+66688,Date,2020-08-06,2020-08-06 00:00:00,2020-08-06,True,True
+66688,DisclosedDate,2020-08-06,2020-08-06 00:00:00,2020-08-06,True,True
+66688,CurrentFiscalYearStartDate,2020-04-01,2020-04-01 00:00:00,2020-04-01,True,True
+66688,CurrentPeriodEndDate,2020-06-30,2020-06-30 00:00:00,2020-06-30,True,True
+66688,CurrentFiscalYearEndDate,2021-03-31,2021-03-31 00:00:00,2021-03-31,True,True
+66688,TypeOfDocument,1QFinancialStatements_Consolidated_JP,1QFinancialStatements_Consolidated_JP,1QFinancialStatements_Consolidated_JP,True,True
+66688,TypeOfCurrentPeriod,1Q,1Q,1Q,True,True
+66688,DisclosedTime,16:00:00,16:00:00,16:00:00,True,True
+67059,SecuritiesCode,3914.0,3914.0,3914.0,True,True
+67059,EarningsPerShare,28.1,28.1,28.1,True,True
+67059,Profit,184000000,184000000,184000000,True,True
+67059,AverageNumberOfShares,6558708,6558708,6558708,True,True
+67059,DisclosedUnixTime,1596780000.0,1596780000.0,1596780000.0,True,True
+67059,DisclosureNumber,20200806477207.0,20200806477207.0,20200806477207.0,True,True
+67059,Date,2020-08-07,2020-08-07 00:00:00,2020-08-07,True,True
+67059,DisclosedDate,2020-08-07,2020-08-07 00:00:00,2020-08-07,True,True
+67059,CurrentFiscalYearStartDate,2020-01-01,2020-01-01 00:00:00,2020-01-01,True,True
+67059,CurrentPeriodEndDate,2020-06-30,2020-06-30 00:00:00,2020-06-30,True,True
+67059,CurrentFiscalYearEndDate,2020-12-31,2020-12-31 00:00:00,2020-12-31,True,True
+67059,TypeOfDocument,2QFinancialStatements_Consolidated_JP,2QFinancialStatements_Consolidated_JP,2QFinancialStatements_Consolidated_JP,True,True
+67059,TypeOfCurrentPeriod,2Q,2Q,2Q,True,True
+67059,DisclosedTime,15:00:00,15:00:00,15:00:00,True,True
+67113,SecuritiesCode,4572.0,4572.0,4572.0,True,True
+67113,EarningsPerShare,-32.6,-32.6,-32.6,True,True
+67113,Profit,-397000000,-397000000,-397000000,True,True
+67113,AverageNumberOfShares,12195162,12195162,12195162,True,True
+67113,DisclosedUnixTime,1596781800.0,1596781800.0,1596781800.0,True,True
+67113,DisclosureNumber,20200731471429.0,20200731471429.0,20200731471429.0,True,True
+67113,Date,2020-08-07,2020-08-07 00:00:00,2020-08-07,True,True
+67113,DisclosedDate,2020-08-07,2020-08-07 00:00:00,2020-08-07,True,True
+67113,CurrentFiscalYearStartDate,2020-01-01,2020-01-01 00:00:00,2020-01-01,True,True
+67113,CurrentPeriodEndDate,2020-06-30,2020-06-30 00:00:00,2020-06-30,True,True
+67113,CurrentFiscalYearEndDate,2020-12-31,2020-12-31 00:00:00,2020-12-31,True,True
+67113,TypeOfDocument,2QFinancialStatements_Consolidated_JP,2QFinancialStatements_Consolidated_JP,2QFinancialStatements_Consolidated_JP,True,True
+67113,TypeOfCurrentPeriod,2Q,2Q,2Q,True,True
+67113,DisclosedTime,15:30:00,15:30:00,15:30:00,True,True
+68822,SecuritiesCode,3843.0,3843.0,3843.0,True,True
+68822,EarningsPerShare,9.96,9.96,9.96,True,True
+68822,Profit,218000000,218000000,218000000,True,True
+68822,AverageNumberOfShares,21943877,21943877,21943877,True,True
+68822,DisclosedUnixTime,1599804000.0,1599804000.0,1599804000.0,True,True
+68822,DisclosureNumber,20200911491554.0,20200911491554.0,20200911491554.0,True,True
+68822,Date,2020-09-11,2020-09-11 00:00:00,2020-09-11,True,True
+68822,DisclosedDate,2020-09-11,2020-09-11 00:00:00,2020-09-11,True,True
+68822,CurrentFiscalYearStartDate,2020-05-01,2020-05-01 00:00:00,2020-05-01,True,True
+68822,CurrentPeriodEndDate,2020-07-31,2020-07-31 00:00:00,2020-07-31,True,True
+68822,CurrentFiscalYearEndDate,2021-04-30,2021-04-30 00:00:00,2021-04-30,True,True
+68822,TypeOfDocument,1QFinancialStatements_Consolidated_JP,1QFinancialStatements_Consolidated_JP,1QFinancialStatements_Consolidated_JP,True,True
+68822,TypeOfCurrentPeriod,1Q,1Q,1Q,True,True
+68822,DisclosedTime,15:00:00,15:00:00,15:00:00,True,True
+70003,SecuritiesCode,6305.0,6305.0,6305.0,True,True
+70003,EarningsPerShare,0.99,0.99,0.99,True,True
+70003,Profit,211000000,211000000,211000000,True,True
+70003,AverageNumberOfShares,212652965,212652965,212652965,True,True
+70003,DisclosedUnixTime,1603778400.0,1603778400.0,1603778400.0,True,True
+70003,DisclosureNumber,20201027409186.0,20201027409186.0,20201027409186.0,True,True
+70003,Date,2020-10-27,2020-10-27 00:00:00,2020-10-27,True,True
+70003,DisclosedDate,2020-10-27,2020-10-27 00:00:00,2020-10-27,True,True
+70003,CurrentFiscalYearStartDate,2020-04-01,2020-04-01 00:00:00,2020-04-01,True,True
+70003,CurrentPeriodEndDate,2020-09-30,2020-09-30 00:00:00,2020-09-30,True,True
+70003,CurrentFiscalYearEndDate,2021-03-31,2021-03-31 00:00:00,2021-03-31,True,True
+70003,TypeOfDocument,2QFinancialStatements_Consolidated_IFRS,2QFinancialStatements_Consolidated_IFRS,2QFinancialStatements_Consolidated_IFRS,True,True
+70003,TypeOfCurrentPeriod,2Q,2Q,2Q,True,True
+70003,DisclosedTime,15:00:00,15:00:00,15:00:00,True,True
+70868,SecuritiesCode,9502.0,9502.0,9502.0,True,True
+70868,EarningsPerShare,151.54,151.54,151.54,True,True
+70868,Profit,114608000000,114608000000,114608000000,True,True
+70868,AverageNumberOfShares,756287111,756287111,756287111,True,True
+70868,DisclosedUnixTime,1604041200.0,1604041200.0,1604041200.0,True,True
+70868,DisclosureNumber,20200923494770.0,20200923494770.0,20200923494770.0,True,True
+70868,Date,2020-10-30,2020-10-30 00:00:00,2020-10-30,True,True
+70868,DisclosedDate,2020-10-30,2020-10-30 00:00:00,2020-10-30,True,True
+70868,CurrentFiscalYearStartDate,2020-04-01,2020-04-01 00:00:00,2020-04-01,True,True
+70868,CurrentPeriodEndDate,2020-09-30,2020-09-30 00:00:00,2020-09-30,True,True
+70868,CurrentFiscalYearEndDate,2021-03-31,2021-03-31 00:00:00,2021-03-31,True,True
+70868,TypeOfDocument,2QFinancialStatements_Consolidated_JP,2QFinancialStatements_Consolidated_JP,2QFinancialStatements_Consolidated_JP,True,True
+70868,TypeOfCurrentPeriod,2Q,2Q,2Q,True,True
+70868,DisclosedTime,16:00:00,16:00:00,16:00:00,True,True
+71597,SecuritiesCode,5970.0,5970.0,5970.0,True,True
+71597,EarningsPerShare,4.39,4.39,4.39,True,True
+71597,Profit,188000000,188000000,188000000,True,True
+71597,AverageNumberOfShares,42931135,42931135,42931135,True,True
+71597,DisclosedUnixTime,1604647800.0,1604647800.0,1604647800.0,True,True
+71597,DisclosureNumber,20201106417870.0,20201106417870.0,20201106417870.0,True,True
+71597,Date,2020-11-06,2020-11-06 00:00:00,2020-11-06,True,True
+71597,DisclosedDate,2020-11-06,2020-11-06 00:00:00,2020-11-06,True,True
+71597,CurrentFiscalYearStartDate,2020-04-01,2020-04-01 00:00:00,2020-04-01,True,True
+71597,CurrentPeriodEndDate,2020-09-30,2020-09-30 00:00:00,2020-09-30,True,True
+71597,CurrentFiscalYearEndDate,2021-03-31,2021-03-31 00:00:00,2021-03-31,True,True
+71597,TypeOfDocument,2QFinancialStatements_Consolidated_JP,2QFinancialStatements_Consolidated_JP,2QFinancialStatements_Consolidated_JP,True,True
+71597,TypeOfCurrentPeriod,2Q,2Q,2Q,True,True
+71597,DisclosedTime,16:30:00,16:30:00,16:30:00,True,True
+71922,SecuritiesCode,4572.0,4572.0,4572.0,True,True
+71922,EarningsPerShare,-52.93,-52.93,-52.93,True,True
+71922,Profit,-649000000,-649000000,-649000000,True,True
+71922,AverageNumberOfShares,12264603,12264603,12264603,True,True
+71922,DisclosedUnixTime,1604903400.0,1604903400.0,1604903400.0,True,True
+71922,DisclosureNumber,20201105416622.0,20201105416622.0,20201105416622.0,True,True
+71922,Date,2020-11-09,2020-11-09 00:00:00,2020-11-09,True,True
+71922,DisclosedDate,2020-11-09,2020-11-09 00:00:00,2020-11-09,True,True
+71922,CurrentFiscalYearStartDate,2020-01-01,2020-01-01 00:00:00,2020-01-01,True,True
+71922,CurrentPeriodEndDate,2020-09-30,2020-09-30 00:00:00,2020-09-30,True,True
+71922,CurrentFiscalYearEndDate,2020-12-31,2020-12-31 00:00:00,2020-12-31,True,True
+71922,TypeOfDocument,3QFinancialStatements_Consolidated_JP,3QFinancialStatements_Consolidated_JP,3QFinancialStatements_Consolidated_JP,True,True
+71922,TypeOfCurrentPeriod,3Q,3Q,3Q,True,True
+71922,DisclosedTime,15:30:00,15:30:00,15:30:00,True,True
+73837,SecuritiesCode,3843.0,3843.0,3843.0,True,True
+73837,EarningsPerShare,64.27,64.27,64.27,True,True
+73837,Profit,1405000000,1405000000,1405000000,True,True
+73837,AverageNumberOfShares,21862099,21862099,21862099,True,True
+73837,DisclosedUnixTime,1607666400.0,1607666400.0,1607666400.0,True,True
+73837,DisclosureNumber,20201210433457.0,20201210433457.0,20201210433457.0,True,True
+73837,Date,2020-12-11,2020-12-11 00:00:00,2020-12-11,True,True
+73837,DisclosedDate,2020-12-11,2020-12-11 00:00:00,2020-12-11,True,True
+73837,CurrentFiscalYearStartDate,2020-05-01,2020-05-01 00:00:00,2020-05-01,True,True
+73837,CurrentPeriodEndDate,2020-10-31,2020-10-31 00:00:00,2020-10-31,True,True
+73837,CurrentFiscalYearEndDate,2021-04-30,2021-04-30 00:00:00,2021-04-30,True,True
+73837,TypeOfDocument,2QFinancialStatements_Consolidated_JP,2QFinancialStatements_Consolidated_JP,2QFinancialStatements_Consolidated_JP,True,True
+73837,TypeOfCurrentPeriod,2Q,2Q,2Q,True,True
+73837,DisclosedTime,15:00:00,15:00:00,15:00:00,True,True
+74421,SecuritiesCode,2884.0,2884.0,2884.0,True,True
+74421,EarningsPerShare,9.21,9.21,9.21,True,True
+74421,Profit,206000000,206000000,206000000,True,True
+74421,AverageNumberOfShares,22433084,22433084,22433084,True,True
+74421,DisclosedUnixTime,1610605800.0,1610605800.0,1610605800.0,True,True
+74421,DisclosureNumber,20210114443964.0,20210114443964.0,20210114443964.0,True,True
+74421,Date,2021-01-14,2021-01-14 00:00:00,2021-01-14,True,True
+74421,DisclosedDate,2021-01-14,2021-01-14 00:00:00,2021-01-14,True,True
+74421,CurrentFiscalYearStartDate,2020-03-01,2020-03-01 00:00:00,2020-03-01,True,True
+74421,CurrentPeriodEndDate,2020-11-30,2020-11-30 00:00:00,2020-11-30,True,True
+74421,CurrentFiscalYearEndDate,2021-02-28,2021-02-28 00:00:00,2021-02-28,True,True
+74421,TypeOfDocument,3QFinancialStatements_Consolidated_JP,3QFinancialStatements_Consolidated_JP,3QFinancialStatements_Consolidated_JP,True,True
+74421,TypeOfCurrentPeriod,3Q,3Q,3Q,True,True
+74421,DisclosedTime,15:30:00,15:30:00,15:30:00,True,True
+75364,SecuritiesCode,9502.0,9502.0,9502.0,True,True
+75364,EarningsPerShare,207.15,207.15,207.15,True,True
+75364,Profit,156657000000,156657000000,156657000000,True,True
+75364,AverageNumberOfShares,756251731,756251731,756251731,True,True
+75364,DisclosedUnixTime,1611901800.0,1611901800.0,1611901800.0,True,True
+75364,DisclosureNumber,20201211434108.0,20201211434108.0,20201211434108.0,True,True
+75364,Date,2021-01-29,2021-01-29 00:00:00,2021-01-29,True,True
+75364,DisclosedDate,2021-01-29,2021-01-29 00:00:00,2021-01-29,True,True
+75364,CurrentFiscalYearStartDate,2020-04-01,2020-04-01 00:00:00,2020-04-01,True,True
+75364,CurrentPeriodEndDate,2020-12-31,2020-12-31 00:00:00,2020-12-31,True,True
+75364,CurrentFiscalYearEndDate,2021-03-31,2021-03-31 00:00:00,2021-03-31,True,True
+75364,TypeOfDocument,3QFinancialStatements_Consolidated_JP,3QFinancialStatements_Consolidated_JP,3QFinancialStatements_Consolidated_JP,True,True
+75364,TypeOfCurrentPeriod,3Q,3Q,3Q,True,True
+75364,DisclosedTime,15:30:00,15:30:00,15:30:00,True,True
+75624,SecuritiesCode,3738.0,3738.0,3738.0,True,True
+75624,EarningsPerShare,169.33,169.33,169.33,True,True
+75624,Profit,9437000000,9437000000,9437000000,True,True
+75624,AverageNumberOfShares,55733864,55733864,55733864,True,True
+75624,DisclosedUnixTime,1612332000.0,1612332000.0,1612332000.0,True,True
+75624,DisclosureNumber,20210125448459.0,20210125448459.0,20210125448459.0,True,True
+75624,Date,2021-02-03,2021-02-03 00:00:00,2021-02-03,True,True
+75624,DisclosedDate,2021-02-03,2021-02-03 00:00:00,2021-02-03,True,True
+75624,CurrentFiscalYearStartDate,2020-04-01,2020-04-01 00:00:00,2020-04-01,True,True
+75624,CurrentPeriodEndDate,2020-12-31,2020-12-31 00:00:00,2020-12-31,True,True
+75624,CurrentFiscalYearEndDate,2021-03-31,2021-03-31 00:00:00,2021-03-31,True,True
+75624,TypeOfDocument,3QFinancialStatements_Consolidated_JP,3QFinancialStatements_Consolidated_JP,3QFinancialStatements_Consolidated_JP,True,True
+75624,TypeOfCurrentPeriod,3Q,3Q,3Q,True,True
+75624,DisclosedTime,15:00:00,15:00:00,15:00:00,True,True
+75849,SecuritiesCode,7994.0,7994.0,7994.0,True,True
+75849,EarningsPerShare,51.17,51.17,51.17,True,True
+75849,Profit,5536000000,5536000000,5536000000,True,True
+75849,AverageNumberOfShares,108198313,108198313,108198313,True,True
+75849,DisclosedUnixTime,1612418400.0,1612418400.0,1612418400.0,True,True
+75849,DisclosureNumber,20210203454891.0,20210203454891.0,20210203454891.0,True,True
+75849,Date,2021-02-04,2021-02-04 00:00:00,2021-02-04,True,True
+75849,DisclosedDate,2021-02-04,2021-02-04 00:00:00,2021-02-04,True,True
+75849,CurrentFiscalYearStartDate,2020-04-01,2020-04-01 00:00:00,2020-04-01,True,True
+75849,CurrentPeriodEndDate,2020-12-31,2020-12-31 00:00:00,2020-12-31,True,True
+75849,CurrentFiscalYearEndDate,2021-03-31,2021-03-31 00:00:00,2021-03-31,True,True
+75849,TypeOfDocument,3QFinancialStatements_Consolidated_JP,3QFinancialStatements_Consolidated_JP,3QFinancialStatements_Consolidated_JP,True,True
+75849,TypeOfCurrentPeriod,3Q,3Q,3Q,True,True
+75849,DisclosedTime,15:00:00,15:00:00,15:00:00,True,True
+76377,SecuritiesCode,5902.0,5902.0,5902.0,True,True
+76377,EarningsPerShare,96.7,96.7,96.7,True,True
+76377,Profit,1178000000,1178000000,1178000000,True,True
+76377,AverageNumberOfShares,12187588,12187588,12187588,True,True
+76377,DisclosedUnixTime,1612767600.0,1612767600.0,1612767600.0,True,True
+76377,DisclosureNumber,20210208457630.0,20210208457630.0,20210208457630.0,True,True
+76377,Date,2021-02-08,2021-02-08 00:00:00,2021-02-08,True,True
+76377,DisclosedDate,2021-02-08,2021-02-08 00:00:00,2021-02-08,True,True
+76377,CurrentFiscalYearStartDate,2020-04-01,2020-04-01 00:00:00,2020-04-01,True,True
+76377,CurrentPeriodEndDate,2020-12-31,2020-12-31 00:00:00,2020-12-31,True,True
+76377,CurrentFiscalYearEndDate,2021-03-31,2021-03-31 00:00:00,2021-03-31,True,True
+76377,TypeOfDocument,3QFinancialStatements_Consolidated_JP,3QFinancialStatements_Consolidated_JP,3QFinancialStatements_Consolidated_JP,True,True
+76377,TypeOfCurrentPeriod,3Q,3Q,3Q,True,True
+76377,DisclosedTime,16:00:00,16:00:00,16:00:00,True,True
+79541,SecuritiesCode,2884.0,2884.0,2884.0,True,True
+79541,EarningsPerShare,14.39,14.39,14.39,True,True
+79541,Profit,323000000,323000000,323000000,True,True
+79541,AverageNumberOfShares,22485328,22485328,22485328,True,True
+79541,DisclosedUnixTime,1618468200.0,1618468200.0,1618468200.0,True,True
+79541,DisclosureNumber,20210415494981.0,20210415494981.0,20210415494981.0,True,True
+79541,Date,2021-04-15,2021-04-15 00:00:00,2021-04-15,True,True
+79541,DisclosedDate,2021-04-15,2021-04-15 00:00:00,2021-04-15,True,True
+79541,CurrentFiscalYearStartDate,2020-03-01,2020-03-01 00:00:00,2020-03-01,True,True
+79541,CurrentPeriodEndDate,2021-02-28,2021-02-28 00:00:00,2021-02-28,True,True
+79541,CurrentFiscalYearEndDate,2021-02-28,2021-02-28 00:00:00,2021-02-28,True,True
+79541,TypeOfDocument,FYFinancialStatements_Consolidated_JP,FYFinancialStatements_Consolidated_JP,FYFinancialStatements_Consolidated_JP,True,True
+79541,TypeOfCurrentPeriod,FY,FY,FY,True,True
+79541,DisclosedTime,15:30:00,15:30:00,15:30:00,True,True
+80190,SecuritiesCode,9502.0,9502.0,9502.0,True,True
+80190,EarningsPerShare,194.65,194.65,194.65,True,True
+80190,Profit,147202000000,147202000000,147202000000,True,True
+80190,AverageNumberOfShares,756232212,756232212,756232212,True,True
+80190,DisclosedUnixTime,1619593200.0,1619593200.0,1619593200.0,True,True
+80190,DisclosureNumber,20210318480855.0,20210318480855.0,20210318480855.0,True,True
+80190,Date,2021-04-28,2021-04-28 00:00:00,2021-04-28,True,True
+80190,DisclosedDate,2021-04-28,2021-04-28 00:00:00,2021-04-28,True,True
+80190,CurrentFiscalYearStartDate,2020-04-01,2020-04-01 00:00:00,2020-04-01,True,True
+80190,CurrentPeriodEndDate,2021-03-31,2021-03-31 00:00:00,2021-03-31,True,True
+80190,CurrentFiscalYearEndDate,2021-03-31,2021-03-31 00:00:00,2021-03-31,True,True
+80190,TypeOfDocument,FYFinancialStatements_Consolidated_JP,FYFinancialStatements_Consolidated_JP,FYFinancialStatements_Consolidated_JP,True,True
+80190,TypeOfCurrentPeriod,FY,FY,FY,True,True
+80190,DisclosedTime,16:00:00,16:00:00,16:00:00,True,True
+80531,SecuritiesCode,3738.0,3738.0,3738.0,True,True
+80531,EarningsPerShare,234.01,234.01,234.01,True,True
+80531,Profit,13042000000,13042000000,13042000000,True,True
+80531,AverageNumberOfShares,55734177,55734177,55734177,True,True
+80531,DisclosedUnixTime,1620354600.0,1620354600.0,1620354600.0,True,True
+80531,DisclosureNumber,20210419496497.0,20210419496497.0,20210419496497.0,True,True
+80531,Date,2021-05-07,2021-05-07 00:00:00,2021-05-07,True,True
+80531,DisclosedDate,2021-05-07,2021-05-07 00:00:00,2021-05-07,True,True
+80531,CurrentFiscalYearStartDate,2020-04-01,2020-04-01 00:00:00,2020-04-01,True,True
+80531,CurrentPeriodEndDate,2021-03-31,2021-03-31 00:00:00,2021-03-31,True,True
+80531,CurrentFiscalYearEndDate,2021-03-31,2021-03-31 00:00:00,2021-03-31,True,True
+80531,TypeOfDocument,FYFinancialStatements_Consolidated_JP,FYFinancialStatements_Consolidated_JP,FYFinancialStatements_Consolidated_JP,True,True
+80531,TypeOfCurrentPeriod,FY,FY,FY,True,True
+80531,DisclosedTime,11:30:00,11:30:00,11:30:00,True,True
+80811,SecuritiesCode,4572.0,4572.0,4572.0,True,True
+80811,EarningsPerShare,-23.09,-23.09,-23.09,True,True
+80811,Profit,-286000000,-286000000,-286000000,True,True
+80811,AverageNumberOfShares,12401976,12401976,12401976,True,True
+80811,DisclosedUnixTime,1620628200.0,1620628200.0,1620628200.0,True,True
+80811,DisclosureNumber,20210429403638.0,20210429403638.0,20210429403638.0,True,True
+80811,Date,2021-05-10,2021-05-10 00:00:00,2021-05-10,True,True
+80811,DisclosedDate,2021-05-10,2021-05-10 00:00:00,2021-05-10,True,True
+80811,CurrentFiscalYearStartDate,2021-01-01,2021-01-01 00:00:00,2021-01-01,True,True
+80811,CurrentPeriodEndDate,2021-03-31,2021-03-31 00:00:00,2021-03-31,True,True
+80811,CurrentFiscalYearEndDate,2021-12-31,2021-12-31 00:00:00,2021-12-31,True,True
+80811,TypeOfDocument,1QFinancialStatements_Consolidated_JP,1QFinancialStatements_Consolidated_JP,1QFinancialStatements_Consolidated_JP,True,True
+80811,TypeOfCurrentPeriod,1Q,1Q,1Q,True,True
+80811,DisclosedTime,15:30:00,15:30:00,15:30:00,True,True
+81453,SecuritiesCode,5902.0,5902.0,5902.0,True,True
+81453,EarningsPerShare,-30.22,-30.22,-30.22,True,True
+81453,Profit,-368000000,-368000000,-368000000,True,True
+81453,AverageNumberOfShares,12187514,12187514,12187514,True,True
+81453,DisclosedUnixTime,1620802800.0,1620802800.0,1620802800.0,True,True
+81453,DisclosureNumber,20210512412990.0,20210512412990.0,20210512412990.0,True,True
+81453,Date,2021-05-12,2021-05-12 00:00:00,2021-05-12,True,True
+81453,DisclosedDate,2021-05-12,2021-05-12 00:00:00,2021-05-12,True,True
+81453,CurrentFiscalYearStartDate,2020-04-01,2020-04-01 00:00:00,2020-04-01,True,True
+81453,CurrentPeriodEndDate,2021-03-31,2021-03-31 00:00:00,2021-03-31,True,True
+81453,CurrentFiscalYearEndDate,2021-03-31,2021-03-31 00:00:00,2021-03-31,True,True
+81453,TypeOfDocument,FYFinancialStatements_Consolidated_JP,FYFinancialStatements_Consolidated_JP,FYFinancialStatements_Consolidated_JP,True,True
+81453,TypeOfCurrentPeriod,FY,FY,FY,True,True
+81453,DisclosedTime,16:00:00,16:00:00,16:00:00,True,True
+81564,SecuritiesCode,7994.0,7994.0,7994.0,True,True
+81564,EarningsPerShare,112.51,112.51,112.51,True,True
+81564,Profit,11971000000,11971000000,11971000000,True,True
+81564,AverageNumberOfShares,106406084,106406084,106406084,True,True
+81564,DisclosedUnixTime,1620797400.0,1620797400.0,1620797400.0,True,True
+81564,DisclosureNumber,20210511412172.0,20210511412172.0,20210511412172.0,True,True
+81564,Date,2021-05-12,2021-05-12 00:00:00,2021-05-12,True,True
+81564,DisclosedDate,2021-05-12,2021-05-12 00:00:00,2021-05-12,True,True
+81564,CurrentFiscalYearStartDate,2020-04-01,2020-04-01 00:00:00,2020-04-01,True,True
+81564,CurrentPeriodEndDate,2021-03-31,2021-03-31 00:00:00,2021-03-31,True,True
+81564,CurrentFiscalYearEndDate,2021-03-31,2021-03-31 00:00:00,2021-03-31,True,True
+81564,TypeOfDocument,FYFinancialStatements_Consolidated_JP,FYFinancialStatements_Consolidated_JP,FYFinancialStatements_Consolidated_JP,True,True
+81564,TypeOfCurrentPeriod,FY,FY,FY,True,True
+81564,DisclosedTime,14:30:00,14:30:00,14:30:00,True,True
+84404,SecuritiesCode,2884.0,2884.0,2884.0,True,True
+84404,EarningsPerShare,9.84,9.84,9.84,True,True
+84404,Profit,233000000,233000000,233000000,True,True
+84404,AverageNumberOfShares,23782272,23782272,23782272,True,True
+84404,DisclosedUnixTime,1626330600.0,1626330600.0,1626330600.0,True,True
+84404,DisclosureNumber,20210715467158.0,20210715467158.0,20210715467158.0,True,True
+84404,Date,2021-07-15,2021-07-15 00:00:00,2021-07-15,True,True
+84404,DisclosedDate,2021-07-15,2021-07-15 00:00:00,2021-07-15,True,True
+84404,CurrentFiscalYearStartDate,2021-03-01,2021-03-01 00:00:00,2021-03-01,True,True
+84404,CurrentPeriodEndDate,2021-05-31,2021-05-31 00:00:00,2021-05-31,True,True
+84404,CurrentFiscalYearEndDate,2022-02-28,2022-02-28 00:00:00,2022-02-28,True,True
+84404,TypeOfDocument,1QFinancialStatements_Consolidated_JP,1QFinancialStatements_Consolidated_JP,1QFinancialStatements_Consolidated_JP,True,True
+84404,TypeOfCurrentPeriod,1Q,1Q,1Q,True,True
+84404,DisclosedTime,15:30:00,15:30:00,15:30:00,True,True
+84663,SecuritiesCode,6305.0,6305.0,6305.0,True,True
+84663,EarningsPerShare,33.51,33.51,33.51,True,True
+84663,Profit,7127000000,7127000000,7127000000,True,True
+84663,AverageNumberOfShares,212651818,212651818,212651818,True,True
+84663,DisclosedUnixTime,1627452000.0,1627452000.0,1627452000.0,True,True
+84663,DisclosureNumber,20210728472546.0,20210728472546.0,20210728472546.0,True,True
+84663,Date,2021-07-28,2021-07-28 00:00:00,2021-07-28,True,True
+84663,DisclosedDate,2021-07-28,2021-07-28 00:00:00,2021-07-28,True,True
+84663,CurrentFiscalYearStartDate,2021-04-01,2021-04-01 00:00:00,2021-04-01,True,True
+84663,CurrentPeriodEndDate,2021-06-30,2021-06-30 00:00:00,2021-06-30,True,True
+84663,CurrentFiscalYearEndDate,2022-03-31,2022-03-31 00:00:00,2022-03-31,True,True
+84663,TypeOfDocument,1QFinancialStatements_Consolidated_IFRS,1QFinancialStatements_Consolidated_IFRS,1QFinancialStatements_Consolidated_IFRS,True,True
+84663,TypeOfCurrentPeriod,1Q,1Q,1Q,True,True
+84663,DisclosedTime,15:00:00,15:00:00,15:00:00,True,True
+85410,SecuritiesCode,3738.0,3738.0,3738.0,True,True
+85410,EarningsPerShare,57.85,57.85,57.85,True,True
+85410,Profit,3224000000,3224000000,3224000000,True,True
+85410,AverageNumberOfShares,55735134,55735134,55735134,True,True
+85410,DisclosedUnixTime,1627884000.0,1627884000.0,1627884000.0,True,True
+85410,DisclosureNumber,20210802476280.0,20210802476280.0,20210802476280.0,True,True
+85410,Date,2021-08-02,2021-08-02 00:00:00,2021-08-02,True,True
+85410,DisclosedDate,2021-08-02,2021-08-02 00:00:00,2021-08-02,True,True
+85410,CurrentFiscalYearStartDate,2021-04-01,2021-04-01 00:00:00,2021-04-01,True,True
+85410,CurrentPeriodEndDate,2021-06-30,2021-06-30 00:00:00,2021-06-30,True,True
+85410,CurrentFiscalYearEndDate,2022-03-31,2022-03-31 00:00:00,2022-03-31,True,True
+85410,TypeOfDocument,1QFinancialStatements_Consolidated_JP,1QFinancialStatements_Consolidated_JP,1QFinancialStatements_Consolidated_JP,True,True
+85410,TypeOfCurrentPeriod,1Q,1Q,1Q,True,True
+85410,DisclosedTime,15:00:00,15:00:00,15:00:00,True,True
+85726,SecuritiesCode,7994.0,7994.0,7994.0,True,True
+85726,EarningsPerShare,33.04,33.04,33.04,True,True
+85726,Profit,3294000000,3294000000,3294000000,True,True
+85726,AverageNumberOfShares,99711729,99711729,99711729,True,True
+85726,DisclosedUnixTime,1628056800.0,1628056800.0,1628056800.0,True,True
+85726,DisclosureNumber,20210803477498.0,20210803477498.0,20210803477498.0,True,True
+85726,Date,2021-08-04,2021-08-04 00:00:00,2021-08-04,True,True
+85726,DisclosedDate,2021-08-04,2021-08-04 00:00:00,2021-08-04,True,True
+85726,CurrentFiscalYearStartDate,2021-04-01,2021-04-01 00:00:00,2021-04-01,True,True
+85726,CurrentPeriodEndDate,2021-06-30,2021-06-30 00:00:00,2021-06-30,True,True
+85726,CurrentFiscalYearEndDate,2022-03-31,2022-03-31 00:00:00,2022-03-31,True,True
+85726,TypeOfDocument,1QFinancialStatements_Consolidated_JP,1QFinancialStatements_Consolidated_JP,1QFinancialStatements_Consolidated_JP,True,True
+85726,TypeOfCurrentPeriod,1Q,1Q,1Q,True,True
+85726,DisclosedTime,15:00:00,15:00:00,15:00:00,True,True
+85913,SecuritiesCode,5970.0,5970.0,5970.0,True,True
+85913,EarningsPerShare,32.25,32.25,32.25,True,True
+85913,Profit,1384000000,1384000000,1384000000,True,True
+85913,AverageNumberOfShares,42931059,42931059,42931059,True,True
+85913,DisclosedUnixTime,1628148600.0,1628148600.0,1628148600.0,True,True
+85913,DisclosureNumber,20210804479012.0,20210804479012.0,20210804479012.0,True,True
+85913,Date,2021-08-05,2021-08-05 00:00:00,2021-08-05,True,True
+85913,DisclosedDate,2021-08-05,2021-08-05 00:00:00,2021-08-05,True,True
+85913,CurrentFiscalYearStartDate,2021-04-01,2021-04-01 00:00:00,2021-04-01,True,True
+85913,CurrentPeriodEndDate,2021-06-30,2021-06-30 00:00:00,2021-06-30,True,True
+85913,CurrentFiscalYearEndDate,2022-03-31,2022-03-31 00:00:00,2022-03-31,True,True
+85913,TypeOfDocument,1QFinancialStatements_Consolidated_JP,1QFinancialStatements_Consolidated_JP,1QFinancialStatements_Consolidated_JP,True,True
+85913,TypeOfCurrentPeriod,1Q,1Q,1Q,True,True
+85913,DisclosedTime,16:30:00,16:30:00,16:30:00,True,True
+86273,SecuritiesCode,4572.0,4572.0,4572.0,True,True
+86273,EarningsPerShare,-62.5,-62.5,-62.5,True,True
+86273,Profit,-776000000,-776000000,-776000000,True,True
+86273,AverageNumberOfShares,12411031,12411031,12411031,True,True
+86273,DisclosedUnixTime,1628231400.0,1628231400.0,1628231400.0,True,True
+86273,DisclosureNumber,20210805479055.0,20210805479055.0,20210805479055.0,True,True
+86273,Date,2021-08-06,2021-08-06 00:00:00,2021-08-06,True,True
+86273,DisclosedDate,2021-08-06,2021-08-06 00:00:00,2021-08-06,True,True
+86273,CurrentFiscalYearStartDate,2021-01-01,2021-01-01 00:00:00,2021-01-01,True,True
+86273,CurrentPeriodEndDate,2021-06-30,2021-06-30 00:00:00,2021-06-30,True,True
+86273,CurrentFiscalYearEndDate,2021-12-31,2021-12-31 00:00:00,2021-12-31,True,True
+86273,TypeOfDocument,2QFinancialStatements_Consolidated_JP,2QFinancialStatements_Consolidated_JP,2QFinancialStatements_Consolidated_JP,True,True
+86273,TypeOfCurrentPeriod,2Q,2Q,2Q,True,True
+86273,DisclosedTime,15:30:00,15:30:00,15:30:00,True,True
+86346,SecuritiesCode,5902.0,5902.0,5902.0,True,True
+86346,EarningsPerShare,128.29,128.29,128.29,True,True
+86346,Profit,1563000000,1563000000,1563000000,True,True
+86346,AverageNumberOfShares,12187217,12187217,12187217,True,True
+86346,DisclosedUnixTime,1628233200.0,1628233200.0,1628233200.0,True,True
+86346,DisclosureNumber,20210806480930.0,20210806480930.0,20210806480930.0,True,True
+86346,Date,2021-08-06,2021-08-06 00:00:00,2021-08-06,True,True
+86346,DisclosedDate,2021-08-06,2021-08-06 00:00:00,2021-08-06,True,True
+86346,CurrentFiscalYearStartDate,2021-04-01,2021-04-01 00:00:00,2021-04-01,True,True
+86346,CurrentPeriodEndDate,2021-06-30,2021-06-30 00:00:00,2021-06-30,True,True
+86346,CurrentFiscalYearEndDate,2022-03-31,2022-03-31 00:00:00,2022-03-31,True,True
+86346,TypeOfDocument,1QFinancialStatements_Consolidated_JP,1QFinancialStatements_Consolidated_JP,1QFinancialStatements_Consolidated_JP,True,True
+86346,TypeOfCurrentPeriod,1Q,1Q,1Q,True,True
+86346,DisclosedTime,16:00:00,16:00:00,16:00:00,True,True
+89221,SecuritiesCode,6305.0,6305.0,6305.0,True,True
+89221,EarningsPerShare,149.96,149.96,149.96,True,True
+89221,Profit,31889000000,31889000000,31889000000,True,True
+89221,AverageNumberOfShares,212651625,212651625,212651625,True,True
+89221,DisclosedUnixTime,1635228000.0,1635228000.0,1635228000.0,True,True
+89221,DisclosureNumber,20211025416151.0,20211025416151.0,20211025416151.0,True,True
+89221,Date,2021-10-26,2021-10-26 00:00:00,2021-10-26,True,True
+89221,DisclosedDate,2021-10-26,2021-10-26 00:00:00,2021-10-26,True,True
+89221,CurrentFiscalYearStartDate,2021-04-01,2021-04-01 00:00:00,2021-04-01,True,True
+89221,CurrentPeriodEndDate,2021-09-30,2021-09-30 00:00:00,2021-09-30,True,True
+89221,CurrentFiscalYearEndDate,2022-03-31,2022-03-31 00:00:00,2022-03-31,True,True
+89221,TypeOfDocument,2QFinancialStatements_Consolidated_IFRS,2QFinancialStatements_Consolidated_IFRS,2QFinancialStatements_Consolidated_IFRS,True,True
+89221,TypeOfCurrentPeriod,2Q,2Q,2Q,True,True
+89221,DisclosedTime,15:00:00,15:00:00,15:00:00,True,True
+90604,SecuritiesCode,5970.0,5970.0,5970.0,True,True
+90604,EarningsPerShare,74.59,74.59,74.59,True,True
+90604,Profit,3203000000,3203000000,3203000000,True,True
+90604,AverageNumberOfShares,42943475,42943475,42943475,True,True
+90604,DisclosedUnixTime,1636098300.0,1636098300.0,1636098300.0,True,True
+90604,DisclosureNumber,20211104425226.0,20211104425226.0,20211104425226.0,True,True
+90604,Date,2021-11-05,2021-11-05 00:00:00,2021-11-05,True,True
+90604,DisclosedDate,2021-11-05,2021-11-05 00:00:00,2021-11-05,True,True
+90604,CurrentFiscalYearStartDate,2021-04-01,2021-04-01 00:00:00,2021-04-01,True,True
+90604,CurrentPeriodEndDate,2021-09-30,2021-09-30 00:00:00,2021-09-30,True,True
+90604,CurrentFiscalYearEndDate,2022-03-31,2022-03-31 00:00:00,2022-03-31,True,True
+90604,TypeOfDocument,2QFinancialStatements_Consolidated_JP,2QFinancialStatements_Consolidated_JP,2QFinancialStatements_Consolidated_JP,True,True
+90604,TypeOfCurrentPeriod,2Q,2Q,2Q,True,True
+90604,DisclosedTime,16:45:00,16:45:00,16:45:00,True,True
+90862,SecuritiesCode,4572.0,4572.0,4572.0,True,True
+90862,EarningsPerShare,-94.24,-94.24,-94.24,True,True
+90862,Profit,-1178000000,-1178000000,-1178000000,True,True
+90862,AverageNumberOfShares,12501154,12501154,12501154,True,True
+90862,DisclosedUnixTime,1636353000.0,1636353000.0,1636353000.0,True,True
+90862,DisclosureNumber,20211104424015.0,20211104424015.0,20211104424015.0,True,True
+90862,Date,2021-11-08,2021-11-08 00:00:00,2021-11-08,True,True
+90862,DisclosedDate,2021-11-08,2021-11-08 00:00:00,2021-11-08,True,True
+90862,CurrentFiscalYearStartDate,2021-01-01,2021-01-01 00:00:00,2021-01-01,True,True
+90862,CurrentPeriodEndDate,2021-09-30,2021-09-30 00:00:00,2021-09-30,True,True
+90862,CurrentFiscalYearEndDate,2021-12-31,2021-12-31 00:00:00,2021-12-31,True,True
+90862,TypeOfDocument,3QFinancialStatements_Consolidated_JP,3QFinancialStatements_Consolidated_JP,3QFinancialStatements_Consolidated_JP,True,True
+90862,TypeOfCurrentPeriod,3Q,3Q,3Q,True,True
+90862,DisclosedTime,15:30:00,15:30:00,15:30:00,True,True

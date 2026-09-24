@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "variants": {
+    "skip100": {
+      "forecasts_checked": 2326022,
+      "updates_checked": 1199,
+      "official_sharpe": 0.005644072919315517,
+      "max_prediction_error": 8.965050923848139e-14
+    },
+    "skip10": {
+      "forecasts_checked": 2326022,
+      "updates_checked": 1199,
+      "official_sharpe": 0.00538562316282057,
+      "max_prediction_error": 7.072120666862247e-14
+    },
+    "no_skip": {
+      "forecasts_checked": 2326022,
+      "updates_checked": 1199,
+      "official_sharpe": 0.007678871562421042,
+      "max_prediction_error": 1.6614487563515468e-13
+    }
+  },
+  "all_six_features_unchanged_from_source_caches": true,
+  "same_full_evaluation_universe": true,
+  "skip100_exactly_reproduces_v21_price_mask": true,
+  "no_skip_reproduces_v7": true,
+  "training_masks_match_v22": true,
+  "rank_ic_checked": true,
+  "source_hashes_unchanged": true
+}

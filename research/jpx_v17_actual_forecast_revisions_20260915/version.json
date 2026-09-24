@@ -1,0 +1,29 @@
+{
+  "version": "v17",
+  "description": "EPS forecast versus known actuals; all three forecast revisions relative to signed old forecast; joint EPS actual QoQ and YoY on v7 daily MSE",
+  "directory": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v17_actual_forecast_revisions_20260915",
+  "status": "completed_experiment",
+  "variants": [
+    "eps_forecast_actual_qoq",
+    "eps_forecast_actual_qoq_control",
+    "eps_forecast_actual_yoy",
+    "eps_forecast_actual_yoy_control",
+    "sales_revision_relative",
+    "sales_revision_relative_control",
+    "profit_revision_relative",
+    "profit_revision_relative_control",
+    "eps_revision_relative",
+    "eps_revision_relative_control",
+    "eps_actual_qoq",
+    "eps_actual_qoq_control",
+    "eps_actual_joint",
+    "eps_actual_joint_control",
+    "eps_qoq_joint_mask",
+    "eps_yoy_joint_mask"
+  ],
+  "baseline": "v7_equal",
+  "common_days": 953,
+  "audit_passed": true,
+  "joint_eps_sharpe": 0.0078101608697511826,
+  "revision_definition": "(new-old)/old, signed"
+}

@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "synthetic_math_checks_only": true,
+  "max_gradient_error": 3.2453694679551726e-15,
+  "future_price_invariance": true,
+  "unmatured_target_invariance": true,
+  "zero_residual_ar_reduces_to_arima_111": true,
+  "formal_backtest_run": false
+}

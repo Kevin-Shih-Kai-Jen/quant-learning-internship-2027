@@ -1,0 +1,27 @@
+{
+  "updated_on": "2026-09-16",
+  "authority": "User: future training must not skip extreme values",
+  "training_financial_abs_limit": null,
+  "skip_training_for_extreme_values": false,
+  "validation_financial_abs_limit": null,
+  "skip_validation_for_extreme_values": false,
+  "primary_metrics": [
+    "Sharpe",
+    "RankIC"
+  ],
+  "diagnostic_metrics": [
+    "MSE"
+  ],
+  "baseline": "v7_equal",
+  "eps_algorithm": "unchanged",
+  "financial_decay": "exp(-trading_age/9)",
+  "historical_experiment_artifacts_immutable": true,
+  "selection_metric_priority": [
+    "Sharpe",
+    "RankIC"
+  ],
+  "rank_ic_positive_required": false,
+  "mse_used_for_selection": false,
+  "hyperparameter_selection_scope": "existing validation; reserve test for final overall evaluation",
+  "selection_authority": "2026-09-16 user: Sharpe first, Rank IC second; MSE not used for selection"
+}

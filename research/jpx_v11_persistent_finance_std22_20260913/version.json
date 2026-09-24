@@ -1,0 +1,25 @@
+{
+  "version": "v11",
+  "description": "2x2 v10 MSE SGD comparison: persistent operating-margin YoY signal and PR1/VR1 divided by own 22-session sample standard deviations",
+  "directory": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/jpx_v11_persistent_finance_std22_20260913",
+  "status": "completed_experiment",
+  "main_variant": "persistent_std22",
+  "best_historical_variant": "decay_std22",
+  "reference_variant": "v10_baseline",
+  "soft_rank_used": false,
+  "standardized_returns": [
+    "PR1",
+    "VR1"
+  ],
+  "std_window": 22,
+  "std_ddof": 1,
+  "std_includes_signal_day": true,
+  "demeaned": false,
+  "variant_sharpes": {
+    "v10_baseline": -0.039490891392459114,
+    "persistent_raw": -0.03930988917473998,
+    "decay_std22": -0.023271783409472835,
+    "persistent_std22": -0.026764713366491225
+  },
+  "audit_passed": true
+}

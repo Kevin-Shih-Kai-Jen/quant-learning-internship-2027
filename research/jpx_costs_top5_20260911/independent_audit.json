@@ -1,0 +1,259 @@
+{
+  "all_checks_passed": true,
+  "analytic_checks": [
+    "roundtrip entry reserve",
+    "entry and exit value costs",
+    "3-day weekend borrow",
+    "unavailable cash slot",
+    "4-day carry and reserved capital"
+  ],
+  "scenario_checks": [
+    {
+      "model": "dynamic_close",
+      "scenario": "zero",
+      "trades": 5717,
+      "days": 953,
+      "verified": true
+    },
+    {
+      "model": "dynamic_close",
+      "scenario": "low",
+      "trades": 5717,
+      "days": 953,
+      "verified": true
+    },
+    {
+      "model": "dynamic_close",
+      "scenario": "middle",
+      "trades": 5717,
+      "days": 953,
+      "verified": true
+    },
+    {
+      "model": "dynamic_close",
+      "scenario": "high",
+      "trades": 5717,
+      "days": 953,
+      "verified": true
+    },
+    {
+      "model": "dynamic_close",
+      "scenario": "commission_only",
+      "trades": 5717,
+      "days": 953,
+      "verified": true
+    },
+    {
+      "model": "dynamic_close",
+      "scenario": "commission_spread",
+      "trades": 5717,
+      "days": 953,
+      "verified": true
+    },
+    {
+      "model": "dynamic_close",
+      "scenario": "commission_spread_slippage",
+      "trades": 5717,
+      "days": 953,
+      "verified": true
+    },
+    {
+      "model": "fixed30_close",
+      "scenario": "zero",
+      "trades": 5717,
+      "days": 953,
+      "verified": true
+    },
+    {
+      "model": "fixed30_close",
+      "scenario": "low",
+      "trades": 5717,
+      "days": 953,
+      "verified": true
+    },
+    {
+      "model": "fixed30_close",
+      "scenario": "middle",
+      "trades": 5717,
+      "days": 953,
+      "verified": true
+    },
+    {
+      "model": "fixed30_close",
+      "scenario": "high",
+      "trades": 5717,
+      "days": 953,
+      "verified": true
+    },
+    {
+      "model": "fixed30_close",
+      "scenario": "commission_only",
+      "trades": 5717,
+      "days": 953,
+      "verified": true
+    },
+    {
+      "model": "fixed30_close",
+      "scenario": "commission_spread",
+      "trades": 5717,
+      "days": 953,
+      "verified": true
+    },
+    {
+      "model": "fixed30_close",
+      "scenario": "commission_spread_slippage",
+      "trades": 5717,
+      "days": 953,
+      "verified": true
+    },
+    {
+      "model": "fixed50_close",
+      "scenario": "zero",
+      "trades": 5717,
+      "days": 953,
+      "verified": true
+    },
+    {
+      "model": "fixed50_close",
+      "scenario": "low",
+      "trades": 5717,
+      "days": 953,
+      "verified": true
+    },
+    {
+      "model": "fixed50_close",
+      "scenario": "middle",
+      "trades": 5717,
+      "days": 953,
+      "verified": true
+    },
+    {
+      "model": "fixed50_close",
+      "scenario": "high",
+      "trades": 5717,
+      "days": 953,
+      "verified": true
+    },
+    {
+      "model": "fixed50_close",
+      "scenario": "commission_only",
+      "trades": 5717,
+      "days": 953,
+      "verified": true
+    },
+    {
+      "model": "fixed50_close",
+      "scenario": "commission_spread",
+      "trades": 5717,
+      "days": 953,
+      "verified": true
+    },
+    {
+      "model": "fixed50_close",
+      "scenario": "commission_spread_slippage",
+      "trades": 5717,
+      "days": 953,
+      "verified": true
+    },
+    {
+      "model": "dynamic_target",
+      "scenario": "zero",
+      "trades": 5717,
+      "days": 953,
+      "verified": true
+    },
+    {
+      "model": "dynamic_target",
+      "scenario": "low",
+      "trades": 5717,
+      "days": 953,
+      "verified": true
+    },
+    {
+      "model": "dynamic_target",
+      "scenario": "middle",
+      "trades": 5717,
+      "days": 953,
+      "verified": true
+    },
+    {
+      "model": "dynamic_target",
+      "scenario": "high",
+      "trades": 5717,
+      "days": 953,
+      "verified": true
+    },
+    {
+      "model": "dynamic_target",
+      "scenario": "commission_only",
+      "trades": 5717,
+      "days": 953,
+      "verified": true
+    },
+    {
+      "model": "dynamic_target",
+      "scenario": "commission_spread",
+      "trades": 5717,
+      "days": 953,
+      "verified": true
+    },
+    {
+      "model": "dynamic_target",
+      "scenario": "commission_spread_slippage",
+      "trades": 5717,
+      "days": 953,
+      "verified": true
+    },
+    {
+      "model": "fixed30_target",
+      "scenario": "zero",
+      "trades": 5717,
+      "days": 953,
+      "verified": true
+    },
+    {
+      "model": "fixed30_target",
+      "scenario": "low",
+      "trades": 5717,
+      "days": 953,
+      "verified": true
+    },
+    {
+      "model": "fixed30_target",
+      "scenario": "middle",
+      "trades": 5717,
+      "days": 953,
+      "verified": true
+    },
+    {
+      "model": "fixed30_target",
+      "scenario": "high",
+      "trades": 5717,
+      "days": 953,
+      "verified": true
+    },
+    {
+      "model": "fixed30_target",
+      "scenario": "commission_only",
+      "trades": 5717,
+      "days": 953,
+      "verified": true
+    },
+    {
+      "model": "fixed30_target",
+      "scenario": "commission_spread",
+      "trades": 5717,
+      "days": 953,
+      "verified": true
+    },
+    {
+      "model": "fixed30_target",
+      "scenario": "commission_spread_slippage",
+      "trades": 5717,
+      "days": 953,
+      "verified": true
+    }
+  ],
+  "break_even_roots_checked": 10,
+  "unchanged_gross_dates_and_returns": true
+}

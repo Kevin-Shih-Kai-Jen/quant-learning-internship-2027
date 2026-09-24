@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "gradient_checks": 3597,
+  "max_gradient_error": 4.085620730620576e-14,
+  "max_update_error": 3.209238430557093e-17,
+  "all_losses_nonincreasing_on_training_batch": true
+}
