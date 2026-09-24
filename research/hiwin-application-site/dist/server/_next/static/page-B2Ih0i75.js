@@ -1,0 +1,1 @@
+import{n as e}from"./navigation-errors-sJm__aDf.js";import"./navigation.react-server-DKZNAnyT.js";function t(){e(`/hiwin-application-link.html`)}export{t as default};
