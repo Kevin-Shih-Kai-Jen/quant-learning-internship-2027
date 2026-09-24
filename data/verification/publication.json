@@ -1,0 +1,33 @@
+{
+  "checked_at": "2026-09-24T16:31:23+08:00",
+  "status": "published-and-verified",
+  "repository": "https://github.com/Kevin-Shih-Kai-Jen/quant-learning-internship-2027",
+  "repository_private": true,
+  "release_url": "https://github.com/Kevin-Shih-Kai-Jen/quant-learning-internship-2027/releases/tag/snapshot-2026-09-24",
+  "tag": "snapshot-2026-09-24",
+  "snapshot_commit": "14974295cfc24b8faf7e2b88c07689ac57ff8496",
+  "git_original_source_files": 1918,
+  "release_data_files": 8288,
+  "release_data_packs": 88,
+  "metadata_assets": [
+    {
+      "name": "snapshot-2026-09-24.catalog.json",
+      "size": 2772979,
+      "sha256": "13b03ec6c737b50cfa7ec626018a715861cf728aa0df37cb8defb154a3fec1c7"
+    },
+    {
+      "name": "snapshot-2026-09-24.verification.json",
+      "size": 33236,
+      "sha256": "0d2b9638478c512c4a7bc77c8297850d121188a3bc0e1226c0cd898813d32449"
+    },
+    {
+      "name": "snapshot-2026-09-24.SHA256SUMS.txt",
+      "size": 11874,
+      "sha256": "0677c0818192a8982c6ca1def1cb15985ce90327306d24d0ab35add5b956d66b"
+    }
+  ],
+  "total_release_assets": 91,
+  "all_data_asset_digests_match": true,
+  "download_bytes": 11009710080,
+  "source_payload_bytes": 11002634038
+}
