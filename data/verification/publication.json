@@ -29,5 +29,7 @@
   "total_release_assets": 91,
   "all_data_asset_digests_match": true,
   "download_bytes": 11009710080,
-  "source_payload_bytes": 11002634038
+  "source_payload_bytes": 11002634038,
+  "published_download_verification": "data/verification/published-download-check.json",
+  "published_download_verified_at": "2026-09-24T16:33:03+08:00"
 }

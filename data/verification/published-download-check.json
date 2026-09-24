@@ -1,0 +1,33 @@
+{
+  "checked_at": "2026-09-24T16:33:03+08:00",
+  "status": "passed",
+  "tag": "snapshot-2026-09-24",
+  "catalog": "data/catalogs/snapshot-2026-09-24.json",
+  "used_full_published_catalog": true,
+  "fetched_and_verified_files": 3,
+  "gzip_originals_match": true,
+  "temporary_files_removed": true,
+  "files": [
+    {
+      "path": "research/project_archive_20260924/compressed_data/jpx_neutral_10pct_20260910/selected_trades.csv.gz",
+      "archive_sha256": "aad3cab337b67c47ce7607721447957fa3ab8e4fa3f0d0c04fdc9b3f507e0433",
+      "original_path": "jpx_neutral_10pct_20260910/selected_trades.csv",
+      "original_bytes": 3102865,
+      "original_sha256": "13ed619b67e4449fae0bd680bdecb76b37b17cc88604610e84399f71bdcfb93a"
+    },
+    {
+      "path": "research/project_archive_20260924/compressed_data/jpx_neutral_10pct_20260910/zip_verification/selected_trades.csv.gz",
+      "archive_sha256": "aad3cab337b67c47ce7607721447957fa3ab8e4fa3f0d0c04fdc9b3f507e0433",
+      "original_path": "jpx_neutral_10pct_20260910/zip_verification/selected_trades.csv",
+      "original_bytes": 3102865,
+      "original_sha256": "13ed619b67e4449fae0bd680bdecb76b37b17cc88604610e84399f71bdcfb93a"
+    },
+    {
+      "path": "research/project_archive_20260924/compressed_data/jpx_neutral_10pct_20260910/zip_verification/rebuilt_proxy/share_disclosure_events.csv.gz",
+      "archive_sha256": "e62cd789d3fbd40ce4fa29c8cfd95d67ee455b00a9cdb5012756094adab85df4",
+      "original_path": "jpx_neutral_10pct_20260910/zip_verification/rebuilt_proxy/share_disclosure_events.csv",
+      "original_bytes": 3567951,
+      "original_sha256": "f8ed52e46446469e4289b3320bd5f148b61891b8207d733f7b709831f46bedc3"
+    }
+  ]
+}
