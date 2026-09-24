@@ -73,6 +73,8 @@ python3 scripts/publish_snapshot.py --workspace /absolute/path/to/project --tag 
 
 `--workspace` 是本次專案根目錄，內容對應 `research/` 下一層；不要傳入混有其他專案的上層目錄，也不要把整個包含 `research/` 的新儲存庫當成原工作區而重複巢狀保存。tag 必須為新的版本名稱，日期與描述對應當次工作。
 
+若直接在 clone 下來的 `research/` 內繼續研究，從儲存庫根目錄執行下列流程時，把 `--workspace /absolute/path/to/project` 改為 `--workspace ./research` 即可。工具會保留原位置並核對內容，不把檔案再次複製到自己。
+
 第一次上傳新 tag 時，先準備清單、強制加入列出的可讀檔案（避免原專案 `.gitignore` 漏檔），提交並推送，再建立同名草稿 Release：
 
 ```sh

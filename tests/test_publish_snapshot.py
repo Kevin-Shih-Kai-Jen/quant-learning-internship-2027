@@ -118,6 +118,31 @@ class PublisherTests(unittest.TestCase):
         self.assertEqual(plan["excluded"]["directory:arbitrary-staging-name"], 1)
         self.no_network.assert_not_called()
 
+    def test_cli_accepts_repository_research_as_workspace_without_copying_to_itself(self):
+        self.workspace = self.repo / "research"
+        self.workspace.mkdir()
+        data = "在 clone 的研究目錄繼續工作\n".encode()
+        source = self.write_source("experiment/plan.md", data)
+        self.write_source("experiment/result.npz", b"opaque evidence")
+        before = source.stat()
+        publisher.write_json(self.repo / "archive-config.json", self.config)
+        with patch("sys.argv", ["publish_snapshot.py", "--workspace", str(self.workspace),
+                                "--tag", "snapshot-in-place", "--prepare-only"]), \
+                patch.object(publisher.shutil, "copy2", side_effect=AssertionError("Must not self-copy")), \
+                patch.object(publisher, "sha_file", wraps=publisher.sha_file) as hashes, \
+                contextlib.redirect_stdout(io.StringIO()):
+            publisher.main()
+        plan = json.loads(self.plan_path("snapshot-in-place").read_text())
+        self.assertEqual([entry["path"] for entry in plan["git_files"]],
+                         ["research/experiment/plan.md"])
+        self.assertEqual(plan["git_files"][0]["sha256"], hashlib.sha256(data).hexdigest())
+        self.assertEqual([entry["path"] for pack in plan["new_packs"] for entry in pack["files"]],
+                         ["research/experiment/result.npz"])
+        self.assertEqual(sum(call.args[0] == source for call in hashes.call_args_list), 2)
+        self.assertEqual(source.read_bytes(), data)
+        self.assertEqual(source.stat().st_mtime_ns, before.st_mtime_ns)
+        self.no_network.assert_not_called()
+
     def test_pack_split_is_stable_and_every_payload_is_preserved_once(self):
         names = [f"experiment/data-{index}.npz" for index in range(6)]
         for index, name in enumerate(reversed(names)):

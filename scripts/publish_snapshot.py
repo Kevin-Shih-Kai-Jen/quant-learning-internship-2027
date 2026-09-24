@@ -134,7 +134,8 @@ def prepare(workspace, tag, config, plan_path):
                 destination.parent.mkdir(parents=True, exist_ok=True)
                 if destination.is_symlink():
                     raise ValueError('Symlink destination refused')
-                shutil.copy2(source, destination)
+                if source.resolve() != destination.resolve():
+                    shutil.copy2(source, destination)
                 if sha_file(destination) != record['sha256']:
                     raise ValueError('Staged copy mismatch: ' + record['path'])
             else:
