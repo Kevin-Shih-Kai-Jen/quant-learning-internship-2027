@@ -1,0 +1,397 @@
+{
+  "status": "completed",
+  "experiment": "jpx_v31_stock_specific_mse_20260925",
+  "source_snapshot": "snapshot-2026-09-24",
+  "new_snapshot": "snapshot-2026-09-25-v31-stock-mse",
+  "remote": {
+    "passed": true,
+    "repository_private": true,
+    "release_published": true,
+    "tag": "snapshot-2026-09-25-v31-stock-mse",
+    "tag_commit": "68c4ce4d817da6655e0a4f6cbe5c3a8cb4d6072a",
+    "main_commit_at_verification": "68c4ce4d817da6655e0a4f6cbe5c3a8cb4d6072a",
+    "changed_git_files_verified": [
+      {
+        "path": "AGENTS.md",
+        "blob_sha": "91f0926957c22a59113f5b63225a37a0d4f603f6",
+        "sha256": "d4a75256dee39c1485b5b616a3d417c42adbb42109084808669cfdab306c2051",
+        "size": 5862
+      },
+      {
+        "path": "data/catalogs/snapshot-2026-09-25-v31-stock-mse-SHA256SUMS.txt",
+        "blob_sha": "f1b4c1db7d55d63084e4c0abbdc5e5ef01f68153",
+        "sha256": "7dc34ff3c7de47daea32d64a56b982d70c84a40bde04eaa00597a6fbd026c93d",
+        "size": 11925
+      },
+      {
+        "path": "data/catalogs/snapshot-2026-09-25-v31-stock-mse.json",
+        "blob_sha": "d758502e0f3db9d6294df146ed4a98e58cb5420a",
+        "sha256": "1f8e4b499d49d9171473a38c0333080bddf96e21dbb20f23b1e7c4a5d1809be8",
+        "size": 2775995
+      },
+      {
+        "path": "data/index.json",
+        "blob_sha": "2493eda3bbca0fb888d8052739b2764ad257337b",
+        "sha256": "ba3fb5867d8d620988d03c991df92cf46865e263306df378c56088e0f1d5d85f",
+        "size": 394
+      },
+      {
+        "path": "data/inventories/snapshot-2026-09-25-v31-stock-mse.json",
+        "blob_sha": "a3b776d27cdb88bb2de90f89008df1732fd465ef",
+        "sha256": "8e0d914be8665e89bccb092ccb7cb69f420b561398ec32c4d465d3d3cda28e26",
+        "size": 13060
+      },
+      {
+        "path": "data/verification/snapshot-2026-09-25-v31-stock-mse.json",
+        "blob_sha": "7f591fe652b431b3b1239ff2c59f6bac539ceedb",
+        "sha256": "c025395dfe6bd7018c4442ab364809a3a3a7105934d057d5b4e2eca073733313",
+        "size": 33622
+      },
+      {
+        "path": "docs/RESEARCH_MAP.md",
+        "blob_sha": "b2026f26d929b629f5677c41b301f9fe20922016",
+        "sha256": "7adba843a361a40ab49b2b2fac4b73651d7ace7140bf9290a6e86eeb71c33b2d",
+        "size": 5958
+      },
+      {
+        "path": "docs/releases/snapshot-2026-09-25-v31-stock-mse.md",
+        "blob_sha": "ccbfd146d4395bed9bce9bcb154685cb5d70e737",
+        "sha256": "1e46fe5b41548668f82f907e4e59651921c06e420d6f1948e8b0d6d4f3944f54",
+        "size": 495
+      },
+      {
+        "path": "research/JPX-current-baseline.md",
+        "blob_sha": "92ebe6621391ef28cc2da61b974178f192989241",
+        "sha256": "9f156d1162e86702faba293926fdedd505c5e2160de75105002d69d0a8868f25",
+        "size": 18481
+      },
+      {
+        "path": "research/jpx_model_versions.json",
+        "blob_sha": "1474ffe8c9b09a816b9a758a1644d737fe2ffe22",
+        "sha256": "24b696b34b0d9b1938f67bb68c50ed14e47ece237665393eaa052730f9bad3a9",
+        "size": 26533
+      },
+      {
+        "path": "research/jpx_v31_stock_specific_mse_20260925/JPX-v31-stock-specific-mse-report.md",
+        "blob_sha": "beacb84a9a44caffa343971bce3c3807c6adbc4b",
+        "sha256": "7c54467ede8f967901f91b4c8b5eaa5b749b04edf5e0ad2b9760328599c2c403",
+        "size": 4776
+      },
+      {
+        "path": "research/jpx_v31_stock_specific_mse_20260925/audit.json",
+        "blob_sha": "766b1ebdf4afb4bd3dfe7d4f6e1555870176e702",
+        "sha256": "03c46a476f35765c0afa677175cc41deb0283ce2156fb27cb09333ef9aab0850",
+        "size": 892
+      },
+      {
+        "path": "research/jpx_v31_stock_specific_mse_20260925/audit.log",
+        "blob_sha": "8f38d5608b4c175e94383e8fe379d41393eca24d",
+        "sha256": "f936c1fc45e5ea408de4d46685275a94dbbb3851f54fabad7ad5d439d7c4c24a",
+        "size": 549
+      },
+      {
+        "path": "research/jpx_v31_stock_specific_mse_20260925/audit.py",
+        "blob_sha": "4da67407fc07aa367498ccd9c5ebac42034d0186",
+        "sha256": "cae14a8a87eeb008bd724d8b9f122625c3bfbf7c8ba3af5d1a16bca6aabeb3f9",
+        "size": 5904
+      },
+      {
+        "path": "research/jpx_v31_stock_specific_mse_20260925/comparison.csv",
+        "blob_sha": "06284ccf75a5f8a40309b84de4fede5b3e879951",
+        "sha256": "2e9c5bea369f48171b4971ce098390c9059653fe16bc55c7e0a8dce3c92caa4d",
+        "size": 435
+      },
+      {
+        "path": "research/jpx_v31_stock_specific_mse_20260925/comparison_by_year.csv",
+        "blob_sha": "6791e242d7e2c0dac16a67d779458ca102327e73",
+        "sha256": "afdf4490f33b1e3302811b0cf777cb67c3e2405647e7f587e232a5a82d35f703",
+        "size": 565
+      },
+      {
+        "path": "research/jpx_v31_stock_specific_mse_20260925/delivery_audit.json",
+        "blob_sha": "ec2707e8048d6610b46a3eb222605bb109dd9a7f",
+        "sha256": "8fef459f81d347bb94cd194a241d9282498ac6f668c1f5751ead6f21a25b0fd5",
+        "size": 327
+      },
+      {
+        "path": "research/jpx_v31_stock_specific_mse_20260925/diagnostics.json",
+        "blob_sha": "b6501f2b5379bfa992cef1bf0f044192c2af9c6a",
+        "sha256": "8f7f53dd6b4e02115179bfc0e7de967e38ec03d5860c04b69c6ff9bde9a4d2ff",
+        "size": 361
+      },
+      {
+        "path": "research/jpx_v31_stock_specific_mse_20260925/experiment_defaults_snapshot.json",
+        "blob_sha": "9f57772493958f3528bb9799644a666ac22e550e",
+        "sha256": "a891c611d087aff7196f7508656946f77cc8cfef3ff3f8ae170e44010f4e83be",
+        "size": 868
+      },
+      {
+        "path": "research/jpx_v31_stock_specific_mse_20260925/experiment_plan.md",
+        "blob_sha": "3d9736e8c3b5fd5beaf8326dc27861bbc0924552",
+        "sha256": "4ce6ddd53e5a1eec4fef7f7dac0c01427cc4df2213d474977008ef1f344bd258",
+        "size": 2507
+      },
+      {
+        "path": "research/jpx_v31_stock_specific_mse_20260925/fetch_ranges.py",
+        "blob_sha": "56286a8bfe70ad6bc87982d9a012186293493765",
+        "sha256": "14426888415f8894649dc0c5c72471b1e0f5e8551b5070c3e1b333e28cf765a6",
+        "size": 4229
+      },
+      {
+        "path": "research/jpx_v31_stock_specific_mse_20260925/manifest.json",
+        "blob_sha": "496c9f51dd61b209e5d233faba104d98a4c397b4",
+        "sha256": "edd84eab235c16fc74b6bc8fa2bde160ebd537c39e22edf8460f7af8aaf60ab5",
+        "size": 1313
+      },
+      {
+        "path": "research/jpx_v31_stock_specific_mse_20260925/mobile_pdf.py",
+        "blob_sha": "80739401445d158c49491f1bd8a17075ce0250fe",
+        "sha256": "4f36a1897672e6efbbcef8970d9ab9e84cb093a9e1e0b76e2bd73bd83f70b61d",
+        "size": 4489
+      },
+      {
+        "path": "research/jpx_v31_stock_specific_mse_20260925/output/pdf/JPX-v31-stock-specific-mse-mobile-20260925.pdf",
+        "blob_sha": "0e5c13fe69553daee9bc43dd1f03c55e33c283ef",
+        "sha256": "fbc8a905cdd6efb235f535286c3a210a46ab16cb3f8f53402f1da7f9b65eef98",
+        "size": 149430
+      },
+      {
+        "path": "research/jpx_v31_stock_specific_mse_20260925/paired_block_bootstrap.csv",
+        "blob_sha": "d1eafe2fd68c9fb952594e6251c1cee05c48e253",
+        "sha256": "07b4dff84a32595a5cb611614017807d70420b4c6852204e2249efa2003f7489",
+        "size": 182
+      },
+      {
+        "path": "research/jpx_v31_stock_specific_mse_20260925/per_stock_diagnostics.csv",
+        "blob_sha": "70a3ebf30a410064cb6b78f8ca640a68d25db46b",
+        "sha256": "0f3805061f3c581bcb85da318594f1294d0c590399b4399867dcb5d56979f6a2",
+        "size": 203762
+      },
+      {
+        "path": "research/jpx_v31_stock_specific_mse_20260925/report.log",
+        "blob_sha": "284b001c661a3d8ed74cecebe8d264cd67de89bb",
+        "sha256": "11acdad90ecbb6d19bd9cf3c3c0a9657df7972ed7dddd3b49ff5c082862cb81f",
+        "size": 1491
+      },
+      {
+        "path": "research/jpx_v31_stock_specific_mse_20260925/report.py",
+        "blob_sha": "3323430e630436ede03eb4f8cff4e0303dc2f5ab",
+        "sha256": "e9707bf28ac6609e7e76c9d896b4a8b5848cca8761b80a2eb042d5d8f6d27202",
+        "size": 10617
+      },
+      {
+        "path": "research/jpx_v31_stock_specific_mse_20260925/results.json",
+        "blob_sha": "1dc5127634f6011f0ebb5e6b7c6423e123fbda48",
+        "sha256": "3653afc2e0e3f641adf1ecb4b415dac19b3c8eb47ab5f82aa090af5eca7566cf",
+        "size": 1846
+      },
+      {
+        "path": "research/jpx_v31_stock_specific_mse_20260925/retrieval_verification.json",
+        "blob_sha": "90370b36a201d60d770f1c8e35950fccf304a6b1",
+        "sha256": "168a7818cdd636f0b97070ff1f8b6e39bfbd47470bc4ca4acaba072cd87bb62e",
+        "size": 883
+      },
+      {
+        "path": "research/jpx_v31_stock_specific_mse_20260925/run.log",
+        "blob_sha": "7035f60de12711ef89b1ce5e6c6a0d81829be805",
+        "sha256": "54e2eb4d07ed829391efbd30c4b4d95de0e1f6396825cd4c6b78bdff81ad0bde",
+        "size": 1089
+      },
+      {
+        "path": "research/jpx_v31_stock_specific_mse_20260925/run.py",
+        "blob_sha": "70fa0dfe316cb60f0bbd2673d17cff83593718ed",
+        "sha256": "a7bbed3201c7eb6fc80a49fc608135ea013379306e56de56c5a22fd46ca5b62c",
+        "size": 8664
+      },
+      {
+        "path": "research/jpx_v31_stock_specific_mse_20260925/shared_v7/audit.json",
+        "blob_sha": "0d1f3ee12923f4375b804fd2902fde54375a882f",
+        "sha256": "093a51d6c3ced8e472d98b496f383a54c471053d93688f9de8c577e665894302",
+        "size": 277
+      },
+      {
+        "path": "research/jpx_v31_stock_specific_mse_20260925/shared_v7/daily_metrics.csv",
+        "blob_sha": "9239c278b0a934073a8d1ec6ca2da2614d68f00d",
+        "sha256": "3fb526bf9465f9302f350682fea1fb9188ab6bb55ff3a5e81ace2b2356958e33",
+        "size": 153279
+      },
+      {
+        "path": "research/jpx_v31_stock_specific_mse_20260925/shared_v7/final_parameters.json",
+        "blob_sha": "ce8398441dd68577ba152eccff8c945d9eee71fe",
+        "sha256": "effe05dff3f3740c0fd3dc4eefd35091d1c379a39ce56a2e48d2ed0ec074da99",
+        "size": 398
+      },
+      {
+        "path": "research/jpx_v31_stock_specific_mse_20260925/shared_v7/results.json",
+        "blob_sha": "d5750543e9c12a1f4a04bbff5297d0d5e33b65e7",
+        "sha256": "d86ea571ae20012a9fb1cd0568922551ddaca54c7ddfc311c1777c58afa9e9ea",
+        "size": 566
+      },
+      {
+        "path": "research/jpx_v31_stock_specific_mse_20260925/stock_specific/audit.json",
+        "blob_sha": "f1c939d17991fa158aea51cb7a87371692bbbffc",
+        "sha256": "b3070a2729ffc752c2e8dd56e47ec1caf76cfd33c92e571166700d576e555b48",
+        "size": 277
+      },
+      {
+        "path": "research/jpx_v31_stock_specific_mse_20260925/stock_specific/daily_metrics.csv",
+        "blob_sha": "18857e384fcd91101d7177edbefd31c84f1b5649",
+        "sha256": "3b74ed9af37a2fca911aa70d04d3d35d516aa4a0f22a74c256e5db70cf7a474a",
+        "size": 151068
+      },
+      {
+        "path": "research/jpx_v31_stock_specific_mse_20260925/stock_specific/results.json",
+        "blob_sha": "3a8901d53ccaad0656556bdfdb9ffc7338f1ab2c",
+        "sha256": "00b6669fd8b82719e440f12d25a61e3703eaa05f1807642f932f4c50da9acd57",
+        "size": 597
+      },
+      {
+        "path": "research/jpx_v31_stock_specific_mse_20260925/stock_specific/training_updates.csv",
+        "blob_sha": "4573733a566214c92c65ab2e8b7246b91dd771d8",
+        "sha256": "6abc17338dc6d70e992f6a69dfd87f7e4ae96209fa59f44747bed10852448adb",
+        "size": 172620
+      },
+      {
+        "path": "research/jpx_v31_stock_specific_mse_20260925/task_storage.json",
+        "blob_sha": "3d9f7b3d2f2b95021c4a3da121f35e2a5032b12e",
+        "sha256": "0fd3a36118f0fe557f1ced2aea59ce05740a400b43c999a07cf7f20d5729072b",
+        "size": 586
+      },
+      {
+        "path": "research/jpx_v31_stock_specific_mse_20260925/version.json",
+        "blob_sha": "7ba71db86f5e483902bf23a3461b35a20daf3441",
+        "sha256": "75ddc9477daa8d8613042f061ed3b248c840a5682f743467e138ab231c8d7e15",
+        "size": 273
+      }
+    ],
+    "release_data_packs_verified": 89,
+    "catalog_and_checksums_assets_verified": true,
+    "release_url": "https://github.com/Kevin-Shih-Kai-Jen/quant-learning-internship-2027/releases/tag/snapshot-2026-09-25-v31-stock-mse"
+  },
+  "roundtrip": {
+    "passed": true,
+    "source_tag": "snapshot-2026-09-25-v31-stock-mse",
+    "transport": "range requests; original full TAR/member SHA256 validation and safe install",
+    "packs": [
+      {
+        "pack": "snapshot-2026-09-25-v31-stock-mse-data-001-jpx_v31_stock_specific_mse_20260925.tar",
+        "sha256": "2e93558732acfe77c8489cf2f37e105a37fa888d60b3ea37ecff0308d4791dae",
+        "size": 296673280,
+        "selected": [
+          "research/jpx_v31_stock_specific_mse_20260925/output/JPX-v31-stock-specific-mse-data-20260925.zip"
+        ],
+        "seconds": 140.59512145899998
+      }
+    ]
+  },
+  "staged_research_files_verified_before_cleanup": [
+    "research/jpx_v8_soft_rank_20260912/inputs.pkl",
+    "research/jpx_v31_stock_specific_mse_20260925/version.json",
+    "research/jpx_v31_stock_specific_mse_20260925/run.py",
+    "research/jpx_v31_stock_specific_mse_20260925/task_storage.json",
+    "research/jpx_v31_stock_specific_mse_20260925/audit.json",
+    "research/jpx_v31_stock_specific_mse_20260925/report.log",
+    "research/jpx_v31_stock_specific_mse_20260925/audit.py",
+    "research/jpx_v31_stock_specific_mse_20260925/paired_block_bootstrap.csv",
+    "research/jpx_v31_stock_specific_mse_20260925/run.log",
+    "research/jpx_v31_stock_specific_mse_20260925/fetch_ranges.py",
+    "research/jpx_v31_stock_specific_mse_20260925/comparison_by_year.csv",
+    "research/jpx_v31_stock_specific_mse_20260925/results.json",
+    "research/jpx_v31_stock_specific_mse_20260925/diagnostics.json",
+    "research/jpx_v31_stock_specific_mse_20260925/retrieval_verification.json",
+    "research/jpx_v31_stock_specific_mse_20260925/experiment_defaults_snapshot.json",
+    "research/jpx_v31_stock_specific_mse_20260925/audit.log",
+    "research/jpx_v31_stock_specific_mse_20260925/delivery_audit.json",
+    "research/jpx_v31_stock_specific_mse_20260925/experiment_plan.md",
+    "research/jpx_v31_stock_specific_mse_20260925/per_stock_diagnostics.csv",
+    "research/jpx_v31_stock_specific_mse_20260925/manifest.json",
+    "research/jpx_v31_stock_specific_mse_20260925/comparison.csv",
+    "research/jpx_v31_stock_specific_mse_20260925/JPX-v31-stock-specific-mse-report.md",
+    "research/jpx_v31_stock_specific_mse_20260925/mobile_pdf.py",
+    "research/jpx_v31_stock_specific_mse_20260925/all_models_daily.csv",
+    "research/jpx_v31_stock_specific_mse_20260925/report.py",
+    "research/project_archive_20260924/restore_data.py",
+    "research/project_archive_20260924/COMPRESSED_DATA_MANIFEST.json",
+    "research/jpx_v23_g_thresholds_20260916/no_skip/predictions.npz",
+    "research/project_archive_20260924/compressed_data/jpx_v8_soft_rank_20260912/inputs.pkl.gz",
+    "research/jpx_v31_stock_specific_mse_20260925/shared_v7/audit.json",
+    "research/jpx_v31_stock_specific_mse_20260925/shared_v7/daily_metrics.csv",
+    "research/jpx_v31_stock_specific_mse_20260925/shared_v7/results.json",
+    "research/jpx_v31_stock_specific_mse_20260925/shared_v7/final_parameters.json",
+    "research/jpx_v31_stock_specific_mse_20260925/shared_v7/predictions.npz",
+    "research/jpx_v31_stock_specific_mse_20260925/shared_v7/parameter_history.csv",
+    "research/jpx_v31_stock_specific_mse_20260925/shared_v7/training_updates.csv",
+    "research/jpx_v31_stock_specific_mse_20260925/output/JPX-v31-stock-specific-mse-data-20260925.zip",
+    "research/jpx_v31_stock_specific_mse_20260925/stock_specific/audit.json",
+    "research/jpx_v31_stock_specific_mse_20260925/stock_specific/daily_metrics.csv",
+    "research/jpx_v31_stock_specific_mse_20260925/stock_specific/results.json",
+    "research/jpx_v31_stock_specific_mse_20260925/stock_specific/predictions.npz",
+    "research/jpx_v31_stock_specific_mse_20260925/stock_specific/final_stock_parameters.csv",
+    "research/jpx_v31_stock_specific_mse_20260925/stock_specific/parameter_update_trace.npz",
+    "research/jpx_v31_stock_specific_mse_20260925/stock_specific/training_updates.csv",
+    "research/jpx_v31_stock_specific_mse_20260925/output/pdf/JPX-v31-stock-specific-mse-mobile-20260925.pdf"
+  ],
+  "staging_ledger": [
+    {
+      "path": "research/jpx_v31_stock_specific_mse_20260925/all_models_daily.csv",
+      "size": 307773,
+      "sha256": "99bf4c0760dc0f5070b5dc7ec302de9a47e1e4893858414020b067392d05d503",
+      "staging": "/private/tmp/quant-v31-20260925-02syvcov/research/jpx_v31_stock_specific_mse_20260925/all_models_daily.csv"
+    },
+    {
+      "path": "research/jpx_v31_stock_specific_mse_20260925/shared_v7/predictions.npz",
+      "size": 22271895,
+      "sha256": "a4c15d3352c6c77c0194fd7abe19fd980e290bcf50f2080f09a1eae5ec72e10c",
+      "staging": "/private/tmp/quant-v31-20260925-02syvcov/research/jpx_v31_stock_specific_mse_20260925/shared_v7/predictions.npz"
+    },
+    {
+      "path": "research/jpx_v31_stock_specific_mse_20260925/shared_v7/parameter_history.csv",
+      "size": 653599,
+      "sha256": "500e0a4e2bcf21ff8f9e836b7ab73b62546e29f639ef59b8eefe4ecac0e70b63",
+      "staging": "/private/tmp/quant-v31-20260925-02syvcov/research/jpx_v31_stock_specific_mse_20260925/shared_v7/parameter_history.csv"
+    },
+    {
+      "path": "research/jpx_v31_stock_specific_mse_20260925/shared_v7/training_updates.csv",
+      "size": 483268,
+      "sha256": "a5d75f629d254cf8342b0d358b6c4caebe1623b030a965ff6e516fc2d3911b72",
+      "staging": "/private/tmp/quant-v31-20260925-02syvcov/research/jpx_v31_stock_specific_mse_20260925/shared_v7/training_updates.csv"
+    },
+    {
+      "path": "research/jpx_v31_stock_specific_mse_20260925/stock_specific/predictions.npz",
+      "size": 22404891,
+      "sha256": "20ae635423fb1a8659db20d0138edc2ec951bae9e47f36f8b25b5149dbaea4aa",
+      "staging": "/private/tmp/quant-v31-20260925-02syvcov/research/jpx_v31_stock_specific_mse_20260925/stock_specific/predictions.npz"
+    },
+    {
+      "path": "research/jpx_v31_stock_specific_mse_20260925/stock_specific/final_stock_parameters.csv",
+      "size": 541556,
+      "sha256": "a41cc8aecd67a4a5900cfb98bbb7ed6e7860be544b602fc9ffaa9d3ef14eeca0",
+      "staging": "/private/tmp/quant-v31-20260925-02syvcov/research/jpx_v31_stock_specific_mse_20260925/stock_specific/final_stock_parameters.csv"
+    },
+    {
+      "path": "research/jpx_v31_stock_specific_mse_20260925/stock_specific/parameter_update_trace.npz",
+      "size": 249030802,
+      "sha256": "d59f4f9b1ceec9cf2271599e682f71113a2e02f3ec8b7db52ed4aef550fc1eb7",
+      "staging": "/private/tmp/quant-v31-20260925-02syvcov/research/jpx_v31_stock_specific_mse_20260925/stock_specific/parameter_update_trace.npz"
+    }
+  ],
+  "cleanup": {
+    "directory": "/private/tmp/quant-v31-20260925-02syvcov",
+    "planned_files": 396,
+    "planned_bytes": 2526007257,
+    "scope": "Only this task: verified downloaded/restored research, verified uploaded staging copies, transfer chunks and operation temp; no other workspace or sources",
+    "completed": true,
+    "removed_files": 396,
+    "removed_bytes": 2526007257
+  },
+  "retained": [
+    "Lightweight experiment sources, reports, metrics and audit in Git",
+    "Local mobile PDF and portable ZIP",
+    "Full forecasts and coefficient trace in versioned private Release"
+  ],
+  "recovery": {
+    "new_prefix": "jpx_v31_stock_specific_mse_20260925",
+    "inputs_prefix": "project_archive_20260924/compressed_data/jpx_v8_soft_rank_20260912/inputs.pkl.gz",
+    "baseline_prefix": "jpx_v23_g_thresholds_20260916/no_skip/predictions.npz"
+  }
+}
