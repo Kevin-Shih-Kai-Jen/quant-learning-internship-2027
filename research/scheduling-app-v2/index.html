@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#173f38">
+  <meta name="description" content="班伴：收集需求、檢查規則、安排班表，讓團隊的下一週更清楚。">
+  <title>班伴 · 團隊排班工作室</title>
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">跳至主要內容</a>
+  <div id="app"></div>
+  <div id="toast" role="status" aria-live="polite" hidden></div>
+  <dialog id="dialog" aria-labelledby="dialog-title"></dialog>
+  <input id="import-file" type="file" accept="application/json,.json" hidden>
+  <noscript>班伴需要啟用 JavaScript。你的資料只保存在這個瀏覽器。</noscript>
+  <script type="module" src="app.mjs"></script>
+</body>
+</html>
