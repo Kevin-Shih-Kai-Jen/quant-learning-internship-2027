@@ -1,0 +1,12 @@
+{
+  "task_directory": "/private/tmp/quant-v31-20260925-02syvcov",
+  "source_snapshot": "snapshot-2026-09-24",
+  "requested_files": [
+    "project_archive_20260924/compressed_data/jpx_v8_soft_rank_20260912/inputs.pkl.gz",
+    "jpx_v23_g_thresholds_20260916/no_skip/predictions.npz"
+  ],
+  "status": "inputs_verified_experiment_and_delivery_complete_publication_pending",
+  "new_snapshot": "snapshot-2026-09-25-v31-stock-mse",
+  "transport": "Private authenticated HTTP ranges, verified whole pack and selected member SHA256; no credentials retained",
+  "restore_sha256_verified": true
+}

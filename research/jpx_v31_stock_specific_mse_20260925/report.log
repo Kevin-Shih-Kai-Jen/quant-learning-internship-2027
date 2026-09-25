@@ -1,0 +1,16 @@
+       Variant          Label    Sharpe    RankIC  MatchedScoredDays  ScoredDaysAll  RankICDays      MSE  MeanAbsoluteScore  ParameterVectors  TotalParameters
+     shared_v7 原v7：全部股票共用12參數  0.007679 -0.000734                953            953         952 0.000665           0.004830                 1               12
+stock_specific  逐檔v7：每股獨立12參數 -0.019197 -0.002766                953            953         952 0.003937           0.021314              2000            24000
+       Variant  ValidationYear  Days    Sharpe    RankIC
+     shared_v7            2018   245 -0.011514 -0.001318
+     shared_v7            2019   241  0.050067  0.000502
+     shared_v7            2020   242  0.050857  0.002987
+     shared_v7            2021   225 -0.087605 -0.005408
+stock_specific            2018   245 -0.067010 -0.000993
+stock_specific            2019   241  0.038136 -0.005225
+stock_specific            2020   242 -0.022473 -0.003873
+stock_specific            2021   225 -0.020521 -0.000876
+Metric  Difference   CI95Low  CI95High
+Sharpe   -0.026876 -0.108148  0.055851
+RankIC   -0.002032 -0.008392  0.003593
+{"stock_time_series_comparable": 2000, "fraction_stock_time_series_ic_improved": 0.457, "median_shared_stock_time_series_ic": 0.001468419741993371, "median_individual_stock_time_series_ic": -0.0025166401252392145, "validation_zero_own_history_stock_days": 211, "validation_under12_own_updates_stock_days": 1406, "validation_stock_days": 1864363}

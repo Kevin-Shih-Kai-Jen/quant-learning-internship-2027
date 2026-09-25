@@ -1,0 +1,13 @@
+{
+  "version": "v31",
+  "status": "completed_experiment",
+  "date": "2026-09-25",
+  "directory": "jpx_v31_stock_specific_mse_20260925",
+  "variants": [
+    "shared_v7",
+    "stock_specific"
+  ],
+  "formal_baseline": "v7",
+  "test_evaluated": false,
+  "audit_passed": true
+}

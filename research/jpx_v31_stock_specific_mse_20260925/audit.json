@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "models": {
+    "shared_v7": {
+      "passed": true,
+      "forecasts_checked": 2326022,
+      "training_stock_days_checked": 2325806,
+      "official_sharpe": 0.007678871562421042,
+      "max_independent_prediction_error": 1.6797674362578618e-13,
+      "selected_missing_target_days": 0,
+      "independent_per_stock_replay": false
+    },
+    "stock_specific": {
+      "passed": true,
+      "forecasts_checked": 2326022,
+      "training_stock_days_checked": 2325806,
+      "official_sharpe": -0.019197144722679225,
+      "max_independent_prediction_error": 1.4210854715202004e-14,
+      "selected_missing_target_days": 0,
+      "independent_per_stock_replay": true
+    }
+  },
+  "stock_parameter_and_gradient_isolation_verified": true,
+  "known_label_timing_verified": true,
+  "same_full_forecast_universe": true,
+  "no_extreme_filter": true,
+  "test_evaluated": false
+}

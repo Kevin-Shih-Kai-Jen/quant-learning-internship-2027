@@ -648,6 +648,18 @@
       "audit_passed": true,
       "test_evaluated": false,
       "validation_winner": "frozen_r"
+    },
+    {
+      "version": "v31",
+      "date": "2026-09-25",
+      "description": "Per-stock independent v7 price-volume coefficients, MSE only; one matured observation update with per-stock spectral learning rate",
+      "directory": "research/jpx_v31_stock_specific_mse_20260925",
+      "formal_baseline": "v7",
+      "shared_sharpe": 0.007678871562421089,
+      "stock_specific_sharpe": -0.019197144722679207,
+      "stock_specific_rank_ic": -0.00276602667272466,
+      "test_evaluated": false,
+      "report": "research/jpx_v31_stock_specific_mse_20260925/JPX-v31-stock-specific-mse-report.md"
     }
   ],
   "active_variant": "v7_equal",

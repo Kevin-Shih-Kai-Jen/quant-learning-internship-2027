@@ -1,0 +1,9 @@
+{
+  "stock_time_series_comparable": 2000,
+  "fraction_stock_time_series_ic_improved": 0.457,
+  "median_shared_stock_time_series_ic": 0.001468419741993371,
+  "median_individual_stock_time_series_ic": -0.0025166401252392145,
+  "validation_zero_own_history_stock_days": 211,
+  "validation_under12_own_updates_stock_days": 1406,
+  "validation_stock_days": 1864363
+}

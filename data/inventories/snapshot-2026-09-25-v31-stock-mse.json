@@ -1,0 +1,368 @@
+{
+  "schema_version": 1,
+  "tag": "snapshot-2026-09-25-v31-stock-mse",
+  "excluded": {},
+  "files": [
+    {
+      "path": "research/jpx_v23_g_thresholds_20260916/no_skip/predictions.npz",
+      "size": 21982535,
+      "sha256": "a29f497479e57fa928608dd9d9776212b49bcd5d93736b4ec684e658dda1ecff",
+      "mtime_ns": 1789543248614189367,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_v31_stock_specific_mse_20260925/JPX-v31-stock-specific-mse-report.md",
+      "size": 4776,
+      "sha256": "7c54467ede8f967901f91b4c8b5eaa5b749b04edf5e0ad2b9760328599c2c403",
+      "mtime_ns": 1790307389962964716,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_v31_stock_specific_mse_20260925/all_models_daily.csv",
+      "size": 307773,
+      "sha256": "99bf4c0760dc0f5070b5dc7ec302de9a47e1e4893858414020b067392d05d503",
+      "mtime_ns": 1790307389953478526,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_v31_stock_specific_mse_20260925/audit.json",
+      "size": 892,
+      "sha256": "03c46a476f35765c0afa677175cc41deb0283ce2156fb27cb09333ef9aab0850",
+      "mtime_ns": 1790307265054193879,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_v31_stock_specific_mse_20260925/audit.log",
+      "size": 549,
+      "sha256": "f936c1fc45e5ea408de4d46685275a94dbbb3851f54fabad7ad5d439d7c4c24a",
+      "mtime_ns": 1790307265050549222,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_v31_stock_specific_mse_20260925/audit.py",
+      "size": 5904,
+      "sha256": "cae14a8a87eeb008bd724d8b9f122625c3bfbf7c8ba3af5d1a16bca6aabeb3f9",
+      "mtime_ns": 1790307075827257480,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_v31_stock_specific_mse_20260925/comparison.csv",
+      "size": 435,
+      "sha256": "2e9c5bea369f48171b4971ce098390c9059653fe16bc55c7e0a8dce3c92caa4d",
+      "mtime_ns": 1790307389934762261,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_v31_stock_specific_mse_20260925/comparison_by_year.csv",
+      "size": 565,
+      "sha256": "afdf4490f33b1e3302811b0cf777cb67c3e2405647e7f587e232a5a82d35f703",
+      "mtime_ns": 1790307389935099332,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_v31_stock_specific_mse_20260925/delivery_audit.json",
+      "size": 327,
+      "sha256": "8fef459f81d347bb94cd194a241d9282498ac6f668c1f5751ead6f21a25b0fd5",
+      "mtime_ns": 1790307484232527903,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_v31_stock_specific_mse_20260925/diagnostics.json",
+      "size": 361,
+      "sha256": "8f7f53dd6b4e02115179bfc0e7de967e38ec03d5860c04b69c6ff9bde9a4d2ff",
+      "mtime_ns": 1790307389953669060,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_v31_stock_specific_mse_20260925/experiment_defaults_snapshot.json",
+      "size": 868,
+      "sha256": "a891c611d087aff7196f7508656946f77cc8cfef3ff3f8ae170e44010f4e83be",
+      "mtime_ns": 1790306918132900295,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_v31_stock_specific_mse_20260925/experiment_plan.md",
+      "size": 2507,
+      "sha256": "4ce6ddd53e5a1eec4fef7f7dac0c01427cc4df2213d474977008ef1f344bd258",
+      "mtime_ns": 1790306918127964520,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_v31_stock_specific_mse_20260925/fetch_ranges.py",
+      "size": 4229,
+      "sha256": "14426888415f8894649dc0c5c72471b1e0f5e8551b5070c3e1b333e28cf765a6",
+      "mtime_ns": 1790307010777148234,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_v31_stock_specific_mse_20260925/manifest.json",
+      "size": 1313,
+      "sha256": "edd84eab235c16fc74b6bc8fa2bde160ebd537c39e22edf8460f7af8aaf60ab5",
+      "mtime_ns": 1790307236622295103,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_v31_stock_specific_mse_20260925/mobile_pdf.py",
+      "size": 4489,
+      "sha256": "4f36a1897672e6efbbcef8970d9ab9e84cb093a9e1e0b76e2bd73bd83f70b61d",
+      "mtime_ns": 1790307440052900800,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_v31_stock_specific_mse_20260925/paired_block_bootstrap.csv",
+      "size": 182,
+      "sha256": "07b4dff84a32595a5cb611614017807d70420b4c6852204e2249efa2003f7489",
+      "mtime_ns": 1790307389935343947,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_v31_stock_specific_mse_20260925/per_stock_diagnostics.csv",
+      "size": 203762,
+      "sha256": "0f3805061f3c581bcb85da318594f1294d0c590399b4399867dcb5d56979f6a2",
+      "mtime_ns": 1790307389942690342,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_v31_stock_specific_mse_20260925/report.log",
+      "size": 1491,
+      "sha256": "11acdad90ecbb6d19bd9cf3c3c0a9657df7972ed7dddd3b49ff5c082862cb81f",
+      "mtime_ns": 1790307389966081226,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_v31_stock_specific_mse_20260925/report.py",
+      "size": 10617,
+      "sha256": "e9707bf28ac6609e7e76c9d896b4a8b5848cca8761b80a2eb042d5d8f6d27202",
+      "mtime_ns": 1790307387434096194,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_v31_stock_specific_mse_20260925/results.json",
+      "size": 1846,
+      "sha256": "3653afc2e0e3f641adf1ecb4b415dac19b3c8eb47ab5f82aa090af5eca7566cf",
+      "mtime_ns": 1790307389953790806,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_v31_stock_specific_mse_20260925/retrieval_verification.json",
+      "size": 883,
+      "sha256": "168a7818cdd636f0b97070ff1f8b6e39bfbd47470bc4ca4acaba072cd87bb62e",
+      "mtime_ns": 1790307218755630796,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_v31_stock_specific_mse_20260925/run.log",
+      "size": 1089,
+      "sha256": "54e2eb4d07ed829391efbd30c4b4d95de0e1f6396825cd4c6b78bdff81ad0bde",
+      "mtime_ns": 1790307236240267923,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_v31_stock_specific_mse_20260925/run.py",
+      "size": 8664,
+      "sha256": "a7bbed3201c7eb6fc80a49fc608135ea013379306e56de56c5a22fd46ca5b62c",
+      "mtime_ns": 1790306918130055609,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_v31_stock_specific_mse_20260925/task_storage.json",
+      "size": 586,
+      "sha256": "0fd3a36118f0fe557f1ced2aea59ce05740a400b43c999a07cf7f20d5729072b",
+      "mtime_ns": 1790307484232831344,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_v31_stock_specific_mse_20260925/version.json",
+      "size": 273,
+      "sha256": "75ddc9477daa8d8613042f061ed3b248c840a5682f743467e138ab231c8d7e15",
+      "mtime_ns": 1790307389963094044,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_v31_stock_specific_mse_20260925/output/JPX-v31-stock-specific-mse-data-20260925.zip",
+      "size": 965663,
+      "sha256": "93862649a9e998bcf1db7875ad4fc43e983fd128af4ec474a31db6f1b678e939",
+      "mtime_ns": 1790307440707319640,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_v31_stock_specific_mse_20260925/output/pdf/JPX-v31-stock-specific-mse-mobile-20260925.pdf",
+      "size": 149430,
+      "sha256": "fbc8a905cdd6efb235f535286c3a210a46ab16cb3f8f53402f1da7f9b65eef98",
+      "mtime_ns": 1790307440496702817,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_v31_stock_specific_mse_20260925/shared_v7/audit.json",
+      "size": 277,
+      "sha256": "093a51d6c3ced8e472d98b496f383a54c471053d93688f9de8c577e665894302",
+      "mtime_ns": 1790307248749837777,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_v31_stock_specific_mse_20260925/shared_v7/daily_metrics.csv",
+      "size": 153279,
+      "sha256": "3fb526bf9465f9302f350682fea1fb9188ab6bb55ff3a5e81ace2b2356958e33",
+      "mtime_ns": 1790307223002663998,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_v31_stock_specific_mse_20260925/shared_v7/final_parameters.json",
+      "size": 398,
+      "sha256": "effe05dff3f3740c0fd3dc4eefd35091d1c379a39ce56a2e48d2ed0ec074da99",
+      "mtime_ns": 1790307224696139303,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_v31_stock_specific_mse_20260925/shared_v7/parameter_history.csv",
+      "size": 653599,
+      "sha256": "500e0a4e2bcf21ff8f9e836b7ab73b62546e29f639ef59b8eefe4ecac0e70b63",
+      "mtime_ns": 1790307224695897353,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_v31_stock_specific_mse_20260925/shared_v7/predictions.npz",
+      "size": 22271895,
+      "sha256": "a4c15d3352c6c77c0194fd7abe19fd980e290bcf50f2080f09a1eae5ec72e10c",
+      "mtime_ns": 1790307224669027724,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_v31_stock_specific_mse_20260925/shared_v7/results.json",
+      "size": 566,
+      "sha256": "d86ea571ae20012a9fb1cd0568922551ddaca54c7ddfc311c1777c58afa9e9ea",
+      "mtime_ns": 1790307224699930371,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_v31_stock_specific_mse_20260925/shared_v7/training_updates.csv",
+      "size": 483268,
+      "sha256": "a5d75f629d254cf8342b0d358b6c4caebe1623b030a965ff6e516fc2d3911b72",
+      "mtime_ns": 1790307223021675502,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_v31_stock_specific_mse_20260925/stock_specific/audit.json",
+      "size": 277,
+      "sha256": "b3070a2729ffc752c2e8dd56e47ec1caf76cfd33c92e571166700d576e555b48",
+      "mtime_ns": 1790307265050457684,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_v31_stock_specific_mse_20260925/stock_specific/daily_metrics.csv",
+      "size": 151068,
+      "sha256": "3b74ed9af37a2fca911aa70d04d3d35d516aa4a0f22a74c256e5db70cf7a474a",
+      "mtime_ns": 1790307226449571802,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_v31_stock_specific_mse_20260925/stock_specific/final_stock_parameters.csv",
+      "size": 541556,
+      "sha256": "a41cc8aecd67a4a5900cfb98bbb7ed6e7860be544b602fc9ffaa9d3ef14eeca0",
+      "mtime_ns": 1790307236236470772,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_v31_stock_specific_mse_20260925/stock_specific/parameter_update_trace.npz",
+      "size": 249030802,
+      "sha256": "d59f4f9b1ceec9cf2271599e682f71113a2e02f3ec8b7db52ed4aef550fc1eb7",
+      "mtime_ns": 1790307236215775205,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_v31_stock_specific_mse_20260925/stock_specific/predictions.npz",
+      "size": 22404891,
+      "sha256": "20ae635423fb1a8659db20d0138edc2ec951bae9e47f36f8b25b5149dbaea4aa",
+      "mtime_ns": 1790307228124673328,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_v31_stock_specific_mse_20260925/stock_specific/results.json",
+      "size": 597,
+      "sha256": "00b6669fd8b82719e440f12d25a61e3703eaa05f1807642f932f4c50da9acd57",
+      "mtime_ns": 1790307236240203967,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_v31_stock_specific_mse_20260925/stock_specific/training_updates.csv",
+      "size": 172620,
+      "sha256": "6abc17338dc6d70e992f6a69dfd87f7e4ae96209fa59f44747bed10852448adb",
+      "mtime_ns": 1790307226456805076,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_v8_soft_rank_20260912/inputs.pkl",
+      "size": 468803515,
+      "sha256": "6b0ff60bfb8eab20ec7c6e087e746dd6e0ccc38b9633d1a11d98477d84857bc6",
+      "mtime_ns": 1789213159545419153,
+      "mode": 420,
+      "storage": "release",
+      "compressed_archive_path": "research/project_archive_20260924/compressed_data/jpx_v8_soft_rank_20260912/inputs.pkl.gz"
+    },
+    {
+      "path": "research/project_archive_20260924/COMPRESSED_DATA_MANIFEST.json",
+      "size": 77623,
+      "sha256": "a6ce61638ac9cc74d17dc0163693be7dac6a2cdb9cb7cbcdb62385566199bb5a",
+      "mtime_ns": 1790233095713468225,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/project_archive_20260924/restore_data.py",
+      "size": 9687,
+      "sha256": "8ec7a6053eb54226e8d1cfcd611f6b1be12a0344102f7e3392a4b0e527a8889d",
+      "mtime_ns": 1790233069916969549,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/project_archive_20260924/compressed_data/jpx_v8_soft_rank_20260912/inputs.pkl.gz",
+      "size": 334726480,
+      "sha256": "b4a47ff7765b13fc47ab08984ab9d6dcb95d83503e69596f11c8f3cfc2116638",
+      "mtime_ns": 1790233018573471031,
+      "mode": 420,
+      "storage": "release"
+    }
+  ]
+}

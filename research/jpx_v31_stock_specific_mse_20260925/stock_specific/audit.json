@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "forecasts_checked": 2326022,
+  "training_stock_days_checked": 2325806,
+  "official_sharpe": -0.019197144722679225,
+  "max_independent_prediction_error": 1.4210854715202004e-14,
+  "selected_missing_target_days": 0,
+  "independent_per_stock_replay": true
+}

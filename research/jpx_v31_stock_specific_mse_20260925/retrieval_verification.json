@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "source_tag": "snapshot-2026-09-24",
+  "transport": "range requests; original full TAR/member SHA256 validation and safe install",
+  "packs": [
+    {
+      "pack": "snapshot-2026-09-24-data-033-compressed-jpx_v8_soft_rank_20260912.tar",
+      "sha256": "6c624b406d014172931c02abb65ad2f476fa6005d0785559135bf565a7038c2c",
+      "size": 334735360,
+      "selected": [
+        "research/project_archive_20260924/compressed_data/jpx_v8_soft_rank_20260912/inputs.pkl.gz"
+      ],
+      "seconds": 152.17187579100005
+    },
+    {
+      "pack": "snapshot-2026-09-24-data-061-jpx_v23_g_thresholds_20260916.tar",
+      "sha256": "b0a0778fb2ca9f029113f3ec5bf9a7929283182f406aac14661accc704811c0d",
+      "size": 69335040,
+      "selected": [
+        "research/jpx_v23_g_thresholds_20260916/no_skip/predictions.npz"
+      ],
+      "seconds": 54.193110082999965
+    }
+  ]
+}
