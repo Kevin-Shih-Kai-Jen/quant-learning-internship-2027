@@ -5,7 +5,12 @@
       "tag": "snapshot-2026-09-24",
       "catalog": "data/catalogs/snapshot-2026-09-24.json",
       "status": "verified"
+    },
+    {
+      "tag": "snapshot-2026-09-25-v31-stock-mse",
+      "catalog": "data/catalogs/snapshot-2026-09-25-v31-stock-mse.json",
+      "status": "verified"
     }
   ],
-  "latest": "snapshot-2026-09-24"
+  "latest": "snapshot-2026-09-25-v31-stock-mse"
 }
