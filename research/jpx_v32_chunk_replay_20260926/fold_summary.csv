@@ -1,0 +1,5 @@
+﻿validation_year,fit_at_signal_close,train_rows,unique_training_stocks,zero_history_stocks,min_signal_date,max_signal_date,max_label_exit,training_blocks,training_updates,stages,peak_block_mse_increase,seconds,median_stock_train_rows,stock_train_rows_lt12,stock_train_rows_min,stock_train_rows_max
+2018,2017-12-29,459550,1896,104,2017-01-04,2017-12-27,2017-12-29,585275,812307,"['single', 'chunk5', 'chunk22', 'chunk60', 'calendar_year']",0.0,8.825700332999986,245.0,113,0,245
+2019,2018-12-28,927143,1930,70,2017-01-04,2018-12-26,2018-12-28,1177002,1636917,"['single', 'chunk5', 'chunk22', 'chunk60', 'calendar_year']",0.0,17.124165332999837,490.0,78,0,490
+2020,2019-12-30,1395291,1966,34,2017-01-04,2019-12-26,2019-12-30,1771430,2462619,"['single', 'chunk5', 'chunk22', 'chunk60', 'calendar_year']",0.0,25.83179999999993,731.0,43,0,731
+2021,2020-12-30,1874055,2000,0,2017-01-04,2020-12-28,2020-12-30,2376925,3303718,"['single', 'chunk5', 'chunk22', 'chunk60', 'calendar_year']",0.0,34.53089487500074,973.0,9,4,973

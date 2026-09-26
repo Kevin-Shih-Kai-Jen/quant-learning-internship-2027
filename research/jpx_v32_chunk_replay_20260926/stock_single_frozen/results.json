@@ -1,0 +1,12 @@
+{
+  "variant": "stock_single_frozen",
+  "sharpe": 0.03310789102683101,
+  "rank_ic": 0.0015296101610828825,
+  "mse": 0.0028279795131772264,
+  "scored_days": 953,
+  "rank_ic_days": 952,
+  "validation_rows": 1864363,
+  "selected_missing_target_days": 0,
+  "zero_training_history_stock_days": 9295,
+  "validation_parameter_policy": "frozen_for_whole_year"
+}

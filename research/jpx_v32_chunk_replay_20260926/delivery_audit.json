@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "pdf_pages": 2,
+  "all_pages_rendered_and_visually_reviewed": true,
+  "pdf_numeric_checks": true,
+  "zip_crc_and_source_bytes_match": true,
+  "pdf_sha256": "93f29cc742f0c69187dadb754fcc4e653376aedd05bc604bae2feac31d5095bf",
+  "zip_sha256": "59e519dbde4a290ae6125c8be337bbf9e741111ce98374bdddd50818b9b5825a"
+}

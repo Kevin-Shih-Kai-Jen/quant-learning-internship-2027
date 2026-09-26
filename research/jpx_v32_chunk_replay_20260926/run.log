@@ -1,0 +1,25 @@
+FIT 2018 0 2000 seconds 0.0
+FIT 2018 500 2000 seconds 1.4
+FIT 2018 1000 2000 seconds 2.7
+FIT 2018 1500 2000 seconds 4.0
+FOLD_DONE {"validation_year": 2018, "fit_at_signal_close": "2017-12-29", "train_rows": 459550, "unique_training_stocks": 1896, "zero_history_stocks": 104, "min_signal_date": "2017-01-04", "max_signal_date": "2017-12-27", "max_label_exit": "2017-12-29", "training_blocks": 585275, "training_updates": 812307, "stages": ["single", "chunk5", "chunk22", "chunk60", "calendar_year"], "peak_block_mse_increase": 0.0, "seconds": 8.825700332999986}
+FIT 2019 0 2000 seconds 0.0
+FIT 2019 500 2000 seconds 2.7
+FIT 2019 1000 2000 seconds 5.1
+FIT 2019 1500 2000 seconds 7.6
+FOLD_DONE {"validation_year": 2019, "fit_at_signal_close": "2018-12-28", "train_rows": 927143, "unique_training_stocks": 1930, "zero_history_stocks": 70, "min_signal_date": "2017-01-04", "max_signal_date": "2018-12-26", "max_label_exit": "2018-12-28", "training_blocks": 1177002, "training_updates": 1636917, "stages": ["single", "chunk5", "chunk22", "chunk60", "calendar_year"], "peak_block_mse_increase": 0.0, "seconds": 17.124165332999837}
+FIT 2020 0 2000 seconds 0.0
+FIT 2020 500 2000 seconds 3.9
+FIT 2020 1000 2000 seconds 7.6
+FIT 2020 1500 2000 seconds 11.4
+FOLD_DONE {"validation_year": 2020, "fit_at_signal_close": "2019-12-30", "train_rows": 1395291, "unique_training_stocks": 1966, "zero_history_stocks": 34, "min_signal_date": "2017-01-04", "max_signal_date": "2019-12-26", "max_label_exit": "2019-12-30", "training_blocks": 1771430, "training_updates": 2462619, "stages": ["single", "chunk5", "chunk22", "chunk60", "calendar_year"], "peak_block_mse_increase": 0.0, "seconds": 25.83179999999993}
+FIT 2021 0 2000 seconds 0.0
+FIT 2021 500 2000 seconds 5.2
+FIT 2021 1000 2000 seconds 10.2
+FIT 2021 1500 2000 seconds 15.2
+FOLD_DONE {"validation_year": 2021, "fit_at_signal_close": "2020-12-30", "train_rows": 1874055, "unique_training_stocks": 2000, "zero_history_stocks": 0, "min_signal_date": "2017-01-04", "max_signal_date": "2020-12-28", "max_label_exit": "2020-12-30", "training_blocks": 2376925, "training_updates": 3303718, "stages": ["single", "chunk5", "chunk22", "chunk60", "calendar_year"], "peak_block_mse_increase": 0.0, "seconds": 34.53089487500074}
+RESULT {"variant": "shared_online", "sharpe": 0.007678871562421089, "rank_ic": -0.0007338924981283135, "mse": 0.0006654329991343369, "scored_days": 953, "rank_ic_days": 952, "validation_rows": 1864363, "selected_missing_target_days": 0, "zero_training_history_stock_days": 211, "validation_parameter_policy": "daily_online"}
+RESULT {"variant": "stock_online", "sharpe": -0.019197144722679207, "rank_ic": -0.00276602667272466, "mse": 0.0039367848920671316, "scored_days": 953, "rank_ic_days": 952, "validation_rows": 1864363, "selected_missing_target_days": 0, "zero_training_history_stock_days": 211, "validation_parameter_policy": "daily_online"}
+RESULT {"variant": "shared_frozen", "sharpe": 0.021392006424772538, "rank_ic": 0.0031937779958343088, "mse": 0.0006343572908997257, "scored_days": 953, "rank_ic_days": 952, "validation_rows": 1864363, "selected_missing_target_days": 0, "zero_training_history_stock_days": 9295, "validation_parameter_policy": "frozen_for_whole_year"}
+RESULT {"variant": "stock_single_frozen", "sharpe": 0.03310789102683101, "rank_ic": 0.0015296101610828825, "mse": 0.0028279795131772264, "scored_days": 953, "rank_ic_days": 952, "validation_rows": 1864363, "selected_missing_target_days": 0, "zero_training_history_stock_days": 9295, "validation_parameter_policy": "frozen_for_whole_year"}
+RESULT {"variant": "stock_chunk_frozen", "sharpe": 0.02598851491762205, "rank_ic": 0.0012861867948403838, "mse": 0.0006874836426571794, "scored_days": 953, "rank_ic_days": 952, "validation_rows": 1864363, "selected_missing_target_days": 0, "zero_training_history_stock_days": 9295, "validation_parameter_policy": "frozen_for_whole_year"}

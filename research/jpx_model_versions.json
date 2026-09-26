@@ -660,6 +660,18 @@
       "stock_specific_rank_ic": -0.00276602667272466,
       "test_evaluated": false,
       "report": "research/jpx_v31_stock_specific_mse_20260925/JPX-v31-stock-specific-mse-report.md"
+    },
+    {
+      "version": "v32",
+      "date": "2026-09-26",
+      "description": "Per-stock expanding historical chunk replay; yearly validation coefficients frozen; Gaussian fixed-variance NLL equivalent to MSE",
+      "directory": "research/jpx_v32_chunk_replay_20260926",
+      "formal_baseline": "v7",
+      "chunk_frozen_sharpe": 0.02598851491762205,
+      "single_frozen_sharpe": 0.03310789102683101,
+      "shared_online_v7_sharpe": 0.007678871562421089,
+      "test_evaluated": false,
+      "report": "research/jpx_v32_chunk_replay_20260926/JPX-v32-chunk-replay-report.md"
     }
   ],
   "active_variant": "v7_equal",

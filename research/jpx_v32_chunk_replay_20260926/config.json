@@ -1,0 +1,28 @@
+{
+  "version": "v32",
+  "date": "2026-09-26",
+  "validation_parameter_policy": "frozen_for_whole_validation_year",
+  "validation_policy_authority": "User explicitly selected fixed throughout each validation year",
+  "initialization": "zero independently for each stock and each annual fold",
+  "stages": [
+    "single",
+    "chunk5",
+    "chunk22",
+    "chunk60",
+    "calendar_year"
+  ],
+  "chunk_sizes": [
+    5,
+    22,
+    60
+  ],
+  "iterations": "floor(sqrt(actual_valid_observations_in_chunk))",
+  "loss": "mean Gaussian negative log likelihood",
+  "fixed_sigma": 1.0,
+  "nll_learning_rate": "1/lambda_max(X.T@X/n)",
+  "equivalent_mse_learning_rate": "1/(2*lambda_max(X.T@X/n))",
+  "training_history": "expanding from 2017, known at first validation signal-date close",
+  "extreme_value_filter": false,
+  "test_evaluated": false,
+  "source_snapshot": "snapshot-2026-09-25-v31-stock-mse"
+}

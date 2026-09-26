@@ -1,0 +1,62 @@
+{
+  "shared_online": {
+    "variant": "shared_online",
+    "sharpe": 0.007678871562421089,
+    "rank_ic": -0.0007338924981283135,
+    "mse": 0.0006654329991343369,
+    "scored_days": 953,
+    "rank_ic_days": 952,
+    "validation_rows": 1864363,
+    "selected_missing_target_days": 0,
+    "zero_training_history_stock_days": 211,
+    "validation_parameter_policy": "daily_online"
+  },
+  "stock_online": {
+    "variant": "stock_online",
+    "sharpe": -0.019197144722679207,
+    "rank_ic": -0.00276602667272466,
+    "mse": 0.0039367848920671316,
+    "scored_days": 953,
+    "rank_ic_days": 952,
+    "validation_rows": 1864363,
+    "selected_missing_target_days": 0,
+    "zero_training_history_stock_days": 211,
+    "validation_parameter_policy": "daily_online"
+  },
+  "shared_frozen": {
+    "variant": "shared_frozen",
+    "sharpe": 0.021392006424772538,
+    "rank_ic": 0.0031937779958343088,
+    "mse": 0.0006343572908997257,
+    "scored_days": 953,
+    "rank_ic_days": 952,
+    "validation_rows": 1864363,
+    "selected_missing_target_days": 0,
+    "zero_training_history_stock_days": 9295,
+    "validation_parameter_policy": "frozen_for_whole_year"
+  },
+  "stock_single_frozen": {
+    "variant": "stock_single_frozen",
+    "sharpe": 0.03310789102683101,
+    "rank_ic": 0.0015296101610828825,
+    "mse": 0.0028279795131772264,
+    "scored_days": 953,
+    "rank_ic_days": 952,
+    "validation_rows": 1864363,
+    "selected_missing_target_days": 0,
+    "zero_training_history_stock_days": 9295,
+    "validation_parameter_policy": "frozen_for_whole_year"
+  },
+  "stock_chunk_frozen": {
+    "variant": "stock_chunk_frozen",
+    "sharpe": 0.02598851491762205,
+    "rank_ic": 0.0012861867948403838,
+    "mse": 0.0006874836426571794,
+    "scored_days": 953,
+    "rank_ic_days": 952,
+    "validation_rows": 1864363,
+    "selected_missing_target_days": 0,
+    "zero_training_history_stock_days": 9295,
+    "validation_parameter_policy": "frozen_for_whole_year"
+  }
+}

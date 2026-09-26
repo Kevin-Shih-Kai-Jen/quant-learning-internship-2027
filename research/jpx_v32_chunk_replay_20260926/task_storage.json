@@ -1,0 +1,13 @@
+{
+  "task_directory": "/private/tmp/quant-v32-20260926-8e5q1yz9",
+  "source_snapshot": "snapshot-2026-09-25-v31-stock-mse",
+  "requested_files": [
+    "project_archive_20260924/compressed_data/jpx_v8_soft_rank_20260912/inputs.pkl.gz",
+    "jpx_v31_stock_specific_mse_20260925/shared_v7/predictions.npz",
+    "jpx_v31_stock_specific_mse_20260925/stock_specific/predictions.npz"
+  ],
+  "status": "experiment_and_delivery_audited_publication_pending",
+  "initial_repository_commit": "ed07efc3f249ed058ab2b7a9dbf88b1edc570266",
+  "restore_verified": true,
+  "new_snapshot": "snapshot-2026-09-26-v32-chunk-replay"
+}

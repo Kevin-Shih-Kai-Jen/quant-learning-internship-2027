@@ -6,7 +6,7 @@
 
 | 範圍 | 問題與進度 | 原檔入口 |
 |---|---|---|
-| 現行狀態 | 正式 v7、最新 v31、選模規則與候選區分 | [研究摘要](../research/JPX-current-baseline.md)、[預設](../research/JPX-experiment-defaults.json)、[版本登記](../research/jpx_model_versions.json) |
+| 現行狀態 | 正式 v7、最新 v32、選模規則與候選區分 | [研究摘要](../research/JPX-current-baseline.md)、[預設](../research/JPX-experiment-defaults.json)、[版本登記](../research/jpx_model_versions.json) |
 | 全部沿革 | 早期策略、v4–v30、失敗／修正及參數摘要 | [實驗歷程](../research/project_archive_20260924/EXPERIMENT_HISTORY.md) |
 | 早期策略 | 市場 regime、中性帶、return T、配置及 Ridge | [模型比較](../research/jpx_model_comparison_20260911/JPX-model-comparison.md) |
 | 交易成本 | 毛利是否能承擔換手與借券費 | [成本試算](../research/jpx_costs_top5_20260911/JPX-top5-cost-report.md) |
@@ -53,3 +53,5 @@
 研究數值的歷史 audit、9/24 本機 gzip 完整性檢查，以及 GitHub Release 上傳驗證是三種不同證據。先看 [快照索引](../data/index.json)、對應 catalog 和 `data/verification/<tag>.json`；不要把其中一種當成全部完成。此儲存庫也不等於未匯出對話的完整備份。
 
 2026-09-25 新增：[v31 每檔獨立參數 MSE](../research/jpx_v31_stock_specific_mse_20260925/JPX-v31-stock-specific-mse-report.md)。正式基準仍 v7；最新進度以本導讀及版本登記為準，9/24 歷史摘要原樣保留。
+
+2026-09-26 新增：[v32 逐檔歷史分塊複習](../research/jpx_v32_chunk_replay_20260926/JPX-v32-chunk-replay-report.md)。每fold訓練一次，validation整年固定；正式基準維持v7。

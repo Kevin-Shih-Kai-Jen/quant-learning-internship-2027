@@ -1,0 +1,12 @@
+{
+  "variant": "stock_online",
+  "sharpe": -0.019197144722679207,
+  "rank_ic": -0.00276602667272466,
+  "mse": 0.0039367848920671316,
+  "scored_days": 953,
+  "rank_ic_days": 952,
+  "validation_rows": 1864363,
+  "selected_missing_target_days": 0,
+  "zero_training_history_stock_days": 211,
+  "validation_parameter_policy": "daily_online"
+}

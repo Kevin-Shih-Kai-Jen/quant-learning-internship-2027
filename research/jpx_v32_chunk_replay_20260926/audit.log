@@ -1,0 +1,21 @@
+AUDIT 2018 0 seconds 0.1
+AUDIT 2018 500 seconds 3.8
+AUDIT 2018 1000 seconds 7.3
+AUDIT 2018 1500 seconds 10.9
+FOLD_AUDIT {"validation_year": 2018, "passed": true, "train_rows": 459550, "blocks_verified": 585275, "all_updates_verified": 812307, "max_parameter_error": 8.326672684688674e-17, "max_learning_rate_error": 1.6653345369377348e-15, "shared_max_parameter_error": 1.214306433183765e-16, "known_label_timing": true, "stock_isolation": true, "nll_mse_update_equivalence": true}
+AUDIT 2019 0 seconds 0.2
+AUDIT 2019 500 seconds 7.3
+AUDIT 2019 1000 seconds 14.0
+AUDIT 2019 1500 seconds 20.8
+FOLD_AUDIT {"validation_year": 2019, "passed": true, "train_rows": 927143, "blocks_verified": 1177002, "all_updates_verified": 1636917, "max_parameter_error": 1.1102230246251565e-16, "max_learning_rate_error": 1.6653345369377348e-15, "shared_max_parameter_error": 1.214306433183765e-16, "known_label_timing": true, "stock_isolation": true, "nll_mse_update_equivalence": true}
+AUDIT 2020 0 seconds 0.3
+AUDIT 2020 500 seconds 10.7
+AUDIT 2020 1000 seconds 20.6
+AUDIT 2020 1500 seconds 30.6
+FOLD_AUDIT {"validation_year": 2020, "passed": true, "train_rows": 1395291, "blocks_verified": 1771430, "all_updates_verified": 2462619, "max_parameter_error": 1.1102230246251565e-16, "max_learning_rate_error": 1.6653345369377348e-15, "shared_max_parameter_error": 1.214306433183765e-16, "known_label_timing": true, "stock_isolation": true, "nll_mse_update_equivalence": true}
+AUDIT 2021 0 seconds 0.4
+AUDIT 2021 500 seconds 14.2
+AUDIT 2021 1000 seconds 27.3
+AUDIT 2021 1500 seconds 40.6
+FOLD_AUDIT {"validation_year": 2021, "passed": true, "train_rows": 1874055, "blocks_verified": 2376925, "all_updates_verified": 3303718, "max_parameter_error": 1.1102230246251565e-16, "max_learning_rate_error": 1.6653345369377348e-15, "shared_max_parameter_error": 1.214306433183765e-16, "known_label_timing": true, "stock_isolation": true, "nll_mse_update_equivalence": true}
+ALL_AUDITS_PASSED

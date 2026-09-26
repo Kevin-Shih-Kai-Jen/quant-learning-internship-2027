@@ -1,0 +1,12 @@
+{
+  "variant": "shared_online",
+  "sharpe": 0.007678871562421089,
+  "rank_ic": -0.0007338924981283135,
+  "mse": 0.0006654329991343369,
+  "scored_days": 953,
+  "rank_ic_days": 952,
+  "validation_rows": 1864363,
+  "selected_missing_target_days": 0,
+  "zero_training_history_stock_days": 211,
+  "validation_parameter_policy": "daily_online"
+}

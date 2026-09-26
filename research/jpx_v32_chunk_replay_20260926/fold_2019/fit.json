@@ -1,0 +1,21 @@
+{
+  "validation_year": 2019,
+  "fit_at_signal_close": "2018-12-28",
+  "train_rows": 927143,
+  "unique_training_stocks": 1930,
+  "zero_history_stocks": 70,
+  "min_signal_date": "2017-01-04",
+  "max_signal_date": "2018-12-26",
+  "max_label_exit": "2018-12-28",
+  "training_blocks": 1177002,
+  "training_updates": 1636917,
+  "stages": [
+    "single",
+    "chunk5",
+    "chunk22",
+    "chunk60",
+    "calendar_year"
+  ],
+  "peak_block_mse_increase": 0.0,
+  "seconds": 17.124165332999837
+}

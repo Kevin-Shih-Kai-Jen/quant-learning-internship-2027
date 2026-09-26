@@ -1,0 +1,37 @@
+RANGED_DOWNLOAD snapshot-2026-09-24-data-033-compressed-jpx_v8_soft_rank_20260912.tar 334735360 160
+PROGRESS 16 160 63.5
+PROGRESS 32 160 63.5
+PROGRESS 48 160 77.1
+PROGRESS 64 160 77.2
+PROGRESS 80 160 95.0
+PROGRESS 96 160 117.1
+PROGRESS 112 160 121.7
+PROGRESS 128 160 135.2
+PROGRESS 144 160 171.5
+PROGRESS 160 160 172.5
+VERIFIED  research/project_archive_20260924/compressed_data/jpx_v8_soft_rank_20260912/inputs.pkl.gz
+Verification completed with 0 error(s).
+RANGED_DOWNLOAD snapshot-2026-09-25-v31-stock-mse-data-001-jpx_v31_stock_specific_mse_20260925.tar 296673280 142
+PROGRESS 16 142 108.3
+PROGRESS 32 142 108.3
+PROGRESS 48 142 108.3
+PROGRESS 64 142 108.3
+PROGRESS 80 142 108.3
+PROGRESS 96 142 122.0
+PROGRESS 112 142 147.5
+PROGRESS 128 142 147.5
+PROGRESS 142 142 155.6
+VERIFIED  research/jpx_v31_stock_specific_mse_20260925/shared_v7/predictions.npz
+Verification completed with 0 error(s).
+RANGED_DOWNLOAD snapshot-2026-09-25-v31-stock-mse-data-001-jpx_v31_stock_specific_mse_20260925.tar 296673280 142
+PROGRESS 16 142 0.0
+PROGRESS 32 142 0.0
+PROGRESS 48 142 0.0
+PROGRESS 64 142 0.0
+PROGRESS 80 142 0.0
+PROGRESS 96 142 0.0
+PROGRESS 112 142 0.0
+PROGRESS 128 142 0.0
+PROGRESS 142 142 0.0
+VERIFIED  research/jpx_v31_stock_specific_mse_20260925/stock_specific/predictions.npz
+Verification completed with 0 error(s).

@@ -1,0 +1,34 @@
+{
+  "passed": true,
+  "source_tag": "snapshot-2026-09-25-v31-stock-mse",
+  "transport": "range requests; original full TAR/member SHA256 validation and safe install",
+  "packs": [
+    {
+      "pack": "snapshot-2026-09-24-data-033-compressed-jpx_v8_soft_rank_20260912.tar",
+      "sha256": "6c624b406d014172931c02abb65ad2f476fa6005d0785559135bf565a7038c2c",
+      "size": 334735360,
+      "selected": [
+        "research/project_archive_20260924/compressed_data/jpx_v8_soft_rank_20260912/inputs.pkl.gz"
+      ],
+      "seconds": 173.72448129199984
+    },
+    {
+      "pack": "snapshot-2026-09-25-v31-stock-mse-data-001-jpx_v31_stock_specific_mse_20260925.tar",
+      "sha256": "2e93558732acfe77c8489cf2f37e105a37fa888d60b3ea37ecff0308d4791dae",
+      "size": 296673280,
+      "selected": [
+        "research/jpx_v31_stock_specific_mse_20260925/shared_v7/predictions.npz"
+      ],
+      "seconds": 156.26890337499935
+    },
+    {
+      "pack": "snapshot-2026-09-25-v31-stock-mse-data-001-jpx_v31_stock_specific_mse_20260925.tar",
+      "sha256": "2e93558732acfe77c8489cf2f37e105a37fa888d60b3ea37ecff0308d4791dae",
+      "size": 296673280,
+      "selected": [
+        "research/jpx_v31_stock_specific_mse_20260925/stock_specific/predictions.npz"
+      ],
+      "seconds": 0.6064009999990958
+    }
+  ]
+}

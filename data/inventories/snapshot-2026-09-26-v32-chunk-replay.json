@@ -1,0 +1,664 @@
+{
+  "schema_version": 1,
+  "tag": "snapshot-2026-09-26-v32-chunk-replay",
+  "excluded": {},
+  "files": [
+    {
+      "path": "research/jpx_v31_stock_specific_mse_20260925/shared_v7/predictions.npz",
+      "size": 22271895,
+      "sha256": "a4c15d3352c6c77c0194fd7abe19fd980e290bcf50f2080f09a1eae5ec72e10c",
+      "mtime_ns": 1790307224669027724,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_v31_stock_specific_mse_20260925/stock_specific/predictions.npz",
+      "size": 22404891,
+      "sha256": "20ae635423fb1a8659db20d0138edc2ec951bae9e47f36f8b25b5149dbaea4aa",
+      "mtime_ns": 1790307228124673328,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/JPX-v32-chunk-replay-report.md",
+      "size": 5470,
+      "sha256": "22ef41d5bc8d6a8f6fe8789678796508e82f07025a509bd9c9bda742792ef919",
+      "mtime_ns": 1790405685514210407,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/all_models_daily.csv",
+      "size": 660379,
+      "sha256": "1763340744d07efc37e2b3b2f6c2c519dd049452c4c24d5c32123049e7f10f6b",
+      "mtime_ns": 1790405685109161529,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/all_stage_coefficients.csv",
+      "size": 11118646,
+      "sha256": "128c8d0f83d9ada970a76bb5d674bc8a98dcaadb22167ca7d509259a6d550990",
+      "mtime_ns": 1790405685507435530,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/audit.json",
+      "size": 2884,
+      "sha256": "4b293a4a824481d98bb05a67d78f2eb4879ba04b0dd0bcd59ab5279bdb077de0",
+      "mtime_ns": 1790405643783838486,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/audit.log",
+      "size": 1962,
+      "sha256": "f89e9b138520a42ffe4e47b0329a1ddc85182bb3c1c42ba2eec5a984758f50d5",
+      "mtime_ns": 1790405643783866069,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/audit.py",
+      "size": 8029,
+      "sha256": "157d0cd638c85c6067148028c6ab8b85de21c1b66579e2d60c34d9f84e076b08",
+      "mtime_ns": 1790405314631224661,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/comparison.csv",
+      "size": 755,
+      "sha256": "4569df89bc243e94a0e232ac6857549bae7d73c86b858906993a446893013c52",
+      "mtime_ns": 1790405685085961309,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/comparison_by_year.csv",
+      "size": 1844,
+      "sha256": "d76743ea2436464c28a410e8d21a48a132a54fe44f0c6019cf1b2a47309ae078",
+      "mtime_ns": 1790405685086324179,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/config.json",
+      "size": 895,
+      "sha256": "aee6461a0b08770238114516436e25b1a3433c0b913c40717b8cf2c96d14f3f9",
+      "mtime_ns": 1790405031752879965,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/delivery_audit.json",
+      "size": 331,
+      "sha256": "61d04725181b2f1afa1096bd261a0a4bb3fe69dba5c3515de4fb2b5ef782ce67",
+      "mtime_ns": 1790405805340399784,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/experiment_defaults_snapshot.json",
+      "size": 868,
+      "sha256": "a891c611d087aff7196f7508656946f77cc8cfef3ff3f8ae170e44010f4e83be",
+      "mtime_ns": 1789558639008074322,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/experiment_plan.md",
+      "size": 3910,
+      "sha256": "92735548ff88b6453a8e26727abb906c9ee6060dc294cf7e7c7a83db5b617670",
+      "mtime_ns": 1790405031712850322,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/fetch.log",
+      "size": 1316,
+      "sha256": "c86eac4c47e45cce6db9de025318cb5c434c985fbd5a34a148b116507c9bd30f",
+      "mtime_ns": 1790405267119683820,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/fetch_ranges.py",
+      "size": 4334,
+      "sha256": "22a49a4c88483feaf5b73c9e90378f69d9c30628ddbe996f374eee6ec6fbc378",
+      "mtime_ns": 1790404913903969169,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/fold_summary.csv",
+      "size": 1017,
+      "sha256": "f0db53badc494cef8aef241b8b4e4cf2b5644353311e99d869011a01402ad878",
+      "mtime_ns": 1790405685109900229,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/manifest.json",
+      "size": 3600,
+      "sha256": "5e5638214b36c2959df7cf3e2876f278c554d9cb1a41496580ad6e181dad1d9e",
+      "mtime_ns": 1790405413925192885,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/mobile_pdf.py",
+      "size": 4448,
+      "sha256": "0444ff1745a117111526d4233d7540a5b2a197b0534949b8b4c35017836db078",
+      "mtime_ns": 1790405763126973550,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/paired_block_bootstrap.csv",
+      "size": 1300,
+      "sha256": "0b9cc85a9224850b38291ec3a8e5dd7795ffacb8cd7d9931142631752a2a3b28",
+      "mtime_ns": 1790405685086906797,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/per_stock_diagnostics.csv",
+      "size": 102993,
+      "sha256": "3fbb40d32849af0775270be44e0291c701fa60e72b23dc378b8668e0dc126329",
+      "mtime_ns": 1790405685511854644,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/raw_results.json",
+      "size": 1957,
+      "sha256": "d80983b1649c9ea003830082dd7dae5014dec6d828bc5d470f336207fae9f4cb",
+      "mtime_ns": 1790405413925319634,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/report.log",
+      "size": 2575,
+      "sha256": "b4f7150fc7b6520c55b01595469904dcfdc0cf1c23b898d1302798214e2eafb4",
+      "mtime_ns": 1790405685517308703,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/report.py",
+      "size": 11401,
+      "sha256": "6062ab420f406f729a5b3371a1661359e296af7ee3875fd6ca2955bb13ab26ad",
+      "mtime_ns": 1790405487152525486,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/restore.log",
+      "size": 193,
+      "sha256": "965ae6619e375b0456560377f02730526b4fba16cc135d1fd9fb1b22d86115f8",
+      "mtime_ns": 1790405194221316051,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/results.json",
+      "size": 7620,
+      "sha256": "b656669f273f0db15c532dde6ce948863cc1aca095f433dddcd11afc16bc9ab2",
+      "mtime_ns": 1790405685512124266,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/retrieval_verification.json",
+      "size": 1299,
+      "sha256": "b67ae97ff25018bd8a05e54e7f6c61ad5b95d8d7cf15a47dd15f5ce0881fbf4d",
+      "mtime_ns": 1790405267119966234,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/run.log",
+      "size": 3911,
+      "sha256": "c8e387824c8f77f7e863dbb13a1a3b3c6da5265e663acd72d504942cd6d14fbf",
+      "mtime_ns": 1790405413920755897,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/run.py",
+      "size": 9902,
+      "sha256": "9c47298a367f364f1663ddeaf64e500414a088bf92f737070c3ab6f08e5ac152",
+      "mtime_ns": 1790405162402995278,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/task_storage.json",
+      "size": 611,
+      "sha256": "51eec46a68963301a3ca56b6a850ed0bd0838d52b1b5f1878b431dc4760dc71a",
+      "mtime_ns": 1790405805340602321,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/training_stages_summary.csv",
+      "size": 1796,
+      "sha256": "f9b280197be48392a16b6c7c80a07097f43d0fa06102a9070ad0338505217160",
+      "mtime_ns": 1790405685109575774,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/version.json",
+      "size": 161,
+      "sha256": "b4c60e703a4446cd4e69a8e51b5445665da71be39fb5be2a28bd20378cd16d6a",
+      "mtime_ns": 1790405685514327822,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/fold_2018/fit.json",
+      "size": 483,
+      "sha256": "edd20c92d62a2bdbe2528c2e70fdb962977e787c6c939317cb020c77b0d70564",
+      "mtime_ns": 1790405326069510200,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/fold_2018/shared_parameters.json",
+      "size": 407,
+      "sha256": "72dd6e48847e9370c9cd004424d56eae31e6f703aacbf97ecd2a5292166c6c3a",
+      "mtime_ns": 1790405326052777943,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/fold_2018/shared_training_updates.csv",
+      "size": 81749,
+      "sha256": "4703d5783e2cdb8b6e9b8c79f96ea3e81f405fed9c1614038a19cfb697b83efc",
+      "mtime_ns": 1790405326052548279,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/fold_2018/stage_parameters.npz",
+      "size": 875009,
+      "sha256": "98f73c51aafe46e9c8cdd74f49634257a40c6181894f28cae34932f6c586f0dc",
+      "mtime_ns": 1790405325591742030,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/fold_2018/training_stage_diagnostics.csv",
+      "size": 848905,
+      "sha256": "03a99355a8821356b08c31470abb91a8e7dccd79ffd1ee88e07669de027bb012",
+      "mtime_ns": 1790405325629804447,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/fold_2018/training_trace.npz",
+      "size": 77766392,
+      "sha256": "5fc364669401d52879cce11bac5ee935af7bc074ade8dedceb474eb7e2b103ed",
+      "mtime_ns": 1790405325565175225,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/fold_2019/fit.json",
+      "size": 485,
+      "sha256": "ae5acbdb5f31ef66782bcec0e083165bc3b06482f34812e7b76ddd9e39240a33",
+      "mtime_ns": 1790405343471907583,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/fold_2019/shared_parameters.json",
+      "size": 403,
+      "sha256": "7db5ec3ba54155572fab0067070093aabb58087bc4efdc7acaf39d6820d2d1a8",
+      "mtime_ns": 1790405343436319178,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/fold_2019/shared_training_updates.csv",
+      "size": 167892,
+      "sha256": "bfea49e0e5ba8798ff20532237815cb737febfd8411ca7ea51faad7d58e37b0d",
+      "mtime_ns": 1790405343436083181,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/fold_2019/stage_parameters.npz",
+      "size": 890392,
+      "sha256": "f4a6a2a895b312a046dc2f6fa17946ff877e4b2675823de9358a8608afb7d363",
+      "mtime_ns": 1790405342527616609,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/fold_2019/training_stage_diagnostics.csv",
+      "size": 857658,
+      "sha256": "c3830144f5c14a1a84c81b2a997a6226b442cc6a608552c4e429fcb8d2326e58",
+      "mtime_ns": 1790405342564930785,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/fold_2019/training_trace.npz",
+      "size": 161424149,
+      "sha256": "dccf3f55fbf442728b3693e822ec9d3392e37f22ecb2b8af29905f77b4ece6bd",
+      "mtime_ns": 1790405342500778973,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/fold_2020/fit.json",
+      "size": 485,
+      "sha256": "2324dd5216dcf09f943d068e8117d164d2713ff98ba66bc01249c04430a5ff34",
+      "mtime_ns": 1790405369674001411,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/fold_2020/shared_parameters.json",
+      "size": 408,
+      "sha256": "ad1d4f714fa9b1ddf902341434769fb6c9e4ea6790bdf967c9f7eddfc1c594d4",
+      "mtime_ns": 1790405369624379092,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/fold_2020/shared_training_updates.csv",
+      "size": 252794,
+      "sha256": "66d7ebee7ea672d8f172247e721e477da37b14b260c631e8356f5e2bde864462",
+      "mtime_ns": 1790405369624168261,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/fold_2020/stage_parameters.npz",
+      "size": 906573,
+      "sha256": "1aa05ebfd2fdc8d1892051bcbd9bf0c45f5baaa23866eb2ffaff9700676a253d",
+      "mtime_ns": 1790405368240396239,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/fold_2020/training_stage_diagnostics.csv",
+      "size": 871793,
+      "sha256": "63ffa36a3d8d2730b6675c3c9a1c0e3ab2f5ec5bb44cc1532902557b2b67a328",
+      "mtime_ns": 1790405368278822235,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/fold_2020/training_trace.npz",
+      "size": 245202692,
+      "sha256": "01b0e092f4fc45b7d341a9c394d66a53541a4e86809a06e15dab29a7370ad781",
+      "mtime_ns": 1790405368211884582,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/fold_2021/fit.json",
+      "size": 484,
+      "sha256": "d505d9ba7c2d89a964b0a022653f145aa430e90184e3a01c07c6160756b95bf3",
+      "mtime_ns": 1790405404645919834,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/fold_2021/shared_parameters.json",
+      "size": 404,
+      "sha256": "a5d8ea4b4b0e1724479b42c4686a4cdda65dccf19272ca78949f912940e663d8",
+      "mtime_ns": 1790405404579219345,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/fold_2021/shared_training_updates.csv",
+      "size": 337330,
+      "sha256": "7a019547f7771f6f91f3e41cd2cd448191d246c700785b9036359669fb902a8b",
+      "mtime_ns": 1790405404578993473,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/fold_2021/stage_parameters.npz",
+      "size": 922509,
+      "sha256": "a076408aecd0c6ad1fd47fb48b00fb8dbddfccc9936433622abd02613c7f7d04",
+      "mtime_ns": 1790405402709613959,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/fold_2021/training_stage_diagnostics.csv",
+      "size": 881902,
+      "sha256": "84728bc4d116f2ecd2049848e04e38449d1c0ebdd397a3bb20202866e02baf42",
+      "mtime_ns": 1790405402748966735,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/fold_2021/training_trace.npz",
+      "size": 330598029,
+      "sha256": "7dc652af560b397f3355e0342085b20e778ee748ebc60301f86679ada515b59a",
+      "mtime_ns": 1790405402681317841,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/output/JPX-v32-chunk-replay-data-20260926.zip",
+      "size": 5233322,
+      "sha256": "59e519dbde4a290ae6125c8be337bbf9e741111ce98374bdddd50818b9b5825a",
+      "mtime_ns": 1790405765252524982,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/output/pdf/JPX-v32-chunk-replay-mobile-20260926.pdf",
+      "size": 141145,
+      "sha256": "93f29cc742f0c69187dadb754fcc4e653376aedd05bc604bae2feac31d5095bf",
+      "mtime_ns": 1790405764017904458,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/shared_frozen/audit.json",
+      "size": 126,
+      "sha256": "1850a10ac444d85444f54adf8c097a8e17b6c83954873ad52b80a2ff90c32d8d",
+      "mtime_ns": 1790405641301410513,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/shared_frozen/daily_metrics.csv",
+      "size": 125786,
+      "sha256": "bdbb9ef032ace64a5b52565ad49014fcbaa2b100d647d9b2ccceb73ffc507895",
+      "mtime_ns": 1790405408924351121,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/shared_frozen/predictions.npz",
+      "size": 17661504,
+      "sha256": "d41f1349d04d0628cd96cd492637e8107b70f6051d7bd8ef40beca2b7ae26828",
+      "mtime_ns": 1790405410255150239,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/shared_frozen/results.json",
+      "size": 349,
+      "sha256": "96c8b80307af7f8eeb939e4d0d99fd693dfcc9b9414800448125658a0e30ff1a",
+      "mtime_ns": 1790405410258386658,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/shared_online/audit.json",
+      "size": 126,
+      "sha256": "0002d8f90534089a99ff7b00eef544037462ddf1355fd3a25386df93b3d4e562",
+      "mtime_ns": 1790405638767500742,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/shared_online/daily_metrics.csv",
+      "size": 125329,
+      "sha256": "6d7803d248d08532d6013483d3a5b3284a5f1f61d7ec79b841277e04d9fd0131",
+      "mtime_ns": 1790405405201875356,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/shared_online/predictions.npz",
+      "size": 17971350,
+      "sha256": "d6f5acd796d49c756ba6863ea4b4f573407c6e135c870d2f4b63c1a4ef56e4ce",
+      "mtime_ns": 1790405406561007715,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/shared_online/results.json",
+      "size": 340,
+      "sha256": "c8720d606e061893708e3c09c1b1e4fa99591be882fed91015b4039e85b1c2b1",
+      "mtime_ns": 1790405406563902181,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/stock_chunk_frozen/audit.json",
+      "size": 126,
+      "sha256": "ffbed7313780d2d9d089e1825292a7dcf61f8f36b7646261fe201ad1a13601e2",
+      "mtime_ns": 1790405643783222452,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/stock_chunk_frozen/daily_metrics.csv",
+      "size": 125105,
+      "sha256": "279ad4c633f8f486e68c8fec5ce1b247e49450392d661915804c04e77f71d26e",
+      "mtime_ns": 1790405412581164177,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/stock_chunk_frozen/predictions.npz",
+      "size": 17764059,
+      "sha256": "96c4eabac63b5ecc909e44a368991b3a06b8c3cee0607be8dcfc5e6fd5343bdd",
+      "mtime_ns": 1790405413917956264,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/stock_chunk_frozen/results.json",
+      "size": 353,
+      "sha256": "85ccb9b6396209ca567177de94eec1e19b9715487ef3989c54a3932db5ed5e41",
+      "mtime_ns": 1790405413920719981,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/stock_online/audit.json",
+      "size": 127,
+      "sha256": "9aac589a106c2a0240fb1c8868b5739a77bc79ecd759f29fb0da0705c82a703e",
+      "mtime_ns": 1790405640062908119,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/stock_online/daily_metrics.csv",
+      "size": 123032,
+      "sha256": "e53bfba8cba0e35b85a84aec30f3a723dd8faec0e77320512006a0fd66381836",
+      "mtime_ns": 1790405407061683193,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/stock_online/predictions.npz",
+      "size": 18056084,
+      "sha256": "b4369c5f6f79d434291179dd1d95986ff41f12433929f527696915123a44f23d",
+      "mtime_ns": 1790405408424869588,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/stock_online/results.json",
+      "size": 338,
+      "sha256": "2a4a3b9a0ddbebb45357cb7a509c474323a845497bc6e8b9ff7f38d45e7c19f6",
+      "mtime_ns": 1790405408428023133,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/stock_single_frozen/audit.json",
+      "size": 125,
+      "sha256": "5d07c1c6bd833d02a07b748f7eb2189244cf171d7204976189db22ea400ff35e",
+      "mtime_ns": 1790405642541068310,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/stock_single_frozen/daily_metrics.csv",
+      "size": 123355,
+      "sha256": "9e00259c97951914704aa39d5d7090081c7ea283847cfa01ebcdca506198c17e",
+      "mtime_ns": 1790405410755640302,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/stock_single_frozen/predictions.npz",
+      "size": 17758047,
+      "sha256": "2303b047a558cc49addd13669c702c366dac348288af9814211eb726d5ca73e3",
+      "mtime_ns": 1790405412080854987,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/stock_single_frozen/results.json",
+      "size": 354,
+      "sha256": "12ba621fa8d60f65ed0a69e8823ffc6d662b004bc64a637902981013bac589fe",
+      "mtime_ns": 1790405412084286612,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_v8_soft_rank_20260912/inputs.pkl",
+      "size": 468803515,
+      "sha256": "6b0ff60bfb8eab20ec7c6e087e746dd6e0ccc38b9633d1a11d98477d84857bc6",
+      "mtime_ns": 1789213159545419153,
+      "mode": 420,
+      "storage": "release",
+      "compressed_archive_path": "research/project_archive_20260924/compressed_data/jpx_v8_soft_rank_20260912/inputs.pkl.gz"
+    },
+    {
+      "path": "research/project_archive_20260924/COMPRESSED_DATA_MANIFEST.json",
+      "size": 77623,
+      "sha256": "a6ce61638ac9cc74d17dc0163693be7dac6a2cdb9cb7cbcdb62385566199bb5a",
+      "mtime_ns": 1790233095713468225,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/project_archive_20260924/restore_data.py",
+      "size": 9687,
+      "sha256": "8ec7a6053eb54226e8d1cfcd611f6b1be12a0344102f7e3392a4b0e527a8889d",
+      "mtime_ns": 1790233069916969549,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/project_archive_20260924/compressed_data/jpx_v8_soft_rank_20260912/inputs.pkl.gz",
+      "size": 334726480,
+      "sha256": "b4a47ff7765b13fc47ab08984ab9d6dcb95d83503e69596f11c8f3cfc2116638",
+      "mtime_ns": 1790233018573471031,
+      "mode": 420,
+      "storage": "release"
+    }
+  ]
+}

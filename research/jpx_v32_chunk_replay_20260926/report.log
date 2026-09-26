@@ -1,0 +1,28 @@
+            Variant          Label    Sharpe    RankIC      MSE  CommonScoredDays  AllScoredDays  RankICDays  ZeroHistoryStockDays
+      shared_online  原v7：共用參數、每日更新  0.007679 -0.000734 0.000665               953            953         952                   211
+       stock_online 原v31：逐檔參數、每日更新 -0.019197 -0.002766 0.003937               953            953         952                   211
+      shared_frozen      共用參數、年度固定  0.021392  0.003194 0.000634               953            953         952                  9295
+stock_single_frozen   逐檔只逐筆訓練、年度固定  0.033108  0.001530 0.002828               953            953         952                  9295
+ stock_chunk_frozen    逐檔分段複習、年度固定  0.025989  0.001286 0.000687               953            953         952                  9295
+            Variant  ValidationYear  Days    Sharpe    RankIC      MSE
+      shared_online            2018   245 -0.011514 -0.001318 0.000666
+      shared_online            2019   241  0.050067  0.000502 0.000488
+      shared_online            2020   242  0.050857  0.002987 0.000991
+      shared_online            2021   225 -0.087605 -0.005408 0.000504
+       stock_online            2018   245 -0.067010 -0.000993 0.004122
+       stock_online            2019   241  0.038136 -0.005225 0.005218
+       stock_online            2020   242 -0.022473 -0.003873 0.003622
+       stock_online            2021   225 -0.020521 -0.000876 0.002701
+      shared_frozen            2018   245  0.028964  0.003982 0.000597
+      shared_frozen            2019   241 -0.018431 -0.000421 0.000580
+      shared_frozen            2020   242  0.066320  0.005913 0.000845
+      shared_frozen            2021   225 -0.056397  0.003295 0.000506
+stock_single_frozen            2018   245 -0.027082 -0.001564 0.002045
+stock_single_frozen            2019   241  0.087538  0.002600 0.003535
+stock_single_frozen            2020   242  0.034161  0.001809 0.002268
+stock_single_frozen            2021   225  0.045416  0.003453 0.003526
+ stock_chunk_frozen            2018   245 -0.035518 -0.004220 0.000674
+ stock_chunk_frozen            2019   241  0.021009  0.002880 0.000555
+ stock_chunk_frozen            2020   242  0.120347  0.006821 0.000903
+ stock_chunk_frozen            2021   225 -0.006215 -0.000353 0.000612
+{"ModelA": "stock_chunk_frozen", "ModelB": "stock_single_frozen", "Metric": "Sharpe", "Difference": -0.0071193761092089684, "CI95Low": -0.07900699762821545, "CI95High": 0.07247809093831811}
