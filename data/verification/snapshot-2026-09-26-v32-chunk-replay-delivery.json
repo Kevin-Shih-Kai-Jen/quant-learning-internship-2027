@@ -1,0 +1,650 @@
+{
+  "status": "completed",
+  "experiment": "jpx_v32_chunk_replay_20260926",
+  "source_snapshot": "snapshot-2026-09-25-v31-stock-mse",
+  "new_snapshot": "snapshot-2026-09-26-v32-chunk-replay",
+  "remote": {
+    "passed": true,
+    "repository_private": true,
+    "release_published": true,
+    "tag": "snapshot-2026-09-26-v32-chunk-replay",
+    "tag_commit": "347b6bedf61699fd46e71c39d4a1cc3f437a4f4c",
+    "main_commit_at_verification": "347b6bedf61699fd46e71c39d4a1cc3f437a4f4c",
+    "changed_git_files_verified": [
+      {
+        "path": "AGENTS.md",
+        "blob_sha": "9b8f823f107712b11272d77ccfe2d85b3ac82c61",
+        "sha256": "8bf36ab8e2632224198bd713359d3dc651d67540b4ff8dbcf25b94250501511c",
+        "size": 5907
+      },
+      {
+        "path": "data/catalogs/snapshot-2026-09-26-v32-chunk-replay-SHA256SUMS.txt",
+        "blob_sha": "7d9208c53cc8280bfa1b0c570648411e00bfe502",
+        "sha256": "a4c9f183ee2ed99df0dee755c5aa381e507d619de880c9a0529407ccf237d919",
+        "size": 12220
+      },
+      {
+        "path": "data/catalogs/snapshot-2026-09-26-v32-chunk-replay.json",
+        "blob_sha": "ebdaeef77e48058f60a327d84823d6abede37afb",
+        "sha256": "7e1359eb8434787dc5be5954d30fdb7158318eb533b809f97dff144ef65037ae",
+        "size": 2783518
+      },
+      {
+        "path": "data/index.json",
+        "blob_sha": "22e6c846a573b436a764f70c0da73707952b5955",
+        "sha256": "e9fcaef850a32fed1d243e67cf79f27a2ab15d2281723f31c5fd2567f2e73d4f",
+        "size": 566
+      },
+      {
+        "path": "data/inventories/snapshot-2026-09-26-v32-chunk-replay.json",
+        "blob_sha": "5ef1455f39c7d244bdae3779860a358a605f824e",
+        "sha256": "15ef94cd4cc7c783016566e97330216f4939c8de93706dbbbf5a1f5ddf847a22",
+        "size": 23400
+      },
+      {
+        "path": "data/verification/snapshot-2026-09-26-v32-chunk-replay.json",
+        "blob_sha": "440570bbaa6f1587999ae427cc04e6fcc806dcd9",
+        "sha256": "9f984dec713c1423bb61dcd1d5d44ad9e523815462af3f20d70d896e6aad443d",
+        "size": 34434
+      },
+      {
+        "path": "docs/RESEARCH_MAP.md",
+        "blob_sha": "33a14ef1fad7702e062eef4df499e409f25c3797",
+        "sha256": "a1209830124cc39fecd8a3ec38a1fd608f1a0c733963a2f747d3f0f474b7b6ce",
+        "size": 6157
+      },
+      {
+        "path": "docs/releases/snapshot-2026-09-26-v32-chunk-replay.md",
+        "blob_sha": "39565f654e809ab82071513027aed58250f44f47",
+        "sha256": "9e808ba46c576db48aa3b4cc3d746e4b6b300752808dc7637ddc8aaedc4bf67e",
+        "size": 636
+      },
+      {
+        "path": "research/JPX-current-baseline.md",
+        "blob_sha": "7319b2fc3457e9d55ac912045d0a609557d1d31f",
+        "sha256": "ff01cbfa35982215677a8814cf45b0775b154b6f7efa6a7d1936f9786923cbd2",
+        "size": 19373
+      },
+      {
+        "path": "research/jpx_model_versions.json",
+        "blob_sha": "df38e1a9b27be0727db621c43669d3ebfa3f376c",
+        "sha256": "ab6327f2b27f83317dc973d468b7f39e71a5abfbb928f61db3f21e30f3035aeb",
+        "size": 27119
+      },
+      {
+        "path": "research/jpx_v32_chunk_replay_20260926/JPX-v32-chunk-replay-report.md",
+        "blob_sha": "9065e16d7c077c4afb46c466d064915128a6f046",
+        "sha256": "22ef41d5bc8d6a8f6fe8789678796508e82f07025a509bd9c9bda742792ef919",
+        "size": 5470
+      },
+      {
+        "path": "research/jpx_v32_chunk_replay_20260926/audit.json",
+        "blob_sha": "ae495e5a6655e4da752baa0f44a4cd9b5afbb0a7",
+        "sha256": "4b293a4a824481d98bb05a67d78f2eb4879ba04b0dd0bcd59ab5279bdb077de0",
+        "size": 2884
+      },
+      {
+        "path": "research/jpx_v32_chunk_replay_20260926/audit.log",
+        "blob_sha": "583ba4838cb8e9d969857714e3d2dcbd23ab2a21",
+        "sha256": "f89e9b138520a42ffe4e47b0329a1ddc85182bb3c1c42ba2eec5a984758f50d5",
+        "size": 1962
+      },
+      {
+        "path": "research/jpx_v32_chunk_replay_20260926/audit.py",
+        "blob_sha": "434c3e65e4f38382e43fa3418a17fff6d581ba38",
+        "sha256": "157d0cd638c85c6067148028c6ab8b85de21c1b66579e2d60c34d9f84e076b08",
+        "size": 8029
+      },
+      {
+        "path": "research/jpx_v32_chunk_replay_20260926/comparison.csv",
+        "blob_sha": "d379ebd2ac18ed07396329eaa428f6c4924f00a8",
+        "sha256": "4569df89bc243e94a0e232ac6857549bae7d73c86b858906993a446893013c52",
+        "size": 755
+      },
+      {
+        "path": "research/jpx_v32_chunk_replay_20260926/comparison_by_year.csv",
+        "blob_sha": "4d3e2a5a5cfaf58ed4ca2968e9f91068457071c3",
+        "sha256": "d76743ea2436464c28a410e8d21a48a132a54fe44f0c6019cf1b2a47309ae078",
+        "size": 1844
+      },
+      {
+        "path": "research/jpx_v32_chunk_replay_20260926/config.json",
+        "blob_sha": "c9162501dfb814eac94ac0fb085e4b1531d38525",
+        "sha256": "aee6461a0b08770238114516436e25b1a3433c0b913c40717b8cf2c96d14f3f9",
+        "size": 895
+      },
+      {
+        "path": "research/jpx_v32_chunk_replay_20260926/delivery_audit.json",
+        "blob_sha": "74c7cb2685b5f0b17c7b7ea75ba294e210bae57b",
+        "sha256": "61d04725181b2f1afa1096bd261a0a4bb3fe69dba5c3515de4fb2b5ef782ce67",
+        "size": 331
+      },
+      {
+        "path": "research/jpx_v32_chunk_replay_20260926/experiment_defaults_snapshot.json",
+        "blob_sha": "9f57772493958f3528bb9799644a666ac22e550e",
+        "sha256": "a891c611d087aff7196f7508656946f77cc8cfef3ff3f8ae170e44010f4e83be",
+        "size": 868
+      },
+      {
+        "path": "research/jpx_v32_chunk_replay_20260926/experiment_plan.md",
+        "blob_sha": "9f7336b8849760b17920287029fd61274434a9ce",
+        "sha256": "92735548ff88b6453a8e26727abb906c9ee6060dc294cf7e7c7a83db5b617670",
+        "size": 3910
+      },
+      {
+        "path": "research/jpx_v32_chunk_replay_20260926/fetch.log",
+        "blob_sha": "9dfc7b0e98d746d7fbfaa228954b106b017619d9",
+        "sha256": "c86eac4c47e45cce6db9de025318cb5c434c985fbd5a34a148b116507c9bd30f",
+        "size": 1316
+      },
+      {
+        "path": "research/jpx_v32_chunk_replay_20260926/fetch_ranges.py",
+        "blob_sha": "85cd4b8b44572698c693b17cdf1bf44288c5a3c6",
+        "sha256": "22a49a4c88483feaf5b73c9e90378f69d9c30628ddbe996f374eee6ec6fbc378",
+        "size": 4334
+      },
+      {
+        "path": "research/jpx_v32_chunk_replay_20260926/fold_2018/fit.json",
+        "blob_sha": "744417004fb2b8a39508adca4f0458e4de6cdcc3",
+        "sha256": "edd20c92d62a2bdbe2528c2e70fdb962977e787c6c939317cb020c77b0d70564",
+        "size": 483
+      },
+      {
+        "path": "research/jpx_v32_chunk_replay_20260926/fold_2018/shared_parameters.json",
+        "blob_sha": "674323542c352f7f9b2622af6cd5700423d3bbf6",
+        "sha256": "72dd6e48847e9370c9cd004424d56eae31e6f703aacbf97ecd2a5292166c6c3a",
+        "size": 407
+      },
+      {
+        "path": "research/jpx_v32_chunk_replay_20260926/fold_2018/shared_training_updates.csv",
+        "blob_sha": "6792bc1324c0e79e89e1b69b2f1b935df875d483",
+        "sha256": "4703d5783e2cdb8b6e9b8c79f96ea3e81f405fed9c1614038a19cfb697b83efc",
+        "size": 81749
+      },
+      {
+        "path": "research/jpx_v32_chunk_replay_20260926/fold_2019/fit.json",
+        "blob_sha": "a2dd320d7a88edac0e93a5f6f75499bf1c60f164",
+        "sha256": "ae5acbdb5f31ef66782bcec0e083165bc3b06482f34812e7b76ddd9e39240a33",
+        "size": 485
+      },
+      {
+        "path": "research/jpx_v32_chunk_replay_20260926/fold_2019/shared_parameters.json",
+        "blob_sha": "9f271bc8552348cd8d5c4ceac3e668f193985db6",
+        "sha256": "7db5ec3ba54155572fab0067070093aabb58087bc4efdc7acaf39d6820d2d1a8",
+        "size": 403
+      },
+      {
+        "path": "research/jpx_v32_chunk_replay_20260926/fold_2019/shared_training_updates.csv",
+        "blob_sha": "18ed0c27df7e8920b827c31a0f4b578267372a5f",
+        "sha256": "bfea49e0e5ba8798ff20532237815cb737febfd8411ca7ea51faad7d58e37b0d",
+        "size": 167892
+      },
+      {
+        "path": "research/jpx_v32_chunk_replay_20260926/fold_2020/fit.json",
+        "blob_sha": "0ad8ceafc154561244eccbd9b8d0adcb2fe1aebf",
+        "sha256": "2324dd5216dcf09f943d068e8117d164d2713ff98ba66bc01249c04430a5ff34",
+        "size": 485
+      },
+      {
+        "path": "research/jpx_v32_chunk_replay_20260926/fold_2020/shared_parameters.json",
+        "blob_sha": "7882abe7daf5ab64c5d6866c57e9671654e0b815",
+        "sha256": "ad1d4f714fa9b1ddf902341434769fb6c9e4ea6790bdf967c9f7eddfc1c594d4",
+        "size": 408
+      },
+      {
+        "path": "research/jpx_v32_chunk_replay_20260926/fold_2020/shared_training_updates.csv",
+        "blob_sha": "4ab0095f4d7c8dc386574b1588ed3f5a78753a4a",
+        "sha256": "66d7ebee7ea672d8f172247e721e477da37b14b260c631e8356f5e2bde864462",
+        "size": 252794
+      },
+      {
+        "path": "research/jpx_v32_chunk_replay_20260926/fold_2021/fit.json",
+        "blob_sha": "3c0342743f129d32e887565fa87c0674c56a053e",
+        "sha256": "d505d9ba7c2d89a964b0a022653f145aa430e90184e3a01c07c6160756b95bf3",
+        "size": 484
+      },
+      {
+        "path": "research/jpx_v32_chunk_replay_20260926/fold_2021/shared_parameters.json",
+        "blob_sha": "8988a4cd70c3c3ee709f99080127e7762a7898bb",
+        "sha256": "a5d8ea4b4b0e1724479b42c4686a4cdda65dccf19272ca78949f912940e663d8",
+        "size": 404
+      },
+      {
+        "path": "research/jpx_v32_chunk_replay_20260926/fold_summary.csv",
+        "blob_sha": "75deba4533af83ab6f096c38ffb09e9687362fa6",
+        "sha256": "f0db53badc494cef8aef241b8b4e4cf2b5644353311e99d869011a01402ad878",
+        "size": 1017
+      },
+      {
+        "path": "research/jpx_v32_chunk_replay_20260926/manifest.json",
+        "blob_sha": "791f3a91e4e07c3a0d969b033db1f39823c509f1",
+        "sha256": "5e5638214b36c2959df7cf3e2876f278c554d9cb1a41496580ad6e181dad1d9e",
+        "size": 3600
+      },
+      {
+        "path": "research/jpx_v32_chunk_replay_20260926/mobile_pdf.py",
+        "blob_sha": "fae73fa8df2c8c2e64a99b88cb309f4f3821110c",
+        "sha256": "0444ff1745a117111526d4233d7540a5b2a197b0534949b8b4c35017836db078",
+        "size": 4448
+      },
+      {
+        "path": "research/jpx_v32_chunk_replay_20260926/output/pdf/JPX-v32-chunk-replay-mobile-20260926.pdf",
+        "blob_sha": "d4527b02b2232c8cf2ed6d6b4ecd60a41960a436",
+        "sha256": "93f29cc742f0c69187dadb754fcc4e653376aedd05bc604bae2feac31d5095bf",
+        "size": 141145
+      },
+      {
+        "path": "research/jpx_v32_chunk_replay_20260926/paired_block_bootstrap.csv",
+        "blob_sha": "0965c5e1fa9516390f7f9055136f50c631430acf",
+        "sha256": "0b9cc85a9224850b38291ec3a8e5dd7795ffacb8cd7d9931142631752a2a3b28",
+        "size": 1300
+      },
+      {
+        "path": "research/jpx_v32_chunk_replay_20260926/per_stock_diagnostics.csv",
+        "blob_sha": "4a0abaf15187957a65036c2645c4e08f151505d6",
+        "sha256": "3fbb40d32849af0775270be44e0291c701fa60e72b23dc378b8668e0dc126329",
+        "size": 102993
+      },
+      {
+        "path": "research/jpx_v32_chunk_replay_20260926/raw_results.json",
+        "blob_sha": "7fe1c960674407405963b4f866c558aa41c6f5b2",
+        "sha256": "d80983b1649c9ea003830082dd7dae5014dec6d828bc5d470f336207fae9f4cb",
+        "size": 1957
+      },
+      {
+        "path": "research/jpx_v32_chunk_replay_20260926/report.log",
+        "blob_sha": "137e7b8958b8f8f9c19f8914d0defee49aec59e8",
+        "sha256": "b4f7150fc7b6520c55b01595469904dcfdc0cf1c23b898d1302798214e2eafb4",
+        "size": 2575
+      },
+      {
+        "path": "research/jpx_v32_chunk_replay_20260926/report.py",
+        "blob_sha": "341c144f979fa3782a513e68f5565144f537fc2d",
+        "sha256": "6062ab420f406f729a5b3371a1661359e296af7ee3875fd6ca2955bb13ab26ad",
+        "size": 11401
+      },
+      {
+        "path": "research/jpx_v32_chunk_replay_20260926/restore.log",
+        "blob_sha": "a2a8c8a614e890196e2c911dda55319f755eb423",
+        "sha256": "965ae6619e375b0456560377f02730526b4fba16cc135d1fd9fb1b22d86115f8",
+        "size": 193
+      },
+      {
+        "path": "research/jpx_v32_chunk_replay_20260926/results.json",
+        "blob_sha": "7169c779656241cde818e20802cb0b17dd4040fb",
+        "sha256": "b656669f273f0db15c532dde6ce948863cc1aca095f433dddcd11afc16bc9ab2",
+        "size": 7620
+      },
+      {
+        "path": "research/jpx_v32_chunk_replay_20260926/retrieval_verification.json",
+        "blob_sha": "774f4d0ab0417613b6c8996b4a191532ffa26350",
+        "sha256": "b67ae97ff25018bd8a05e54e7f6c61ad5b95d8d7cf15a47dd15f5ce0881fbf4d",
+        "size": 1299
+      },
+      {
+        "path": "research/jpx_v32_chunk_replay_20260926/run.log",
+        "blob_sha": "35ba2fa98724f801503eff6cb8f30b67db8b3750",
+        "sha256": "c8e387824c8f77f7e863dbb13a1a3b3c6da5265e663acd72d504942cd6d14fbf",
+        "size": 3911
+      },
+      {
+        "path": "research/jpx_v32_chunk_replay_20260926/run.py",
+        "blob_sha": "7c477af658429ded530494770d7f632dd71b14ca",
+        "sha256": "9c47298a367f364f1663ddeaf64e500414a088bf92f737070c3ab6f08e5ac152",
+        "size": 9902
+      },
+      {
+        "path": "research/jpx_v32_chunk_replay_20260926/shared_frozen/audit.json",
+        "blob_sha": "f35313cccc6fafafc34ca1199c96da1afc11a32c",
+        "sha256": "1850a10ac444d85444f54adf8c097a8e17b6c83954873ad52b80a2ff90c32d8d",
+        "size": 126
+      },
+      {
+        "path": "research/jpx_v32_chunk_replay_20260926/shared_frozen/daily_metrics.csv",
+        "blob_sha": "6880c617c7a358aa7ceb3b2eaafde46c7e67035a",
+        "sha256": "bdbb9ef032ace64a5b52565ad49014fcbaa2b100d647d9b2ccceb73ffc507895",
+        "size": 125786
+      },
+      {
+        "path": "research/jpx_v32_chunk_replay_20260926/shared_frozen/results.json",
+        "blob_sha": "1fdc9d1b2d463a4aa6a1b12e6aa5d51761298d0b",
+        "sha256": "96c8b80307af7f8eeb939e4d0d99fd693dfcc9b9414800448125658a0e30ff1a",
+        "size": 349
+      },
+      {
+        "path": "research/jpx_v32_chunk_replay_20260926/shared_online/audit.json",
+        "blob_sha": "c702c194f53501f6804c6296443281aa5c5fceeb",
+        "sha256": "0002d8f90534089a99ff7b00eef544037462ddf1355fd3a25386df93b3d4e562",
+        "size": 126
+      },
+      {
+        "path": "research/jpx_v32_chunk_replay_20260926/shared_online/daily_metrics.csv",
+        "blob_sha": "d2e2fcebafa5976d3fc5809601849bb6f7021fd8",
+        "sha256": "6d7803d248d08532d6013483d3a5b3284a5f1f61d7ec79b841277e04d9fd0131",
+        "size": 125329
+      },
+      {
+        "path": "research/jpx_v32_chunk_replay_20260926/shared_online/results.json",
+        "blob_sha": "37b82c0334a877d532f04d40879c1bd5cabc61e3",
+        "sha256": "c8720d606e061893708e3c09c1b1e4fa99591be882fed91015b4039e85b1c2b1",
+        "size": 340
+      },
+      {
+        "path": "research/jpx_v32_chunk_replay_20260926/stock_chunk_frozen/audit.json",
+        "blob_sha": "e4358faca030c237d0a6d44b88defc41859d2f5c",
+        "sha256": "ffbed7313780d2d9d089e1825292a7dcf61f8f36b7646261fe201ad1a13601e2",
+        "size": 126
+      },
+      {
+        "path": "research/jpx_v32_chunk_replay_20260926/stock_chunk_frozen/daily_metrics.csv",
+        "blob_sha": "c8d1290bc7cdbd0494b5a7f3d6736a143caf40aa",
+        "sha256": "279ad4c633f8f486e68c8fec5ce1b247e49450392d661915804c04e77f71d26e",
+        "size": 125105
+      },
+      {
+        "path": "research/jpx_v32_chunk_replay_20260926/stock_chunk_frozen/results.json",
+        "blob_sha": "862e3716ac4313bbcc93c7e7b8afc1765baf23aa",
+        "sha256": "85ccb9b6396209ca567177de94eec1e19b9715487ef3989c54a3932db5ed5e41",
+        "size": 353
+      },
+      {
+        "path": "research/jpx_v32_chunk_replay_20260926/stock_online/audit.json",
+        "blob_sha": "7efc77d72d6918c1f9c03c9f00cd0a0edb444efc",
+        "sha256": "9aac589a106c2a0240fb1c8868b5739a77bc79ecd759f29fb0da0705c82a703e",
+        "size": 127
+      },
+      {
+        "path": "research/jpx_v32_chunk_replay_20260926/stock_online/daily_metrics.csv",
+        "blob_sha": "6a0b22861122a7fcc6d88ddc69d4967f0500dc27",
+        "sha256": "e53bfba8cba0e35b85a84aec30f3a723dd8faec0e77320512006a0fd66381836",
+        "size": 123032
+      },
+      {
+        "path": "research/jpx_v32_chunk_replay_20260926/stock_online/results.json",
+        "blob_sha": "38e8cec188c42a5254f4165f6e3656a408d6e8ec",
+        "sha256": "2a4a3b9a0ddbebb45357cb7a509c474323a845497bc6e8b9ff7f38d45e7c19f6",
+        "size": 338
+      },
+      {
+        "path": "research/jpx_v32_chunk_replay_20260926/stock_single_frozen/audit.json",
+        "blob_sha": "7361233a2cc0bf76c944cdfa90c9caa0da31b3c5",
+        "sha256": "5d07c1c6bd833d02a07b748f7eb2189244cf171d7204976189db22ea400ff35e",
+        "size": 125
+      },
+      {
+        "path": "research/jpx_v32_chunk_replay_20260926/stock_single_frozen/daily_metrics.csv",
+        "blob_sha": "90d5ec25601a267c6c2c5fa4018dd6cb931735e3",
+        "sha256": "9e00259c97951914704aa39d5d7090081c7ea283847cfa01ebcdca506198c17e",
+        "size": 123355
+      },
+      {
+        "path": "research/jpx_v32_chunk_replay_20260926/stock_single_frozen/results.json",
+        "blob_sha": "db533150e47d815c8964f2668c7f690f565e306e",
+        "sha256": "12ba621fa8d60f65ed0a69e8823ffc6d662b004bc64a637902981013bac589fe",
+        "size": 354
+      },
+      {
+        "path": "research/jpx_v32_chunk_replay_20260926/task_storage.json",
+        "blob_sha": "8499fd3feceb54af2c25531a9152462830dd6570",
+        "sha256": "51eec46a68963301a3ca56b6a850ed0bd0838d52b1b5f1878b431dc4760dc71a",
+        "size": 611
+      },
+      {
+        "path": "research/jpx_v32_chunk_replay_20260926/training_stages_summary.csv",
+        "blob_sha": "bdab57e4bf26f242abec0ec37c5ee159cc5d9db3",
+        "sha256": "f9b280197be48392a16b6c7c80a07097f43d0fa06102a9070ad0338505217160",
+        "size": 1796
+      },
+      {
+        "path": "research/jpx_v32_chunk_replay_20260926/version.json",
+        "blob_sha": "3e0ea61b887d890129e1066d8054226187de4c24",
+        "sha256": "b4c60e703a4446cd4e69a8e51b5445665da71be39fb5be2a28bd20378cd16d6a",
+        "size": 161
+      }
+    ],
+    "release_data_packs_verified": 91,
+    "catalog_and_checksums_assets_verified": true,
+    "release_url": "https://github.com/Kevin-Shih-Kai-Jen/quant-learning-internship-2027/releases/tag/snapshot-2026-09-26-v32-chunk-replay"
+  },
+  "roundtrip": {
+    "passed": true,
+    "source_tag": "snapshot-2026-09-26-v32-chunk-replay",
+    "transport": "range requests; original full TAR/member SHA256 validation and safe install",
+    "packs": [
+      {
+        "pack": "snapshot-2026-09-26-v32-chunk-replay-data-002-jpx_v32_chunk_replay_20260926.tar",
+        "sha256": "6c9212a7544758fce8a1e6290015face3e1817f2c280053baef0099ab3b02830",
+        "size": 425052160,
+        "selected": [
+          "research/jpx_v32_chunk_replay_20260926/output/JPX-v32-chunk-replay-data-20260926.zip"
+        ],
+        "seconds": 188.97058583299986
+      }
+    ]
+  },
+  "staged_research_files_verified_before_cleanup": [
+    "research/jpx_v8_soft_rank_20260912/inputs.pkl",
+    "research/jpx_v32_chunk_replay_20260926/JPX-v32-chunk-replay-report.md",
+    "research/jpx_v32_chunk_replay_20260926/version.json",
+    "research/jpx_v32_chunk_replay_20260926/run.py",
+    "research/jpx_v32_chunk_replay_20260926/task_storage.json",
+    "research/jpx_v32_chunk_replay_20260926/audit.json",
+    "research/jpx_v32_chunk_replay_20260926/training_stages_summary.csv",
+    "research/jpx_v32_chunk_replay_20260926/report.log",
+    "research/jpx_v32_chunk_replay_20260926/audit.py",
+    "research/jpx_v32_chunk_replay_20260926/paired_block_bootstrap.csv",
+    "research/jpx_v32_chunk_replay_20260926/run.log",
+    "research/jpx_v32_chunk_replay_20260926/config.json",
+    "research/jpx_v32_chunk_replay_20260926/fetch_ranges.py",
+    "research/jpx_v32_chunk_replay_20260926/all_stage_coefficients.csv",
+    "research/jpx_v32_chunk_replay_20260926/comparison_by_year.csv",
+    "research/jpx_v32_chunk_replay_20260926/results.json",
+    "research/jpx_v32_chunk_replay_20260926/fetch.log",
+    "research/jpx_v32_chunk_replay_20260926/retrieval_verification.json",
+    "research/jpx_v32_chunk_replay_20260926/experiment_defaults_snapshot.json",
+    "research/jpx_v32_chunk_replay_20260926/restore.log",
+    "research/jpx_v32_chunk_replay_20260926/audit.log",
+    "research/jpx_v32_chunk_replay_20260926/delivery_audit.json",
+    "research/jpx_v32_chunk_replay_20260926/experiment_plan.md",
+    "research/jpx_v32_chunk_replay_20260926/per_stock_diagnostics.csv",
+    "research/jpx_v32_chunk_replay_20260926/fold_summary.csv",
+    "research/jpx_v32_chunk_replay_20260926/raw_results.json",
+    "research/jpx_v32_chunk_replay_20260926/manifest.json",
+    "research/jpx_v32_chunk_replay_20260926/comparison.csv",
+    "research/jpx_v32_chunk_replay_20260926/mobile_pdf.py",
+    "research/jpx_v32_chunk_replay_20260926/all_models_daily.csv",
+    "research/jpx_v32_chunk_replay_20260926/report.py",
+    "research/project_archive_20260924/restore_data.py",
+    "research/project_archive_20260924/COMPRESSED_DATA_MANIFEST.json",
+    "research/project_archive_20260924/compressed_data/jpx_v8_soft_rank_20260912/inputs.pkl.gz",
+    "research/jpx_v31_stock_specific_mse_20260925/shared_v7/predictions.npz",
+    "research/jpx_v31_stock_specific_mse_20260925/stock_specific/predictions.npz",
+    "research/jpx_v32_chunk_replay_20260926/shared_frozen/audit.json",
+    "research/jpx_v32_chunk_replay_20260926/shared_frozen/daily_metrics.csv",
+    "research/jpx_v32_chunk_replay_20260926/shared_frozen/results.json",
+    "research/jpx_v32_chunk_replay_20260926/shared_frozen/predictions.npz",
+    "research/jpx_v32_chunk_replay_20260926/shared_online/audit.json",
+    "research/jpx_v32_chunk_replay_20260926/shared_online/daily_metrics.csv",
+    "research/jpx_v32_chunk_replay_20260926/shared_online/results.json",
+    "research/jpx_v32_chunk_replay_20260926/shared_online/predictions.npz",
+    "research/jpx_v32_chunk_replay_20260926/stock_chunk_frozen/audit.json",
+    "research/jpx_v32_chunk_replay_20260926/stock_chunk_frozen/daily_metrics.csv",
+    "research/jpx_v32_chunk_replay_20260926/stock_chunk_frozen/results.json",
+    "research/jpx_v32_chunk_replay_20260926/stock_chunk_frozen/predictions.npz",
+    "research/jpx_v32_chunk_replay_20260926/fold_2018/training_trace.npz",
+    "research/jpx_v32_chunk_replay_20260926/fold_2018/shared_training_updates.csv",
+    "research/jpx_v32_chunk_replay_20260926/fold_2018/fit.json",
+    "research/jpx_v32_chunk_replay_20260926/fold_2018/stage_parameters.npz",
+    "research/jpx_v32_chunk_replay_20260926/fold_2018/training_stage_diagnostics.csv",
+    "research/jpx_v32_chunk_replay_20260926/fold_2018/shared_parameters.json",
+    "research/jpx_v32_chunk_replay_20260926/fold_2020/training_trace.npz",
+    "research/jpx_v32_chunk_replay_20260926/fold_2020/shared_training_updates.csv",
+    "research/jpx_v32_chunk_replay_20260926/fold_2020/fit.json",
+    "research/jpx_v32_chunk_replay_20260926/fold_2020/stage_parameters.npz",
+    "research/jpx_v32_chunk_replay_20260926/fold_2020/training_stage_diagnostics.csv",
+    "research/jpx_v32_chunk_replay_20260926/fold_2020/shared_parameters.json",
+    "research/jpx_v32_chunk_replay_20260926/fold_2021/training_trace.npz",
+    "research/jpx_v32_chunk_replay_20260926/fold_2021/shared_training_updates.csv",
+    "research/jpx_v32_chunk_replay_20260926/fold_2021/fit.json",
+    "research/jpx_v32_chunk_replay_20260926/fold_2021/stage_parameters.npz",
+    "research/jpx_v32_chunk_replay_20260926/fold_2021/training_stage_diagnostics.csv",
+    "research/jpx_v32_chunk_replay_20260926/fold_2021/shared_parameters.json",
+    "research/jpx_v32_chunk_replay_20260926/fold_2019/training_trace.npz",
+    "research/jpx_v32_chunk_replay_20260926/fold_2019/shared_training_updates.csv",
+    "research/jpx_v32_chunk_replay_20260926/fold_2019/fit.json",
+    "research/jpx_v32_chunk_replay_20260926/fold_2019/stage_parameters.npz",
+    "research/jpx_v32_chunk_replay_20260926/fold_2019/training_stage_diagnostics.csv",
+    "research/jpx_v32_chunk_replay_20260926/fold_2019/shared_parameters.json",
+    "research/jpx_v32_chunk_replay_20260926/output/JPX-v32-chunk-replay-data-20260926.zip",
+    "research/jpx_v32_chunk_replay_20260926/stock_online/audit.json",
+    "research/jpx_v32_chunk_replay_20260926/stock_online/daily_metrics.csv",
+    "research/jpx_v32_chunk_replay_20260926/stock_online/results.json",
+    "research/jpx_v32_chunk_replay_20260926/stock_online/predictions.npz",
+    "research/jpx_v32_chunk_replay_20260926/stock_single_frozen/audit.json",
+    "research/jpx_v32_chunk_replay_20260926/stock_single_frozen/daily_metrics.csv",
+    "research/jpx_v32_chunk_replay_20260926/stock_single_frozen/results.json",
+    "research/jpx_v32_chunk_replay_20260926/stock_single_frozen/predictions.npz",
+    "research/jpx_v32_chunk_replay_20260926/output/pdf/JPX-v32-chunk-replay-mobile-20260926.pdf"
+  ],
+  "staging_ledger": [
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/all_stage_coefficients.csv",
+      "size": 11118646,
+      "sha256": "128c8d0f83d9ada970a76bb5d674bc8a98dcaadb22167ca7d509259a6d550990",
+      "staging": "/private/tmp/quant-v32-20260926-8e5q1yz9/research/jpx_v32_chunk_replay_20260926/all_stage_coefficients.csv"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/all_models_daily.csv",
+      "size": 660379,
+      "sha256": "1763340744d07efc37e2b3b2f6c2c519dd049452c4c24d5c32123049e7f10f6b",
+      "staging": "/private/tmp/quant-v32-20260926-8e5q1yz9/research/jpx_v32_chunk_replay_20260926/all_models_daily.csv"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/shared_frozen/predictions.npz",
+      "size": 17661504,
+      "sha256": "d41f1349d04d0628cd96cd492637e8107b70f6051d7bd8ef40beca2b7ae26828",
+      "staging": "/private/tmp/quant-v32-20260926-8e5q1yz9/research/jpx_v32_chunk_replay_20260926/shared_frozen/predictions.npz"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/shared_online/predictions.npz",
+      "size": 17971350,
+      "sha256": "d6f5acd796d49c756ba6863ea4b4f573407c6e135c870d2f4b63c1a4ef56e4ce",
+      "staging": "/private/tmp/quant-v32-20260926-8e5q1yz9/research/jpx_v32_chunk_replay_20260926/shared_online/predictions.npz"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/stock_chunk_frozen/predictions.npz",
+      "size": 17764059,
+      "sha256": "96c4eabac63b5ecc909e44a368991b3a06b8c3cee0607be8dcfc5e6fd5343bdd",
+      "staging": "/private/tmp/quant-v32-20260926-8e5q1yz9/research/jpx_v32_chunk_replay_20260926/stock_chunk_frozen/predictions.npz"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/fold_2018/training_trace.npz",
+      "size": 77766392,
+      "sha256": "5fc364669401d52879cce11bac5ee935af7bc074ade8dedceb474eb7e2b103ed",
+      "staging": "/private/tmp/quant-v32-20260926-8e5q1yz9/research/jpx_v32_chunk_replay_20260926/fold_2018/training_trace.npz"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/fold_2018/stage_parameters.npz",
+      "size": 875009,
+      "sha256": "98f73c51aafe46e9c8cdd74f49634257a40c6181894f28cae34932f6c586f0dc",
+      "staging": "/private/tmp/quant-v32-20260926-8e5q1yz9/research/jpx_v32_chunk_replay_20260926/fold_2018/stage_parameters.npz"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/fold_2018/training_stage_diagnostics.csv",
+      "size": 848905,
+      "sha256": "03a99355a8821356b08c31470abb91a8e7dccd79ffd1ee88e07669de027bb012",
+      "staging": "/private/tmp/quant-v32-20260926-8e5q1yz9/research/jpx_v32_chunk_replay_20260926/fold_2018/training_stage_diagnostics.csv"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/fold_2020/training_trace.npz",
+      "size": 245202692,
+      "sha256": "01b0e092f4fc45b7d341a9c394d66a53541a4e86809a06e15dab29a7370ad781",
+      "staging": "/private/tmp/quant-v32-20260926-8e5q1yz9/research/jpx_v32_chunk_replay_20260926/fold_2020/training_trace.npz"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/fold_2020/stage_parameters.npz",
+      "size": 906573,
+      "sha256": "1aa05ebfd2fdc8d1892051bcbd9bf0c45f5baaa23866eb2ffaff9700676a253d",
+      "staging": "/private/tmp/quant-v32-20260926-8e5q1yz9/research/jpx_v32_chunk_replay_20260926/fold_2020/stage_parameters.npz"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/fold_2020/training_stage_diagnostics.csv",
+      "size": 871793,
+      "sha256": "63ffa36a3d8d2730b6675c3c9a1c0e3ab2f5ec5bb44cc1532902557b2b67a328",
+      "staging": "/private/tmp/quant-v32-20260926-8e5q1yz9/research/jpx_v32_chunk_replay_20260926/fold_2020/training_stage_diagnostics.csv"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/fold_2021/training_trace.npz",
+      "size": 330598029,
+      "sha256": "7dc652af560b397f3355e0342085b20e778ee748ebc60301f86679ada515b59a",
+      "staging": "/private/tmp/quant-v32-20260926-8e5q1yz9/research/jpx_v32_chunk_replay_20260926/fold_2021/training_trace.npz"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/fold_2021/shared_training_updates.csv",
+      "size": 337330,
+      "sha256": "7a019547f7771f6f91f3e41cd2cd448191d246c700785b9036359669fb902a8b",
+      "staging": "/private/tmp/quant-v32-20260926-8e5q1yz9/research/jpx_v32_chunk_replay_20260926/fold_2021/shared_training_updates.csv"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/fold_2021/stage_parameters.npz",
+      "size": 922509,
+      "sha256": "a076408aecd0c6ad1fd47fb48b00fb8dbddfccc9936433622abd02613c7f7d04",
+      "staging": "/private/tmp/quant-v32-20260926-8e5q1yz9/research/jpx_v32_chunk_replay_20260926/fold_2021/stage_parameters.npz"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/fold_2021/training_stage_diagnostics.csv",
+      "size": 881902,
+      "sha256": "84728bc4d116f2ecd2049848e04e38449d1c0ebdd397a3bb20202866e02baf42",
+      "staging": "/private/tmp/quant-v32-20260926-8e5q1yz9/research/jpx_v32_chunk_replay_20260926/fold_2021/training_stage_diagnostics.csv"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/fold_2019/training_trace.npz",
+      "size": 161424149,
+      "sha256": "dccf3f55fbf442728b3693e822ec9d3392e37f22ecb2b8af29905f77b4ece6bd",
+      "staging": "/private/tmp/quant-v32-20260926-8e5q1yz9/research/jpx_v32_chunk_replay_20260926/fold_2019/training_trace.npz"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/fold_2019/stage_parameters.npz",
+      "size": 890392,
+      "sha256": "f4a6a2a895b312a046dc2f6fa17946ff877e4b2675823de9358a8608afb7d363",
+      "staging": "/private/tmp/quant-v32-20260926-8e5q1yz9/research/jpx_v32_chunk_replay_20260926/fold_2019/stage_parameters.npz"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/fold_2019/training_stage_diagnostics.csv",
+      "size": 857658,
+      "sha256": "c3830144f5c14a1a84c81b2a997a6226b442cc6a608552c4e429fcb8d2326e58",
+      "staging": "/private/tmp/quant-v32-20260926-8e5q1yz9/research/jpx_v32_chunk_replay_20260926/fold_2019/training_stage_diagnostics.csv"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/stock_online/predictions.npz",
+      "size": 18056084,
+      "sha256": "b4369c5f6f79d434291179dd1d95986ff41f12433929f527696915123a44f23d",
+      "staging": "/private/tmp/quant-v32-20260926-8e5q1yz9/research/jpx_v32_chunk_replay_20260926/stock_online/predictions.npz"
+    },
+    {
+      "path": "research/jpx_v32_chunk_replay_20260926/stock_single_frozen/predictions.npz",
+      "size": 17758047,
+      "sha256": "2303b047a558cc49addd13669c702c366dac348288af9814211eb726d5ca73e3",
+      "staging": "/private/tmp/quant-v32-20260926-8e5q1yz9/research/jpx_v32_chunk_replay_20260926/stock_single_frozen/predictions.npz"
+    }
+  ],
+  "cleanup": {
+    "directory": "/private/tmp/quant-v32-20260926-8e5q1yz9",
+    "planned_files": 603,
+    "planned_bytes": 3896951715,
+    "scope": "Only this task: verified downloaded/restored research, verified uploaded staging copies, transfer chunks and operation temp; no other workspace or sources",
+    "completed": true,
+    "removed_files": 603,
+    "removed_bytes": 3896951715
+  },
+  "retained": [
+    "Lightweight experiment sources, reports, metrics and audit in Git",
+    "Local mobile PDF and 5MB portable ZIP",
+    "Full predictions and every parameter update in private Release"
+  ],
+  "recovery": {
+    "new_prefix": "jpx_v32_chunk_replay_20260926",
+    "inputs_prefix": "project_archive_20260924/compressed_data/jpx_v8_soft_rank_20260912/inputs.pkl.gz",
+    "reference_prefix": "jpx_v31_stock_specific_mse_20260925"
+  }
+}
