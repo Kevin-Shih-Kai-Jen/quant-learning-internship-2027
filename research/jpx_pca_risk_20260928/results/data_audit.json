@@ -1,0 +1,32 @@
+{
+  "raw_rows": 2332531,
+  "raw_last_date": "2021-12-03",
+  "malformed_rows": [],
+  "last_complete_raw_session": "2021-12-03",
+  "overlap_rows": 2332531,
+  "overlap_checks": {
+    "Open": {
+      "matched_rows": 2332531,
+      "max_abs_difference": 0.0
+    },
+    "High": {
+      "matched_rows": 2332531,
+      "max_abs_difference": 0.0
+    },
+    "Low": {
+      "matched_rows": 2332531,
+      "max_abs_difference": 0.0
+    },
+    "Close": {
+      "matched_rows": 2332531,
+      "max_abs_difference": 0.0
+    },
+    "Volume": {
+      "matched_rows": 2332531,
+      "max_abs_difference": 0.0
+    }
+  },
+  "cached_factor_max_difference": 0.0,
+  "issue": "Source ZIP is COMPLETE. An earlier 187695104-byte extracted temporary copy was incomplete; it is rejected and never used for final PCA.",
+  "cache_status": "Archive bytes verified. All 2332531 original raw rows match cached OHLCV and cumulative factors."
+}

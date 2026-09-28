@@ -1,0 +1,75 @@
+{
+  "status": "passed",
+  "unit_tests_passed": 8,
+  "raw_zip_complete": true,
+  "raw_rows": 2332531,
+  "full_cached_ohlcv_and_factor_comparison": {
+    "raw_rows": 2332531,
+    "raw_last_date": "2021-12-03",
+    "malformed_rows": [],
+    "last_complete_raw_session": "2021-12-03",
+    "overlap_rows": 2332531,
+    "overlap_checks": {
+      "Open": {
+        "matched_rows": 2332531,
+        "max_abs_difference": 0.0
+      },
+      "High": {
+        "matched_rows": 2332531,
+        "max_abs_difference": 0.0
+      },
+      "Low": {
+        "matched_rows": 2332531,
+        "max_abs_difference": 0.0
+      },
+      "Close": {
+        "matched_rows": 2332531,
+        "max_abs_difference": 0.0
+      },
+      "Volume": {
+        "matched_rows": 2332531,
+        "max_abs_difference": 0.0
+      }
+    },
+    "cached_factor_max_difference": 0.0,
+    "issue": "Source ZIP is COMPLETE. An earlier 187695104-byte extracted temporary copy was incomplete; it is rejected and never used for final PCA.",
+    "cache_status": "Archive bytes verified. All 2332531 original raw rows match cached OHLCV and cumulative factors."
+  },
+  "cases": [
+    {
+      "name": "market_252",
+      "stocks": 1925,
+      "dates": 252,
+      "rank": 251,
+      "audit": {
+        "orthogonality_max_abs_error": 1.7763568394002505e-15,
+        "relative_eigen_equation_error": 8.718566625529542e-15,
+        "relative_training_reconstruction_error": 2.1660533694676632e-15,
+        "evr_sum": 1.0000000000000002,
+        "power_iteration_pc1_abs_cosine": 1.0,
+        "power_iterations": 19
+      }
+    },
+    {
+      "name": "matched_full_portfolio",
+      "stocks": 1933,
+      "dates": 160,
+      "rank": 159,
+      "audit": {
+        "orthogonality_max_abs_error": 2.550910871423895e-15,
+        "relative_eigen_equation_error": 5.4617933406909445e-15,
+        "relative_training_reconstruction_error": 2.0026670229695422e-15,
+        "evr_sum": 1.0,
+        "power_iteration_pc1_abs_cosine": 1.0,
+        "power_iterations": 19
+      }
+    }
+  ],
+  "final_vs_preliminary_numeric_change": false,
+  "test_used": false,
+  "rolling_oos_risk_validation_performed": false,
+  "model_or_holdings_changed": false,
+  "browser_qa": "Cloud browser blocked data: URL previews; no browser interaction verification performed. JavaScript passed node --check. Static scientific chart visually inspected. No workaround or deployment attempted.",
+  "source_commit": "5959badfe4703284ba5fbaf18a3ea626581a7d18",
+  "correction": "Earlier temporary extracted CSV was incomplete (187695104 vs 217603723 bytes). Source ZIP and full direct-read data are complete. Final PCA never used the incomplete extraction."
+}
