@@ -36,7 +36,8 @@ class PublisherTests(unittest.TestCase):
         self.config.pop("compression_manifest", None)  # Generic fixtures have no compressed history.
         self.config.pop("compression_manifest_sha256", None)
         self.config.update(pack_max_bytes=2 * 1024 * 1024,
-                           text_max_bytes=128, csv_git_max_bytes=64)
+                           text_max_bytes=128, csv_git_max_bytes=64, visibility="private")
+        publisher.write_json(self.repo / "archive-config.json", self.config)
         root_patch = patch.object(publisher, "ROOT", self.repo)
         root_patch.start()
         self.addCleanup(root_patch.stop)
@@ -264,10 +265,36 @@ class PublisherTests(unittest.TestCase):
                          ["snapshot-old", "snapshot-new"])
         self.assertEqual(len({p["name"] for p in catalog["packs"]}), 2)
         verification = json.loads((self.repo / "data/verification/snapshot-new.json").read_text())
+        self.assertTrue(verification["repository_private"])
         self.assertTrue(verification["all_asset_digests_match"])
         self.assertEqual(len(verification["assets"]), 2)
         self.assertEqual(json.loads((self.repo / "data/index.json").read_text())["latest"],
                          "snapshot-new")
+        self.no_network.assert_not_called()
+
+    def test_visibility_must_match_configuration_before_release_access(self):
+        plan = {"repository": self.config["repository"], "tag": "snapshot-visibility"}
+        for configured, remote in (("public", True), ("private", False), (None, False), ("public", None)):
+            with self.subTest(configured=configured, remote=remote):
+                publisher.write_json(self.repo / "archive-config.json", dict(self.config, visibility=configured))
+                with patch.object(publisher, "api", return_value={"private": remote}), \
+                        patch.object(publisher, "find_release") as release, \
+                        self.assertRaisesRegex(ValueError, "visibility"):
+                    publisher.upload(plan, self.plan_path(plan["tag"]))
+                release.assert_not_called()
+        self.no_network.assert_not_called()
+
+    def test_public_snapshot_records_actual_visibility(self):
+        publisher.write_json(self.repo / "archive-config.json", dict(self.config, visibility="public"))
+        plan = {"repository": self.config["repository"], "tag": "snapshot-public",
+                "new_packs": [], "inherited_packs": []}
+        with patch.object(publisher, "api", return_value={"private": False}), \
+                patch.object(publisher, "find_release", return_value={"id": 1, "draft": True}), \
+                patch.object(publisher, "release_assets", return_value={}), \
+                contextlib.redirect_stdout(io.StringIO()):
+            publisher.upload(plan, self.plan_path(plan["tag"]))
+        verification = publisher.read_json(self.repo / "data/verification/snapshot-public.json")
+        self.assertFalse(verification["repository_private"])
         self.no_network.assert_not_called()
 
     def test_changed_historical_release_payload_is_refused_without_overwrite(self):

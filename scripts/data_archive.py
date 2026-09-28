@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""List, fetch, and verify private GitHub release research-data snapshots."""
+"""List, fetch, and verify GitHub release research-data snapshots."""
 
 import argparse
 from collections import defaultdict
@@ -15,6 +15,8 @@ import subprocess
 import sys
 import tarfile
 import tempfile
+from urllib.error import HTTPError
+from urllib.request import Request, urlopen
 
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
@@ -242,6 +244,24 @@ def install_member(destination, entry, source):
         os.close(parent)
 
 
+def download_pack(pack, tag, directory):
+    """Try public assets without credentials; retain gh access for private releases."""
+    tag = pack.get("release_tag", tag)
+    url = f"https://github.com/{REPOSITORY}/releases/download/{tag}/{pack['name']}"
+    request = Request(url, headers={"User-Agent": "quant-data-archive"})
+    try:
+        response = urlopen(request, timeout=60)
+    except HTTPError as error:
+        if error.code not in (401, 403, 404):
+            raise
+        error.close()
+        subprocess.run(["gh", "release", "download", tag, "--repo", REPOSITORY,
+                        "--pattern", pack["name"], "--dir", str(directory)], check=True)
+        return
+    with response, (directory / pack["name"]).open("xb") as output:
+        check_digest(digest_stream(response, pack["size"], output), pack)
+
+
 def fetch(catalog, selected, destination):
     destination.mkdir(parents=True, exist_ok=True)
     for pack, entries in selected:
@@ -259,8 +279,7 @@ def fetch(catalog, selected, destination):
             raise OSError(f"Insufficient free disk space: requires {required:,} bytes for {pack['name']}")
         with tempfile.TemporaryDirectory(prefix=".data-archive-", dir=destination.parent) as temporary:
             print("DOWNLOADING  " + pack["name"], flush=True)
-            subprocess.run(["gh", "release", "download", pack.get("release_tag", catalog["tag"]), "--repo", REPOSITORY,
-                            "--pattern", pack["name"], "--dir", temporary], check=True)
+            download_pack(pack, catalog["tag"], Path(temporary))
             with open_regular(Path(temporary), pack["name"]) as source:
                 check_digest(digest_stream(source, pack["size"]), pack)
             asset = Path(temporary) / pack["name"]

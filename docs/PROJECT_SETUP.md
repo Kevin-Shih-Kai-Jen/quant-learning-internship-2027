@@ -11,3 +11,9 @@
 [設定內容](PROJECT_INSTRUCTIONS.md) · [ChatGPT 專案](https://chatgpt.com/g/g-p-6a8ad7dc606481919474d5424342a1c3/project) · [官方專案指示說明](https://learn.chatgpt.com/docs/projects)
 
 本紀錄描述上述日期的已驗證設定；若之後修改專案 Instructions，以最新實際設定為準。
+
+## 儲存庫可見性更新（2026-09-28）
+
+使用者明確要求後，repo 已改為公開；匿名 GET `AGENTS.md` 成功，包含 `JPX_data.zip` 的 `snapshot-2026-09-24-data-076-project_archive_20260924.tar` 匿名 HEAD 回應 200。這次連線檢查沒有重新下載或重新核對全部資料，也不代表其他聊天室已實際取回檔案；詳見 [目前存取方式](ACCESS.md)。
+
+repo 與本機共用指令已更新為公開讀取、寫入仍需授權。本輪開啟 ChatGPT 雲端專案頁時顯示登入畫面，因此未重新儲存雲端 Instructions；上方 2026-09-24 設定紀錄保留為歷史。舊指示仍連到相同 repo，讀取後可由新版 `AGENTS.md` 與 [ACCESS.md](ACCESS.md) 確認公開入口。

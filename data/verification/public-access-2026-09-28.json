@@ -1,0 +1,40 @@
+{
+  "checked_at": "2026-09-28T03:25:14.725619+00:00",
+  "repository": "Kevin-Shih-Kai-Jen/quant-learning-internship-2027",
+  "visibility": "public",
+  "authorization_date": "2026-09-28",
+  "anonymous_required_files": [
+    "AGENTS.md",
+    "research/project_archive_20260924/MEMORY_BRIEF.md",
+    "data/index.json"
+  ],
+  "required_files_http_status": 200,
+  "jpx_asset": {
+    "tag": "snapshot-2026-09-24",
+    "name": "snapshot-2026-09-24-data-076-project_archive_20260924.tar",
+    "head_http_status": 200,
+    "range_http_status": 206,
+    "bytes_read": 1024,
+    "content_range": "bytes 0-1023/249374720"
+  },
+  "anonymous_fetch_verify": {
+    "tag": "snapshot-2026-09-24",
+    "pack": "snapshot-2026-09-24-data-035-hiwin-application-site.tar",
+    "pack_size": 10240,
+    "pack_sha256": "ea6e52a8400f594a9518d61f214ae91291266465cb208a0e95028698c01b8678",
+    "files": [
+      {
+        "path": "research/hiwin-application-site/eslint.config.mjs",
+        "size": 345,
+        "sha256": "5c697206f302dadc0c8b7b2f7a707257dab15129a2149872b0f84ea1ac17d263",
+        "mtime_ns": 1787906395166471543,
+        "mode": 420,
+        "storage": "release"
+      }
+    ],
+    "authenticated_fallback_used": false,
+    "temporary_directory": "/var/folders/n2/vx00gls51kl0gld00c16qs2c0000gn/T/quant-public-access-1gp4yts7",
+    "temporary_directory_removed": true
+  },
+  "limits": "Only the small sample pack was fully downloaded and hashed; JPX was range-read only. Other chat download completion and all historical asset re-verification are not claimed."
+}

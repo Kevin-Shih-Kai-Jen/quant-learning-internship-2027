@@ -1,6 +1,6 @@
 # Quant Learning & Internship 2027
 
-量化研究、實驗過程與實習準備的私人保存庫。以 **JPX 股票預測研究**為主線，同時保留產業研究、簡報、文件與網站專案。
+量化研究、實驗過程與實習準備的公開保存庫（2026-09-28 依使用者指示改為公開）。以 **JPX 股票預測研究**為主線，同時保留產業研究、簡報、文件與網站專案。
 
 這裡把閱讀材料與大型資料分開保存：**Git 管理程式、報告、設定與索引；版本化 GitHub Releases 保存大型資料及二進位產物。** 單獨下載程式碼 ZIP 不等於取得完整研究資料。
 
@@ -19,7 +19,7 @@
 | 查看專案內所有聊天室的必讀規則 | [共用指令](docs/PROJECT_INSTRUCTIONS.md) · [已設定紀錄](docs/PROJECT_SETUP.md) |
 | 查看本機清理結果與保留範圍 | [2026-09-24 清理紀錄](docs/LOCAL_CLEANUP.md) |
 | 查看協作與保存規則 | [AGENTS.md](AGENTS.md) |
-| 私人 repo 讀不到或新聊天室無法連線 | [存取說明](docs/ACCESS.md) |
+| 公開下載入口或新聊天室無法連線 | [存取說明](docs/ACCESS.md) |
 | 確認某次快照包含什麼 | [資料索引](data/index.json) · [完整檔案盤點](data/inventories/snapshot-2026-09-24.json) · [Release 資料目錄](data/catalogs/snapshot-2026-09-24.json) |
 | 查上傳與完整性核對證據 | [首次快照驗證紀錄](data/verification/snapshot-2026-09-24.json) |
 
@@ -58,7 +58,7 @@ GitHub Releases                   版本化 .tar 分包，不放進 Git 歷史
 
 ## 下載所需資料
 
-登入可存取此私人儲存庫的 GitHub 帳號，取得專案後，在儲存庫根目錄執行：
+本 repo 的檔案與已發布 Release 可免登入讀取；公開入口及 JPX 原始資料位置見 [存取說明](docs/ACCESS.md)。取得專案後，在儲存庫根目錄執行：
 
 ```sh
 python3 scripts/data_archive.py list

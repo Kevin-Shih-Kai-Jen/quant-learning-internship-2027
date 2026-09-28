@@ -1,22 +1,22 @@
 # 資料下載、還原與新快照
 
-此私人儲存庫使用兩層保存。Git 保存可讀內容與索引；大型資料保存在按 tag 版本化的 GitHub Release `.tar` 分包，每包至多 768 MiB。每次使用都以 catalog 的實際檔案清單、大小和 SHA-256 為準。
+此公開儲存庫使用兩層保存（2026-09-28 依使用者指示改為公開）。Git 保存可讀內容與索引；大型資料保存在按 tag 版本化的 GitHub Release `.tar` 分包，每包至多 768 MiB。每次使用都以 catalog 的實際檔案清單、大小和 SHA-256 為準。
 
-**私人 GitHub 與版本化 Release 是歷史資料的主保存位置。** 依使用者指定，本機長期保留輕量導讀、工具與索引；每次工作建立專屬臨時資料目錄，按需下載，用畢依本指南核對後清理可重取副本。這是資料使用規則，不表示所有獨立聊天室的設定已自動改變；其他聊天室需貼上 [續接指令](FUTURE_CHAT_PROMPT.md) 或設定專案指示。
+**此 GitHub 儲存庫與版本化 Release 是歷史資料的主保存位置。** 依使用者指定，本機長期保留輕量導讀、工具與索引；每次工作建立專屬臨時資料目錄，按需下載，用畢依本指南核對後清理可重取副本。這是資料使用規則，不表示所有獨立聊天室的設定已自動改變；其他聊天室需貼上 [續接指令](FUTURE_CHAT_PROMPT.md) 或設定專案指示。
 
 首次 tag：`snapshot-2026-09-24`。入口是 [data/index.json](../data/index.json)，對應 [catalog](../data/catalogs/snapshot-2026-09-24.json) 和 [遠端驗證紀錄](../data/verification/snapshot-2026-09-24.json)。不要把建立 tag、推送 Git 或看到部分 Release 資產當成全量上傳完成。
 
 ## 1. 取得儲存庫與查看快照
 
-需 Python 3，以及能存取本私人儲存庫的 GitHub 登入。下列指令從儲存庫根目錄執行；使用前可用各工具的 `--help` 核對目前介面。
+讀取與下載需可連線 GitHub 的環境；下載工具需 Python 3，公開檔案與已發布 Release 不需登入。寫入、上傳及發布新 Release 仍需 GitHub 授權。下列指令從儲存庫根目錄執行；使用前可用各工具的 `--help` 核對目前介面。
 
 ```sh
-gh repo clone Kevin-Shih-Kai-Jen/quant-learning-internship-2027
+git clone https://github.com/Kevin-Shih-Kai-Jen/quant-learning-internship-2027.git
 cd quant-learning-internship-2027
 python3 scripts/data_archive.py list
 ```
 
-`list` 列出 Release 資料的頂層分組、檔數與大小；細部路徑查 catalog。Git 與 Release 的完整收錄對照見 [檔案盤點](../data/inventories/snapshot-2026-09-24.json) 或 [實驗下載索引](EXPERIMENT_INDEX.md)。`research/` 對應原專案根目錄；僅 clone 不會取回所有大型檔案。
+`list` 列出 Release 資料的頂層分組、檔數與大小；細部路徑查 catalog。`fetch` 會先以匿名 HTTPS 下載公開附件，僅遇 401／403／404 時回退到已登入的 GitHub CLI；正常公開下載不需要 `gh` 登入。Git 與 Release 的完整收錄對照見 [檔案盤點](../data/inventories/snapshot-2026-09-24.json) 或 [實驗下載索引](EXPERIMENT_INDEX.md)。`research/` 對應原專案根目錄；僅 clone 不會取回所有大型檔案。
 
 ## 2. 按實驗取回，連同依賴一起處理
 
@@ -39,7 +39,7 @@ python3 scripts/data_archive.py fetch --experiment project_archive_20260924/comp
 python3 scripts/data_archive.py verify --experiment project_archive_20260924/compressed_data/jpx_v8_soft_rank_20260912 --tag snapshot-2026-09-24 --dest "$QUANT_TASK_DIR"
 ```
 
-原始資料 ZIP 與模板位於 `project_archive_20260924/external_sources/`，同樣按 catalog 取回。工具下載／驗證檔案不等於執行或重新訓練模型。
+原始資料 ZIP 與模板位於 `project_archive_20260924/external_sources/`，同樣按 catalog 取回；JPX 原始 ZIP 的 tag、分包與免登入入口見 [ACCESS.md](ACCESS.md)。工具下載／驗證檔案不等於執行或重新訓練模型。
 
 ## 3. 將原 gzip 封存恢復成舊程式路徑
 
@@ -113,9 +113,9 @@ python3 scripts/publish_snapshot.py --workspace /absolute/path/to/project --tag 
 
 `archive-config.json` 的 `compression_manifest` 指向工作目錄內的壓縮清單；還原出的歷史原檔若與清單一致，且最新已驗證 catalog 中有匹配的 gzip，便沿用該封存而不重複上傳，原路徑內容改變則必須另建實驗路徑。
 
-`compression_manifest_sha256` 鎖定這份清單的完整位元組，初始歷史映射不可改寫；若需建立新映射，必須另外明確設定已驗證的新清單及其雜湊，工具不會自動接受變動。
+`compression_manifest_sha256` 鎖定這份清單的完整位元組，初始歷史映射不可改寫；若需建立新映射，必須另外明確設定已驗證的新清單及其雜湊，工具不會自動接受變動。上傳工具也會核對遠端可見性是否符合 `archive-config.json` 的 `public` 設定，不會自行更改 repo 可見性；若不一致，先查明原因，不繞過核對。
 
-工具按保存規則複製可讀檔案至 `research/`、將大型檔分包上傳至私人草稿 Release，完成遠端 digest 核對後才更新 catalog。它不代做最終 Git commit／push 或 Release 正式發布。先確認輸出與遠端驗證紀錄，核對 `data/index.json`、catalog、verification 一致；再提交／推送本次檔案，將已核對的草稿 Release 發布到這個私人儲存庫，最後重查遠端可取回狀態。儲存庫仍維持 private。
+工具按保存規則複製可讀檔案至 `research/`、將大型檔分包上傳至尚未發布的草稿 Release，完成遠端 digest 核對後才更新 catalog。它不代做最終 Git commit／push 或 Release 正式發布。先確認輸出與遠端驗證紀錄，核對 `data/index.json`、catalog、verification 一致；再提交／推送本次檔案，將已核對的草稿 Release 發布到這個公開儲存庫，最後重查遠端可取回狀態。公開後的新成果同樣可被外界讀取；沿用本專案同步授權，排除憑證及無關個資，不更改儲存庫可見性。
 
 若任何階段未完成，保留本次資料，明確記錄未完成範圍，不覆寫舊快照或宣稱備份完成。實際包含與排除的內容可查 [保存範圍](UPLOAD_SCOPE.md) 及 `archive-config.json`，不要把同名研究輸出誤當可丟棄快取。
 

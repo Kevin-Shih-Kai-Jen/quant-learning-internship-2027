@@ -47,6 +47,9 @@ class ArchiveTests(unittest.TestCase):
         self.gh_patch = patch.object(archive.subprocess, "run", side_effect=self.mock_gh)
         self.gh = self.gh_patch.start()
         self.addCleanup(self.gh_patch.stop)
+        self.http_patch = patch.object(archive, "urlopen", side_effect=lambda *a, **k: self.asset.open("rb"))
+        self.http = self.http_patch.start()
+        self.addCleanup(self.http_patch.stop)
 
     def make_tar(self, extra=None):
         with tarfile.open(self.asset, "w") as output:
@@ -82,7 +85,12 @@ class ArchiveTests(unittest.TestCase):
         self.assertFalse((self.destination / "research/experiment_b/model.pkl").exists())
         self.run_cli("verify", "--experiment", "research/experiment_a", "--dest", str(self.destination))
         self.assertIn("SKIP", self.run_cli("fetch", "--experiment", "experiment_a", "--dest", str(self.destination)))
-        self.assertEqual(self.gh.call_count, 1)
+        self.assertEqual(self.http.call_count, 1)
+        self.gh.assert_not_called()
+        request = self.http.call_args.args[0]
+        self.assertEqual(request.full_url,
+                         f"https://github.com/{archive.REPOSITORY}/releases/download/snapshot-test/{self.asset.name}")
+        self.assertNotIn("Authorization", request.headers)
         self.assertEqual(list(self.root.glob(".data-archive-*")), [])
 
     def test_existing_conflict_is_not_overwritten(self):
@@ -132,7 +140,24 @@ class ArchiveTests(unittest.TestCase):
         self.pack["release_tag"] = "snapshot-previous"
         self.save_catalog()
         self.run_cli("fetch", "--experiment", "experiment_a", "--dest", str(self.destination))
+        self.assertIn("/releases/download/snapshot-previous/", self.http.call_args.args[0].full_url)
+
+    def test_private_asset_falls_back_to_authenticated_gh(self):
+        self.http.side_effect = archive.HTTPError("https://github.com/asset", 404, "Not Found", {}, None)
+        self.pack["release_tag"] = "snapshot-previous"
+        self.save_catalog()
+        self.run_cli("fetch", "--experiment", "experiment_a", "--dest", str(self.destination))
         self.assertEqual(self.gh.call_args.args[0][3], "snapshot-previous")
+        self.assertEqual((self.destination / "research/experiment_a/data.csv").read_bytes(),
+                         self.contents["research/experiment_a/data.csv"])
+
+    def test_oversized_public_download_is_rejected_before_extract(self):
+        self.http.side_effect = lambda *a, **k: io.BytesIO(b"X" * (self.pack["size"] + 1))
+        self.assertIn("exceeds catalog size",
+                      self.run_cli("fetch", "--all", "--dest", str(self.destination), expected=1))
+        self.assertFalse((self.destination / "research").exists())
+        self.assertEqual(list(self.root.glob(".data-archive-*")), [])
+        self.gh.assert_not_called()
 
 
 if __name__ == "__main__":

@@ -1,6 +1,6 @@
 {
   "repository": "Kevin-Shih-Kai-Jen/quant-learning-internship-2027",
-  "visibility": "private",
+  "visibility": "public",
   "compression_manifest": "project_archive_20260924/COMPRESSED_DATA_MANIFEST.json",
   "compression_manifest_sha256": "a6ce61638ac9cc74d17dc0163693be7dac6a2cdb9cb7cbcdb62385566199bb5a",
   "pack_max_bytes": 805306368,
@@ -11,5 +11,5 @@
   "csv_git_max_bytes": 262144,
   "document_git_max_bytes": 2097152,
   "image_git_max_bytes": 204800,
-  "policy": "Historical cloud experiment contents are immutable. The publisher never deletes sources. After remote content verification, clean only authorized, recoverable local copies under AGENTS.md. Version large evidence as release assets; verify SHA-256 before publication. Never make this research/data repository public automatically."
+  "policy": "Historical cloud experiment contents are immutable. The publisher never deletes sources. After remote content verification, clean only authorized, recoverable local copies under AGENTS.md. Version large evidence as release assets; verify SHA-256 before publication. Public visibility was explicitly authorized on 2026-09-28. Never change repository visibility automatically; require it to match this configuration before uploading."
 }

@@ -293,9 +293,15 @@ def build_pack(workspace, pack, target):
 
 def upload(plan, plan_path):
     repo, tag = plan['repository'], plan['tag']
+    expected_visibility = read_json(ROOT / 'archive-config.json').get('visibility')
+    if expected_visibility not in {'public', 'private'}:
+        raise ValueError('Set archive-config.json visibility to public or private')
     meta = api('repos/' + repo)
-    if not meta['private']:
-        raise ValueError('This archive must remain private')
+    if type(meta.get('private')) is not bool:
+        raise ValueError('GitHub did not return repository visibility')
+    actual_visibility = 'private' if meta['private'] else 'public'
+    if actual_visibility != expected_visibility:
+        raise ValueError('Repository visibility differs from archive-config.json; review before uploading')
     release = find_release(repo, tag)
     if not release['draft']:
         raise ValueError('Only a draft release can receive this upload')
@@ -357,7 +363,7 @@ def upload(plan, plan_path):
                              'sha256': pack['sha256'], 'github_digest': remote['digest'], 'asset_id': remote['id']})
     write_json(ROOT / 'data/verification' / (tag + '.json'), {
         'verified_at': time.strftime('%Y-%m-%dT%H:%M:%S%z'), 'status': 'remote-assets-verified',
-        'repository_private': True, 'all_asset_digests_match': True, 'assets': verification,
+        'repository_private': meta['private'], 'all_asset_digests_match': True, 'assets': verification,
         'note': 'GitHub server-reported SHA256 and sizes verified; draft must still be published after catalog commit.'})
     index_path = ROOT / 'data/index.json'
     index = read_json(index_path) if index_path.exists() else {'schema_version': 1, 'snapshots': []}
