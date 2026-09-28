@@ -1,0 +1,25 @@
+{
+  "year": 2020,
+  "arima": {
+    "days": 242,
+    "scored_days": 242,
+    "sharpe": -0.07452180578495904,
+    "mean_rank_ic": 0.000753158436537195,
+    "rank_ic_days": 241,
+    "mean_spread": -0.055702730869352235,
+    "std_spread": 0.7474688821965568,
+    "forecast_mse": 0.0010808530287976777
+  },
+  "v7": {
+    "days": 242,
+    "scored_days": 242,
+    "sharpe": 0.05085734661690181,
+    "mean_rank_ic": 0.002987490367357447,
+    "rank_ic_days": 241,
+    "mean_spread": 0.08251062070661887,
+    "std_spread": 1.6223933452162735,
+    "forecast_mse": 0.0009913960390998272
+  },
+  "fallback_fraction": 0.022539729615141217,
+  "official_check_passed": true
+}

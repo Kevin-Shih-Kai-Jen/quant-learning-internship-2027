@@ -1,0 +1,49 @@
+{
+  "code": 3774,
+  "year": 2021,
+  "status": "ok",
+  "train_start": "2019-12-17",
+  "train_last": "2020-12-29",
+  "first_signal": "2020-12-30",
+  "last_signal": "2021-12-01",
+  "training_slots": 252,
+  "valid_training_prices": 251,
+  "missing_training_prices": 1,
+  "attempts": [
+    {
+      "converged": false,
+      "iterations": 33,
+      "llf": -40.67549284693947
+    },
+    {
+      "converged": true,
+      "iterations": 3,
+      "llf": -32.71219796995674
+    }
+  ],
+  "warnings": [
+    "Maximum Likelihood optimization failed to converge. Check mle_retvals"
+  ],
+  "prefix_checks": [],
+  "anchor": 2797.0,
+  "scale": 115.09445601849167,
+  "params": {
+    "ar.L1": 0.9965637662990533,
+    "ar.L2": 1.9946222656663217,
+    "ar.L3": -1.990897920103183,
+    "ar.L4": -0.9984250524090472,
+    "ar.L5": 0.9981369389457276,
+    "ma.L1": -4.470595371202844,
+    "ma.L2": 8.414054362209649,
+    "ma.L3": -8.411649325598967,
+    "ma.L4": 4.466563789792997,
+    "ma.L5": -0.9983718283673951,
+    "sigma2": 0.41208162381620966
+  },
+  "min_ar_root": 1.0000000001711278,
+  "min_ma_root": 1.000000000089633,
+  "invalid_forecasts": 0,
+  "fallback_forecasts": 0,
+  "forecast_days": 225,
+  "seconds": 1.304695584000001
+}

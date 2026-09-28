@@ -1,0 +1,9 @@
+{
+  "training_window": "expanding",
+  "validation_period": "one year per fold; report incomplete final years",
+  "coefficient_refit": "annual for this experiment; distinguish from daily state updates",
+  "ranking_horizon": "t+1 close to t+2 close, official JPX",
+  "primary_metric": "official spread Sharpe",
+  "secondary_metric": "daily Rank IC",
+  "formal_test": "reserved, do not use for exploratory model selection"
+}

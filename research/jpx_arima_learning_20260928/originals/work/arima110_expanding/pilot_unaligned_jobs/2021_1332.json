@@ -1,0 +1,46 @@
+{
+  "code": 1332,
+  "year": 2021,
+  "status": "ok",
+  "train_start": "2017-01-04",
+  "train_last": "2020-12-29",
+  "first_signal": "2020-12-30",
+  "last_signal": "2021-12-01",
+  "training_slots": 975,
+  "valid_training_prices": 974,
+  "missing_training_prices": 1,
+  "attempts": [
+    {
+      "converged": true,
+      "iterations": 4,
+      "llf": -1379.732054527403
+    }
+  ],
+  "warnings": [],
+  "prefix_checks": [
+    {
+      "origin": "2020-12-30",
+      "max_price_error": 0.0
+    },
+    {
+      "origin": "2021-06-17",
+      "max_price_error": 0.0
+    },
+    {
+      "origin": "2021-12-01",
+      "max_price_error": 0.0
+    }
+  ],
+  "anchor": 571.0,
+  "scale": 10.912520342985115,
+  "params": {
+    "ar.L1": 0.02860904173825519,
+    "sigma2": 0.9974112995169766
+  },
+  "min_ar_root": 34.95398444830917,
+  "min_ma_root": null,
+  "invalid_forecasts": 0,
+  "fallback_forecasts": 0,
+  "forecast_days": 225,
+  "seconds": 0.023842208998757997
+}

@@ -1,0 +1,167 @@
+{
+  "model": "ARIMA(0,1,1), no drift; expanding annual fit, daily filtering; official two-step horizon",
+  "window": "expanding from first available date",
+  "refit": "annual; fixed parameters within each validation year",
+  "score_formula": "forecast_P_t_plus_2 / forecast_P_t_plus_1 - 1",
+  "target_interval": "t+1 to t+2 (official JPX)",
+  "arima": {
+    "days": 953,
+    "scored_days": 953,
+    "sharpe": -0.02849070901578136,
+    "mean_rank_ic": null,
+    "rank_ic_days": 0,
+    "mean_spread": -0.015321456243900761,
+    "std_spread": 0.53777026873617,
+    "forecast_mse": 0.0005922158657347868
+  },
+  "v7": {
+    "days": 953,
+    "scored_days": 953,
+    "sharpe": 0.007678871562421057,
+    "mean_rank_ic": -0.0007338924981283135,
+    "rank_ic_days": 952,
+    "mean_spread": 0.009116532667688198,
+    "std_spread": 1.1872229654553388,
+    "forecast_mse": 0.0006654329991343364
+  },
+  "common_days": 953,
+  "common_arima": {
+    "days": 953,
+    "scored_days": 953,
+    "sharpe": -0.02849070901578136,
+    "mean_rank_ic": null,
+    "rank_ic_days": 0,
+    "mean_spread": -0.015321456243900761,
+    "std_spread": 0.53777026873617,
+    "forecast_mse": 0.0005922158657347868
+  },
+  "common_v7": {
+    "days": 953,
+    "scored_days": 953,
+    "sharpe": 0.007678871562421057,
+    "mean_rank_ic": -0.0007338924981283135,
+    "rank_ic_days": 952,
+    "mean_spread": 0.009116532667688198,
+    "std_spread": 1.1872229654553388,
+    "forecast_mse": 0.0006654329991343364
+  },
+  "annual": [
+    {
+      "year": 2018,
+      "arima": {
+        "days": 245,
+        "scored_days": 245,
+        "sharpe": -0.11421699986970017,
+        "mean_rank_ic": null,
+        "rank_ic_days": 0,
+        "mean_spread": -0.07042971382360419,
+        "std_spread": 0.6166307458955416,
+        "forecast_mse": 0.0005869206860689359
+      },
+      "v7": {
+        "days": 245,
+        "scored_days": 245,
+        "sharpe": -0.011513767098899617,
+        "mean_rank_ic": -0.0013176849962878942,
+        "rank_ic_days": 245,
+        "mean_spread": -0.01232984777120115,
+        "std_spread": 1.07087868508123,
+        "forecast_mse": 0.0006659566651103736
+      }
+    },
+    {
+      "year": 2019,
+      "arima": {
+        "days": 241,
+        "scored_days": 241,
+        "sharpe": -0.00391954121442432,
+        "mean_rank_ic": null,
+        "rank_ic_days": 0,
+        "mean_spread": -0.0019532364004856773,
+        "std_spread": 0.49833291541815256,
+        "forecast_mse": 0.0004536711612473053
+      },
+      "v7": {
+        "days": 241,
+        "scored_days": 241,
+        "sharpe": 0.050067175533853786,
+        "mean_rank_ic": 0.0005016931421235172,
+        "rank_ic_days": 241,
+        "mean_spread": 0.046388658903104625,
+        "std_spread": 0.9265283772945836,
+        "forecast_mse": 0.0004880844699704998
+      }
+    },
+    {
+      "year": 2020,
+      "arima": {
+        "days": 242,
+        "scored_days": 242,
+        "sharpe": 0.006022171206477029,
+        "mean_rank_ic": null,
+        "rank_ic_days": 0,
+        "mean_spread": 0.003241105087197245,
+        "std_spread": 0.5381954408256174,
+        "forecast_mse": 0.0008405857719857943
+      },
+      "v7": {
+        "days": 242,
+        "scored_days": 242,
+        "sharpe": 0.05085734661690181,
+        "mean_rank_ic": 0.002987490367357447,
+        "rank_ic_days": 241,
+        "mean_spread": 0.08251062070661887,
+        "std_spread": 1.6223933452162735,
+        "forecast_mse": 0.0009913960390998272
+      }
+    },
+    {
+      "year": 2021,
+      "arima": {
+        "days": 225,
+        "scored_days": 225,
+        "sharpe": 0.021564910724321512,
+        "mean_rank_ic": null,
+        "rank_ic_days": 0,
+        "mean_spread": 0.010401398345604058,
+        "std_spread": 0.48232976609882594,
+        "forecast_mse": 0.0004792428678986654
+      },
+      "v7": {
+        "days": 225,
+        "scored_days": 225,
+        "sharpe": -0.08760480813901655,
+        "mean_rank_ic": -0.005407671377389038,
+        "rank_ic_days": 225,
+        "mean_spread": -0.08639274964621714,
+        "std_spread": 0.9861644752320439,
+        "forecast_mse": 0.0005042314066574779
+      }
+    }
+  ],
+  "fit_statuses": {
+    "ok": 7701,
+    "insufficient_history": 299
+  },
+  "stock_year_fits": 8000,
+  "retried_fits": 1,
+  "fallback_stock_days": 30914,
+  "fallback_fraction": 0.016581534819131254,
+  "selected_fallback_stock_days": 2839,
+  "forecast_rows": 1864363,
+  "official_formula_max_error": 3.469446951953614e-18,
+  "prefix_checks": 48,
+  "horizon_checks": 1833803,
+  "horizon_max_price_gap": 0.0,
+  "raw_score_max_abs": 0.0,
+  "one_step_nonzero_stock_days": 1828970,
+  "all_scores_zero": true,
+  "constant_score_days": 953,
+  "ranks_equal_zero_score_code_order_control": true,
+  "metric_interpretation": "Sharpe reflects SecuritiesCode tie-breaking only, not model ranking information",
+  "formal_test_used": false,
+  "annualized": false,
+  "costs_included": false,
+  "plan_sha256": "91d7acee9e21d9e6f3fc5d1011660060ec4c96bd335d866cd9ffc00e8e8b9a3e",
+  "run_code_sha256": "cf09795cc1d9a894f4f5b4f47f05768c0ebee52a70206af0faf52751081d8e07"
+}

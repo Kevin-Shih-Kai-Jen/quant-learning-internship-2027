@@ -1,5 +1,7 @@
 # 實驗與資料下載索引
 
+**2026-09-28 新增：[ARIMA 七輪完整回測](../research/jpx_arima_learning_20260928/README.md)**。下載 tag：`snapshot-2026-09-28-arima-learning`；前綴：`jpx_arima_learning_20260928`。以下 9/24 快照的數量與「ARIMA 未回測」是歷史狀態；此支線後續已完成 25 組網格、事後 ACF 與共同訓練，詳見新導讀。原始逐筆檔、失敗／修正版及七個交付 ZIP 均保留。
+
 這份索引由首次快照的 [檔案盤點](../data/inventories/snapshot-2026-09-24.json) 彙整，標籤為 `snapshot-2026-09-24`。此快照已完成上傳與遠端校驗；狀態請查 [快照入口](../data/index.json) 與 [遠端驗證紀錄](../data/verification/snapshot-2026-09-24.json)。
 
 此快照共有 **64 個頂層區域（含根目錄）**；Git 可讀檔案 **1,918 檔 · 93.70 MiB**，Release 資料 **8,288 檔 · 10.25 GiB**。每列對應一個原專案頂層目錄；報告保持原始內容，正式基準仍 v7，v30 是最新完成實驗，ARIMA 支線未正式回測。

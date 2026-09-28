@@ -1,0 +1,18 @@
+{
+  "completed": 7984,
+  "total": 7984,
+  "elapsed_seconds": 21.5,
+  "statuses": {
+    "ok": 7643,
+    "insufficient_history": 299,
+    "fit_not_converged": 42
+  },
+  "retries": 47,
+  "last": {
+    "code": 9997,
+    "year": 2021,
+    "status": "ok",
+    "seconds": 0.014,
+    "retries": 0
+  }
+}

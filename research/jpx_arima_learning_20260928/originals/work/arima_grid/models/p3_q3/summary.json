@@ -1,0 +1,38 @@
+{
+  "p": 3,
+  "q": 3,
+  "model": "ARIMA(3,1,3)",
+  "raw_metrics": {
+    "days": 953,
+    "scored_days": 953,
+    "sharpe": 0.014505270779863496,
+    "mean_rank_ic": 0.0018619253507648865,
+    "rank_ic_days": 952,
+    "mean_spread": 0.008379864127064955,
+    "std_spread": 0.5777116645556213
+  },
+  "fit_statuses": {
+    "ok": 7683,
+    "insufficient_history": 299,
+    "fit_or_filter_exception": 11,
+    "fit_not_converged": 7
+  },
+  "retried_fits": 17,
+  "fallback_stock_days": 35186,
+  "fallback_fraction": 0.01887293407989753,
+  "selected_fallback_stock_days": 0,
+  "constant_score_days": 0,
+  "minimum_distinct_scores": 1874,
+  "total_fit_seconds": 5863.39453118488,
+  "official_metric_error": 3.2959746043559335e-17,
+  "prefix_checks": 24,
+  "independent_audit_checks": 96,
+  "independent_audit_max_price_error": 0.0,
+  "invalid_forward_observations": 0,
+  "forward_numerical_fallback_days": 0,
+  "all_training_boundaries_valid": true,
+  "stock_year_fits": 8000,
+  "forecast_rows": 1864363,
+  "runner_sha256": "3cc23905d30f0eabf045edf443b169998670818db9b1e99c947ada9b01fc1a10",
+  "plan_sha256": "78fb10e3882523953021c599e429127d64b0d889ec7eff34cd3cdd0162e119d2"
+}

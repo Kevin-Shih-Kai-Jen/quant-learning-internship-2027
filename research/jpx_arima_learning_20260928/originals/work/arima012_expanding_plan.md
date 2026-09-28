@@ -1,0 +1,13 @@
+# JPX ARIMA(0,1,2): fixed exploratory experiment
+
+User approved testing ARIMA(0,1,2) to determine whether MA innovations can provide a useful ranking signal for the official tomorrow-to-day-after interval. Preserve no drift, expanding training, annual validation, same price inputs and official targets. No search over orders, drift or signs; do not reverse predictions after seeing results.
+
+- Per stock: difference adjusted price once, MA order 2, AR order 0, Gaussian maximum likelihood, invertibility constrained. At least 126 valid training prices. Scale and center using training data only. L-BFGS max 500 iterations; one continuation max 1000 if unconverged.
+- Annual expanding fit begins at first available calendar date, 2017-01-04. Train ends before the existing ValidationYear's first signal. Coefficients fixed within each validation year; daily causal forward-state updates. Missing observations remain on calendar, including documented market closure.
+- Score = forecast P[t+2|t] / forecast P[t+1|t] - 1. It is a ratio of point forecasts, not the exact expectation of a random return ratio. Both forecasts use prices through t, never actual t+1 or future smoothed states.
+- MA(2): second-step expected price increment is theta2 times today's estimated innovation; unlike MA(1), scores need not be zero. Verify third-step price forecast equals second-step forecast (no drift or AR propagation). Do not force either second-step prices or scores to be nonzero.
+- Same 953 validation signal dates, 1,864,363 stock-days, and 2018..2021 ValidationYear groups; 2021 incomplete. Complete unique daily ranks descending score, code ascending on ties. Official top/bottom 200, weights 2 to 1. No clipping finite extremes, no choosing position amounts.
+- Failed fit, insufficient history, invalid numerical variance or nonpositive forecast prices use fixed zero-score fallback, retain all stocks and report selected fallbacks. Original Target unchanged. Formal test not read or evaluated.
+- Sharpe primary, Rank IC secondary, MSE diagnostic only. Compare to existing v7_equal reference and summarize prior ARIMA110 expanding; ARIMA011 all-zero code-order result is only a tie-break control, not a predictive benchmark success.
+- Paired 20-day circular block bootstrap, 2000 reps, seed 20260923, exploratory only. Reused validation and multiple experiments prevent treating apparent improvement as untouched generalization evidence.
+- Verify all annual training cutoffs, expanding starts, prefix forecasts and future-price perturbations, accepted full forward-filter covariance, same universe, full unique ranks, official metric equality and third-step MA truncation.

@@ -1,0 +1,167 @@
+"""Deliver the MA(1) horizon-degeneracy experiment without mislabeling tie-break alpha."""
+from pathlib import Path
+import json, zipfile, hashlib, shutil
+import pandas as pd
+ROOT=Path(__file__).resolve().parent
+RUN=ROOT/'arima011_expanding'
+OUT=ROOT.parent/'outputs'
+
+def main():
+    s=json.loads((RUN/'results.json').read_text())
+    audit=json.loads((RUN/'independent_audit.json').read_text())
+    numeric=json.loads((RUN/'numerical_audit.json').read_text())
+    full=json.loads((RUN/'full_filter_numerical_audit.json').read_text())
+    assert audit['passed'] and full['passed'] and not numeric['invalid_numerical_fits']
+    assert s['all_scores_zero'] and s['ranks_equal_zero_score_code_order_control']
+    assert s['common_arima']['mean_rank_ic'] is None and s['common_arima']['rank_ic_days']==0
+    assert hashlib.sha256((ROOT/'run_arima011_expanding.py').read_bytes()).hexdigest()==s['run_code_sha256']
+    fits=pd.DataFrame(json.loads((RUN/'fit_audits.json').read_text()))
+    bounds=fits.groupby('year').agg(start=('train_start','first'),end=('train_last','first'),slots=('training_slots','first'),first=('first_signal','first'),last=('last_signal','first'))
+    boundaryrows='\n'.join(f'| {y} | {r.start}～{r.end} | {r.slots} | {r.first}～{r.last} |' for y,r in bounds.iterrows())
+    labels={'ok':'成功估計','insufficient_history':'歷史資料不足','fit_not_converged':'估計未收斂','fit_or_filter_exception':'數值求解失敗'}
+    statuses='\n'.join(f'| {labels.get(k,k)} | {v:,} |' for k,v in s['fit_statuses'].items())
+    annual=pd.DataFrame([{'ValidationYear':r['year'],'Days':r['arima']['days'],
+        'CodeOrderControl_Sharpe':r['arima']['sharpe'],'ModelScoreRankIC':None} for r in s['annual']])
+    annualrows='\n'.join(f"| {r['year']} | {r['arima']['days']} | {r['arima']['sharpe']:+.6f} | 未定義 |" for r in s['annual'])
+    report=f'''# JPX ARIMA(0,1,1)：MA(1) 與預測區間
+
+使用者提出 ARIMA(0,1,1)，希望檢驗過去 error 的預測用途；助理實作、回測及核對。沿用無漂移、expanding window、逐年驗證與 JPX 明天→後天的排名目標。
+
+## 結論
+
+在 {s['common_days']} 個驗證日、{s['forecast_rows']:,} 個股票日，排名分數全部為 0。這個設定沒有提供股票間的排名訊號。這是無漂移 MA(1) 與本輪兩步價格比值分數的結構性結果，不能解讀成所有 error/shock 資訊都無效。
+
+| 核對項目 | 結果 |
+|---|---:|
+| 全部股票分數相同的日期 | {s['constant_score_days']} |
+| 原始計算分數的最大絕對值 | {s['raw_score_max_abs']:.3g} |
+| 明天與後天點預測的最大價格差 | {s['horizon_max_price_gap']:.3g} |
+| 一步預測報酬非零的股票日（僅數值診斷） | {s['one_step_nonzero_stock_days']:,} |
+| 模型分數的平均 Rank IC | 未定義（全部同分） |
+| 與零分／代碼排序對照的排名是否完全相同 | 是 |
+
+一步預測非零，說明 MA 項確實改變了預測價格；這不是一步預測有效性的績效證據。沒有另外評估今天→明天的績效，也沒有改變使用者指定的預測區間。
+
+## 為什麼會全部同分
+
+P 是調整收盤價；本輪無漂移 ARIMA(0,1,1) 為：
+
+ΔP[t] = ε[t] + θ·ε[t−1]
+
+ε 是模型創新誤差。過去的 ε 需要由模型估計，不能直接等同於已辨認的新聞事件。MA 並不是預測未來不可預期的 error 本身，而是使用過去估計的 error 預測價格變動。
+
+站在今天 t：
+
+- 預測明天變動：E[ΔP[t+1] | 今天資訊] = θ·估計 ε[t]。
+- 預測後天變動：E[ΔP[t+2] | 今天資訊] = E[ε[t+2] + θ·ε[t+1] | 今天資訊] = 0。
+
+因此預測 P[t+2|t] = 預測 P[t+1|t]，既有排名分數：
+
+score[t] = 預測 P[t+2|t] / 預測 P[t+1|t] − 1 = 0
+
+例如今天價格 100、θ=0.5、今天估計 error=2，預測明天 101，後天仍是 101。明天實際 error 在今天未知，模型使用其條件期望 0；不能把今天 error 或預測的漲幅，當作明天 error 再乘一次 θ。
+
+今天的 error 對價格水準的影響同時保留在明天與後天的預測中，所以二者之間沒有預期價格差。這不表示真實未來價格不會變動，也不表示預測風險為零。
+
+此推論針對「兩個價格點預測的比值」代理；不宣稱隨機價格比值的精確條件期望必然為零。更換報酬模型、加入漂移或改變階數，都屬於另一個假設，沒有在本輪默默加入。
+
+## 同分對照回測：不可視為模型預測能力
+
+全部分數相同，沿用事前固定的 SecuritiesCode 升冪同分規則。因此多頭是當天代碼最小的 200 檔，空頭是代碼最大的 200 檔，並套用官方 2→1 名次權重。
+
+這組「代碼排序對照」在全期的官方 Sharpe 為 {s['common_arima']['sharpe']:+.6f}（未年化、未扣成本）。不論正負，這個數字都由代碼排序選股產生，不能記為 MA(1) 發現的 alpha，也不拿它替換 v7。
+
+| ValidationYear | 日數 | 代碼排序對照 Sharpe | 模型分數 Rank IC |
+|---|---:|---:|---|
+{annualrows}
+
+Rank IC 用原始模型分數計算，全部同分時相關係數未定義；不能填成 0，也不能把打破同分後的代碼名次相關性冒充模型分數的相關性。
+
+## 實作與驗證設定
+
+- 每檔股票獨立估計 ARIMA(0,1,1)，無漂移，MA 可逆；Gaussian 最大概似，L-BFGS 500 次，未收斂從同一估計續跑最多 1,000 次。至少 126 個有效訓練價格。
+- Expanding window：每年納入所有當時已知歷史資料；每年重新估計，年內固定參數、每天更新 forward filter。保留缺失日期，沒有刪掉缺失值壓縮時間。
+- 與上一輪共用相同因果調整價格、原始 Target、股票池及驗證日曆。訓練尺度只由年度訓練資料決定。沒有使用未來平滑狀態。
+- 全日完整唯一排名，前後各 200 檔、權重 2→1；不裁切有限極端值，不自選倉位。正式 test 未讀取或評分。
+- 成功估計的模型先核對兩個價格點預測相同，再以數學上的精確 0 排名，原始浮點計算分數另外保留。此規則在看績效前固定，用來避免浮點誤差被當成訊號。
+- 估計失敗、歷史不足或非正預測價格等使用固定零分後備。有效模型分數也是零，但紀錄會區分兩者。
+
+| 驗證年度標籤 | 訓練日期 | 訓練日數 | 驗證訊號日期 |
+|---|---|---:|---|
+{boundaryrows}
+
+沿用既有 ValidationYear 分組，訊號與報酬實現日期有位移，因此年度邊界含前一年末訊號。2021 僅到現有驗證資料終點，非完整年度。
+
+## 數值與因果核對
+
+共 {s['stock_year_fits']:,} 個股票年度估計：
+
+| 狀態 | 數量 |
+|---|---:|
+{statuses}
+
+後備 {s['fallback_stock_days']:,} 個股票日，占 {s['fallback_fraction']:.2%}；{s['selected_fallback_stock_days']:,} 個後備股票日被同分規則選入前後 200 檔。
+
+- 全部估計資料早於第一個預測日，且 expanding 起點一致；模型工作函式不接收 Target。
+- {s['horizon_checks']:,} 次兩步價格相等核對、{s['prefix_checks']} 次內建截斷核對通過。
+- 另有 {audit['independent_prefix_and_future_perturbation_checks']} 次獨立截斷／未來資料擾動核對，最大價格預測差 {audit['max_price_forecast_error']:.3g}。
+- 所有 {full['accepted_fits_checked']:,} 個接受模型完整 forward filter 的創新變異數有效；沒有依驗證績效挑選估計結果。
+- 官方 Sharpe 獨立重算差 {s['official_formula_max_error']:.3g}；v7 既有逐日報酬亦重現。
+- 全部每日排名精確等於零分／代碼排序對照。RawScore 和一步診斷值均保留在逐筆結果中。
+- 原始 Target 未改写。原資料標籤與本地重建價格比值有微小差異，原因未確定；沒有擅自換掉官方標籤。
+
+## 這輪可以學到什麼
+
+1. p、d、q 與預測步數要一起看。MA(1) 的已知 error 能影響下一步價格變動，但無漂移、無 AR 傳遞時，第二步變動均值為零。
+2. 尚未觀測的 error 與預測的價格變動不是同一個量，不能把預測漲幅當成新的 error 遞迴。
+3. d=1 是價格差，d=2 是价格差的變化，都不是百分比報酬率。d=2 有加速／減速的解釋，是否適用仍須由資料支持。
+4. 全部同分的模型也能被同分規則硬排出前後 200 名，甚至產生正 Sharpe；因此每輪都應檢查訊號是否真有差異。
+5. 如果下一輪仍要只研究 MA，可提出 ARIMA(0,1,2)：其第二步價格變動預測含 θ₂·估計 ε[t]，在目前區間下有機會產生不同分數。這只是可檢驗的候選，不代表會有效；本輪沒有執行。
+6. 若要單獨檢驗在 AR 上加入 MA 的增益，也可用相同 expanding 與年度切分比較 ARIMA(1,1,0) 和 ARIMA(1,1,1)；本輪沒有執行。
+
+## 來源與檔案
+
+- [MA 模型定義](https://otexts.com/fpp3/MA.html)
+- [ARIMA 多步預測：未知未來誤差用零](https://otexts.com/fpp3/arima-forecasting.html)
+- [JPX 官方資料說明](https://www.kaggle.com/competitions/jpx-tokyo-stock-exchange-prediction/data)
+- [JPX 官方評分程式](https://www.kaggle.com/code/smeitoma/jpx-competition-metric-definition)
+
+程式與結果包包含每年參數、逐筆價格預測／分數／排名、每日多空報酬與核對紀錄。原始資料及參照專案未重新分發；重跑時需調整本機來源路徑。歷史驗證已反覆探索，這輪不是新的泛化證據。
+'''
+    report=report.replace('改写','改寫').replace('价格','價格')
+    OUT.mkdir(exist_ok=True)
+    (OUT/'JPX-ARIMA011-expanding-report.md').write_text(report)
+    annual.to_csv(OUT/'ARIMA011-expanding-code-order-control.csv',index=False)
+    shutil.copy2(RUN/'results.json',OUT/'ARIMA011-expanding-results.json')
+    scripts=['run_arima011_expanding.py','audit_arima011_expanding.py','validate_arima011_expanding_numerics.py','report_arima011_expanding.py','arima011_expanding_plan.md']
+    records=['results.json','preparation.json','calendar.csv','fit_audits.json','daily_metrics.csv','baseline_daily_metrics.csv','predictions.csv.gz','independent_audit.json','numerical_audit.json','full_filter_numerical_audit.json','run.log','pilot.log']
+    instructions='''# Reproduce this structural MA(1) experiment
+Python 3.14.2; dependencies listed in requirements.txt.
+Set OPENBLAS_NUM_THREADS=1, OMP_NUM_THREADS=1, VECLIB_MAXIMUM_THREADS=1.
+Use a fresh directory; do not reuse another model's checkpoints. Adjust BASE and RAW absolute paths in scripts to the original local JPX project and raw ZIP. Data hash is recorded in preparation.json; source market data and previous project files are not redistributed.
+Place scripts and plan together, then run in order:
+python run_arima011_expanding.py prepare
+python run_arima011_expanding.py pilot --workers 6
+python run_arima011_expanding.py run --workers 6
+python validate_arima011_expanding_numerics.py
+python validate_arima011_expanding_numerics.py --future
+python run_arima011_expanding.py evaluate
+python audit_arima011_expanding.py
+python report_arima011_expanding.py
+The original run reused identical prepared inputs from the prior experiment. prepare rebuilds those inputs from the raw training file and reference project. Test is never read.
+All scores are analytically zero. The field named arima in results.json contains the official metric of code-order tie breaking; it is not model alpha. Score Rank IC must be null, not zero. OneStepScore_DiagnosticOnly is not evaluated as a trading strategy.
+'''
+    package=OUT/'JPX-ARIMA011-expanding-code-and-results.zip'
+    with zipfile.ZipFile(package,'w',zipfile.ZIP_DEFLATED) as z:
+        for name in scripts:z.write(ROOT/name,name)
+        for name in records:z.write(RUN/name,'results/'+name)
+        z.write(OUT/'JPX-ARIMA011-expanding-report.md','JPX-ARIMA011-expanding-report.md')
+        z.write(ROOT.parent/'JPX-experiment-preferences.json','JPX-experiment-preferences.json')
+        z.writestr('README.md',instructions)
+        z.writestr('requirements.txt','numpy==2.4.6\npandas==3.0.3\nscipy==1.17.1\nstatsmodels==0.14.6\n')
+    with zipfile.ZipFile(package) as z:
+        assert z.testzip() is None
+        assert hashlib.sha256(z.read('run_arima011_expanding.py')).hexdigest()==s['run_code_sha256']
+    print('DELIVERED',str(package),package.stat().st_size,flush=True)
+
+if __name__=='__main__':main()

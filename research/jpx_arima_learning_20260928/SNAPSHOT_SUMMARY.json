@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "tag": "snapshot-2026-09-28-arima-learning",
+  "original_files": 64391,
+  "original_bytes": 6254277763,
+  "storage_counts": {
+    "direct": 389,
+    "concat": 2,
+    "tar-gzip": 64000
+  },
+  "excluded": [
+    "work/mplcache/",
+    "work/__pycache__/"
+  ],
+  "secret_pattern_scan_text_files": 32265,
+  "secret_pattern_matches": 0,
+  "manifest_sha256": "290ac2d6dcdf22544eeca30608561ab28078e0214ea2ff393b038278dfb02a7d",
+  "note": "Source bytes unchanged. Excluded only runtime caches. Split files rejoin byte-for-byte; job archives verified per member. This records archival integrity, not a new backtest."
+}

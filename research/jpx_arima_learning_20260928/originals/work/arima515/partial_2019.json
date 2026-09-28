@@ -1,0 +1,25 @@
+{
+  "year": 2019,
+  "arima": {
+    "days": 241,
+    "scored_days": 241,
+    "sharpe": 0.05565050518735972,
+    "mean_rank_ic": 0.0032484689423339305,
+    "rank_ic_days": 241,
+    "mean_spread": 0.026784847250167197,
+    "std_spread": 0.4813046559054602,
+    "forecast_mse": 0.0005972577163516409
+  },
+  "v7": {
+    "days": 241,
+    "scored_days": 241,
+    "sharpe": 0.050067175533853786,
+    "mean_rank_ic": 0.0005016931421235172,
+    "rank_ic_days": 241,
+    "mean_spread": 0.046388658903104625,
+    "std_spread": 0.9265283772945836,
+    "forecast_mse": 0.0004880844699704998
+  },
+  "fallback_fraction": 0.020066853914585046,
+  "official_check_passed": true
+}

@@ -1,0 +1,134 @@
+{
+  "raw_member_read": "JPX_data/raw/train_files/stock_prices.csv",
+  "raw_zip_sha256": "aaf930192e68d16924e662ef8190d913b06ac1e9e71c23fb8ce9ee3f418ddb0a",
+  "input_price_matrix_shape": [
+    1200,
+    2000
+  ],
+  "validation_rows": 1864363,
+  "validation_days": 953,
+  "stock_count": 2000,
+  "first_signal": "2017-12-29",
+  "last_signal": "2021-12-01",
+  "missing_targets": 3,
+  "adjustment_matches_existing": true,
+  "calendar_matches_existing": true,
+  "baseline_keys_match": true,
+  "formal_test_read": false,
+  "python": "3.14.2",
+  "statsmodels": "0.14.6",
+  "numpy": "2.4.6",
+  "pandas": "3.0.3",
+  "cached_from": "/Users/coolguy/Documents/Codex/2026-09-23/new-chat/work/arima012_expanding",
+  "plan_sha256": "78fb10e3882523953021c599e429127d64b0d889ec7eff34cd3cdd0162e119d2",
+  "runner_sha256": "3cc23905d30f0eabf045edf443b169998670818db9b1e99c947ada9b01fc1a10",
+  "input_hashes": {
+    "prices.npz": "f13df3524b61939f45cf7b757583b905d036bfede7108899c61871c8233325c0",
+    "labels.pkl": "1a28c42890826af349b442f1bcf6f18ac7b7204724eec3f6396147e83852c5e2",
+    "baseline.pkl": "69f37b01981e343e7befa7427d4990e77ee533e97d115bdccaaf45b156ee45a3",
+    "calendar.csv": "d788a948bf6e138f3bd08cb17b98b0cdd8220fb89622770dc2215a6190ab73f4"
+  },
+  "orders": [
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      3,
+      1
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      3,
+      3
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      3,
+      5
+    ],
+    [
+      4,
+      1
+    ],
+    [
+      4,
+      2
+    ],
+    [
+      4,
+      3
+    ],
+    [
+      4,
+      4
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      5,
+      1
+    ],
+    [
+      5,
+      2
+    ],
+    [
+      5,
+      3
+    ],
+    [
+      5,
+      4
+    ],
+    [
+      5,
+      5
+    ]
+  ],
+  "total_fits": 200000
+}

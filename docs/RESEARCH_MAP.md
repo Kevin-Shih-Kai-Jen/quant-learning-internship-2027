@@ -14,7 +14,7 @@
 | v8–v15 | Soft rank、SGD、財報訊號與季度 Forecast | [v13 報告](../research/jpx_v13_quarterly_sgd_sqrt_20260914/JPX-v13-quarterly-SGD-sqrt-report.md)、[v15 報告](../research/jpx_v15_soft_rank_filtered_20260914/JPX-v15-soft-rank-report.md) |
 | v16–v25 | 單一成分、EPS、固定 g、資料查核與極端值門檻 | [v20 資料查核](../research/jpx_v20_eps_data_audit_20260915/JPX-v20-eps-data-audit-report.md)、[v25 無篩選重做](../research/jpx_v25_single_features_unfiltered_20260916/JPX-v25-unfiltered-single-features-report.md) |
 | v26–v30 | 營業利益修正、最新 Forecast 狀態、共同步長與實際值 | [v29 步長比較](../research/jpx_v29_learning_rate_sweep_20260916/JPX-v29-learning-rate-sweep-report.md)、[v30 七組對照](../research/jpx_v30_profit_actual_forecast_20260916/JPX-v30-profit-actual-forecast-report.md) |
-| ARIMA 學習 | d=1、兩步價格預測與殘差自相關；尚未正式回測 | [9/23 計畫](../research/jpx_arima_acf_learning_20260923/experiment_plan.md) |
+| ARIMA 學習 | 後續七輪已回測：25 組網格、殘差 ACF 與 Target MSE 共同訓練；test 保留 | [9/28 完整研究](../research/jpx_arima_learning_20260928/README.md)、[9/23 舊計畫（歷史）](../research/jpx_arima_acf_learning_20260923/experiment_plan.md) |
 
 ## 不能省略的研究證據
 

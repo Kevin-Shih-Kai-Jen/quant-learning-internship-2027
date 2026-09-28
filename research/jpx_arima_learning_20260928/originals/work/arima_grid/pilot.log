@@ -1,0 +1,4 @@
+{"completed": 134, "total": 400, "session_completed": 134, "session_seconds": 10.0, "session_statuses": {"ok": 133, "fit_not_converged": 1}, "estimated_remaining_seconds": 19.9, "mode": "pilot"}
+{"completed": 255, "total": 400, "session_completed": 255, "session_seconds": 20.1, "session_statuses": {"ok": 254, "fit_not_converged": 1}, "estimated_remaining_seconds": 11.4, "mode": "pilot"}
+{"completed": 370, "total": 400, "session_completed": 370, "session_seconds": 30.3, "session_statuses": {"ok": 369, "fit_not_converged": 1}, "estimated_remaining_seconds": 2.5, "mode": "pilot"}
+{"completed": 400, "total": 400, "session_completed": 400, "session_seconds": 37.3, "session_statuses": {"ok": 399, "fit_not_converged": 1}, "estimated_remaining_seconds": 0.0, "mode": "pilot"}

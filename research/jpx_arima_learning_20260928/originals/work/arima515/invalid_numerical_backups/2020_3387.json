@@ -1,0 +1,45 @@
+{
+  "code": 3387,
+  "year": 2020,
+  "status": "ok",
+  "train_start": "2018-12-12",
+  "train_last": "2019-12-27",
+  "first_signal": "2019-12-30",
+  "last_signal": "2020-12-29",
+  "training_slots": 252,
+  "valid_training_prices": 252,
+  "missing_training_prices": 0,
+  "attempts": [
+    {
+      "converged": true,
+      "iterations": 11,
+      "llf": 0.0
+    }
+  ],
+  "warnings": [
+    "Non-invertible starting MA parameters found. Using zeros as starting parameters.",
+    "Non-stationary starting autoregressive parameters found. Using zeros as starting parameters."
+  ],
+  "prefix_checks": [],
+  "anchor": 1290.0,
+  "scale": 24.975006470613202,
+  "params": {
+    "ar.L1": -0.9986962109807171,
+    "ar.L2": 1.9964752581517766,
+    "ar.L3": 1.9959677052154179,
+    "ar.L4": -0.9989502309862531,
+    "ar.L5": -0.999745951617398,
+    "ma.L1": 0.998816091863501,
+    "ma.L2": -1.9969484710481558,
+    "ma.L3": -1.9963199246223384,
+    "ma.L4": 0.9991306037050699,
+    "ma.L5": 0.9996854462906105,
+    "sigma2": 0.0027421263794704166
+  },
+  "min_ar_root": 1.0000000000000042,
+  "min_ma_root": 1.000000000000003,
+  "invalid_forecasts": 0,
+  "fallback_forecasts": 0,
+  "forecast_days": 242,
+  "seconds": 0.23414516699995147
+}

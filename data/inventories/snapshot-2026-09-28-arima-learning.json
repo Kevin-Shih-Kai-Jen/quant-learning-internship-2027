@@ -1,0 +1,3319 @@
+{
+  "schema_version": 1,
+  "tag": "snapshot-2026-09-28-arima-learning",
+  "excluded": {},
+  "files": [
+    {
+      "path": "research/jpx_arima_learning_20260928/ARCHIVE_BUILD_AUDIT.json",
+      "size": 412,
+      "sha256": "07ec66a4511ade908245c7fa52992c5cf48295521cbd054da3bb964f552668c7",
+      "mtime_ns": 1790585021823619349,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/README.md",
+      "size": 9189,
+      "sha256": "81b09b21c481d7245a4ef48fc504a5eb044de0b8c57360e6f9f6bf05f76cf8ee",
+      "mtime_ns": 1790585069137650629,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/SNAPSHOT_FILE_MANIFEST.json.gz",
+      "size": 3579387,
+      "sha256": "290ac2d6dcdf22544eeca30608561ab28078e0214ea2ff393b038278dfb02a7d",
+      "mtime_ns": 1790584952307279156,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/SNAPSHOT_SUMMARY.json",
+      "size": 635,
+      "sha256": "77f353b9940afdf8dae6135fb1c314c9dbc72f6fc1e00f8360137ec812aad223",
+      "mtime_ns": 1790584952316719370,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/restore_original_workspace.py",
+      "size": 13014,
+      "sha256": "bb956b9e733c78204f15c92ce49d76522b1f3cb4ba494057d9eb41343dba138a",
+      "mtime_ns": 1790584990318261059,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/archiving/prepare_archive.py",
+      "size": 5561,
+      "sha256": "a6f5889cec39f29a8c0d68d9324f3ad573bb310c109191f15d6690f34c7122a5",
+      "mtime_ns": 1790584925999841667,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/archiving/restore-tool-validation.json",
+      "size": 381,
+      "sha256": "e3d157373ccc6a1864dab0709f646e78fa3980d1f2cd6f5c57f3cd870c22ff4f",
+      "mtime_ns": 1790585082558619185,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/JPX-experiment-preferences.json",
+      "size": 421,
+      "sha256": "e9fbf0de2bfc466e00e0d94739a5a00f37d126b01ac1ab39cf591ed98a1a5eff",
+      "mtime_ns": 1790146933922048047,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/outputs/ARIMA011-expanding-code-order-control.csv",
+      "size": 185,
+      "sha256": "594a2c71e67300974e34d09293ea3d4fa3574420753cfa6219fd2324865e0ff5",
+      "mtime_ns": 1790148400817269099,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/outputs/ARIMA011-expanding-results.json",
+      "size": 5068,
+      "sha256": "b213454004766f05f1728408ee4dc779ed7dc0fe6c633c9d56d19eb1240f3837",
+      "mtime_ns": 1790148378905549515,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/outputs/ARIMA012-expanding-annual-comparison.csv",
+      "size": 531,
+      "sha256": "3a66ca5a6090f2a5da44622f5ea6e2810193a63830e24428a8cc1da0d42c720f",
+      "mtime_ns": 1790149151812539308,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/outputs/ARIMA012-expanding-results.json",
+      "size": 5301,
+      "sha256": "2d72f49f48aaccb35e8ee15c636481d21d4281e9f7b36b213ff23b3d20765e52",
+      "mtime_ns": 1790149119644043207,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/outputs/ARIMA110-expanding-annual-comparison.csv",
+      "size": 430,
+      "sha256": "19277e777b713a834f48af6349b85da3b67d006a5eb60b7a4a04da079c7317dc",
+      "mtime_ns": 1790147160639483661,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/outputs/ARIMA110-expanding-results.json",
+      "size": 5229,
+      "sha256": "efb0932144f0d54cee7caf26c59cca62c8e8f5f7fd9c49475c9ad0f336b1b92f",
+      "mtime_ns": 1790147048214713497,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/outputs/ARIMA515-annual-comparison.csv",
+      "size": 416,
+      "sha256": "65152ca3bf246da11eeb7bad667a3e942f1c88a4c5ab0ad58ac02804de3d4653",
+      "mtime_ns": 1790141873774441423,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/outputs/ARIMA515-comparison.png",
+      "size": 80609,
+      "sha256": "ffa00b78e5905a8cd7193118ed0b2603a61ebb5044773358987ec229553a1bfd",
+      "mtime_ns": 1790141873772792748,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/outputs/ARIMA515-results.json",
+      "size": 4948,
+      "sha256": "13a9f01f6045e5b6449bbd62530c9c90f8722bae50d70dc5c5aceb18691b130f",
+      "mtime_ns": 1790141789800333779,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/outputs/JPX-ARIMA-ACF-annual.csv",
+      "size": 2334,
+      "sha256": "e2c33658d19eb2eb61a54c114a6670d86ace9c6143072c4ea11c5443388f0fa9",
+      "mtime_ns": 1790217944751199933,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/outputs/JPX-ARIMA-ACF-code-and-results.zip",
+      "size": 229419941,
+      "sha256": "bec3860546eb3a11d44951f536980cd3b4256a5fd622ded1c00a1e4df286f448",
+      "mtime_ns": 1790218240410304009,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/outputs/JPX-ARIMA-ACF-comparison.png",
+      "size": 144066,
+      "sha256": "f0f0bdadfdad4106c9ae790fa2d903565835dcc5afff63cd3d9d4e49361f315a",
+      "mtime_ns": 1790218235202378541,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/outputs/JPX-ARIMA-ACF-diagnostics.png",
+      "size": 118317,
+      "sha256": "e93ba3340dc59bd0ba9c67abef12126690a3dd72eecdc8684b99d6cc3b4a0dda",
+      "mtime_ns": 1790218235323326486,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/outputs/JPX-ARIMA-ACF-metrics.csv",
+      "size": 650,
+      "sha256": "0fefd3a29111ac1de763e2537daa997c724ed2fa3fe9fc8e5637d0f6de3bd031",
+      "mtime_ns": 1790217944750580377,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/outputs/JPX-ARIMA-ACF-report.md",
+      "size": 10690,
+      "sha256": "cf01e5ec1e2359fdc8c0690951fa57e127b900c5110f48651c15445c5e4a481e",
+      "mtime_ns": 1790219961000578923,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/outputs/JPX-ARIMA-ACF-results.json",
+      "size": 12612,
+      "sha256": "8ba6313a45c240364ffe0402022d7014734f3a5ca5e55c8753020eb4fc364de7",
+      "mtime_ns": 1790217946379487812,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/outputs/JPX-ARIMA-grid-annual-heatmaps.png",
+      "size": 223198,
+      "sha256": "b5cb658d6dd573ebe06ab54715cb44c6a1fc03bcf6126ffba2d691b9502b6dd8",
+      "mtime_ns": 1790174272338384604,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/outputs/JPX-ARIMA-grid-annual.csv",
+      "size": 12575,
+      "sha256": "8a061c2348798b38ee047365590d0d7fc5b385ec5e46331d8c091d54a720152c",
+      "mtime_ns": 1790174215170449730,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/outputs/JPX-ARIMA-grid-heatmaps.png",
+      "size": 147850,
+      "sha256": "8eea235a1df5931ef9d784f025a91c785c99910b2aa50375614992ab4851c802",
+      "mtime_ns": 1790174272099230901,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/outputs/JPX-ARIMA-grid-leaderboard.csv",
+      "size": 6823,
+      "sha256": "946bd228a4bd85b915d60105c23e052af23230be23cbf1bb9f2ee100fb9b3322",
+      "mtime_ns": 1790174215169314492,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/outputs/JPX-ARIMA-grid-report.md",
+      "size": 13084,
+      "sha256": "12649187131f88b1008a633a331af9be39a125b9aa90144ec1d54c0e7a9ea71a",
+      "mtime_ns": 1790174272342849179,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/outputs/JPX-ARIMA-grid-results.json",
+      "size": 108662,
+      "sha256": "b89ed9e05b2a30cff83bb3ef1bccfbf2fed6829cbb29f6537cb5fe2da1bc9126",
+      "mtime_ns": 1790174215171922602,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/outputs/JPX-ARIMA-joint-annual.csv",
+      "size": 4510,
+      "sha256": "233afaf4c23488e0931f72edef43b8692b3627e24c75583d264bda7db7c95b77",
+      "mtime_ns": 1790237794218748986,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/outputs/JPX-ARIMA-joint-annual.png",
+      "size": 145524,
+      "sha256": "b63f22e4673615b4d16c28e56ffe2f61f5d9779a9c4dc7cd2c92a3e504356cf8",
+      "mtime_ns": 1790237797955647655,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/outputs/JPX-ARIMA-joint-code-and-results.zip",
+      "size": 91176045,
+      "sha256": "b3c930c7800655a50a3f7a41632b64e8d8e5dae75ab949b970e10b91080598c6",
+      "mtime_ns": 1790237799739433419,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/outputs/JPX-ARIMA-joint-comparison.png",
+      "size": 80929,
+      "sha256": "b2c0f7c7c1aafd3994995b87aaa0c41e0d435834b42f48ec44907b5ef11d6287",
+      "mtime_ns": 1790237797848934742,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/outputs/JPX-ARIMA-joint-contrasts.csv",
+      "size": 770,
+      "sha256": "88b7afa0ac1d811425d19cfec6b6e5eb5d66ebbceb1162f65d81a6b3ffa7590f",
+      "mtime_ns": 1790237795775489827,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/outputs/JPX-ARIMA-joint-metrics.csv",
+      "size": 1199,
+      "sha256": "7df136a07519153661f25afd3899a83f6c08b1d0ecc78fb2e90f255bf65195ba",
+      "mtime_ns": 1790237794218083266,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/outputs/JPX-ARIMA-joint-report.md",
+      "size": 11285,
+      "sha256": "9b06f54ace12336596729cda58e74e3f9e7476edb4811920a769ad96e5f9f452",
+      "mtime_ns": 1790237797962860831,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/outputs/JPX-ARIMA-joint-results.json",
+      "size": 21585,
+      "sha256": "c05a0e3dd49431501d9b7bcf9aa232607a0cf8b2a29d992e96e884ef82a46e62",
+      "mtime_ns": 1790237795785389091,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/outputs/JPX-ARIMA011-expanding-code-and-results.zip",
+      "size": 70243653,
+      "sha256": "ef382f22eeec6d780c0a05f097590fce22fa5b28ee88555ef44813c3dfc2a6cc",
+      "mtime_ns": 1790148402196782137,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/outputs/JPX-ARIMA011-expanding-report.md",
+      "size": 7609,
+      "sha256": "9d403ac3fa705e6e3ce08f7df4d21254cad14f33c03df42d26a1f4eb8a2cff9c",
+      "mtime_ns": 1790148400816364164,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/outputs/JPX-ARIMA012-expanding-code-and-results.zip",
+      "size": 81427504,
+      "sha256": "444ab1758f1f3ceab173f9c5ddcb6e1566d57ef8941487553e2071ef7a49788a",
+      "mtime_ns": 1790149153380316988,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/outputs/JPX-ARIMA012-expanding-report.md",
+      "size": 6635,
+      "sha256": "2b0ebae6f38f8a08772a493997471e3b52cffca53b076627646144813c5006bd",
+      "mtime_ns": 1790149151811568583,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/outputs/JPX-ARIMA110-expanding-code-and-results.zip",
+      "size": 78689185,
+      "sha256": "6c24e6321abab6d949d997374ed929c8e13c5507ff9760fa4dc9eb40a01beb9b",
+      "mtime_ns": 1790147162125751192,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/outputs/JPX-ARIMA110-expanding-report.md",
+      "size": 6904,
+      "sha256": "71bf54b652fec943ad24245c993adb47f341b3b7a224289533a8217f9a2c229d",
+      "mtime_ns": 1790147160638566939,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/outputs/JPX-ARIMA515-code-and-results.zip",
+      "size": 82476977,
+      "sha256": "f1cf7996f88800a0f60e9aaca5702b8dddd163893f8847fbf84ca24706475c93",
+      "mtime_ns": 1790141875417257305,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/outputs/JPX-ARIMA515-report.md",
+      "size": 6697,
+      "sha256": "d7324117f17dc4dd0cabac4aa658ec458d37737a4cf5624f05e8b900214935da",
+      "mtime_ns": 1790141873773364445,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima011_expanding_plan.md",
+      "size": 2761,
+      "sha256": "91d7acee9e21d9e6f3fc5d1011660060ec4c96bd335d866cd9ffc00e8e8b9a3e",
+      "mtime_ns": 1790148143056283346,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima012_expanding_plan.md",
+      "size": 2669,
+      "sha256": "a265351e5f8d19b998f57fd67effac0743e184f8a03d664b5f2e9a3600dc5e62",
+      "mtime_ns": 1790148893610278014,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima110_expanding_plan.md",
+      "size": 2637,
+      "sha256": "63f3aeee01db68ab15d54ab947af3191c6a4347c6d0f50496b57fed1a5974c7c",
+      "mtime_ns": 1790146933921353485,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima515_plan.md",
+      "size": 2992,
+      "sha256": "81b343f0445692496a079a16f9dd4e16ed007c0fd0e70e9270ae8745c08c36e0",
+      "mtime_ns": 1790138897147584302,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_acf_plan.md",
+      "size": 3635,
+      "sha256": "56a230e9f951dc68cb23d70a62fbdc6a25eaf359729cabdc73120fe548d0fa2a",
+      "mtime_ns": 1790217776048065566,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_acf_report.log",
+      "size": 114,
+      "sha256": "f0d003b4763e609df93b6a4dda5658ae87b8e45d4df382830088d4f625cf8431",
+      "mtime_ns": 1790218240888644364,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_acf_run.log",
+      "size": 25,
+      "sha256": "65990cec4900bb11c13d1ad6a79ab6b05ab6f8033709f88eb3ec502f68f558e6",
+      "mtime_ns": 1790217813479138619,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid_plan.md",
+      "size": 2859,
+      "sha256": "78fb10e3882523953021c599e429127d64b0d889ec7eff34cd3cdd0162e119d2",
+      "mtime_ns": 1790149641718581141,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_joint_plan.md",
+      "size": 4234,
+      "sha256": "ea564babe9f82e6cd010955bc718ed39bce28a1bd03421ddfc8907c1a306c8b9",
+      "mtime_ns": 1790231937317441265,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/audit_arima011_expanding.py",
+      "size": 5257,
+      "sha256": "963fdc2d7bcea1690017f1d9df216aaa3c8bee39ac7a742591929793961e25c4",
+      "mtime_ns": 1790148142997343727,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/audit_arima012_expanding.py",
+      "size": 5388,
+      "sha256": "a3aa108282e5ee918fdb8ff6e357b578f048ba3f607e6b585fd6806b6d38dcb8",
+      "mtime_ns": 1790148893550513041,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/audit_arima110_expanding.py",
+      "size": 5257,
+      "sha256": "9a5fd0254f5260073e1f39cb1e95aee88560b2eaba48733914efe6b515e7436d",
+      "mtime_ns": 1790146964461082056,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/audit_arima515.py",
+      "size": 5199,
+      "sha256": "7aeab1403c387702f844059a0be455a8251eeeb1bf80515c6ba5319a6ec7ebe8",
+      "mtime_ns": 1790139882271760340,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/check_arima515_year.py",
+      "size": 2042,
+      "sha256": "cbd1a4ac7046bb5acdc30893b5abd3977a676d9c1cb9822beb55914095e5667e",
+      "mtime_ns": 1790139643127905250,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/evaluate_arima_acf.py",
+      "size": 10316,
+      "sha256": "4f6bc948ab3238a3a6775ad85a790fa0115717726cff0eb2cc8e170f6ee745c9",
+      "mtime_ns": 1790217917611520909,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/evaluate_arima_grid.py",
+      "size": 14822,
+      "sha256": "2553eb8fce10b1c9fd372d977a4c2085b784b06c979cd2ac3ddfe52b6d1ba415",
+      "mtime_ns": 1790174212361157012,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/evaluate_arima_joint.py",
+      "size": 9470,
+      "sha256": "5c4cd0598568d256dc9ca896ff5c949288821db61c2d3145b97cd4dd4e819959",
+      "mtime_ns": 1790233135120433147,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/export_arima_grid.py",
+      "size": 799,
+      "sha256": "52b83c4f08f743cd76ad1a10da0a5c524fefaf936707f477b99608f47c4231e9",
+      "mtime_ns": 1790150132898788092,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/finish_arima_grid.py",
+      "size": 1232,
+      "sha256": "92e2779c528aeae1c33d99ce5a90c2f5e61a1f48e383996fedff22a5f5c12f36",
+      "mtime_ns": 1790150393654610403,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/finish_arima_joint.py",
+      "size": 999,
+      "sha256": "a90788aab40c2a3f7760320a5f8f17bd351b617ebf2ca673636966c3112f8269",
+      "mtime_ns": 1790233403908980150,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/report_arima011_expanding.py",
+      "size": 12413,
+      "sha256": "85587a3543e1c09a98da2e278af96a4138aafd52d6eb40816620e7e5a9d24b23",
+      "mtime_ns": 1790148297629030965,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/report_arima012_expanding.py",
+      "size": 11997,
+      "sha256": "6c2dd2e2fb054a457a267ea1da7098f4b607cd621113baaeb011cef11db005f1",
+      "mtime_ns": 1790149049558770603,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/report_arima110_expanding.py",
+      "size": 11616,
+      "sha256": "431b4b1b63acd3895bb3dd3d387d173a9c04309a8e6e5aa52f3d33ecab206cd9",
+      "mtime_ns": 1790147143014810697,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/report_arima515.py",
+      "size": 13337,
+      "sha256": "df344afb894f932e69d696d4cd3afad5f706d8b3db0c87f51cf13648e8e96e6e",
+      "mtime_ns": 1790141804091584902,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/report_arima_acf.py",
+      "size": 17270,
+      "sha256": "adb9a1bc7fb9d0da8a82cbb5c807dbc0a84d8732e19c095f0ddd9e4b847bbda1",
+      "mtime_ns": 1790218233731348056,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/report_arima_grid.py",
+      "size": 16193,
+      "sha256": "7aa0edfd0c2771f42dc1a012cc08509f0d9a915aed8f3f42f0d0523da24f4ff8",
+      "mtime_ns": 1790174271062350826,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/report_arima_joint.py",
+      "size": 16457,
+      "sha256": "53471d9924ee00625c6b2b484b972e1a85374e177644942079afabe552128ca3",
+      "mtime_ns": 1790235750998102656,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/run_arima011_expanding.py",
+      "size": 21288,
+      "sha256": "cf09795cc1d9a894f4f5b4f47f05768c0ebee52a70206af0faf52751081d8e07",
+      "mtime_ns": 1790148142997194939,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/run_arima012_expanding.py",
+      "size": 21394,
+      "sha256": "c14886b3444974af0649e88caaacc62c15ad78a3c98145241fecc046f3b7fbad",
+      "mtime_ns": 1790148893550326337,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/run_arima110_expanding.py",
+      "size": 20883,
+      "sha256": "4decd8e73c3529b1b56398658000e71e38e74aad688bdf95325a1a4027c5486f",
+      "mtime_ns": 1790146933854540762,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/run_arima515.py",
+      "size": 19698,
+      "sha256": "7a1e9b2ed76d1f4b9d5d019c66cbfa7efdd68447cb1d7251a01e8b5e35209029",
+      "mtime_ns": 1790141865322829301,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/run_arima_acf.py",
+      "size": 8866,
+      "sha256": "578f394fe27992b824ed74f15ed0c7047aa65050d549bfc4ff8d5df316a1646c",
+      "mtime_ns": 1790217776115622394,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/run_arima_grid.py",
+      "size": 11443,
+      "sha256": "3cc23905d30f0eabf045edf443b169998670818db9b1e99c947ada9b01fc1a10",
+      "mtime_ns": 1790149641751811193,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/run_arima_joint.py",
+      "size": 12890,
+      "sha256": "daa15ecdea234a4f1e692ce3fbcaa37b162721fc26d2c888a2a18a808236b111",
+      "mtime_ns": 1790232081206740832,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/validate_arima011_expanding_numerics.py",
+      "size": 3679,
+      "sha256": "4d4447480213bae6761ce3c915a73191c1e4452b070b852deb400de68c287b64",
+      "mtime_ns": 1790148142997466599,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/validate_arima012_expanding_numerics.py",
+      "size": 3679,
+      "sha256": "929fe2a8ff99d4f52799d232fd4eda163f3ced440e6b0967b8f1606fbba05d4a",
+      "mtime_ns": 1790148893550656704,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/validate_arima110_expanding_numerics.py",
+      "size": 3679,
+      "sha256": "d1d0a52256dc1954a4099a42edfbb043998f3a0abaeed0d1eb3678125f690b99",
+      "mtime_ns": 1790146964461384755,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/validate_arima515_numerics.py",
+      "size": 3669,
+      "sha256": "ef300c367dc05539561302f8d8b81a70c1c97bc338f1511411f6c8ec9f19385a",
+      "mtime_ns": 1790141731055455223,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima011_expanding/audit.log",
+      "size": 747,
+      "sha256": "42f2e9b4acf354da0f8c410d8bcce9e5f8d2b25900dedf49719c50c5826be2f2",
+      "mtime_ns": 1790148347140705611,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima011_expanding/baseline.pkl",
+      "size": 59660947,
+      "sha256": "69f37b01981e343e7befa7427d4990e77ee533e97d115bdccaaf45b156ee45a3",
+      "mtime_ns": 1790139091237734335,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima011_expanding/baseline_daily_metrics.csv",
+      "size": 85464,
+      "sha256": "eaf0afde68368efa097e5b61a39454d9ae4ccc5e9156602d4ab9c179059b027d",
+      "mtime_ns": 1790148378905328021,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima011_expanding/calendar.csv",
+      "size": 36253,
+      "sha256": "d788a948bf6e138f3bd08cb17b98b0cdd8220fb89622770dc2215a6190ab73f4",
+      "mtime_ns": 1790139092506387320,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima011_expanding/daily_metrics.csv",
+      "size": 67817,
+      "sha256": "ff2b70cf5eaea5cede200c35e8c6521cbddadea2ddfe3db43875d39b128aeff4",
+      "mtime_ns": 1790148378902041357,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima011_expanding/evaluated_predictions.pkl",
+      "size": 151015232,
+      "sha256": "8b5bd45fdd5933329a9345152b4326d5cd48609d786eaee6477199b768835b62",
+      "mtime_ns": 1790148352399748899,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima011_expanding/evaluation.log",
+      "size": 5069,
+      "sha256": "bb14de52e0713e7f9f1babc8464cab5bab5295cf3806667f50002c84fe1d8649",
+      "mtime_ns": 1790148378955210587,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima011_expanding/fit_audits.json",
+      "size": 7270759,
+      "sha256": "25ccdec1d4fbe5239acbfdaf546cba84cd1fd164e1c29283ec946f0af9c784d3",
+      "mtime_ns": 1790148378954912845,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima011_expanding/full_filter_numerical_audit.json",
+      "size": 124,
+      "sha256": "01fd292d22e6c54584d6fe257b59f772c61bf7189269dd874ede420077fab241",
+      "mtime_ns": 1790148333019061753,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima011_expanding/independent_audit.json",
+      "size": 11804,
+      "sha256": "9f86353205d645bf5f1b56a6583ef69c526d1619381f72cc69399b8488be42ae",
+      "mtime_ns": 1790148347135972111,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima011_expanding/labels.pkl",
+      "size": 59660962,
+      "sha256": "1a28c42890826af349b442f1bcf6f18ac7b7204724eec3f6396147e83852c5e2",
+      "mtime_ns": 1790139090302578032,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima011_expanding/numerical_audit.json",
+      "size": 169,
+      "sha256": "9c83b891a398f7f5809df7897fc008252e1ed4ab4ca7587c562d9c2063ec2b75",
+      "mtime_ns": 1790148309896778987,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima011_expanding/pilot.log",
+      "size": 2870,
+      "sha256": "0f1a0bd75db391092585658facfaf9a4d5a21d60dd4b0f6fe8dcbc5c3b3a0477",
+      "mtime_ns": 1790148145773687017,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima011_expanding/predictions.csv.gz",
+      "size": 69498171,
+      "sha256": "6edd35e7dc5665745be27c057cc727c9dd0e27028b066901509b4f91255c8580",
+      "mtime_ns": 1790148378898850775,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima011_expanding/preparation.json",
+      "size": 789,
+      "sha256": "d0ab0bf8608c50ebffa843c11274dd0721270394c88fb73967eeafb68f4fe31f",
+      "mtime_ns": 1790148143136760109,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima011_expanding/prices.npz",
+      "size": 5876864,
+      "sha256": "f13df3524b61939f45cf7b757583b905d036bfede7108899c61871c8233325c0",
+      "mtime_ns": 1790139092503858390,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima011_expanding/progress.json",
+      "size": 264,
+      "sha256": "b02f3d6527b733db97c9fe1efa47cd121f4744895a0d23329f69bad9cd5114ec",
+      "mtime_ns": 1790148183431056122,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima011_expanding/results.json",
+      "size": 5068,
+      "sha256": "b213454004766f05f1728408ee4dc779ed7dc0fe6c633c9d56d19eb1240f3837",
+      "mtime_ns": 1790148378905549515,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima011_expanding/run.log",
+      "size": 34334,
+      "sha256": "658266974d3515502afb54f47d89469fd8c36ed24c17cb769c500ce8c564f33d",
+      "mtime_ns": 1790148183431087704,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima012_expanding/audit.log",
+      "size": 747,
+      "sha256": "42f2e9b4acf354da0f8c410d8bcce9e5f8d2b25900dedf49719c50c5826be2f2",
+      "mtime_ns": 1790149093661702642,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima012_expanding/baseline.pkl",
+      "size": 59660947,
+      "sha256": "69f37b01981e343e7befa7427d4990e77ee533e97d115bdccaaf45b156ee45a3",
+      "mtime_ns": 1790139091237734335,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima012_expanding/baseline_daily_metrics.csv",
+      "size": 85464,
+      "sha256": "eaf0afde68368efa097e5b61a39454d9ae4ccc5e9156602d4ab9c179059b027d",
+      "mtime_ns": 1790149119643765965,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima012_expanding/calendar.csv",
+      "size": 36253,
+      "sha256": "d788a948bf6e138f3bd08cb17b98b0cdd8220fb89622770dc2215a6190ab73f4",
+      "mtime_ns": 1790139092506387320,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima012_expanding/daily_metrics.csv",
+      "size": 87038,
+      "sha256": "9bb698108175a821a35a256aefdd1dea1bf900a2ba17426a4f391e59f9edc611",
+      "mtime_ns": 1790149119640422761,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima012_expanding/evaluated_predictions.pkl",
+      "size": 121185339,
+      "sha256": "725081fb14152e1d77145148c02e846fd79642f7c7a30c16425e987267d6c9c5",
+      "mtime_ns": 1790149099634263700,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima012_expanding/evaluation.log",
+      "size": 5302,
+      "sha256": "0b5ae16e14207e0afe6fd31a2dc580b1467ef5b5efb725aa9404cd96df172148",
+      "mtime_ns": 1790149119702529381,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima012_expanding/fit_audits.json",
+      "size": 7834776,
+      "sha256": "ce351acad71aa9a12c990b0d15cb2523ca24e174a907c61576ea166fae883073",
+      "mtime_ns": 1790149119702128766,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima012_expanding/full_filter_numerical_audit.json",
+      "size": 124,
+      "sha256": "01fd292d22e6c54584d6fe257b59f772c61bf7189269dd874ede420077fab241",
+      "mtime_ns": 1790149078021987214,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima012_expanding/independent_audit.json",
+      "size": 11804,
+      "sha256": "9f86353205d645bf5f1b56a6583ef69c526d1619381f72cc69399b8488be42ae",
+      "mtime_ns": 1790149093657100929,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima012_expanding/labels.pkl",
+      "size": 59660962,
+      "sha256": "1a28c42890826af349b442f1bcf6f18ac7b7204724eec3f6396147e83852c5e2",
+      "mtime_ns": 1790139090302578032,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima012_expanding/numerical_audit.json",
+      "size": 169,
+      "sha256": "9c83b891a398f7f5809df7897fc008252e1ed4ab4ca7587c562d9c2063ec2b75",
+      "mtime_ns": 1790149061998890184,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima012_expanding/pilot.log",
+      "size": 2869,
+      "sha256": "3e42cfd9ce94b3b07736c61d8cb6fc22befdae79c3ccbb92620fdd5cfd679089",
+      "mtime_ns": 1790148896315058515,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima012_expanding/predictions.csv.gz",
+      "size": 80474262,
+      "sha256": "80bd855275808bbbb28d313c1142a5eafec6c1bb1e5773c4bd8104b84c431059",
+      "mtime_ns": 1790149119636550279,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima012_expanding/preparation.json",
+      "size": 791,
+      "sha256": "0126bc5a7630b12e14e050564ed34cab89706ecc2d417f087ff64d8284c7c5df",
+      "mtime_ns": 1790148893690939605,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima012_expanding/prices.npz",
+      "size": 5876864,
+      "sha256": "f13df3524b61939f45cf7b757583b905d036bfede7108899c61871c8233325c0",
+      "mtime_ns": 1790139092503858390,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima012_expanding/progress.json",
+      "size": 264,
+      "sha256": "5e493dc4eb7793dd83fdcef28aafff6a7fea5baf84e7e15cba344159994f082e",
+      "mtime_ns": 1790148949403709560,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima012_expanding/results.json",
+      "size": 5301,
+      "sha256": "2d72f49f48aaccb35e8ee15c636481d21d4281e9f7b36b213ff23b3d20765e52",
+      "mtime_ns": 1790149119644043207,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima012_expanding/run.log",
+      "size": 34354,
+      "sha256": "41ce4d54d9b9718d943e54c336864fae38b4a34bb4a586e71ce8857311ca7ef7",
+      "mtime_ns": 1790148949403743851,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima110_expanding/audit.log",
+      "size": 747,
+      "sha256": "42f2e9b4acf354da0f8c410d8bcce9e5f8d2b25900dedf49719c50c5826be2f2",
+      "mtime_ns": 1790147022873336246,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima110_expanding/baseline.pkl",
+      "size": 59660947,
+      "sha256": "69f37b01981e343e7befa7427d4990e77ee533e97d115bdccaaf45b156ee45a3",
+      "mtime_ns": 1790139091237734335,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima110_expanding/baseline_daily_metrics.csv",
+      "size": 85464,
+      "sha256": "eaf0afde68368efa097e5b61a39454d9ae4ccc5e9156602d4ab9c179059b027d",
+      "mtime_ns": 1790147048214491587,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima110_expanding/calendar.csv",
+      "size": 36253,
+      "sha256": "d788a948bf6e138f3bd08cb17b98b0cdd8220fb89622770dc2215a6190ab73f4",
+      "mtime_ns": 1790139092506387320,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima110_expanding/daily_metrics.csv",
+      "size": 86561,
+      "sha256": "47eb719a5777d6362677b36e41d4a821a8789b78aafde0fd8a21772c6a280b2f",
+      "mtime_ns": 1790147048211208228,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima110_expanding/evaluated_predictions.pkl",
+      "size": 121185339,
+      "sha256": "531195b3408643ff5da973cfe7658cc76463aece13911e28216535fc19fff629",
+      "mtime_ns": 1790147028767637909,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima110_expanding/evaluation.log",
+      "size": 5230,
+      "sha256": "b3ae70fc1b3f2f133570c6369b57dd865851b393421958e6bbd8a24a2935808f",
+      "mtime_ns": 1790147048265464582,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima110_expanding/fit_audits.json",
+      "size": 6928838,
+      "sha256": "6b891391696d04a3c8eefec05d4a60a9f18f16dbdbb1fa9e3a1eb9f3d6a1fb33",
+      "mtime_ns": 1790147048265149341,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima110_expanding/full_filter_numerical_audit.json",
+      "size": 124,
+      "sha256": "c437821abe90a4c8eb98e93267efb524a632e604a51c2def14a506b16c8c7632",
+      "mtime_ns": 1790147015029661562,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima110_expanding/independent_audit.json",
+      "size": 11804,
+      "sha256": "c99a1ee5774d456fbce9900c0a809ecfc35d99683ad4138d081b81c25582cc2e",
+      "mtime_ns": 1790147022868990920,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima110_expanding/labels.pkl",
+      "size": 59660962,
+      "sha256": "1a28c42890826af349b442f1bcf6f18ac7b7204724eec3f6396147e83852c5e2",
+      "mtime_ns": 1790139090302578032,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima110_expanding/numerical_audit.json",
+      "size": 169,
+      "sha256": "549f0efa507c5c25dccb4034de98021424c7847928b8073ec830035d2d29038b",
+      "mtime_ns": 1790146997189079482,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima110_expanding/pilot.log",
+      "size": 3218,
+      "sha256": "9991965202b197b35d747a99d0831ccdea09d90f8126fa2efa2a887b3961ef2b",
+      "mtime_ns": 1790144159806140166,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima110_expanding/pilot_aligned.log",
+      "size": 3219,
+      "sha256": "e0ee10cc1049f48deab5fdd107efd85ce997a87552e2341234ad9f8a4c9f5f71",
+      "mtime_ns": 1790146937179288428,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima110_expanding/predictions.csv.gz",
+      "size": 77911244,
+      "sha256": "6616c23a49b5406e80d46236783fb9d8d063eb53c7e4107d93b6abb36768237f",
+      "mtime_ns": 1790147048207310388,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima110_expanding/preparation.json",
+      "size": 771,
+      "sha256": "c6020f675ebfffce222bcc0adeb8c3f2e88b8421b21b37f19f37088aa53427ac",
+      "mtime_ns": 1790146933921945800,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima110_expanding/prices.npz",
+      "size": 5876864,
+      "sha256": "f13df3524b61939f45cf7b757583b905d036bfede7108899c61871c8233325c0",
+      "mtime_ns": 1790139092503858390,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima110_expanding/progress.json",
+      "size": 294,
+      "sha256": "41676736286349f39f8eac703a18b9215259deaf7ae7decab3160a5bd85b9d9c",
+      "mtime_ns": 1790146985875236877,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima110_expanding/results.json",
+      "size": 5229,
+      "sha256": "efb0932144f0d54cee7caf26c59cca62c8e8f5f7fd9c49475c9ad0f336b1b92f",
+      "mtime_ns": 1790147048214713497,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima110_expanding/run.log",
+      "size": 38254,
+      "sha256": "e5795b8ab34cedb6b40dda290aa289760ef07f222b3bf7232603d4beee6fd910",
+      "mtime_ns": 1790146985875268960,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima110_expanding/pilot_unaligned_jobs/2018_1301.json",
+      "size": 944,
+      "sha256": "453ba47850030d6e6b2a90373f9a977ca4ff61b5e1a4a044227687ab74489634",
+      "mtime_ns": 1790144159715882257,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima110_expanding/pilot_unaligned_jobs/2018_1301.npz",
+      "size": 4565,
+      "sha256": "e4b575e0d178904a74f49d7b9ba37b6a4d025b84762c36ce806ba0ae77d96e03",
+      "mtime_ns": 1790144159715665800,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima110_expanding/pilot_unaligned_jobs/2018_1332.json",
+      "size": 945,
+      "sha256": "deeef954d4718314db8b10eb1861accda4287ae02c92631e7786c0024e10ecc3",
+      "mtime_ns": 1790144159727870562,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima110_expanding/pilot_unaligned_jobs/2018_1332.npz",
+      "size": 4162,
+      "sha256": "134627f8e9533da5f9561112632e28cde08a6db1db2eb7d2e6cd3289d2ddaf7d",
+      "mtime_ns": 1790144159727664844,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima110_expanding/pilot_unaligned_jobs/2018_7203.json",
+      "size": 822,
+      "sha256": "7800fcbca338a3100dc931445399510acb9620f4744300967b81ba8a01577a6e",
+      "mtime_ns": 1790144159731850124,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima110_expanding/pilot_unaligned_jobs/2018_7203.npz",
+      "size": 837,
+      "sha256": "602baf5c35ce803591a1e6d8358e2b2edb40eb87dabbdfe72ef36a765489819c",
+      "mtime_ns": 1790144159731682120,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima110_expanding/pilot_unaligned_jobs/2018_9984.json",
+      "size": 945,
+      "sha256": "5df31a0a3296c867f570b441f1900d80f41948ff2ec0154a52a2711bab193ca8",
+      "mtime_ns": 1790144159741386637,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima110_expanding/pilot_unaligned_jobs/2018_9984.npz",
+      "size": 5766,
+      "sha256": "647f6f864516843ddb8e6676d92b69f0536e6d7bf45c50dcc7cc1b10eb0d7ab6",
+      "mtime_ns": 1790144159741205645,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima110_expanding/pilot_unaligned_jobs/2019_1301.json",
+      "size": 946,
+      "sha256": "1b546872c0d38ace520b56aa4925a2c27efded931f604a52d46ec264b708b698",
+      "mtime_ns": 1790144159744710043,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima110_expanding/pilot_unaligned_jobs/2019_1301.npz",
+      "size": 4861,
+      "sha256": "7f96039b3971a278d73b0cf7f352eb9bb528c3e5c29128ccabcf66d72b8a03a3",
+      "mtime_ns": 1790144159744346270,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima110_expanding/pilot_unaligned_jobs/2019_1332.json",
+      "size": 944,
+      "sha256": "c9c128766ce245a843fe7e1237241b3f2beef0e7393156a01bfca073229cc180",
+      "mtime_ns": 1790144159750475083,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima110_expanding/pilot_unaligned_jobs/2019_1332.npz",
+      "size": 4475,
+      "sha256": "85fc9511a752455cc1be3af47ec508f19fe5ccc096c6a538700149070e5198da",
+      "mtime_ns": 1790144159750266619,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima110_expanding/pilot_unaligned_jobs/2019_7203.json",
+      "size": 945,
+      "sha256": "a121d3e8158793a7a99efc98131cfa1c8b1c173ed93786b97a70f89b1362c52b",
+      "mtime_ns": 1790144159756043939,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima110_expanding/pilot_unaligned_jobs/2019_7203.npz",
+      "size": 5333,
+      "sha256": "66a5ca2555772b0c6cc2ad5c4242f4cf3dc8284c0016ff3a0249946f08da47b4",
+      "mtime_ns": 1790144159755841094,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima110_expanding/pilot_unaligned_jobs/2019_9984.json",
+      "size": 946,
+      "sha256": "6851abf3875a79e9488c5225390094da2fde47e3d25a227f8f37dbbaf58290c2",
+      "mtime_ns": 1790144159758984092,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima110_expanding/pilot_unaligned_jobs/2019_9984.npz",
+      "size": 5475,
+      "sha256": "9585f9a3930479d9ba8d652b98227eeb3063e37d471c3ae9b51224e85ccc3f90",
+      "mtime_ns": 1790144159758815463,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima110_expanding/pilot_unaligned_jobs/2020_1301.json",
+      "size": 944,
+      "sha256": "036a7603fe790d7c8a7e5366cd28201ef6639ea679c15c7ef0c8e3bb1a62bec1",
+      "mtime_ns": 1790144159765017789,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima110_expanding/pilot_unaligned_jobs/2020_1301.npz",
+      "size": 4831,
+      "sha256": "5274a3f98d837e496ca235cc821ca2a83faa81a40589a2e407ecbaa1465fd7bd",
+      "mtime_ns": 1790144159764813487,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima110_expanding/pilot_unaligned_jobs/2020_1332.json",
+      "size": 940,
+      "sha256": "5bc44b436c1410fd418646114cd6f8e718636049be0663911bad254ff29fb152",
+      "mtime_ns": 1790144159765306135,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima110_expanding/pilot_unaligned_jobs/2020_1332.npz",
+      "size": 4435,
+      "sha256": "c0acf8de04ff7356f172095fcbcd8982816c3c26cc5469ca7ecd4fb0773f1fa1",
+      "mtime_ns": 1790144159764830387,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima110_expanding/pilot_unaligned_jobs/2020_7203.json",
+      "size": 943,
+      "sha256": "6e1edb0fc4df47369fe5b02e2bb9cb62fca26f2f12519382151470a329fce120",
+      "mtime_ns": 1790144159775413969,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima110_expanding/pilot_unaligned_jobs/2020_7203.npz",
+      "size": 5469,
+      "sha256": "306c7e6e14f1c07eb3d7e747d4b72f8bd30fe5a61fe26ebec21939c76f2a9619",
+      "mtime_ns": 1790144159775214704,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima110_expanding/pilot_unaligned_jobs/2020_9984.json",
+      "size": 948,
+      "sha256": "3114487acc9513627ef115352bd92f9844392e732f8e2a6e6c1bf5af88661c1d",
+      "mtime_ns": 1790144159781740175,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima110_expanding/pilot_unaligned_jobs/2020_9984.npz",
+      "size": 5582,
+      "sha256": "5dad6f1469f63ba78ad7c11a1badac60e6fb730f220cb4762404d2597fa5c467",
+      "mtime_ns": 1790144159781305887,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima110_expanding/pilot_unaligned_jobs/2021_1301.json",
+      "size": 944,
+      "sha256": "3ed9f4aa784e6b5dc7e2ab0289eaf20f470dca8dbc6a07c8e796256338ffe81a",
+      "mtime_ns": 1790144159795750396,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima110_expanding/pilot_unaligned_jobs/2021_1301.npz",
+      "size": 4181,
+      "sha256": "365dfcbaa3c0afc5f4a9d5762f0484e64521908714edadc776d26cb3a4d20216",
+      "mtime_ns": 1790144159795591050,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima110_expanding/pilot_unaligned_jobs/2021_1332.json",
+      "size": 944,
+      "sha256": "da454df40ce56e018316bd1ea7815feb586c3672fd938f393fa4c3e7d17d2a5b",
+      "mtime_ns": 1790144159790614496,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima110_expanding/pilot_unaligned_jobs/2021_1332.npz",
+      "size": 4120,
+      "sha256": "eee81340f14b3797ef1c76523f4e193e61272715974ab32da1875509eef0b61c",
+      "mtime_ns": 1790144159790420559,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima110_expanding/pilot_unaligned_jobs/2021_7203.json",
+      "size": 945,
+      "sha256": "f199e08bf43d5d1f4136384f60ace98c930bdc31052526ba795d6055e1674d46",
+      "mtime_ns": 1790144159795458512,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima110_expanding/pilot_unaligned_jobs/2021_7203.npz",
+      "size": 5275,
+      "sha256": "fc5b30c6343d1024de10d5934f94719b5c54d388958ccfb8d05167f5d839a289",
+      "mtime_ns": 1790144159795266490,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima110_expanding/pilot_unaligned_jobs/2021_9984.json",
+      "size": 947,
+      "sha256": "e4e66e95ac7c82ca3058075c6c11bc4bcd20df9acd27919179c1b7cc8ecc03a8",
+      "mtime_ns": 1790144159805717991,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima110_expanding/pilot_unaligned_jobs/2021_9984.npz",
+      "size": 5310,
+      "sha256": "483b0d2daf8249bce5eaa3bf434b1bd4961931a42468b480304f2bfd708d2608",
+      "mtime_ns": 1790144159805565014,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima515/audit.log",
+      "size": 750,
+      "sha256": "8f6e4fc475d63e972be78e225cdb6ab9d28134cc2939c222305b925c8b45e851",
+      "mtime_ns": 1790141764155840945,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima515/baseline.pkl",
+      "size": 59660947,
+      "sha256": "69f37b01981e343e7befa7427d4990e77ee533e97d115bdccaaf45b156ee45a3",
+      "mtime_ns": 1790139091237734335,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima515/baseline_daily_metrics.csv",
+      "size": 85464,
+      "sha256": "eaf0afde68368efa097e5b61a39454d9ae4ccc5e9156602d4ab9c179059b027d",
+      "mtime_ns": 1790141789800126116,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima515/calendar.csv",
+      "size": 36253,
+      "sha256": "d788a948bf6e138f3bd08cb17b98b0cdd8220fb89622770dc2215a6190ab73f4",
+      "mtime_ns": 1790139092506387320,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima515/daily_metrics.csv",
+      "size": 86920,
+      "sha256": "20340757cc421dac21ca7f53edecf4c5611a950b38849e30b355f28523870aa5",
+      "mtime_ns": 1790141789796788727,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima515/evaluated_predictions.pkl",
+      "size": 121185339,
+      "sha256": "1b6aef36f796de2a8104fd9f67bcfc3878155447fb7f8d4c6dea01635a033506",
+      "mtime_ns": 1790141769545419469,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima515/evaluation.log",
+      "size": 4949,
+      "sha256": "e1db372d2ec1684e7b68d3cfc1361c3b3fedb631d0c03835ad5161b6fd244c97",
+      "mtime_ns": 1790141789879557014,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima515/fit_audits.json",
+      "size": 9386971,
+      "sha256": "dbed3c8525937fd21bc57f6576d0784e28476efc0a6983a8deec11e3532c7f38",
+      "mtime_ns": 1790141789879117982,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima515/full_filter_numerical_audit.json",
+      "size": 124,
+      "sha256": "ca7044649cf4c0951e056b1dcab605189d939464a49254257a8bd130b4be048f",
+      "mtime_ns": 1790141737409315125,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima515/full_filter_numerical_audit.log",
+      "size": 125,
+      "sha256": "77846af1afe861a85bdb4913abc573e48a7ac0449014e1eb6c1d011c736d359a",
+      "mtime_ns": 1790141737409432914,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima515/independent_audit.json",
+      "size": 11807,
+      "sha256": "6f1dbd6df62808ab9d40b229bef89055234b2eb4687e8c8f84150f77ade79118",
+      "mtime_ns": 1790141764150009816,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima515/labels.pkl",
+      "size": 59660962,
+      "sha256": "1a28c42890826af349b442f1bcf6f18ac7b7204724eec3f6396147e83852c5e2",
+      "mtime_ns": 1790139090302578032,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima515/numerical_audit.json",
+      "size": 855,
+      "sha256": "7844bcca61e25625571b3f313e175efcafa35c44f7e2e76e35599966a7d2f74c",
+      "mtime_ns": 1790141636612025871,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima515/numerical_audit.log",
+      "size": 856,
+      "sha256": "0806e321d95d5670e3c794810feee67c1b16c95d9eb613554ee698d139fb04de",
+      "mtime_ns": 1790141636612088911,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima515/partial_2018.json",
+      "size": 663,
+      "sha256": "19655548028cc2644b18390fbd30f2fa595d649c42e4a0713e4f7c9dd849b77c",
+      "mtime_ns": 1790139647549549741,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima515/partial_2019.json",
+      "size": 660,
+      "sha256": "4a8f63a050ea8a55f7acb528d4b9e8c56273dc2023686c27f1b3685b2f4827ad",
+      "mtime_ns": 1790140148795095039,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima515/partial_2020.json",
+      "size": 658,
+      "sha256": "faf77b96110daa2d61d8aeb676ad798c7857a8444e093fd92e61690e262f79f5",
+      "mtime_ns": 1790140816753610585,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima515/predictions.csv.gz",
+      "size": 80705027,
+      "sha256": "bd357279ea8c8d7f401d1daa0deb1d77f8fac8d8ae4a979de1e5426d00c4eb91",
+      "mtime_ns": 1790141789793008013,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima515/preparation.json",
+      "size": 689,
+      "sha256": "6a4b9644da0632e7f1068de261f98315073641549038788718923b5db3a5cfb3",
+      "mtime_ns": 1790139092672118043,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima515/prices.npz",
+      "size": 5876864,
+      "sha256": "f13df3524b61939f45cf7b757583b905d036bfede7108899c61871c8233325c0",
+      "mtime_ns": 1790139092503858390,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima515/progress.json",
+      "size": 330,
+      "sha256": "d7c83483a7998aca00c393c5fbb055b93c903ddcfc1dfaf49c07992d1c53f32a",
+      "mtime_ns": 1790141518374523899,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima515/results.json",
+      "size": 4948,
+      "sha256": "13a9f01f6045e5b6449bbd62530c9c90f8722bae50d70dc5c5aceb18691b130f",
+      "mtime_ns": 1790141789800333779,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima515/run.log",
+      "size": 42993,
+      "sha256": "dd6d2dfb4466842588a253168dec32c452548b4b44bd2229041b3fbe013a3516",
+      "mtime_ns": 1790141518374589481,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima515/invalid_numerical_backups/2019_8281.json",
+      "size": 1026,
+      "sha256": "25d785d1cdd94fa6ac03c34e589d9226957bf52b493984d8ebca4173a21fd568",
+      "mtime_ns": 1790140029241982609,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima515/invalid_numerical_backups/2019_8281.npz",
+      "size": 930,
+      "sha256": "0f679ea14ae87929a53fb5662070849b7ab5480be4b66f2641489e33efabddb4",
+      "mtime_ns": 1790140029241704658,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima515/invalid_numerical_backups/2020_3387.json",
+      "size": 1218,
+      "sha256": "e7fd17160f1130f6f6bfd74adaaa3eec6d7e69fd535e36389a0da0b42215a261",
+      "mtime_ns": 1790140234697173749,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima515/invalid_numerical_backups/2020_3387.npz",
+      "size": 932,
+      "sha256": "f8eb8d5dac18c9ab0c9636400d98e3aeefb16d46a781ff05daec3085704338e8",
+      "mtime_ns": 1790140234696697054,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima515/invalid_numerical_backups/2021_3774.json",
+      "size": 1209,
+      "sha256": "50b31cb31900423d4de2e4f1db817b0e57041166acee717c8ca5ee944bddc66b",
+      "mtime_ns": 1790140935256871431,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima515/invalid_numerical_backups/2021_3774.npz",
+      "size": 4476,
+      "sha256": "0b5c02e63fe0e3a9e2ad0e1598b8e099f8784e79912e53ae16d217b9767c234e",
+      "mtime_ns": 1790140935256531105,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_acf/annual.csv",
+      "size": 2334,
+      "sha256": "e2c33658d19eb2eb61a54c114a6670d86ace9c6143072c4ea11c5443388f0fa9",
+      "mtime_ns": 1790217944751199933,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_acf/comparisons.csv",
+      "size": 302,
+      "sha256": "3f586d612eda1e4cd9fd2d38a3d350b6da8559c3e316b2f3011c122e18396da9",
+      "mtime_ns": 1790217946370566579,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_acf/corrections.sqlite",
+      "size": 205152256,
+      "sha256": "bb7f4c4a659e83d46a7ae7a536d008a1fd25dc74e5fd207006e84a4bf9962a5a",
+      "mtime_ns": 1790217813809910820,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_acf/corrections.sqlite-shm",
+      "size": 32768,
+      "sha256": "fd4c9fda9cd3f9ae7c962b0ddf37232294d55580e1aa165aa06129b8549389eb",
+      "mtime_ns": 1790217926342298379,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_acf/corrections.sqlite-wal",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "mtime_ns": 1790217926341796068,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_acf/diagnostics_summary.csv",
+      "size": 794,
+      "sha256": "b79eadf534808d158cffa016396b6558aac158c9a66ae75004504a4e294eb6c5",
+      "mtime_ns": 1790217946211175361,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_acf/evaluation.log",
+      "size": 702,
+      "sha256": "a1d6ff601390ddf4b1a8caeadc6a7063fb7e55d38fb9597b668814416f0228a4",
+      "mtime_ns": 1790217946381524431,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_acf/future_residual_mse.csv",
+      "size": 1841,
+      "sha256": "1d3036f0dc705fc7ff2afd7ca4abad113077061917c75e59492fec9968d673d6",
+      "mtime_ns": 1790217946246640264,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_acf/manifest.json",
+      "size": 298,
+      "sha256": "f8d1af94608da0198d946f6ffddba6101d57308fdd7cc857486c4fb4d7c3366a",
+      "mtime_ns": 1790217796006336407,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_acf/metrics.csv",
+      "size": 650,
+      "sha256": "0fefd3a29111ac1de763e2537daa997c724ed2fa3fe9fc8e5637d0f6de3bd031",
+      "mtime_ns": 1790217944750580377,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_acf/p3_acf_daily.csv",
+      "size": 65828,
+      "sha256": "be1f20d1dce3deb37230f24a0f65d9db5f3dda00ee7103100a74c22bc91b6ee5",
+      "mtime_ns": 1790217932965009967,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_acf/p3_base_daily.csv",
+      "size": 65783,
+      "sha256": "78a6248570b1702596e225b56a64e799481b9a6b201ff9d5da63d90609431fae",
+      "mtime_ns": 1790217934627449057,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_acf/p3_predictions.npz",
+      "size": 15956460,
+      "sha256": "b986ce606aae7414cb774538279c714f33aa1217a005ccd222da498c0f0305f8",
+      "mtime_ns": 1790217935909077766,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_acf/p3_rank_changes.csv",
+      "size": 38982,
+      "sha256": "44f9ed70bd2f05b23b4a84c3a462a5c46042ab6958abb8fdff62a1c2b60a4849",
+      "mtime_ns": 1790217934728266302,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_acf/p5_acf_daily.csv",
+      "size": 65779,
+      "sha256": "d21c622c81b62704c91488390d52212f37af6843d9bfa0525f089fdccd4429f1",
+      "mtime_ns": 1790217941675244503,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_acf/p5_base_daily.csv",
+      "size": 65839,
+      "sha256": "75f8b8640a7468961b815ff3b4456a02a25c70efc22de2265302d60bfa1ef4bb",
+      "mtime_ns": 1790217943343797949,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_acf/p5_predictions.npz",
+      "size": 16019787,
+      "sha256": "fe3ac898dbf2ae5907e77691bead18cb2704548a8ed1dc74159e7ca978e1da2e",
+      "mtime_ns": 1790217944736408332,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_acf/p5_rank_changes.csv",
+      "size": 38991,
+      "sha256": "0170a11fd372b4dd8392a57d74c35ca8c17f37db7f5dc0336b51cac0618e06e8",
+      "mtime_ns": 1790217943442764317,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_acf/progress.json",
+      "size": 61,
+      "sha256": "e2700b7101889e88794e21a33c2358179bbc3c07d331a61849867bc6c0248f2d",
+      "mtime_ns": 1790217813478255741,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_acf/residual_acf.csv.gz",
+      "size": 3427003,
+      "sha256": "e49913d4e338cf1fe734bfc660288d0936e708760d3d4d152af8d2580a213b84",
+      "mtime_ns": 1790217946203346205,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_acf/results.json",
+      "size": 12612,
+      "sha256": "8ba6313a45c240364ffe0402022d7014734f3a5ca5e55c8753020eb4fc364de7",
+      "mtime_ns": 1790217946379487812,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_acf/v7_daily.csv",
+      "size": 80689,
+      "sha256": "32af303ad49051b83471994daddbb6e28a56b485a9f03911a1ba37a15627a8ba",
+      "mtime_ns": 1790217944741187539,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/annual.csv",
+      "size": 12575,
+      "sha256": "8a061c2348798b38ee047365590d0d7fc5b385ec5e46331d8c091d54a720152c",
+      "mtime_ns": 1790174215170449730,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/baseline.pkl",
+      "size": 59660947,
+      "sha256": "69f37b01981e343e7befa7427d4990e77ee533e97d115bdccaaf45b156ee45a3",
+      "mtime_ns": 1790139091237734335,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/baseline_daily.csv",
+      "size": 80689,
+      "sha256": "32af303ad49051b83471994daddbb6e28a56b485a9f03911a1ba37a15627a8ba",
+      "mtime_ns": 1790174214340757884,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/calendar.csv",
+      "size": 36253,
+      "sha256": "d788a948bf6e138f3bd08cb17b98b0cdd8220fb89622770dc2215a6190ab73f4",
+      "mtime_ns": 1790139092506387320,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/evaluation.log",
+      "size": 821,
+      "sha256": "a48869dbe8885dd18a1076418bf675f3254ac9e9dba31a8589696ca6a4156cd5",
+      "mtime_ns": 1790174215172065731,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/fits.sqlite-shm",
+      "size": 32768,
+      "sha256": "fd4c9fda9cd3f9ae7c962b0ddf37232294d55580e1aa165aa06129b8549389eb",
+      "mtime_ns": 1790237713020795306,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/fits.sqlite-wal",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "mtime_ns": 1790174215927185424,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/labels.pkl",
+      "size": 59660962,
+      "sha256": "1a28c42890826af349b442f1bcf6f18ac7b7204724eec3f6396147e83852c5e2",
+      "mtime_ns": 1790139090302578032,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/leaderboard.csv",
+      "size": 6823,
+      "sha256": "946bd228a4bd85b915d60105c23e052af23230be23cbf1bb9f2ee100fb9b3322",
+      "mtime_ns": 1790174215169314492,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/pilot.log",
+      "size": 778,
+      "sha256": "5e941ad2e674e83efc487b02d29b3f645d859618869f7c6d0ef732955887a525",
+      "mtime_ns": 1790149688803478434,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/prediction_keys.npz",
+      "size": 11501964,
+      "sha256": "3fcafea2cd76d26527e06a972018662160799f60e53e129875478725e5f6066d",
+      "mtime_ns": 1790174214843343032,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/preparation.json",
+      "size": 2035,
+      "sha256": "82a0f00e7e076b7d78ee08a35fb30f20b025c2332a34619cde3726a62e64e739",
+      "mtime_ns": 1790149642973662320,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/prices.npz",
+      "size": 5876864,
+      "sha256": "f13df3524b61939f45cf7b757583b905d036bfede7108899c61871c8233325c0",
+      "mtime_ns": 1790139092503858390,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/progress.json",
+      "size": 307,
+      "sha256": "98508547802a03bd601556ee278feddd52f50efcd7bf54e216b3e4a60c1bc0a0",
+      "mtime_ns": 1790174013819038635,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/report.log",
+      "size": 116,
+      "sha256": "9d4452ba67ea1aee685807e2b1ae267265e4db7d6557174b133f49063a46c9f6",
+      "mtime_ns": 1790174308326924818,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/results.json",
+      "size": 108662,
+      "sha256": "b89ed9e05b2a30cff83bb3ef1bccfbf2fed6829cbb29f6537cb5fe2da1bc9126",
+      "mtime_ns": 1790174215171922602,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/run.log",
+      "size": 649915,
+      "sha256": "b04cc5f09b4005e29633a519c4be815b292613cd630b4a1b8794079091f55baf",
+      "mtime_ns": 1790174013819277308,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p1_q1/audit.json",
+      "size": 12655,
+      "sha256": "24ff67012fc39c66fd2973f10fbc74986138d78c5977b25506386cde62b5ccb3",
+      "mtime_ns": 1790174025852741517,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p1_q1/daily.csv",
+      "size": 70641,
+      "sha256": "e04c9f5496e25692bfaa5f6c18870f86cd53345f27062bf4b114d0b9be5a2c3d",
+      "mtime_ns": 1790174024392018626,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p1_q1/parameters.csv.gz",
+      "size": 238600,
+      "sha256": "4baa6aaf5a2e099439176c67239f3644dc3f9426f50a1f44040ac3c57064e0ce",
+      "mtime_ns": 1790174024472637356,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p1_q1/predictions.npz",
+      "size": 15746556,
+      "sha256": "4ef14e4120a41d6cbce45a3c38d8ff9d642e3e5826b4c1ed66ff7ee1f2c83fdd",
+      "mtime_ns": 1790174025851899204,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p1_q1/summary.json",
+      "size": 1106,
+      "sha256": "b4790cdb33ef286168603610b8488d9ab943795821e426019406bb9d486a9fc0",
+      "mtime_ns": 1790174025853016525,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p1_q2/audit.json",
+      "size": 12655,
+      "sha256": "24ff67012fc39c66fd2973f10fbc74986138d78c5977b25506386cde62b5ccb3",
+      "mtime_ns": 1790174032137100194,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p1_q2/daily.csv",
+      "size": 70664,
+      "sha256": "590f3f6104a9e33dd9ae58e0580741e6cbf8db6c8a25191d9de63a923a39c083",
+      "mtime_ns": 1790174030759229300,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p1_q2/parameters.csv.gz",
+      "size": 312544,
+      "sha256": "83cb06c96602eaaede6fff7178ca08362727bcf987b3b5cba3931296ec7bc14e",
+      "mtime_ns": 1790174030858285427,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p1_q2/predictions.npz",
+      "size": 15909726,
+      "sha256": "943e3f2c72b914a431d98e000d6f9da5c3ecef4487ad3f063ccc8ebdb0e8c4bc",
+      "mtime_ns": 1790174032136363216,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p1_q2/summary.json",
+      "size": 1106,
+      "sha256": "75d70b1ea49d9249fd61d031e3c9939ed8c20c208d26b0e0220afa4985fea86f",
+      "mtime_ns": 1790174032137351909,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p1_q3/audit.json",
+      "size": 12655,
+      "sha256": "24ff67012fc39c66fd2973f10fbc74986138d78c5977b25506386cde62b5ccb3",
+      "mtime_ns": 1790174038520313326,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p1_q3/daily.csv",
+      "size": 70669,
+      "sha256": "974d58b24900462a5355a3aa897fd2834d196a2c4863e5d26f2af76fbbab29fa",
+      "mtime_ns": 1790174037087848964,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p1_q3/parameters.csv.gz",
+      "size": 385261,
+      "sha256": "7eb6366b908ae2f2823d354610defe3bae59d5b63304310fe76b4850cd305a6a",
+      "mtime_ns": 1790174037216319027,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p1_q3/predictions.npz",
+      "size": 15949772,
+      "sha256": "907452c7b19e9272c894b35279c1ffaab8e86e799ec8800764054f22d4ba4123",
+      "mtime_ns": 1790174038519473304,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p1_q3/summary.json",
+      "size": 1102,
+      "sha256": "8fed1b3f95c7e6e09b6a230aa07c915733d5be5a55663d9f13346dd3ce83dcb8",
+      "mtime_ns": 1790174038520577333,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p1_q4/audit.json",
+      "size": 12655,
+      "sha256": "24ff67012fc39c66fd2973f10fbc74986138d78c5977b25506386cde62b5ccb3",
+      "mtime_ns": 1790174044843334428,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p1_q4/daily.csv",
+      "size": 70650,
+      "sha256": "b7a71fdfe7cd5cee4b8909931ae31dba7641d1ccde10ea517a8837c5a4e0bce9",
+      "mtime_ns": 1790174043463028846,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p1_q4/parameters.csv.gz",
+      "size": 457404,
+      "sha256": "47202c214b012c36046e07b16b5044a855a6e9dd4fe30da27d8eb5175da33f5e",
+      "mtime_ns": 1790174043609409584,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p1_q4/predictions.npz",
+      "size": 15986843,
+      "sha256": "950593272e9579c33d00eabda94fff8632657a0116a285c8cdab4c59a4e82097",
+      "mtime_ns": 1790174044842469281,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p1_q4/summary.json",
+      "size": 1105,
+      "sha256": "2834258963dd3bb00f19ebed787823ff8d61c81c3862fafe7c868e46d1dbad50",
+      "mtime_ns": 1790174044843546225,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p1_q5/audit.json",
+      "size": 12655,
+      "sha256": "24ff67012fc39c66fd2973f10fbc74986138d78c5977b25506386cde62b5ccb3",
+      "mtime_ns": 1790174051301494476,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p1_q5/daily.csv",
+      "size": 70557,
+      "sha256": "2f93390bc28f636cb2be4e474f0400463f18be4ccff81b06ab00ae627a48d42c",
+      "mtime_ns": 1790174049923346449,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p1_q5/parameters.csv.gz",
+      "size": 529116,
+      "sha256": "b297bcfba7eb4637dac4d7a8e61c6c3a6dd454d12a79cb2f5f9a89ad81972aef",
+      "mtime_ns": 1790174050096074501,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p1_q5/predictions.npz",
+      "size": 16018420,
+      "sha256": "510414c634b285710431c60b8125cef47613a32a87e7fbfcf51daa5d8554257e",
+      "mtime_ns": 1790174051299709096,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p1_q5/summary.json",
+      "size": 1105,
+      "sha256": "4e78dc1d71b5a2462dcbfec5e9779b2b8a62cf29de5540f63f3a98e8ef525bc4",
+      "mtime_ns": 1790174051301770275,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p2_q1/audit.json",
+      "size": 12655,
+      "sha256": "24ff67012fc39c66fd2973f10fbc74986138d78c5977b25506386cde62b5ccb3",
+      "mtime_ns": 1790174057572940399,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p2_q1/daily.csv",
+      "size": 70715,
+      "sha256": "e472ddc8e7f1b198a7b084ce94a0ef8ca48d875105637d632201f928e0885c53",
+      "mtime_ns": 1790174056194163730,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p2_q1/parameters.csv.gz",
+      "size": 313093,
+      "sha256": "cac410ab28daefa082e4f4a78abad339e3424aaf80bbf75f5749756b6a4f8463",
+      "mtime_ns": 1790174056293800040,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p2_q1/predictions.npz",
+      "size": 15899189,
+      "sha256": "e6e3f8145b3d57a75f747721edd5073587f0e344e1840be6584b2ff6aa77cce0",
+      "mtime_ns": 1790174057572146462,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p2_q1/summary.json",
+      "size": 1104,
+      "sha256": "2e994bf0d20e561db5e5327697505ce1057e58f4aca35304ba09f612b4eb899b",
+      "mtime_ns": 1790174057573172905,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p2_q2/audit.json",
+      "size": 12655,
+      "sha256": "1693d806c1e0c93327790c3add02c9b99285e1218ebf6548f5a430ad2f5440ba",
+      "mtime_ns": 1790174064155711408,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p2_q2/daily.csv",
+      "size": 70810,
+      "sha256": "417586715ef9beb95934f238c0678375b1ad275e74a2c4209b33beae1d2cc92f",
+      "mtime_ns": 1790174062839536458,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p2_q2/parameters.csv.gz",
+      "size": 381095,
+      "sha256": "fb5121b1ee834e333a40b8cb9502f64583c26f7ddbbe3bf4b44846834b93926d",
+      "mtime_ns": 1790174062957049068,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p2_q2/predictions.npz",
+      "size": 16088556,
+      "sha256": "4dd7292ed45f410d9ebc6a5479c31f6d703c3d27ecfd76174144bef2093feda9",
+      "mtime_ns": 1790174064154904929,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p2_q2/summary.json",
+      "size": 1168,
+      "sha256": "f6a37714640aa25a19f3bdb2697aa1c126ee224a1f4a6777280eeb5cc8372fe1",
+      "mtime_ns": 1790174064155935581,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p2_q3/audit.json",
+      "size": 12655,
+      "sha256": "e592270b126c798e4412df7468a5187ebd7596cce63d005fc4aa516c2cde559d",
+      "mtime_ns": 1790174070896044240,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p2_q3/daily.csv",
+      "size": 70736,
+      "sha256": "15c3315ddf310df00eaf9adc8ff19bab32ac58d433f461c4bc833e8b9599a2e8",
+      "mtime_ns": 1790174069595074438,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p2_q3/parameters.csv.gz",
+      "size": 454722,
+      "sha256": "b00b3e777f8cf2f6d473b1e1e2cbd45fdbc2224ba7e3f3e245358e84a506763d",
+      "mtime_ns": 1790174069732982414,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p2_q3/predictions.npz",
+      "size": 16102414,
+      "sha256": "4c5961f6ab24c77bc256a3248845cb682b7ac4cf446396e02ac96b54e5f250c2",
+      "mtime_ns": 1790174070895161051,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p2_q3/summary.json",
+      "size": 1168,
+      "sha256": "5bb0f5a72d726de48d2df43758d2c7bc5f248370603b9d7f3c5af7ad60bf75cf",
+      "mtime_ns": 1790174070896275705,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p2_q4/audit.json",
+      "size": 12655,
+      "sha256": "15e053cce149bbd1cb34eebbcc08cbb85e62e8c28402fef0b67108ddaf2feaab",
+      "mtime_ns": 1790174077611766305,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p2_q4/daily.csv",
+      "size": 70703,
+      "sha256": "2f6d6e9e995a14958bc6d005fe2ad54e691639fa43801b336a2ae6de47ea2a20",
+      "mtime_ns": 1790174076297243981,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p2_q4/parameters.csv.gz",
+      "size": 527531,
+      "sha256": "c0229dee535a8514258580acc62f8b445f7419e12aef50eaa579bc4ee1e2926f",
+      "mtime_ns": 1790174076462100911,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p2_q4/predictions.npz",
+      "size": 16130700,
+      "sha256": "4fb82cd747bf99f37edce96d8e9f9647d4a1bbaf15a7013eac6e67779d6520b5",
+      "mtime_ns": 1790174077610991952,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p2_q4/summary.json",
+      "size": 1136,
+      "sha256": "89fa87fe2fbf3edfcdb792bd1020cac08a01b6bc592b8219cf9143165c78b6f3",
+      "mtime_ns": 1790174077612005187,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p2_q5/audit.json",
+      "size": 12655,
+      "sha256": "98e81afd30a8e65cb18f860cfb43b146fabcd7f804de4e886fc9a991e548580a",
+      "mtime_ns": 1790174084625222978,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p2_q5/daily.csv",
+      "size": 70686,
+      "sha256": "ff3c694d9b086009371a672191c7b2f423f8768442181f50600cc964f1021d6a",
+      "mtime_ns": 1790174083292784519,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p2_q5/parameters.csv.gz",
+      "size": 599832,
+      "sha256": "243b821a04046547fe4ecf5e70fb16d4d8bde66b30bdc64246476abad361e380",
+      "mtime_ns": 1790174083477726932,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p2_q5/predictions.npz",
+      "size": 16145664,
+      "sha256": "e5e4dcf624196f5cc0f7b06ebc524b212d3080421531d9985362c537dfbabd45",
+      "mtime_ns": 1790174084624243911,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p2_q5/summary.json",
+      "size": 1132,
+      "sha256": "bb151db45cb8616694215bf16a57452e367b3181e7d25bfe217fd8d600638d31",
+      "mtime_ns": 1790174084625505193,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p3_q1/audit.json",
+      "size": 12655,
+      "sha256": "dd4530458179e58c915b2971f2302c2df12ac5ff0435ec83bb38adc92d99f3ce",
+      "mtime_ns": 1790174091028809308,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p3_q1/daily.csv",
+      "size": 70561,
+      "sha256": "3e0621a54f2486efb55b9a1e31b48443b4a8261810ca57277e2f76f252a73342",
+      "mtime_ns": 1790174089653239432,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p3_q1/parameters.csv.gz",
+      "size": 385918,
+      "sha256": "a8b003af2cc23369ceba6180370f8d075c556f37e7837ed9303aa994b95942c4",
+      "mtime_ns": 1790174089775825674,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p3_q1/predictions.npz",
+      "size": 15929718,
+      "sha256": "aed6b1e38c20474847a287ee0f565ee847acc33421dd96ef216bd6f61ec2c14d",
+      "mtime_ns": 1790174091028027205,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p3_q1/summary.json",
+      "size": 1138,
+      "sha256": "f07e456b595806e198980b8682aeb9d4201244e252e034ddddc7514c2d964a10",
+      "mtime_ns": 1790174091029025856,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p3_q2/audit.json",
+      "size": 12655,
+      "sha256": "fa30c904d28a88514a8e019b844994bf1f9e76833e816c513530954f07c788e2",
+      "mtime_ns": 1790174097414355544,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p3_q2/daily.csv",
+      "size": 70767,
+      "sha256": "1e5d27fb37dc4c0f98d383310d8d4bf709a8b32ddc1c50243e86e3049da6781f",
+      "mtime_ns": 1790174096098220594,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p3_q2/parameters.csv.gz",
+      "size": 454570,
+      "sha256": "7596b782e65cd34516d0a94533ebed07361ba70fffe773c2ddcd61980313482e",
+      "mtime_ns": 1790174096237110512,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p3_q2/predictions.npz",
+      "size": 16100039,
+      "sha256": "47866a960ae78d86993b24d61eeb710a11d768dbe534c8819106e5901ff57cbf",
+      "mtime_ns": 1790174097413582023,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p3_q2/summary.json",
+      "size": 1165,
+      "sha256": "1337cee3504e0e3d6f3e3d65cc588359987aa002f030571155ea4b82276e2dd3",
+      "mtime_ns": 1790174097414584591,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p3_q3/audit.json",
+      "size": 12655,
+      "sha256": "ef832b5508549411eca0751db5ab3e8d30ec2af1f0caf32195ba0c888683cab4",
+      "mtime_ns": 1790174104253685877,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p3_q3/daily.csv",
+      "size": 70698,
+      "sha256": "a0a3b24288539a64adbe28960de555f9c9bc599acbf1d98fd32e83670a9308d3",
+      "mtime_ns": 1790174102973145690,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p3_q3/parameters.csv.gz",
+      "size": 522600,
+      "sha256": "a1933f3ed9e7e30676da2f04c54cc8c96ea55c458515e41bf32cef0d522f106e",
+      "mtime_ns": 1790174103131984380,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p3_q3/predictions.npz",
+      "size": 16150748,
+      "sha256": "7c64b07182276bb3986f811b17b283b06c98be1c10d415c1b2469acf0bd003e3",
+      "mtime_ns": 1790174104252636225,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p3_q3/summary.json",
+      "size": 1168,
+      "sha256": "7a12a9fffb6da3aa6ac5cca71b3b9b65feebf92cfa43b851b9fa62b52ffd2262",
+      "mtime_ns": 1790174104253921425,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p3_q4/audit.json",
+      "size": 12655,
+      "sha256": "f19464406b7351f56bd4738f185efc5580c4fa1936af8956d273a65a6b8d63ce",
+      "mtime_ns": 1790174111167284234,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p3_q4/daily.csv",
+      "size": 70715,
+      "sha256": "f54f73175a246202cd881a7e363392a6c8034149b183dd07cbf5e38802bba3f1",
+      "mtime_ns": 1790174109874651148,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p3_q4/parameters.csv.gz",
+      "size": 595617,
+      "sha256": "9e0d70f478b6ea924bb8c5b48665c6272d86916f776005ea816c64d2abf8ee3b",
+      "mtime_ns": 1790174110057593883,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p3_q4/predictions.npz",
+      "size": 16172244,
+      "sha256": "3e263735418a66f4ea41c11bc620abf7149a0a797d28a7c55e54fc2975e41315",
+      "mtime_ns": 1790174111166393460,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p3_q4/summary.json",
+      "size": 1169,
+      "sha256": "5ebebf8b180dabc3b42f8474552c90b810d17b45d13b2c201747f77fb330e53c",
+      "mtime_ns": 1790174111167516157,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p3_q5/audit.json",
+      "size": 12655,
+      "sha256": "0d0eb0f5b59c2bafbd524b26f38441a6440806e0d678d05715c192cf64a224e1",
+      "mtime_ns": 1790174118143288886,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p3_q5/daily.csv",
+      "size": 70728,
+      "sha256": "8f8df01cecbc85611ae20c2c18b09a5cc7a254f72f2e4a6ecaf520dbdf0382fc",
+      "mtime_ns": 1790174116836823981,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p3_q5/parameters.csv.gz",
+      "size": 668211,
+      "sha256": "8e3bf3f7cdff1fe81ab990bef846dc69b2823f8897ee341d4c5d61b0e14b8b81",
+      "mtime_ns": 1790174117038147946,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p3_q5/predictions.npz",
+      "size": 16187568,
+      "sha256": "f25825d107a175bf092a9d64abd01ce9abec7078103ba7fb96564dd6886fffec",
+      "mtime_ns": 1790174118142269985,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p3_q5/summary.json",
+      "size": 1170,
+      "sha256": "71bbe97b02ca1d3de5a96252100b6feb8e00b2c59d740eeffee6d0fab98a1c1d",
+      "mtime_ns": 1790174118143509142,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p4_q1/audit.json",
+      "size": 12655,
+      "sha256": "24ff67012fc39c66fd2973f10fbc74986138d78c5977b25506386cde62b5ccb3",
+      "mtime_ns": 1790174124880537929,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p4_q1/daily.csv",
+      "size": 70614,
+      "sha256": "66e18da961c4020371520266d182b67e76aa22db21716f7ecf5f0937b8b7e4ba",
+      "mtime_ns": 1790174123502153147,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p4_q1/parameters.csv.gz",
+      "size": 458029,
+      "sha256": "1ff9aa9e6793ec4887499cf6fa94a885666bfb7231accc8838f54c9a35f3fd04",
+      "mtime_ns": 1790174123647200018,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p4_q1/predictions.npz",
+      "size": 15966184,
+      "sha256": "ad983bbde6053c112f50eff733c3bd704baaee419304d320eabbc86b42d6b5dd",
+      "mtime_ns": 1790174124879578154,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p4_q1/summary.json",
+      "size": 1106,
+      "sha256": "bdf8ebd737853dffd33d78ac503ffa44f50bacc87c120bea5bc6759291b6fda0",
+      "mtime_ns": 1790174124880759102,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p4_q2/audit.json",
+      "size": 12655,
+      "sha256": "f3ee173cf069bc02a9bfc566ddaadb99f148bca58d02514041cfb69f46d39ad3",
+      "mtime_ns": 1790174131523143960,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p4_q2/daily.csv",
+      "size": 70751,
+      "sha256": "b19c08246e003680c4efe01695ed9f6e03ae01a4112f9d61494988d3c25ccb4d",
+      "mtime_ns": 1790174130204465486,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p4_q2/parameters.csv.gz",
+      "size": 527441,
+      "sha256": "74ef69f0746d0cfc9ebb29a9fed4e511a88e0713649c77144f1cb8bbea26edd0",
+      "mtime_ns": 1790174130362345109,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p4_q2/predictions.npz",
+      "size": 16112610,
+      "sha256": "892daff497267ea54475326709079d89cbad582bf453ff0d4217deda58fe4d7f",
+      "mtime_ns": 1790174131521991180,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p4_q2/summary.json",
+      "size": 1168,
+      "sha256": "f05d978247293051d74c60d100d3e65f0b156a206b9e76528b0a499ef537d94c",
+      "mtime_ns": 1790174131523405051,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p4_q3/audit.json",
+      "size": 12655,
+      "sha256": "3c3ffa4ca7515963d4b8905cb6c489bb90f7f1ac6963a0dd0c4d4056cf03073e",
+      "mtime_ns": 1790174138358906368,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p4_q3/daily.csv",
+      "size": 70729,
+      "sha256": "a3f5614ec1502ac4703b720c50187021b27f540d8f8ac6aa8e27c25e71a18c67",
+      "mtime_ns": 1790174137053479781,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p4_q3/parameters.csv.gz",
+      "size": 594626,
+      "sha256": "906a843e60446bf02840b65f0e30defcc6395437f7ba5d4113c1a48e04ddafbf",
+      "mtime_ns": 1790174137238943916,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p4_q3/predictions.npz",
+      "size": 16148382,
+      "sha256": "3ce4dcc7537289cf71c9d708f78489419e789b34269471025ce39246e811a173",
+      "mtime_ns": 1790174138357873299,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p4_q3/summary.json",
+      "size": 1170,
+      "sha256": "c9fc4f58fecbf65f843ed164870eb4533482ffb698e90e3f65ce0470a149e808",
+      "mtime_ns": 1790174138359146374,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p4_q4/audit.json",
+      "size": 12655,
+      "sha256": "6498a68a42118ef7f5103dc5825a78328bdadda1b045e6a8761917093086ee33",
+      "mtime_ns": 1790174145045136870,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p4_q4/daily.csv",
+      "size": 70793,
+      "sha256": "0c18ca09151003e11619e60ac1bdce5c9a0b6b817c49137f148417ececb5e9e5",
+      "mtime_ns": 1790174143769397476,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p4_q4/parameters.csv.gz",
+      "size": 664128,
+      "sha256": "ef6f4a96320d07500de65958699cf15de3f0921238e4165b108e68f881f03621",
+      "mtime_ns": 1790174143969524160,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p4_q4/predictions.npz",
+      "size": 16215389,
+      "sha256": "8e1d52a2fe4bf06f3a1d87c1e4131477a588010d4bfa4ad9855cffdba9a7f90a",
+      "mtime_ns": 1790174145044178387,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p4_q4/summary.json",
+      "size": 1167,
+      "sha256": "95e73015587eb1e6557c553b7559ed2e182979024f53434d7e9505b5f32fbda4",
+      "mtime_ns": 1790174145045347084,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p4_q5/audit.json",
+      "size": 12655,
+      "sha256": "8a8f308d3da13807d957544398fefc81fa48c0321da20bdedfb431652991edd6",
+      "mtime_ns": 1790174151697388195,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p4_q5/daily.csv",
+      "size": 70779,
+      "sha256": "23844687cbbd6fe829a406e64129d82db23a8f688ce9705532a4eb4ef5743db7",
+      "mtime_ns": 1790174150405506420,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p4_q5/parameters.csv.gz",
+      "size": 736737,
+      "sha256": "7f6d15281d011326a6f264f140174f2da503efbbb6093bd4700e76a6eaad0c6a",
+      "mtime_ns": 1790174150621509686,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p4_q5/predictions.npz",
+      "size": 16230312,
+      "sha256": "bef5af6b699c89c6d81e9b06d4e07695b88c57556bcde03edecfe4094286e32a",
+      "mtime_ns": 1790174151696433753,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p4_q5/summary.json",
+      "size": 1173,
+      "sha256": "2dcb3d3f62af01a58d7477bab4089f5c0362492ee7d41f21f0c9468392bc8141",
+      "mtime_ns": 1790174151697613117,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p5_q1/audit.json",
+      "size": 12655,
+      "sha256": "b825851ee85445e7abe7f9a822e22d0372ea3e2a99cc1a4c9e8749f2d9b98faa",
+      "mtime_ns": 1790174158283810758,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p5_q1/daily.csv",
+      "size": 70617,
+      "sha256": "c34ffd7eb1c62428528f34c6dfb4620381f2b2cb34e76ad863c5eb55f86e038d",
+      "mtime_ns": 1790174156903864059,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p5_q1/parameters.csv.gz",
+      "size": 529935,
+      "sha256": "ce4ffe469759d3908d8774842c2d48a629f5090138fa8c4f907d10d35607500d",
+      "mtime_ns": 1790174157071182386,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p5_q1/predictions.npz",
+      "size": 15994390,
+      "sha256": "fe28123088a39649471c8b79458a07cfd88cb1b5ef5512a89f191af5243e776c",
+      "mtime_ns": 1790174158282935277,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p5_q1/summary.json",
+      "size": 1139,
+      "sha256": "e313aaf3f10417c6bb72d6333bb15628e7333e22367b7d9454f42bb5246ea5bd",
+      "mtime_ns": 1790174158284025389,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p5_q2/audit.json",
+      "size": 12655,
+      "sha256": "013b79143666394f80a9745fbafca6eeccb2158d1c82e587c9315e7cc3a05bdd",
+      "mtime_ns": 1790174164859449165,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p5_q2/daily.csv",
+      "size": 70664,
+      "sha256": "d40c3d4b177862cedce0e81853bfefe24afcae00fa19ce0b4423d343b3f91fa0",
+      "mtime_ns": 1790174163528468953,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p5_q2/parameters.csv.gz",
+      "size": 599378,
+      "sha256": "4696b57daf971754c3a2f24ba456e7f26c0bcbfb03472b4a49128d6f57171a63",
+      "mtime_ns": 1790174163709823522,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p5_q2/predictions.npz",
+      "size": 16110854,
+      "sha256": "ae417a4ba24342443b491738a13a7345f579c5883f01ea079da9f22cd3ee50f8",
+      "mtime_ns": 1790174164857719036,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p5_q2/summary.json",
+      "size": 1165,
+      "sha256": "b45da28b2cdb992fc9c336837a6380172c58e61ab6b4fb6f923d0058a3ce4b49",
+      "mtime_ns": 1790174164859696671,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p5_q3/audit.json",
+      "size": 12655,
+      "sha256": "094cf736f34e26c4fda7cee081967478278a08b1a032fcba48c8dd490ea4afdb",
+      "mtime_ns": 1790174171426299592,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p5_q3/daily.csv",
+      "size": 70785,
+      "sha256": "3ae5c48c8dd91c2d9a2878f53609820a899a5cff2e998a62130e599089dcb8e6",
+      "mtime_ns": 1790174170098469296,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p5_q3/parameters.csv.gz",
+      "size": 667193,
+      "sha256": "5b8d208c6876ce8183089e3b9a1c0b1a5f26018878227ebd02754cb5e78e384c",
+      "mtime_ns": 1790174170304691097,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p5_q3/predictions.npz",
+      "size": 16158078,
+      "sha256": "e0de7333955fab1139d6522bb549de6bace6aa8683be540280d3d642a8e0ed27",
+      "mtime_ns": 1790174171425290483,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p5_q3/summary.json",
+      "size": 1168,
+      "sha256": "d7035c6dfe01b364a885579c424a717796ef91ca3aeb7f03a726bf57e53c47a4",
+      "mtime_ns": 1790174171426535515,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p5_q4/audit.json",
+      "size": 12655,
+      "sha256": "d5afce9141956fe7732177cc746aad0a0f616509b3c1001ccd7342ef6b650e63",
+      "mtime_ns": 1790174178046718953,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p5_q4/daily.csv",
+      "size": 70744,
+      "sha256": "2c0b0740deda1705fed6061126188cbbad9cb21702f483d3f0d08e04c96ee67f",
+      "mtime_ns": 1790174176760242029,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p5_q4/parameters.csv.gz",
+      "size": 735620,
+      "sha256": "b3075bd439ba16da3ec45dd9d70555630e7f2c5dd14f1dbb46f3ae98f389ca19",
+      "mtime_ns": 1790174176975976126,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p5_q4/predictions.npz",
+      "size": 16206662,
+      "sha256": "ed0195bdc81994ce9764d87b7e48821bf38f2ddaa3b462ea15f52e8f449d619e",
+      "mtime_ns": 1790174178045786054,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p5_q4/summary.json",
+      "size": 1172,
+      "sha256": "859f926567c06af1d988c95f2d986b0b3a6f7d6d64385ff2a34c590b24bd9347",
+      "mtime_ns": 1790174178046950876,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p5_q5/audit.json",
+      "size": 12655,
+      "sha256": "d5d4059b20e7da0ef8dd3af0936082deec7c5732764a96bb1d930cecfcc61754",
+      "mtime_ns": 1790174184603240982,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p5_q5/daily.csv",
+      "size": 70795,
+      "sha256": "0d608680dff920e1c2ec8092f8fd8bd34820a14dd009b57bcb6b56f4041aa86d",
+      "mtime_ns": 1790174183306033165,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p5_q5/parameters.csv.gz",
+      "size": 802603,
+      "sha256": "795ec6011689cfa56e9f77c03791afa64f88788ff8838ce896ab58c8dca58c43",
+      "mtime_ns": 1790174183545840618,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p5_q5/predictions.npz",
+      "size": 16244975,
+      "sha256": "3aecc111f49c27283a67c17a22ac6efd7bdae4d8ad57023ad74513f65c898c32",
+      "mtime_ns": 1790174184602138286,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p5_q5/summary.json",
+      "size": 1172,
+      "sha256": "70be697cec6e914e9ae44b7c36b218fafa2d5351e3383560466f0149e6ec382a",
+      "mtime_ns": 1790174184603458612,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_joint/annual.csv",
+      "size": 4510,
+      "sha256": "233afaf4c23488e0931f72edef43b8692b3627e24c75583d264bda7db7c95b77",
+      "mtime_ns": 1790237794218748986,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_joint/contrasts.csv",
+      "size": 770,
+      "sha256": "88b7afa0ac1d811425d19cfec6b6e5eb5d66ebbceb1162f65d81a6b3ffa7590f",
+      "mtime_ns": 1790237795775489827,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_joint/evaluation.log",
+      "size": 1226,
+      "sha256": "c830ab64f52a4c3084ea02d8b309df2b19f31ac710869951edf7276192dc34ab",
+      "mtime_ns": 1790237795787710486,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_joint/fits.sqlite",
+      "size": 13029376,
+      "sha256": "a9bac8d808933707d72cb7929455cb69e6723966804c3e86b2d02dc44a037ec0",
+      "mtime_ns": 1790237705722183722,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_joint/fits.sqlite-shm",
+      "size": 32768,
+      "sha256": "fd4c9fda9cd3f9ae7c962b0ddf37232294d55580e1aa165aa06129b8549389eb",
+      "mtime_ns": 1790237709307219881,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_joint/fits.sqlite-wal",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "mtime_ns": 1790237709306971934,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_joint/manifest.json",
+      "size": 1709,
+      "sha256": "eb7ffaa3708db4d922a64c9ccebf56a5f62848d5816468e3f1288d34aa4f7f80",
+      "mtime_ns": 1790232084875676314,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_joint/metrics.csv",
+      "size": 1199,
+      "sha256": "7df136a07519153661f25afd3899a83f6c08b1d0ecc78fb2e90f255bf65195ba",
+      "mtime_ns": 1790237794218083266,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_joint/p0_v7_daily.csv",
+      "size": 80689,
+      "sha256": "32af303ad49051b83471994daddbb6e28a56b485a9f03911a1ba37a15627a8ba",
+      "mtime_ns": 1790237794215663667,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_joint/p3_A_daily.csv",
+      "size": 65783,
+      "sha256": "78a6248570b1702596e225b56a64e799481b9a6b201ff9d5da63d90609431fae",
+      "mtime_ns": 1790237794030977466,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_joint/p3_B_daily.csv",
+      "size": 65828,
+      "sha256": "be1f20d1dce3deb37230f24a0f65d9db5f3dda00ee7103100a74c22bc91b6ee5",
+      "mtime_ns": 1790237794057632601,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_joint/p3_C_daily.csv",
+      "size": 65803,
+      "sha256": "c5dd8cfdd4f9f44d54728fd064b50d2fb4cb926cab2c9f1ae4667087fe895470",
+      "mtime_ns": 1790237794080754104,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_joint/p3_C_predictions.npz",
+      "size": 15949176,
+      "sha256": "9146349de2466c492213820f712e92504907180e5961d9be74e3304df0ff74de",
+      "mtime_ns": 1790237747826122271,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_joint/p3_D_daily.csv",
+      "size": 65861,
+      "sha256": "dad3dca4e4802a220fd1c4ea7c773fffe4f61e40e00efb80112dfa4e1ba51542",
+      "mtime_ns": 1790237794103308673,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_joint/p3_D_predictions.npz",
+      "size": 15980190,
+      "sha256": "d3d05d6b565c1230b14218b2ff819acd02e4b37895f5508219a110aef3ec92bd",
+      "mtime_ns": 1790237750720403177,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_joint/p5_A_daily.csv",
+      "size": 65839,
+      "sha256": "75f8b8640a7468961b815ff3b4456a02a25c70efc22de2265302d60bfa1ef4bb",
+      "mtime_ns": 1790237794125738999,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_joint/p5_B_daily.csv",
+      "size": 65779,
+      "sha256": "d21c622c81b62704c91488390d52212f37af6843d9bfa0525f089fdccd4429f1",
+      "mtime_ns": 1790237794148036122,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_joint/p5_C_daily.csv",
+      "size": 65801,
+      "sha256": "1c32ed11232638957f37ee532b2572c6dd78c07bfa0b07e9f97df780489ef269",
+      "mtime_ns": 1790237794170427033,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_joint/p5_C_predictions.npz",
+      "size": 16002243,
+      "sha256": "2ddb8e093393f762d27c19a08e4b03ec532cd35ff94ee121ef1e5c96a2296861",
+      "mtime_ns": 1790237791214553228,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_joint/p5_D_daily.csv",
+      "size": 65792,
+      "sha256": "d0ab1ac8493dd145f110de5c96f5e533be6574e3f40dbff77872a4099672b947",
+      "mtime_ns": 1790237794192734280,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_joint/p5_D_predictions.npz",
+      "size": 16024858,
+      "sha256": "6fb956097a3103b80d0dc94b17de4a3563447c1e0cc1a13bd6b7896df077e7f3",
+      "mtime_ns": 1790237794018863385,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_joint/pilot.log",
+      "size": 122,
+      "sha256": "a85caf02a3b272bf7d1e2b86c924a68e00e49e2c217280afd6110f471cfba5ec",
+      "mtime_ns": 1790232121420966705,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_joint/progress.json",
+      "size": 144,
+      "sha256": "a10c0c6dfcd228c3437e12814f887c285a896215909f0165f675caa43f46519f",
+      "mtime_ns": 1790237705376890029,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_joint/report.log",
+      "size": 115,
+      "sha256": "1be479e06f5aac181d12f43b87452c58a0323606a575a44ade2b440cf1374086",
+      "mtime_ns": 1790237799813826743,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_joint/results.json",
+      "size": 21585,
+      "sha256": "c05a0e3dd49431501d9b7bcf9aa232607a0cf8b2a29d992e96e884ef82a46e62",
+      "mtime_ns": 1790237795785389091,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_joint/run.log",
+      "size": 60419,
+      "sha256": "20961719624e7dd7ad08efc730ce8b5a6aa4ac08f5685425d0384e2ef4d0d48f",
+      "mtime_ns": 1790237705377288886,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_joint/training_audit.csv.gz",
+      "size": 4082843,
+      "sha256": "4a55ad36b40a69e2fd401eddbc19b3446e46eb18cdec4261e9fc6e19393c52d6",
+      "mtime_ns": 1790237795535797598,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_joint/training_targets.npz",
+      "size": 11426743,
+      "sha256": "9e1b084a2ecbc4615c1a00375482a96911b319a4f582b235c2adfe9ce5a814f4",
+      "mtime_ns": 1790232084868539840,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/originals/work/arima_joint/validation_audit.csv.gz",
+      "size": 78102,
+      "sha256": "a9a18ae0e0a302cb45cec3d28d7392627ceca127bced1d3f4ae0b4e855dfbdc3",
+      "mtime_ns": 1790237795633759821,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/packages/work-arima011_expanding-jobs.tar.gz",
+      "size": 30353295,
+      "sha256": "3ddc3c1bf1fc253e10c3f5dbac0ba4e3775550da5ef7fd22e93f442aa5d3e84c",
+      "mtime_ns": 1790584943196318067,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/packages/work-arima012_expanding-jobs.tar.gz",
+      "size": 43877506,
+      "sha256": "c2c8997483921cb5441760daefa8522b6069836abea9b17f2eef6d09c740f9e3",
+      "mtime_ns": 1790584945863014941,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/packages/work-arima110_expanding-jobs.tar.gz",
+      "size": 33790021,
+      "sha256": "a8ba1677db57861874308046a53b2729cc4c72338b7c7860237abddc065e2f3f",
+      "mtime_ns": 1790584948309568936,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/packages/work-arima515-jobs.tar.gz",
+      "size": 46685513,
+      "sha256": "fe316e8c383741eb717f67c25489d96ced32976bf145e52b4528e79a5213fb3c",
+      "mtime_ns": 1790584951227081103,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/packages/chunks/outputs__JPX-ARIMA-grid-code-and-results.zip.part001",
+      "size": 734003200,
+      "sha256": "e3413d81a3cf7e4d1bfe0f130e5ef93f5caf67156d33135d869139be479716fd",
+      "mtime_ns": 1790584928054379137,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/packages/chunks/outputs__JPX-ARIMA-grid-code-and-results.zip.part002",
+      "size": 734003200,
+      "sha256": "fee197f60d5ab320054252a43368d0336f63e1d3e9e5d20c59499ca8c02db1a2",
+      "mtime_ns": 1790584928920875293,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/packages/chunks/outputs__JPX-ARIMA-grid-code-and-results.zip.part003",
+      "size": 116905864,
+      "sha256": "83240860393ea9635e06fcdfbba17f71d6a8a85d9cec3681672076cbebf7ff05",
+      "mtime_ns": 1790584929021021689,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/packages/chunks/work__arima_grid__fits.sqlite.part001",
+      "size": 734003200,
+      "sha256": "6aa262caf133ea7be86b1e4ac2cae4ab8429a767a4a40c7f3bd5f72973e51c1e",
+      "mtime_ns": 1790584939717888009,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/packages/chunks/work__arima_grid__fits.sqlite.part002",
+      "size": 734003200,
+      "sha256": "20c5ccf64450a2c88285acbb5c2d02db41408fba09324d46db219b560bb76eac",
+      "mtime_ns": 1790584940498538076,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/packages/chunks/work__arima_grid__fits.sqlite.part003",
+      "size": 123342848,
+      "sha256": "3637062bc219565449db19c959ef4783d00663bf77300cd35276bf1f762e2e06",
+      "mtime_ns": 1790584940596282125,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/reports/JPX-ARIMA-ACF-report.md",
+      "size": 10614,
+      "sha256": "5415c0b42b685f20371980ab4465062b6f3b38ca220518832046d3376aa35cfe",
+      "mtime_ns": 1790585010889891915,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/reports/JPX-ARIMA-grid-report.md",
+      "size": 13008,
+      "sha256": "3a610c9ae5535d9e308af7b759b852e31181c49c2549f25ff5fea496992bfaaf",
+      "mtime_ns": 1790585010890186027,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/reports/JPX-ARIMA-joint-report.md",
+      "size": 11209,
+      "sha256": "c9a9ee8dafad8e87557a8550afdbcd8ebf3b3c8edd0dfd125f1cfcb4d124c1a3",
+      "mtime_ns": 1790585010890381309,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/reports/JPX-ARIMA011-expanding-report.md",
+      "size": 7609,
+      "sha256": "9d403ac3fa705e6e3ce08f7df4d21254cad14f33c03df42d26a1f4eb8a2cff9c",
+      "mtime_ns": 1790585010890596466,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/reports/JPX-ARIMA012-expanding-report.md",
+      "size": 6635,
+      "sha256": "2b0ebae6f38f8a08772a493997471e3b52cffca53b076627646144813c5006bd",
+      "mtime_ns": 1790585010890794582,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/reports/JPX-ARIMA110-expanding-report.md",
+      "size": 6904,
+      "sha256": "71bf54b652fec943ad24245c993adb47f341b3b7a224289533a8217f9a2c229d",
+      "mtime_ns": 1790585010890991490,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_learning_20260928/reports/JPX-ARIMA515-report.md",
+      "size": 6718,
+      "sha256": "55e524c96a0a18289d750bfd36bb5fe07843d40fd854720a73d1269edc8f62dc",
+      "mtime_ns": 1790585010891201063,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/project_archive_20260924/COMPRESSED_DATA_MANIFEST.json",
+      "size": 77623,
+      "sha256": "a6ce61638ac9cc74d17dc0163693be7dac6a2cdb9cb7cbcdb62385566199bb5a",
+      "mtime_ns": 1790584838825062086,
+      "mode": 420,
+      "storage": "git"
+    }
+  ]
+}

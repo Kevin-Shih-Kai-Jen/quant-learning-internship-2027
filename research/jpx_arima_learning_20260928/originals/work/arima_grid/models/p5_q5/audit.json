@@ -1,0 +1,679 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "year": 2018,
+      "code": 1301,
+      "date": "2017-12-29",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2018,
+      "code": 1301,
+      "date": "2018-07-02",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2018,
+      "code": 1301,
+      "date": "2018-12-27",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2018,
+      "code": 2809,
+      "date": "2017-12-29",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2018,
+      "code": 2809,
+      "date": "2018-07-02",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2018,
+      "code": 2809,
+      "date": "2018-12-27",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2018,
+      "code": 4100,
+      "date": "2017-12-29",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2018,
+      "code": 4100,
+      "date": "2018-07-02",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2018,
+      "code": 4100,
+      "date": "2018-12-27",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2018,
+      "code": 5357,
+      "date": "2017-12-29",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2018,
+      "code": 5357,
+      "date": "2018-07-02",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2018,
+      "code": 5357,
+      "date": "2018-12-27",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2018,
+      "code": 6638,
+      "date": "2017-12-29",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2018,
+      "code": 6638,
+      "date": "2018-07-02",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2018,
+      "code": 6638,
+      "date": "2018-12-27",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2018,
+      "code": 7734,
+      "date": "2017-12-29",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2018,
+      "code": 7734,
+      "date": "2018-07-02",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2018,
+      "code": 7734,
+      "date": "2018-12-27",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2018,
+      "code": 8713,
+      "date": "2017-12-29",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2018,
+      "code": 8713,
+      "date": "2018-07-02",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2018,
+      "code": 8713,
+      "date": "2018-12-27",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2018,
+      "code": 9997,
+      "date": "2017-12-29",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2018,
+      "code": 9997,
+      "date": "2018-07-02",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2018,
+      "code": 9997,
+      "date": "2018-12-27",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2019,
+      "code": 1301,
+      "date": "2018-12-28",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2019,
+      "code": 1301,
+      "date": "2019-07-03",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2019,
+      "code": 1301,
+      "date": "2019-12-27",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2019,
+      "code": 2819,
+      "date": "2018-12-28",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2019,
+      "code": 2819,
+      "date": "2019-07-03",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2019,
+      "code": 2819,
+      "date": "2019-12-27",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2019,
+      "code": 4112,
+      "date": "2018-12-28",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2019,
+      "code": 4112,
+      "date": "2019-07-03",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2019,
+      "code": 4112,
+      "date": "2019-12-27",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2019,
+      "code": 5393,
+      "date": "2018-12-28",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2019,
+      "code": 5393,
+      "date": "2019-07-03",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2019,
+      "code": 5393,
+      "date": "2019-12-27",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2019,
+      "code": 6629,
+      "date": "2018-12-28",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2019,
+      "code": 6629,
+      "date": "2019-07-03",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2019,
+      "code": 6629,
+      "date": "2019-12-27",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2019,
+      "code": 7733,
+      "date": "2018-12-28",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2019,
+      "code": 7733,
+      "date": "2019-07-03",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2019,
+      "code": 7733,
+      "date": "2019-12-27",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2019,
+      "code": 8725,
+      "date": "2018-12-28",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2019,
+      "code": 8725,
+      "date": "2019-07-03",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2019,
+      "code": 8725,
+      "date": "2019-12-27",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2019,
+      "code": 9997,
+      "date": "2018-12-28",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2019,
+      "code": 9997,
+      "date": "2019-07-03",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2019,
+      "code": 9997,
+      "date": "2019-12-27",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2020,
+      "code": 1301,
+      "date": "2019-12-30",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2020,
+      "code": 1301,
+      "date": "2020-07-02",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2020,
+      "code": 1301,
+      "date": "2020-12-29",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2020,
+      "code": 2871,
+      "date": "2019-12-30",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2020,
+      "code": 2871,
+      "date": "2020-07-02",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2020,
+      "code": 2871,
+      "date": "2020-12-29",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2020,
+      "code": 4114,
+      "date": "2019-12-30",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2020,
+      "code": 4114,
+      "date": "2020-07-02",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2020,
+      "code": 4114,
+      "date": "2020-12-29",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2020,
+      "code": 5384,
+      "date": "2019-12-30",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2020,
+      "code": 5384,
+      "date": "2020-07-02",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2020,
+      "code": 5384,
+      "date": "2020-12-29",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2020,
+      "code": 6632,
+      "date": "2019-12-30",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2020,
+      "code": 6632,
+      "date": "2020-07-02",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2020,
+      "code": 6632,
+      "date": "2020-12-29",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2020,
+      "code": 7726,
+      "date": "2019-12-30",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2020,
+      "code": 7726,
+      "date": "2020-07-02",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2020,
+      "code": 7726,
+      "date": "2020-12-29",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2020,
+      "code": 8715,
+      "date": "2019-12-30",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2020,
+      "code": 8715,
+      "date": "2020-07-02",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2020,
+      "code": 8715,
+      "date": "2020-12-29",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2020,
+      "code": 9997,
+      "date": "2019-12-30",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2020,
+      "code": 9997,
+      "date": "2020-07-02",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2020,
+      "code": 9997,
+      "date": "2020-12-29",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2021,
+      "code": 1301,
+      "date": "2020-12-30",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2021,
+      "code": 1301,
+      "date": "2021-06-17",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2021,
+      "code": 1301,
+      "date": "2021-12-01",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2021,
+      "code": 2897,
+      "date": "2020-12-30",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2021,
+      "code": 2897,
+      "date": "2021-06-17",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2021,
+      "code": 2897,
+      "date": "2021-12-01",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2021,
+      "code": 4188,
+      "date": "2020-12-30",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2021,
+      "code": 4188,
+      "date": "2021-06-17",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2021,
+      "code": 4188,
+      "date": "2021-12-01",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2021,
+      "code": 5333,
+      "date": "2020-12-30",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2021,
+      "code": 5333,
+      "date": "2021-06-17",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2021,
+      "code": 5333,
+      "date": "2021-12-01",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2021,
+      "code": 6629,
+      "date": "2020-12-30",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2021,
+      "code": 6629,
+      "date": "2021-06-17",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2021,
+      "code": 6629,
+      "date": "2021-12-01",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2021,
+      "code": 7718,
+      "date": "2020-12-30",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2021,
+      "code": 7718,
+      "date": "2021-06-17",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2021,
+      "code": 7718,
+      "date": "2021-12-01",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2021,
+      "code": 8713,
+      "date": "2020-12-30",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2021,
+      "code": 8713,
+      "date": "2021-06-17",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2021,
+      "code": 8713,
+      "date": "2021-12-01",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2021,
+      "code": 9997,
+      "date": "2020-12-30",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2021,
+      "code": 9997,
+      "date": "2021-06-17",
+      "price_error": 0.0,
+      "fallback": false
+    },
+    {
+      "year": 2021,
+      "code": 9997,
+      "date": "2021-12-01",
+      "price_error": 0.0,
+      "fallback": false
+    }
+  ],
+  "count": 96,
+  "max_price_error": 0.0
+}

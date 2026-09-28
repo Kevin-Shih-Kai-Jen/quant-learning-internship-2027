@@ -1,0 +1,17 @@
+START 16 jobs 6 workers
+{"completed": 1, "total": 16, "elapsed_seconds": 1.4, "statuses": {"ok": 1}, "retries": 0, "last": {"code": 1301, "year": 2018, "status": "ok", "seconds": 0.026, "retries": 0}}
+{"completed": 2, "total": 16, "elapsed_seconds": 1.5, "statuses": {"ok": 2}, "retries": 0, "last": {"code": 1332, "year": 2018, "status": "ok", "seconds": 0.017, "retries": 0}}
+{"completed": 3, "total": 16, "elapsed_seconds": 1.5, "statuses": {"ok": 2, "fit_not_converged": 1}, "retries": 1, "last": {"code": 7203, "year": 2018, "status": "fit_not_converged", "seconds": 0.021, "retries": 1}}
+{"completed": 4, "total": 16, "elapsed_seconds": 1.5, "statuses": {"ok": 3, "fit_not_converged": 1}, "retries": 1, "last": {"code": 9984, "year": 2018, "status": "ok", "seconds": 0.017, "retries": 0}}
+{"completed": 5, "total": 16, "elapsed_seconds": 1.5, "statuses": {"ok": 4, "fit_not_converged": 1}, "retries": 1, "last": {"code": 1301, "year": 2019, "status": "ok", "seconds": 0.015, "retries": 0}}
+{"completed": 6, "total": 16, "elapsed_seconds": 1.5, "statuses": {"ok": 5, "fit_not_converged": 1}, "retries": 1, "last": {"code": 1332, "year": 2019, "status": "ok", "seconds": 0.016, "retries": 0}}
+{"completed": 7, "total": 16, "elapsed_seconds": 1.5, "statuses": {"ok": 6, "fit_not_converged": 1}, "retries": 1, "last": {"code": 1301, "year": 2020, "status": "ok", "seconds": 0.016, "retries": 0}}
+{"completed": 8, "total": 16, "elapsed_seconds": 1.5, "statuses": {"ok": 7, "fit_not_converged": 1}, "retries": 1, "last": {"code": 7203, "year": 2019, "status": "ok", "seconds": 0.024, "retries": 0}}
+{"completed": 9, "total": 16, "elapsed_seconds": 1.5, "statuses": {"ok": 8, "fit_not_converged": 1}, "retries": 1, "last": {"code": 1332, "year": 2020, "status": "ok", "seconds": 0.015, "retries": 0}}
+{"completed": 10, "total": 16, "elapsed_seconds": 1.5, "statuses": {"ok": 9, "fit_not_converged": 1}, "retries": 1, "last": {"code": 9984, "year": 2019, "status": "ok", "seconds": 0.025, "retries": 0}}
+{"completed": 11, "total": 16, "elapsed_seconds": 1.5, "statuses": {"ok": 10, "fit_not_converged": 1}, "retries": 1, "last": {"code": 9984, "year": 2020, "status": "ok", "seconds": 0.021, "retries": 0}}
+{"completed": 12, "total": 16, "elapsed_seconds": 1.5, "statuses": {"ok": 11, "fit_not_converged": 1}, "retries": 1, "last": {"code": 1301, "year": 2021, "status": "ok", "seconds": 0.022, "retries": 0}}
+{"completed": 13, "total": 16, "elapsed_seconds": 1.5, "statuses": {"ok": 12, "fit_not_converged": 1}, "retries": 1, "last": {"code": 7203, "year": 2020, "status": "ok", "seconds": 0.03, "retries": 0}}
+{"completed": 14, "total": 16, "elapsed_seconds": 1.5, "statuses": {"ok": 13, "fit_not_converged": 1}, "retries": 1, "last": {"code": 9984, "year": 2021, "status": "ok", "seconds": 0.022, "retries": 0}}
+{"completed": 15, "total": 16, "elapsed_seconds": 1.5, "statuses": {"ok": 14, "fit_not_converged": 1}, "retries": 1, "last": {"code": 7203, "year": 2021, "status": "ok", "seconds": 0.024, "retries": 0}}
+{"completed": 16, "total": 16, "elapsed_seconds": 1.5, "statuses": {"ok": 15, "fit_not_converged": 1}, "retries": 1, "last": {"code": 1332, "year": 2021, "status": "ok", "seconds": 0.027, "retries": 0}}

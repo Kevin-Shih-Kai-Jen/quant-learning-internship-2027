@@ -1,0 +1,46 @@
+{
+  "code": 1301,
+  "year": 2018,
+  "status": "ok",
+  "train_start": "2017-01-04",
+  "train_last": "2017-12-28",
+  "first_signal": "2017-12-29",
+  "last_signal": "2018-12-27",
+  "training_slots": 246,
+  "valid_training_prices": 246,
+  "missing_training_prices": 0,
+  "attempts": [
+    {
+      "converged": true,
+      "iterations": 3,
+      "llf": -349.8649766274688
+    }
+  ],
+  "warnings": [],
+  "prefix_checks": [
+    {
+      "origin": "2017-12-29",
+      "max_price_error": 0.0
+    },
+    {
+      "origin": "2018-07-02",
+      "max_price_error": 0.0
+    },
+    {
+      "origin": "2018-12-27",
+      "max_price_error": 0.0
+    }
+  ],
+  "anchor": 2742.0,
+  "scale": 39.114522899293355,
+  "params": {
+    "ar.L1": 0.06534180508826914,
+    "sigma2": 1.0183014262310155
+  },
+  "min_ar_root": 15.304137965719141,
+  "min_ma_root": null,
+  "invalid_forecasts": 0,
+  "fallback_forecasts": 0,
+  "forecast_days": 245,
+  "seconds": 0.0145433329998923
+}

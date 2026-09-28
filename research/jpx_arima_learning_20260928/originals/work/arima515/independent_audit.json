@@ -1,0 +1,595 @@
+{
+  "passed": true,
+  "stock_year_records_checked": 8000,
+  "all_training_ends_before_prediction": true,
+  "all_accepted_fits_converged": true,
+  "accepted_models_with_root_within_1e_6_of_unit_circle": 1353,
+  "independent_prefix_and_future_perturbation_checks": 96,
+  "max_price_forecast_error": 0.0,
+  "checks": [
+    {
+      "year": 2018,
+      "code": 1301,
+      "origin": "2017-12-29",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2018,
+      "code": 1301,
+      "origin": "2018-07-02",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2018,
+      "code": 1301,
+      "origin": "2018-12-27",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2018,
+      "code": 2809,
+      "origin": "2017-12-29",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2018,
+      "code": 2809,
+      "origin": "2018-07-02",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2018,
+      "code": 2809,
+      "origin": "2018-12-27",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2018,
+      "code": 4100,
+      "origin": "2017-12-29",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2018,
+      "code": 4100,
+      "origin": "2018-07-02",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2018,
+      "code": 4100,
+      "origin": "2018-12-27",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2018,
+      "code": 5357,
+      "origin": "2017-12-29",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2018,
+      "code": 5357,
+      "origin": "2018-07-02",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2018,
+      "code": 5357,
+      "origin": "2018-12-27",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2018,
+      "code": 6638,
+      "origin": "2017-12-29",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2018,
+      "code": 6638,
+      "origin": "2018-07-02",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2018,
+      "code": 6638,
+      "origin": "2018-12-27",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2018,
+      "code": 7734,
+      "origin": "2017-12-29",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2018,
+      "code": 7734,
+      "origin": "2018-07-02",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2018,
+      "code": 7734,
+      "origin": "2018-12-27",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2018,
+      "code": 8713,
+      "origin": "2017-12-29",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2018,
+      "code": 8713,
+      "origin": "2018-07-02",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2018,
+      "code": 8713,
+      "origin": "2018-12-27",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2018,
+      "code": 9997,
+      "origin": "2017-12-29",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2018,
+      "code": 9997,
+      "origin": "2018-07-02",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2018,
+      "code": 9997,
+      "origin": "2018-12-27",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2019,
+      "code": 1301,
+      "origin": "2018-12-28",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2019,
+      "code": 1301,
+      "origin": "2019-07-03",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2019,
+      "code": 1301,
+      "origin": "2019-12-27",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2019,
+      "code": 2815,
+      "origin": "2018-12-28",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2019,
+      "code": 2815,
+      "origin": "2019-07-03",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2019,
+      "code": 2815,
+      "origin": "2019-12-27",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2019,
+      "code": 4107,
+      "origin": "2018-12-28",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2019,
+      "code": 4107,
+      "origin": "2019-07-03",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2019,
+      "code": 4107,
+      "origin": "2019-12-27",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2019,
+      "code": 5388,
+      "origin": "2018-12-28",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2019,
+      "code": 5388,
+      "origin": "2019-07-03",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2019,
+      "code": 5388,
+      "origin": "2019-12-27",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2019,
+      "code": 6629,
+      "origin": "2018-12-28",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2019,
+      "code": 6629,
+      "origin": "2019-07-03",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2019,
+      "code": 6629,
+      "origin": "2019-12-27",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2019,
+      "code": 7732,
+      "origin": "2018-12-28",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2019,
+      "code": 7732,
+      "origin": "2019-07-03",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2019,
+      "code": 7732,
+      "origin": "2019-12-27",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2019,
+      "code": 8725,
+      "origin": "2018-12-28",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2019,
+      "code": 8725,
+      "origin": "2019-07-03",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2019,
+      "code": 8725,
+      "origin": "2019-12-27",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2019,
+      "code": 9997,
+      "origin": "2018-12-28",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2019,
+      "code": 9997,
+      "origin": "2019-07-03",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2019,
+      "code": 9997,
+      "origin": "2019-12-27",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2020,
+      "code": 1301,
+      "origin": "2019-12-30",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2020,
+      "code": 1301,
+      "origin": "2020-07-02",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2020,
+      "code": 1301,
+      "origin": "2020-12-29",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2020,
+      "code": 2831,
+      "origin": "2019-12-30",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2020,
+      "code": 2831,
+      "origin": "2020-07-02",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2020,
+      "code": 2831,
+      "origin": "2020-12-29",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2020,
+      "code": 4116,
+      "origin": "2019-12-30",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2020,
+      "code": 4116,
+      "origin": "2020-07-02",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2020,
+      "code": 4116,
+      "origin": "2020-12-29",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2020,
+      "code": 5357,
+      "origin": "2019-12-30",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2020,
+      "code": 5357,
+      "origin": "2020-07-02",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2020,
+      "code": 5357,
+      "origin": "2020-12-29",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2020,
+      "code": 6630,
+      "origin": "2019-12-30",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2020,
+      "code": 6630,
+      "origin": "2020-07-02",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2020,
+      "code": 6630,
+      "origin": "2020-12-29",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2020,
+      "code": 7726,
+      "origin": "2019-12-30",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2020,
+      "code": 7726,
+      "origin": "2020-07-02",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2020,
+      "code": 7726,
+      "origin": "2020-12-29",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2020,
+      "code": 8725,
+      "origin": "2019-12-30",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2020,
+      "code": 8725,
+      "origin": "2020-07-02",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2020,
+      "code": 8725,
+      "origin": "2020-12-29",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2020,
+      "code": 9997,
+      "origin": "2019-12-30",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2020,
+      "code": 9997,
+      "origin": "2020-07-02",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2020,
+      "code": 9997,
+      "origin": "2020-12-29",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2021,
+      "code": 1301,
+      "origin": "2020-12-30",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2021,
+      "code": 1301,
+      "origin": "2021-06-17",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2021,
+      "code": 1301,
+      "origin": "2021-12-01",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2021,
+      "code": 2884,
+      "origin": "2020-12-30",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2021,
+      "code": 2884,
+      "origin": "2021-06-17",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2021,
+      "code": 2884,
+      "origin": "2021-12-01",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2021,
+      "code": 4187,
+      "origin": "2020-12-30",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2021,
+      "code": 4187,
+      "origin": "2021-06-17",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2021,
+      "code": 4187,
+      "origin": "2021-12-01",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2021,
+      "code": 5331,
+      "origin": "2020-12-30",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2021,
+      "code": 5331,
+      "origin": "2021-06-17",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2021,
+      "code": 5331,
+      "origin": "2021-12-01",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2021,
+      "code": 6627,
+      "origin": "2020-12-30",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2021,
+      "code": 6627,
+      "origin": "2021-06-17",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2021,
+      "code": 6627,
+      "origin": "2021-12-01",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2021,
+      "code": 7705,
+      "origin": "2020-12-30",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2021,
+      "code": 7705,
+      "origin": "2021-06-17",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2021,
+      "code": 7705,
+      "origin": "2021-12-01",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2021,
+      "code": 8707,
+      "origin": "2020-12-30",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2021,
+      "code": 8707,
+      "origin": "2021-06-17",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2021,
+      "code": 8707,
+      "origin": "2021-12-01",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2021,
+      "code": 9997,
+      "origin": "2020-12-30",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2021,
+      "code": 9997,
+      "origin": "2021-06-17",
+      "max_forecast_error": 0.0
+    },
+    {
+      "year": 2021,
+      "code": 9997,
+      "origin": "2021-12-01",
+      "max_forecast_error": 0.0
+    }
+  ],
+  "supplied_targets_used_unchanged": true,
+  "target_reconstruction_diagnostic": {
+    "matched_finite_rows": 1853354,
+    "max_abs_difference": 0.0005367921807486499,
+    "p99_abs_difference": 2.3068050749652964e-05,
+    "rows_abs_difference_gt_1e_6": 28273,
+    "note": "The supplied Target differs slightly from the forward-adjusted price ratio for some rows. Cause not established here. Scoring uses the original Target for both models."
+  }
+}

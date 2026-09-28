@@ -1,0 +1,8 @@
+{
+  "verified_at": "2026-09-28T16:43:41+0800",
+  "original_files_verified": 64391,
+  "original_bytes_verified": 6254277763,
+  "all_represented_contents_sha256_match": true,
+  "manifest_sha256": "290ac2d6dcdf22544eeca30608561ab28078e0214ea2ff393b038278dfb02a7d",
+  "note": "Independent reading of every staged direct file, concatenated split file and tar member matched original inventory. No backtests rerun."
+}

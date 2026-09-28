@@ -1,0 +1,14 @@
+{
+  "completed": 200000,
+  "total": 200000,
+  "session_completed": 199600,
+  "session_seconds": 24290.3,
+  "session_statuses": {
+    "ok": 191842,
+    "insufficient_history": 7475,
+    "fit_or_filter_exception": 177,
+    "fit_not_converged": 106
+  },
+  "estimated_remaining_seconds": 0.0,
+  "mode": "full"
+}

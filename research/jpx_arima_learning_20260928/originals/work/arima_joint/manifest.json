@@ -1,0 +1,44 @@
+{
+  "runner_sha256": "daa15ecdea234a4f1e692ce3fbcaa37b162721fc26d2c888a2a18a808236b111",
+  "plan_sha256": "ea564babe9f82e6cd010955bc718ed39bce28a1bd03421ddfc8907c1a306c8b9",
+  "source_results_sha256": "b89ed9e05b2a30cff83bb3ef1bccfbf2fed6829cbb29f6537cb5fe2da1bc9126",
+  "input_hashes": {
+    "prices.npz": "f13df3524b61939f45cf7b757583b905d036bfede7108899c61871c8233325c0",
+    "labels.pkl": "1a28c42890826af349b442f1bcf6f18ac7b7204724eec3f6396147e83852c5e2",
+    "baseline.pkl": "69f37b01981e343e7befa7427d4990e77ee533e97d115bdccaaf45b156ee45a3",
+    "calendar.csv": "d788a948bf6e138f3bd08cb17b98b0cdd8220fb89622770dc2215a6190ab73f4"
+  },
+  "training_targets_sha256": "9e1b084a2ecbc4615c1a00375482a96911b319a4f582b235c2adfe9ce5a814f4",
+  "raw_member": "JPX_data/raw/train_files/stock_prices.csv",
+  "formal_test_used": false,
+  "folds": [
+    {
+      "year": 2018,
+      "price_train_end": "2017-12-28",
+      "last_allowed_target_origin": "2017-12-26",
+      "last_allowed_target_exit": "2017-12-28",
+      "first_validation_signal": "2017-12-29"
+    },
+    {
+      "year": 2019,
+      "price_train_end": "2018-12-27",
+      "last_allowed_target_origin": "2018-12-25",
+      "last_allowed_target_exit": "2018-12-27",
+      "first_validation_signal": "2018-12-28"
+    },
+    {
+      "year": 2020,
+      "price_train_end": "2019-12-27",
+      "last_allowed_target_origin": "2019-12-25",
+      "last_allowed_target_exit": "2019-12-27",
+      "first_validation_signal": "2019-12-30"
+    },
+    {
+      "year": 2021,
+      "price_train_end": "2020-12-29",
+      "last_allowed_target_origin": "2020-12-25",
+      "last_allowed_target_exit": "2020-12-29",
+      "first_validation_signal": "2020-12-30"
+    }
+  ]
+}

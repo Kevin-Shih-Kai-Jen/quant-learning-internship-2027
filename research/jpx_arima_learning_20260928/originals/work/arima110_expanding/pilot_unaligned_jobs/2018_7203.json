@@ -1,0 +1,34 @@
+{
+  "code": 7203,
+  "year": 2018,
+  "status": "fit_not_converged",
+  "train_start": "2017-01-04",
+  "train_last": "2017-12-28",
+  "first_signal": "2017-12-29",
+  "last_signal": "2018-12-27",
+  "training_slots": 246,
+  "valid_training_prices": 246,
+  "missing_training_prices": 0,
+  "attempts": [
+    {
+      "converged": false,
+      "iterations": 0,
+      "llf": -347.1296007508556
+    },
+    {
+      "converged": false,
+      "iterations": 0,
+      "llf": -347.1296007508556
+    }
+  ],
+  "warnings": [
+    "Maximum Likelihood optimization failed to converge. Check mle_retvals",
+    "Maximum Likelihood optimization failed to converge. Check mle_retvals"
+  ],
+  "prefix_checks": [],
+  "anchor": 7097.0,
+  "scale": 65.7989125183046,
+  "fallback_forecasts": 245,
+  "forecast_days": 245,
+  "seconds": 0.015187833001618856
+}

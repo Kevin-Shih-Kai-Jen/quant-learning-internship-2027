@@ -1,0 +1,30 @@
+{
+  "complete": true,
+  "common_days": 953,
+  "top_model": {
+    "GridRank": 1,
+    "p": 3,
+    "q": 1,
+    "Model": "ARIMA(3,1,1)",
+    "days": 953,
+    "scored_days": 953,
+    "sharpe": 0.07544245690903652,
+    "mean_rank_ic": 0.0023975463097274862,
+    "rank_ic_days": 952,
+    "mean_spread": 0.046875950376139564,
+    "std_spread": 0.6213470808971593,
+    "RawScoredDays": 953,
+    "FallbackFraction": 0.016712946995837183,
+    "SelectedFallbackStocks": 0,
+    "FitOK": 7700,
+    "InsufficientHistory": 299,
+    "OtherFitFailures": 1,
+    "PositiveYears": 4,
+    "YearsAboveV7": 4,
+    "SharpeMinusV7": 0.06776358534661554,
+    "Marginal95Low": -0.028575099367292876,
+    "Marginal95High": 0.1638132932353678,
+    "GridSimultaneous95Low": -0.06304235391402917,
+    "GridSimultaneous95High": 0.19856952460726024
+  }
+}

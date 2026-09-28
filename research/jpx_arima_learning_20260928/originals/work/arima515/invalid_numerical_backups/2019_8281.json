@@ -1,0 +1,42 @@
+{
+  "code": 8281,
+  "year": 2019,
+  "status": "ok",
+  "train_start": "2017-12-20",
+  "train_last": "2018-12-27",
+  "first_signal": "2018-12-28",
+  "last_signal": "2019-12-27",
+  "training_slots": 252,
+  "valid_training_prices": 252,
+  "missing_training_prices": 0,
+  "attempts": [
+    {
+      "converged": true,
+      "iterations": 20,
+      "llf": 0.0
+    }
+  ],
+  "warnings": [],
+  "prefix_checks": [],
+  "anchor": 2147.0,
+  "scale": 27.828340050390345,
+  "params": {
+    "ar.L1": 0.9983674110629975,
+    "ar.L2": 1.9999994502968659,
+    "ar.L3": -1.9967349594491552,
+    "ar.L4": -0.9999995186185119,
+    "ar.L5": 0.9983676143961802,
+    "ma.L1": -0.9944088949574486,
+    "ma.L2": -1.9997590635063445,
+    "ma.L3": 1.9890594060934328,
+    "ma.L4": 0.9997616255205889,
+    "ma.L5": -0.9946479491880962,
+    "sigma2": 138.35362679247467
+  },
+  "min_ar_root": 1.0000000348532994,
+  "min_ma_root": 1.000000024274579,
+  "invalid_forecasts": 0,
+  "fallback_forecasts": 0,
+  "forecast_days": 241,
+  "seconds": 0.1950935839995509
+}

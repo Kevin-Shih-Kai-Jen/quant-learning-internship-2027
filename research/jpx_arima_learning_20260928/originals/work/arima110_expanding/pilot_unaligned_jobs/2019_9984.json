@@ -1,0 +1,46 @@
+{
+  "code": 9984,
+  "year": 2019,
+  "status": "ok",
+  "train_start": "2017-01-04",
+  "train_last": "2018-12-27",
+  "first_signal": "2018-12-28",
+  "last_signal": "2019-12-27",
+  "training_slots": 491,
+  "valid_training_prices": 491,
+  "missing_training_prices": 0,
+  "attempts": [
+    {
+      "converged": true,
+      "iterations": 1,
+      "llf": -694.7664269895153
+    }
+  ],
+  "warnings": [],
+  "prefix_checks": [
+    {
+      "origin": "2018-12-28",
+      "max_price_error": 0.0
+    },
+    {
+      "origin": "2019-07-03",
+      "max_price_error": 0.0
+    },
+    {
+      "origin": "2019-12-27",
+      "max_price_error": 0.0
+    }
+  ],
+  "anchor": 7995.0,
+  "scale": 178.15902275755022,
+  "params": {
+    "ar.L1": -0.011002297920373601,
+    "sigma2": 0.9983386413194576
+  },
+  "min_ar_root": 90.8901037980658,
+  "min_ma_root": null,
+  "invalid_forecasts": 0,
+  "fallback_forecasts": 0,
+  "forecast_days": 241,
+  "seconds": 0.016634083000099054
+}

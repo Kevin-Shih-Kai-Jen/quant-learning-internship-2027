@@ -1,0 +1,14 @@
+{
+  "fixture_checks_passed": 30,
+  "coverage": [
+    "direct, tar-gzip and concat restoration",
+    "size and SHA-256 checks",
+    "permissions and modification time",
+    "repeat-safe existing file handling",
+    "verify-only",
+    "path traversal and symlink rejection",
+    "corrupted payload rejection",
+    "concurrent destination no-clobber"
+  ],
+  "research_rerun": false
+}

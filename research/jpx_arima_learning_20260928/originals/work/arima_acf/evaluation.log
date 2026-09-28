@@ -1,0 +1,8 @@
+EVALUATED 3
+EVALUATED 5
+           Model  days  scored_days   sharpe  mean_rank_ic  rank_ic_days  mean_spread  std_spread  RawScoredDays
+ARIMA(3,1,1)+ACF   953          953 0.069266      0.002327           952     0.043501    0.628027            953
+    ARIMA(3,1,1)   953          953 0.075442      0.002398           952     0.046876    0.621347            953
+ARIMA(5,1,1)+ACF   953          953 0.058801      0.001367           952     0.038188    0.649445            953
+    ARIMA(5,1,1)   953          953 0.060424      0.001415           952     0.038863    0.643173            953
+              v7   953          953 0.007679     -0.000734           952     0.009117    1.187223            953

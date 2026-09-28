@@ -1,0 +1,24 @@
+{
+  "raw_member_read": "JPX_data/raw/train_files/stock_prices.csv",
+  "raw_zip_sha256": "aaf930192e68d16924e662ef8190d913b06ac1e9e71c23fb8ce9ee3f418ddb0a",
+  "input_price_matrix_shape": [
+    1200,
+    2000
+  ],
+  "validation_rows": 1864363,
+  "validation_days": 953,
+  "stock_count": 2000,
+  "first_signal": "2017-12-29",
+  "last_signal": "2021-12-01",
+  "missing_targets": 3,
+  "adjustment_matches_existing": true,
+  "calendar_matches_existing": true,
+  "baseline_keys_match": true,
+  "formal_test_read": false,
+  "python": "3.14.2",
+  "statsmodels": "0.14.6",
+  "numpy": "2.4.6",
+  "pandas": "3.0.3",
+  "cached_from": "../arima110_expanding; identical prepared training data and validation universe",
+  "plan_sha256": "91d7acee9e21d9e6f3fc5d1011660060ec4c96bd335d866cd9ffc00e8e8b9a3e"
+}

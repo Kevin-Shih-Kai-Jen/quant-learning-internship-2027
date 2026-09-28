@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "stock_year_records_checked": 8000,
+  "all_training_ends_before_prediction": true,
+  "all_accepted_fits_converged": true,
+  "accepted_models_with_root_within_1e_6_of_unit_circle": 1353,
+  "independent_prefix_and_future_perturbation_checks": 96,
+  "max_price_forecast_error": 0.0,
+  "supplied_targets_used_unchanged": true,
+  "target_reconstruction_diagnostic": {
+    "matched_finite_rows": 1853354,
+    "max_abs_difference": 0.0005367921807486499,
+    "p99_abs_difference": 2.3068050749652964e-05,
+    "rows_abs_difference_gt_1e_6": 28273,
+    "note": "The supplied Target differs slightly from the forward-adjusted price ratio for some rows. Cause not established here. Scoring uses the original Target for both models."
+  }
+}

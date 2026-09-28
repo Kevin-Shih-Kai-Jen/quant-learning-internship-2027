@@ -1,0 +1,31 @@
+{
+  "accepted_fits_checked": 7678,
+  "invalid_numerical_fits": [
+    {
+      "code": 8281,
+      "year": 2019,
+      "checked": true,
+      "invalid": true,
+      "reason": "Non-positive/non-finite innovation variance or degenerate log likelihood",
+      "min_innovation_variance": 0.0
+    },
+    {
+      "code": 3387,
+      "year": 2020,
+      "checked": true,
+      "invalid": true,
+      "reason": "Non-positive/non-finite innovation variance or degenerate log likelihood",
+      "min_innovation_variance": 0.0
+    },
+    {
+      "code": 3774,
+      "year": 2021,
+      "checked": true,
+      "invalid": true,
+      "reason": "Non-positive/non-finite innovation variance or degenerate log likelihood",
+      "min_innovation_variance": 0.0
+    }
+  ],
+  "changed_to_prespecified_zero_score_fallback": 3,
+  "selection_uses_validation_performance": false
+}
