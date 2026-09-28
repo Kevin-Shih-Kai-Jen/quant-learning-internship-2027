@@ -25,6 +25,8 @@
 
 ## 研究目前在哪裡
 
+> 2026-09-28 ARIMA 同步狀態：程式、報告與逐檔封存清單已推送；完整資料附件仍在傳送，Release 尚未發布。只有當 `data/index.json` 收錄 `snapshot-2026-09-28-arima-learning` 且對應 Release 已發布、驗證通過後，才算完整同步。
+
 **2026-09-28 新增：[ARIMA 七輪研究與完整資料](research/jpx_arima_learning_20260928/README.md)。** 已完成 25 組階數比較、殘差 ACF 修正與 Target MSE 共同訓練；舊 9/23 計畫中的「尚未回測」只代表當時進度。新成果獨立歸檔，保留失敗／修正與全部逐筆資料，正式基準維持 v7，test 未用。v31、v32 進度另見 [研究地圖](docs/RESEARCH_MAP.md)；下表 v30 是早期保存時的摘要。
 
 | 狀態 | 內容 |
