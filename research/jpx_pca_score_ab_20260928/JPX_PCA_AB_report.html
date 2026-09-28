@@ -1,0 +1,586 @@
+<!doctype html><html lang="zh-Hant"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>JPX PCA 分數消融</title><style>body{font:17px/1.75 system-ui,sans-serif;color:#142536;background:#f4f7fa;margin:0}main{max-width:950px;margin:auto;padding:30px 24px;background:white}h1{font-size:30px}h2{font-size:23px;margin-top:2em}table{border-collapse:collapse;width:100%;display:block;overflow-x:auto;font-size:15px}td,th{padding:10px;border-bottom:1px solid #dce4ec;white-space:nowrap}th{background:#eaf1f7}a{color:#036985}svg,img{max-width:100%;height:auto}code{overflow-wrap:anywhere}p,li{overflow-wrap:anywhere}strong{color:#0b4e65}</style><main><h1>JPX PCA 分數消融：共同方向是否有幫助？</h1>
+<p>2026-09-28｜正式基準 v7_equal｜既有 validation 953 日｜未使用保留 test</p>
+<p><strong>這次沒有找到「應該全面移除 PC6」的證據。</strong> 原報告同一天、同一 PC6 的單日移除確實提高 spread；但逐日重新估計後，每期移除第六方向的總 Sharpe 反而下降。另一個事先固定的診斷——每天移除原持倉「被 PCA 涵蓋部分」最大估計風險方向——總分較高，但年度效果不一致，差異探索區間跨 0，尚不足以取代正式基準。</p>
+<h2>確實遵守 JPX 的限制</h2>
+<p>全部版本以分數排序，取多空各 200 檔，各側極端名次權重 2→1。沒有手動調權重、刪除科技股、改訓練參數或更換 Target。B 只改預測分數，再由相同 JPX 規則決定配置。</p>
+<p>先只用價格和已保存 v7 預測，逐日完成並保存所有 B 分數／排名／方向；再獨立讀未來 Target 評分。A 的全部原排名重現，逐日 spread 與原保存值最大差為 4.44e-15。三組再以原官方評分函數獨立核對。</p>
+<h2>先回答你指的「原報告那個 PC6」</h2>
+<p>原報告是 2021-12-01 持倉、1,933 檔股票、252 日窗口中的 160 個共同可觀測日期。重建後，PC6 特徵值、原持倉曝險及原風險占比全部吻合。</p>
+<table>
+<thead>
+<tr>
+<th>原報告同一訊號日</th>
+<th style="text-align:right">A 原分數</th>
+<th style="text-align:right">B 扣除該 PC6 成分</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>官方單日 spread</td>
+<td style="text-align:right">0.07318396</td>
+<td style="text-align:right">0.22429768</td>
+</tr>
+<tr>
+<td>單日 Rank IC</td>
+<td style="text-align:right">-0.019477</td>
+<td style="text-align:right">-0.014260</td>
+</tr>
+<tr>
+<td>PC6 占估計持倉變異數</td>
+<td style="text-align:right">9.76%</td>
+<td style="text-align:right">1.19%</td>
+</tr>
+<tr>
+<td>相較 A 更換的多頭股票</td>
+<td style="text-align:right">0</td>
+<td style="text-align:right">5</td>
+</tr>
+<tr>
+<td>相較 A 更換的空頭股票</td>
+<td style="text-align:right">0</td>
+<td style="text-align:right">6</td>
+</tr>
+</tbody>
+</table>
+<p><strong>這一天，移除後的排名更有利。</strong> 單日 spread 增加 0.15111373；同一基底涵蓋 A/B 的全部持倉。使用的是原 2021-12-01 Target，對應 12/02 至 12/03 報酬，沒有把這個後來識別的方向倒套更早日期。</p>
+<p>只有一個訊號日，不能計算 Sharpe，也不能證明長期效果。spread 是官方計分量，不是帳戶百分比報酬；不能將上述差值當作 15.11% 獲利。</p>
+<h2>953 日：規則能否反覆使用？</h2>
+<p>兩個 rolling B 都是在看結果前固定：B_PC6 移除每期第六大特徵值的方向；B_MAX 移除當期對 A 被涵蓋持倉變異數貢獻最大的方向。這兩者都不代表同一固定「科技因子」。</p>
+<table>
+<thead>
+<tr>
+<th>版本</th>
+<th style="text-align:right">官方未年化 Sharpe</th>
+<th style="text-align:right">平均 Rank IC</th>
+<th style="text-align:right">平均官方 spread</th>
+<th style="text-align:right">spread 樣本標準差</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A 原版</td>
+<td style="text-align:right">+0.00767887</td>
+<td style="text-align:right">-0.00073389</td>
+<td style="text-align:right">+0.009117</td>
+<td style="text-align:right">1.187223</td>
+</tr>
+<tr>
+<td>B：每期第六方向</td>
+<td style="text-align:right">+0.00459482</td>
+<td style="text-align:right">-0.00074775</td>
+<td style="text-align:right">+0.005405</td>
+<td style="text-align:right">1.176292</td>
+</tr>
+<tr>
+<td>B：每期最大估計風險方向</td>
+<td style="text-align:right">+0.02620535</td>
+<td style="text-align:right">+0.00084135</td>
+<td style="text-align:right">+0.024806</td>
+<td style="text-align:right">0.946618</td>
+</tr>
+</tbody>
+</table>
+<p>所有 953 日三組入選 Target 均完整，不需因缺標籤刪日期。Rank IC 有 952 日可定義：2020-09-29 原 Target 全部為零，相關係數沒有定義，該日仍保留於 Sharpe。</p>
+<p><?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="792pt" height="324pt" viewBox="0 0 792 324" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-09-28T17:00:54.777976</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 324 
+L 792 324 
+L 792 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 52.30649 286.831719 
+L 382.534531 286.831719 
+L 382.534531 38.118845 
+L 52.30649 38.118845 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 67.316856 286.831719 
+L 139.229633 286.831719 
+L 139.229633 230.660124 
+L 67.316856 230.660124 
+z
+" clip-path="url(#p74dea4c82f)" style="fill: #334155"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 181.464122 286.831719 
+L 253.376899 286.831719 
+L 253.376899 253.220259 
+L 181.464122 253.220259 
+z
+" clip-path="url(#p74dea4c82f)" style="fill: #d97706"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 295.611388 286.831719 
+L 367.524166 286.831719 
+L 367.524166 95.137365 
+L 295.611388 95.137365 
+z
+" clip-path="url(#p74dea4c82f)" style="fill: #0891b2"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="me82003f1d1" d="M 0 0 
+L 0 3.5 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#me82003f1d1" x="103.273244" y="286.831719" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(79.104401 311.782495) rotate(-12)">A: original</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#me82003f1d1" x="217.420511" y="286.831719" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(185.23315 315.191272) rotate(-12)">B: rolling PC6</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use xlink:href="#me82003f1d1" x="331.567777" y="286.831719" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(290.502198 318.965519) rotate(-12)">B: largest risk PC</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_4">
+      <defs>
+       <path id="m5f982daf9c" d="M 0 0 
+L -3.5 0 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m5f982daf9c" x="52.30649" y="286.831719" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end" x="45.30649" y="290.630938" transform="rotate(-0 45.30649 290.630938)">0.000</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_5">
+      <g>
+       <use xlink:href="#m5f982daf9c" x="52.30649" y="250.256296" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end" x="45.30649" y="254.055515" transform="rotate(-0 45.30649 254.055515)">0.005</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#m5f982daf9c" x="52.30649" y="213.680874" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end" x="45.30649" y="217.480092" transform="rotate(-0 45.30649 217.480092)">0.010</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_7">
+      <g>
+       <use xlink:href="#m5f982daf9c" x="52.30649" y="177.105451" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end" x="45.30649" y="180.90467" transform="rotate(-0 45.30649 180.90467)">0.015</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#m5f982daf9c" x="52.30649" y="140.530028" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end" x="45.30649" y="144.329247" transform="rotate(-0 45.30649 144.329247)">0.020</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_9">
+      <g>
+       <use xlink:href="#m5f982daf9c" x="52.30649" y="103.954606" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end" x="45.30649" y="107.753824" transform="rotate(-0 45.30649 107.753824)">0.025</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#m5f982daf9c" x="52.30649" y="67.379183" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_10">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end" x="45.30649" y="71.178402" transform="rotate(-0 45.30649 71.178402)">0.030</text>
+     </g>
+    </g>
+    <g id="text_11">
+     <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="10.598678" y="162.475282" transform="rotate(-90 10.598678 162.475282)">Official Sharpe (not annualized)</text>
+    </g>
+   </g>
+   <g id="line2d_11">
+    <path d="M 52.30649 286.831719 
+L 382.534531 286.831719 
+" clip-path="url(#p74dea4c82f)" style="fill: none; stroke: #94a3b8; stroke-width: 0.8; stroke-linecap: square"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 52.30649 286.831719 
+L 52.30649 38.118845 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 52.30649 286.831719 
+L 382.534531 286.831719 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="103.273244" y="224.808057" transform="rotate(-0 103.273244 224.808057)">0.00768</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="217.420511" y="247.368191" transform="rotate(-0 217.420511 247.368191)">0.00459</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="331.567777" y="89.285297" transform="rotate(-0 331.567777 89.285297)">0.02621</text>
+   </g>
+   <g id="text_15">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start" x="52.30649" y="32.118845" transform="rotate(-0 52.30649 32.118845)">953 matched validation dates</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_8">
+    <path d="M 458.771719 286.831719 
+L 788.99976 286.831719 
+L 788.99976 38.118845 
+L 458.771719 38.118845 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_3">
+    <g id="xtick_4">
+     <g id="line2d_12">
+      <g>
+       <use xlink:href="#me82003f1d1" x="471.472797" y="286.831719" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_16">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="471.472797" y="301.430156" transform="rotate(-0 471.472797 301.430156)">−0.02</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_13">
+      <g>
+       <use xlink:href="#me82003f1d1" x="522.277111" y="286.831719" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_17">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="522.277111" y="301.430156" transform="rotate(-0 522.277111 301.430156)">0.00</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_14">
+      <g>
+       <use xlink:href="#me82003f1d1" x="573.081425" y="286.831719" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_18">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="573.081425" y="301.430156" transform="rotate(-0 573.081425 301.430156)">0.02</text>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_15">
+      <g>
+       <use xlink:href="#me82003f1d1" x="623.885739" y="286.831719" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_19">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="623.885739" y="301.430156" transform="rotate(-0 623.885739 301.430156)">0.04</text>
+     </g>
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_16">
+      <g>
+       <use xlink:href="#me82003f1d1" x="674.690053" y="286.831719" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_20">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="674.690053" y="301.430156" transform="rotate(-0 674.690053 301.430156)">0.06</text>
+     </g>
+    </g>
+    <g id="xtick_9">
+     <g id="line2d_17">
+      <g>
+       <use xlink:href="#me82003f1d1" x="725.494367" y="286.831719" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_21">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="725.494367" y="301.430156" transform="rotate(-0 725.494367 301.430156)">0.08</text>
+     </g>
+    </g>
+    <g id="xtick_10">
+     <g id="line2d_18">
+      <g>
+       <use xlink:href="#me82003f1d1" x="776.298681" y="286.831719" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_22">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="776.298681" y="301.430156" transform="rotate(-0 776.298681 301.430156)">0.10</text>
+     </g>
+    </g>
+    <g id="text_23">
+     <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="623.885739" y="315.108281" transform="rotate(-0 623.885739 315.108281)">Difference in Sharpe; exploratory 95% interval</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_4">
+    <g id="ytick_8">
+     <g id="line2d_19">
+      <g>
+       <use xlink:href="#m5f982daf9c" x="458.771719" y="219.000935" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_24">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end" x="451.771719" y="222.800154" transform="rotate(-0 451.771719 222.800154)">B PC6 - A</text>
+     </g>
+    </g>
+    <g id="ytick_9">
+     <g id="line2d_20">
+      <g>
+       <use xlink:href="#m5f982daf9c" x="458.771719" y="105.949629" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_25">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end" x="451.771719" y="109.748848" transform="rotate(-0 451.771719 109.748848)">B largest - A</text>
+     </g>
+    </g>
+   </g>
+   <g id="LineCollection_1">
+    <path d="M 496.552554 219.000935 
+L 529.727451 219.000935 
+" clip-path="url(#p736ecafd2d)" style="fill: none; stroke: #d97706; stroke-width: 2"/>
+   </g>
+   <g id="line2d_21">
+    <defs>
+     <path id="m92103c33bb" d="M 0 5 
+L 0 -5 
+" style="stroke: #d97706"/>
+    </defs>
+    <g clip-path="url(#p736ecafd2d)">
+     <use xlink:href="#m92103c33bb" x="496.552554" y="219.000935" style="fill: #d97706; stroke: #d97706"/>
+    </g>
+   </g>
+   <g id="line2d_22">
+    <g clip-path="url(#p736ecafd2d)">
+     <use xlink:href="#m92103c33bb" x="529.727451" y="219.000935" style="fill: #d97706; stroke: #d97706"/>
+    </g>
+   </g>
+   <g id="LineCollection_2">
+    <path d="M 486.627812 105.949629 
+L 666.667948 105.949629 
+" clip-path="url(#p736ecafd2d)" style="fill: none; stroke: #0891b2; stroke-width: 2"/>
+   </g>
+   <g id="line2d_23">
+    <defs>
+     <path id="m31e1d7a99c" d="M 0 5 
+L 0 -5 
+" style="stroke: #0891b2"/>
+    </defs>
+    <g clip-path="url(#p736ecafd2d)">
+     <use xlink:href="#m31e1d7a99c" x="486.627812" y="105.949629" style="fill: #0891b2; stroke: #0891b2"/>
+    </g>
+   </g>
+   <g id="line2d_24">
+    <g clip-path="url(#p736ecafd2d)">
+     <use xlink:href="#m31e1d7a99c" x="666.667948" y="105.949629" style="fill: #0891b2; stroke: #0891b2"/>
+    </g>
+   </g>
+   <g id="line2d_25">
+    <path d="M 522.277111 286.831719 
+L 522.277111 38.118845 
+" clip-path="url(#p736ecafd2d)" style="fill: none; stroke-dasharray: 5.55,2.4; stroke-dashoffset: 0; stroke: #94a3b8; stroke-width: 1.5"/>
+   </g>
+   <g id="line2d_26">
+    <defs>
+     <path id="m14463d4856" d="M 0 3 
+C 0.795609 3 1.55874 2.683901 2.12132 2.12132 
+C 2.683901 1.55874 3 0.795609 3 0 
+C 3 -0.795609 2.683901 -1.55874 2.12132 -2.12132 
+C 1.55874 -2.683901 0.795609 -3 0 -3 
+C -0.795609 -3 -1.55874 -2.683901 -2.12132 -2.12132 
+C -2.683901 -1.55874 -3 -0.795609 -3 0 
+C -3 0.795609 -2.683901 1.55874 -2.12132 2.12132 
+C -1.55874 2.683901 -0.795609 3 0 3 
+z
+" style="stroke: #d97706"/>
+    </defs>
+    <g clip-path="url(#p736ecafd2d)">
+     <use xlink:href="#m14463d4856" x="514.442942" y="219.000935" style="fill: #d97706; stroke: #d97706"/>
+    </g>
+   </g>
+   <g id="line2d_27">
+    <defs>
+     <path id="mb6579ac18d" d="M 0 3 
+C 0.795609 3 1.55874 2.683901 2.12132 2.12132 
+C 2.683901 1.55874 3 0.795609 3 0 
+C 3 -0.795609 2.683901 -1.55874 2.12132 -2.12132 
+C 1.55874 -2.683901 0.795609 -3 0 -3 
+C -0.795609 -3 -1.55874 -2.683901 -2.12132 -2.12132 
+C -2.683901 -1.55874 -3 -0.795609 -3 0 
+C -3 0.795609 -2.683901 1.55874 -2.12132 2.12132 
+C -1.55874 2.683901 -0.795609 3 0 3 
+z
+" style="stroke: #0891b2"/>
+    </defs>
+    <g clip-path="url(#p736ecafd2d)">
+     <use xlink:href="#mb6579ac18d" x="569.338364" y="105.949629" style="fill: #0891b2; stroke: #0891b2"/>
+    </g>
+   </g>
+   <g id="patch_9">
+    <path d="M 458.771719 286.831719 
+L 458.771719 38.118845 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 458.771719 286.831719 
+L 788.99976 286.831719 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_26">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start" x="534.807882" y="221.484373" transform="rotate(-0 534.807882 221.484373)">[-0.0101, +0.0029]</text>
+   </g>
+   <g id="text_27">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start" x="671.748379" y="108.433066" transform="rotate(-0 671.748379 108.433066)">[-0.0140, +0.0568]</text>
+   </g>
+   <g id="text_28">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start" x="458.771719" y="32.118845" transform="rotate(-0 458.771719 32.118845)">Both intervals cross zero</text>
+   </g>
+  </g>
+  <g id="text_29">
+   <text style="font-weight: 700; font-size: 14px; font-family: 'DejaVu Sans'; text-anchor: middle" x="396" y="13.699303" transform="rotate(-0 396 13.699303)">PCA score ablation | JPX rules unchanged</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p74dea4c82f">
+   <rect x="52.30649" y="38.118845" width="330.228041" height="248.712874"/>
+  </clipPath>
+  <clipPath id="p736ecafd2d">
+   <rect x="458.771719" y="38.118845" width="330.228041" height="248.712874"/>
+  </clipPath>
+ </defs>
+</svg>
+</p>
+<p>**移除每期 PC6：**相較原版 Sharpe 差 -0.00308406；spread 標準差略低，但平均 spread 也降低，總分沒有改善。這支持「目前沒有理由普遍刪除每期第六方向」，不等於證明 PC6 是穩定 alpha。</p>
+<p>**移除每期最大估計風險方向：**Sharpe 差 +0.01852648；平均 spread 增加、標準差下降，平均 Rank IC 也改善。此為值得保留的診斷候選，尚未確認可靠優勢。</p>
+<table>
+<thead>
+<tr>
+<th>原 validation 年度標籤</th>
+<th style="text-align:right">A</th>
+<th style="text-align:right">B_PC6</th>
+<th style="text-align:right">B_MAX</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2018</td>
+<td style="text-align:right">-0.01151</td>
+<td style="text-align:right">-0.02597</td>
+<td style="text-align:right">+0.07580</td>
+</tr>
+<tr>
+<td>2019</td>
+<td style="text-align:right">+0.05007</td>
+<td style="text-align:right">+0.05556</td>
+<td style="text-align:right">+0.04142</td>
+</tr>
+<tr>
+<td>2020</td>
+<td style="text-align:right">+0.05086</td>
+<td style="text-align:right">+0.05081</td>
+<td style="text-align:right">+0.02597</td>
+</tr>
+<tr>
+<td>2021</td>
+<td style="text-align:right">-0.08760</td>
+<td style="text-align:right">-0.09182</td>
+<td style="text-align:right">-0.04338</td>
+</tr>
+</tbody>
+</table>
+<p>B_MAX 改善 2018 與 2021，但 2019、2020 低於 A；2021 仍負。合併 Sharpe 由全部逐日 spread 重算，不平均年度分數。年度標籤沿原資料，首個訊號日可能落在前一年的最後交易日。</p>
+<p>以相同日期成對 stationary block bootstrap（平均區塊 20 日，5,000 次，固定 seed）得到 Sharpe 差異的探索 95% 區間：</p>
+<ul>
+<li>B_PC6 − A：[-0.01013, +0.00293]。</li>
+<li>B_MAX − A：[-0.01403, +0.05684]。</li>
+</ul>
+<p>兩者皆含 0。這些區間未校正重複使用 validation 或後續研究選擇，不能當成新保留樣本的顯著性證明。</p>
+<h2>B 實際改了什麼</h2>
+<p>對當期 PCA 涵蓋股池的 loading v 做橫斷面去平均 q = v − mean(v)，原分數 s 也去平均；回歸斜率 b = qᵀ(s − mean(s)) / (qᵀq)，再用 s_B = s − bq 排名。</p>
+<p>保留分數平均，固定移除 100% 線性成分，沒有挑最佳移除比例。向量正負整體翻轉不影響結果。未涵蓋股票維持原分數，仍可進入多空名單。這是分數消融，不是重新訓練模型，也不是直接把持倉投影設為零。</p>
+<ul>
+<li>B_PC6 平均移除分數橫斷面變異數的 0.54%；每天平均更換約 8 檔多頭、8 檔空頭。740/953 日的原 PC6 估計風險貢獻下降，總 Sharpe 仍下降。</li>
+<li>B_MAX 平均移除 3.71%；每天平均更換約 25 檔多頭、26 檔空頭。939/953 日的所選方向估計風險貢獻下降。</li>
+<li>B_MAX 最常選 PC2（385 日）、PC3（285 日）、PC1（170 日）；選 PC6 只有 6 日。因此不能把 B_MAX 的改善解讀為「移除科技股 PC6 有效」。</li>
+<li>排名到權重是非線性步驟，分數與 loading 正交並不保證實際持倉曝險為零。結果也確實有些日期未降低所選方向風險。</li>
+</ul>
+<h2>資料範圍與不能省略的限制</h2>
+<p>每期使用訊號收盤以前最多 252 個市場交易日，最初 6 日只有 246～251 日。排除全市場休市日，先算相鄰交易日除權調整簡單價格報酬；個股缺價或任一端零成交量保留缺值，不補零、不前填、不裁切。PCA 僅減時間平均，不按個股標準差縮放。</p>
+<p>每期原排名股池不變；PCA 完整欄股票最少 1801 檔，中位數 1846 檔。A 持倉 gross 平均涵蓋 94.69%，最低 79.34%，缺資料股票的風險未知。B_MAX 的「最大風險」只針對被涵蓋持倉，不代表完整組合。這個覆蓋缺口可能影響選中哪個方向。</p>
+<p>原快照的同一 PC6 用共同 160 日；rolling 比較用每期完整股票的最多 252 日。這是兩種估計樣本，不能把各自 PC6 視為相同因子。近似特徵值亦可導致方向轉動；每日 PC6 與前日共同股票上的絕對 cosine 中位數約 0.9990，有 17 次低於 0.5。</p>
+<p>原價格風險不含股息；Target 沿用 JPX 原定義，兩者用途不同。本輪未重跑訓練，也沒有使用保留 test。953 日 validation 已反覆參與開發，這是按歷史時序產生預測的探索比較，不能稱為新的樣本外保留測試。</p>
+<p>未估計交易／借券成本。相鄰日期目標權重 L1 變化平均：A 約 1.4748、B_PC6 約 1.4754、B_MAX 約 1.4819；這只是忽略價格漂移的換手診斷，不是實際成本或扣成本績效。</p>
+<h2>對模型下一步的意義</h2>
+<p>正式基準維持 v7_equal。原報告的那個 PC6 在單日例子中移除有幫助，但沒有足夠後續日期支持長期結論；每期固定移除第六方向未改善全期分數。</p>
+<p>B_MAX 可保留為下一輪研究候選。優先檢查缺值股票造成的風險覆蓋差異、年度不一致及後續期間穩定性；在新的檢查前固定規則，避免繼續搜尋移除比例或 PC 編號直到分數漂亮。若最後改善仍存在，改進的是「分數到排名」的處理，而不是手動修改 JPX 的配置公式。</p>
+<h2>核對、失敗紀錄與檔案</h2>
+<p>7 項核心測試通過：未來資料變更不影響歷史 PCA、分數截距與向量符號不變性、消融公式、直接 SVD 對照、官方排名配重、入選缺標籤處理、缺價不跨日橋接。真實 953 日正交性、特徵方程、風險分解、原排名與原 spread 核對通過；另於事先固定 5 個日期做直接 SVD 對照。完整逐年 NPZ 已做大小、SHA-256 與 ZIP CRC 核對。</p>
+<p>第一次運算產生的 2019 中間 NPZ 寫入不完整，評分拒絕該檔。改為完成寫入、fsync、校驗、原子更名後，依相同計畫重跑。第一次其餘三個完整年度 NPZ 與最終版本位元組一致，沒有改變研究設計。失敗輸出保留於 results；最終以 results_v2 為準。</p>
+<ul>
+<li><a href="results_v2/daily_scores.csv">逐日 A/B 分數</a>、<a href="results_v2/summary.csv">年度與全期摘要</a>、<a href="results_v2/results.json">完整數值摘要</a>。</li>
+<li><a href="exact_snapshot_results/result.json">原 PC6 單日結果</a>、<a href="exact_snapshot_results/predictions_before_labels.csv">原 PC6 逐股分數與排名</a>。</li>
+<li><a href="experiment_plan.md">固定計畫</a>、<a href="exact_snapshot_plan.md">單日補充計畫</a>、<a href="verification.json">數值核對</a>。</li>
+<li>大型逐筆分數／排名／loading／特徵值／曝險在 results_v2/traces；每檔約 21–22 MB，保留全部 1,864,363 個股票日。資料發布狀態见 <a href="sync_status.json">同步狀態</a>。</li>
+</ul>
+<p>來源：Git commit 95592531e6c8132988d43cc87cd563da653ad28e；catalog snapshot-2026-09-26-v32-chunk-replay；原 ranks 位於 snapshot-2026-09-24。評分使用 repo 保存的原 <a href="references/official_metric_reference.py">JPX 官方函數</a>，原來源為 <a href="https://www.kaggle.com/code/smeitoma/jpx-competition-metric-definition">JPX Competition Metric Definition</a>。</p>
+</main></html>

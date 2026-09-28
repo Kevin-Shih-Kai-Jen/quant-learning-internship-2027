@@ -1,0 +1,11 @@
+{
+  "status": "rejected_before_complete_evaluation",
+  "output_directory": "results",
+  "error": "BadZipFile: predictions_2019.npz is an incomplete generated working archive (13048911 bytes)",
+  "source_data_status": "Original train stock_prices.csv and all four v7 ranks passed SHA-256; this is not a source-data issue",
+  "generation_status": "953 rolling fits completed; generated 2018, 2020, 2021 archives pass ZIP CRC checks; 2019 working archive is rejected",
+  "reported_scores": false,
+  "research_design_changed": false,
+  "fix": "Build each NPZ in memory, write with fsync to a temporary name, verify bytes/hash/ZIP CRC, atomically rename; rerun same preregistered design to results_v2",
+  "preservation": "All first-attempt output files retained; final interpretation must use results_v2"
+}

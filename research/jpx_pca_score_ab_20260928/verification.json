@@ -1,0 +1,59 @@
+{
+  "status": "numerical_and_file_checks_passed",
+  "unit_tests_passed": 7,
+  "days": 953,
+  "stock_day_rows": 1864363,
+  "official_metric_checks": {
+    "A": {
+      "official_reference_sharpe": 0.007678871562421042,
+      "max_difference": 2.3418766925686896e-17
+    },
+    "B_PC6": {
+      "official_reference_sharpe": 0.004594815002511044,
+      "max_difference": 2.688821387764051e-17
+    },
+    "B_MAX": {
+      "official_reference_sharpe": 0.026205350517954952,
+      "max_difference": 1.734723475976807e-17
+    }
+  },
+  "baseline_daily_spread_max_error": 4.440892098500626e-15,
+  "future_data_mutation_test_passed": true,
+  "score_intercept_and_eigenvector_sign_invariance_passed": true,
+  "full_trace_archives_verified": [
+    {
+      "path": "results_v2/traces/predictions_2018.npz",
+      "size": 21879251,
+      "sha256": "6171000d8e386f7f4157154aeafcd32e7e59ac4f30d959b1ad4fcdb6e7044de9",
+      "zip_crc_passed": true
+    },
+    {
+      "path": "results_v2/traces/predictions_2019.npz",
+      "size": 21762085,
+      "sha256": "b7e86b173d95be791e5f8c20a28b1b8a51df7d462058c62247d62ed5bd43ddbd",
+      "zip_crc_passed": true
+    },
+    {
+      "path": "results_v2/traces/predictions_2020.npz",
+      "size": 22217734,
+      "sha256": "5ddb68bd9b8128cd95f5b231b738c66116f833f6d015e10b4da7572c5f40da35",
+      "zip_crc_passed": true
+    },
+    {
+      "path": "results_v2/traces/predictions_2021.npz",
+      "size": 20874866,
+      "sha256": "e534fa7c23c76888b260ffc4b3eb66fd62794011686e7a074be72b1a9144806b",
+      "zip_crc_passed": true
+    }
+  ],
+  "first_attempt_io_issue_record": "failed_attempts/attempt1_io_error.json",
+  "original_PC6_exact_snapshot_reproduced": true,
+  "exact_snapshot_scored_days": 1,
+  "formal_test_used": false,
+  "new_untouched_holdout_claimed": false,
+  "baseline_changed": false,
+  "plan_sha256": "a35e8214d1c9f90a908488cf52586c2b222f56e190d80a115f4d2372fa34ebf5",
+  "original_raw_sha256": "bf774a86f834e5338bba74f2356ebb750f93a1cc4e89b064ee07251e8ed851db",
+  "public_large_release_status": "not_published; no release upload connector, browser signed out",
+  "cleanup": "none; new large outputs not yet synchronized, retain inputs and all research artifacts"
+}

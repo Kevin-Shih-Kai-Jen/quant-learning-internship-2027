@@ -1,0 +1,45 @@
+{
+  "signal_date": "2021-12-01",
+  "target_return_dates": [
+    "2021-12-02",
+    "2021-12-03"
+  ],
+  "pca_days": 160,
+  "pca_stocks": 1933,
+  "ranked_stocks": 1996,
+  "exact_original_PC6_reproduced": true,
+  "score_slope": 0.014823801429709356,
+  "removed_score_variance_share": 0.004191657368471045,
+  "results": [
+    {
+      "variant": "A",
+      "official_daily_spread": 0.07318395694290498,
+      "RankIC": -0.0194765702882654,
+      "gross_one_scaled_spread": 0.00018295989235726247,
+      "PC6_exposure_covered": 0.002847851170449163,
+      "PC6_variance_covered": 1.1048808099090614e-07,
+      "covered_total_variance": 1.1314864255930265e-06,
+      "PC6_variance_share_covered": 0.09764861379843592,
+      "covered_gross": 1.0,
+      "replaced_long_vs_A": 0,
+      "replaced_short_vs_A": 0
+    },
+    {
+      "variant": "B_exact_PC6",
+      "official_daily_spread": 0.22429768384618262,
+      "RankIC": -0.0142599533646012,
+      "gross_one_scaled_spread": 0.0005607442096154566,
+      "PC6_exposure_covered": 0.0009445537255978228,
+      "PC6_variance_covered": 1.2154418417186352e-08,
+      "covered_total_variance": 1.0254073596166972e-06,
+      "PC6_variance_share_covered": 0.011853258417932302,
+      "covered_gross": 1.0,
+      "replaced_long_vs_A": 5,
+      "replaced_short_vs_A": 6
+    }
+  ],
+  "single_date_spread_difference_B_minus_A": 0.15111372690327762,
+  "Sharpe_computable": false,
+  "formal_test_used": false,
+  "interpretation": "Single date only. Does not prove long-run usefulness; no retrospective use of this vector on earlier dates."
+}

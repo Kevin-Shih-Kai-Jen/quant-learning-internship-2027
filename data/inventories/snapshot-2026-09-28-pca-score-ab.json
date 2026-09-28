@@ -1,0 +1,303 @@
+{
+  "schema_version": 1,
+  "tag": "snapshot-2026-09-28-pca-score-ab",
+  "excluded": {},
+  "files": [
+    {
+      "path": "research/jpx_pca_score_ab_20260928/JPX_PCA_AB_report.html",
+      "size": 28109,
+      "sha256": "1f6379ed9181728f0f21b2b195483d700271160453230c768a47245e08123f03",
+      "mtime_ns": 1790586055175196406,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_pca_score_ab_20260928/JPX_PCA_AB_report.md",
+      "size": 9170,
+      "sha256": "973730f944583a9fc4e46a8b1a61b8463bb1d9c5cf4238cc58db1a1cde584b2d",
+      "mtime_ns": 1790586055167325093,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_pca_score_ab_20260928/README.md",
+      "size": 2515,
+      "sha256": "477b63128ed2912ed70f7c9d17c1015634f80c8bcea0b7e629568776bac018d7",
+      "mtime_ns": 1790586029210292784,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_pca_score_ab_20260928/build_report.py",
+      "size": 13537,
+      "sha256": "5f83c759398dccea268c6e044209ec07d19a150974018a39733308475e6fa1e8",
+      "mtime_ns": 1790585992485879736,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_pca_score_ab_20260928/exact_snapshot.py",
+      "size": 4873,
+      "sha256": "7c25489afc04a48eaee17333c0224789b003c563874875d89786acca92c1a313",
+      "mtime_ns": 1790585861280488728,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_pca_score_ab_20260928/exact_snapshot_plan.md",
+      "size": 968,
+      "sha256": "e958bf29110f79a095dd9afecd12f2c2f74da210ef4bd75727b379a70682d97a",
+      "mtime_ns": 1790585745831266526,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_pca_score_ab_20260928/experiment_plan.md",
+      "size": 3701,
+      "sha256": "a35e8214d1c9f90a908488cf52586c2b222f56e190d80a115f4d2372fa34ebf5",
+      "mtime_ns": 1790585298206513140,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_pca_score_ab_20260928/manifest.json",
+      "size": 5853,
+      "sha256": "7173e2b5f21bf439f4a103f0a116dc99a0ee32eb7426a4ef6b788d40f76b404c",
+      "mtime_ns": 1790586128294309305,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_pca_score_ab_20260928/run_ab.py",
+      "size": 23741,
+      "sha256": "197b7989447118f6867f7ca26531c3c49ebdae8c5cf011c7e1f789fd17917f03",
+      "mtime_ns": 1790585654942316934,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_pca_score_ab_20260928/sharpe_comparison.svg",
+      "size": 16134,
+      "sha256": "8732f2be9d5acff35215b60eb0c34a761de2df37a820d3ba49cc3befcdbb97e8",
+      "mtime_ns": 1790586054870559681,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_pca_score_ab_20260928/sync_status.json",
+      "size": 911,
+      "sha256": "c493c803ed934451ca7b4f299bdcfc889a0c2f7b4e79bf242f2973b6ce658f3a",
+      "mtime_ns": 1790586029750298763,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_pca_score_ab_20260928/test_ab.py",
+      "size": 3999,
+      "sha256": "7522f005a4d15c7e5eb5b8b8593ee4cd8ac555a7c325774a3978823963bc47ca",
+      "mtime_ns": 1790585468976343987,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_pca_score_ab_20260928/verification.json",
+      "size": 2203,
+      "sha256": "114d59c757e11866100dc168d17155f2c8ea74cb5d560c1000ba32316e470596",
+      "mtime_ns": 1790585863514500635,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_pca_score_ab_20260928/exact_snapshot_results/predictions_before_labels.csv",
+      "size": 157015,
+      "sha256": "98b6b275701b76883bdf260fa324d988ceb8d43dd0fafb595415f3c44ed1beac",
+      "mtime_ns": 1790585819836050287,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_pca_score_ab_20260928/exact_snapshot_results/result.json",
+      "size": 1569,
+      "sha256": "5c8ed244da3cc2e26c88940ac4fbfc630a58f4e28266e5b269b4c52a2894f3da",
+      "mtime_ns": 1790585823205675156,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_pca_score_ab_20260928/failed_attempts/attempt1_io_error.json",
+      "size": 802,
+      "sha256": "17d9c770b6e6406c1485236afcd0ee56e7eebe07317fe1fc16a41636a844ea0d",
+      "mtime_ns": 1790585655858326593,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_pca_score_ab_20260928/failed_attempts/run_ab_before_atomic_write.py",
+      "size": 23050,
+      "sha256": "c99b34d38d8d3b2477f019dcc838addb729c570837341b195f6a805d996da550",
+      "mtime_ns": 1790586127680597771,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_pca_score_ab_20260928/references/baseline_daily_reference.csv",
+      "size": 149807,
+      "sha256": "db9476971fcf43049098e6ac7294263572598012e305226ae48da2e14fc11d2c",
+      "mtime_ns": 1790585230185792633,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_pca_score_ab_20260928/references/official_metric_reference.py",
+      "size": 1603,
+      "sha256": "3e5d27a7a354f54b0e286b8cb0ba58dc845770df9429320f847d0853b1e29056",
+      "mtime_ns": 1790585229329783577,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_pca_score_ab_20260928/results/daily_diagnostics.csv",
+      "size": 655016,
+      "sha256": "30dcfabaa3707572396b256f2f79290d31e710a9c5a8491fbe2624734ede6bce",
+      "mtime_ns": 1790585578437505433,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_pca_score_ab_20260928/results/generation_audit.json",
+      "size": 1192,
+      "sha256": "e5bc4082be59ffd5293e8856b16b9ea935196fcffa139646767514a50e86c83d",
+      "mtime_ns": 1790585578474102179,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_pca_score_ab_20260928/results/pca_windows.csv",
+      "size": 267889,
+      "sha256": "41b8f3798031d70962b09ac0984489402a9dd2c7bfcbdbb1f770f27554f1597a",
+      "mtime_ns": 1790585578469505772,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_pca_score_ab_20260928/results/traces/predictions_2018.npz",
+      "size": 21879251,
+      "sha256": "6171000d8e386f7f4157154aeafcd32e7e59ac4f30d959b1ad4fcdb6e7044de9",
+      "mtime_ns": 1790585574457463937,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_pca_score_ab_20260928/results/traces/predictions_2019.npz",
+      "size": 13048911,
+      "sha256": "e027103c16d693aadd99042cb4566e926941eab9c7f5b485b215c85d6d7b4b3c",
+      "mtime_ns": 1790585575233472015,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_pca_score_ab_20260928/results/traces/predictions_2020.npz",
+      "size": 22217734,
+      "sha256": "5ddb68bd9b8128cd95f5b231b738c66116f833f6d015e10b4da7572c5f40da35",
+      "mtime_ns": 1790585577061491044,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_pca_score_ab_20260928/results/traces/predictions_2021.npz",
+      "size": 20874866,
+      "sha256": "e534fa7c23c76888b260ffc4b3eb66fd62794011686e7a074be72b1a9144806b",
+      "mtime_ns": 1790585578329504290,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_pca_score_ab_20260928/results_v2/daily_diagnostics.csv",
+      "size": 655016,
+      "sha256": "30dcfabaa3707572396b256f2f79290d31e710a9c5a8491fbe2624734ede6bce",
+      "mtime_ns": 1790585744831256220,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_pca_score_ab_20260928/results_v2/daily_scores.csv",
+      "size": 258396,
+      "sha256": "ac7165bb6f9e87c86b7f9387a4415bac2c54279686dd8b70a32f28e2ad900dfd",
+      "mtime_ns": 1790585755927371515,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_pca_score_ab_20260928/results_v2/generation_audit.json",
+      "size": 1192,
+      "sha256": "e5bc4082be59ffd5293e8856b16b9ea935196fcffa139646767514a50e86c83d",
+      "mtime_ns": 1790585744870628740,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_pca_score_ab_20260928/results_v2/pca_windows.csv",
+      "size": 267889,
+      "sha256": "41b8f3798031d70962b09ac0984489402a9dd2c7bfcbdbb1f770f27554f1597a",
+      "mtime_ns": 1790585744863256550,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_pca_score_ab_20260928/results_v2/results.json",
+      "size": 8685,
+      "sha256": "a0311502165a0a2f6b9398b32b22af486164d60c7f80e3deab925bedadbb141c",
+      "mtime_ns": 1790585769121665167,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_pca_score_ab_20260928/results_v2/summary.csv",
+      "size": 1940,
+      "sha256": "2e4bc5a75b94b8961ce623910ebb7488ff7b3d2677c12c9dec39cf6dae86dfea",
+      "mtime_ns": 1790585755952942783,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_pca_score_ab_20260928/results_v2/traces/predictions_2018.npz",
+      "size": 21879251,
+      "sha256": "6171000d8e386f7f4157154aeafcd32e7e59ac4f30d959b1ad4fcdb6e7044de9",
+      "mtime_ns": 1790585740040527049,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_pca_score_ab_20260928/results_v2/traces/predictions_2019.npz",
+      "size": 21762085,
+      "sha256": "b7e86b173d95be791e5f8c20a28b1b8a51df7d462058c62247d62ed5bd43ddbd",
+      "mtime_ns": 1790585741515224718,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_pca_score_ab_20260928/results_v2/traces/predictions_2020.npz",
+      "size": 22217734,
+      "sha256": "5ddb68bd9b8128cd95f5b231b738c66116f833f6d015e10b4da7572c5f40da35",
+      "mtime_ns": 1790585743078101921,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_pca_score_ab_20260928/results_v2/traces/predictions_2021.npz",
+      "size": 20874866,
+      "sha256": "e534fa7c23c76888b260ffc4b3eb66fd62794011686e7a074be72b1a9144806b",
+      "mtime_ns": 1790585744480161943,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/project_archive_20260924/COMPRESSED_DATA_MANIFEST.json",
+      "size": 77623,
+      "sha256": "a6ce61638ac9cc74d17dc0163693be7dac6a2cdb9cb7cbcdb62385566199bb5a",
+      "mtime_ns": 1790586158230035081,
+      "mode": 420,
+      "storage": "git"
+    }
+  ]
+}

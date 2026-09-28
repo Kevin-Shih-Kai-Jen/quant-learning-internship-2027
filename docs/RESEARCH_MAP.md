@@ -55,3 +55,6 @@
 2026-09-25 新增：[v31 每檔獨立參數 MSE](../research/jpx_v31_stock_specific_mse_20260925/JPX-v31-stock-specific-mse-report.md)。正式基準仍 v7；最新進度以本導讀及版本登記為準，9/24 歷史摘要原樣保留。
 
 2026-09-26 新增：[v32 逐檔歷史分塊複習](../research/jpx_v32_chunk_replay_20260926/JPX-v32-chunk-replay-report.md)。每fold訓練一次，validation整年固定；正式基準維持v7。
+
+2026-09-28 新增：[PCA 市場與持倉風險診斷](../research/jpx_pca_risk_20260928/JPX_PCA_report.md)，以及 [PCA 分數消融 A/B](../research/jpx_pca_score_ab_20260928/JPX_PCA_AB_report.md)。A/B 沿用相同 JPX 排名配重；953 日官方未年化 Sharpe：A +0.00767887、每期 PC6 消融 +0.00459482、每期最大估計風險方向消融 +0.02620535。兩個差異的探索區間皆含 0，正式基準維持 v7；原報告同一 PC6 另有單日核對，不能當成長期證據。大型逐筆資料 Release 尚待發布，詳見該實驗 sync_status.json；不能因報告已在 Git 就視為全部封存完成。
+

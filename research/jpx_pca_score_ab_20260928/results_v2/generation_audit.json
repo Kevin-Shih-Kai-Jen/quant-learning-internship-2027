@@ -1,0 +1,31 @@
+{
+  "source_hashes": {
+    "raw_member": "bf774a86f834e5338bba74f2356ebb750f93a1cc4e89b064ee07251e8ed851db",
+    "plan": "a35e8214d1c9f90a908488cf52586c2b222f56e190d80a115f4d2372fa34ebf5",
+    "2018": "2a33754c695cc16579a959dc9e5d735a3fff323949a04cff82808e172b15679f",
+    "2019": "0178112bc51bdb28a3a25d8724647e2f76cbf662f6b0e6ecb5c81e14eb54606f",
+    "2020": "0bbe51096fa09438831b06cef196055cadc40fe08ef4588b31f6a98b92643403",
+    "2021": "d0029f7dc9c89362183250321f6583a56df820b337a7233bdfba2ea65adfe42a"
+  },
+  "generated_days": 953,
+  "ranked_rows": 1864363,
+  "raw_rows": 2332531,
+  "max_svd_direction_error": 8.881784197001252e-16,
+  "max_orthogonality_error": 8.453827915477774e-14,
+  "max_eigen_equation_error": 1.549489242879064e-14,
+  "market_closed_dates": [
+    "2020-10-01"
+  ],
+  "all_A_ranks_reproduced": true,
+  "all_universes_match_contemporaneous_supervision_filter": true,
+  "all_predictions_saved_before_target_read": true,
+  "target_used_in_generation": false,
+  "formal_test_used": false,
+  "source_commit": "95592531e6c8132988d43cc87cd563da653ad28e",
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0"
+  }
+}

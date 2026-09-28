@@ -1,0 +1,111 @@
+{
+  "status": "prepared_and_locally_verified_not_uploaded",
+  "tag": "snapshot-2026-09-28-pca-score-ab",
+  "packs": [
+    {
+      "name": "snapshot-2026-09-28-pca-score-ab-data-001-jpx_pca_score_ab_20260928.tar",
+      "release_tag": "snapshot-2026-09-28-pca-score-ab",
+      "files": [
+        {
+          "path": "research/jpx_pca_score_ab_20260928/results/daily_diagnostics.csv",
+          "size": 655016,
+          "sha256": "30dcfabaa3707572396b256f2f79290d31e710a9c5a8491fbe2624734ede6bce",
+          "mtime_ns": 1790585578437505433,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_pca_score_ab_20260928/results/pca_windows.csv",
+          "size": 267889,
+          "sha256": "41b8f3798031d70962b09ac0984489402a9dd2c7bfcbdbb1f770f27554f1597a",
+          "mtime_ns": 1790585578469505772,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_pca_score_ab_20260928/results/traces/predictions_2018.npz",
+          "size": 21879251,
+          "sha256": "6171000d8e386f7f4157154aeafcd32e7e59ac4f30d959b1ad4fcdb6e7044de9",
+          "mtime_ns": 1790585574457463937,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_pca_score_ab_20260928/results/traces/predictions_2019.npz",
+          "size": 13048911,
+          "sha256": "e027103c16d693aadd99042cb4566e926941eab9c7f5b485b215c85d6d7b4b3c",
+          "mtime_ns": 1790585575233472015,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_pca_score_ab_20260928/results/traces/predictions_2020.npz",
+          "size": 22217734,
+          "sha256": "5ddb68bd9b8128cd95f5b231b738c66116f833f6d015e10b4da7572c5f40da35",
+          "mtime_ns": 1790585577061491044,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_pca_score_ab_20260928/results/traces/predictions_2021.npz",
+          "size": 20874866,
+          "sha256": "e534fa7c23c76888b260ffc4b3eb66fd62794011686e7a074be72b1a9144806b",
+          "mtime_ns": 1790585578329504290,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_pca_score_ab_20260928/results_v2/daily_diagnostics.csv",
+          "size": 655016,
+          "sha256": "30dcfabaa3707572396b256f2f79290d31e710a9c5a8491fbe2624734ede6bce",
+          "mtime_ns": 1790585744831256220,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_pca_score_ab_20260928/results_v2/pca_windows.csv",
+          "size": 267889,
+          "sha256": "41b8f3798031d70962b09ac0984489402a9dd2c7bfcbdbb1f770f27554f1597a",
+          "mtime_ns": 1790585744863256550,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_pca_score_ab_20260928/results_v2/traces/predictions_2018.npz",
+          "size": 21879251,
+          "sha256": "6171000d8e386f7f4157154aeafcd32e7e59ac4f30d959b1ad4fcdb6e7044de9",
+          "mtime_ns": 1790585740040527049,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_pca_score_ab_20260928/results_v2/traces/predictions_2019.npz",
+          "size": 21762085,
+          "sha256": "b7e86b173d95be791e5f8c20a28b1b8a51df7d462058c62247d62ed5bd43ddbd",
+          "mtime_ns": 1790585741515224718,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_pca_score_ab_20260928/results_v2/traces/predictions_2020.npz",
+          "size": 22217734,
+          "sha256": "5ddb68bd9b8128cd95f5b231b738c66116f833f6d015e10b4da7572c5f40da35",
+          "mtime_ns": 1790585743078101921,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_pca_score_ab_20260928/results_v2/traces/predictions_2021.npz",
+          "size": 20874866,
+          "sha256": "e534fa7c23c76888b260ffc4b3eb66fd62794011686e7a074be72b1a9144806b",
+          "mtime_ns": 1790585744480161943,
+          "mode": 420,
+          "storage": "release"
+        }
+      ],
+      "size": 166615040,
+      "sha256": "4001ba86d5e01403af25f02f3a8ba9ed00e33a7fcb3d2045522166d24033189d"
+    }
+  ],
+  "source_commit": "95592531e6c8132988d43cc87cd563da653ad28e"
+}

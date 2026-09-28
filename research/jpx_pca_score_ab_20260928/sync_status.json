@@ -1,0 +1,13 @@
+{
+  "status": "small_files_ready_for_git; large_release_pending",
+  "repository": "Kevin-Shih-Kai-Jen/quant-learning-internship-2027",
+  "planned_release_tag": "snapshot-2026-09-28-pca-score-ab",
+  "git_scope": "New dated experiment code, plans, reports, small results, verification and research map update",
+  "large_data_scope": "All original and final generated trace NPZ files plus CSV files exceeding archive-config.json thresholds",
+  "large_release_published": false,
+  "blocker": "GitHub connector provides Git writes but no release/asset upload operation; local gh is absent and browser is signed out",
+  "cleanup_performed": false,
+  "retained_inputs": "jpx_pca_ab_20260928_input/research/jpx_v7_daily_mse_20260912/v7_equal",
+  "preserved_user_upload": "upload/01-raw.zip",
+  "required_before_cleanup": "Publish a new versioned Release and verify asset plus per-file SHA-256 and remote Git content"
+}

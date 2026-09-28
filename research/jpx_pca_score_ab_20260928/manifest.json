@@ -1,0 +1,180 @@
+{
+  "scope": "All new experiment files, including rejected first-attempt output; excludes this manifest and bytecode",
+  "files": [
+    {
+      "path": "JPX_PCA_AB_report.html",
+      "size": 28109,
+      "sha256": "1f6379ed9181728f0f21b2b195483d700271160453230c768a47245e08123f03"
+    },
+    {
+      "path": "JPX_PCA_AB_report.md",
+      "size": 9170,
+      "sha256": "973730f944583a9fc4e46a8b1a61b8463bb1d9c5cf4238cc58db1a1cde584b2d"
+    },
+    {
+      "path": "README.md",
+      "size": 2515,
+      "sha256": "477b63128ed2912ed70f7c9d17c1015634f80c8bcea0b7e629568776bac018d7"
+    },
+    {
+      "path": "build_report.py",
+      "size": 13537,
+      "sha256": "5f83c759398dccea268c6e044209ec07d19a150974018a39733308475e6fa1e8"
+    },
+    {
+      "path": "exact_snapshot.py",
+      "size": 4873,
+      "sha256": "7c25489afc04a48eaee17333c0224789b003c563874875d89786acca92c1a313"
+    },
+    {
+      "path": "exact_snapshot_plan.md",
+      "size": 968,
+      "sha256": "e958bf29110f79a095dd9afecd12f2c2f74da210ef4bd75727b379a70682d97a"
+    },
+    {
+      "path": "exact_snapshot_results/predictions_before_labels.csv",
+      "size": 157015,
+      "sha256": "98b6b275701b76883bdf260fa324d988ceb8d43dd0fafb595415f3c44ed1beac"
+    },
+    {
+      "path": "exact_snapshot_results/result.json",
+      "size": 1569,
+      "sha256": "5c8ed244da3cc2e26c88940ac4fbfc630a58f4e28266e5b269b4c52a2894f3da"
+    },
+    {
+      "path": "experiment_plan.md",
+      "size": 3701,
+      "sha256": "a35e8214d1c9f90a908488cf52586c2b222f56e190d80a115f4d2372fa34ebf5"
+    },
+    {
+      "path": "failed_attempts/attempt1_io_error.json",
+      "size": 802,
+      "sha256": "17d9c770b6e6406c1485236afcd0ee56e7eebe07317fe1fc16a41636a844ea0d"
+    },
+    {
+      "path": "failed_attempts/run_ab_before_atomic_write.py",
+      "size": 23050,
+      "sha256": "c99b34d38d8d3b2477f019dcc838addb729c570837341b195f6a805d996da550"
+    },
+    {
+      "path": "references/baseline_daily_reference.csv",
+      "size": 149807,
+      "sha256": "db9476971fcf43049098e6ac7294263572598012e305226ae48da2e14fc11d2c"
+    },
+    {
+      "path": "references/official_metric_reference.py",
+      "size": 1603,
+      "sha256": "3e5d27a7a354f54b0e286b8cb0ba58dc845770df9429320f847d0853b1e29056"
+    },
+    {
+      "path": "results/daily_diagnostics.csv",
+      "size": 655016,
+      "sha256": "30dcfabaa3707572396b256f2f79290d31e710a9c5a8491fbe2624734ede6bce"
+    },
+    {
+      "path": "results/generation_audit.json",
+      "size": 1192,
+      "sha256": "e5bc4082be59ffd5293e8856b16b9ea935196fcffa139646767514a50e86c83d"
+    },
+    {
+      "path": "results/pca_windows.csv",
+      "size": 267889,
+      "sha256": "41b8f3798031d70962b09ac0984489402a9dd2c7bfcbdbb1f770f27554f1597a"
+    },
+    {
+      "path": "results/traces/predictions_2018.npz",
+      "size": 21879251,
+      "sha256": "6171000d8e386f7f4157154aeafcd32e7e59ac4f30d959b1ad4fcdb6e7044de9"
+    },
+    {
+      "path": "results/traces/predictions_2019.npz",
+      "size": 13048911,
+      "sha256": "e027103c16d693aadd99042cb4566e926941eab9c7f5b485b215c85d6d7b4b3c"
+    },
+    {
+      "path": "results/traces/predictions_2020.npz",
+      "size": 22217734,
+      "sha256": "5ddb68bd9b8128cd95f5b231b738c66116f833f6d015e10b4da7572c5f40da35"
+    },
+    {
+      "path": "results/traces/predictions_2021.npz",
+      "size": 20874866,
+      "sha256": "e534fa7c23c76888b260ffc4b3eb66fd62794011686e7a074be72b1a9144806b"
+    },
+    {
+      "path": "results_v2/daily_diagnostics.csv",
+      "size": 655016,
+      "sha256": "30dcfabaa3707572396b256f2f79290d31e710a9c5a8491fbe2624734ede6bce"
+    },
+    {
+      "path": "results_v2/daily_scores.csv",
+      "size": 258396,
+      "sha256": "ac7165bb6f9e87c86b7f9387a4415bac2c54279686dd8b70a32f28e2ad900dfd"
+    },
+    {
+      "path": "results_v2/generation_audit.json",
+      "size": 1192,
+      "sha256": "e5bc4082be59ffd5293e8856b16b9ea935196fcffa139646767514a50e86c83d"
+    },
+    {
+      "path": "results_v2/pca_windows.csv",
+      "size": 267889,
+      "sha256": "41b8f3798031d70962b09ac0984489402a9dd2c7bfcbdbb1f770f27554f1597a"
+    },
+    {
+      "path": "results_v2/results.json",
+      "size": 8685,
+      "sha256": "a0311502165a0a2f6b9398b32b22af486164d60c7f80e3deab925bedadbb141c"
+    },
+    {
+      "path": "results_v2/summary.csv",
+      "size": 1940,
+      "sha256": "2e4bc5a75b94b8961ce623910ebb7488ff7b3d2677c12c9dec39cf6dae86dfea"
+    },
+    {
+      "path": "results_v2/traces/predictions_2018.npz",
+      "size": 21879251,
+      "sha256": "6171000d8e386f7f4157154aeafcd32e7e59ac4f30d959b1ad4fcdb6e7044de9"
+    },
+    {
+      "path": "results_v2/traces/predictions_2019.npz",
+      "size": 21762085,
+      "sha256": "b7e86b173d95be791e5f8c20a28b1b8a51df7d462058c62247d62ed5bd43ddbd"
+    },
+    {
+      "path": "results_v2/traces/predictions_2020.npz",
+      "size": 22217734,
+      "sha256": "5ddb68bd9b8128cd95f5b231b738c66116f833f6d015e10b4da7572c5f40da35"
+    },
+    {
+      "path": "results_v2/traces/predictions_2021.npz",
+      "size": 20874866,
+      "sha256": "e534fa7c23c76888b260ffc4b3eb66fd62794011686e7a074be72b1a9144806b"
+    },
+    {
+      "path": "run_ab.py",
+      "size": 23741,
+      "sha256": "197b7989447118f6867f7ca26531c3c49ebdae8c5cf011c7e1f789fd17917f03"
+    },
+    {
+      "path": "sharpe_comparison.svg",
+      "size": 16134,
+      "sha256": "8732f2be9d5acff35215b60eb0c34a761de2df37a820d3ba49cc3befcdbb97e8"
+    },
+    {
+      "path": "sync_status.json",
+      "size": 911,
+      "sha256": "c493c803ed934451ca7b4f299bdcfc889a0c2f7b4e79bf242f2973b6ce658f3a"
+    },
+    {
+      "path": "test_ab.py",
+      "size": 3999,
+      "sha256": "7522f005a4d15c7e5eb5b8b8593ee4cd8ac555a7c325774a3978823963bc47ca"
+    },
+    {
+      "path": "verification.json",
+      "size": 2203,
+      "sha256": "114d59c757e11866100dc168d17155f2c8ea74cb5d560c1000ba32316e470596"
+    }
+  ]
+}
