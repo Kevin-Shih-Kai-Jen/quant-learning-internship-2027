@@ -1,6 +1,6 @@
 """Build a self-contained Chinese HTML report and exact research figures."""
 from pathlib import Path
-import json, hashlib
+import json, hashlib, os
 import numpy as np
 import pandas as pd
 import matplotlib
@@ -32,7 +32,10 @@ ax.set_ylabel('Share of the stated variance (%)');ax.set_ylim(0,105)
 ax.set_title(f'Same PCA basis: {paired["stocks"]:,} stocks, {paired["dates"]} jointly observed daily returns',loc='left',weight='bold')
 ax.legend(frameon=False,fontsize=8.8,loc='upper right');ax.grid(axis='y',alpha=.15);ax.set_axisbelow(True)
 fig.text(.09,.015,'Fixed holdings dated 2021-12-01; sample risk only. Joint-observation dates end 2021-11-29.',fontsize=9,color='#555')
-fig.tight_layout(rect=(0,.04,1,1));fig.savefig(OUT/'risk_comparison.svg');fig.savefig('/workspace/scratch/c2c7725b1e28/jpx_pca_risk_chart.png',dpi=150);plt.close(fig)
+fig.tight_layout(rect=(0,.04,1,1));fig.savefig(OUT/'risk_comparison.svg')
+if os.environ.get('JPX_PCA_QA_PNG'):
+    fig.savefig(os.environ['JPX_PCA_QA_PNG'],dpi=150)
+plt.close(fig)
 
 fig,(ax,bx)=plt.subplots(1,2,figsize=(10,4))
 for c,color in [(market,colors[0]),(paired,colors[1])]:
