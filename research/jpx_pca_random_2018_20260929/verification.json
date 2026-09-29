@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "common_days": 245,
+  "A_B_MAX_daily_reference_max_error": 4.773959005888173e-15,
+  "independent_metric_checks": 22,
+  "random_sequences_reproduced": true,
+  "first_day_PC_sign_invariance_max_error": 0.0,
+  "first_day_all_PC_projection_max_error": 5.6107462426124854e-18,
+  "all_day_norm_matching_max_error": 7.216449660063518e-16,
+  "all_A_original_ranks_reproduced": true,
+  "all_state_hashes_verified_before_evaluation": true,
+  "states_count": 245,
+  "rank_and_PCA_state_saved_before_Target_read": true,
+  "missing_candidate_days": 0,
+  "formal_test_used": false,
+  "new_holdout_claimed": false,
+  "baseline_changed": false
+}

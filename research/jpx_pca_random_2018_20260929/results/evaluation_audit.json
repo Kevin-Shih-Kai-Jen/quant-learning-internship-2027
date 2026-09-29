@@ -1,0 +1,9 @@
+{
+  "generation_audit_sha256": "aa18c29d3e0c8c774a3b14a990fcb7c6d6490442cd29100c4e41c1ab7ce2bba3",
+  "states_verified": 245,
+  "max_daily_reference_error": 4.773959005888173e-15,
+  "independent_metric_checks": 22,
+  "source_dates_preserved": true,
+  "test_used": false,
+  "generation_completed_before_Target_read": true
+}

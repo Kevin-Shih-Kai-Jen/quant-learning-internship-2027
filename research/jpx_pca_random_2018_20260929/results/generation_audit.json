@@ -1,0 +1,1255 @@
+{
+  "stage": "generation_complete",
+  "days": 245,
+  "paths_per_control": 1000,
+  "seed": 20260929,
+  "rng": "numpy.random.default_rng / PCG64",
+  "plan_sha256": "74cebdf798d16cab4468f43458706d9d37bb7e535a61d61663a4e9adcb9d3879",
+  "source_code_sha256": "40a6b0cb3bd9f743220a0ca704ec9ddb898578952cd04ce82ab484ce60bbe184",
+  "experiment_code_sha256": "d9387de1b4824c8a949a30ace3ce843bcc7d7103f30cccca9342d3210d6e5c23",
+  "ranks_sha256": "2a33754c695cc16579a959dc9e5d735a3fff323949a04cff82808e172b15679f",
+  "raw_member_sha256": "bf774a86f834e5338bba74f2356ebb750f93a1cc4e89b064ee07251e8ed851db",
+  "zip_sha256": "aaf930192e68d16924e662ef8190d913b06ac1e9e71c23fb8ce9ee3f418ddb0a",
+  "raw_member": "JPX_data/raw/train_files/stock_prices.csv",
+  "first_date": "2017-12-29",
+  "last_date": "2018-12-27",
+  "Target_read_in_generation": false,
+  "test_used": false,
+  "original_A_ranks_reproduced": true,
+  "max_norm_matching_error": 7.216449660063518e-16,
+  "independent_ablation_max_error": 6.938893903907228e-18,
+  "market_closures": [],
+  "states": [
+    {
+      "path": "states/000_2017-12-29.npz",
+      "size": 4892803,
+      "sha256": "acfcb9fac3496ae3aacd8aae34f0f80f8062163de1fa69820677e3af4c39fdb4"
+    },
+    {
+      "path": "states/001_2018-01-04.npz",
+      "size": 4917374,
+      "sha256": "b2ae4d76afa67d2f809ef0a6036929d5a3636aef855baef621583a564f750db7"
+    },
+    {
+      "path": "states/002_2018-01-05.npz",
+      "size": 4933865,
+      "sha256": "084c84d6a5f250467a4af19364cc0e08299171e652ebb50082f3cedebc8a2af4"
+    },
+    {
+      "path": "states/003_2018-01-09.npz",
+      "size": 4958033,
+      "sha256": "53643fcfe4f9043c49da9a4bcd4931db9f1923877b145dd42335f63ef527bfab"
+    },
+    {
+      "path": "states/004_2018-01-10.npz",
+      "size": 4970795,
+      "sha256": "dbcbb58f2c53b482dd1a54a9680983254950d15734a8404e8dbf6c6cb0649cb1"
+    },
+    {
+      "path": "states/005_2018-01-11.npz",
+      "size": 4992512,
+      "sha256": "4612580b30ec061162111d7b962fe7a08d8372403b30c02872ae29de4e716c14"
+    },
+    {
+      "path": "states/006_2018-01-12.npz",
+      "size": 5017001,
+      "sha256": "3ad4115a83ccedea9eacf9333c15b1bbfbea540370c7409d531fba7b8580d2a2"
+    },
+    {
+      "path": "states/007_2018-01-15.npz",
+      "size": 5008777,
+      "sha256": "0e21332d914778c4682047d22f8a0759d64ce3b8276745cc546e0bf93eeae71d"
+    },
+    {
+      "path": "states/008_2018-01-16.npz",
+      "size": 5020829,
+      "sha256": "21ea9d384a65605b9f591454bb1a486869642acf146e8a1788eb6c5cfb2046dd"
+    },
+    {
+      "path": "states/009_2018-01-17.npz",
+      "size": 5021677,
+      "sha256": "c17b1b4b3cd961d497cad3f85463457c32b2936d9225d0fb649104b863da9d1c"
+    },
+    {
+      "path": "states/010_2018-01-18.npz",
+      "size": 5016629,
+      "sha256": "d075d854995c85821f62cb842117468c84eaf7a7fc8360276a3cc554134c09b1"
+    },
+    {
+      "path": "states/011_2018-01-19.npz",
+      "size": 5015256,
+      "sha256": "0427a48ced618112aa8a43314d2d8cab46162811e02dd9f078557efbeffd1d26"
+    },
+    {
+      "path": "states/012_2018-01-22.npz",
+      "size": 5021510,
+      "sha256": "e3574ca52a08736efe8fb25522661b037f5249e6c70f997deaca08931a3a3d94"
+    },
+    {
+      "path": "states/013_2018-01-23.npz",
+      "size": 5015001,
+      "sha256": "2b96ae901ee98d04afb45dbb75a3d186796c1a56673ec16866dfcbdeb1ae4499"
+    },
+    {
+      "path": "states/014_2018-01-24.npz",
+      "size": 5007673,
+      "sha256": "f3022bcd32587a1c702826a82d75564ba105424ce4a4717ffe50134d9b550b2a"
+    },
+    {
+      "path": "states/015_2018-01-25.npz",
+      "size": 5022939,
+      "sha256": "faef1160e9eaadb2c3880208cc93aadf815e97a674c84d0c00a9300c9c297564"
+    },
+    {
+      "path": "states/016_2018-01-26.npz",
+      "size": 5023178,
+      "sha256": "a2f06137168dbbbafa828179ae6db70c9c764a1802ab9bd61ea47c70c5235734"
+    },
+    {
+      "path": "states/017_2018-01-29.npz",
+      "size": 5022157,
+      "sha256": "a1a4e590acebff20cc28a79ff366f63d50b48d645394f92e435bb25ff9611415"
+    },
+    {
+      "path": "states/018_2018-01-30.npz",
+      "size": 5025746,
+      "sha256": "39b09a60b40fb68b48f88cc7866fc996b7dd513b904ddc4a0af0e9b561304e54"
+    },
+    {
+      "path": "states/019_2018-01-31.npz",
+      "size": 5027484,
+      "sha256": "a47bbaa3608ea3c6d1db6e7eaec6ecc0fca26f65b97be0ee9c099b2dae70a51e"
+    },
+    {
+      "path": "states/020_2018-02-01.npz",
+      "size": 5013229,
+      "sha256": "b6466457f507b7845d99075a7e6507ff10aa3d4be60c55d0e4c4ea0b0091612b"
+    },
+    {
+      "path": "states/021_2018-02-02.npz",
+      "size": 5019239,
+      "sha256": "8808aeff5947335559481fe3c069d269f6b3a1f253e8d9d3692bf82f17441e22"
+    },
+    {
+      "path": "states/022_2018-02-05.npz",
+      "size": 5018777,
+      "sha256": "e523194b71f99fb679c4600d6337958e49ce24cfcebacdd6738de4a639806111"
+    },
+    {
+      "path": "states/023_2018-02-06.npz",
+      "size": 5024260,
+      "sha256": "91fc2d2f4b612842971420c099ce7457192a9a86ab0b1b77c0919c072a93fa18"
+    },
+    {
+      "path": "states/024_2018-02-07.npz",
+      "size": 5022131,
+      "sha256": "47af54067cd2a3b908f28220729d9a2e79b582af5f142b6a896a17f96838f112"
+    },
+    {
+      "path": "states/025_2018-02-08.npz",
+      "size": 5023066,
+      "sha256": "34b05b0cb395519fcac2e1090728a89d477cb8d7eaeeb6a17189d94c8dfab329"
+    },
+    {
+      "path": "states/026_2018-02-09.npz",
+      "size": 5015129,
+      "sha256": "6a0a9a3d73caab554195f926c229c370d8bf068e87d3b0190a02313b51111718"
+    },
+    {
+      "path": "states/027_2018-02-13.npz",
+      "size": 5019365,
+      "sha256": "b141fad4ff75bdabfae4d49746768bc74e24c48727ff4626af56b1f73758dc1e"
+    },
+    {
+      "path": "states/028_2018-02-14.npz",
+      "size": 5016067,
+      "sha256": "0814ee456e02fd65d794fed2165b8d291402ecf255d20c9d9f0b1475784646bc"
+    },
+    {
+      "path": "states/029_2018-02-15.npz",
+      "size": 5019130,
+      "sha256": "0c9734df79ba17084bdd2a2ac5ccd65413a95e241ef1fbceb6864b4af82f7f61"
+    },
+    {
+      "path": "states/030_2018-02-16.npz",
+      "size": 5022523,
+      "sha256": "499b35d0e7ac7b324a25c165ed0656329c80b692d5ffba692c5d09d6e1a28620"
+    },
+    {
+      "path": "states/031_2018-02-19.npz",
+      "size": 5018215,
+      "sha256": "0ac53344e6a0bd021cefe0ddf75cf6370095dfce2cd90ed8bbaf9023e9d65ea6"
+    },
+    {
+      "path": "states/032_2018-02-20.npz",
+      "size": 5027015,
+      "sha256": "ca98cbae1a7a1e688453fccc9df4b439857940a349e4c3621e52e3aec1ebdeb6"
+    },
+    {
+      "path": "states/033_2018-02-21.npz",
+      "size": 5025130,
+      "sha256": "7ef8f8891143d8443b917adb9518754e6c575ba015b4f8f6bb53134a60444de6"
+    },
+    {
+      "path": "states/034_2018-02-22.npz",
+      "size": 5015493,
+      "sha256": "1eb5b9b963b848fe55d086f8074ea5020f9b81bab09a9a0907ac9d74891824c4"
+    },
+    {
+      "path": "states/035_2018-02-23.npz",
+      "size": 5030179,
+      "sha256": "d7db11d8591189113d14af9d2e570855e179fe939f6c8a79d8ae89014c1ee6b8"
+    },
+    {
+      "path": "states/036_2018-02-26.npz",
+      "size": 5023546,
+      "sha256": "f27ac9b46d3b19ec932f5c6a5f8130cc15f05d2fa42af13e66602b26e8555e12"
+    },
+    {
+      "path": "states/037_2018-02-27.npz",
+      "size": 5027510,
+      "sha256": "acd73cfc617c31e45bd0785b080dc2eeeb1ed77c99316464f9fa29f4979cebf3"
+    },
+    {
+      "path": "states/038_2018-02-28.npz",
+      "size": 5024135,
+      "sha256": "abd6c45f09b57c35916022eda3878912552c5fca8e2c0063c820df794b867714"
+    },
+    {
+      "path": "states/039_2018-03-01.npz",
+      "size": 5026907,
+      "sha256": "99374edaecf726206d9fdba517aa658b70adde9708e98d78a67cc5a7491735b3"
+    },
+    {
+      "path": "states/040_2018-03-02.npz",
+      "size": 5024431,
+      "sha256": "036721e37a11d0c7ad7f3cb6fd98aac28d20eec204a5ef8a76e1b2ff4b146443"
+    },
+    {
+      "path": "states/041_2018-03-05.npz",
+      "size": 5034581,
+      "sha256": "e159971ad645cfb79103146c44642595f24660af07e0a4aba4793a6127e73de2"
+    },
+    {
+      "path": "states/042_2018-03-06.npz",
+      "size": 5035720,
+      "sha256": "94a5d924cbf1bf1fae447018a053ef8df3cd59668b6e1b9e437834981260012a"
+    },
+    {
+      "path": "states/043_2018-03-07.npz",
+      "size": 5032173,
+      "sha256": "ad98a4e277af57f15230ec5c9a068575470097fec561d0e989572043941d6847"
+    },
+    {
+      "path": "states/044_2018-03-08.npz",
+      "size": 5033356,
+      "sha256": "639e23162aad90abaf44458c804cf392266054c796cf84527e860af8057debb7"
+    },
+    {
+      "path": "states/045_2018-03-09.npz",
+      "size": 5036266,
+      "sha256": "51481545f8a690f9cdc5040a5fec698350a2bc3f5a58d5905c9219aa61c7ef6c"
+    },
+    {
+      "path": "states/046_2018-03-12.npz",
+      "size": 5034968,
+      "sha256": "241208f46f5f2c250510b8c49e5a8cf580bba76431150c79728f2e86a31a062e"
+    },
+    {
+      "path": "states/047_2018-03-13.npz",
+      "size": 5033095,
+      "sha256": "d9a3bbe4500cfb9b2995eea80347e8c94b480155ec63028364c20193caa40ed2"
+    },
+    {
+      "path": "states/048_2018-03-14.npz",
+      "size": 5026554,
+      "sha256": "ab25216d254d5bdd0d8a4ebc94d76c2fedb06b4f43494e340bb4df6fa4c2cb4e"
+    },
+    {
+      "path": "states/049_2018-03-15.npz",
+      "size": 5030384,
+      "sha256": "937c196089225c2268292cc89dbcc21a939fa3de6132d6d5005cc22a3eb7386e"
+    },
+    {
+      "path": "states/050_2018-03-16.npz",
+      "size": 5026241,
+      "sha256": "86f3ab47f3ec53327ee820cda25ac5550a3eb72e06964e32b1e88f03b70228b1"
+    },
+    {
+      "path": "states/051_2018-03-19.npz",
+      "size": 5033626,
+      "sha256": "014556e435c2f4c49ebe0bd92fff822c0d21df3ffaed0d4b4627e776554b0b54"
+    },
+    {
+      "path": "states/052_2018-03-20.npz",
+      "size": 5038619,
+      "sha256": "5a271238e9ff04e29e97813c446a47d618da41d74b754068f203182d193d2620"
+    },
+    {
+      "path": "states/053_2018-03-22.npz",
+      "size": 5034464,
+      "sha256": "4c885b95f969da132c8e86aa790cf265c88bc533a7231515f1cc405d12cdfaac"
+    },
+    {
+      "path": "states/054_2018-03-23.npz",
+      "size": 5034790,
+      "sha256": "2ea2daa9e39646ef2c9c3e32701b8e0fe3eb2a938f7dcc330a5dea6ef0ea6a2c"
+    },
+    {
+      "path": "states/055_2018-03-26.npz",
+      "size": 5028216,
+      "sha256": "28065776ecf57518154e451f38110d04c585da6c6aee1f619cbe188a48ee2987"
+    },
+    {
+      "path": "states/056_2018-03-27.npz",
+      "size": 5037042,
+      "sha256": "a0f65d0806bfe4b9cee5941893d40968d2448d0e206355ee3e6c4335b4f8572a"
+    },
+    {
+      "path": "states/057_2018-03-28.npz",
+      "size": 5045553,
+      "sha256": "b8d3f69359e315f425699ab781fa2c4ef978d6e937e281d8af92226143d35f60"
+    },
+    {
+      "path": "states/058_2018-03-29.npz",
+      "size": 5045469,
+      "sha256": "79255402edc61a192a94c316141054ebb6862c61bde4e9549f6162e43b33b3be"
+    },
+    {
+      "path": "states/059_2018-03-30.npz",
+      "size": 5050067,
+      "sha256": "da70980faa7f40e21f423e8bd104f7bd4d7f46e1ef6a9c1bd3b97c3e187b414d"
+    },
+    {
+      "path": "states/060_2018-04-02.npz",
+      "size": 5045813,
+      "sha256": "3164662bfe24c57fc5f1b5d82d7af14e3c5f3e698f0018d70224978094552959"
+    },
+    {
+      "path": "states/061_2018-04-03.npz",
+      "size": 5051818,
+      "sha256": "1f00634c59626ab53ffd0dd853a936c93f5490894fe14eac0789024f3d642b1a"
+    },
+    {
+      "path": "states/062_2018-04-04.npz",
+      "size": 5047232,
+      "sha256": "c1537b298956f5729f9b1f99fb5e57114ed906dcfd53834c667fe62ee852aa10"
+    },
+    {
+      "path": "states/063_2018-04-05.npz",
+      "size": 5047532,
+      "sha256": "9743c3f459ed8d2a07205a77464a6ff13d9b5df7bc6aa9581b659fa05099ba4c"
+    },
+    {
+      "path": "states/064_2018-04-06.npz",
+      "size": 5055318,
+      "sha256": "9cea6e9d545f2af04771d374be79837281f9b9d0a6ad7110281f95d8e5f0beef"
+    },
+    {
+      "path": "states/065_2018-04-09.npz",
+      "size": 5058717,
+      "sha256": "da14f1a02573e5ffb0b852e1ca08d6e1a7712906528b661ff0023e428862353b"
+    },
+    {
+      "path": "states/066_2018-04-10.npz",
+      "size": 5066001,
+      "sha256": "17de651fcd47df5ece38b183fcaeceee5ec03dc4748f175ec5741aa1fe19189f"
+    },
+    {
+      "path": "states/067_2018-04-11.npz",
+      "size": 5065943,
+      "sha256": "df71eb4280376041cac8442f07f04c620d5096fa1bf753e2729f3fa40d02349e"
+    },
+    {
+      "path": "states/068_2018-04-12.npz",
+      "size": 5058528,
+      "sha256": "4a3072b25ac7d7149529918a0d92deb4ebcd824a494e5d3fd02c14bb7b806f78"
+    },
+    {
+      "path": "states/069_2018-04-13.npz",
+      "size": 5053539,
+      "sha256": "f4a55b5e5d632961a88f4a8fac08feb683fa28e8cdf2539e1a3f8a5635d567ed"
+    },
+    {
+      "path": "states/070_2018-04-16.npz",
+      "size": 5050337,
+      "sha256": "1aa29918ebd5df9017c5c85d0ec2ec5b5c8109dd2c8862d209c638ef56229ccf"
+    },
+    {
+      "path": "states/071_2018-04-17.npz",
+      "size": 5053481,
+      "sha256": "2d7a7e7a760323fe25928591b2cf5a724081250281ca78accf776a7d8cf9613c"
+    },
+    {
+      "path": "states/072_2018-04-18.npz",
+      "size": 5044717,
+      "sha256": "db66dffa73223559f1b51ee2e07303a114bcf9f2a8ac431647e0d877a31b4950"
+    },
+    {
+      "path": "states/073_2018-04-19.npz",
+      "size": 5048409,
+      "sha256": "a2ddb94892ed07e31957f8f7aaebae3aa70dba930d7e89e6b363172770923908"
+    },
+    {
+      "path": "states/074_2018-04-20.npz",
+      "size": 5052308,
+      "sha256": "03ccf735c6e79708e469c925b1daef639e44a706ae3f971fa78d119f5e4c5aff"
+    },
+    {
+      "path": "states/075_2018-04-23.npz",
+      "size": 5064497,
+      "sha256": "69f7a45aec2f733f07259efc1a596f7199adf092c2772c5366378897370c3e2a"
+    },
+    {
+      "path": "states/076_2018-04-24.npz",
+      "size": 5040975,
+      "sha256": "6ca86baa5031db5976cd07dd25966d20d5eddca422400e5a774357b63ad1044c"
+    },
+    {
+      "path": "states/077_2018-04-25.npz",
+      "size": 5058429,
+      "sha256": "82e9b61e319d8a30656715eb30b1e1e207c9807d99ac9a29f1a47aa0fa42d278"
+    },
+    {
+      "path": "states/078_2018-04-26.npz",
+      "size": 5057233,
+      "sha256": "d7cfeeef94cfe3e693904380158627542e0059965d5ac112957e4288d527a67d"
+    },
+    {
+      "path": "states/079_2018-04-27.npz",
+      "size": 5057963,
+      "sha256": "fd64521afc0dbc8045ff4c3ca3122d7ff9b6e11d238e42d11b3b1754f5a0d441"
+    },
+    {
+      "path": "states/080_2018-05-01.npz",
+      "size": 5057791,
+      "sha256": "88adc10b0c1d3fc3c0311ad8951dc79c6219a5214a1ce1ce1d6423378df5f971"
+    },
+    {
+      "path": "states/081_2018-05-02.npz",
+      "size": 5061689,
+      "sha256": "6b4aba684b14f74646357e424cada80ec35e6527550892b26b167e69f480fee7"
+    },
+    {
+      "path": "states/082_2018-05-07.npz",
+      "size": 5061681,
+      "sha256": "c83403477601b598aa7728b1a386d7a6623839d2cdca40aada175206f1574d80"
+    },
+    {
+      "path": "states/083_2018-05-08.npz",
+      "size": 5056373,
+      "sha256": "f30398d61885824b7cf7df28ba66c5fbf2e05c71a911fa00661b923800dea2d8"
+    },
+    {
+      "path": "states/084_2018-05-09.npz",
+      "size": 5063531,
+      "sha256": "5511d484d723f51fb3a5c1e44b2a9d163b13902fe7effbfa0533c9544bac175d"
+    },
+    {
+      "path": "states/085_2018-05-10.npz",
+      "size": 5061165,
+      "sha256": "8529bb673bfde29960f471e23358e4f57ab7a3bf005a3efb7904fbeae6210a28"
+    },
+    {
+      "path": "states/086_2018-05-11.npz",
+      "size": 5064008,
+      "sha256": "35f51d7a6b128fca3f993d80c9a46dbc8357cfc42ff69ff1ced2887dd7589166"
+    },
+    {
+      "path": "states/087_2018-05-14.npz",
+      "size": 5064755,
+      "sha256": "c8307122e165a9819a69c09f466f2f0378378f03820bf8840df9b855c231a0ab"
+    },
+    {
+      "path": "states/088_2018-05-15.npz",
+      "size": 5061169,
+      "sha256": "ed533c5d0cc92c9e4b9b81b537086f0ec146dece79678db5251777e4c9e8fc51"
+    },
+    {
+      "path": "states/089_2018-05-16.npz",
+      "size": 5050945,
+      "sha256": "ade17bc777fc7eacebf4b2b3d25eb115d4978619788386ebdce09d2d52373059"
+    },
+    {
+      "path": "states/090_2018-05-17.npz",
+      "size": 5061376,
+      "sha256": "19a30770ecd1f475b174b97f4c6319adc81bcd0819c4c4674205611a6cb64ee5"
+    },
+    {
+      "path": "states/091_2018-05-18.npz",
+      "size": 5057541,
+      "sha256": "277463c4f6527af49b93f0424d633495a0e173e84192d021c20e45fa33f781ac"
+    },
+    {
+      "path": "states/092_2018-05-21.npz",
+      "size": 5058392,
+      "sha256": "fd230c527b3a208c7c9fedc05ca94a7bb8073c7d6d9c10600815036cec4eea7d"
+    },
+    {
+      "path": "states/093_2018-05-22.npz",
+      "size": 5061625,
+      "sha256": "70e7f07132ba37bb06978c1809ecd0ffd927b82fda50431770a03aa05e07f8e8"
+    },
+    {
+      "path": "states/094_2018-05-23.npz",
+      "size": 5054620,
+      "sha256": "d9a7baaa55960612ddfdb9550cee13c6bb35f5d517493cb936bfd44a42a0fd6b"
+    },
+    {
+      "path": "states/095_2018-05-24.npz",
+      "size": 5059530,
+      "sha256": "e3110e21021f6ee691b675200a63b333d61aee2c5b92023c94871e8228b41140"
+    },
+    {
+      "path": "states/096_2018-05-25.npz",
+      "size": 5060034,
+      "sha256": "b360d91128b799701d59a7c9d202f92c80c2b6fe50b2cfb257d928e87cafad89"
+    },
+    {
+      "path": "states/097_2018-05-28.npz",
+      "size": 5059941,
+      "sha256": "3c3b0cc0da88e4e13f86d1297127d0c71e131055009ebbe5378ed082d9b77acf"
+    },
+    {
+      "path": "states/098_2018-05-29.npz",
+      "size": 5062271,
+      "sha256": "f62f6e535c01e2179db6426552acab8df0b3ac2eb5267247c239dfbfe25be8ae"
+    },
+    {
+      "path": "states/099_2018-05-30.npz",
+      "size": 5059270,
+      "sha256": "071a99045a5485ed95fe87de1e6f436207ef58940a0c64e4e8bd5fc015140115"
+    },
+    {
+      "path": "states/100_2018-05-31.npz",
+      "size": 5054654,
+      "sha256": "a10f90a09a4e959cc02a0c6865f8e841c97cae00f6e6cf51c4cc5e32069be507"
+    },
+    {
+      "path": "states/101_2018-06-01.npz",
+      "size": 5069685,
+      "sha256": "faf3b959e28aeffed12978a143388df427d9665574d2f3790019e5eaef10fad9"
+    },
+    {
+      "path": "states/102_2018-06-04.npz",
+      "size": 5059569,
+      "sha256": "d2736a2cfe951ec0a41a4a90502cbf341be78d248a05224b49cf22ddd535975c"
+    },
+    {
+      "path": "states/103_2018-06-05.npz",
+      "size": 5063009,
+      "sha256": "91677189275fad36b78c367d4c8b21b67c25029c1d7744e5be8a861d8d0f9560"
+    },
+    {
+      "path": "states/104_2018-06-06.npz",
+      "size": 5059982,
+      "sha256": "cb32fd4f7d9c9164c4c2c46400768d2f2c02717a8bb9933ca6bb29d3d8834ea6"
+    },
+    {
+      "path": "states/105_2018-06-07.npz",
+      "size": 5051623,
+      "sha256": "44e892f77bf24a9e014d57b7d950273a59c909f8bdce2c6944bf3916eeb1d642"
+    },
+    {
+      "path": "states/106_2018-06-08.npz",
+      "size": 5056046,
+      "sha256": "8e5a71c83e82968b5265f33597449d3c802654a25626c6ab3f9524404a018694"
+    },
+    {
+      "path": "states/107_2018-06-11.npz",
+      "size": 5061757,
+      "sha256": "4553a29a724579ce09ea0747d291daf1fadc4e0c2250e458033641df4e2b004c"
+    },
+    {
+      "path": "states/108_2018-06-12.npz",
+      "size": 5059759,
+      "sha256": "ef386d458e50993f8c7c31dd750319556bf5868efb93c440395a33d779b0c834"
+    },
+    {
+      "path": "states/109_2018-06-13.npz",
+      "size": 5058708,
+      "sha256": "b31745a8aa8421b9738c04f8b6384f8d24049219274bfbd2f3c5f9e62d9916d3"
+    },
+    {
+      "path": "states/110_2018-06-14.npz",
+      "size": 5060908,
+      "sha256": "4b6f2275a617ceaafe8c6d34d9fbfafe621be5fa2e846e76b140212d338b264c"
+    },
+    {
+      "path": "states/111_2018-06-15.npz",
+      "size": 5056104,
+      "sha256": "28ecdd79035143a7af4eccd2b615535464a1b80d1fdb4622ae8fbc7046b359b7"
+    },
+    {
+      "path": "states/112_2018-06-18.npz",
+      "size": 5059103,
+      "sha256": "ab1522e276e017ac17434748776506272e0ef4c635c9a302e0317e53fb85e282"
+    },
+    {
+      "path": "states/113_2018-06-19.npz",
+      "size": 5049282,
+      "sha256": "1f0e21ae2cd5906972c9c8ce37e3a895238ad008f49b83a8cd6fc5942e319b20"
+    },
+    {
+      "path": "states/114_2018-06-20.npz",
+      "size": 5063382,
+      "sha256": "7c565780ef392455996faa8a64079543edbd57391255ce36089ff1e9986f60ec"
+    },
+    {
+      "path": "states/115_2018-06-21.npz",
+      "size": 5060118,
+      "sha256": "55ba2434708a798791f36ce8679e925b3bb6c331df00f1058a19843078cd2f5d"
+    },
+    {
+      "path": "states/116_2018-06-22.npz",
+      "size": 5059028,
+      "sha256": "9e1eb47c8da15b21b022bc1a614c8446240ac6d31e5ec4d51598ea9f789d381d"
+    },
+    {
+      "path": "states/117_2018-06-25.npz",
+      "size": 5057882,
+      "sha256": "d9ee97e65a45b6fab499acef24ad696e2747923f2e825a5528bcdf4f88d4fc10"
+    },
+    {
+      "path": "states/118_2018-06-26.npz",
+      "size": 5049426,
+      "sha256": "5b9d7b79b603e7dcc49754d72e328cb0ccbfe13d542dc84aab2488b6b32d2ef9"
+    },
+    {
+      "path": "states/119_2018-06-27.npz",
+      "size": 5064402,
+      "sha256": "66c1003b479433e193b5d314ab67608d9126a9985a247d6aeef14ec6492b5a3c"
+    },
+    {
+      "path": "states/120_2018-06-28.npz",
+      "size": 5068275,
+      "sha256": "5305818a250f8c45d15a14f409973f89878560addb369b78bd5da2d8781c333f"
+    },
+    {
+      "path": "states/121_2018-06-29.npz",
+      "size": 5066587,
+      "sha256": "5a72172547eb9ea40a59bb8d18fdfa13fb73bb5e276b5c545c0e43495fdc47b5"
+    },
+    {
+      "path": "states/122_2018-07-02.npz",
+      "size": 5053228,
+      "sha256": "bbda02ad47ef50b1b530a6a632c029d2063e734601878414b7c09675269fece2"
+    },
+    {
+      "path": "states/123_2018-07-03.npz",
+      "size": 5058253,
+      "sha256": "5dc7bf73f0a7c113a4ca76e72499993383e324e7515ed0b64b093c8b46aa3cd7"
+    },
+    {
+      "path": "states/124_2018-07-04.npz",
+      "size": 5059926,
+      "sha256": "4319c32c4f423b9267406b186f52c849066271c34ed4d7c048717927678bc855"
+    },
+    {
+      "path": "states/125_2018-07-05.npz",
+      "size": 5065399,
+      "sha256": "830809a537498dd606656e10b042cc6e980fb7066259aa0e5ed9a311e493732f"
+    },
+    {
+      "path": "states/126_2018-07-06.npz",
+      "size": 5062458,
+      "sha256": "d6950f9b675983ad5edb835e088a1fd41d84f458d82b65d7e4e3168cd3479d81"
+    },
+    {
+      "path": "states/127_2018-07-09.npz",
+      "size": 5065571,
+      "sha256": "0996b715d8d1227891ebdb8c4bb791c29570658af73e2ad11678f92175da494a"
+    },
+    {
+      "path": "states/128_2018-07-10.npz",
+      "size": 5066866,
+      "sha256": "4e50ab8794c060c248a5907f4fcc04ce6b4baa9c09ebf6195a4dacc220f5f818"
+    },
+    {
+      "path": "states/129_2018-07-11.npz",
+      "size": 5064589,
+      "sha256": "fbea90d14f593ee4061f20452f149cae3b3f63072d0de4859d67b65b2b941334"
+    },
+    {
+      "path": "states/130_2018-07-12.npz",
+      "size": 5068741,
+      "sha256": "37a00351f11aebb0986e36211dc69d94cce79d8f467676a526adefadc566c865"
+    },
+    {
+      "path": "states/131_2018-07-13.npz",
+      "size": 5064693,
+      "sha256": "926bac2609252c3ac1434fadf074047c3c850553066b63e7af1a254cb938e264"
+    },
+    {
+      "path": "states/132_2018-07-17.npz",
+      "size": 5066773,
+      "sha256": "1804ca0a06cd7773185f5477c3ee37410550e0480fb2fbc41d20fbefa7877f6c"
+    },
+    {
+      "path": "states/133_2018-07-18.npz",
+      "size": 5066812,
+      "sha256": "32404eca9966e75b5b2f86c42421b84bb76c5f8de659b08e5270cfe47f3593b0"
+    },
+    {
+      "path": "states/134_2018-07-19.npz",
+      "size": 5067288,
+      "sha256": "8abeb7faa4eef839fb9e5b3ff3075b34651e597c17ab1b81c03f64da36f47ace"
+    },
+    {
+      "path": "states/135_2018-07-20.npz",
+      "size": 5064961,
+      "sha256": "0ad860aaf5c26f622a49f3a73416c2f0f52802fa22a6253f7c4c597ff6938291"
+    },
+    {
+      "path": "states/136_2018-07-23.npz",
+      "size": 5066859,
+      "sha256": "7d62a848744c593649f959f5ca1eac1124a076caa21a61d7ad6a70a22ce24503"
+    },
+    {
+      "path": "states/137_2018-07-24.npz",
+      "size": 5065072,
+      "sha256": "725e6f6105e34ca5a97baf9e7b50822aa80dd4a0badb3dfdecbced4f34ce233a"
+    },
+    {
+      "path": "states/138_2018-07-25.npz",
+      "size": 5063709,
+      "sha256": "f4a5254669a5c3f08507c31a6d2ea47ec3a4f7a8aebc28eff2b170fb812e33a2"
+    },
+    {
+      "path": "states/139_2018-07-26.npz",
+      "size": 5052668,
+      "sha256": "9cf725b25bb61754e638a02cf0728849d096a46c0a3f8cbf672211fb4394a657"
+    },
+    {
+      "path": "states/140_2018-07-27.npz",
+      "size": 5058942,
+      "sha256": "6c4132982d4b95403358062444f699545ef0a840f37c8aca1c5b796d116190fb"
+    },
+    {
+      "path": "states/141_2018-07-30.npz",
+      "size": 5066264,
+      "sha256": "5504605d97a9bbfc8f4c1da138e13d04bb66dba1cbf97da8b23dcf2fb8284a1f"
+    },
+    {
+      "path": "states/142_2018-07-31.npz",
+      "size": 5070181,
+      "sha256": "15e947b34e9fb7b9e080dc6a5dda43fb65bef43d23b989db79e78343bdb0f17b"
+    },
+    {
+      "path": "states/143_2018-08-01.npz",
+      "size": 5064649,
+      "sha256": "c9f84fb856e9f8f71aed5eaf617ed4de654fd37c4ccc8fa6bad2cf1eeeec86fa"
+    },
+    {
+      "path": "states/144_2018-08-02.npz",
+      "size": 5063789,
+      "sha256": "b164228e1041c92df7fcbe6a76ad4fe25bad3ad910e88e91ca9475a933fc82a0"
+    },
+    {
+      "path": "states/145_2018-08-03.npz",
+      "size": 5068880,
+      "sha256": "0f276ccd5eabc5066f00e624730c4f16bdd9326884aa22810870b61ff7c72768"
+    },
+    {
+      "path": "states/146_2018-08-06.npz",
+      "size": 5058587,
+      "sha256": "3b52b268f03f5f6639b16310e831c3bc3bf37834ae07bf170251a14ad8751790"
+    },
+    {
+      "path": "states/147_2018-08-07.npz",
+      "size": 5058133,
+      "sha256": "86035438dc0b208fecf5ebed7114dcf013cddb9cb4e6e8a99e6a8fd45008546f"
+    },
+    {
+      "path": "states/148_2018-08-08.npz",
+      "size": 5062583,
+      "sha256": "25592e879b8da2f7f5562de449424c0aa651134d7d98baf214b897f73139b00c"
+    },
+    {
+      "path": "states/149_2018-08-09.npz",
+      "size": 5061081,
+      "sha256": "2a4684132507cdcf7c4618b1fa534f241d105e91b7e53fd2dd5d6706027e9764"
+    },
+    {
+      "path": "states/150_2018-08-10.npz",
+      "size": 5060043,
+      "sha256": "8521f01f5829d6e5c8ee29394075f4cc0370e875f34531b8c69739047380d336"
+    },
+    {
+      "path": "states/151_2018-08-13.npz",
+      "size": 5061420,
+      "sha256": "d3ac3babb598919ff11eb2fe8cf69be69947725bb445b1dd54263fe7663ea17a"
+    },
+    {
+      "path": "states/152_2018-08-14.npz",
+      "size": 5061321,
+      "sha256": "a24780e7cc1a2154f65c7f35f90b119baf5bc7ec53b06e79e7580462e7052c03"
+    },
+    {
+      "path": "states/153_2018-08-15.npz",
+      "size": 5063839,
+      "sha256": "3f2b849f4d84b8c74f613e82296c2153fe11f9b80d9ea16bddb8ba2c5c99d7a6"
+    },
+    {
+      "path": "states/154_2018-08-16.npz",
+      "size": 5062847,
+      "sha256": "422fee0a675c7648448946c3e226b4d0d9c6d3b753502ffe9dd275be73248d8d"
+    },
+    {
+      "path": "states/155_2018-08-17.npz",
+      "size": 5062438,
+      "sha256": "1b767999f1a2f44d1c1499fffea2d6639139c5f95243b8d43ae3573a80034182"
+    },
+    {
+      "path": "states/156_2018-08-20.npz",
+      "size": 5054468,
+      "sha256": "50eec6a6b241efe726580aa5878427bcf88c640ad91f31e876aca4ac8eec1214"
+    },
+    {
+      "path": "states/157_2018-08-21.npz",
+      "size": 5060622,
+      "sha256": "b3a4bb544540a0206ca46c1fda1ddee9509049f579e33064ce26460e644a1cfa"
+    },
+    {
+      "path": "states/158_2018-08-22.npz",
+      "size": 5060207,
+      "sha256": "ae29a557a87f25ab2a687897c711a433b0cd441f0c26d3f64ba056ce0e26b4a4"
+    },
+    {
+      "path": "states/159_2018-08-23.npz",
+      "size": 5059817,
+      "sha256": "50fae6cd3d5299ec21b8837b4aacf471e562d3e086e2c942ea43370ffa392b15"
+    },
+    {
+      "path": "states/160_2018-08-24.npz",
+      "size": 5061863,
+      "sha256": "7ca4bf516034611574f30eaca63c1882315c136ee24cb30855075fe0539e8b77"
+    },
+    {
+      "path": "states/161_2018-08-27.npz",
+      "size": 5059882,
+      "sha256": "97a1ba8bff52a66bb99fbdfd18a160596b09ac6214c1c5843a589e796d2abd2b"
+    },
+    {
+      "path": "states/162_2018-08-28.npz",
+      "size": 5062914,
+      "sha256": "3e256a8996637b7c85f819f404a2646298ac7394701ddb1eeed9cf79ca27f022"
+    },
+    {
+      "path": "states/163_2018-08-29.npz",
+      "size": 5055686,
+      "sha256": "ffea643bb850c1ad9c8fa222e894c936ce3c09f68d0906c3dd79ca90d64231a4"
+    },
+    {
+      "path": "states/164_2018-08-30.npz",
+      "size": 5052482,
+      "sha256": "b8990f648ae8415a687931d841291cffdaaf097d9c5c9f60486fbfeb9040b080"
+    },
+    {
+      "path": "states/165_2018-08-31.npz",
+      "size": 5059275,
+      "sha256": "6342e8c528f52223efa8415f912435d79268741438cded63148e9e9ac4699b96"
+    },
+    {
+      "path": "states/166_2018-09-03.npz",
+      "size": 5058660,
+      "sha256": "d1199e49ea474da7e8f6c6ae0faa82a5d1337064f4d118a9001e393d36538beb"
+    },
+    {
+      "path": "states/167_2018-09-04.npz",
+      "size": 5054347,
+      "sha256": "6647b278f4849b258de95fb6c4601a64fa9a6e362ac9b33fe1bcfd68152a3077"
+    },
+    {
+      "path": "states/168_2018-09-05.npz",
+      "size": 5058866,
+      "sha256": "38cf432f68fbf46acb8227bc0d7808e8c474b817d136207e4d1105e18cb75a82"
+    },
+    {
+      "path": "states/169_2018-09-06.npz",
+      "size": 5055823,
+      "sha256": "a6380789c0746203a4f14f555e211200ad782ec258c8eabdd7dfe9a1b7e3c723"
+    },
+    {
+      "path": "states/170_2018-09-07.npz",
+      "size": 5055675,
+      "sha256": "096b5c1153092961ad423d007a50de0bde5881f60f7a0e71f989b759d9154d68"
+    },
+    {
+      "path": "states/171_2018-09-10.npz",
+      "size": 5054849,
+      "sha256": "aa55d0fa64a002e74c0ccf86cf7f5076f7ae949e0187b079c05641618e751186"
+    },
+    {
+      "path": "states/172_2018-09-11.npz",
+      "size": 5056478,
+      "sha256": "b194a468719563cc5121f4386aa8cf7059c5c3cbf92c3f9d6015c1343086b4ff"
+    },
+    {
+      "path": "states/173_2018-09-12.npz",
+      "size": 5056182,
+      "sha256": "2ee59994c2e1e25d63c3bb81d48510f395a7ad21a05432db41710e07941acd5b"
+    },
+    {
+      "path": "states/174_2018-09-13.npz",
+      "size": 5056409,
+      "sha256": "3e9ab5eb73fa4f92bc1f16f8a27f0679e2c80bd126eb57c29bf721d8b73e8b67"
+    },
+    {
+      "path": "states/175_2018-09-14.npz",
+      "size": 5056241,
+      "sha256": "ab5711897e0f5053850d4bd845b2419c40fd618022241fb23640911b217d0b9e"
+    },
+    {
+      "path": "states/176_2018-09-18.npz",
+      "size": 5054153,
+      "sha256": "44779e7131c8862311969176d25e7c00c96d08f2a122f91d4925128a515cefcb"
+    },
+    {
+      "path": "states/177_2018-09-19.npz",
+      "size": 5053739,
+      "sha256": "8357ec964e92a72f6db5680f9f5a1cf4c050a841948ec047b9792dc06c9b4649"
+    },
+    {
+      "path": "states/178_2018-09-20.npz",
+      "size": 5059751,
+      "sha256": "35483ae1ef7f2711d29dfeba49dc783b1d4798418a1dee56d5f9bf815e9e943b"
+    },
+    {
+      "path": "states/179_2018-09-21.npz",
+      "size": 5052151,
+      "sha256": "0acd2120abb4ac7b0816e81ec6df1dfdc64ebc7db5337a5d05656648e918c653"
+    },
+    {
+      "path": "states/180_2018-09-25.npz",
+      "size": 5052126,
+      "sha256": "f90c9d5423d5bf73cd386c26d695b5dcd21c792bd2b2862fbbdb25ca071b120b"
+    },
+    {
+      "path": "states/181_2018-09-26.npz",
+      "size": 5051197,
+      "sha256": "fde057f2df394f46304d511762b3bca4a907f8e26f4370d7fa341358fbab47ee"
+    },
+    {
+      "path": "states/182_2018-09-27.npz",
+      "size": 5059528,
+      "sha256": "426aadd8a2663e7052bff0f1a6385c5e6a982127fab2df7f592badcd40879e9d"
+    },
+    {
+      "path": "states/183_2018-09-28.npz",
+      "size": 5058915,
+      "sha256": "4d08712b2626fbf84c06d36dd9d3b4e4f73efdccadbb9dac2af7c17b48c075a5"
+    },
+    {
+      "path": "states/184_2018-10-01.npz",
+      "size": 5061335,
+      "sha256": "0296a536cb79e24fc9b8b1f25c5f3d7ffe7f21465b35c712344e9cffabbb33d4"
+    },
+    {
+      "path": "states/185_2018-10-02.npz",
+      "size": 5066840,
+      "sha256": "a0a11030175acb6a28f145c1775c4e5e3283c658a092693848d2afea34e7f2f4"
+    },
+    {
+      "path": "states/186_2018-10-03.npz",
+      "size": 5070766,
+      "sha256": "116d1e8f201c9fb682d1805ac18f0afa9e08e8556adb3bb65d38bccdf9bc3e11"
+    },
+    {
+      "path": "states/187_2018-10-04.npz",
+      "size": 5065540,
+      "sha256": "bf84c3bb1bd66d768dc94cf380333d6dd7fb87829d373ed372a1323906d9a317"
+    },
+    {
+      "path": "states/188_2018-10-05.npz",
+      "size": 5068902,
+      "sha256": "e9f223ef8bae37d09d94cc3593d3f1bda61c751978cbb219084cfa3ceff15142"
+    },
+    {
+      "path": "states/189_2018-10-09.npz",
+      "size": 5073688,
+      "sha256": "958046e09509d4c66896ae091a9e42a9fcd2d6945479c0c13c94e2215b08e940"
+    },
+    {
+      "path": "states/190_2018-10-10.npz",
+      "size": 5075901,
+      "sha256": "f8418bf3348c9bc86fe2e110a6d8a8bc44fa1f555c40522fa3ef2e2bb8a34875"
+    },
+    {
+      "path": "states/191_2018-10-11.npz",
+      "size": 5066762,
+      "sha256": "4a60b0e0c96c7192fc6c2ea3043c1891eeff5bd6a30c63bb09fbd9d70a0f4f7f"
+    },
+    {
+      "path": "states/192_2018-10-12.npz",
+      "size": 5074314,
+      "sha256": "07731c54401c800a38ad68f49da71f83373fd71310c6fec00fa0956db7cb0723"
+    },
+    {
+      "path": "states/193_2018-10-15.npz",
+      "size": 5065291,
+      "sha256": "69ae16e2b0d90d8f4413e3b9bf4966e00b6ca1b3f14cffa5f6e79f26d1c8c693"
+    },
+    {
+      "path": "states/194_2018-10-16.npz",
+      "size": 5076922,
+      "sha256": "41025726acc11502af5d6223bdfe3af0142eaeaf03f0c22f58ea2edd2076ae32"
+    },
+    {
+      "path": "states/195_2018-10-17.npz",
+      "size": 5077794,
+      "sha256": "8c33521852df15acd4db761fd871a1e1697e663599b90aad7bf21b60c07ce422"
+    },
+    {
+      "path": "states/196_2018-10-18.npz",
+      "size": 5072982,
+      "sha256": "47cfb0d478706546dec0695c8a636570225cdcf140403433367444da710aea6e"
+    },
+    {
+      "path": "states/197_2018-10-19.npz",
+      "size": 5077843,
+      "sha256": "3b7e12bc835c1b9299e431c81681cfcfd03b554575dcc9be00c09c9ed787ebea"
+    },
+    {
+      "path": "states/198_2018-10-22.npz",
+      "size": 5071639,
+      "sha256": "a732f38d3535b9a1b45dbbe67293f86f2c6e618c2e1cba916c28a30affcf5b1a"
+    },
+    {
+      "path": "states/199_2018-10-23.npz",
+      "size": 5069560,
+      "sha256": "13ecb440c86fb9cbaa2dc9155205aa9dfa880391cc49a81e73167abde28d26fc"
+    },
+    {
+      "path": "states/200_2018-10-24.npz",
+      "size": 5071076,
+      "sha256": "d8a32b7fa958b9cac45ed1b5a9b3c520b86e53191c316f5131aa23d5643c450a"
+    },
+    {
+      "path": "states/201_2018-10-25.npz",
+      "size": 5072637,
+      "sha256": "256693246ae970d6f84f0ff2ac7679ef6c930aa93da4e6f2466639071785d3f3"
+    },
+    {
+      "path": "states/202_2018-10-26.npz",
+      "size": 5066805,
+      "sha256": "907ef191946d199b374ebc9bb35a8a85df0987da286995ce7f6d2e41a96972de"
+    },
+    {
+      "path": "states/203_2018-10-29.npz",
+      "size": 5052186,
+      "sha256": "e33685b05970fdecac98f3e524ee5cfc076af59f84c58c2f52ce2c82c3494924"
+    },
+    {
+      "path": "states/204_2018-10-30.npz",
+      "size": 5066363,
+      "sha256": "0560a8d583fedf4d59342c7e574baa18c1a33864a0d349d40bdd24c1356645c4"
+    },
+    {
+      "path": "states/205_2018-10-31.npz",
+      "size": 5071213,
+      "sha256": "6d36f5c656e5e51cc3bc104a911a0a2f4209d964d17a1db06cdc59bf2dd11bb6"
+    },
+    {
+      "path": "states/206_2018-11-01.npz",
+      "size": 5076270,
+      "sha256": "3e577a04f5698fb7b0c0e6446c79981e702acd6196c10b3cb8d83a1a771799cc"
+    },
+    {
+      "path": "states/207_2018-11-02.npz",
+      "size": 5075863,
+      "sha256": "7074c80c40655e253d68b97430a136dc85b073ee8e3ff35ad547a9d6eef58e33"
+    },
+    {
+      "path": "states/208_2018-11-05.npz",
+      "size": 5076756,
+      "sha256": "d842e663a0b6ed88a2c39ba77e9e546672927eaa83fe8c31773abb9dc58426e6"
+    },
+    {
+      "path": "states/209_2018-11-06.npz",
+      "size": 5075496,
+      "sha256": "8f9a16356d32b7a7e52ff454fe80318a71113164e61558e2f18c111463fa41e6"
+    },
+    {
+      "path": "states/210_2018-11-07.npz",
+      "size": 5071470,
+      "sha256": "05b688f57fc7eb30034695dbc40a093a117658ec0dd86e0982a6044c68bbca8e"
+    },
+    {
+      "path": "states/211_2018-11-08.npz",
+      "size": 5069838,
+      "sha256": "0f7eda590ba2f4789046575968e28155c17d39bacc27a4d0a861e04602a7e5b2"
+    },
+    {
+      "path": "states/212_2018-11-09.npz",
+      "size": 5072744,
+      "sha256": "3925a52459abc3ecbb85aafcb2d104a369b028b7939412c6cd650bf601481c69"
+    },
+    {
+      "path": "states/213_2018-11-12.npz",
+      "size": 5069941,
+      "sha256": "f1df765a402eb239526cf76d2b0ff57eb84f2774f8e609839b1d429973b550db"
+    },
+    {
+      "path": "states/214_2018-11-13.npz",
+      "size": 5072767,
+      "sha256": "8fee459115b8c0f9d87dfafe37ecac80d396e54052faabd9681db1d49127dfdf"
+    },
+    {
+      "path": "states/215_2018-11-14.npz",
+      "size": 5072348,
+      "sha256": "e5e4df66bc6b458208599441f99a61876da670d75a48f8138edac12d02914f80"
+    },
+    {
+      "path": "states/216_2018-11-15.npz",
+      "size": 5068816,
+      "sha256": "95148aa2eab7799831f30025b6b43c1e5f73bfd61b1c78900e792c2bf34e2b7f"
+    },
+    {
+      "path": "states/217_2018-11-16.npz",
+      "size": 5071238,
+      "sha256": "d222da8ff8a4f926b174ad9d2d2a4fba2e2083536a1ffd2919ea1026d9286112"
+    },
+    {
+      "path": "states/218_2018-11-19.npz",
+      "size": 5070845,
+      "sha256": "65a226f2662de1a4177254f0b428e863017ce6bb3a7e887f64bb85e507ee46f4"
+    },
+    {
+      "path": "states/219_2018-11-20.npz",
+      "size": 5072829,
+      "sha256": "4b990b74359eb85451367aea493855781a1edf29965ab70645a1342ed50b51bf"
+    },
+    {
+      "path": "states/220_2018-11-21.npz",
+      "size": 5068829,
+      "sha256": "7d3ddd4aed8b8dab10582e8fb0236e18e005894c06f781f41f513a6a1ab9795e"
+    },
+    {
+      "path": "states/221_2018-11-22.npz",
+      "size": 5068430,
+      "sha256": "5af0b7f61db934349f6878218a26c3f3303cb37b69937317b8b7e59f1bfd74df"
+    },
+    {
+      "path": "states/222_2018-11-26.npz",
+      "size": 5067948,
+      "sha256": "d4cc94b7ea4725bc3951ea42bc37bd776d45139346ac0bd4b457ac33a1cb7b20"
+    },
+    {
+      "path": "states/223_2018-11-27.npz",
+      "size": 5070190,
+      "sha256": "2ec402c4a105c51444649063da889fd546b3fda7644d6ed9daf537825802361e"
+    },
+    {
+      "path": "states/224_2018-11-28.npz",
+      "size": 5069699,
+      "sha256": "93d238944493542513cf557d2db3f5fc886647f0f2106a8cc758ad56e0b611ad"
+    },
+    {
+      "path": "states/225_2018-11-29.npz",
+      "size": 5070362,
+      "sha256": "2d41139d3c813acc0a8c6ee151c393ae7874eece9f0fc171b7cd3656c9644aa8"
+    },
+    {
+      "path": "states/226_2018-11-30.npz",
+      "size": 5071415,
+      "sha256": "913138186bfa095acc416d799e1033accb9977a95c38a87e368215445d13e3df"
+    },
+    {
+      "path": "states/227_2018-12-03.npz",
+      "size": 5068709,
+      "sha256": "7246ae0564bbd24831cc25aae1cf38f7057c4193fc4f93191e1468b88da122c0"
+    },
+    {
+      "path": "states/228_2018-12-04.npz",
+      "size": 5072488,
+      "sha256": "312f288cd17ddc0aa6689f3a55fc6568c2947454b17df75afc984fe524d5790a"
+    },
+    {
+      "path": "states/229_2018-12-05.npz",
+      "size": 5074322,
+      "sha256": "afc3bd66f973e991960b2a87373aeb0082d94f73bedcc1f127bb11c4e793bee3"
+    },
+    {
+      "path": "states/230_2018-12-06.npz",
+      "size": 5068568,
+      "sha256": "7c610c63101724ff79ac1eeabc52deb8e0868c268ed77f2504ea1021309b0ef6"
+    },
+    {
+      "path": "states/231_2018-12-07.npz",
+      "size": 5071545,
+      "sha256": "a41f779f7649e1ad928772a3466e686cdf9e6d7282c15582a3c195fd01bf82b8"
+    },
+    {
+      "path": "states/232_2018-12-10.npz",
+      "size": 5073667,
+      "sha256": "0abbe2a62422bb6ad023871f3c084513f0b227c3692e38af99819d1b33ffb472"
+    },
+    {
+      "path": "states/233_2018-12-11.npz",
+      "size": 5072797,
+      "sha256": "7d7165fbde635ffab596169599f799ffe0374eb756ff023574b04070e9645b0c"
+    },
+    {
+      "path": "states/234_2018-12-12.npz",
+      "size": 5076150,
+      "sha256": "a9f0960e68141ccdc45f79998cefe94c8ae12d1ddd032d6f19e9a7a504b12e9a"
+    },
+    {
+      "path": "states/235_2018-12-13.npz",
+      "size": 5079373,
+      "sha256": "8d565f44426640959ffded5b6415ec0f0984215109da5a948f490129d1bbc876"
+    },
+    {
+      "path": "states/236_2018-12-14.npz",
+      "size": 5070055,
+      "sha256": "f3448d796b3b1182d39d4382c6c7568204b90d6008d5ebf4e300ae0ea681a8ed"
+    },
+    {
+      "path": "states/237_2018-12-17.npz",
+      "size": 5068459,
+      "sha256": "81768ea7cb54e32758a5e2b0ba50966915caa019aa40ae6e490b9a5e9090eb60"
+    },
+    {
+      "path": "states/238_2018-12-18.npz",
+      "size": 5069905,
+      "sha256": "4132377c4f32784ff671f89a0c4644d1938dcf32e371ea7929972f0b1cf1325a"
+    },
+    {
+      "path": "states/239_2018-12-19.npz",
+      "size": 5072130,
+      "sha256": "3fea6af85ae5245b3b649660885a36674e00b589403b2f5e0899de9db606189e"
+    },
+    {
+      "path": "states/240_2018-12-20.npz",
+      "size": 5076301,
+      "sha256": "fe5c6a2e32f881b155009b3fd4883015c2c752390c95997fe465e21f63e598d3"
+    },
+    {
+      "path": "states/241_2018-12-21.npz",
+      "size": 5073442,
+      "sha256": "9a4729153f40ccec1f603756613062124c03787f470b88847f8259b0bc0f965a"
+    },
+    {
+      "path": "states/242_2018-12-25.npz",
+      "size": 5077836,
+      "sha256": "dfb277e7889ed88583afc5992e1841041210ef4451cd924778f6f1535b0a4eab"
+    },
+    {
+      "path": "states/243_2018-12-26.npz",
+      "size": 5074462,
+      "sha256": "b7d705bb2372a4286ecde07d9d8a3a0f840b6cc00158740018eff1983d66349c"
+    },
+    {
+      "path": "states/244_2018-12-27.npz",
+      "size": 5066112,
+      "sha256": "700f5404c67ed833f16aea0d2b1be73fd57d7a39ea8fe3c76761b1323e4be37f"
+    }
+  ],
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0"
+  }
+}

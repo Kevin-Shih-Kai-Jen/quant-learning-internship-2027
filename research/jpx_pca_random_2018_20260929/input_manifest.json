@@ -1,0 +1,25 @@
+{
+  "task_input_directory": "/workspace/scratch/c2c7725b1e28/pca_random_2018_input",
+  "source_ref": "f8a002b7457cd34818597f5e2662c602ebaf69bc",
+  "fixed_plan_commit": "39699ca0cd7c26ead166510ee3d4dba936ec8234",
+  "files": [
+    {
+      "path": "research/jpx_v7_daily_mse_20260912/v7_equal/ranks_2018.csv.gz",
+      "size": 7259983,
+      "sha256": "2a33754c695cc16579a959dc9e5d735a3fff323949a04cff82808e172b15679f",
+      "pack": "snapshot-2026-09-24-data-071-jpx_v7_daily_mse_20260912.tar",
+      "pack_sha256": "3f4c34e9b0bd017e083103285ba0906835084f8d4a21685c65ef92cd18030e0d",
+      "tag": "snapshot-2026-09-24",
+      "verified": true
+    },
+    {
+      "path": "research/project_archive_20260924/external_sources/JPX_data.zip",
+      "size": 222933782,
+      "sha256": "aaf930192e68d16924e662ef8190d913b06ac1e9e71c23fb8ce9ee3f418ddb0a",
+      "pack": "snapshot-2026-09-24-data-076-project_archive_20260924.tar",
+      "pack_sha256": "464662e1d902c994995b878fc1578c7cb5ae5e8193f876d0136d4ccfe338c45a",
+      "tag": "snapshot-2026-09-24",
+      "verified": true
+    }
+  ]
+}

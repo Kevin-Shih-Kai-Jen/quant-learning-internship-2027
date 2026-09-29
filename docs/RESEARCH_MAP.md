@@ -58,3 +58,5 @@
 
 2026-09-28 新增：[PCA 市場與持倉風險診斷](../research/jpx_pca_risk_20260928/JPX_PCA_report.md)，以及 [PCA 分數消融 A/B](../research/jpx_pca_score_ab_20260928/JPX_PCA_AB_report.md)。A/B 沿用相同 JPX 排名配重；953 日官方未年化 Sharpe：A +0.00767887、每期 PC6 消融 +0.00459482、每期最大估計風險方向消融 +0.02620535。兩個差異的探索區間皆含 0，正式基準維持 v7；原報告同一 PC6 另有單日核對，不能當成長期證據。大型逐筆資料 Release 尚待發布，詳見該實驗 sync_status.json；不能因報告已在 Git 就視為全部封存完成。
 
+
+2026-09-29 新增：[2018 隨機 PC 對照](../research/jpx_pca_random_2018_20260929/REPORT.md)。原 245 日時序、普通與等幅隨機方向各 1,000 條路徑；B_MAX Sharpe 0.075797，高於兩組所有路徑（各組最高 0.009089／0.025079）。等幅對照平均每日相對 A 換入 51.10 檔，B_MAX 51.42 檔；全年累積 spread 差的 69.5% 集中在 2018 年 4 月。這是已知 validation 的機制證據，不是新 holdout 或正式 p 值；test 未使用、正式基準未更換。程式、小型結果及逐路徑年度摘要保存於 Git；247 個大型逐筆檔共 1,254,437,351 bytes 尚待版本化 Release，詳見該實驗 sync_status.json。

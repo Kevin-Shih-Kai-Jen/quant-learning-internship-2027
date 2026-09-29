@@ -1,0 +1,80 @@
+{
+  "scope": "Known 2018 validation; fixed-market random direction controls, no fresh holdout",
+  "original_days": 245,
+  "common_days": 245,
+  "excluded_dates": [],
+  "seed": 20260929,
+  "paths_per_control": 1000,
+  "baseline": {
+    "A": {
+      "days": 245,
+      "mean_spread": -0.012329847771201115,
+      "sd_spread": 1.0708786850812297,
+      "Sharpe": -0.011513767098899588,
+      "RankIC": -0.0013176849962878942
+    },
+    "B_MAX": {
+      "days": 245,
+      "mean_spread": 0.06412387871917256,
+      "sd_spread": 0.8459940022065755,
+      "Sharpe": 0.07579708431965307,
+      "RankIC": 0.004921791242827554
+    }
+  },
+  "controls": {
+    "B_RANDOM": {
+      "paths": 1000,
+      "Sharpe_quantiles": {
+        "0": -0.026428256866386505,
+        "0.025": -0.021327865010363916,
+        "0.25": -0.014665354566164957,
+        "0.5": -0.011722205389494523,
+        "0.75": -0.008455087007446778,
+        "0.975": -0.0015352818681222756,
+        "1": 0.009088824793464708
+      },
+      "B_MAX_greater_count": 1000,
+      "B_MAX_equal_count": 0,
+      "greater_than_A_count": 477,
+      "mean_path_mean_spread": -0.012430700466001844,
+      "mean_path_sd_spread": 1.0718605627063975,
+      "mean_path_RankIC": -0.0012926443134606406,
+      "mean_weight_L1_from_A": 0.0539047751683588,
+      "mean_replaced_total": 10.310322448979592,
+      "mean_removed_score_L2": 0.005395894081136115
+    },
+    "B_RANDOM_NORM": {
+      "paths": 1000,
+      "Sharpe_quantiles": {
+        "0": -0.049431709418575165,
+        "0.025": -0.0340079562233332,
+        "0.25": -0.01913081363425074,
+        "0.5": -0.011541832818930165,
+        "0.75": -0.0032441959663697248,
+        "0.975": 0.010725576955589044,
+        "1": 0.02507921201851073
+      },
+      "B_MAX_greater_count": 1000,
+      "B_MAX_equal_count": 0,
+      "greater_than_A_count": 497,
+      "mean_path_mean_spread": -0.012192533465423367,
+      "mean_path_sd_spread": 1.0660122192536277,
+      "mean_path_RankIC": -0.0010224319432082527,
+      "mean_weight_L1_from_A": 0.2667063824565002,
+      "mean_replaced_total": 51.10139183673469,
+      "mean_removed_score_L2": 0.028129898742560194
+    }
+  },
+  "B_MAX_diagnostics": {
+    "B_MAX_weight_L1_from_A": 0.2667219088640482,
+    "B_MAX_replaced_total": 51.42040816326531,
+    "B_MAX_removed_score_L2": 0.028129898742560194
+  },
+  "max_daily_reference_error": 4.773959005888173e-15,
+  "independent_metric_checks": 22,
+  "missing_candidate_days": 0,
+  "test_used": false,
+  "costs_included": false,
+  "intervals_are_confidence_intervals": false,
+  "formal_p_value_computed": false
+}
