@@ -1,0 +1,87 @@
+{
+  "status": "small_Git_artifacts_verified",
+  "results_commit": "f14b6a1701b9e0a6092aa59c67a10a806bc4900b",
+  "fixed_plan_commit": "39699ca0cd7c26ead166510ee3d4dba936ec8234",
+  "verified_small_files": [
+    {
+      "path": "research/jpx_pca_random_2018_20260929/REPORT.md",
+      "size": 8128,
+      "git_blob_sha": "dffae07b2f8ce13adc57f1883344a12f07693c2e"
+    },
+    {
+      "path": "research/jpx_pca_random_2018_20260929/input_manifest.json",
+      "size": 1079,
+      "git_blob_sha": "3bea3f3a5cae1b417a729d07c862f626065d5d6c"
+    },
+    {
+      "path": "research/jpx_pca_random_2018_20260929/results/B_RANDOM_NORM_paths.csv",
+      "size": 168666,
+      "git_blob_sha": "83b4f892f7d88d4695212b8ed03b04771f53a218"
+    },
+    {
+      "path": "research/jpx_pca_random_2018_20260929/results/B_RANDOM_paths.csv",
+      "size": 170568,
+      "git_blob_sha": "8df122529db1e8b49673cb8ef5737d47c70bb17f"
+    },
+    {
+      "path": "research/jpx_pca_random_2018_20260929/results/cumulative_spread_difference.png",
+      "size": 143353,
+      "git_blob_sha": "31a98851b7847ba86ccb8f68a8575bfeff337f51"
+    },
+    {
+      "path": "research/jpx_pca_random_2018_20260929/results/daily_baselines.csv",
+      "size": 34443,
+      "git_blob_sha": "19341125e3ae59e52a5362386ac97cfa7b8748a1"
+    },
+    {
+      "path": "research/jpx_pca_random_2018_20260929/results/evaluation_audit.json",
+      "size": 322,
+      "git_blob_sha": "c8dd0c38ae293db4b57cb64695e6863183cd5e2b"
+    },
+    {
+      "path": "research/jpx_pca_random_2018_20260929/results/generation_audit.json",
+      "size": 40859,
+      "git_blob_sha": "756d9810d7872aafec8ea5289287ffa9ff20edd6"
+    },
+    {
+      "path": "research/jpx_pca_random_2018_20260929/results/monthly_spread_difference.csv",
+      "size": 946,
+      "git_blob_sha": "b970de64eecb2b6201e3bc59194863210115f37a"
+    },
+    {
+      "path": "research/jpx_pca_random_2018_20260929/results/results.json",
+      "size": 2589,
+      "git_blob_sha": "390c55e47ee1157d72d0dafe4694a79fdaa4655e"
+    },
+    {
+      "path": "research/jpx_pca_random_2018_20260929/results/sharpe_distribution.png",
+      "size": 59119,
+      "git_blob_sha": "053044cec60bc87e6b2007f1bc8f9f5cd047e8fc"
+    },
+    {
+      "path": "research/jpx_pca_random_2018_20260929/results/windows.csv",
+      "size": 34552,
+      "git_blob_sha": "e22eca543bc214362ace9cecc8afc4cf4c62c8e0"
+    },
+    {
+      "path": "research/jpx_pca_random_2018_20260929/run_experiment.py",
+      "size": 18149,
+      "git_blob_sha": "eb7ee3bb8e03268bef3e328ec5a5cd5881120889"
+    },
+    {
+      "path": "research/jpx_pca_random_2018_20260929/sync_status.json",
+      "size": 42678,
+      "git_blob_sha": "e4d3f050539c46804d84e169e14bc3b5aaaca9d0"
+    },
+    {
+      "path": "research/jpx_pca_random_2018_20260929/verification.json",
+      "size": 656,
+      "git_blob_sha": "1571502adf04d03daec5286026d0d64bfca90143"
+    }
+  ],
+  "research_map_verified": true,
+  "large_release_published": false,
+  "large_file_count": 247,
+  "large_bytes": 1254437351,
+  "cleanup_performed": false
+}
