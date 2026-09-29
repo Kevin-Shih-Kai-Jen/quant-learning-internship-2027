@@ -1,0 +1,181 @@
+{
+  "days": 20,
+  "mean": 0.3221823809556848,
+  "quantiles": {
+    "0": 0.08050902936765986,
+    "0.25": 0.23251267372286558,
+    "0.5": 0.3018621014402412,
+    "0.75": 0.383054267447538,
+    "1": 0.7355984205351359
+  },
+  "above_30pct_days": 10,
+  "equal_30pct_days": 0,
+  "minimum_date": "2018-04-17",
+  "maximum_date": "2018-04-16",
+  "max_PC_counts": {
+    "1": 2,
+    "2": 6,
+    "3": 12
+  },
+  "mean_covered_gross": 0.9615611390284757,
+  "minimum_covered_gross": 0.9324874371859297,
+  "histogram_10pct_bins": [
+    {
+      "lower_pct": 0,
+      "upper_pct": 10,
+      "days": 1
+    },
+    {
+      "lower_pct": 10,
+      "upper_pct": 20,
+      "days": 3
+    },
+    {
+      "lower_pct": 20,
+      "upper_pct": 30,
+      "days": 6
+    },
+    {
+      "lower_pct": 30,
+      "upper_pct": 40,
+      "days": 7
+    },
+    {
+      "lower_pct": 40,
+      "upper_pct": 50,
+      "days": 0
+    },
+    {
+      "lower_pct": 50,
+      "upper_pct": 60,
+      "days": 2
+    },
+    {
+      "lower_pct": 60,
+      "upper_pct": 70,
+      "days": 0
+    },
+    {
+      "lower_pct": 70,
+      "upper_pct": 80,
+      "days": 1
+    },
+    {
+      "lower_pct": 80,
+      "upper_pct": 90,
+      "days": 0
+    },
+    {
+      "lower_pct": 90,
+      "upper_pct": 100,
+      "days": 0
+    }
+  ],
+  "baseline": "A / v7_equal",
+  "denominator": "Estimated variance of the PCA-covered part of A, sum_k lambda_k*(w_A_covered^T v_k)^2",
+  "source_state_hashes_verified": [
+    {
+      "path": "states/060_2018-04-02.npz",
+      "size": 5045813,
+      "sha256": "3164662bfe24c57fc5f1b5d82d7af14e3c5f3e698f0018d70224978094552959"
+    },
+    {
+      "path": "states/061_2018-04-03.npz",
+      "size": 5051818,
+      "sha256": "1f00634c59626ab53ffd0dd853a936c93f5490894fe14eac0789024f3d642b1a"
+    },
+    {
+      "path": "states/062_2018-04-04.npz",
+      "size": 5047232,
+      "sha256": "c1537b298956f5729f9b1f99fb5e57114ed906dcfd53834c667fe62ee852aa10"
+    },
+    {
+      "path": "states/063_2018-04-05.npz",
+      "size": 5047532,
+      "sha256": "9743c3f459ed8d2a07205a77464a6ff13d9b5df7bc6aa9581b659fa05099ba4c"
+    },
+    {
+      "path": "states/064_2018-04-06.npz",
+      "size": 5055318,
+      "sha256": "9cea6e9d545f2af04771d374be79837281f9b9d0a6ad7110281f95d8e5f0beef"
+    },
+    {
+      "path": "states/065_2018-04-09.npz",
+      "size": 5058717,
+      "sha256": "da14f1a02573e5ffb0b852e1ca08d6e1a7712906528b661ff0023e428862353b"
+    },
+    {
+      "path": "states/066_2018-04-10.npz",
+      "size": 5066001,
+      "sha256": "17de651fcd47df5ece38b183fcaeceee5ec03dc4748f175ec5741aa1fe19189f"
+    },
+    {
+      "path": "states/067_2018-04-11.npz",
+      "size": 5065943,
+      "sha256": "df71eb4280376041cac8442f07f04c620d5096fa1bf753e2729f3fa40d02349e"
+    },
+    {
+      "path": "states/068_2018-04-12.npz",
+      "size": 5058528,
+      "sha256": "4a3072b25ac7d7149529918a0d92deb4ebcd824a494e5d3fd02c14bb7b806f78"
+    },
+    {
+      "path": "states/069_2018-04-13.npz",
+      "size": 5053539,
+      "sha256": "f4a55b5e5d632961a88f4a8fac08feb683fa28e8cdf2539e1a3f8a5635d567ed"
+    },
+    {
+      "path": "states/070_2018-04-16.npz",
+      "size": 5050337,
+      "sha256": "1aa29918ebd5df9017c5c85d0ec2ec5b5c8109dd2c8862d209c638ef56229ccf"
+    },
+    {
+      "path": "states/071_2018-04-17.npz",
+      "size": 5053481,
+      "sha256": "2d7a7e7a760323fe25928591b2cf5a724081250281ca78accf776a7d8cf9613c"
+    },
+    {
+      "path": "states/072_2018-04-18.npz",
+      "size": 5044717,
+      "sha256": "db66dffa73223559f1b51ee2e07303a114bcf9f2a8ac431647e0d877a31b4950"
+    },
+    {
+      "path": "states/073_2018-04-19.npz",
+      "size": 5048409,
+      "sha256": "a2ddb94892ed07e31957f8f7aaebae3aa70dba930d7e89e6b363172770923908"
+    },
+    {
+      "path": "states/074_2018-04-20.npz",
+      "size": 5052308,
+      "sha256": "03ccf735c6e79708e469c925b1daef639e44a706ae3f971fa78d119f5e4c5aff"
+    },
+    {
+      "path": "states/075_2018-04-23.npz",
+      "size": 5064497,
+      "sha256": "69f7a45aec2f733f07259efc1a596f7199adf092c2772c5366378897370c3e2a"
+    },
+    {
+      "path": "states/076_2018-04-24.npz",
+      "size": 5040975,
+      "sha256": "6ca86baa5031db5976cd07dd25966d20d5eddca422400e5a774357b63ad1044c"
+    },
+    {
+      "path": "states/077_2018-04-25.npz",
+      "size": 5058429,
+      "sha256": "82e9b61e319d8a30656715eb30b1e1e207c9807d99ac9a29f1a47aa0fa42d278"
+    },
+    {
+      "path": "states/078_2018-04-26.npz",
+      "size": 5057233,
+      "sha256": "d7cfeeef94cfe3e693904380158627542e0059965d5ac112957e4288d527a67d"
+    },
+    {
+      "path": "states/079_2018-04-27.npz",
+      "size": 5057963,
+      "sha256": "fd64521afc0dbc8045ff4c3ca3122d7ff9b6e11d238e42d11b3b1754f5a0d441"
+    }
+  ],
+  "Target_used": false,
+  "test_used": false,
+  "scope": "Daily as-of estimates, April 2018 only; no new backtest, no regime gate applied"
+}
