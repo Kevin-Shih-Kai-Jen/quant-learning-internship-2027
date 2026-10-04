@@ -1,0 +1,7 @@
+{
+  "verified_commit": "1f73dc4cd345d6234e315ac1aa162658a4008e2e",
+  "remote_ref": "origin/main freshly fetched",
+  "verified_files": 144,
+  "verification": "Every planned readable file: git object bytes, size and SHA-256 match staged inventory",
+  "all_match": true
+}

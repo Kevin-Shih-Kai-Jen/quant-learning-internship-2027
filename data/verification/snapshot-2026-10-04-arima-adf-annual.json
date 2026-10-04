@@ -1,0 +1,753 @@
+{
+  "verified_at": "2026-10-04T20:33:11+0800",
+  "status": "remote-assets-verified",
+  "repository_private": false,
+  "all_asset_digests_match": true,
+  "assets": [
+    {
+      "name": "snapshot-2026-09-24-data-001-.chart-data-3nItKd.tar",
+      "release_tag": "snapshot-2026-09-24",
+      "size": 5877760,
+      "sha256": "69c296d493f0e0904ea6f67c86b30d563e2a2632649783aa92f57456a770c428",
+      "github_digest": "sha256:69c296d493f0e0904ea6f67c86b30d563e2a2632649783aa92f57456a770c428",
+      "asset_id": 585384588
+    },
+    {
+      "name": "snapshot-2026-09-24-data-002-.chart-data-85FQ0i.tar",
+      "release_tag": "snapshot-2026-09-24",
+      "size": 5877760,
+      "sha256": "cee34f3858f0416834c718de2683560c8b6a7c6501db91779ac9d001ee77c85a",
+      "github_digest": "sha256:cee34f3858f0416834c718de2683560c8b6a7c6501db91779ac9d001ee77c85a",
+      "asset_id": 585385077
+    },
+    {
+      "name": "snapshot-2026-09-24-data-003-.chart-data-8fpw1a.tar",
+      "release_tag": "snapshot-2026-09-24",
+      "size": 6205440,
+      "sha256": "b657cc50ef6338efe617995b8a1955dd0fdb83607a8c73f17d7101659b20bc3a",
+      "github_digest": "sha256:b657cc50ef6338efe617995b8a1955dd0fdb83607a8c73f17d7101659b20bc3a",
+      "asset_id": 585385361
+    },
+    {
+      "name": "snapshot-2026-09-24-data-004-.chart-data-A7NyGy.tar",
+      "release_tag": "snapshot-2026-09-24",
+      "size": 6205440,
+      "sha256": "83d856cbed4aed4dbce4fe5bf9af2b6cdf3b5fa1d8c35cb0ec00c99738fae175",
+      "github_digest": "sha256:83d856cbed4aed4dbce4fe5bf9af2b6cdf3b5fa1d8c35cb0ec00c99738fae175",
+      "asset_id": 585385519
+    },
+    {
+      "name": "snapshot-2026-09-24-data-005-.chart-data-aIjGXv.tar",
+      "release_tag": "snapshot-2026-09-24",
+      "size": 6205440,
+      "sha256": "9762d4f4a8518d3e13e1c5107ddd186630243a3ea389705c50bf0e1ba13cb6f1",
+      "github_digest": "sha256:9762d4f4a8518d3e13e1c5107ddd186630243a3ea389705c50bf0e1ba13cb6f1",
+      "asset_id": 585385724
+    },
+    {
+      "name": "snapshot-2026-09-24-data-006-.chart-data-bb22bt.tar",
+      "release_tag": "snapshot-2026-09-24",
+      "size": 5877760,
+      "sha256": "10a9adbc8f0823ffa84e82b9c3c3255ffef4d4b08a23e77fb86d03a7b24f6926",
+      "github_digest": "sha256:10a9adbc8f0823ffa84e82b9c3c3255ffef4d4b08a23e77fb86d03a7b24f6926",
+      "asset_id": 585386064
+    },
+    {
+      "name": "snapshot-2026-09-24-data-007-compressed-jpx_costs_top5_20260911.tar",
+      "release_tag": "snapshot-2026-09-24",
+      "size": 49029120,
+      "sha256": "80e1b79d89de0fd2cc40e5adcf2e28b055e8b09fd39affd83faa85b308077b81",
+      "github_digest": "sha256:80e1b79d89de0fd2cc40e5adcf2e28b055e8b09fd39affd83faa85b308077b81",
+      "asset_id": 585386328
+    },
+    {
+      "name": "snapshot-2026-09-24-data-008-compressed-jpx_expanding_threshold_20260910.tar",
+      "release_tag": "snapshot-2026-09-24",
+      "size": 2426880,
+      "sha256": "a3861c239970bc6e640984f3ce39dea9a68fe3bfcf63ac6a7a0bc3b6a6657f9b",
+      "github_digest": "sha256:a3861c239970bc6e640984f3ce39dea9a68fe3bfcf63ac6a7a0bc3b6a6657f9b",
+      "asset_id": 585387441
+    },
+    {
+      "name": "snapshot-2026-09-24-data-009-compressed-jpx_neutral_10pct_20260910.tar",
+      "release_tag": "snapshot-2026-09-24",
+      "size": 2283520,
+      "sha256": "a0e3c23b1b3e4cc529bb6f649870a4fa7f0ad5a123e708f8b864a9416e4c8cbe",
+      "github_digest": "sha256:a0e3c23b1b3e4cc529bb6f649870a4fa7f0ad5a123e708f8b864a9416e4c8cbe",
+      "asset_id": 585387618
+    },
+    {
+      "name": "snapshot-2026-09-24-data-010-compressed-jpx_return_mean_20260911.tar",
+      "release_tag": "snapshot-2026-09-24",
+      "size": 439623680,
+      "sha256": "2204cfae6b847b6ba5bd9cd77cd6b5b4b1493399f7291796aec1d00f59aa984b",
+      "github_digest": "sha256:2204cfae6b847b6ba5bd9cd77cd6b5b4b1493399f7291796aec1d00f59aa984b",
+      "asset_id": 585387789
+    },
+    {
+      "name": "snapshot-2026-09-24-data-011-compressed-jpx_return_t_20260911.tar",
+      "release_tag": "snapshot-2026-09-24",
+      "size": 576327680,
+      "sha256": "48d45e99d0575b74dd84d9622896a693d46e5fb2a1c83c5df8df22f40007e219",
+      "github_digest": "sha256:48d45e99d0575b74dd84d9622896a693d46e5fb2a1c83c5df8df22f40007e219",
+      "asset_id": 585395334
+    },
+    {
+      "name": "snapshot-2026-09-24-data-012-compressed-jpx_return_t_top10_20260911.tar",
+      "release_tag": "snapshot-2026-09-24",
+      "size": 3962880,
+      "sha256": "f84989177a16e25b3ad9d18efdd9d995a668d36bba0a36e2b3670660043fdca5",
+      "github_digest": "sha256:f84989177a16e25b3ad9d18efdd9d995a668d36bba0a36e2b3670660043fdca5",
+      "asset_id": 585408580
+    },
+    {
+      "name": "snapshot-2026-09-24-data-013-compressed-jpx_ridge_comparison_20260911.tar",
+      "release_tag": "snapshot-2026-09-24",
+      "size": 9840640,
+      "sha256": "5dd13dc095bb965ee8d67bac22bdb2b39e8a4e2f0d6113d6796cec89cd14da16",
+      "github_digest": "sha256:5dd13dc095bb965ee8d67bac22bdb2b39e8a4e2f0d6113d6796cec89cd14da16",
+      "asset_id": 585408857
+    },
+    {
+      "name": "snapshot-2026-09-24-data-014-compressed-jpx_ridge_top10_20260911.tar",
+      "release_tag": "snapshot-2026-09-24",
+      "size": 3901440,
+      "sha256": "e16846c79a425b14398339c142873d947f79d796a0b420b8721307eb7fa74a94",
+      "github_digest": "sha256:e16846c79a425b14398339c142873d947f79d796a0b420b8721307eb7fa74a94",
+      "asset_id": 585409311
+    },
+    {
+      "name": "snapshot-2026-09-24-data-015-compressed-jpx_signed_band_20260910.tar",
+      "release_tag": "snapshot-2026-09-24",
+      "size": 3205120,
+      "sha256": "fce2f80cb6ebc0a49a1d1b4070f7c310bb7bdf3b27661b30ff51976a0fbdeed8",
+      "github_digest": "sha256:fce2f80cb6ebc0a49a1d1b4070f7c310bb7bdf3b27661b30ff51976a0fbdeed8",
+      "asset_id": 585409785
+    },
+    {
+      "name": "snapshot-2026-09-24-data-016-compressed-jpx_stock_expanding_20260911.tar",
+      "release_tag": "snapshot-2026-09-24",
+      "size": 829440,
+      "sha256": "af1db79863dbb39f0156372e4866c9463f6389135f06c8d99884a31ff11e7832",
+      "github_digest": "sha256:af1db79863dbb39f0156372e4866c9463f6389135f06c8d99884a31ff11e7832",
+      "asset_id": 585409941
+    },
+    {
+      "name": "snapshot-2026-09-24-data-017-compressed-jpx_stock_returns_20260910.tar",
+      "release_tag": "snapshot-2026-09-24",
+      "size": 457512960,
+      "sha256": "2ab1b1a22da1c39d9cf6ab7b3743bf974d89244109fa2bb46ac5738948ef2391",
+      "github_digest": "sha256:2ab1b1a22da1c39d9cf6ab7b3743bf974d89244109fa2bb46ac5738948ef2391",
+      "asset_id": 585410253
+    },
+    {
+      "name": "snapshot-2026-09-24-data-018-compressed-jpx_v11_persistent_finance_std22_20260913.tar",
+      "release_tag": "snapshot-2026-09-24",
+      "size": 71116800,
+      "sha256": "e14a03886e263a42c4caf31d26364136dd49aa3623656a7555540aec3f240b41",
+      "github_digest": "sha256:e14a03886e263a42c4caf31d26364136dd49aa3623656a7555540aec3f240b41",
+      "asset_id": 585442880
+    },
+    {
+      "name": "snapshot-2026-09-24-data-019-compressed-jpx_v12_financial_growth_20260913.tar",
+      "release_tag": "snapshot-2026-09-24",
+      "size": 29757440,
+      "sha256": "3a55171ffd42568d1b11bfc46f5a95169f12bcba972caae944f87b9346e9a47b",
+      "github_digest": "sha256:3a55171ffd42568d1b11bfc46f5a95169f12bcba972caae944f87b9346e9a47b",
+      "asset_id": 585447209
+    },
+    {
+      "name": "snapshot-2026-09-24-data-020-compressed-jpx_v13_quarterly_sgd_sqrt_20260914.tar",
+      "release_tag": "snapshot-2026-09-24",
+      "size": 215746560,
+      "sha256": "de74286f6dfa80ccaa2ac2f39ba7ace35fc7a1509e72372e9e9d6ac2185a753c",
+      "github_digest": "sha256:de74286f6dfa80ccaa2ac2f39ba7ace35fc7a1509e72372e9e9d6ac2185a753c",
+      "asset_id": 585449592
+    },
+    {
+      "name": "snapshot-2026-09-24-data-021-compressed-jpx_v14_filtered_forecast_events_20260914.tar",
+      "release_tag": "snapshot-2026-09-24",
+      "size": 218746880,
+      "sha256": "7a8a5281ce42e7502bf5fda5133f0f39a88a517dfc90cfbcdee97829039729fb",
+      "github_digest": "sha256:7a8a5281ce42e7502bf5fda5133f0f39a88a517dfc90cfbcdee97829039729fb",
+      "asset_id": 585446301
+    },
+    {
+      "name": "snapshot-2026-09-24-data-022-compressed-jpx_v15_soft_rank_filtered_20260914.tar",
+      "release_tag": "snapshot-2026-09-24",
+      "size": 1300480,
+      "sha256": "a3f65620cc6e054d2f710ac2d512ad314901bc8891b275265be9df18cac63242",
+      "github_digest": "sha256:a3f65620cc6e054d2f710ac2d512ad314901bc8891b275265be9df18cac63242",
+      "asset_id": 585461194
+    },
+    {
+      "name": "snapshot-2026-09-24-data-023-compressed-jpx_v16_single_financial_v7_20260915.tar",
+      "release_tag": "snapshot-2026-09-24",
+      "size": 1832960,
+      "sha256": "943c73e905a6204014d6f4dc515be62d555a43400b8f2ca42cd9f7c224932f20",
+      "github_digest": "sha256:943c73e905a6204014d6f4dc515be62d555a43400b8f2ca42cd9f7c224932f20",
+      "asset_id": 585461326
+    },
+    {
+      "name": "snapshot-2026-09-24-data-024-compressed-jpx_v17_actual_forecast_revisions_20260915.tar",
+      "release_tag": "snapshot-2026-09-24",
+      "size": 181555200,
+      "sha256": "e50c5a387c0a805106f1da5ff5ca07b2614339ae48364730271dcb60213fd117",
+      "github_digest": "sha256:e50c5a387c0a805106f1da5ff5ca07b2614339ae48364730271dcb60213fd117",
+      "asset_id": 585438312
+    },
+    {
+      "name": "snapshot-2026-09-24-data-025-compressed-jpx_v19_qoq_predict_yoy_20260915.tar",
+      "release_tag": "snapshot-2026-09-24",
+      "size": 8960000,
+      "sha256": "b30aa187485b4034f1709f92a0e95967703a5f280d79c8611324ca61e56d8d8d",
+      "github_digest": "sha256:b30aa187485b4034f1709f92a0e95967703a5f280d79c8611324ca61e56d8d8d",
+      "asset_id": 585461543
+    },
+    {
+      "name": "snapshot-2026-09-24-data-026-compressed-jpx_v23_g_thresholds_20260916.tar",
+      "release_tag": "snapshot-2026-09-24",
+      "size": 512000,
+      "sha256": "aede878bea259c834ce381bb3920f70e2de187d5c9afd30af5f966047574576d",
+      "github_digest": "sha256:aede878bea259c834ce381bb3920f70e2de187d5c9afd30af5f966047574576d",
+      "asset_id": 585463057
+    },
+    {
+      "name": "snapshot-2026-09-24-data-027-compressed-jpx_v24_g_train_validation_filters_20260916.tar",
+      "release_tag": "snapshot-2026-09-24",
+      "size": 512000,
+      "sha256": "9bb8a1bcd5daf1d30bdc3fcdc068822335a3a3a2a945afca159387b61f29991b",
+      "github_digest": "sha256:9bb8a1bcd5daf1d30bdc3fcdc068822335a3a3a2a945afca159387b61f29991b",
+      "asset_id": 585463443
+    },
+    {
+      "name": "snapshot-2026-09-24-data-028-compressed-jpx_v25_single_features_unfiltered_20260916.tar",
+      "release_tag": "snapshot-2026-09-24",
+      "size": 1310720,
+      "sha256": "088ec5ce67ab85e27b3eef0591feeb729f2691e0dc6e58f7c5f37507462cb9a6",
+      "github_digest": "sha256:088ec5ce67ab85e27b3eef0591feeb729f2691e0dc6e58f7c5f37507462cb9a6",
+      "asset_id": 585463718
+    },
+    {
+      "name": "snapshot-2026-09-24-data-029-compressed-jpx_v27_profit_forecast_state_20260916.tar",
+      "release_tag": "snapshot-2026-09-24",
+      "size": 27904000,
+      "sha256": "b345bd6cb68be320e03c2b67ce43c62d969320f7ceb7818a826f72d880a609fd",
+      "github_digest": "sha256:b345bd6cb68be320e03c2b67ce43c62d969320f7ceb7818a826f72d880a609fd",
+      "asset_id": 585464058
+    },
+    {
+      "name": "snapshot-2026-09-24-data-030-compressed-jpx_v29_learning_rate_sweep_20260916.tar",
+      "release_tag": "snapshot-2026-09-24",
+      "size": 983040,
+      "sha256": "4492ed6289154bdad3430129ec8410def46925a42a7b6394975f1d848712d71a",
+      "github_digest": "sha256:4492ed6289154bdad3430129ec8410def46925a42a7b6394975f1d848712d71a",
+      "asset_id": 585466430
+    },
+    {
+      "name": "snapshot-2026-09-24-data-031-compressed-jpx_v30_profit_actual_forecast_20260916.tar",
+      "release_tag": "snapshot-2026-09-24",
+      "size": 1105920,
+      "sha256": "90508bf924d3a64f39441835acbdb7dbe9d449dde59e3a8bfe686d936ee1d812",
+      "github_digest": "sha256:90508bf924d3a64f39441835acbdb7dbe9d449dde59e3a8bfe686d936ee1d812",
+      "asset_id": 585466574
+    },
+    {
+      "name": "snapshot-2026-09-24-data-032-compressed-jpx_v5_daily_returns_20260912.tar",
+      "release_tag": "snapshot-2026-09-24",
+      "size": 29184000,
+      "sha256": "f68d87295392cd57fb93a62f5d7ae4ee880afc10932004a8a39e71d0c018781f",
+      "github_digest": "sha256:f68d87295392cd57fb93a62f5d7ae4ee880afc10932004a8a39e71d0c018781f",
+      "asset_id": 585466681
+    },
+    {
+      "name": "snapshot-2026-09-24-data-033-compressed-jpx_v8_soft_rank_20260912.tar",
+      "release_tag": "snapshot-2026-09-24",
+      "size": 334735360,
+      "sha256": "6c624b406d014172931c02abb65ad2f476fa6005d0785559135bf565a7038c2c",
+      "github_digest": "sha256:6c624b406d014172931c02abb65ad2f476fa6005d0785559135bf565a7038c2c",
+      "asset_id": 585412386
+    },
+    {
+      "name": "snapshot-2026-09-24-data-034-compressed-jpx_v9_financial_decay_sgd_20260912.tar",
+      "release_tag": "snapshot-2026-09-24",
+      "size": 15247360,
+      "sha256": "0e73430121d6ca914a2f6127d8ea7e6d268f0ed83cdc2ce1ed1404790ddb29d8",
+      "github_digest": "sha256:0e73430121d6ca914a2f6127d8ea7e6d268f0ed83cdc2ce1ed1404790ddb29d8",
+      "asset_id": 585467581
+    },
+    {
+      "name": "snapshot-2026-09-24-data-035-hiwin-application-site.tar",
+      "release_tag": "snapshot-2026-09-24",
+      "size": 10240,
+      "sha256": "ea6e52a8400f594a9518d61f214ae91291266465cb208a0e95028698c01b8678",
+      "github_digest": "sha256:ea6e52a8400f594a9518d61f214ae91291266465cb208a0e95028698c01b8678",
+      "asset_id": 585468479
+    },
+    {
+      "name": "snapshot-2026-09-24-data-036-jpx_costs_top5_20260911.tar",
+      "release_tag": "snapshot-2026-09-24",
+      "size": 9216000,
+      "sha256": "c634aabededf8c4ff5bed89309a8597531bb0ee34008fdc4d18ec4fa7752bb9e",
+      "github_digest": "sha256:c634aabededf8c4ff5bed89309a8597531bb0ee34008fdc4d18ec4fa7752bb9e",
+      "asset_id": 585468636
+    },
+    {
+      "name": "snapshot-2026-09-24-data-037-jpx_expanding_threshold_20260910.tar",
+      "release_tag": "snapshot-2026-09-24",
+      "size": 6707200,
+      "sha256": "e80f8a0d1d7d49e83b6bfa5cfe41ac393c39e394728759dd0d882c3ad1fc570b",
+      "github_digest": "sha256:e80f8a0d1d7d49e83b6bfa5cfe41ac393c39e394728759dd0d882c3ad1fc570b",
+      "asset_id": 585469096
+    },
+    {
+      "name": "snapshot-2026-09-24-data-038-jpx_neutral_10pct_20260910.tar",
+      "release_tag": "snapshot-2026-09-24",
+      "size": 2447360,
+      "sha256": "7ce3ae63bce5bf9d1ec34d1fa57906959d15002203d7b1b75f93211807e15539",
+      "github_digest": "sha256:7ce3ae63bce5bf9d1ec34d1fa57906959d15002203d7b1b75f93211807e15539",
+      "asset_id": 585470275
+    },
+    {
+      "name": "snapshot-2026-09-24-data-039-jpx_official_ranking_20260912.tar",
+      "release_tag": "snapshot-2026-09-24",
+      "size": 67471360,
+      "sha256": "220c46dd0b60cdf76feb98524bf213fd7cc47ed58d480b1ad9d8340013d11ce2",
+      "github_digest": "sha256:220c46dd0b60cdf76feb98524bf213fd7cc47ed58d480b1ad9d8340013d11ce2",
+      "asset_id": 585470883
+    },
+    {
+      "name": "snapshot-2026-09-24-data-040-jpx_return_mean_20260911.tar",
+      "release_tag": "snapshot-2026-09-24",
+      "size": 1894400,
+      "sha256": "bab36cdb88ab3d7cbc9bdb2ddbe06e169c606aabfc5f84224341afae13696391",
+      "github_digest": "sha256:bab36cdb88ab3d7cbc9bdb2ddbe06e169c606aabfc5f84224341afae13696391",
+      "asset_id": 585475606
+    },
+    {
+      "name": "snapshot-2026-09-24-data-041-jpx_return_t_20260911.tar",
+      "release_tag": "snapshot-2026-09-24",
+      "size": 1884160,
+      "sha256": "ade58f58a0945d5b7d38912eba3d7a003886b6c58d8eaf47e0e0754f30da7f6d",
+      "github_digest": "sha256:ade58f58a0945d5b7d38912eba3d7a003886b6c58d8eaf47e0e0754f30da7f6d",
+      "asset_id": 585475930
+    },
+    {
+      "name": "snapshot-2026-09-24-data-042-jpx_return_t_top10_20260911.tar",
+      "release_tag": "snapshot-2026-09-24",
+      "size": 296960,
+      "sha256": "00541d3bbe23c3c672ff3376c113a28ac5cd0fbefded0f7b2439f2f11ffe43ca",
+      "github_digest": "sha256:00541d3bbe23c3c672ff3376c113a28ac5cd0fbefded0f7b2439f2f11ffe43ca",
+      "asset_id": 585476320
+    },
+    {
+      "name": "snapshot-2026-09-24-data-043-jpx_ridge_comparison_20260911.tar",
+      "release_tag": "snapshot-2026-09-24",
+      "size": 23275520,
+      "sha256": "879be85253ec29e9cfa9280462641f38ba46d40db974099e507819bccbfee07d",
+      "github_digest": "sha256:879be85253ec29e9cfa9280462641f38ba46d40db974099e507819bccbfee07d",
+      "asset_id": 585476650
+    },
+    {
+      "name": "snapshot-2026-09-24-data-044-jpx_ridge_top10_20260911.tar",
+      "release_tag": "snapshot-2026-09-24",
+      "size": 296960,
+      "sha256": "dd64fdbc4133683ba44cec085dd829c9284de93a1f344b8283ec48d7178ccc23",
+      "github_digest": "sha256:dd64fdbc4133683ba44cec085dd829c9284de93a1f344b8283ec48d7178ccc23",
+      "asset_id": 585478725
+    },
+    {
+      "name": "snapshot-2026-09-24-data-045-jpx_signed_band_20260910.tar",
+      "release_tag": "snapshot-2026-09-24",
+      "size": 3358720,
+      "sha256": "58048566b052a0f912c57029f275c0fbb45670a3b422eab0d8d26535d88acae4",
+      "github_digest": "sha256:58048566b052a0f912c57029f275c0fbb45670a3b422eab0d8d26535d88acae4",
+      "asset_id": 585479421
+    },
+    {
+      "name": "snapshot-2026-09-24-data-046-jpx_stock_expanding_20260911.tar",
+      "release_tag": "snapshot-2026-09-24",
+      "size": 1617920,
+      "sha256": "5a3dc4d16ee1fa131ba4a0ba0f3510c57ff646d7defbda2a412309bc66e5c129",
+      "github_digest": "sha256:5a3dc4d16ee1fa131ba4a0ba0f3510c57ff646d7defbda2a412309bc66e5c129",
+      "asset_id": 585480051
+    },
+    {
+      "name": "snapshot-2026-09-24-data-047-jpx_stock_returns_20260910.tar",
+      "release_tag": "snapshot-2026-09-24",
+      "size": 1617920,
+      "sha256": "0b1910277ddcda3e0a4647792413b76c731af5a63e254dc143864bbabf2dba59",
+      "github_digest": "sha256:0b1910277ddcda3e0a4647792413b76c731af5a63e254dc143864bbabf2dba59",
+      "asset_id": 585480309
+    },
+    {
+      "name": "snapshot-2026-09-24-data-048-jpx_v10_mse_sgd_financial_20260913.tar",
+      "release_tag": "snapshot-2026-09-24",
+      "size": 386570240,
+      "sha256": "0a473e5c1fe7ee6387f6bcf74b2e3733d727d901c8a2b0cacbf4ddb3100bc8b5",
+      "github_digest": "sha256:0a473e5c1fe7ee6387f6bcf74b2e3733d727d901c8a2b0cacbf4ddb3100bc8b5",
+      "asset_id": 585406325
+    },
+    {
+      "name": "snapshot-2026-09-24-data-049-jpx_v11_persistent_finance_std22_20260913.tar",
+      "release_tag": "snapshot-2026-09-24",
+      "size": 751329280,
+      "sha256": "b8cb448c6573f1c299238b7968d60438605da0ae58a72ac91eb7f0941b258360",
+      "github_digest": "sha256:b8cb448c6573f1c299238b7968d60438605da0ae58a72ac91eb7f0941b258360",
+      "asset_id": 585421630
+    },
+    {
+      "name": "snapshot-2026-09-24-data-050-jpx_v12_financial_growth_20260913.tar",
+      "release_tag": "snapshot-2026-09-24",
+      "size": 803461120,
+      "sha256": "787fb2c41ae8117852c2ec37dbdf18b90a28aa307e605c037a36460e13820a5c",
+      "github_digest": "sha256:787fb2c41ae8117852c2ec37dbdf18b90a28aa307e605c037a36460e13820a5c",
+      "asset_id": 585406731
+    },
+    {
+      "name": "snapshot-2026-09-24-data-051-jpx_v12_financial_growth_20260913.tar",
+      "release_tag": "snapshot-2026-09-24",
+      "size": 803225600,
+      "sha256": "0f84014b35ed705ba34fee3e6fbc0e95e186905c30191e4c19eb77b572c59bab",
+      "github_digest": "sha256:0f84014b35ed705ba34fee3e6fbc0e95e186905c30191e4c19eb77b572c59bab",
+      "asset_id": 585412322
+    },
+    {
+      "name": "snapshot-2026-09-24-data-052-jpx_v13_quarterly_sgd_sqrt_20260914.tar",
+      "release_tag": "snapshot-2026-09-24",
+      "size": 565053440,
+      "sha256": "55f52dc6015352ec2030245a39b2ca40db89781afc59a90bb77c00b633ef24c6",
+      "github_digest": "sha256:55f52dc6015352ec2030245a39b2ca40db89781afc59a90bb77c00b633ef24c6",
+      "asset_id": 585474225
+    },
+    {
+      "name": "snapshot-2026-09-24-data-053-jpx_v14_filtered_forecast_events_20260914.tar",
+      "release_tag": "snapshot-2026-09-24",
+      "size": 599644160,
+      "sha256": "6ff2584ed1373dd14254fbc8aecd9d49cd76fc735e2227ee0ce7410bad385c05",
+      "github_digest": "sha256:6ff2584ed1373dd14254fbc8aecd9d49cd76fc735e2227ee0ce7410bad385c05",
+      "asset_id": 585463728
+    },
+    {
+      "name": "snapshot-2026-09-24-data-054-jpx_v15_soft_rank_filtered_20260914.tar",
+      "release_tag": "snapshot-2026-09-24",
+      "size": 582379520,
+      "sha256": "2aa6d355bf17e70820bf6c2a5501121fe77c70a10e888d9769011536f8397ee6",
+      "github_digest": "sha256:2aa6d355bf17e70820bf6c2a5501121fe77c70a10e888d9769011536f8397ee6",
+      "asset_id": 585470528
+    },
+    {
+      "name": "snapshot-2026-09-24-data-055-jpx_v16_single_financial_v7_20260915.tar",
+      "release_tag": "snapshot-2026-09-24",
+      "size": 717445120,
+      "sha256": "6f61c24627c18dbcf2314a88839984e8682bf7b548962aaf394df42394ce0492",
+      "github_digest": "sha256:6f61c24627c18dbcf2314a88839984e8682bf7b548962aaf394df42394ce0492",
+      "asset_id": 585446483
+    },
+    {
+      "name": "snapshot-2026-09-24-data-056-jpx_v17_actual_forecast_revisions_20260915.tar",
+      "release_tag": "snapshot-2026-09-24",
+      "size": 370944000,
+      "sha256": "b455cbdaf7d67e7c950284d3d20c2123ccf349b33ed95f1efdc98e464eabf89c",
+      "github_digest": "sha256:b455cbdaf7d67e7c950284d3d20c2123ccf349b33ed95f1efdc98e464eabf89c",
+      "asset_id": 585490870
+    },
+    {
+      "name": "snapshot-2026-09-24-data-057-jpx_v18_frozen_g_eps_20260915.tar",
+      "release_tag": "snapshot-2026-09-24",
+      "size": 66549760,
+      "sha256": "e0afc8a43ac906ae48ed39f61f6379a39ba634d08ff2b6d4476591c7659c41b3",
+      "github_digest": "sha256:e0afc8a43ac906ae48ed39f61f6379a39ba634d08ff2b6d4476591c7659c41b3",
+      "asset_id": 585486858
+    },
+    {
+      "name": "snapshot-2026-09-24-data-058-jpx_v20_eps_data_audit_20260915.tar",
+      "release_tag": "snapshot-2026-09-24",
+      "size": 20480,
+      "sha256": "a2ed4eb0005b391444a7c430eb8caa8de94049536a1ed21d5df17876ade28a6d",
+      "github_digest": "sha256:a2ed4eb0005b391444a7c430eb8caa8de94049536a1ed21d5df17876ade28a6d",
+      "asset_id": 585486533
+    },
+    {
+      "name": "snapshot-2026-09-24-data-059-jpx_v21_all_eps_joint_20260916.tar",
+      "release_tag": "snapshot-2026-09-24",
+      "size": 70379520,
+      "sha256": "fc8d7863c09f8ccb2a633e7ed9ea0054e05163f1444fe7088afe09699ecd3f52",
+      "github_digest": "sha256:fc8d7863c09f8ccb2a633e7ed9ea0054e05163f1444fe7088afe09699ecd3f52",
+      "asset_id": 585484244
+    },
+    {
+      "name": "snapshot-2026-09-24-data-060-jpx_v22_eps_thresholds_20260916.tar",
+      "release_tag": "snapshot-2026-09-24",
+      "size": 71383040,
+      "sha256": "c53295cc6e2a7ce5e46ddef19469ee8de141cc276c616d0f90d9ffdb5bb33084",
+      "github_digest": "sha256:c53295cc6e2a7ce5e46ddef19469ee8de141cc276c616d0f90d9ffdb5bb33084",
+      "asset_id": 585480231
+    },
+    {
+      "name": "snapshot-2026-09-24-data-061-jpx_v23_g_thresholds_20260916.tar",
+      "release_tag": "snapshot-2026-09-24",
+      "size": 69335040,
+      "sha256": "b0a0778fb2ca9f029113f3ec5bf9a7929283182f406aac14661accc704811c0d",
+      "github_digest": "sha256:b0a0778fb2ca9f029113f3ec5bf9a7929283182f406aac14661accc704811c0d",
+      "asset_id": 585473192
+    },
+    {
+      "name": "snapshot-2026-09-24-data-062-jpx_v24_g_train_validation_filters_20260916.tar",
+      "release_tag": "snapshot-2026-09-24",
+      "size": 17459200,
+      "sha256": "dfe8d87669e78635e85841316aee7dee311daf6fc5f9455c194b1813a6733597",
+      "github_digest": "sha256:dfe8d87669e78635e85841316aee7dee311daf6fc5f9455c194b1813a6733597",
+      "asset_id": 585472603
+    },
+    {
+      "name": "snapshot-2026-09-24-data-063-jpx_v25_single_features_unfiltered_20260916.tar",
+      "release_tag": "snapshot-2026-09-24",
+      "size": 486809600,
+      "sha256": "4837781917fc889bd614faf62d05b00328946757e2897ca45fe1285abb2fd43f",
+      "github_digest": "sha256:4837781917fc889bd614faf62d05b00328946757e2897ca45fe1285abb2fd43f",
+      "asset_id": 585412563
+    },
+    {
+      "name": "snapshot-2026-09-24-data-064-jpx_v26_profit_forecast_revision_20260916.tar",
+      "release_tag": "snapshot-2026-09-24",
+      "size": 23910400,
+      "sha256": "5d612af5b282db96baf47a96fb7799f69b1b338e77a6cea82b4fcf6a9573c19e",
+      "github_digest": "sha256:5d612af5b282db96baf47a96fb7799f69b1b338e77a6cea82b4fcf6a9573c19e",
+      "asset_id": 585471830
+    },
+    {
+      "name": "snapshot-2026-09-24-data-065-jpx_v27_profit_forecast_state_20260916.tar",
+      "release_tag": "snapshot-2026-09-24",
+      "size": 47708160,
+      "sha256": "5534a265a641f5835efc935cd106646106c329c83506cca9928a80219e427ad9",
+      "github_digest": "sha256:5534a265a641f5835efc935cd106646106c329c83506cca9928a80219e427ad9",
+      "asset_id": 585467398
+    },
+    {
+      "name": "snapshot-2026-09-24-data-066-jpx_v28_common_learning_rate_20260916.tar",
+      "release_tag": "snapshot-2026-09-24",
+      "size": 70471680,
+      "sha256": "32a08abb9acbea24e0f8fe19ad3133a8a723ca08cd54447b1a7eba4ba1e1375f",
+      "github_digest": "sha256:32a08abb9acbea24e0f8fe19ad3133a8a723ca08cd54447b1a7eba4ba1e1375f",
+      "asset_id": 585462055
+    },
+    {
+      "name": "snapshot-2026-09-24-data-067-jpx_v29_learning_rate_sweep_20260916.tar",
+      "release_tag": "snapshot-2026-09-24",
+      "size": 347668480,
+      "sha256": "587b61a2ec111fac6c9fad623c745d2284d7862b5223c20dfd161400841c0365",
+      "github_digest": "sha256:587b61a2ec111fac6c9fad623c745d2284d7862b5223c20dfd161400841c0365",
+      "asset_id": 585446535
+    },
+    {
+      "name": "snapshot-2026-09-24-data-068-jpx_v30_profit_actual_forecast_20260916.tar",
+      "release_tag": "snapshot-2026-09-24",
+      "size": 158709760,
+      "sha256": "40274ae53271e3cabc99868e7ab5569a0d2718fc26bb7a2528cb4628e0b6a642",
+      "github_digest": "sha256:40274ae53271e3cabc99868e7ab5569a0d2718fc26bb7a2528cb4628e0b6a642",
+      "asset_id": 585446766
+    },
+    {
+      "name": "snapshot-2026-09-24-data-069-jpx_v5_daily_returns_20260912.tar",
+      "release_tag": "snapshot-2026-09-24",
+      "size": 40837120,
+      "sha256": "6040dc9cd5a9365685d72762b0c2a48d856121c662831cb1433f2ad50a25792a",
+      "github_digest": "sha256:6040dc9cd5a9365685d72762b0c2a48d856121c662831cb1433f2ad50a25792a",
+      "asset_id": 585443858
+    },
+    {
+      "name": "snapshot-2026-09-24-data-070-jpx_v6_expanding_daily_gd_20260912.tar",
+      "release_tag": "snapshot-2026-09-24",
+      "size": 52183040,
+      "sha256": "97e0cee73fe33dcd14f103c4238d87efccf7f0d02ff82b93648966c899651237",
+      "github_digest": "sha256:97e0cee73fe33dcd14f103c4238d87efccf7f0d02ff82b93648966c899651237",
+      "asset_id": 585442184
+    },
+    {
+      "name": "snapshot-2026-09-24-data-071-jpx_v7_daily_mse_20260912.tar",
+      "release_tag": "snapshot-2026-09-24",
+      "size": 105574400,
+      "sha256": "3f4c34e9b0bd017e083103285ba0906835084f8d4a21685c65ef92cd18030e0d",
+      "github_digest": "sha256:3f4c34e9b0bd017e083103285ba0906835084f8d4a21685c65ef92cd18030e0d",
+      "asset_id": 585437063
+    },
+    {
+      "name": "snapshot-2026-09-24-data-072-jpx_v8_soft_rank_20260912.tar",
+      "release_tag": "snapshot-2026-09-24",
+      "size": 276336640,
+      "sha256": "a83cffb3a2d981d1ebced5c373fae0b9c7d04ec6fc2076c073e4f04bfb49dbd4",
+      "github_digest": "sha256:a83cffb3a2d981d1ebced5c373fae0b9c7d04ec6fc2076c073e4f04bfb49dbd4",
+      "asset_id": 585414319
+    },
+    {
+      "name": "snapshot-2026-09-24-data-073-jpx_v9_financial_decay_sgd_20260912.tar",
+      "release_tag": "snapshot-2026-09-24",
+      "size": 225105920,
+      "sha256": "ecabd9a33567271f331d83321a1ae47d7176adba469c5835db5b781c730a84c2",
+      "github_digest": "sha256:ecabd9a33567271f331d83321a1ae47d7176adba469c5835db5b781c730a84c2",
+      "asset_id": 585405021
+    },
+    {
+      "name": "snapshot-2026-09-24-data-074-output.tar",
+      "release_tag": "snapshot-2026-09-24",
+      "size": 76871680,
+      "sha256": "04a52839751e0040a7f167cb125f1163fedb91854409ded4b0f9d0e3b32999b4",
+      "github_digest": "sha256:04a52839751e0040a7f167cb125f1163fedb91854409ded4b0f9d0e3b32999b4",
+      "asset_id": 585403038
+    },
+    {
+      "name": "snapshot-2026-09-24-data-075-ppt_build.tar",
+      "release_tag": "snapshot-2026-09-24",
+      "size": 72325120,
+      "sha256": "f23d3e8cf0108e0259746ee8d78e64da0227de48d278e942ba9b4434b215580a",
+      "github_digest": "sha256:f23d3e8cf0108e0259746ee8d78e64da0227de48d278e942ba9b4434b215580a",
+      "asset_id": 585401549
+    },
+    {
+      "name": "snapshot-2026-09-24-data-076-project_archive_20260924.tar",
+      "release_tag": "snapshot-2026-09-24",
+      "size": 249374720,
+      "sha256": "464662e1d902c994995b878fc1578c7cb5ae5e8193f876d0136d4ccfe338c45a",
+      "github_digest": "sha256:464662e1d902c994995b878fc1578c7cb5ae5e8193f876d0136d4ccfe338c45a",
+      "asset_id": 585394946
+    },
+    {
+      "name": "snapshot-2026-09-24-data-077-qa_robotics_proposal.tar",
+      "release_tag": "snapshot-2026-09-24",
+      "size": 256000,
+      "sha256": "3b59124e12811d3d9ac7b9b158b0a2c9d223e510848976a427e66988dc3a229b",
+      "github_digest": "sha256:3b59124e12811d3d9ac7b9b158b0a2c9d223e510848976a427e66988dc3a229b",
+      "asset_id": 585394707
+    },
+    {
+      "name": "snapshot-2026-09-24-data-078-qa_robotics_proposal_final.tar",
+      "release_tag": "snapshot-2026-09-24",
+      "size": 6440960,
+      "sha256": "ba353c17e6e782d14a92ba40c21833ec19895f79147aea4d7c08ce4a7b3566e5",
+      "github_digest": "sha256:ba353c17e6e782d14a92ba40c21833ec19895f79147aea4d7c08ce4a7b3566e5",
+      "asset_id": 585394385
+    },
+    {
+      "name": "snapshot-2026-09-24-data-079-qa_robotics_proposal_final_v2.tar",
+      "release_tag": "snapshot-2026-09-24",
+      "size": 6410240,
+      "sha256": "7af8ad0d356ccbdb909dd6c28bc2ac0d3209ac5e5c3bcdadf06267c4d60a1cef",
+      "github_digest": "sha256:7af8ad0d356ccbdb909dd6c28bc2ac0d3209ac5e5c3bcdadf06267c4d60a1cef",
+      "asset_id": 585394139
+    },
+    {
+      "name": "snapshot-2026-09-24-data-080-qa_robotics_proposal_final_v3.tar",
+      "release_tag": "snapshot-2026-09-24",
+      "size": 6400000,
+      "sha256": "e6932356d175ad0f76015949a4efa4b405b21c2dc30b1e663cc88f45720e2937",
+      "github_digest": "sha256:e6932356d175ad0f76015949a4efa4b405b21c2dc30b1e663cc88f45720e2937",
+      "asset_id": 585393862
+    },
+    {
+      "name": "snapshot-2026-09-24-data-081-qa_robotics_proposal_final_v4.tar",
+      "release_tag": "snapshot-2026-09-24",
+      "size": 6420480,
+      "sha256": "1eb3e06a74bd0e7d50360773c08a24d43cec6552c497e47383a3eec6ade7e0c9",
+      "github_digest": "sha256:1eb3e06a74bd0e7d50360773c08a24d43cec6552c497e47383a3eec6ade7e0c9",
+      "asset_id": 585393624
+    },
+    {
+      "name": "snapshot-2026-09-24-data-082-qa_robotics_proposal_final_v5.tar",
+      "release_tag": "snapshot-2026-09-24",
+      "size": 6420480,
+      "sha256": "a81d3b3f0727370d7f8ffb3c494c82c37bf1fb7db6b251d17eef6b011815ca4d",
+      "github_digest": "sha256:a81d3b3f0727370d7f8ffb3c494c82c37bf1fb7db6b251d17eef6b011815ca4d",
+      "asset_id": 585393437
+    },
+    {
+      "name": "snapshot-2026-09-24-data-083-qa_robotics_proposal_final_v6.tar",
+      "release_tag": "snapshot-2026-09-24",
+      "size": 6420480,
+      "sha256": "8d67343d6122da8ddd5154b57670cf4d4ccf16cc17c74c331d9a0398319c1804",
+      "github_digest": "sha256:8d67343d6122da8ddd5154b57670cf4d4ccf16cc17c74c331d9a0398319c1804",
+      "asset_id": 585393260
+    },
+    {
+      "name": "snapshot-2026-09-24-data-084-qa_robotics_proposal_v2.tar",
+      "release_tag": "snapshot-2026-09-24",
+      "size": 266240,
+      "sha256": "f6485ebc5f19f6a1e65c4a7a793ca6d6f87ad170a2e0355934aca94c20033e61",
+      "github_digest": "sha256:f6485ebc5f19f6a1e65c4a7a793ca6d6f87ad170a2e0355934aca94c20033e61",
+      "asset_id": 585393178
+    },
+    {
+      "name": "snapshot-2026-09-24-data-085-qa_robotics_proposal_v3.tar",
+      "release_tag": "snapshot-2026-09-24",
+      "size": 266240,
+      "sha256": "802774b66c0bac428dac5ad811a0e500af5241c8ef09cd6f5bf8a34fdd263c66",
+      "github_digest": "sha256:802774b66c0bac428dac5ad811a0e500af5241c8ef09cd6f5bf8a34fdd263c66",
+      "asset_id": 585393074
+    },
+    {
+      "name": "snapshot-2026-09-24-data-086-qa_robotics_proposal_v4.tar",
+      "release_tag": "snapshot-2026-09-24",
+      "size": 6410240,
+      "sha256": "c01d3d998659012934f43ed56ef21e3a6ad2a889498efed8265f9e0eb5dc7ce1",
+      "github_digest": "sha256:c01d3d998659012934f43ed56ef21e3a6ad2a889498efed8265f9e0eb5dc7ce1",
+      "asset_id": 585392902
+    },
+    {
+      "name": "snapshot-2026-09-24-data-087-root-deliverables.tar",
+      "release_tag": "snapshot-2026-09-24",
+      "size": 6184960,
+      "sha256": "2b350574c978036a06c7c8024602cc565c5c9233afdd6418fbbf76027a8eb11d",
+      "github_digest": "sha256:2b350574c978036a06c7c8024602cc565c5c9233afdd6418fbbf76027a8eb11d",
+      "asset_id": 585392771
+    },
+    {
+      "name": "snapshot-2026-09-24-data-088-tmp.tar",
+      "release_tag": "snapshot-2026-09-24",
+      "size": 2949120,
+      "sha256": "40221f4bbda79824429b3384e4d74088bb8015c42f0001a4a3dec0242fb6161a",
+      "github_digest": "sha256:40221f4bbda79824429b3384e4d74088bb8015c42f0001a4a3dec0242fb6161a",
+      "asset_id": 585392669
+    },
+    {
+      "name": "snapshot-2026-09-25-v31-stock-mse-data-001-jpx_v31_stock_specific_mse_20260925.tar",
+      "release_tag": "snapshot-2026-09-25-v31-stock-mse",
+      "size": 296673280,
+      "sha256": "2e93558732acfe77c8489cf2f37e105a37fa888d60b3ea37ecff0308d4791dae",
+      "github_digest": "sha256:2e93558732acfe77c8489cf2f37e105a37fa888d60b3ea37ecff0308d4791dae",
+      "asset_id": 587442414
+    },
+    {
+      "name": "snapshot-2026-09-26-v32-chunk-replay-data-001-jpx_v32_chunk_replay_20260926.tar",
+      "release_tag": "snapshot-2026-09-26-v32-chunk-replay",
+      "size": 503582720,
+      "sha256": "0cab995b66e8f9fd99ee9ac040c13063279b3c6ab5a2b620de83d93c37fda356",
+      "github_digest": "sha256:0cab995b66e8f9fd99ee9ac040c13063279b3c6ab5a2b620de83d93c37fda356",
+      "asset_id": 590129566
+    },
+    {
+      "name": "snapshot-2026-09-26-v32-chunk-replay-data-002-jpx_v32_chunk_replay_20260926.tar",
+      "release_tag": "snapshot-2026-09-26-v32-chunk-replay",
+      "size": 425052160,
+      "sha256": "6c9212a7544758fce8a1e6290015face3e1817f2c280053baef0099ab3b02830",
+      "github_digest": "sha256:6c9212a7544758fce8a1e6290015face3e1817f2c280053baef0099ab3b02830",
+      "asset_id": 590132143
+    },
+    {
+      "name": "snapshot-2026-10-04-arima-adf-annual-data-001-jpx_arima_adf_annual_20261004.tar",
+      "release_tag": "snapshot-2026-10-04-arima-adf-annual",
+      "size": 797644800,
+      "sha256": "0232c603856198dfb2b3e0690543ecc9901e077faf9727612e6d6c7ab3fb9de0",
+      "github_digest": "sha256:0232c603856198dfb2b3e0690543ecc9901e077faf9727612e6d6c7ab3fb9de0",
+      "asset_id": 609807461
+    },
+    {
+      "name": "snapshot-2026-10-04-arima-adf-annual-data-002-jpx_arima_adf_annual_20261004.tar",
+      "release_tag": "snapshot-2026-10-04-arima-adf-annual",
+      "size": 353300480,
+      "sha256": "fb1649934243041f51855a1832d6fc9db90b678bd01aa292ee840c754510eaf8",
+      "github_digest": "sha256:fb1649934243041f51855a1832d6fc9db90b678bd01aa292ee840c754510eaf8",
+      "asset_id": 609815291
+    }
+  ],
+  "note": "GitHub server-reported SHA256 and sizes verified; draft must still be published after catalog commit."
+}

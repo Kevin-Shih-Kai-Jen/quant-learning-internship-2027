@@ -15,7 +15,12 @@
       "tag": "snapshot-2026-09-26-v32-chunk-replay",
       "catalog": "data/catalogs/snapshot-2026-09-26-v32-chunk-replay.json",
       "status": "verified"
+    },
+    {
+      "tag": "snapshot-2026-10-04-arima-adf-annual",
+      "catalog": "data/catalogs/snapshot-2026-10-04-arima-adf-annual.json",
+      "status": "verified"
     }
   ],
-  "latest": "snapshot-2026-09-26-v32-chunk-replay"
+  "latest": "snapshot-2026-10-04-arima-adf-annual"
 }
