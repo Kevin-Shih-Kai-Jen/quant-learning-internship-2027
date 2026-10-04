@@ -48,8 +48,14 @@ def main():
         ref = api(f'git/tags/{ref["sha"]}')['object']
     assert ref['sha'] == args.git_commit
     assets = {a['name']:a for a in release['assets']}
-    remote_catalog = download(assets[catalog_path.name]['id'])
+    catalog_asset = assets[catalog_path.name]
+    spans = [(x, min(x+256*1024, catalog_asset['size'])-1)
+             for x in range(0, catalog_asset['size'], 256*1024)]
+    with ThreadPoolExecutor(max_workers=6) as pool:
+        remote_catalog = b''.join(pool.map(lambda span: download(catalog_asset['id'], *span), spans))
+    assert len(remote_catalog) == catalog_asset['size']
     assert hashlib.sha256(remote_catalog).hexdigest() == sha(catalog_path)
+    print(json.dumps({'retrieved_catalog_bytes':len(remote_catalog),'sha256':sha(catalog_path)}),flush=True)
     verified = []
     retrieved = []
     for pack in catalog['packs']:

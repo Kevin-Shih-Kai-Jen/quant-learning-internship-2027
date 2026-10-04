@@ -1,0 +1,40 @@
+{
+  "tag": "snapshot-2026-10-04-arima-adf-annual",
+  "release_id": 403008596,
+  "release_url": "https://github.com/Kevin-Shih-Kai-Jen/quant-learning-internship-2027/releases/tag/snapshot-2026-10-04-arima-adf-annual",
+  "published": true,
+  "tag_commit": "6913fb493eaeb39788f454314482fbdb40714e05",
+  "catalog_download_sha256": "a0299ab56a9c0b4710df745daee808edbeaf0806ab3398b078f67a60a341d58d",
+  "new_pack_metadata": [
+    {
+      "name": "snapshot-2026-10-04-arima-adf-annual-data-001-jpx_arima_adf_annual_20261004.tar",
+      "size": 797644800,
+      "sha256": "0232c603856198dfb2b3e0690543ecc9901e077faf9727612e6d6c7ab3fb9de0",
+      "asset_id": 609807461
+    },
+    {
+      "name": "snapshot-2026-10-04-arima-adf-annual-data-002-jpx_arima_adf_annual_20261004.tar",
+      "size": 353300480,
+      "sha256": "fb1649934243041f51855a1832d6fc9db90b678bd01aa292ee840c754510eaf8",
+      "asset_id": 609815291
+    }
+  ],
+  "fully_retrieved_members": [
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p1_q1/predictions.npz",
+      "size": 15685857,
+      "sha256": "36bebd67d29fa2e6c190f2ab76c657392ab0125dcf24876f434cf3d68b83f2d6",
+      "pack": "snapshot-2026-10-04-arima-adf-annual-data-001-jpx_arima_adf_annual_20261004.tar",
+      "byte_offset": 114859008
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/fixed_d1/p4_q2/predictions.npz",
+      "size": 16112610,
+      "sha256": "892daff497267ea54475326709079d89cbad582bf453ff0d4217deda58fe4d7f",
+      "pack": "snapshot-2026-10-04-arima-adf-annual-data-002-jpx_arima_adf_annual_20261004.tar",
+      "byte_offset": 512
+    }
+  ],
+  "whole_packs_redownloaded": false,
+  "verification_scope": "Every packed file was read and hashed during local pack creation; all new remote pack sizes and server SHA-256 digests match. One full NPZ member per new pack plus the catalog were downloaded and hashed after publication."
+}

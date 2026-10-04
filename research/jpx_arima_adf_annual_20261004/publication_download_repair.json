@@ -1,0 +1,7 @@
+{
+  "initial_download": "Catalog full-stream exceeded the 60-second timeout, then the retry was stopped with SIGINT",
+  "initial_process_exit": 130,
+  "change": "Download the entire catalog as parallel 256 KiB byte ranges, checking total length and full-file SHA-256",
+  "prior_code_commit": "1f73dc4cd345d6234e315ac1aa162658a4008e2e",
+  "model_results_changed": false
+}

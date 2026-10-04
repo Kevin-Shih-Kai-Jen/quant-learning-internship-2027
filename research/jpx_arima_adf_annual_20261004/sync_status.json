@@ -1,6 +1,31 @@
 {
-  "status": "computation_complete_publication_pending",
+  "status": "published_and_verified_cleanup_pending",
   "tag": "snapshot-2026-10-04-arima-adf-annual",
-  "large_results_published": false,
-  "formal_test_used": false
+  "release_url": "https://github.com/Kevin-Shih-Kai-Jen/quant-learning-internship-2027/releases/tag/snapshot-2026-10-04-arima-adf-annual",
+  "release_tag_commit": "6913fb493eaeb39788f454314482fbdb40714e05",
+  "large_results_published": true,
+  "new_data_packs": 2,
+  "new_pack_bytes": 1150945280,
+  "all_new_remote_pack_sizes_and_sha256_match": true,
+  "catalog_fully_retrieved_and_hashed": true,
+  "complete_prediction_members_retrieved": [
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p1_q1/predictions.npz",
+      "size": 15685857,
+      "sha256": "36bebd67d29fa2e6c190f2ab76c657392ab0125dcf24876f434cf3d68b83f2d6",
+      "pack": "snapshot-2026-10-04-arima-adf-annual-data-001-jpx_arima_adf_annual_20261004.tar",
+      "byte_offset": 114859008
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/fixed_d1/p4_q2/predictions.npz",
+      "size": 16112610,
+      "sha256": "892daff497267ea54475326709079d89cbad582bf453ff0d4217deda58fe4d7f",
+      "pack": "snapshot-2026-10-04-arima-adf-annual-data-002-jpx_arima_adf_annual_20261004.tar",
+      "byte_offset": 512
+    }
+  ],
+  "planned_git_files_verified": 144,
+  "catalog_git_files_verified": 4,
+  "formal_test_used": false,
+  "baseline_changed": false
 }

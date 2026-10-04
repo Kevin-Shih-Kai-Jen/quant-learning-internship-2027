@@ -1,0 +1,12 @@
+{
+  "commit": "6913fb493eaeb39788f454314482fbdb40714e05",
+  "paths": [
+    "data/index.json",
+    "data/catalogs/snapshot-2026-10-04-arima-adf-annual.json",
+    "data/verification/snapshot-2026-10-04-arima-adf-annual.json",
+    "research/jpx_arima_adf_annual_20261004/remote_git_verification.json"
+  ],
+  "exact_bytes_match": true,
+  "remote_checksum_attachment_matches": true,
+  "checksum_sha256": "c5a2d84d43a3fa03060164775f781fd0ac29b4264d2884b58e8efa4b9e359d99"
+}

@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "verified_source_files": 54,
+  "release_payload_calendar_absent": true,
+  "git_calendar_fallback_verified": true,
+  "calendar_sha256": "d788a948bf6e138f3bd08cb17b98b0cdd8220fb89622770dc2215a6190ab73f4",
+  "full_model_refit": false
+}

@@ -22,7 +22,7 @@
 python3 configure_from_snapshot.py --snapshot /verified-download/research/jpx_arima_adf_annual_20261004
 ```
 
-這會檢查 54 個來源檔的大小／SHA-256，建立新的暫存 runtime（`runtime.json` 不入 Git），保留唯讀快照；不讀取正式 test。接著在該新程式目錄執行：
+這會檢查 54 個來源檔的大小／SHA-256，建立新的暫存 runtime（`runtime.json` 不入 Git），保留唯讀快照；不讀取正式 test。小型 `shared_inputs/calendar.csv` 保存在 Git，下載大型資料時不會另行取回；準備程式會從同一 checkout 的原實驗目錄取用並核對固定 SHA-256。接著在該新程式目錄執行：
 
 ```sh
 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1 python3 prepare_adf.py --workers 6

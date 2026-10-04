@@ -749,5 +749,12 @@
       "asset_id": 609815291
     }
   ],
-  "note": "GitHub server-reported SHA256 and sizes verified; draft must still be published after catalog commit."
+  "note": "GitHub server-reported SHA256 and sizes verified; draft must still be published after catalog commit.",
+  "publication": {
+    "published": true,
+    "tag_commit": "6913fb493eaeb39788f454314482fbdb40714e05",
+    "release_url": "https://github.com/Kevin-Shih-Kai-Jen/quant-learning-internship-2027/releases/tag/snapshot-2026-10-04-arima-adf-annual",
+    "new_pack_recovery_receipt": "research/jpx_arima_adf_annual_20261004/published_snapshot_verification.json",
+    "catalog_and_two_complete_members_retrieved_and_hashed": true
+  }
 }
