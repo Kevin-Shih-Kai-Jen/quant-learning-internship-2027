@@ -1,5 +1,7 @@
 # 實驗與資料下載索引
 
+**2026-10-04 新增：[5% ADF 差分與年度選階實測](../research/jpx_arima_adf_annual_20261004/REPORT.md)**。使用 expanding training、逐檔 ADF 選 d、全股票共用年度 p,q；25 組候選與固定 d=1 對照。新資料 tag：`snapshot-2026-10-04-arima-adf-annual`；前綴：`jpx_arima_adf_annual_20261004`；發布核對狀態见 [同步紀錄](../research/jpx_arima_adf_annual_20261004/sync_status.json)。本次另確認下述 9/28 來源 Release 仍為草稿、尚未列入根 index；新快照保存本輪必要來源，不更動舊草稿。
+
 **2026-09-28 新增：[ARIMA 七輪完整回測](../research/jpx_arima_learning_20260928/README.md)**。下載 tag：`snapshot-2026-09-28-arima-learning`；前綴：`jpx_arima_learning_20260928`。以下 9/24 快照的數量與「ARIMA 未回測」是歷史狀態；此支線後續已完成 25 組網格、事後 ACF 與共同訓練，詳見新導讀。原始逐筆檔、失敗／修正版及七個交付 ZIP 均保留。
 
 這份索引由首次快照的 [檔案盤點](../data/inventories/snapshot-2026-09-24.json) 彙整，標籤為 `snapshot-2026-09-24`。此快照已完成上傳與遠端校驗；狀態請查 [快照入口](../data/index.json) 與 [遠端驗證紀錄](../data/verification/snapshot-2026-09-24.json)。

@@ -72,6 +72,7 @@ def run():
     lines=['# JPX：5% ADF 差分與年度選階實測（2026-10-04）','',
            f'**本輪完成。主策略 Sharpe {fmt(summary.loc["adf_annual_selector","sharpe"])}，固定 d=1 年度選階 {fmt(summary.loc["fixed_d1_annual_selector","sharpe"])}，差異 {fmt(headline)}。**',
            '結果來自已反覆參與研究的歷史 validation；正式 test 未讀取、未評分，正式基準仍為 v7_equal。',
+           '本輪沒有看到加入 ADF 自動選 d 帶來改善。年度 p,q 路徑改變、差分模型改變及缺價後備都可能影響結果；匹配對照可以拆開觀察，但不能把全部主策略差異直接歸因於差分階數。ADF 是單位根檢定程序，通過檢定並不保證交易排序較好。',
            '',f'共同評估日數：**{result["common_days"]}**；原資料 953 日、1,864,363 個股票日，ValidationYear 2018–2021（2021 不完整）。Sharpe 均為官方每日 spread 的平均／樣本標準差，未年化、主表未扣成本。',
            '', '## 主要策略比較','', '| 策略 | Sharpe | 平均每日 Rank IC | 每日 Target MSE 平均 |','|---|---:|---:|---:|']
     for name,row in summary.iterrows():lines.append(f'| {names[name]} | {fmt(row.sharpe)} | {fmt(row.mean_daily_rank_ic)} | {row.mean_daily_target_mse:.8g} |')

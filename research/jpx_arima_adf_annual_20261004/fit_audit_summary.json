@@ -1,0 +1,186 @@
+{
+  "fits": 11275,
+  "statuses": {
+    "ok": 11265,
+    "fit_not_converged_or_invalid": 6,
+    "training_exception": 4
+  },
+  "causal_prefix_and_future_checks": 1275,
+  "invalid_forward_observations": 0,
+  "retried_fits": 21,
+  "failures": [
+    {
+      "code": 4229,
+      "year": 2018,
+      "p": 5,
+      "d": 0,
+      "q": 5,
+      "status": "training_exception",
+      "exception": "LinAlgError: LU decomposition error.",
+      "attempts": [
+        {
+          "converged": false,
+          "iterations": 72,
+          "llf": 0.0
+        }
+      ]
+    },
+    {
+      "code": 8219,
+      "year": 2018,
+      "p": 4,
+      "d": 0,
+      "q": 5,
+      "status": "fit_not_converged_or_invalid",
+      "exception": null,
+      "attempts": [
+        {
+          "converged": false,
+          "iterations": 134,
+          "llf": -338.3795843769024
+        },
+        {
+          "converged": false,
+          "iterations": 0,
+          "llf": -338.3795843769025
+        }
+      ]
+    },
+    {
+      "code": 1950,
+      "year": 2019,
+      "p": 5,
+      "d": 0,
+      "q": 5,
+      "status": "fit_not_converged_or_invalid",
+      "exception": null,
+      "attempts": [
+        {
+          "converged": false,
+          "iterations": 250,
+          "llf": -687.5168445526513
+        },
+        {
+          "converged": false,
+          "iterations": 0,
+          "llf": -687.5168445526517
+        }
+      ]
+    },
+    {
+      "code": 9505,
+      "year": 2019,
+      "p": 3,
+      "d": 0,
+      "q": 5,
+      "status": "fit_not_converged_or_invalid",
+      "exception": null,
+      "attempts": [
+        {
+          "converged": false,
+          "iterations": 111,
+          "llf": -694.7925245438425
+        },
+        {
+          "converged": false,
+          "iterations": 0,
+          "llf": -694.7925245438428
+        }
+      ]
+    },
+    {
+      "code": 6644,
+      "year": 2020,
+      "p": 5,
+      "d": 0,
+      "q": 2,
+      "status": "training_exception",
+      "exception": "LinAlgError: LU decomposition error.",
+      "attempts": [
+        {
+          "converged": false,
+          "iterations": 30,
+          "llf": 0.0
+        }
+      ]
+    },
+    {
+      "code": 7752,
+      "year": 2020,
+      "p": 5,
+      "d": 0,
+      "q": 4,
+      "status": "training_exception",
+      "exception": "LinAlgError: LU decomposition error.",
+      "attempts": []
+    },
+    {
+      "code": 7958,
+      "year": 2020,
+      "p": 5,
+      "d": 0,
+      "q": 5,
+      "status": "fit_not_converged_or_invalid",
+      "exception": null,
+      "attempts": [
+        {
+          "converged": false,
+          "iterations": 126,
+          "llf": -1027.3695317988222
+        },
+        {
+          "converged": false,
+          "iterations": 0,
+          "llf": -1027.3695317988233
+        }
+      ]
+    },
+    {
+      "code": 1780,
+      "year": 2021,
+      "p": 2,
+      "d": 0,
+      "q": 1,
+      "status": "fit_not_converged_or_invalid",
+      "exception": null,
+      "attempts": [
+        {
+          "converged": true,
+          "iterations": 54,
+          "llf": 0.0
+        }
+      ]
+    },
+    {
+      "code": 3387,
+      "year": 2021,
+      "p": 3,
+      "d": 0,
+      "q": 1,
+      "status": "training_exception",
+      "exception": "LinAlgError: LU decomposition error.",
+      "attempts": []
+    },
+    {
+      "code": 8928,
+      "year": 2021,
+      "p": 3,
+      "d": 0,
+      "q": 5,
+      "status": "fit_not_converged_or_invalid",
+      "exception": null,
+      "attempts": [
+        {
+          "converged": false,
+          "iterations": 30,
+          "llf": 0.0
+        },
+        {
+          "converged": false,
+          "iterations": 1,
+          "llf": 0.0
+        }
+      ]
+    }
+  ]
+}

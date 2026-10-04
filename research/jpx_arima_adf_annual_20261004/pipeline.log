@@ -1,0 +1,39 @@
+{"selection_time_tests": {"mature_labels_only": true, "unmatured_and_future_return_perturbations_invariant": true, "no_history_initialization": true, "deterministic_tie_break": true}, "adf_tests": {"stock_years": 29, "future_price_invariance": true, "critical_value_decision_matches_unscaled_adf": true, "max_statistic_roundoff": 1.3589129821411916e-13, "missing_gap_and_newest_tie_test": true}, "forecast_tests": {"count": 63, "max_price_error": 4.547473508864641e-13, "direct_forecast_and_future_perturbation_passed": true}, "passed": true}
+{"evaluated": "p1_q1", "adf_sharpe": -0.001681735528277989, "d1_sharpe": 0.026642861479724004}
+{"evaluated": "p1_q2", "adf_sharpe": -0.020309306478174458, "d1_sharpe": 0.006642674915392766}
+{"evaluated": "p1_q3", "adf_sharpe": 0.018590710946390098, "d1_sharpe": 0.048231474861401905}
+{"evaluated": "p1_q4", "adf_sharpe": 0.02313493674330627, "d1_sharpe": 0.047482746041741145}
+{"evaluated": "p1_q5", "adf_sharpe": 0.011122905204822455, "d1_sharpe": 0.031016273851661464}
+{"evaluated": "p2_q1", "adf_sharpe": -0.002459000559282855, "d1_sharpe": 0.027117291816082648}
+{"evaluated": "p2_q2", "adf_sharpe": -0.012345345635276313, "d1_sharpe": 0.03073375366570252}
+{"evaluated": "p2_q3", "adf_sharpe": 0.009694532005909992, "d1_sharpe": 0.030133845985816855}
+{"evaluated": "p2_q4", "adf_sharpe": 0.003229959171695401, "d1_sharpe": 0.023689023200151354}
+{"evaluated": "p2_q5", "adf_sharpe": -0.03180873949491195, "d1_sharpe": -0.01318521810154248}
+{"evaluated": "p3_q1", "adf_sharpe": 0.03687963598598094, "d1_sharpe": 0.07544245690903652}
+{"evaluated": "p3_q2", "adf_sharpe": -0.003724390783749525, "d1_sharpe": 0.026215888259808025}
+{"evaluated": "p3_q3", "adf_sharpe": 0.0046958399498358665, "d1_sharpe": 0.014505270779863496}
+{"evaluated": "p3_q4", "adf_sharpe": -0.0060438034093148255, "d1_sharpe": 0.01870416276978319}
+{"evaluated": "p3_q5", "adf_sharpe": -0.03186029905611339, "d1_sharpe": -0.032598315484074936}
+{"evaluated": "p4_q1", "adf_sharpe": 0.02063143373473026, "d1_sharpe": 0.038964803777068416}
+{"evaluated": "p4_q2", "adf_sharpe": -0.03631289862475046, "d1_sharpe": -0.02369439766787547}
+{"evaluated": "p4_q3", "adf_sharpe": -0.013145552700747177, "d1_sharpe": 0.002422163379939812}
+{"evaluated": "p4_q4", "adf_sharpe": -0.04507375521202372, "d1_sharpe": -0.03638571843577217}
+{"evaluated": "p4_q5", "adf_sharpe": -0.013699664590265191, "d1_sharpe": -0.0036433453436341616}
+{"evaluated": "p5_q1", "adf_sharpe": 0.019973047675480412, "d1_sharpe": 0.06042371983854627}
+{"evaluated": "p5_q2", "adf_sharpe": -0.011234667357633996, "d1_sharpe": 0.019966814479369727}
+{"evaluated": "p5_q3", "adf_sharpe": -0.007160994865776651, "d1_sharpe": 0.011938240256274995}
+{"evaluated": "p5_q4", "adf_sharpe": -0.032918887601156126, "d1_sharpe": -0.013299778812582843}
+{"evaluated": "p5_q5", "adf_sharpe": -0.05551760637351192, "d1_sharpe": -0.0477619767342912}
+Traceback (most recent call last):
+  File "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_arima_adf_annual_20261004/evaluate.py", line 351, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_arima_adf_annual_20261004/evaluate.py", line 345, in main
+    result=summarize(ctx,adf,d1,base,{'v7_equal':hb,'fixed_d1_annual_selector':h1,'adf_annual_selector':ha},choices1+choicesa,controls)
+  File "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_arima_adf_annual_20261004/evaluate.py", line 272, in summarize
+    for daily in families['fixed_d1']+families['adf']+[adf_path,d1_path]+list(controls.values()):common &= daily.OfficialDailySpread.notna().to_numpy()
+                                                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: output array is read-only
+{"common_days": 953, "strategies": [{"strategy": "v7_equal", "period": "all", "days": 953, "scored_days": 953, "sharpe": 0.007678871562421089, "mean_daily_rank_ic": -0.0007338924981283135, "rank_ic_days": 952, "mean_spread": 0.009116532667688235, "std_spread": 1.1872229654553386, "mean_daily_target_mse": 0.0006654329991343364}, {"strategy": "fixed_d1_annual_selector", "period": "all", "days": 953, "scored_days": 953, "sharpe": 0.01098827818644702, "mean_daily_rank_ic": 0.0005008037047136767, "rank_ic_days": 952, "mean_spread": 0.0066123026929892515, "std_spread": 0.6017596734258956, "mean_daily_target_mse": 0.0006048466370617144}, {"strategy": "adf_annual_selector", "period": "all", "days": 953, "scored_days": 953, "sharpe": -0.03981161845239869, "mean_daily_rank_ic": 0.00026910020620592504, "rank_ic_days": 952, "mean_spread": -0.026233215354574114, "std_spread": 0.6589336574181284, "mean_daily_target_mse": 0.0006135420095118669}, {"strategy": "fixed_311_posthoc_reference", "period": "all", "days": 953, "scored_days": 953, "sharpe": 0.07544245690903652, "mean_daily_rank_ic": 0.0023975463097274862, "rank_ic_days": 952, "mean_spread": 0.046875950376139564, "std_spread": 0.6213470808971593, "mean_daily_target_mse": 0.0005989788083833079}, {"strategy": "d1_at_adf_orders", "period": "all", "days": 953, "scored_days": 953, "sharpe": -0.02179549787660687, "mean_daily_rank_ic": 0.0005911453597587427, "rank_ic_days": 952, "mean_spread": -0.013169798077454506, "std_spread": 0.6042439659793073, "mean_daily_target_mse": 0.0006101526913972067}, {"strategy": "d1_at_adf_orders_matched_adf_coverage", "period": "all", "days": 953, "scored_days": 953, "sharpe": -0.02256045161692866, "mean_daily_rank_ic": 0.0005581621613628437, "rank_ic_days": 952, "mean_spread": -0.013537211523870052, "std_spread": 0.6000416903760982, "mean_daily_target_mse": 0.000610054924675169}], "baseline_metric_error": 4.683753385137379e-17, "formal_test_used": false}
+Matplotlib is building the font cache; this may take a moment.
+{"report": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_arima_adf_annual_20261004/REPORT.md", "main_sharpe": -0.0398116184523986, "relative_to_fixed_d1_annual": -0.0507998966388456, "new_fit_statuses": {"ok": 11265, "fit_not_converged_or_invalid": 6, "training_exception": 4}}

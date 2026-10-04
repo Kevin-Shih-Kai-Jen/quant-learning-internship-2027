@@ -268,7 +268,7 @@ def bootstrap(values,reference_index):
 def summarize(ctx,adf_path,d1_path,base,holdings,choices,controls):
     families={family:[pd.read_csv(OUT/family/f'p{p}_q{q}'/'daily.csv',parse_dates=['Date']) for p,q in ORDERS]
               for family in ['fixed_d1','adf']}
-    common=base.OfficialDailySpread.notna().to_numpy()
+    common=base.OfficialDailySpread.notna().to_numpy().copy()
     for daily in families['fixed_d1']+families['adf']+[adf_path,d1_path]+list(controls.values()):common &= daily.OfficialDailySpread.notna().to_numpy()
     common_dates=ctx['cal'].loc[common].copy();common_dates.to_csv(OUT/'common_calendar.csv',index=False)
     excluded=ctx['cal'].loc[~common].copy();excluded.to_csv(OUT/'excluded_dates.csv',index=False)

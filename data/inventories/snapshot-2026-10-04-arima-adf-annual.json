@@ -1,0 +1,2079 @@
+{
+  "schema_version": 1,
+  "tag": "snapshot-2026-10-04-arima-adf-annual",
+  "excluded": {},
+  "files": [
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/.gitignore",
+      "size": 32,
+      "sha256": "c2fd42503971c82ceee228a89060e87a51ec8fbce0db55da9aadc3f33d317c04",
+      "mtime_ns": 1791115997101646282,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/README.md",
+      "size": 3695,
+      "sha256": "b1a0d15516070d94884fb012572252ad170125c2a410889264eda655331ed646",
+      "mtime_ns": 1791116152866107179,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/REPORT.md",
+      "size": 9673,
+      "sha256": "25547c5a42ae9d8ca15963b1b1587588378681c24dfd3de4671efd9ab64e7265",
+      "mtime_ns": 1791116647475945099,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf_decisions.csv",
+      "size": 1739547,
+      "sha256": "14af1bc08ba97f0b99d3037dadba3c56d9390505e1ab4bdcc65bfac48fba7f0b",
+      "mtime_ns": 1791114772289334695,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf_decisions.json",
+      "size": 20494955,
+      "sha256": "cfa6b7ec24b384cf1d9963e246debc6b8bb74ab46cd94cc464f81fcf1e92d87a",
+      "mtime_ns": 1791114772129956254,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf_progress.json",
+      "size": 136,
+      "sha256": "8172f4f7cba4d435e23d638465d1c810ed50494f568ffc18cabf65502dcb705b",
+      "mtime_ns": 1791114771641437893,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf_segment_diagnostics.json",
+      "size": 626,
+      "sha256": "d5987d2671c0f4094a9add65ca7f76ab8df26906bc9b9ae4d94d423e5ee86709",
+      "mtime_ns": 1791116055717929958,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf_summary.json",
+      "size": 676,
+      "sha256": "9cdc10e5f4bb7a7da6e98b4d7b2830a4dcb672a9484cf78017b3c3c97e943246",
+      "mtime_ns": 1791114772295862212,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/annual_candidates.csv",
+      "size": 26632,
+      "sha256": "f4d0a43c5660f019e80aeaa55364b57599ff14f88f3000fec378a8290fc82d0e",
+      "mtime_ns": 1791116647476623275,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/build_report.py",
+      "size": 15035,
+      "sha256": "56507bbd40467f718f3cf3cb387faaeef96fdf7f987aea0744862514ef74d071",
+      "mtime_ns": 1791116641073224046,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/candidate_heatmaps.png",
+      "size": 169466,
+      "sha256": "15e0a017508c3b9d888a52dbfd9317ef6e489a938583c5734aca542ab7b1403c",
+      "mtime_ns": 1791116646723282966,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/candidate_summaries.json",
+      "size": 16373,
+      "sha256": "c1406e46e71854dff937acef77b1b2bf2c2f186f0fda5a0af63ad9dbfe58103c",
+      "mtime_ns": 1791116602374374580,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/check_numerics.py",
+      "size": 6516,
+      "sha256": "5252661252c19c527db3d04e3a3b6dcd3b2528c8d12279e606697cb023a530a6",
+      "mtime_ns": 1791115288667822225,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/common.py",
+      "size": 1282,
+      "sha256": "0596d77a00df899a9f1e3b0b16080e8ecb22bbe8c4bb08eb79f4bc7d5521305b",
+      "mtime_ns": 1791115997013677584,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/common_calendar.csv",
+      "size": 36253,
+      "sha256": "d788a948bf6e138f3bd08cb17b98b0cdd8220fb89622770dc2215a6190ab73f4",
+      "mtime_ns": 1791116647477240578,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/computation_status.json",
+      "size": 36,
+      "sha256": "b6a462c6bf121932a24e32beddfe4f4f755cbff3668266c8f5a12909cf450b51",
+      "mtime_ns": 1791116629434488648,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/config.json",
+      "size": 965,
+      "sha256": "747c4bec2f449f3e053e7482265a6b6e22190e66579875685074a530aee4d69b",
+      "mtime_ns": 1791114535322468513,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/configure_from_snapshot.py",
+      "size": 2463,
+      "sha256": "05d88063a09e9de1395b5dc5ddc95affe0ee07940af99534c55f3f6e12a29b6e",
+      "mtime_ns": 1791115997144165598,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/cost_sensitivity.csv",
+      "size": 1478,
+      "sha256": "efe52a7b4d771f7f0e8358663d1f1bd0cec916686ecdb5d73d3b6755be693313",
+      "mtime_ns": 1791116647476932843,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/coverage_diagnostic_plan.md",
+      "size": 1316,
+      "sha256": "ce1aadbe60216f095911f5db64e40000795909fc90fed6fa68d8678a3f4809f7",
+      "mtime_ns": 1791115730195572048,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/environment.json",
+      "size": 409,
+      "sha256": "2101697e1d3f82df0e8835f41d1d5e30194aefacf08a51cb6cd25340fbb3aeab",
+      "mtime_ns": 1791116055775743617,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/evaluate.py",
+      "size": 21723,
+      "sha256": "d48f67b6a77214bcbc1e789e25498b43197a96e6e6c18a4caaed1250f372621b",
+      "mtime_ns": 1791116600704358164,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/evaluation_repair_log.json",
+      "size": 426,
+      "sha256": "89748ef4b0e8f7709df3c47b0e3eb83241ad54e15a348205099ece91e66e9bb9",
+      "mtime_ns": 1791116600778059720,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/evaluation_summary.json",
+      "size": 2389,
+      "sha256": "2f192df53aa699f5d65422dfdc6794a9f816f6294fc73214e96112a0a39642b4",
+      "mtime_ns": 1791116614277109943,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/excluded_dates.csv",
+      "size": 39,
+      "sha256": "dcf622e1b08a997c6c0112a084860318d1e22c0b471012ec881e9cdd40bdb50a",
+      "mtime_ns": 1791116647477510940,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/execution_code_hashes.json",
+      "size": 716,
+      "sha256": "454f157aa261442ba2ebc93af5680d136e948556177911885afa2eb6e0ac5485",
+      "mtime_ns": 1791115786601540593,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/experiment_plan.md",
+      "size": 5687,
+      "sha256": "397d44819956d69a43f4471a919117cd5232928009c5eba67dca9a196158f597",
+      "mtime_ns": 1791114535300181593,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/final_code_hashes.json",
+      "size": 917,
+      "sha256": "03792e4b43e432bd8c4ce45a52a7210dc98344ff9a30c05fd65154d01a1c7c94",
+      "mtime_ns": 1791116672002841976,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/fit_adf_grid.py",
+      "size": 12365,
+      "sha256": "441aa3a542f2fa23a3d7a744e417261884288e5779b84802104ca274003e68d1",
+      "mtime_ns": 1791114872903536742,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/fit_audit_summary.json",
+      "size": 3700,
+      "sha256": "3d1466f46529744e8f887ee52edbe7cf25c3bf244fcf8d9cae1f38ccc1b315c5",
+      "mtime_ns": 1791116647452539733,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/fit_manifest.json",
+      "size": 468,
+      "sha256": "f388c057bcde4350ea13ed0d54fe48a8a90f6469effae2d0c5328eb423ad6e62",
+      "mtime_ns": 1791114874451243206,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/fit_progress.json",
+      "size": 293,
+      "sha256": "b79ed2814dbf76e4d0d1f01b60a8d488790ddbc7900f467d3a31a5fe536d72fa",
+      "mtime_ns": 1791116503944557611,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/fixed_d1_selection_precheck.json",
+      "size": 28243,
+      "sha256": "2452cd34e82d8ee826f3cee6e0e95d69f6ac590ee7a31aace040cb68eed85bdf",
+      "mtime_ns": 1791115786273768840,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/leaderboard.csv",
+      "size": 9654,
+      "sha256": "dea50cab733fa476e05701fe50513a37369bd1d3de0ab774a7f50967ef18c07e",
+      "mtime_ns": 1791116647476289083,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/new_fits.sqlite",
+      "size": 92602368,
+      "sha256": "88883cad1aeac1348f6c2344bb69d2713ba02db8c0621752f895212e35d24093",
+      "mtime_ns": 1791116671969932179,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/numerical_checks.json",
+      "size": 11110,
+      "sha256": "79f8d9d624adc29d595d4203e93c79cab6d1e7d2d5b08995d26719945f845e63",
+      "mtime_ns": 1791116511454610163,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/pilot_progress.json",
+      "size": 212,
+      "sha256": "444ef94a2c28ca35c47e9188a5e65e69e4b3174996e9b59413149f15b2a19a0f",
+      "mtime_ns": 1791114884434405402,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/pipeline.log",
+      "size": 6388,
+      "sha256": "8df3df3ecd46c8174972e623d52e32867bf3380d3d03ca6ae5f0d9109b09bc44",
+      "mtime_ns": 1791116629336364609,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/prepare_adf.py",
+      "size": 6458,
+      "sha256": "92bf43a0965ddd55a3adab53821daa528638734ebb0e15418732a87229b7d3b0",
+      "mtime_ns": 1791114716453165633,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/prepare_sources.py",
+      "size": 3808,
+      "sha256": "830d4600f420bb48b25fcc4e1891b955d1e1d8845a453bd86ea3c7fe5e95a5b6",
+      "mtime_ns": 1791114716431683090,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/replay_preparation_check.json",
+      "size": 149,
+      "sha256": "aac3a23fd0c0aa4d0a685ee5a32996f3a7fe909efe03457a67978969df67ef49",
+      "mtime_ns": 1791116616274731202,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/results.json",
+      "size": 87450,
+      "sha256": "a4ec40072901056831e7eb1121f3824964dbd56132ae4991d4d1bb306b824798",
+      "mtime_ns": 1791116614276536346,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/source_local_verification.json",
+      "size": 17865,
+      "sha256": "f784edc20c6fb80ca41ab9dacc39c8537ab66a5d710bf35f004864ce877282c3",
+      "mtime_ns": 1791114720224921390,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/source_plan.json",
+      "size": 45918,
+      "sha256": "bda7f47c229ceabcb696b30fed9a2ac6728733bf9d5b553a4a4400859c57e872",
+      "mtime_ns": 1791114443880145861,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/source_range_probe.json",
+      "size": 209,
+      "sha256": "614e7c7290aecef9421275f3761cb5ca667f77be0337beb255cd3ff09cbd757b",
+      "mtime_ns": 1791115041440977185,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/source_remote_verification.json",
+      "size": 988,
+      "sha256": "d7b3bede50e0fa1a41c439796fa4ce53b430506f7ecdabe53b5aee90fa2e8166",
+      "mtime_ns": 1791115679465092523,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/sqlite_finalization.json",
+      "size": 120,
+      "sha256": "322ca3ba524191c10a252f0ce371714faf13f93e2a5a1226cc601d4f32c21ea6",
+      "mtime_ns": 1791116672000034220,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/strategy_comparison.png",
+      "size": 125367,
+      "sha256": "991f1c5be97e8a53669659c6d81bdeb8c7aeaf734497f6186a511b4e93d022a0",
+      "mtime_ns": 1791116646845792825,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/strategy_metrics.csv",
+      "size": 5356,
+      "sha256": "0d59e5b3df471b76d19f7570ae8804b325b8ca92f595db9ee878ed6472810865",
+      "mtime_ns": 1791116647476793225,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/strategy_results.json",
+      "size": 20719,
+      "sha256": "adbc17eb1e40a9b4d432a7fc5b77bd8445dc6fc51325196347ee1e250965f62b",
+      "mtime_ns": 1791116647477880839,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/sync_status.json",
+      "size": 172,
+      "sha256": "0deb5b30e76caf1c8a6c7e26eafc435aa2609f88327d1fd3a090500382f32dec",
+      "mtime_ns": 1791116672003208007,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/verify_published_snapshot.py",
+      "size": 4512,
+      "sha256": "7eaa480849d12bbf5f7904b5497f9f656cd83d272aaa1199c2b728799ce88e7a",
+      "mtime_ns": 1791116478823628257,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/verify_remote_price.py",
+      "size": 3814,
+      "sha256": "d84b82fc92d5ec332bed85220329bb492ec65d3a41dc1ad8925fa0d4e675174a",
+      "mtime_ns": 1791115653760555515,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p1_q1/daily.csv",
+      "size": 91761,
+      "sha256": "890dad401ce0998616010051207094f123ebfb83305af16450e88fdf33bb2b45",
+      "mtime_ns": 1791116515686053866,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p1_q1/new_parameters.csv.gz",
+      "size": 18801,
+      "sha256": "17ce0a47d805e431a21e6927fd8466b65b9b295bc747ac098e95781813ba3300",
+      "mtime_ns": 1791116515691210825,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p1_q1/predictions.npz",
+      "size": 15685857,
+      "sha256": "36bebd67d29fa2e6c190f2ab76c657392ab0125dcf24876f434cf3d68b83f2d6",
+      "mtime_ns": 1791116515681147937,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p1_q1/summary.json",
+      "size": 599,
+      "sha256": "0f4854d029217cb19cd79b1c81863f5cca0f2fa830982b6672bad192b5fed296",
+      "mtime_ns": 1791116515693225686,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p1_q2/daily.csv",
+      "size": 91803,
+      "sha256": "1b3dc0087d321f76e4c1093ea50834c190f80c8bb3d138cf38e258a1177b56c2",
+      "mtime_ns": 1791116518429503673,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p1_q2/new_parameters.csv.gz",
+      "size": 23207,
+      "sha256": "32dd69466fe03465f644bbb628a8180be80f3b15432d0b10f6b28368cda2f1b2",
+      "mtime_ns": 1791116518435926028,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p1_q2/predictions.npz",
+      "size": 15824502,
+      "sha256": "5f1f2fc525dd79a55142e87adc902f8913e392cb20432636bc491f5f215bc36c",
+      "mtime_ns": 1791116518425045097,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p1_q2/summary.json",
+      "size": 598,
+      "sha256": "333ddfb516c726a4ce6a174361f895e74db439c563ce622881fcd3abd24bffe2",
+      "mtime_ns": 1791116518437926348,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p1_q3/daily.csv",
+      "size": 91810,
+      "sha256": "c740dcfc8f0e470f169cf235d0564cb1fa47523f4f07781a0758a1f22ea7a937",
+      "mtime_ns": 1791116521131505944,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p1_q3/new_parameters.csv.gz",
+      "size": 27588,
+      "sha256": "a9e9cd47939195abc1c262bfddaa5398aa8ff1248648ff5e45b98899cee088b5",
+      "mtime_ns": 1791116521139021455,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p1_q3/predictions.npz",
+      "size": 15857083,
+      "sha256": "bba3553c6fdf1eff29ddd30878d9cb4dc3fb0647716be0aea7df6cdacd3b31b7",
+      "mtime_ns": 1791116521127308564,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p1_q3/summary.json",
+      "size": 596,
+      "sha256": "5eee6a5e78652b04fe74201c0befe3cf04fe2f69f7ba03ebffb755bd4a269094",
+      "mtime_ns": 1791116521141015609,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p1_q4/daily.csv",
+      "size": 91747,
+      "sha256": "69b7ce230661ef42f7651079a4bee6beb102166369004a87d7f9db59899b4797",
+      "mtime_ns": 1791116523803739408,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p1_q4/new_parameters.csv.gz",
+      "size": 31845,
+      "sha256": "9d9c459c0519fa6aef53196df123bedb9a049dbd95af2c090373900989af6123",
+      "mtime_ns": 1791116523812660767,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p1_q4/predictions.npz",
+      "size": 15891105,
+      "sha256": "086d1550783708618259abad3f4a2590ec35ae483b2b74441cd9b7ffd9120a93",
+      "mtime_ns": 1791116523799335996,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p1_q4/summary.json",
+      "size": 594,
+      "sha256": "3beacf2249e7da381ed0df947551305c7e50e3623803347459194c60e6b677a6",
+      "mtime_ns": 1791116523814675337,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p1_q5/daily.csv",
+      "size": 91704,
+      "sha256": "d268ed12d7c0fa6dd06be66ee038ccbd8e45a0499c4d94399d3be8c9f5aa66c4",
+      "mtime_ns": 1791116526492547485,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p1_q5/new_parameters.csv.gz",
+      "size": 36004,
+      "sha256": "45faad7dff42fc3abbf61444ac09b5a43bbfce20f46d6be67ac20871cadbbb59",
+      "mtime_ns": 1791116526502763657,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p1_q5/predictions.npz",
+      "size": 15919803,
+      "sha256": "99e0b207ca1afe1b5adf72259fe3086b1961c904700c7909338c49d0caad7033",
+      "mtime_ns": 1791116526488409894,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p1_q5/summary.json",
+      "size": 596,
+      "sha256": "adfe02e58ca0a171ca62ebedce38a622bcdaada51576bf75aa3300fdb57c4e41",
+      "mtime_ns": 1791116526504742520,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p2_q1/daily.csv",
+      "size": 91757,
+      "sha256": "61ae1986d122eb149170d630954a4577202615bb7d504eb21b8acd10caa624f7",
+      "mtime_ns": 1791116529194118403,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p2_q1/new_parameters.csv.gz",
+      "size": 23297,
+      "sha256": "10e4d52d70b91cf37916df494e650bf20dc2149d8955d9f808c2eed980324863",
+      "mtime_ns": 1791116529200076781,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p2_q1/predictions.npz",
+      "size": 15815425,
+      "sha256": "49be08bfb66d0750f5edf0ecb97607e34170aaa8992dcb606437e101d0a4c51e",
+      "mtime_ns": 1791116529189988645,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p2_q1/summary.json",
+      "size": 638,
+      "sha256": "63f2a1a9f3d7e4f073993abdce9d7a87f36c68190f7baecd4bca1b01d65531c1",
+      "mtime_ns": 1791116529202072435,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p2_q2/daily.csv",
+      "size": 91810,
+      "sha256": "e7a76ac2af8ad48f0279775be2c7110c3d5cffe011b8e90104e19a65cad0a105",
+      "mtime_ns": 1791116531821890311,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p2_q2/new_parameters.csv.gz",
+      "size": 27683,
+      "sha256": "d5129c8b8e8c60afc33fd42b78d611a6ef547d5f47999cc96f7782601e1d028a",
+      "mtime_ns": 1791116531828880223,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p2_q2/predictions.npz",
+      "size": 15985345,
+      "sha256": "84dfbe1e5237ffb432cd04a759e2d6af9e1fa756ec4c8e4232c1ee0d25d290bd",
+      "mtime_ns": 1791116531817697806,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p2_q2/summary.json",
+      "size": 597,
+      "sha256": "084fea3f35b2108d09c6ca086fe255a225c58da2d7a3d6194f35ce4833aa3aaa",
+      "mtime_ns": 1791116531830867585,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p2_q3/daily.csv",
+      "size": 91777,
+      "sha256": "50103073345ee1efdab654ad0b33fdd143b029a6751183ccbf769e19f7a277fa",
+      "mtime_ns": 1791116534380043175,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p2_q3/new_parameters.csv.gz",
+      "size": 32024,
+      "sha256": "dfbe95c833cc60431965e4ae1cbdb369bf167c248cab5482c127af0192ac0878",
+      "mtime_ns": 1791116534388265193,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p2_q3/predictions.npz",
+      "size": 15993302,
+      "sha256": "49f0565af1d0976a4177cdcf000da8a4fc405b97b3aa7f9f938825bd05a2651c",
+      "mtime_ns": 1791116534375722717,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p2_q3/summary.json",
+      "size": 597,
+      "sha256": "f9e1352e6243d8b1e4b914a7efec2329fa787bd17d70e57cba7bef55cadb4714",
+      "mtime_ns": 1791116534390287762,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p2_q4/daily.csv",
+      "size": 91748,
+      "sha256": "ba50d35272f2ab9818b314c7d469dc284b7eace801db97185078dfee304545e7",
+      "mtime_ns": 1791116536970561678,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p2_q4/new_parameters.csv.gz",
+      "size": 36249,
+      "sha256": "883a7bc2a2c328e224bc96ee73f8d397983d36aa42f56e092500c0c29e92470d",
+      "mtime_ns": 1791116536980046261,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p2_q4/predictions.npz",
+      "size": 16019972,
+      "sha256": "3ce00cbd9d01bfb2dabcdaaf33131aea287fdfb97877c1f9d31eeffed1e05ccf",
+      "mtime_ns": 1791116536966217847,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p2_q4/summary.json",
+      "size": 596,
+      "sha256": "38d19ef336c2babb6027e939e2c77acc8903e1249f261434c05f8da922596740",
+      "mtime_ns": 1791116536982027415,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p2_q5/daily.csv",
+      "size": 91803,
+      "sha256": "d2deca37c0de644ba858a93dc47831d454e4f53ea24174e41866d47d16f8e8e6",
+      "mtime_ns": 1791116539509972450,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p2_q5/new_parameters.csv.gz",
+      "size": 40512,
+      "sha256": "67b368999e29ff356df6ebb2466d91bce6df462add3a6900a6a72be0e0d9d715",
+      "mtime_ns": 1791116539520826882,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p2_q5/predictions.npz",
+      "size": 16033885,
+      "sha256": "72313decdcdbe844b663605bc5c3a0b3e83fd163a007a716f8b9dbe05f62816b",
+      "mtime_ns": 1791116539505669283,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p2_q5/summary.json",
+      "size": 577,
+      "sha256": "fb64cfc64cfbf3bc8d193a16309660e975f4f2af252fc2f93f61dcf60a8c400a",
+      "mtime_ns": 1791116539522812453,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p3_q1/daily.csv",
+      "size": 91683,
+      "sha256": "fb6d88571ebea53af26dad83f9a04557c19badc0dc9d11ef8b9859adeaebc5f8",
+      "mtime_ns": 1791116542178421305,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p3_q1/new_parameters.csv.gz",
+      "size": 27665,
+      "sha256": "31b9b0f13fc37b79b849a2e664abcb0b047e5fa97bedbe1bb5d02f0f003bba0e",
+      "mtime_ns": 1791116542185747533,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p3_q1/predictions.npz",
+      "size": 15843791,
+      "sha256": "922c3e5417bfe4464cea04f21e3a35eca203d3220fa43afc493754298dfaa3a7",
+      "mtime_ns": 1791116542174145470,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p3_q1/summary.json",
+      "size": 624,
+      "sha256": "8adfa6571fd51cd3b05475ee1813cc86457b314f47e4baff0017b9a67b9c1659",
+      "mtime_ns": 1791116542187750853,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p3_q2/daily.csv",
+      "size": 91848,
+      "sha256": "57ec7b5895e4706d929ef85aa9d6cdd2da659f54e7d27e49d9b16bf1bb68483d",
+      "mtime_ns": 1791116544829195516,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p3_q2/new_parameters.csv.gz",
+      "size": 31674,
+      "sha256": "0e7214f6a378f37e5d866e411a87df32ff01ae345bc053e98e84f590e3b1ea6b",
+      "mtime_ns": 1791116544837232793,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p3_q2/predictions.npz",
+      "size": 15997181,
+      "sha256": "43fe9a2c758807f0e8465f306940f4a162843c148c922574d60f95907928212b",
+      "mtime_ns": 1791116544824788396,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p3_q2/summary.json",
+      "size": 597,
+      "sha256": "77e03fb2a17796560e7d7f44ad2d6fefec3115b796605dbd4790799213515d90",
+      "mtime_ns": 1791116544839209822,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p3_q3/daily.csv",
+      "size": 91778,
+      "sha256": "da7752026294cdf9529401e8faa4163f0dbf6259882c8eedfccc4e735785dd4e",
+      "mtime_ns": 1791116547404492466,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p3_q3/new_parameters.csv.gz",
+      "size": 35975,
+      "sha256": "18b3be63b6443af9161b020d162b1e88b9ee8812dbf8c84ffc8f09d3d9d291ae",
+      "mtime_ns": 1791116547413467156,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p3_q3/predictions.npz",
+      "size": 16038276,
+      "sha256": "c91a8bb48f54c689dbf445d411883c785c2605a1677e6c1b98dc6fc8bc956f28",
+      "mtime_ns": 1791116547400094762,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p3_q3/summary.json",
+      "size": 596,
+      "sha256": "62cf72574b0c409033daf952651e8bf490666fabbefdf97cab60ab9c580f297d",
+      "mtime_ns": 1791116547415445227,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p3_q4/daily.csv",
+      "size": 91858,
+      "sha256": "0292618e17e48f0789e2d424161d9b4784fd2ba20ea3806b4c196e75c6d25186",
+      "mtime_ns": 1791116549932839313,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p3_q4/new_parameters.csv.gz",
+      "size": 40181,
+      "sha256": "de64b7af0d23e2e39cf7dda711967fde21d3e690c7ad7bcfdc9693c130f47c05",
+      "mtime_ns": 1791116549943243518,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p3_q4/predictions.npz",
+      "size": 16058769,
+      "sha256": "0f964e25b09a6b41522b4de43e19276e82770a08f3596efdecc0527706eefc6c",
+      "mtime_ns": 1791116549928399737,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p3_q4/summary.json",
+      "size": 598,
+      "sha256": "511e30259c8b1f0165c430637dc0636de5ef2761c7a578f2f38d42c3db9d499e",
+      "mtime_ns": 1791116549945372290,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p3_q5/daily.csv",
+      "size": 91715,
+      "sha256": "4d7b5d0c82a3fb06ab2f918b12fe49e648df7219d7699676d8af32437cfb2d9a",
+      "mtime_ns": 1791116552487669546,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p3_q5/new_parameters.csv.gz",
+      "size": 44473,
+      "sha256": "7d7c841d172af5761dc6f85f1bd2bf78c18578e4a10127a3b9554286dc796ce7",
+      "mtime_ns": 1791116552498927043,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p3_q5/predictions.npz",
+      "size": 16068130,
+      "sha256": "45adfd048872a24c787c36f6064d1fee2260ffe74c52a7c6c007f27d937b0095",
+      "mtime_ns": 1791116552483267176,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p3_q5/summary.json",
+      "size": 636,
+      "sha256": "ed63e36e6b340ae273a12247529cde5310232ed869e60c9d2c6727fc1a6a67d6",
+      "mtime_ns": 1791116552500907780,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p4_q1/daily.csv",
+      "size": 91796,
+      "sha256": "175fa5159c4d68985ff1dc295e58a202fd8ea66ac0a79b7af1d418363168fb33",
+      "mtime_ns": 1791116555133186095,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p4_q1/new_parameters.csv.gz",
+      "size": 31929,
+      "sha256": "70b7e56391376d6989dfaffbe1e3b1d89276fa0f638c1911bbd79cf4780898da",
+      "mtime_ns": 1791116555142249823,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p4_q1/predictions.npz",
+      "size": 15875940,
+      "sha256": "a07ec06b21dae228ec335b7bf28f66187e952d5f89416c8890164d5fe0398646",
+      "mtime_ns": 1791116555128328372,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p4_q1/summary.json",
+      "size": 594,
+      "sha256": "b89d4903172feaf3ddb9815ab619636ec87b0f829152d8a0993cb2be5a517bdf",
+      "mtime_ns": 1791116555144402677,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p4_q2/daily.csv",
+      "size": 91814,
+      "sha256": "d4b8465459eb7051355a2372427d08ae9fe5d8ab614afec50a972dd4d118e10e",
+      "mtime_ns": 1791116557710329247,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p4_q2/new_parameters.csv.gz",
+      "size": 35846,
+      "sha256": "dae0752ff2d133ca530c4e9d2a4f38c9082a368daa17147633ae1054024bdc4a",
+      "mtime_ns": 1791116557719555425,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p4_q2/predictions.npz",
+      "size": 16005217,
+      "sha256": "ead8fb644f275c862008955f0f2c0e784b2c41f319c6b95b69da7ecb400645d8",
+      "mtime_ns": 1791116557705913294,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p4_q2/summary.json",
+      "size": 579,
+      "sha256": "2ed7470fdd2c0543e3bb65985320bd30cca257f605cd56394bfb22c016ca9442",
+      "mtime_ns": 1791116557721596576,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p4_q3/daily.csv",
+      "size": 91716,
+      "sha256": "a55d227de15e466a6310e8ca601db0f4b5297c350a47fa7e49d7bb1fcef4e652",
+      "mtime_ns": 1791116560235979059,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p4_q3/new_parameters.csv.gz",
+      "size": 40078,
+      "sha256": "7920d3934d08af0eda141e908e3a7615c61abe50cd68a9a873b41b74c49fb75b",
+      "mtime_ns": 1791116560245917453,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p4_q3/predictions.npz",
+      "size": 16035044,
+      "sha256": "ae8acbf690d0994324dbbd444465e77227784d041441ba87d6880c07a825903c",
+      "mtime_ns": 1791116560231429488,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p4_q3/summary.json",
+      "size": 597,
+      "sha256": "2a9b6b3a49967c9ccc22f85584e529ccce26bce2b5a7aba9a34a254407ad9ae1",
+      "mtime_ns": 1791116560247891399,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p4_q4/daily.csv",
+      "size": 91884,
+      "sha256": "71da9ed04a469a5d99ba86763775201b0e147b2635e7519c6102fa2d8e6a7eda",
+      "mtime_ns": 1791116562715208578,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p4_q4/new_parameters.csv.gz",
+      "size": 44353,
+      "sha256": "b130885c21d33b06e3704f7c22614eef971218d7971892609ca3c6c9b1ae2a41",
+      "mtime_ns": 1791116562726445867,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p4_q4/predictions.npz",
+      "size": 16099254,
+      "sha256": "5a0d35d5a1798d5ef09e30b772b0ccc817fb6221484d3275232c03e628860768",
+      "mtime_ns": 1791116562710461849,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p4_q4/summary.json",
+      "size": 596,
+      "sha256": "da57c843c66f7af814f5c37d316d4e1fa2a4fb53f2c7e0faff4e44e9a832d2cd",
+      "mtime_ns": 1791116562728432104,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p4_q5/daily.csv",
+      "size": 91803,
+      "sha256": "5a826a71e71e7313ecca493a52328d7e58612151cac5a7fd59178a0f429f4159",
+      "mtime_ns": 1791116565208232137,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p4_q5/new_parameters.csv.gz",
+      "size": 48538,
+      "sha256": "06d1da47f57c879d7701466b1790aec8523c4efb08530bf625f08c0811db3125",
+      "mtime_ns": 1791116565220565540,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p4_q5/predictions.npz",
+      "size": 16112504,
+      "sha256": "8e7ed22b775a2fc27f97b8bfb64f28dfb1a4cb12b41fcd4cfa38b5f8e6fa369b",
+      "mtime_ns": 1791116565203843058,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p4_q5/summary.json",
+      "size": 637,
+      "sha256": "ad5ba3268339ed414c1ab84c48dc31188e825a7758dc0d751b01c1fcfd04b8f5",
+      "mtime_ns": 1791116565222539486,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p5_q1/daily.csv",
+      "size": 91713,
+      "sha256": "bd30df41a4e3141a06276ca75d37c19ededb35f040ee124b18200ebbbfc0b6cc",
+      "mtime_ns": 1791116567827850023,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p5_q1/new_parameters.csv.gz",
+      "size": 36276,
+      "sha256": "620d87319d72ca9ac49b602e11aceb239b7b0e9152e71b4131410b03b4203e68",
+      "mtime_ns": 1791116567837391895,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p5_q1/predictions.npz",
+      "size": 15902238,
+      "sha256": "7f8680560e6f24c04b66b245a66d070feeb76266616bb2b6b535f147a4809f73",
+      "mtime_ns": 1791116567823559606,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p5_q1/summary.json",
+      "size": 596,
+      "sha256": "e47c046c9712f21176882e94fc7a503ac96ff7910c40d6bc19aa00e71a022677",
+      "mtime_ns": 1791116567839356049,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p5_q2/daily.csv",
+      "size": 91787,
+      "sha256": "3a9cfdf6417b6f4859fb7c5a82255e974f164dcc4b018bd978be77a07cf8f74f",
+      "mtime_ns": 1791116570395024992,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p5_q2/new_parameters.csv.gz",
+      "size": 40155,
+      "sha256": "6287c4eea7a593ee082514abf0688a4ad6b5799fecb6b0f7d5f97673a75ddcdf",
+      "mtime_ns": 1791116570405738806,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p5_q2/predictions.npz",
+      "size": 15998502,
+      "sha256": "dd06705fb8f5d784fc6305f12b949f01d5a361e7234bc8a0d448ce39c64ba6ac",
+      "mtime_ns": 1791116570390569582,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p5_q2/summary.json",
+      "size": 628,
+      "sha256": "addf3ed089199c531aa9bc8eb8eeaeb0c5a388636410c332e986689245240632",
+      "mtime_ns": 1791116570407762916,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p5_q3/daily.csv",
+      "size": 91796,
+      "sha256": "ed7df65e25dafec4230b2ecb046d9a751391b5a07c39398664d3ff8654fcfcd3",
+      "mtime_ns": 1791116572942811815,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p5_q3/new_parameters.csv.gz",
+      "size": 44239,
+      "sha256": "f22f59f3635ff0e41790ec442abac2450e8363eab2392b7108233e74d5c907ce",
+      "mtime_ns": 1791116572954073894,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p5_q3/predictions.npz",
+      "size": 16045756,
+      "sha256": "33726bfa3d5fef5374972a285311308cc85657b6148f57e8d8bb41a024f08e31",
+      "mtime_ns": 1791116572938408153,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p5_q3/summary.json",
+      "size": 597,
+      "sha256": "67257cc64f33ea8f2acf836ba348faecfcce25fae3240e46226ae989209cc8d0",
+      "mtime_ns": 1791116572956061132,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p5_q4/daily.csv",
+      "size": 91851,
+      "sha256": "20138bea71a5cfee30d649a0182a8db1fc2d306c49b8e0ba4c19f08a30425bfc",
+      "mtime_ns": 1791116575427100089,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p5_q4/new_parameters.csv.gz",
+      "size": 48119,
+      "sha256": "5ea1699abb46f5966811d1347cad6b4eb49c38d4cd882d6b081aa7acdd6c5f0a",
+      "mtime_ns": 1791116575439365953,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p5_q4/predictions.npz",
+      "size": 16089369,
+      "sha256": "1eb4e8c9af072a47512e9b23d4defa0971d79664918dcce5e0e97726950e1e1f",
+      "mtime_ns": 1791116575422708343,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p5_q4/summary.json",
+      "size": 626,
+      "sha256": "a3406104ec9f25b524c650a39a4e9a642e541c722d8341d60aec829bf904efa9",
+      "mtime_ns": 1791116575441478434,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p5_q5/daily.csv",
+      "size": 91723,
+      "sha256": "3e451cbdcf217f4810d37ef60e2d06f60593994eaad51262f6a05dae2f52d71c",
+      "mtime_ns": 1791116577888812039,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p5_q5/new_parameters.csv.gz",
+      "size": 52373,
+      "sha256": "d9127ba83eb8e6e59d1a3cebe294bab3628258cb2444e0f0e660e85d755b490e",
+      "mtime_ns": 1791116577902115061,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p5_q5/predictions.npz",
+      "size": 16118579,
+      "sha256": "8011bd694f5227d87526e11d5da3fce712e2c6e5f8694d40de87b8ad48f2a79e",
+      "mtime_ns": 1791116577884409710,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/adf/p5_q5/summary.json",
+      "size": 666,
+      "sha256": "1282109b78494b57f224c6528455bfbcc17cc8eeb9b3ccae4c025598a40db250",
+      "mtime_ns": 1791116577904069550,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/baseline/daily.csv",
+      "size": 90201,
+      "sha256": "586cd10881c77f06c5c002646d585a90787f29e7e74b5b5ccdcd83c80f2f4cef",
+      "mtime_ns": 1791116608716719223,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/baseline/holdings.npz",
+      "size": 998217,
+      "sha256": "7cfe47fbffbb8b993222997fba0c4e7a51192643ba0192d8697f05defabef79f",
+      "mtime_ns": 1791116608712348185,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/baseline/predictions.npz",
+      "size": 17222963,
+      "sha256": "fdeba21135ec9c6e478f2d773c2d101f5f30c4ce3d320f52facf8f02cfcc53c8",
+      "mtime_ns": 1791116608625179114,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/execution_sources/common.py",
+      "size": 1180,
+      "sha256": "0b81c72a575eadce35811078946975bb857114ea462fa3d7e24ce48720d8aa95",
+      "mtime_ns": 1791115996924264164,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/execution_sources/fit_adf_grid.py",
+      "size": 12365,
+      "sha256": "441aa3a542f2fa23a3d7a744e417261884288e5779b84802104ca274003e68d1",
+      "mtime_ns": 1791115996925250866,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/execution_sources/prepare_adf.py",
+      "size": 6458,
+      "sha256": "92bf43a0965ddd55a3adab53821daa528638734ebb0e15418732a87229b7d3b0",
+      "mtime_ns": 1791115996924745141,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/fixed_d1/p1_q1/daily.csv",
+      "size": 89606,
+      "sha256": "1e1f905d5d581baf6ce12a2f0970d61fa262089d1c0ac8e2f3a5d1f67f9b61c5",
+      "mtime_ns": 1791116513033375247,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/fixed_d1/p1_q1/parameters.csv.gz",
+      "size": 238600,
+      "sha256": "4baa6aaf5a2e099439176c67239f3644dc3f9426f50a1f44040ac3c57064e0ce",
+      "mtime_ns": 1791116513020593116,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/fixed_d1/p1_q1/predictions.npz",
+      "size": 15746556,
+      "sha256": "4ef14e4120a41d6cbce45a3c38d8ff9d642e3e5826b4c1ed66ff7ee1f2c83fdd",
+      "mtime_ns": 1791116513017347232,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/fixed_d1/p1_q2/daily.csv",
+      "size": 89558,
+      "sha256": "aae01e8f15655845cbbbe6c149db15b5491473fa235e06bd8301ecf9a7f01abb",
+      "mtime_ns": 1791116515760010076,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/fixed_d1/p1_q2/parameters.csv.gz",
+      "size": 312544,
+      "sha256": "83cb06c96602eaaede6fff7178ca08362727bcf987b3b5cba3931296ec7bc14e",
+      "mtime_ns": 1791116515749313844,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/fixed_d1/p1_q2/predictions.npz",
+      "size": 15909726,
+      "sha256": "943e3f2c72b914a431d98e000d6f9da5c3ecef4487ad3f063ccc8ebdb0e8c4bc",
+      "mtime_ns": 1791116515747379730,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/fixed_d1/p1_q3/daily.csv",
+      "size": 89620,
+      "sha256": "a9431efdbfdd28eb3d81d85fdbb5f401f1a42be9016a5d2d4ec53cbff432250e",
+      "mtime_ns": 1791116518507916917,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/fixed_d1/p1_q3/parameters.csv.gz",
+      "size": 385261,
+      "sha256": "7eb6366b908ae2f2823d354610defe3bae59d5b63304310fe76b4850cd305a6a",
+      "mtime_ns": 1791116518497034319,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/fixed_d1/p1_q3/predictions.npz",
+      "size": 15949772,
+      "sha256": "907452c7b19e9272c894b35279c1ffaab8e86e799ec8800764054f22d4ba4123",
+      "mtime_ns": 1791116518493302250,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/fixed_d1/p1_q4/daily.csv",
+      "size": 89616,
+      "sha256": "ccbecc59ff6154482e320c8b6acb6f1e16e734c40f80b1a642a2f5a846667882",
+      "mtime_ns": 1791116521209097437,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/fixed_d1/p1_q4/parameters.csv.gz",
+      "size": 457404,
+      "sha256": "47202c214b012c36046e07b16b5044a855a6e9dd4fe30da27d8eb5175da33f5e",
+      "mtime_ns": 1791116521198209673,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/fixed_d1/p1_q4/predictions.npz",
+      "size": 15986843,
+      "sha256": "950593272e9579c33d00eabda94fff8632657a0116a285c8cdab4c59a4e82097",
+      "mtime_ns": 1791116521195384143,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/fixed_d1/p1_q5/daily.csv",
+      "size": 89599,
+      "sha256": "67278e32b90c7beb686a3df4e786f74ba6096ff5f7a77c5021bde6877049f309",
+      "mtime_ns": 1791116523882940114,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/fixed_d1/p1_q5/parameters.csv.gz",
+      "size": 529116,
+      "sha256": "b297bcfba7eb4637dac4d7a8e61c6c3a6dd454d12a79cb2f5f9a89ad81972aef",
+      "mtime_ns": 1791116523872130679,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/fixed_d1/p1_q5/predictions.npz",
+      "size": 16018420,
+      "sha256": "510414c634b285710431c60b8125cef47613a32a87e7fbfcf51daa5d8554257e",
+      "mtime_ns": 1791116523870103902,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/fixed_d1/p2_q1/daily.csv",
+      "size": 89580,
+      "sha256": "970ea8fae11d2bc6c5c93a5f558ab9caaefb02923de4ac12dfdcfba71943d8c0",
+      "mtime_ns": 1791116526572402826,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/fixed_d1/p2_q1/parameters.csv.gz",
+      "size": 313093,
+      "sha256": "cac410ab28daefa082e4f4a78abad339e3424aaf80bbf75f5749756b6a4f8463",
+      "mtime_ns": 1791116526561688554,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/fixed_d1/p2_q1/predictions.npz",
+      "size": 15899189,
+      "sha256": "e6e3f8145b3d57a75f747721edd5073587f0e344e1840be6584b2ff6aa77cce0",
+      "mtime_ns": 1791116526559466495,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/fixed_d1/p2_q2/daily.csv",
+      "size": 89648,
+      "sha256": "c831cb41ab5f9b6b079aca0a5b0e624e5343540ebd613cabd08c72246190a2c9",
+      "mtime_ns": 1791116529272205038,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/fixed_d1/p2_q2/parameters.csv.gz",
+      "size": 381095,
+      "sha256": "fb5121b1ee834e333a40b8cb9502f64583c26f7ddbbe3bf4b44846834b93926d",
+      "mtime_ns": 1791116529261071453,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/fixed_d1/p2_q2/predictions.npz",
+      "size": 16088556,
+      "sha256": "4dd7292ed45f410d9ebc6a5479c31f6d703c3d27ecfd76174144bef2093feda9",
+      "mtime_ns": 1791116529258489119,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/fixed_d1/p2_q3/daily.csv",
+      "size": 89551,
+      "sha256": "6ffd3ed202fb811bd5e67618f454b999ebbd3b14b45907c83c6b31ad00c96489",
+      "mtime_ns": 1791116531901338005,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/fixed_d1/p2_q3/parameters.csv.gz",
+      "size": 454722,
+      "sha256": "b00b3e777f8cf2f6d473b1e1e2cbd45fdbc2224ba7e3f3e245358e84a506763d",
+      "mtime_ns": 1791116531890189962,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/fixed_d1/p2_q3/predictions.npz",
+      "size": 16102414,
+      "sha256": "4c5961f6ab24c77bc256a3248845cb682b7ac4cf446396e02ac96b54e5f250c2",
+      "mtime_ns": 1791116531887551381,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/fixed_d1/p2_q4/daily.csv",
+      "size": 89590,
+      "sha256": "5e75016c460fde6dd10ef2b1043b728e6e4655b149b7c7d9afa955ddd008f6fb",
+      "mtime_ns": 1791116534463609169,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/fixed_d1/p2_q4/parameters.csv.gz",
+      "size": 527531,
+      "sha256": "c0229dee535a8514258580acc62f8b445f7419e12aef50eaa579bc4ee1e2926f",
+      "mtime_ns": 1791116534452050521,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/fixed_d1/p2_q4/predictions.npz",
+      "size": 16130700,
+      "sha256": "4fb82cd747bf99f37edce96d8e9f9647d4a1bbaf15a7013eac6e67779d6520b5",
+      "mtime_ns": 1791116534449384025,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/fixed_d1/p2_q5/daily.csv",
+      "size": 89559,
+      "sha256": "1b7db893d9a105f1d5a4d716e6339bfc31e4bb1c6e110003563a9732259c77ef",
+      "mtime_ns": 1791116537058149270,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/fixed_d1/p2_q5/parameters.csv.gz",
+      "size": 599832,
+      "sha256": "243b821a04046547fe4ecf5e70fb16d4d8bde66b30bdc64246476abad361e380",
+      "mtime_ns": 1791116537047524035,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/fixed_d1/p2_q5/predictions.npz",
+      "size": 16145664,
+      "sha256": "e5e4dcf624196f5cc0f7b06ebc524b212d3080421531d9985362c537dfbabd45",
+      "mtime_ns": 1791116537043698553,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/fixed_d1/p3_q1/daily.csv",
+      "size": 89516,
+      "sha256": "e428f759c17d01881809a53461cf112103104f2221f035e4b0b2c0775e537ea0",
+      "mtime_ns": 1791116539592658362,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/fixed_d1/p3_q1/parameters.csv.gz",
+      "size": 385918,
+      "sha256": "a8b003af2cc23369ceba6180370f8d075c556f37e7837ed9303aa994b95942c4",
+      "mtime_ns": 1791116539581828261,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/fixed_d1/p3_q1/predictions.npz",
+      "size": 15929718,
+      "sha256": "aed6b1e38c20474847a287ee0f565ee847acc33421dd96ef216bd6f61ec2c14d",
+      "mtime_ns": 1791116539579730780,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/fixed_d1/p3_q2/daily.csv",
+      "size": 89608,
+      "sha256": "92436bd9d0d8273fbd323c5d83eeb51d89950334bbde77e689f84cbd4a84e653",
+      "mtime_ns": 1791116542256932503,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/fixed_d1/p3_q2/parameters.csv.gz",
+      "size": 454570,
+      "sha256": "7596b782e65cd34516d0a94533ebed07361ba70fffe773c2ddcd61980313482e",
+      "mtime_ns": 1791116542246170274,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/fixed_d1/p3_q2/predictions.npz",
+      "size": 16100039,
+      "sha256": "47866a960ae78d86993b24d61eeb710a11d768dbe534c8819106e5901ff57cbf",
+      "mtime_ns": 1791116542243447781,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/fixed_d1/p3_q3/daily.csv",
+      "size": 89558,
+      "sha256": "67f82279df1023de4584018197a4c7e062fea68bd98e87d7fd5e3f3e0aeaac53",
+      "mtime_ns": 1791116544914885782,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/fixed_d1/p3_q3/parameters.csv.gz",
+      "size": 522600,
+      "sha256": "a1933f3ed9e7e30676da2f04c54cc8c96ea55c458515e41bf32cef0d522f106e",
+      "mtime_ns": 1791116544904170718,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/fixed_d1/p3_q3/predictions.npz",
+      "size": 16150748,
+      "sha256": "7c64b07182276bb3986f811b17b283b06c98be1c10d415c1b2469acf0bd003e3",
+      "mtime_ns": 1791116544901114866,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/fixed_d1/p3_q4/daily.csv",
+      "size": 89556,
+      "sha256": "cd241e76e54ca16f37f7e6a1839901a7809d3a0a3a507cde7baea38b1629ff66",
+      "mtime_ns": 1791116547490483759,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/fixed_d1/p3_q4/parameters.csv.gz",
+      "size": 595617,
+      "sha256": "9e0d70f478b6ea924bb8c5b48665c6272d86916f776005ea816c64d2abf8ee3b",
+      "mtime_ns": 1791116547479015856,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/fixed_d1/p3_q4/predictions.npz",
+      "size": 16172244,
+      "sha256": "3e263735418a66f4ea41c11bc620abf7149a0a797d28a7c55e54fc2975e41315",
+      "mtime_ns": 1791116547475914757,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/fixed_d1/p3_q5/daily.csv",
+      "size": 89634,
+      "sha256": "43f922962f378c0e7be3a8554d462e0b99e73f758f6381f52556263317699ce4",
+      "mtime_ns": 1791116550021645221,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/fixed_d1/p3_q5/parameters.csv.gz",
+      "size": 668211,
+      "sha256": "8e3bf3f7cdff1fe81ab990bef846dc69b2823f8897ee341d4c5d61b0e14b8b81",
+      "mtime_ns": 1791116550010202859,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/fixed_d1/p3_q5/predictions.npz",
+      "size": 16187568,
+      "sha256": "f25825d107a175bf092a9d64abd01ce9abec7078103ba7fb96564dd6886fffec",
+      "mtime_ns": 1791116550005639538,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/fixed_d1/p4_q1/daily.csv",
+      "size": 89543,
+      "sha256": "157097783e787f67336cf1b8050073d4d22d79aeda4699dcc1272f47a4598846",
+      "mtime_ns": 1791116552571545651,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/fixed_d1/p4_q1/parameters.csv.gz",
+      "size": 458029,
+      "sha256": "1ff9aa9e6793ec4887499cf6fa94a885666bfb7231accc8838f54c9a35f3fd04",
+      "mtime_ns": 1791116552560863543,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/fixed_d1/p4_q1/predictions.npz",
+      "size": 15966184,
+      "sha256": "ad983bbde6053c112f50eff733c3bd704baaee419304d320eabbc86b42d6b5dd",
+      "mtime_ns": 1791116552557647199,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/fixed_d1/p4_q2/daily.csv",
+      "size": 89610,
+      "sha256": "12fc188076c8143f67dc687584f6333246a61e257e1dd1bf4557580793a11ac2",
+      "mtime_ns": 1791116555215619353,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/fixed_d1/p4_q2/parameters.csv.gz",
+      "size": 527441,
+      "sha256": "74ef69f0746d0cfc9ebb29a9fed4e511a88e0713649c77144f1cb8bbea26edd0",
+      "mtime_ns": 1791116555204226447,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/fixed_d1/p4_q2/predictions.npz",
+      "size": 16112610,
+      "sha256": "892daff497267ea54475326709079d89cbad582bf453ff0d4217deda58fe4d7f",
+      "mtime_ns": 1791116555201106639,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/fixed_d1/p4_q3/daily.csv",
+      "size": 89571,
+      "sha256": "3387b6fc24ca2e112569633a7be40038c4f9fe6c35cb0e23ade6e70d8c03e789",
+      "mtime_ns": 1791116557793303645,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/fixed_d1/p4_q3/parameters.csv.gz",
+      "size": 594626,
+      "sha256": "906a843e60446bf02840b65f0e30defcc6395437f7ba5d4113c1a48e04ddafbf",
+      "mtime_ns": 1791116557782480961,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/fixed_d1/p4_q3/predictions.npz",
+      "size": 16148382,
+      "sha256": "3ce4dcc7537289cf71c9d708f78489419e789b34269471025ce39246e811a173",
+      "mtime_ns": 1791116557779438608,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/fixed_d1/p4_q4/daily.csv",
+      "size": 89572,
+      "sha256": "2d8416d1c58609fb70738966c14df318fb3409df700de3954870e56ca68d5349",
+      "mtime_ns": 1791116560319600385,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/fixed_d1/p4_q4/parameters.csv.gz",
+      "size": 664128,
+      "sha256": "ef6f4a96320d07500de65958699cf15de3f0921238e4165b108e68f881f03621",
+      "mtime_ns": 1791116560308988982,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/fixed_d1/p4_q4/predictions.npz",
+      "size": 16215389,
+      "sha256": "8e1d52a2fe4bf06f3a1d87c1e4131477a588010d4bfa4ad9855cffdba9a7f90a",
+      "mtime_ns": 1791116560304124009,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/fixed_d1/p4_q5/daily.csv",
+      "size": 89530,
+      "sha256": "77d8a1e65dcf29dbf988c7855950c07ae85fc2c24cacd9e17721913310458fb4",
+      "mtime_ns": 1791116562804808822,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/fixed_d1/p4_q5/parameters.csv.gz",
+      "size": 736737,
+      "sha256": "7f6d15281d011326a6f264f140174f2da503efbbb6093bd4700e76a6eaad0c6a",
+      "mtime_ns": 1791116562793464871,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/fixed_d1/p4_q5/predictions.npz",
+      "size": 16230312,
+      "sha256": "bef5af6b699c89c6d81e9b06d4e07695b88c57556bcde03edecfe4094286e32a",
+      "mtime_ns": 1791116562789570060,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/fixed_d1/p5_q1/daily.csv",
+      "size": 89546,
+      "sha256": "c9e21107dd4c363ae864ed17e570c89c221af2190db19051b1109395d3b18439",
+      "mtime_ns": 1791116565297076334,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/fixed_d1/p5_q1/parameters.csv.gz",
+      "size": 529935,
+      "sha256": "ce4ffe469759d3908d8774842c2d48a629f5090138fa8c4f907d10d35607500d",
+      "mtime_ns": 1791116565286401060,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/fixed_d1/p5_q1/predictions.npz",
+      "size": 15994390,
+      "sha256": "fe28123088a39649471c8b79458a07cfd88cb1b5ef5512a89f191af5243e776c",
+      "mtime_ns": 1791116565282444251,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/fixed_d1/p5_q2/daily.csv",
+      "size": 89543,
+      "sha256": "cb4f17e5b65b4dc9b374c606cdeab6dc8552fc5c59d87a890b9840bf023a4893",
+      "mtime_ns": 1791116567919313969,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/fixed_d1/p5_q2/parameters.csv.gz",
+      "size": 599378,
+      "sha256": "4696b57daf971754c3a2f24ba456e7f26c0bcbfb03472b4a49128d6f57171a63",
+      "mtime_ns": 1791116567908058764,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/fixed_d1/p5_q2/predictions.npz",
+      "size": 16110854,
+      "sha256": "ae417a4ba24342443b491738a13a7345f579c5883f01ea079da9f22cd3ee50f8",
+      "mtime_ns": 1791116567904195868,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/fixed_d1/p5_q3/daily.csv",
+      "size": 89625,
+      "sha256": "23e2842fa179c68db7326c276318054b512011f466f226d9142a997ecc88f7d7",
+      "mtime_ns": 1791116570480804587,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/fixed_d1/p5_q3/parameters.csv.gz",
+      "size": 667193,
+      "sha256": "5b8d208c6876ce8183089e3b9a1c0b1a5f26018878227ebd02754cb5e78e384c",
+      "mtime_ns": 1791116570469474511,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/fixed_d1/p5_q3/predictions.npz",
+      "size": 16158078,
+      "sha256": "e0de7333955fab1139d6522bb549de6bace6aa8683be540280d3d642a8e0ed27",
+      "mtime_ns": 1791116570466053010,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/fixed_d1/p5_q4/daily.csv",
+      "size": 89593,
+      "sha256": "4c8ab8d77a43ed75683844d120d48c1b0ae3df204166102f408f6d188ca8f3c6",
+      "mtime_ns": 1791116573030453112,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/fixed_d1/p5_q4/parameters.csv.gz",
+      "size": 735620,
+      "sha256": "b3075bd439ba16da3ec45dd9d70555630e7f2c5dd14f1dbb46f3ae98f389ca19",
+      "mtime_ns": 1791116573019337942,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/fixed_d1/p5_q4/predictions.npz",
+      "size": 16206662,
+      "sha256": "ed0195bdc81994ce9764d87b7e48821bf38f2ddaa3b462ea15f52e8f449d619e",
+      "mtime_ns": 1791116573015831112,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/fixed_d1/p5_q5/daily.csv",
+      "size": 89643,
+      "sha256": "5dcb16ae45159a56691e235d6a678751d0647879e0785fa13abe4a71574a720b",
+      "mtime_ns": 1791116575520152790,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/fixed_d1/p5_q5/parameters.csv.gz",
+      "size": 802603,
+      "sha256": "795ec6011689cfa56e9f77c03791afa64f88788ff8838ce896ab58c8dca58c43",
+      "mtime_ns": 1791116575506972304,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/fixed_d1/p5_q5/predictions.npz",
+      "size": 16244975,
+      "sha256": "3aecc111f49c27283a67c17a22ac6efd7bdae4d8ad57023ad74513f65c898c32",
+      "mtime_ns": 1791116575503053827,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/selectors/adf_annual_selector_turnover.csv",
+      "size": 49302,
+      "sha256": "fde355375387a35be9f27a268f7c883e15a792f2c611ad0762a545cde222064d",
+      "mtime_ns": 1791116614274558942,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/selectors/fixed_d1_annual_selector_turnover.csv",
+      "size": 49309,
+      "sha256": "a5fb6a94e1e20cec8109819e42774c894bc4e8b5d88699dfcb2ec87793df7fa1",
+      "mtime_ns": 1791116614270112907,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/selectors/v7_equal_turnover.csv",
+      "size": 49132,
+      "sha256": "78c4634ab135d7d3494ac499d1d4b541875945fc682e1ebe5a552ba519225a1a",
+      "mtime_ns": 1791116614265637791,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/selectors/adf/choices.json",
+      "size": 29650,
+      "sha256": "7a401a9b0f81f07fb6e08e8d0921679f894c863e1dfdf1f06099f9720df4969a",
+      "mtime_ns": 1791116607100494910,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/selectors/adf/daily.csv",
+      "size": 91807,
+      "sha256": "67cbb53dd1e16506fb16d0fabd8f27dea31b0e24f39fe9c5537fa171016a7ea4",
+      "mtime_ns": 1791116607100012809,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/selectors/adf/holdings.npz",
+      "size": 995527,
+      "sha256": "8f16c6dd8b79681ab17f320b9992abc8af7d1cc1308e03c273ef8ead5de1a978",
+      "mtime_ns": 1791116607096047834,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/selectors/adf/predictions.npz",
+      "size": 15921875,
+      "sha256": "d5a58d7d1f4c7dd8781a208c1f66cb23b278e70bf7e8c76631eb2ac83c8f9922",
+      "mtime_ns": 1791116607010489894,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/selectors/adf/summary.json",
+      "size": 360,
+      "sha256": "7d3ff3656ca9fd8c0e871583c37979ef3d0c016beb8d378a21a53bfb2fefd98d",
+      "mtime_ns": 1791116607101187210,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/selectors/d1_at_adf_orders/daily.csv",
+      "size": 91785,
+      "sha256": "ad2a72e89535b10684ff8b72cf36a199796867f207520326a8c81f637ef64dcf",
+      "mtime_ns": 1791116611335291494,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/selectors/d1_at_adf_orders/predictions.npz",
+      "size": 16020892,
+      "sha256": "1ab2167ec4539d1cf23e4d9bb8c1234ef75958cf3ea82ecf187095b55f0f6817",
+      "mtime_ns": 1791116611330619387,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/selectors/d1_at_adf_orders/summary.json",
+      "size": 439,
+      "sha256": "f1902084cd77e592ec8a4fef993510b038756e3ca88f85a0bf9c3382970d002d",
+      "mtime_ns": 1791116611335826009,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/selectors/d1_at_adf_orders_matched_adf_coverage/daily.csv",
+      "size": 91836,
+      "sha256": "c35bf304fc2fea91b71be8d32f2ffb1760174935b3cf5a9b8574282928f9b5a3",
+      "mtime_ns": 1791116613360287968,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/selectors/d1_at_adf_orders_matched_adf_coverage/predictions.npz",
+      "size": 15898314,
+      "sha256": "10633d89d249ac1e06a6a6a82470e58963a4f85df0a9729e3dddab8e0624fe07",
+      "mtime_ns": 1791116613355998051,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/selectors/d1_at_adf_orders_matched_adf_coverage/summary.json",
+      "size": 438,
+      "sha256": "9fb9775f69ad36b5cc92b3c871f18fea9b74ed26f62f76c11123e7732345b0a6",
+      "mtime_ns": 1791116613360851774,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/selectors/fixed_d1/choices.json",
+      "size": 29612,
+      "sha256": "71aadde149fa3185256716e956760df4598b5ad7b7c511e436aa29288d944b02",
+      "mtime_ns": 1791116604766193332,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/selectors/fixed_d1/daily.csv",
+      "size": 91765,
+      "sha256": "a4dc82390bfe590eae6fca03693465d884c1380db9a6f0b633ecba4a75992e67",
+      "mtime_ns": 1791116604765742812,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/selectors/fixed_d1/holdings.npz",
+      "size": 995769,
+      "sha256": "e519ada7092108fdd0e5d921c79b0c62899aaa252eafee41bf5d0bb46cc7c828",
+      "mtime_ns": 1791116604761169492,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/selectors/fixed_d1/predictions.npz",
+      "size": 15989911,
+      "sha256": "55ce85d998809f6447ec64630d3daf7704f6cc45ab8672f4d2005a1dfaedac3a",
+      "mtime_ns": 1791116604677167643,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/selectors/fixed_d1/summary.json",
+      "size": 358,
+      "sha256": "36c86dc1e2d4b8c927cca4d4d32aad0fc332c3d567567bb3bf5fc4f38be322b1",
+      "mtime_ns": 1791116604766816218,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/shared_inputs/baseline.pkl",
+      "size": 59660947,
+      "sha256": "69f37b01981e343e7befa7427d4990e77ee533e97d115bdccaaf45b156ee45a3",
+      "mtime_ns": 1791116602214699146,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/shared_inputs/calendar.csv",
+      "size": 36253,
+      "sha256": "d788a948bf6e138f3bd08cb17b98b0cdd8220fb89622770dc2215a6190ab73f4",
+      "mtime_ns": 1791116602111598389,
+      "mode": 420,
+      "storage": "git"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/shared_inputs/labels.pkl",
+      "size": 59660962,
+      "sha256": "1a28c42890826af349b442f1bcf6f18ac7b7204724eec3f6396147e83852c5e2",
+      "mtime_ns": 1791116602154050208,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/shared_inputs/prediction_keys.npz",
+      "size": 11501964,
+      "sha256": "3fcafea2cd76d26527e06a972018662160799f60e53e129875478725e5f6066d",
+      "mtime_ns": 1791116602110544482,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/jpx_arima_adf_annual_20261004/shared_inputs/prices.npz",
+      "size": 5876864,
+      "sha256": "f13df3524b61939f45cf7b757583b905d036bfede7108899c61871c8233325c0",
+      "mtime_ns": 1791116602100423972,
+      "mode": 420,
+      "storage": "release"
+    },
+    {
+      "path": "research/project_archive_20260924/COMPRESSED_DATA_MANIFEST.json",
+      "size": 77623,
+      "sha256": "a6ce61638ac9cc74d17dc0163693be7dac6a2cdb9cb7cbcdb62385566199bb5a",
+      "mtime_ns": 1790233095713468225,
+      "mode": 420,
+      "storage": "git"
+    }
+  ]
+}

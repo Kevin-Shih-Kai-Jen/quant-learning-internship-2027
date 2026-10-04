@@ -1,0 +1,79 @@
+{
+  "common_days": 953,
+  "strategies": [
+    {
+      "strategy": "v7_equal",
+      "period": "all",
+      "days": 953,
+      "scored_days": 953,
+      "sharpe": 0.007678871562421089,
+      "mean_daily_rank_ic": -0.0007338924981283135,
+      "rank_ic_days": 952,
+      "mean_spread": 0.009116532667688235,
+      "std_spread": 1.1872229654553386,
+      "mean_daily_target_mse": 0.0006654329991343364
+    },
+    {
+      "strategy": "fixed_d1_annual_selector",
+      "period": "all",
+      "days": 953,
+      "scored_days": 953,
+      "sharpe": 0.01098827818644702,
+      "mean_daily_rank_ic": 0.0005008037047136767,
+      "rank_ic_days": 952,
+      "mean_spread": 0.0066123026929892515,
+      "std_spread": 0.6017596734258956,
+      "mean_daily_target_mse": 0.0006048466370617144
+    },
+    {
+      "strategy": "adf_annual_selector",
+      "period": "all",
+      "days": 953,
+      "scored_days": 953,
+      "sharpe": -0.03981161845239869,
+      "mean_daily_rank_ic": 0.00026910020620592504,
+      "rank_ic_days": 952,
+      "mean_spread": -0.026233215354574114,
+      "std_spread": 0.6589336574181284,
+      "mean_daily_target_mse": 0.0006135420095118669
+    },
+    {
+      "strategy": "fixed_311_posthoc_reference",
+      "period": "all",
+      "days": 953,
+      "scored_days": 953,
+      "sharpe": 0.07544245690903652,
+      "mean_daily_rank_ic": 0.0023975463097274862,
+      "rank_ic_days": 952,
+      "mean_spread": 0.046875950376139564,
+      "std_spread": 0.6213470808971593,
+      "mean_daily_target_mse": 0.0005989788083833079
+    },
+    {
+      "strategy": "d1_at_adf_orders",
+      "period": "all",
+      "days": 953,
+      "scored_days": 953,
+      "sharpe": -0.02179549787660687,
+      "mean_daily_rank_ic": 0.0005911453597587427,
+      "rank_ic_days": 952,
+      "mean_spread": -0.013169798077454506,
+      "std_spread": 0.6042439659793073,
+      "mean_daily_target_mse": 0.0006101526913972067
+    },
+    {
+      "strategy": "d1_at_adf_orders_matched_adf_coverage",
+      "period": "all",
+      "days": 953,
+      "scored_days": 953,
+      "sharpe": -0.02256045161692866,
+      "mean_daily_rank_ic": 0.0005581621613628437,
+      "rank_ic_days": 952,
+      "mean_spread": -0.013537211523870052,
+      "std_spread": 0.6000416903760982,
+      "mean_daily_target_mse": 0.000610054924675169
+    }
+  ],
+  "baseline_metric_error": 4.683753385137379e-17,
+  "formal_test_used": false
+}

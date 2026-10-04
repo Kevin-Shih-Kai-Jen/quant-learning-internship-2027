@@ -1,0 +1,23 @@
+{
+  "p": 3,
+  "q": 3,
+  "raw_metrics": {
+    "days": 953,
+    "scored_days": 953,
+    "sharpe": 0.0046958399498358665,
+    "mean_daily_rank_ic": 0.0013269640463683685,
+    "rank_ic_days": 952,
+    "mean_spread": 0.0030143939848519363,
+    "std_spread": 0.6419286042654198,
+    "mean_daily_target_mse": 0.0006424717097177072
+  },
+  "new_fit_statuses": {
+    "ok": 451
+  },
+  "official_metric_error": 5.204170427930421e-18,
+  "d1_reuse_bitwise_equal": true,
+  "fallback_stock_days": 59577,
+  "fallback_fraction": 0.0319556867412623,
+  "selected_fallback_stock_days": 0,
+  "constant_score_days": 0
+}

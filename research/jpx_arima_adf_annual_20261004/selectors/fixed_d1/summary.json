@@ -1,0 +1,13 @@
+{
+  "raw_metrics": {
+    "days": 953,
+    "scored_days": 953,
+    "sharpe": 0.01098827818644702,
+    "mean_daily_rank_ic": 0.0005008037047136767,
+    "rank_ic_days": 952,
+    "mean_spread": 0.0066123026929892515,
+    "std_spread": 0.6017596734258956,
+    "mean_daily_target_mse": 0.0006048466370617144
+  },
+  "official_metric_error": 1.3877787807814457e-17
+}

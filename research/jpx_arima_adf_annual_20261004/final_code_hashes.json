@@ -1,0 +1,12 @@
+{
+  "build_report.py": "56507bbd40467f718f3cf3cb387faaeef96fdf7f987aea0744862514ef74d071",
+  "check_numerics.py": "5252661252c19c527db3d04e3a3b6dcd3b2528c8d12279e606697cb023a530a6",
+  "common.py": "0596d77a00df899a9f1e3b0b16080e8ecb22bbe8c4bb08eb79f4bc7d5521305b",
+  "configure_from_snapshot.py": "05d88063a09e9de1395b5dc5ddc95affe0ee07940af99534c55f3f6e12a29b6e",
+  "evaluate.py": "d48f67b6a77214bcbc1e789e25498b43197a96e6e6c18a4caaed1250f372621b",
+  "fit_adf_grid.py": "441aa3a542f2fa23a3d7a744e417261884288e5779b84802104ca274003e68d1",
+  "prepare_adf.py": "92bf43a0965ddd55a3adab53821daa528638734ebb0e15418732a87229b7d3b0",
+  "prepare_sources.py": "830d4600f420bb48b25fcc4e1891b955d1e1d8845a453bd86ea3c7fe5e95a5b6",
+  "verify_published_snapshot.py": "7eaa480849d12bbf5f7904b5497f9f656cd83d272aaa1199c2b728799ce88e7a",
+  "verify_remote_price.py": "d84b82fc92d5ec332bed85220329bb492ec65d3a41dc1ad8925fa0d4e675174a"
+}

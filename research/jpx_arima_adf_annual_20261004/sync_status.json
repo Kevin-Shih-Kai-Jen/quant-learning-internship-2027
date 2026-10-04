@@ -1,9 +1,6 @@
 {
-  "status": "computation_in_progress",
+  "status": "computation_complete_publication_pending",
+  "tag": "snapshot-2026-10-04-arima-adf-annual",
   "large_results_published": false,
-  "planned_release_tag": "snapshot-2026-10-04-arima-adf-annual",
-  "source_release_status": "9/28 source release is draft; see source_remote_verification.json",
-  "formal_test_used": false,
-  "temporary_directory": "/private/tmp/jpx-arima-adf-20261004-8zvawe5n",
-  "cleanup_performed": false
+  "formal_test_used": false
 }

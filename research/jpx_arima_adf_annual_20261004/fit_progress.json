@@ -1,0 +1,14 @@
+{
+  "mode": "full",
+  "session_completed": 11236,
+  "session_total": 11236,
+  "total_completed": 11275,
+  "all_new_fits": 11275,
+  "seconds": 1571.3,
+  "statuses": {
+    "ok": 11226,
+    "training_exception": 4,
+    "fit_not_converged_or_invalid": 6
+  },
+  "estimated_remaining_seconds": 0.0
+}

@@ -1,0 +1,9 @@
+{
+  "first_evaluation": "failed after all 25 candidates and selectors completed",
+  "error": "ValueError: output array is read-only",
+  "cause": "pandas exported a read-only Boolean array; in-place common-calendar intersection required an owned copy",
+  "repair": "copy() on the initial Boolean calendar mask",
+  "model_predictions_recomputed": false,
+  "methodology_changed": false,
+  "original_failure_log": "pipeline.log"
+}
