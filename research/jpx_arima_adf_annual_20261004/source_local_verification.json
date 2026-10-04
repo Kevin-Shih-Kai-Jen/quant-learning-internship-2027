@@ -1,0 +1,388 @@
+{
+  "source_commit": "6f6a57a515cd05f0676646479140d63e8ad07832",
+  "source_tag": "snapshot-2026-09-28-arima-learning",
+  "release_status": "draft",
+  "source_inventory_sha256": "df90e5f707c82e285856b9b6a59a8d80b2a966be43ad4d1aa8f9604d388524dc",
+  "files": [
+    {
+      "name": "prices.npz",
+      "local_path": "/Users/coolguy/Documents/Codex/2026-09-23/new-chat/work/arima_grid/prices.npz",
+      "size": 5876864,
+      "sha256": "f13df3524b61939f45cf7b757583b905d036bfede7108899c61871c8233325c0",
+      "versioned_inventory_match": true
+    },
+    {
+      "name": "labels.pkl",
+      "local_path": "/Users/coolguy/Documents/Codex/2026-09-23/new-chat/work/arima_grid/labels.pkl",
+      "size": 59660962,
+      "sha256": "1a28c42890826af349b442f1bcf6f18ac7b7204724eec3f6396147e83852c5e2",
+      "versioned_inventory_match": true
+    },
+    {
+      "name": "baseline.pkl",
+      "local_path": "/Users/coolguy/Documents/Codex/2026-09-23/new-chat/work/arima_grid/baseline.pkl",
+      "size": 59660947,
+      "sha256": "69f37b01981e343e7befa7427d4990e77ee533e97d115bdccaaf45b156ee45a3",
+      "versioned_inventory_match": true
+    },
+    {
+      "name": "prediction_keys.npz",
+      "local_path": "/Users/coolguy/Documents/Codex/2026-09-23/new-chat/work/arima_grid/prediction_keys.npz",
+      "size": 11501964,
+      "sha256": "3fcafea2cd76d26527e06a972018662160799f60e53e129875478725e5f6066d",
+      "versioned_inventory_match": true
+    },
+    {
+      "name": "models/p1_q1/parameters.csv.gz",
+      "local_path": "/Users/coolguy/Documents/Codex/2026-09-23/new-chat/work/arima_grid/models/p1_q1/parameters.csv.gz",
+      "size": 238600,
+      "sha256": "4baa6aaf5a2e099439176c67239f3644dc3f9426f50a1f44040ac3c57064e0ce",
+      "versioned_inventory_match": true
+    },
+    {
+      "name": "models/p1_q1/predictions.npz",
+      "local_path": "/Users/coolguy/Documents/Codex/2026-09-23/new-chat/work/arima_grid/models/p1_q1/predictions.npz",
+      "size": 15746556,
+      "sha256": "4ef14e4120a41d6cbce45a3c38d8ff9d642e3e5826b4c1ed66ff7ee1f2c83fdd",
+      "versioned_inventory_match": true
+    },
+    {
+      "name": "models/p1_q2/parameters.csv.gz",
+      "local_path": "/Users/coolguy/Documents/Codex/2026-09-23/new-chat/work/arima_grid/models/p1_q2/parameters.csv.gz",
+      "size": 312544,
+      "sha256": "83cb06c96602eaaede6fff7178ca08362727bcf987b3b5cba3931296ec7bc14e",
+      "versioned_inventory_match": true
+    },
+    {
+      "name": "models/p1_q2/predictions.npz",
+      "local_path": "/Users/coolguy/Documents/Codex/2026-09-23/new-chat/work/arima_grid/models/p1_q2/predictions.npz",
+      "size": 15909726,
+      "sha256": "943e3f2c72b914a431d98e000d6f9da5c3ecef4487ad3f063ccc8ebdb0e8c4bc",
+      "versioned_inventory_match": true
+    },
+    {
+      "name": "models/p1_q3/parameters.csv.gz",
+      "local_path": "/Users/coolguy/Documents/Codex/2026-09-23/new-chat/work/arima_grid/models/p1_q3/parameters.csv.gz",
+      "size": 385261,
+      "sha256": "7eb6366b908ae2f2823d354610defe3bae59d5b63304310fe76b4850cd305a6a",
+      "versioned_inventory_match": true
+    },
+    {
+      "name": "models/p1_q3/predictions.npz",
+      "local_path": "/Users/coolguy/Documents/Codex/2026-09-23/new-chat/work/arima_grid/models/p1_q3/predictions.npz",
+      "size": 15949772,
+      "sha256": "907452c7b19e9272c894b35279c1ffaab8e86e799ec8800764054f22d4ba4123",
+      "versioned_inventory_match": true
+    },
+    {
+      "name": "models/p1_q4/parameters.csv.gz",
+      "local_path": "/Users/coolguy/Documents/Codex/2026-09-23/new-chat/work/arima_grid/models/p1_q4/parameters.csv.gz",
+      "size": 457404,
+      "sha256": "47202c214b012c36046e07b16b5044a855a6e9dd4fe30da27d8eb5175da33f5e",
+      "versioned_inventory_match": true
+    },
+    {
+      "name": "models/p1_q4/predictions.npz",
+      "local_path": "/Users/coolguy/Documents/Codex/2026-09-23/new-chat/work/arima_grid/models/p1_q4/predictions.npz",
+      "size": 15986843,
+      "sha256": "950593272e9579c33d00eabda94fff8632657a0116a285c8cdab4c59a4e82097",
+      "versioned_inventory_match": true
+    },
+    {
+      "name": "models/p1_q5/parameters.csv.gz",
+      "local_path": "/Users/coolguy/Documents/Codex/2026-09-23/new-chat/work/arima_grid/models/p1_q5/parameters.csv.gz",
+      "size": 529116,
+      "sha256": "b297bcfba7eb4637dac4d7a8e61c6c3a6dd454d12a79cb2f5f9a89ad81972aef",
+      "versioned_inventory_match": true
+    },
+    {
+      "name": "models/p1_q5/predictions.npz",
+      "local_path": "/Users/coolguy/Documents/Codex/2026-09-23/new-chat/work/arima_grid/models/p1_q5/predictions.npz",
+      "size": 16018420,
+      "sha256": "510414c634b285710431c60b8125cef47613a32a87e7fbfcf51daa5d8554257e",
+      "versioned_inventory_match": true
+    },
+    {
+      "name": "models/p2_q1/parameters.csv.gz",
+      "local_path": "/Users/coolguy/Documents/Codex/2026-09-23/new-chat/work/arima_grid/models/p2_q1/parameters.csv.gz",
+      "size": 313093,
+      "sha256": "cac410ab28daefa082e4f4a78abad339e3424aaf80bbf75f5749756b6a4f8463",
+      "versioned_inventory_match": true
+    },
+    {
+      "name": "models/p2_q1/predictions.npz",
+      "local_path": "/Users/coolguy/Documents/Codex/2026-09-23/new-chat/work/arima_grid/models/p2_q1/predictions.npz",
+      "size": 15899189,
+      "sha256": "e6e3f8145b3d57a75f747721edd5073587f0e344e1840be6584b2ff6aa77cce0",
+      "versioned_inventory_match": true
+    },
+    {
+      "name": "models/p2_q2/parameters.csv.gz",
+      "local_path": "/Users/coolguy/Documents/Codex/2026-09-23/new-chat/work/arima_grid/models/p2_q2/parameters.csv.gz",
+      "size": 381095,
+      "sha256": "fb5121b1ee834e333a40b8cb9502f64583c26f7ddbbe3bf4b44846834b93926d",
+      "versioned_inventory_match": true
+    },
+    {
+      "name": "models/p2_q2/predictions.npz",
+      "local_path": "/Users/coolguy/Documents/Codex/2026-09-23/new-chat/work/arima_grid/models/p2_q2/predictions.npz",
+      "size": 16088556,
+      "sha256": "4dd7292ed45f410d9ebc6a5479c31f6d703c3d27ecfd76174144bef2093feda9",
+      "versioned_inventory_match": true
+    },
+    {
+      "name": "models/p2_q3/parameters.csv.gz",
+      "local_path": "/Users/coolguy/Documents/Codex/2026-09-23/new-chat/work/arima_grid/models/p2_q3/parameters.csv.gz",
+      "size": 454722,
+      "sha256": "b00b3e777f8cf2f6d473b1e1e2cbd45fdbc2224ba7e3f3e245358e84a506763d",
+      "versioned_inventory_match": true
+    },
+    {
+      "name": "models/p2_q3/predictions.npz",
+      "local_path": "/Users/coolguy/Documents/Codex/2026-09-23/new-chat/work/arima_grid/models/p2_q3/predictions.npz",
+      "size": 16102414,
+      "sha256": "4c5961f6ab24c77bc256a3248845cb682b7ac4cf446396e02ac96b54e5f250c2",
+      "versioned_inventory_match": true
+    },
+    {
+      "name": "models/p2_q4/parameters.csv.gz",
+      "local_path": "/Users/coolguy/Documents/Codex/2026-09-23/new-chat/work/arima_grid/models/p2_q4/parameters.csv.gz",
+      "size": 527531,
+      "sha256": "c0229dee535a8514258580acc62f8b445f7419e12aef50eaa579bc4ee1e2926f",
+      "versioned_inventory_match": true
+    },
+    {
+      "name": "models/p2_q4/predictions.npz",
+      "local_path": "/Users/coolguy/Documents/Codex/2026-09-23/new-chat/work/arima_grid/models/p2_q4/predictions.npz",
+      "size": 16130700,
+      "sha256": "4fb82cd747bf99f37edce96d8e9f9647d4a1bbaf15a7013eac6e67779d6520b5",
+      "versioned_inventory_match": true
+    },
+    {
+      "name": "models/p2_q5/parameters.csv.gz",
+      "local_path": "/Users/coolguy/Documents/Codex/2026-09-23/new-chat/work/arima_grid/models/p2_q5/parameters.csv.gz",
+      "size": 599832,
+      "sha256": "243b821a04046547fe4ecf5e70fb16d4d8bde66b30bdc64246476abad361e380",
+      "versioned_inventory_match": true
+    },
+    {
+      "name": "models/p2_q5/predictions.npz",
+      "local_path": "/Users/coolguy/Documents/Codex/2026-09-23/new-chat/work/arima_grid/models/p2_q5/predictions.npz",
+      "size": 16145664,
+      "sha256": "e5e4dcf624196f5cc0f7b06ebc524b212d3080421531d9985362c537dfbabd45",
+      "versioned_inventory_match": true
+    },
+    {
+      "name": "models/p3_q1/parameters.csv.gz",
+      "local_path": "/Users/coolguy/Documents/Codex/2026-09-23/new-chat/work/arima_grid/models/p3_q1/parameters.csv.gz",
+      "size": 385918,
+      "sha256": "a8b003af2cc23369ceba6180370f8d075c556f37e7837ed9303aa994b95942c4",
+      "versioned_inventory_match": true
+    },
+    {
+      "name": "models/p3_q1/predictions.npz",
+      "local_path": "/Users/coolguy/Documents/Codex/2026-09-23/new-chat/work/arima_grid/models/p3_q1/predictions.npz",
+      "size": 15929718,
+      "sha256": "aed6b1e38c20474847a287ee0f565ee847acc33421dd96ef216bd6f61ec2c14d",
+      "versioned_inventory_match": true
+    },
+    {
+      "name": "models/p3_q2/parameters.csv.gz",
+      "local_path": "/Users/coolguy/Documents/Codex/2026-09-23/new-chat/work/arima_grid/models/p3_q2/parameters.csv.gz",
+      "size": 454570,
+      "sha256": "7596b782e65cd34516d0a94533ebed07361ba70fffe773c2ddcd61980313482e",
+      "versioned_inventory_match": true
+    },
+    {
+      "name": "models/p3_q2/predictions.npz",
+      "local_path": "/Users/coolguy/Documents/Codex/2026-09-23/new-chat/work/arima_grid/models/p3_q2/predictions.npz",
+      "size": 16100039,
+      "sha256": "47866a960ae78d86993b24d61eeb710a11d768dbe534c8819106e5901ff57cbf",
+      "versioned_inventory_match": true
+    },
+    {
+      "name": "models/p3_q3/parameters.csv.gz",
+      "local_path": "/Users/coolguy/Documents/Codex/2026-09-23/new-chat/work/arima_grid/models/p3_q3/parameters.csv.gz",
+      "size": 522600,
+      "sha256": "a1933f3ed9e7e30676da2f04c54cc8c96ea55c458515e41bf32cef0d522f106e",
+      "versioned_inventory_match": true
+    },
+    {
+      "name": "models/p3_q3/predictions.npz",
+      "local_path": "/Users/coolguy/Documents/Codex/2026-09-23/new-chat/work/arima_grid/models/p3_q3/predictions.npz",
+      "size": 16150748,
+      "sha256": "7c64b07182276bb3986f811b17b283b06c98be1c10d415c1b2469acf0bd003e3",
+      "versioned_inventory_match": true
+    },
+    {
+      "name": "models/p3_q4/parameters.csv.gz",
+      "local_path": "/Users/coolguy/Documents/Codex/2026-09-23/new-chat/work/arima_grid/models/p3_q4/parameters.csv.gz",
+      "size": 595617,
+      "sha256": "9e0d70f478b6ea924bb8c5b48665c6272d86916f776005ea816c64d2abf8ee3b",
+      "versioned_inventory_match": true
+    },
+    {
+      "name": "models/p3_q4/predictions.npz",
+      "local_path": "/Users/coolguy/Documents/Codex/2026-09-23/new-chat/work/arima_grid/models/p3_q4/predictions.npz",
+      "size": 16172244,
+      "sha256": "3e263735418a66f4ea41c11bc620abf7149a0a797d28a7c55e54fc2975e41315",
+      "versioned_inventory_match": true
+    },
+    {
+      "name": "models/p3_q5/parameters.csv.gz",
+      "local_path": "/Users/coolguy/Documents/Codex/2026-09-23/new-chat/work/arima_grid/models/p3_q5/parameters.csv.gz",
+      "size": 668211,
+      "sha256": "8e3bf3f7cdff1fe81ab990bef846dc69b2823f8897ee341d4c5d61b0e14b8b81",
+      "versioned_inventory_match": true
+    },
+    {
+      "name": "models/p3_q5/predictions.npz",
+      "local_path": "/Users/coolguy/Documents/Codex/2026-09-23/new-chat/work/arima_grid/models/p3_q5/predictions.npz",
+      "size": 16187568,
+      "sha256": "f25825d107a175bf092a9d64abd01ce9abec7078103ba7fb96564dd6886fffec",
+      "versioned_inventory_match": true
+    },
+    {
+      "name": "models/p4_q1/parameters.csv.gz",
+      "local_path": "/Users/coolguy/Documents/Codex/2026-09-23/new-chat/work/arima_grid/models/p4_q1/parameters.csv.gz",
+      "size": 458029,
+      "sha256": "1ff9aa9e6793ec4887499cf6fa94a885666bfb7231accc8838f54c9a35f3fd04",
+      "versioned_inventory_match": true
+    },
+    {
+      "name": "models/p4_q1/predictions.npz",
+      "local_path": "/Users/coolguy/Documents/Codex/2026-09-23/new-chat/work/arima_grid/models/p4_q1/predictions.npz",
+      "size": 15966184,
+      "sha256": "ad983bbde6053c112f50eff733c3bd704baaee419304d320eabbc86b42d6b5dd",
+      "versioned_inventory_match": true
+    },
+    {
+      "name": "models/p4_q2/parameters.csv.gz",
+      "local_path": "/Users/coolguy/Documents/Codex/2026-09-23/new-chat/work/arima_grid/models/p4_q2/parameters.csv.gz",
+      "size": 527441,
+      "sha256": "74ef69f0746d0cfc9ebb29a9fed4e511a88e0713649c77144f1cb8bbea26edd0",
+      "versioned_inventory_match": true
+    },
+    {
+      "name": "models/p4_q2/predictions.npz",
+      "local_path": "/Users/coolguy/Documents/Codex/2026-09-23/new-chat/work/arima_grid/models/p4_q2/predictions.npz",
+      "size": 16112610,
+      "sha256": "892daff497267ea54475326709079d89cbad582bf453ff0d4217deda58fe4d7f",
+      "versioned_inventory_match": true
+    },
+    {
+      "name": "models/p4_q3/parameters.csv.gz",
+      "local_path": "/Users/coolguy/Documents/Codex/2026-09-23/new-chat/work/arima_grid/models/p4_q3/parameters.csv.gz",
+      "size": 594626,
+      "sha256": "906a843e60446bf02840b65f0e30defcc6395437f7ba5d4113c1a48e04ddafbf",
+      "versioned_inventory_match": true
+    },
+    {
+      "name": "models/p4_q3/predictions.npz",
+      "local_path": "/Users/coolguy/Documents/Codex/2026-09-23/new-chat/work/arima_grid/models/p4_q3/predictions.npz",
+      "size": 16148382,
+      "sha256": "3ce4dcc7537289cf71c9d708f78489419e789b34269471025ce39246e811a173",
+      "versioned_inventory_match": true
+    },
+    {
+      "name": "models/p4_q4/parameters.csv.gz",
+      "local_path": "/Users/coolguy/Documents/Codex/2026-09-23/new-chat/work/arima_grid/models/p4_q4/parameters.csv.gz",
+      "size": 664128,
+      "sha256": "ef6f4a96320d07500de65958699cf15de3f0921238e4165b108e68f881f03621",
+      "versioned_inventory_match": true
+    },
+    {
+      "name": "models/p4_q4/predictions.npz",
+      "local_path": "/Users/coolguy/Documents/Codex/2026-09-23/new-chat/work/arima_grid/models/p4_q4/predictions.npz",
+      "size": 16215389,
+      "sha256": "8e1d52a2fe4bf06f3a1d87c1e4131477a588010d4bfa4ad9855cffdba9a7f90a",
+      "versioned_inventory_match": true
+    },
+    {
+      "name": "models/p4_q5/parameters.csv.gz",
+      "local_path": "/Users/coolguy/Documents/Codex/2026-09-23/new-chat/work/arima_grid/models/p4_q5/parameters.csv.gz",
+      "size": 736737,
+      "sha256": "7f6d15281d011326a6f264f140174f2da503efbbb6093bd4700e76a6eaad0c6a",
+      "versioned_inventory_match": true
+    },
+    {
+      "name": "models/p4_q5/predictions.npz",
+      "local_path": "/Users/coolguy/Documents/Codex/2026-09-23/new-chat/work/arima_grid/models/p4_q5/predictions.npz",
+      "size": 16230312,
+      "sha256": "bef5af6b699c89c6d81e9b06d4e07695b88c57556bcde03edecfe4094286e32a",
+      "versioned_inventory_match": true
+    },
+    {
+      "name": "models/p5_q1/parameters.csv.gz",
+      "local_path": "/Users/coolguy/Documents/Codex/2026-09-23/new-chat/work/arima_grid/models/p5_q1/parameters.csv.gz",
+      "size": 529935,
+      "sha256": "ce4ffe469759d3908d8774842c2d48a629f5090138fa8c4f907d10d35607500d",
+      "versioned_inventory_match": true
+    },
+    {
+      "name": "models/p5_q1/predictions.npz",
+      "local_path": "/Users/coolguy/Documents/Codex/2026-09-23/new-chat/work/arima_grid/models/p5_q1/predictions.npz",
+      "size": 15994390,
+      "sha256": "fe28123088a39649471c8b79458a07cfd88cb1b5ef5512a89f191af5243e776c",
+      "versioned_inventory_match": true
+    },
+    {
+      "name": "models/p5_q2/parameters.csv.gz",
+      "local_path": "/Users/coolguy/Documents/Codex/2026-09-23/new-chat/work/arima_grid/models/p5_q2/parameters.csv.gz",
+      "size": 599378,
+      "sha256": "4696b57daf971754c3a2f24ba456e7f26c0bcbfb03472b4a49128d6f57171a63",
+      "versioned_inventory_match": true
+    },
+    {
+      "name": "models/p5_q2/predictions.npz",
+      "local_path": "/Users/coolguy/Documents/Codex/2026-09-23/new-chat/work/arima_grid/models/p5_q2/predictions.npz",
+      "size": 16110854,
+      "sha256": "ae417a4ba24342443b491738a13a7345f579c5883f01ea079da9f22cd3ee50f8",
+      "versioned_inventory_match": true
+    },
+    {
+      "name": "models/p5_q3/parameters.csv.gz",
+      "local_path": "/Users/coolguy/Documents/Codex/2026-09-23/new-chat/work/arima_grid/models/p5_q3/parameters.csv.gz",
+      "size": 667193,
+      "sha256": "5b8d208c6876ce8183089e3b9a1c0b1a5f26018878227ebd02754cb5e78e384c",
+      "versioned_inventory_match": true
+    },
+    {
+      "name": "models/p5_q3/predictions.npz",
+      "local_path": "/Users/coolguy/Documents/Codex/2026-09-23/new-chat/work/arima_grid/models/p5_q3/predictions.npz",
+      "size": 16158078,
+      "sha256": "e0de7333955fab1139d6522bb549de6bace6aa8683be540280d3d642a8e0ed27",
+      "versioned_inventory_match": true
+    },
+    {
+      "name": "models/p5_q4/parameters.csv.gz",
+      "local_path": "/Users/coolguy/Documents/Codex/2026-09-23/new-chat/work/arima_grid/models/p5_q4/parameters.csv.gz",
+      "size": 735620,
+      "sha256": "b3075bd439ba16da3ec45dd9d70555630e7f2c5dd14f1dbb46f3ae98f389ca19",
+      "versioned_inventory_match": true
+    },
+    {
+      "name": "models/p5_q4/predictions.npz",
+      "local_path": "/Users/coolguy/Documents/Codex/2026-09-23/new-chat/work/arima_grid/models/p5_q4/predictions.npz",
+      "size": 16206662,
+      "sha256": "ed0195bdc81994ce9764d87b7e48821bf38f2ddaa3b462ea15f52e8f449d619e",
+      "versioned_inventory_match": true
+    },
+    {
+      "name": "models/p5_q5/parameters.csv.gz",
+      "local_path": "/Users/coolguy/Documents/Codex/2026-09-23/new-chat/work/arima_grid/models/p5_q5/parameters.csv.gz",
+      "size": 802603,
+      "sha256": "795ec6011689cfa56e9f77c03791afa64f88788ff8838ce896ab58c8dca58c43",
+      "versioned_inventory_match": true
+    },
+    {
+      "name": "models/p5_q5/predictions.npz",
+      "local_path": "/Users/coolguy/Documents/Codex/2026-09-23/new-chat/work/arima_grid/models/p5_q5/predictions.npz",
+      "size": 16244975,
+      "sha256": "3aecc111f49c27283a67c17a22ac6efd7bdae4d8ad57023ad74513f65c898c32",
+      "versioned_inventory_match": true
+    }
+  ],
+  "total_verified_bytes": 551748534,
+  "old_workspace_modified": false
+}

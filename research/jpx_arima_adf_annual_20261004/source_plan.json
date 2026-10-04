@@ -1,0 +1,1100 @@
+{
+  "source_commit": "6f6a57a515cd05f0676646479140d63e8ad07832",
+  "source_tag": "snapshot-2026-09-28-arima-learning",
+  "source_release_status": "draft; absent from root data/index.json",
+  "temporary_directory": "/private/tmp/jpx-arima-adf-20261004-8zvawe5n",
+  "source_local_workspace": "/Users/coolguy/Documents/Codex/2026-09-23/new-chat",
+  "source_inventory_sha256": "df90e5f707c82e285856b9b6a59a8d80b2a966be43ad4d1aa8f9604d388524dc",
+  "reconstructed_packs": [
+    {
+      "pack_number": 1,
+      "files": [
+        {
+          "path": "research/jpx_arima_learning_20260928/SNAPSHOT_FILE_MANIFEST.json.gz",
+          "size": 3579387,
+          "sha256": "290ac2d6dcdf22544eeca30608561ab28078e0214ea2ff393b038278dfb02a7d",
+          "mtime_ns": 1790584952307279156,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/outputs/JPX-ARIMA-ACF-code-and-results.zip",
+          "size": 229419941,
+          "sha256": "bec3860546eb3a11d44951f536980cd3b4256a5fd622ded1c00a1e4df286f448",
+          "mtime_ns": 1790218240410304009,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/outputs/JPX-ARIMA-grid-annual-heatmaps.png",
+          "size": 223198,
+          "sha256": "b5cb658d6dd573ebe06ab54715cb44c6a1fc03bcf6126ffba2d691b9502b6dd8",
+          "mtime_ns": 1790174272338384604,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/outputs/JPX-ARIMA-joint-code-and-results.zip",
+          "size": 91176045,
+          "sha256": "b3c930c7800655a50a3f7a41632b64e8d8e5dae75ab949b970e10b91080598c6",
+          "mtime_ns": 1790237799739433419,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/outputs/JPX-ARIMA011-expanding-code-and-results.zip",
+          "size": 70243653,
+          "sha256": "ef382f22eeec6d780c0a05f097590fce22fa5b28ee88555ef44813c3dfc2a6cc",
+          "mtime_ns": 1790148402196782137,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/outputs/JPX-ARIMA012-expanding-code-and-results.zip",
+          "size": 81427504,
+          "sha256": "444ab1758f1f3ceab173f9c5ddcb6e1566d57ef8941487553e2071ef7a49788a",
+          "mtime_ns": 1790149153380316988,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/outputs/JPX-ARIMA110-expanding-code-and-results.zip",
+          "size": 78689185,
+          "sha256": "6c24e6321abab6d949d997374ed929c8e13c5507ff9760fa4dc9eb40a01beb9b",
+          "mtime_ns": 1790147162125751192,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/outputs/JPX-ARIMA515-code-and-results.zip",
+          "size": 82476977,
+          "sha256": "f1cf7996f88800a0f60e9aaca5702b8dddd163893f8847fbf84ca24706475c93",
+          "mtime_ns": 1790141875417257305,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima011_expanding/baseline.pkl",
+          "size": 59660947,
+          "sha256": "69f37b01981e343e7befa7427d4990e77ee533e97d115bdccaaf45b156ee45a3",
+          "mtime_ns": 1790139091237734335,
+          "mode": 420,
+          "storage": "release"
+        }
+      ]
+    },
+    {
+      "pack_number": 2,
+      "files": [
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima011_expanding/evaluated_predictions.pkl",
+          "size": 151015232,
+          "sha256": "8b5bd45fdd5933329a9345152b4326d5cd48609d786eaee6477199b768835b62",
+          "mtime_ns": 1790148352399748899,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima011_expanding/labels.pkl",
+          "size": 59660962,
+          "sha256": "1a28c42890826af349b442f1bcf6f18ac7b7204724eec3f6396147e83852c5e2",
+          "mtime_ns": 1790139090302578032,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima011_expanding/predictions.csv.gz",
+          "size": 69498171,
+          "sha256": "6edd35e7dc5665745be27c057cc727c9dd0e27028b066901509b4f91255c8580",
+          "mtime_ns": 1790148378898850775,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima011_expanding/prices.npz",
+          "size": 5876864,
+          "sha256": "f13df3524b61939f45cf7b757583b905d036bfede7108899c61871c8233325c0",
+          "mtime_ns": 1790139092503858390,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima012_expanding/baseline.pkl",
+          "size": 59660947,
+          "sha256": "69f37b01981e343e7befa7427d4990e77ee533e97d115bdccaaf45b156ee45a3",
+          "mtime_ns": 1790139091237734335,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima012_expanding/evaluated_predictions.pkl",
+          "size": 121185339,
+          "sha256": "725081fb14152e1d77145148c02e846fd79642f7c7a30c16425e987267d6c9c5",
+          "mtime_ns": 1790149099634263700,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima012_expanding/labels.pkl",
+          "size": 59660962,
+          "sha256": "1a28c42890826af349b442f1bcf6f18ac7b7204724eec3f6396147e83852c5e2",
+          "mtime_ns": 1790139090302578032,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima012_expanding/predictions.csv.gz",
+          "size": 80474262,
+          "sha256": "80bd855275808bbbb28d313c1142a5eafec6c1bb1e5773c4bd8104b84c431059",
+          "mtime_ns": 1790149119636550279,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima012_expanding/prices.npz",
+          "size": 5876864,
+          "sha256": "f13df3524b61939f45cf7b757583b905d036bfede7108899c61871c8233325c0",
+          "mtime_ns": 1790139092503858390,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima110_expanding/baseline.pkl",
+          "size": 59660947,
+          "sha256": "69f37b01981e343e7befa7427d4990e77ee533e97d115bdccaaf45b156ee45a3",
+          "mtime_ns": 1790139091237734335,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima110_expanding/evaluated_predictions.pkl",
+          "size": 121185339,
+          "sha256": "531195b3408643ff5da973cfe7658cc76463aece13911e28216535fc19fff629",
+          "mtime_ns": 1790147028767637909,
+          "mode": 420,
+          "storage": "release"
+        }
+      ]
+    },
+    {
+      "pack_number": 3,
+      "files": [
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima110_expanding/labels.pkl",
+          "size": 59660962,
+          "sha256": "1a28c42890826af349b442f1bcf6f18ac7b7204724eec3f6396147e83852c5e2",
+          "mtime_ns": 1790139090302578032,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima110_expanding/predictions.csv.gz",
+          "size": 77911244,
+          "sha256": "6616c23a49b5406e80d46236783fb9d8d063eb53c7e4107d93b6abb36768237f",
+          "mtime_ns": 1790147048207310388,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima110_expanding/prices.npz",
+          "size": 5876864,
+          "sha256": "f13df3524b61939f45cf7b757583b905d036bfede7108899c61871c8233325c0",
+          "mtime_ns": 1790139092503858390,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima110_expanding/pilot_unaligned_jobs/2018_1301.npz",
+          "size": 4565,
+          "sha256": "e4b575e0d178904a74f49d7b9ba37b6a4d025b84762c36ce806ba0ae77d96e03",
+          "mtime_ns": 1790144159715665800,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima110_expanding/pilot_unaligned_jobs/2018_1332.npz",
+          "size": 4162,
+          "sha256": "134627f8e9533da5f9561112632e28cde08a6db1db2eb7d2e6cd3289d2ddaf7d",
+          "mtime_ns": 1790144159727664844,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima110_expanding/pilot_unaligned_jobs/2018_7203.npz",
+          "size": 837,
+          "sha256": "602baf5c35ce803591a1e6d8358e2b2edb40eb87dabbdfe72ef36a765489819c",
+          "mtime_ns": 1790144159731682120,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima110_expanding/pilot_unaligned_jobs/2018_9984.npz",
+          "size": 5766,
+          "sha256": "647f6f864516843ddb8e6676d92b69f0536e6d7bf45c50dcc7cc1b10eb0d7ab6",
+          "mtime_ns": 1790144159741205645,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima110_expanding/pilot_unaligned_jobs/2019_1301.npz",
+          "size": 4861,
+          "sha256": "7f96039b3971a278d73b0cf7f352eb9bb528c3e5c29128ccabcf66d72b8a03a3",
+          "mtime_ns": 1790144159744346270,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima110_expanding/pilot_unaligned_jobs/2019_1332.npz",
+          "size": 4475,
+          "sha256": "85fc9511a752455cc1be3af47ec508f19fe5ccc096c6a538700149070e5198da",
+          "mtime_ns": 1790144159750266619,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima110_expanding/pilot_unaligned_jobs/2019_7203.npz",
+          "size": 5333,
+          "sha256": "66a5ca2555772b0c6cc2ad5c4242f4cf3dc8284c0016ff3a0249946f08da47b4",
+          "mtime_ns": 1790144159755841094,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima110_expanding/pilot_unaligned_jobs/2019_9984.npz",
+          "size": 5475,
+          "sha256": "9585f9a3930479d9ba8d652b98227eeb3063e37d471c3ae9b51224e85ccc3f90",
+          "mtime_ns": 1790144159758815463,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima110_expanding/pilot_unaligned_jobs/2020_1301.npz",
+          "size": 4831,
+          "sha256": "5274a3f98d837e496ca235cc821ca2a83faa81a40589a2e407ecbaa1465fd7bd",
+          "mtime_ns": 1790144159764813487,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima110_expanding/pilot_unaligned_jobs/2020_1332.npz",
+          "size": 4435,
+          "sha256": "c0acf8de04ff7356f172095fcbcd8982816c3c26cc5469ca7ecd4fb0773f1fa1",
+          "mtime_ns": 1790144159764830387,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima110_expanding/pilot_unaligned_jobs/2020_7203.npz",
+          "size": 5469,
+          "sha256": "306c7e6e14f1c07eb3d7e747d4b72f8bd30fe5a61fe26ebec21939c76f2a9619",
+          "mtime_ns": 1790144159775214704,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima110_expanding/pilot_unaligned_jobs/2020_9984.npz",
+          "size": 5582,
+          "sha256": "5dad6f1469f63ba78ad7c11a1badac60e6fb730f220cb4762404d2597fa5c467",
+          "mtime_ns": 1790144159781305887,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima110_expanding/pilot_unaligned_jobs/2021_1301.npz",
+          "size": 4181,
+          "sha256": "365dfcbaa3c0afc5f4a9d5762f0484e64521908714edadc776d26cb3a4d20216",
+          "mtime_ns": 1790144159795591050,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima110_expanding/pilot_unaligned_jobs/2021_1332.npz",
+          "size": 4120,
+          "sha256": "eee81340f14b3797ef1c76523f4e193e61272715974ab32da1875509eef0b61c",
+          "mtime_ns": 1790144159790420559,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima110_expanding/pilot_unaligned_jobs/2021_7203.npz",
+          "size": 5275,
+          "sha256": "fc5b30c6343d1024de10d5934f94719b5c54d388958ccfb8d05167f5d839a289",
+          "mtime_ns": 1790144159795266490,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima110_expanding/pilot_unaligned_jobs/2021_9984.npz",
+          "size": 5310,
+          "sha256": "483b0d2daf8249bce5eaa3bf434b1bd4961931a42468b480304f2bfd708d2608",
+          "mtime_ns": 1790144159805565014,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima515/baseline.pkl",
+          "size": 59660947,
+          "sha256": "69f37b01981e343e7befa7427d4990e77ee533e97d115bdccaaf45b156ee45a3",
+          "mtime_ns": 1790139091237734335,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima515/evaluated_predictions.pkl",
+          "size": 121185339,
+          "sha256": "1b6aef36f796de2a8104fd9f67bcfc3878155447fb7f8d4c6dea01635a033506",
+          "mtime_ns": 1790141769545419469,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima515/fit_audits.json",
+          "size": 9386971,
+          "sha256": "dbed3c8525937fd21bc57f6576d0784e28476efc0a6983a8deec11e3532c7f38",
+          "mtime_ns": 1790141789879117982,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima515/labels.pkl",
+          "size": 59660962,
+          "sha256": "1a28c42890826af349b442f1bcf6f18ac7b7204724eec3f6396147e83852c5e2",
+          "mtime_ns": 1790139090302578032,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima515/predictions.csv.gz",
+          "size": 80705027,
+          "sha256": "bd357279ea8c8d7f401d1daa0deb1d77f8fac8d8ae4a979de1e5426d00c4eb91",
+          "mtime_ns": 1790141789793008013,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima515/prices.npz",
+          "size": 5876864,
+          "sha256": "f13df3524b61939f45cf7b757583b905d036bfede7108899c61871c8233325c0",
+          "mtime_ns": 1790139092503858390,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima515/invalid_numerical_backups/2019_8281.npz",
+          "size": 930,
+          "sha256": "0f679ea14ae87929a53fb5662070849b7ab5480be4b66f2641489e33efabddb4",
+          "mtime_ns": 1790140029241704658,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima515/invalid_numerical_backups/2020_3387.npz",
+          "size": 932,
+          "sha256": "f8eb8d5dac18c9ab0c9636400d98e3aeefb16d46a781ff05daec3085704338e8",
+          "mtime_ns": 1790140234696697054,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima515/invalid_numerical_backups/2021_3774.npz",
+          "size": 4476,
+          "sha256": "0b5c02e63fe0e3a9e2ad0e1598b8e099f8784e79912e53ae16d217b9767c234e",
+          "mtime_ns": 1790140935256531105,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima_acf/corrections.sqlite",
+          "size": 205152256,
+          "sha256": "bb7f4c4a659e83d46a7ae7a536d008a1fd25dc74e5fd207006e84a4bf9962a5a",
+          "mtime_ns": 1790217813809910820,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima_acf/corrections.sqlite-shm",
+          "size": 32768,
+          "sha256": "fd4c9fda9cd3f9ae7c962b0ddf37232294d55580e1aa165aa06129b8549389eb",
+          "mtime_ns": 1790217926342298379,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima_acf/corrections.sqlite-wal",
+          "size": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "mtime_ns": 1790217926341796068,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima_acf/p3_predictions.npz",
+          "size": 15956460,
+          "sha256": "b986ce606aae7414cb774538279c714f33aa1217a005ccd222da498c0f0305f8",
+          "mtime_ns": 1790217935909077766,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima_acf/p5_predictions.npz",
+          "size": 16019787,
+          "sha256": "fe3ac898dbf2ae5907e77691bead18cb2704548a8ed1dc74159e7ca978e1da2e",
+          "mtime_ns": 1790217944736408332,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima_acf/residual_acf.csv.gz",
+          "size": 3427003,
+          "sha256": "e49913d4e338cf1fe734bfc660288d0936e708760d3d4d152af8d2580a213b84",
+          "mtime_ns": 1790217946203346205,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/baseline.pkl",
+          "size": 59660947,
+          "sha256": "69f37b01981e343e7befa7427d4990e77ee533e97d115bdccaaf45b156ee45a3",
+          "mtime_ns": 1790139091237734335,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/fits.sqlite-shm",
+          "size": 32768,
+          "sha256": "fd4c9fda9cd3f9ae7c962b0ddf37232294d55580e1aa165aa06129b8549389eb",
+          "mtime_ns": 1790237713020795306,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/fits.sqlite-wal",
+          "size": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "mtime_ns": 1790174215927185424,
+          "mode": 420,
+          "storage": "release"
+        }
+      ]
+    },
+    {
+      "pack_number": 4,
+      "files": [
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/labels.pkl",
+          "size": 59660962,
+          "sha256": "1a28c42890826af349b442f1bcf6f18ac7b7204724eec3f6396147e83852c5e2",
+          "mtime_ns": 1790139090302578032,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/prediction_keys.npz",
+          "size": 11501964,
+          "sha256": "3fcafea2cd76d26527e06a972018662160799f60e53e129875478725e5f6066d",
+          "mtime_ns": 1790174214843343032,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/prices.npz",
+          "size": 5876864,
+          "sha256": "f13df3524b61939f45cf7b757583b905d036bfede7108899c61871c8233325c0",
+          "mtime_ns": 1790139092503858390,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p1_q1/parameters.csv.gz",
+          "size": 238600,
+          "sha256": "4baa6aaf5a2e099439176c67239f3644dc3f9426f50a1f44040ac3c57064e0ce",
+          "mtime_ns": 1790174024472637356,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p1_q1/predictions.npz",
+          "size": 15746556,
+          "sha256": "4ef14e4120a41d6cbce45a3c38d8ff9d642e3e5826b4c1ed66ff7ee1f2c83fdd",
+          "mtime_ns": 1790174025851899204,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p1_q2/parameters.csv.gz",
+          "size": 312544,
+          "sha256": "83cb06c96602eaaede6fff7178ca08362727bcf987b3b5cba3931296ec7bc14e",
+          "mtime_ns": 1790174030858285427,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p1_q2/predictions.npz",
+          "size": 15909726,
+          "sha256": "943e3f2c72b914a431d98e000d6f9da5c3ecef4487ad3f063ccc8ebdb0e8c4bc",
+          "mtime_ns": 1790174032136363216,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p1_q3/parameters.csv.gz",
+          "size": 385261,
+          "sha256": "7eb6366b908ae2f2823d354610defe3bae59d5b63304310fe76b4850cd305a6a",
+          "mtime_ns": 1790174037216319027,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p1_q3/predictions.npz",
+          "size": 15949772,
+          "sha256": "907452c7b19e9272c894b35279c1ffaab8e86e799ec8800764054f22d4ba4123",
+          "mtime_ns": 1790174038519473304,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p1_q4/parameters.csv.gz",
+          "size": 457404,
+          "sha256": "47202c214b012c36046e07b16b5044a855a6e9dd4fe30da27d8eb5175da33f5e",
+          "mtime_ns": 1790174043609409584,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p1_q4/predictions.npz",
+          "size": 15986843,
+          "sha256": "950593272e9579c33d00eabda94fff8632657a0116a285c8cdab4c59a4e82097",
+          "mtime_ns": 1790174044842469281,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p1_q5/parameters.csv.gz",
+          "size": 529116,
+          "sha256": "b297bcfba7eb4637dac4d7a8e61c6c3a6dd454d12a79cb2f5f9a89ad81972aef",
+          "mtime_ns": 1790174050096074501,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p1_q5/predictions.npz",
+          "size": 16018420,
+          "sha256": "510414c634b285710431c60b8125cef47613a32a87e7fbfcf51daa5d8554257e",
+          "mtime_ns": 1790174051299709096,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p2_q1/parameters.csv.gz",
+          "size": 313093,
+          "sha256": "cac410ab28daefa082e4f4a78abad339e3424aaf80bbf75f5749756b6a4f8463",
+          "mtime_ns": 1790174056293800040,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p2_q1/predictions.npz",
+          "size": 15899189,
+          "sha256": "e6e3f8145b3d57a75f747721edd5073587f0e344e1840be6584b2ff6aa77cce0",
+          "mtime_ns": 1790174057572146462,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p2_q2/parameters.csv.gz",
+          "size": 381095,
+          "sha256": "fb5121b1ee834e333a40b8cb9502f64583c26f7ddbbe3bf4b44846834b93926d",
+          "mtime_ns": 1790174062957049068,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p2_q2/predictions.npz",
+          "size": 16088556,
+          "sha256": "4dd7292ed45f410d9ebc6a5479c31f6d703c3d27ecfd76174144bef2093feda9",
+          "mtime_ns": 1790174064154904929,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p2_q3/parameters.csv.gz",
+          "size": 454722,
+          "sha256": "b00b3e777f8cf2f6d473b1e1e2cbd45fdbc2224ba7e3f3e245358e84a506763d",
+          "mtime_ns": 1790174069732982414,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p2_q3/predictions.npz",
+          "size": 16102414,
+          "sha256": "4c5961f6ab24c77bc256a3248845cb682b7ac4cf446396e02ac96b54e5f250c2",
+          "mtime_ns": 1790174070895161051,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p2_q4/parameters.csv.gz",
+          "size": 527531,
+          "sha256": "c0229dee535a8514258580acc62f8b445f7419e12aef50eaa579bc4ee1e2926f",
+          "mtime_ns": 1790174076462100911,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p2_q4/predictions.npz",
+          "size": 16130700,
+          "sha256": "4fb82cd747bf99f37edce96d8e9f9647d4a1bbaf15a7013eac6e67779d6520b5",
+          "mtime_ns": 1790174077610991952,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p2_q5/parameters.csv.gz",
+          "size": 599832,
+          "sha256": "243b821a04046547fe4ecf5e70fb16d4d8bde66b30bdc64246476abad361e380",
+          "mtime_ns": 1790174083477726932,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p2_q5/predictions.npz",
+          "size": 16145664,
+          "sha256": "e5e4dcf624196f5cc0f7b06ebc524b212d3080421531d9985362c537dfbabd45",
+          "mtime_ns": 1790174084624243911,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p3_q1/parameters.csv.gz",
+          "size": 385918,
+          "sha256": "a8b003af2cc23369ceba6180370f8d075c556f37e7837ed9303aa994b95942c4",
+          "mtime_ns": 1790174089775825674,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p3_q1/predictions.npz",
+          "size": 15929718,
+          "sha256": "aed6b1e38c20474847a287ee0f565ee847acc33421dd96ef216bd6f61ec2c14d",
+          "mtime_ns": 1790174091028027205,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p3_q2/parameters.csv.gz",
+          "size": 454570,
+          "sha256": "7596b782e65cd34516d0a94533ebed07361ba70fffe773c2ddcd61980313482e",
+          "mtime_ns": 1790174096237110512,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p3_q2/predictions.npz",
+          "size": 16100039,
+          "sha256": "47866a960ae78d86993b24d61eeb710a11d768dbe534c8819106e5901ff57cbf",
+          "mtime_ns": 1790174097413582023,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p3_q3/parameters.csv.gz",
+          "size": 522600,
+          "sha256": "a1933f3ed9e7e30676da2f04c54cc8c96ea55c458515e41bf32cef0d522f106e",
+          "mtime_ns": 1790174103131984380,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p3_q3/predictions.npz",
+          "size": 16150748,
+          "sha256": "7c64b07182276bb3986f811b17b283b06c98be1c10d415c1b2469acf0bd003e3",
+          "mtime_ns": 1790174104252636225,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p3_q4/parameters.csv.gz",
+          "size": 595617,
+          "sha256": "9e0d70f478b6ea924bb8c5b48665c6272d86916f776005ea816c64d2abf8ee3b",
+          "mtime_ns": 1790174110057593883,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p3_q4/predictions.npz",
+          "size": 16172244,
+          "sha256": "3e263735418a66f4ea41c11bc620abf7149a0a797d28a7c55e54fc2975e41315",
+          "mtime_ns": 1790174111166393460,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p3_q5/parameters.csv.gz",
+          "size": 668211,
+          "sha256": "8e3bf3f7cdff1fe81ab990bef846dc69b2823f8897ee341d4c5d61b0e14b8b81",
+          "mtime_ns": 1790174117038147946,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p3_q5/predictions.npz",
+          "size": 16187568,
+          "sha256": "f25825d107a175bf092a9d64abd01ce9abec7078103ba7fb96564dd6886fffec",
+          "mtime_ns": 1790174118142269985,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p4_q1/parameters.csv.gz",
+          "size": 458029,
+          "sha256": "1ff9aa9e6793ec4887499cf6fa94a885666bfb7231accc8838f54c9a35f3fd04",
+          "mtime_ns": 1790174123647200018,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p4_q1/predictions.npz",
+          "size": 15966184,
+          "sha256": "ad983bbde6053c112f50eff733c3bd704baaee419304d320eabbc86b42d6b5dd",
+          "mtime_ns": 1790174124879578154,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p4_q2/parameters.csv.gz",
+          "size": 527441,
+          "sha256": "74ef69f0746d0cfc9ebb29a9fed4e511a88e0713649c77144f1cb8bbea26edd0",
+          "mtime_ns": 1790174130362345109,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p4_q2/predictions.npz",
+          "size": 16112610,
+          "sha256": "892daff497267ea54475326709079d89cbad582bf453ff0d4217deda58fe4d7f",
+          "mtime_ns": 1790174131521991180,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p4_q3/parameters.csv.gz",
+          "size": 594626,
+          "sha256": "906a843e60446bf02840b65f0e30defcc6395437f7ba5d4113c1a48e04ddafbf",
+          "mtime_ns": 1790174137238943916,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p4_q3/predictions.npz",
+          "size": 16148382,
+          "sha256": "3ce4dcc7537289cf71c9d708f78489419e789b34269471025ce39246e811a173",
+          "mtime_ns": 1790174138357873299,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p4_q4/parameters.csv.gz",
+          "size": 664128,
+          "sha256": "ef6f4a96320d07500de65958699cf15de3f0921238e4165b108e68f881f03621",
+          "mtime_ns": 1790174143969524160,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p4_q4/predictions.npz",
+          "size": 16215389,
+          "sha256": "8e1d52a2fe4bf06f3a1d87c1e4131477a588010d4bfa4ad9855cffdba9a7f90a",
+          "mtime_ns": 1790174145044178387,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p4_q5/parameters.csv.gz",
+          "size": 736737,
+          "sha256": "7f6d15281d011326a6f264f140174f2da503efbbb6093bd4700e76a6eaad0c6a",
+          "mtime_ns": 1790174150621509686,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p4_q5/predictions.npz",
+          "size": 16230312,
+          "sha256": "bef5af6b699c89c6d81e9b06d4e07695b88c57556bcde03edecfe4094286e32a",
+          "mtime_ns": 1790174151696433753,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p5_q1/parameters.csv.gz",
+          "size": 529935,
+          "sha256": "ce4ffe469759d3908d8774842c2d48a629f5090138fa8c4f907d10d35607500d",
+          "mtime_ns": 1790174157071182386,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p5_q1/predictions.npz",
+          "size": 15994390,
+          "sha256": "fe28123088a39649471c8b79458a07cfd88cb1b5ef5512a89f191af5243e776c",
+          "mtime_ns": 1790174158282935277,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p5_q2/parameters.csv.gz",
+          "size": 599378,
+          "sha256": "4696b57daf971754c3a2f24ba456e7f26c0bcbfb03472b4a49128d6f57171a63",
+          "mtime_ns": 1790174163709823522,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p5_q2/predictions.npz",
+          "size": 16110854,
+          "sha256": "ae417a4ba24342443b491738a13a7345f579c5883f01ea079da9f22cd3ee50f8",
+          "mtime_ns": 1790174164857719036,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p5_q3/parameters.csv.gz",
+          "size": 667193,
+          "sha256": "5b8d208c6876ce8183089e3b9a1c0b1a5f26018878227ebd02754cb5e78e384c",
+          "mtime_ns": 1790174170304691097,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p5_q3/predictions.npz",
+          "size": 16158078,
+          "sha256": "e0de7333955fab1139d6522bb549de6bace6aa8683be540280d3d642a8e0ed27",
+          "mtime_ns": 1790174171425290483,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p5_q4/parameters.csv.gz",
+          "size": 735620,
+          "sha256": "b3075bd439ba16da3ec45dd9d70555630e7f2c5dd14f1dbb46f3ae98f389ca19",
+          "mtime_ns": 1790174176975976126,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p5_q4/predictions.npz",
+          "size": 16206662,
+          "sha256": "ed0195bdc81994ce9764d87b7e48821bf38f2ddaa3b462ea15f52e8f449d619e",
+          "mtime_ns": 1790174178045786054,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p5_q5/parameters.csv.gz",
+          "size": 802603,
+          "sha256": "795ec6011689cfa56e9f77c03791afa64f88788ff8838ce896ab58c8dca58c43",
+          "mtime_ns": 1790174183545840618,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima_grid/models/p5_q5/predictions.npz",
+          "size": 16244975,
+          "sha256": "3aecc111f49c27283a67c17a22ac6efd7bdae4d8ad57023ad74513f65c898c32",
+          "mtime_ns": 1790174184602138286,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima_joint/fits.sqlite",
+          "size": 13029376,
+          "sha256": "a9bac8d808933707d72cb7929455cb69e6723966804c3e86b2d02dc44a037ec0",
+          "mtime_ns": 1790237705722183722,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima_joint/fits.sqlite-shm",
+          "size": 32768,
+          "sha256": "fd4c9fda9cd3f9ae7c962b0ddf37232294d55580e1aa165aa06129b8549389eb",
+          "mtime_ns": 1790237709307219881,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima_joint/fits.sqlite-wal",
+          "size": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "mtime_ns": 1790237709306971934,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima_joint/p3_C_predictions.npz",
+          "size": 15949176,
+          "sha256": "9146349de2466c492213820f712e92504907180e5961d9be74e3304df0ff74de",
+          "mtime_ns": 1790237747826122271,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima_joint/p3_D_predictions.npz",
+          "size": 15980190,
+          "sha256": "d3d05d6b565c1230b14218b2ff819acd02e4b37895f5508219a110aef3ec92bd",
+          "mtime_ns": 1790237750720403177,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima_joint/p5_C_predictions.npz",
+          "size": 16002243,
+          "sha256": "2ddb8e093393f762d27c19a08e4b03ec532cd35ff94ee121ef1e5c96a2296861",
+          "mtime_ns": 1790237791214553228,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima_joint/p5_D_predictions.npz",
+          "size": 16024858,
+          "sha256": "6fb956097a3103b80d0dc94b17de4a3563447c1e0cc1a13bd6b7896df077e7f3",
+          "mtime_ns": 1790237794018863385,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima_joint/training_audit.csv.gz",
+          "size": 4082843,
+          "sha256": "4a55ad36b40a69e2fd401eddbc19b3446e46eb18cdec4261e9fc6e19393c52d6",
+          "mtime_ns": 1790237795535797598,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima_joint/training_targets.npz",
+          "size": 11426743,
+          "sha256": "9e1b084a2ecbc4615c1a00375482a96911b319a4f582b235c2adfe9ce5a814f4",
+          "mtime_ns": 1790232084868539840,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/originals/work/arima_joint/validation_audit.csv.gz",
+          "size": 78102,
+          "sha256": "a9a18ae0e0a302cb45cec3d28d7392627ceca127bced1d3f4ae0b4e855dfbdc3",
+          "mtime_ns": 1790237795633759821,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/packages/work-arima011_expanding-jobs.tar.gz",
+          "size": 30353295,
+          "sha256": "3ddc3c1bf1fc253e10c3f5dbac0ba4e3775550da5ef7fd22e93f442aa5d3e84c",
+          "mtime_ns": 1790584943196318067,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/packages/work-arima012_expanding-jobs.tar.gz",
+          "size": 43877506,
+          "sha256": "c2c8997483921cb5441760daefa8522b6069836abea9b17f2eef6d09c740f9e3",
+          "mtime_ns": 1790584945863014941,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/packages/work-arima110_expanding-jobs.tar.gz",
+          "size": 33790021,
+          "sha256": "a8ba1677db57861874308046a53b2729cc4c72338b7c7860237abddc065e2f3f",
+          "mtime_ns": 1790584948309568936,
+          "mode": 420,
+          "storage": "release"
+        },
+        {
+          "path": "research/jpx_arima_learning_20260928/packages/work-arima515-jobs.tar.gz",
+          "size": 46685513,
+          "sha256": "fe316e8c383741eb717f67c25489d96ced32976bf145e52b4528e79a5213fb3c",
+          "mtime_ns": 1790584951227081103,
+          "mode": 420,
+          "storage": "release"
+        }
+      ]
+    },
+    {
+      "pack_number": 5,
+      "files": [
+        {
+          "path": "research/jpx_arima_learning_20260928/packages/chunks/outputs__JPX-ARIMA-grid-code-and-results.zip.part001",
+          "size": 734003200,
+          "sha256": "e3413d81a3cf7e4d1bfe0f130e5ef93f5caf67156d33135d869139be479716fd",
+          "mtime_ns": 1790584928054379137,
+          "mode": 420,
+          "storage": "release"
+        }
+      ]
+    },
+    {
+      "pack_number": 6,
+      "files": [
+        {
+          "path": "research/jpx_arima_learning_20260928/packages/chunks/outputs__JPX-ARIMA-grid-code-and-results.zip.part002",
+          "size": 734003200,
+          "sha256": "fee197f60d5ab320054252a43368d0336f63e1d3e9e5d20c59499ca8c02db1a2",
+          "mtime_ns": 1790584928920875293,
+          "mode": 420,
+          "storage": "release"
+        }
+      ]
+    },
+    {
+      "pack_number": 7,
+      "files": [
+        {
+          "path": "research/jpx_arima_learning_20260928/packages/chunks/outputs__JPX-ARIMA-grid-code-and-results.zip.part003",
+          "size": 116905864,
+          "sha256": "83240860393ea9635e06fcdfbba17f71d6a8a85d9cec3681672076cbebf7ff05",
+          "mtime_ns": 1790584929021021689,
+          "mode": 420,
+          "storage": "release"
+        }
+      ]
+    },
+    {
+      "pack_number": 8,
+      "files": [
+        {
+          "path": "research/jpx_arima_learning_20260928/packages/chunks/work__arima_grid__fits.sqlite.part001",
+          "size": 734003200,
+          "sha256": "6aa262caf133ea7be86b1e4ac2cae4ab8429a767a4a40c7f3bd5f72973e51c1e",
+          "mtime_ns": 1790584939717888009,
+          "mode": 420,
+          "storage": "release"
+        }
+      ]
+    },
+    {
+      "pack_number": 9,
+      "files": [
+        {
+          "path": "research/jpx_arima_learning_20260928/packages/chunks/work__arima_grid__fits.sqlite.part002",
+          "size": 734003200,
+          "sha256": "20c5ccf64450a2c88285acbb5c2d02db41408fba09324d46db219b560bb76eac",
+          "mtime_ns": 1790584940498538076,
+          "mode": 420,
+          "storage": "release"
+        }
+      ]
+    },
+    {
+      "pack_number": 10,
+      "files": [
+        {
+          "path": "research/jpx_arima_learning_20260928/packages/chunks/work__arima_grid__fits.sqlite.part003",
+          "size": 123342848,
+          "sha256": "3637062bc219565449db19c959ef4783d00663bf77300cd35276bf1f762e2e06",
+          "mtime_ns": 1790584940596282125,
+          "mode": 420,
+          "storage": "release"
+        }
+      ]
+    }
+  ]
+}

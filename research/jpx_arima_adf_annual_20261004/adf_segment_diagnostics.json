@@ -1,0 +1,26 @@
+[
+  {
+    "year": 2018,
+    "testable_stock_years": 1876,
+    "segment_ends_before_training_end": 32,
+    "mean_segment_price_count": 241.41204690831557
+  },
+  {
+    "year": 2019,
+    "testable_stock_years": 1909,
+    "segment_ends_before_training_end": 67,
+    "mean_segment_price_count": 475.77684651650077
+  },
+  {
+    "year": 2020,
+    "testable_stock_years": 1942,
+    "segment_ends_before_training_end": 75,
+    "mean_segment_price_count": 699.4871266735324
+  },
+  {
+    "year": 2021,
+    "testable_stock_years": 1974,
+    "segment_ends_before_training_end": 1974,
+    "mean_segment_price_count": 862.7831813576495
+  }
+]

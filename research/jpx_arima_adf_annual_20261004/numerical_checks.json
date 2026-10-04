@@ -1,0 +1,590 @@
+{
+  "selection_time_tests": {
+    "mature_labels_only": true,
+    "unmatured_and_future_return_perturbations_invariant": true,
+    "no_history_initialization": true,
+    "deterministic_tie_break": true
+  },
+  "adf_tests": {
+    "stock_years": 29,
+    "future_price_invariance": true,
+    "critical_value_decision_matches_unscaled_adf": true,
+    "max_statistic_roundoff": 1.3589129821411916e-13,
+    "missing_gap_and_newest_tie_test": true
+  },
+  "forecast_tests": {
+    "checks": [
+      {
+        "code": 1518,
+        "year": 2018,
+        "p": 1,
+        "d": 0,
+        "q": 1,
+        "date": "2017-12-29",
+        "price_error": 0.0
+      },
+      {
+        "code": 1518,
+        "year": 2018,
+        "p": 1,
+        "d": 0,
+        "q": 1,
+        "date": "2018-07-02",
+        "price_error": 0.0
+      },
+      {
+        "code": 1518,
+        "year": 2018,
+        "p": 1,
+        "d": 0,
+        "q": 1,
+        "date": "2018-12-27",
+        "price_error": 0.0
+      },
+      {
+        "code": 1518,
+        "year": 2018,
+        "p": 3,
+        "d": 0,
+        "q": 1,
+        "date": "2017-12-29",
+        "price_error": 0.0
+      },
+      {
+        "code": 1518,
+        "year": 2018,
+        "p": 3,
+        "d": 0,
+        "q": 1,
+        "date": "2018-07-02",
+        "price_error": 0.0
+      },
+      {
+        "code": 1518,
+        "year": 2018,
+        "p": 3,
+        "d": 0,
+        "q": 1,
+        "date": "2018-12-27",
+        "price_error": 0.0
+      },
+      {
+        "code": 1518,
+        "year": 2018,
+        "p": 5,
+        "d": 0,
+        "q": 5,
+        "date": "2017-12-29",
+        "price_error": 0.0
+      },
+      {
+        "code": 1518,
+        "year": 2018,
+        "p": 5,
+        "d": 0,
+        "q": 5,
+        "date": "2018-07-02",
+        "price_error": 0.0
+      },
+      {
+        "code": 1518,
+        "year": 2018,
+        "p": 5,
+        "d": 0,
+        "q": 5,
+        "date": "2018-12-27",
+        "price_error": 0.0
+      },
+      {
+        "code": 2294,
+        "year": 2018,
+        "p": 1,
+        "d": 2,
+        "q": 1,
+        "date": "2017-12-29",
+        "price_error": 0.0
+      },
+      {
+        "code": 2294,
+        "year": 2018,
+        "p": 1,
+        "d": 2,
+        "q": 1,
+        "date": "2018-07-02",
+        "price_error": 0.0
+      },
+      {
+        "code": 2294,
+        "year": 2018,
+        "p": 1,
+        "d": 2,
+        "q": 1,
+        "date": "2018-12-27",
+        "price_error": 0.0
+      },
+      {
+        "code": 2294,
+        "year": 2018,
+        "p": 3,
+        "d": 2,
+        "q": 1,
+        "date": "2017-12-29",
+        "price_error": 0.0
+      },
+      {
+        "code": 2294,
+        "year": 2018,
+        "p": 3,
+        "d": 2,
+        "q": 1,
+        "date": "2018-07-02",
+        "price_error": 0.0
+      },
+      {
+        "code": 2294,
+        "year": 2018,
+        "p": 3,
+        "d": 2,
+        "q": 1,
+        "date": "2018-12-27",
+        "price_error": 0.0
+      },
+      {
+        "code": 2294,
+        "year": 2018,
+        "p": 5,
+        "d": 2,
+        "q": 5,
+        "date": "2017-12-29",
+        "price_error": 0.0
+      },
+      {
+        "code": 2294,
+        "year": 2018,
+        "p": 5,
+        "d": 2,
+        "q": 5,
+        "date": "2018-07-02",
+        "price_error": 0.0
+      },
+      {
+        "code": 2294,
+        "year": 2018,
+        "p": 5,
+        "d": 2,
+        "q": 5,
+        "date": "2018-12-27",
+        "price_error": 0.0
+      },
+      {
+        "code": 1379,
+        "year": 2019,
+        "p": 1,
+        "d": 0,
+        "q": 1,
+        "date": "2018-12-28",
+        "price_error": 0.0
+      },
+      {
+        "code": 1379,
+        "year": 2019,
+        "p": 1,
+        "d": 0,
+        "q": 1,
+        "date": "2019-07-03",
+        "price_error": 0.0
+      },
+      {
+        "code": 1379,
+        "year": 2019,
+        "p": 1,
+        "d": 0,
+        "q": 1,
+        "date": "2019-12-27",
+        "price_error": 0.0
+      },
+      {
+        "code": 1379,
+        "year": 2019,
+        "p": 3,
+        "d": 0,
+        "q": 1,
+        "date": "2018-12-28",
+        "price_error": 0.0
+      },
+      {
+        "code": 1379,
+        "year": 2019,
+        "p": 3,
+        "d": 0,
+        "q": 1,
+        "date": "2019-07-03",
+        "price_error": 0.0
+      },
+      {
+        "code": 1379,
+        "year": 2019,
+        "p": 3,
+        "d": 0,
+        "q": 1,
+        "date": "2019-12-27",
+        "price_error": 0.0
+      },
+      {
+        "code": 1379,
+        "year": 2019,
+        "p": 5,
+        "d": 0,
+        "q": 5,
+        "date": "2018-12-28",
+        "price_error": 0.0
+      },
+      {
+        "code": 1379,
+        "year": 2019,
+        "p": 5,
+        "d": 0,
+        "q": 5,
+        "date": "2019-07-03",
+        "price_error": 0.0
+      },
+      {
+        "code": 1379,
+        "year": 2019,
+        "p": 5,
+        "d": 0,
+        "q": 5,
+        "date": "2019-12-27",
+        "price_error": 0.0
+      },
+      {
+        "code": 1377,
+        "year": 2020,
+        "p": 1,
+        "d": 0,
+        "q": 1,
+        "date": "2019-12-30",
+        "price_error": 0.0
+      },
+      {
+        "code": 1377,
+        "year": 2020,
+        "p": 1,
+        "d": 0,
+        "q": 1,
+        "date": "2020-07-02",
+        "price_error": 0.0
+      },
+      {
+        "code": 1377,
+        "year": 2020,
+        "p": 1,
+        "d": 0,
+        "q": 1,
+        "date": "2020-12-29",
+        "price_error": 0.0
+      },
+      {
+        "code": 1377,
+        "year": 2020,
+        "p": 3,
+        "d": 0,
+        "q": 1,
+        "date": "2019-12-30",
+        "price_error": 0.0
+      },
+      {
+        "code": 1377,
+        "year": 2020,
+        "p": 3,
+        "d": 0,
+        "q": 1,
+        "date": "2020-07-02",
+        "price_error": 0.0
+      },
+      {
+        "code": 1377,
+        "year": 2020,
+        "p": 3,
+        "d": 0,
+        "q": 1,
+        "date": "2020-12-29",
+        "price_error": 0.0
+      },
+      {
+        "code": 1377,
+        "year": 2020,
+        "p": 5,
+        "d": 0,
+        "q": 5,
+        "date": "2019-12-30",
+        "price_error": 0.0
+      },
+      {
+        "code": 1377,
+        "year": 2020,
+        "p": 5,
+        "d": 0,
+        "q": 5,
+        "date": "2020-07-02",
+        "price_error": 0.0
+      },
+      {
+        "code": 1377,
+        "year": 2020,
+        "p": 5,
+        "d": 0,
+        "q": 5,
+        "date": "2020-12-29",
+        "price_error": 0.0
+      },
+      {
+        "code": 1431,
+        "year": 2020,
+        "p": 1,
+        "d": 2,
+        "q": 1,
+        "date": "2019-12-30",
+        "price_error": 0.0
+      },
+      {
+        "code": 1431,
+        "year": 2020,
+        "p": 1,
+        "d": 2,
+        "q": 1,
+        "date": "2020-07-02",
+        "price_error": 0.0
+      },
+      {
+        "code": 1431,
+        "year": 2020,
+        "p": 1,
+        "d": 2,
+        "q": 1,
+        "date": "2020-12-29",
+        "price_error": 0.0
+      },
+      {
+        "code": 1431,
+        "year": 2020,
+        "p": 3,
+        "d": 2,
+        "q": 1,
+        "date": "2019-12-30",
+        "price_error": 0.0
+      },
+      {
+        "code": 1431,
+        "year": 2020,
+        "p": 3,
+        "d": 2,
+        "q": 1,
+        "date": "2020-07-02",
+        "price_error": 4.547473508864641e-13
+      },
+      {
+        "code": 1431,
+        "year": 2020,
+        "p": 3,
+        "d": 2,
+        "q": 1,
+        "date": "2020-12-29",
+        "price_error": 0.0
+      },
+      {
+        "code": 1431,
+        "year": 2020,
+        "p": 5,
+        "d": 2,
+        "q": 5,
+        "date": "2019-12-30",
+        "price_error": 0.0
+      },
+      {
+        "code": 1431,
+        "year": 2020,
+        "p": 5,
+        "d": 2,
+        "q": 5,
+        "date": "2020-07-02",
+        "price_error": 0.0
+      },
+      {
+        "code": 1431,
+        "year": 2020,
+        "p": 5,
+        "d": 2,
+        "q": 5,
+        "date": "2020-12-29",
+        "price_error": 0.0
+      },
+      {
+        "code": 1377,
+        "year": 2021,
+        "p": 1,
+        "d": 0,
+        "q": 1,
+        "date": "2020-12-30",
+        "price_error": 0.0
+      },
+      {
+        "code": 1377,
+        "year": 2021,
+        "p": 1,
+        "d": 0,
+        "q": 1,
+        "date": "2021-06-17",
+        "price_error": 0.0
+      },
+      {
+        "code": 1377,
+        "year": 2021,
+        "p": 1,
+        "d": 0,
+        "q": 1,
+        "date": "2021-12-01",
+        "price_error": 0.0
+      },
+      {
+        "code": 1377,
+        "year": 2021,
+        "p": 3,
+        "d": 0,
+        "q": 1,
+        "date": "2020-12-30",
+        "price_error": 0.0
+      },
+      {
+        "code": 1377,
+        "year": 2021,
+        "p": 3,
+        "d": 0,
+        "q": 1,
+        "date": "2021-06-17",
+        "price_error": 0.0
+      },
+      {
+        "code": 1377,
+        "year": 2021,
+        "p": 3,
+        "d": 0,
+        "q": 1,
+        "date": "2021-12-01",
+        "price_error": 0.0
+      },
+      {
+        "code": 1377,
+        "year": 2021,
+        "p": 5,
+        "d": 0,
+        "q": 5,
+        "date": "2020-12-30",
+        "price_error": 0.0
+      },
+      {
+        "code": 1377,
+        "year": 2021,
+        "p": 5,
+        "d": 0,
+        "q": 5,
+        "date": "2021-06-17",
+        "price_error": 0.0
+      },
+      {
+        "code": 1377,
+        "year": 2021,
+        "p": 5,
+        "d": 0,
+        "q": 5,
+        "date": "2021-12-01",
+        "price_error": 0.0
+      },
+      {
+        "code": 3962,
+        "year": 2021,
+        "p": 1,
+        "d": 2,
+        "q": 1,
+        "date": "2020-12-30",
+        "price_error": 0.0
+      },
+      {
+        "code": 3962,
+        "year": 2021,
+        "p": 1,
+        "d": 2,
+        "q": 1,
+        "date": "2021-06-17",
+        "price_error": 0.0
+      },
+      {
+        "code": 3962,
+        "year": 2021,
+        "p": 1,
+        "d": 2,
+        "q": 1,
+        "date": "2021-12-01",
+        "price_error": 0.0
+      },
+      {
+        "code": 3962,
+        "year": 2021,
+        "p": 3,
+        "d": 2,
+        "q": 1,
+        "date": "2020-12-30",
+        "price_error": 0.0
+      },
+      {
+        "code": 3962,
+        "year": 2021,
+        "p": 3,
+        "d": 2,
+        "q": 1,
+        "date": "2021-06-17",
+        "price_error": 0.0
+      },
+      {
+        "code": 3962,
+        "year": 2021,
+        "p": 3,
+        "d": 2,
+        "q": 1,
+        "date": "2021-12-01",
+        "price_error": 0.0
+      },
+      {
+        "code": 3962,
+        "year": 2021,
+        "p": 5,
+        "d": 2,
+        "q": 5,
+        "date": "2020-12-30",
+        "price_error": 0.0
+      },
+      {
+        "code": 3962,
+        "year": 2021,
+        "p": 5,
+        "d": 2,
+        "q": 5,
+        "date": "2021-06-17",
+        "price_error": 0.0
+      },
+      {
+        "code": 3962,
+        "year": 2021,
+        "p": 5,
+        "d": 2,
+        "q": 5,
+        "date": "2021-12-01",
+        "price_error": 0.0
+      }
+    ],
+    "count": 63,
+    "max_price_error": 4.547473508864641e-13,
+    "direct_forecast_and_future_perturbation_passed": true
+  },
+  "passed": true
+}

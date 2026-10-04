@@ -1,0 +1,21 @@
+{
+  "source_tag": "snapshot-2026-09-28-arima-learning",
+  "release_id": 398077615,
+  "asset_id": 594950920,
+  "draft": true,
+  "pack_size": 739461120,
+  "github_pack_digest": "sha256:132d4d5269a23d681427054e40a9afa4deb289712793dec50197d534308dc7fb",
+  "whole_pack_downloaded_or_verified": false,
+  "reason": "Full download was too slow; stopped and preserved partial receipt.",
+  "partial_full_download_bytes": 8711550,
+  "partial_full_download_sha256": "31c6b0ca7a5d18df2d11be643032e97e749671532511f9c7cc7ada9ff46f78da",
+  "remote_first_header_and_label_prefix_matches": true,
+  "fully_retrieved_member": "research/jpx_arima_learning_20260928/originals/work/arima_grid/prices.npz",
+  "member_size": 5876864,
+  "member_sha256": "f13df3524b61939f45cf7b757583b905d036bfede7108899c61871c8233325c0",
+  "byte_offset": 71164928,
+  "ranges": 23,
+  "download_seconds": 19.61237583300317,
+  "matches_local_price_input": true,
+  "all_other_local_inputs_verified_against_versioned_inventory": true
+}

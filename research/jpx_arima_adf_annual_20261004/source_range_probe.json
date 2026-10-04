@@ -1,0 +1,10 @@
+{
+  "range_requested": [
+    0,
+    8191
+  ],
+  "bytes_returned": 8192,
+  "seconds": 6.766903584000829,
+  "sha256": "3a79c9d90999d2cd1dcbd02599e60d1d44d5ffcb3adb5d1a17543158bf17cd0d",
+  "range_success": true
+}

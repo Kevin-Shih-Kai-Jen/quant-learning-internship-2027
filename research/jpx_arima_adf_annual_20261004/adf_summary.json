@@ -1,0 +1,41 @@
+{
+  "counts": [
+    {
+      "year": 2018,
+      "total": 2000,
+      "d0": 115,
+      "d1": 1713,
+      "d2": 13,
+      "unresolved": 159
+    },
+    {
+      "year": 2019,
+      "total": 2000,
+      "d0": 91,
+      "d1": 1794,
+      "d2": 0,
+      "unresolved": 115
+    },
+    {
+      "year": 2020,
+      "total": 2000,
+      "d0": 106,
+      "d1": 1814,
+      "d2": 1,
+      "unresolved": 79
+    },
+    {
+      "year": 2021,
+      "total": 2000,
+      "d0": 123,
+      "d1": 1827,
+      "d2": 2,
+      "unresolved": 48
+    }
+  ],
+  "new_fits": 11275,
+  "reused_fits": 178700,
+  "zero_fallback_fits": 10025,
+  "elapsed_seconds": 21.62830258300164,
+  "formal_test_read": false
+}
