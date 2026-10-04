@@ -1,5 +1,5 @@
 {
-  "status": "published_and_verified_cleanup_pending",
+  "status": "complete",
   "tag": "snapshot-2026-10-04-arima-adf-annual",
   "release_url": "https://github.com/Kevin-Shih-Kai-Jen/quant-learning-internship-2027/releases/tag/snapshot-2026-10-04-arima-adf-annual",
   "release_tag_commit": "6913fb493eaeb39788f454314482fbdb40714e05",
@@ -27,5 +27,8 @@
   "planned_git_files_verified": 144,
   "catalog_git_files_verified": 4,
   "formal_test_used": false,
-  "baseline_changed": false
+  "baseline_changed": false,
+  "cleanup_completed": true,
+  "cleanup_receipt": "cleanup_receipt.json",
+  "final_verification_commit_before_cleanup": "edb4b617227e787d737d20c515f5ca78b3b171c3"
 }

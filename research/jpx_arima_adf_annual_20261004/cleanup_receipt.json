@@ -1,0 +1,14 @@
+{
+  "completed_at_utc": "2026-10-04T12:41:56.058811+00:00",
+  "removed_root": "/private/tmp/jpx-arima-adf-20261004-8zvawe5n",
+  "removed_file_count": 346,
+  "logical_bytes_including_hard_links": 2165476571,
+  "unique_inode_bytes": 1613728037,
+  "root_absent_after_cleanup": true,
+  "remote_verified_commit_before_cleanup": "edb4b617227e787d737d20c515f5ca78b3b171c3",
+  "remote_git_files_verified_before_cleanup": 150,
+  "release_tag": "snapshot-2026-10-04-arima-adf-annual",
+  "release_url": "https://github.com/Kevin-Shih-Kai-Jen/quant-learning-internship-2027/releases/tag/snapshot-2026-10-04-arima-adf-annual",
+  "scope": "Only this task-exclusive temporary root: recoverable input copies, staged results, download samples, interrupted-download partial, replay test copies and operation scratch. All known fitting, evaluation, publication and download sessions had completed. Inventory was rechecked before removal.",
+  "preserved": "Original historical workspace, repository code/reports/catalogs, read-only synced sources and all other experiment directories were left in place."
+}
