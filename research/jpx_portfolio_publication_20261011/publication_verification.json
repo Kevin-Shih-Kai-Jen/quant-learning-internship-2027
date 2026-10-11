@@ -1,0 +1,97 @@
+{
+  "repository": "Kevin-Shih-Kai-Jen/jpx-equity-prediction",
+  "visibility": "public",
+  "commit": "ee62766597550316b583dd9bad7a716d2184c426",
+  "verified_date": "2026-10-11",
+  "verification": "GitHub commit tarball downloaded; complete path set, size, and SHA-256 compared with all committed local files",
+  "files": [
+    {
+      "path": ".gitignore",
+      "size_bytes": 369,
+      "sha256": "fc349032c0d38620e1dd48cc4292a3215d8ab3ac94e461daff4b8eaac680ce91"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 5419,
+      "sha256": "28762fda7b95b96fd9aa9c55b16fda59d6096a8bf8a626c01233445d52cbdbbe"
+    },
+    {
+      "path": "Reflections/CNN-LSTM model/cnn_lstm_jpx_10_epoch_experiment_report_en.pdf",
+      "size_bytes": 75224,
+      "sha256": "dae1630aaf0724f249e4f4eb27385db7bd07fbcae1b70eda2121b6df221ff75e"
+    },
+    {
+      "path": "codes/JPX_debug_notes.md",
+      "size_bytes": 13223,
+      "sha256": "fd3e90d8ddad5080277ef8e23097a19279203af9252a0a17ae0dc4f07363043a"
+    },
+    {
+      "path": "codes/JPX_deep_learning_models.py",
+      "size_bytes": 4229,
+      "sha256": "4715426724c1c8bb1d5c9169c3d6514ab9e7e3c77d751677175466ab140ef5df"
+    },
+    {
+      "path": "codes/data_loader.py",
+      "size_bytes": 866,
+      "sha256": "7defa06e87cfe074a78956d14a46092b89dd995d148f2b2232c2b9a213501d6e"
+    },
+    {
+      "path": "codes/data_processor.py",
+      "size_bytes": 5473,
+      "sha256": "539e635fa3601cb09c92989062a5b02abca703ce0554972e88e3f6960b89383e"
+    },
+    {
+      "path": "codes/deep_learning.py",
+      "size_bytes": 4835,
+      "sha256": "37e4d8bcbdd8ed72212358598410c1e5ace020dbd13c63662239956a0e8a83db"
+    },
+    {
+      "path": "codes/features.py",
+      "size_bytes": 3183,
+      "sha256": "ee922075efe821e6f63bd50e34218308ed46d49c469acffe7600b5304b538384"
+    },
+    {
+      "path": "codes/main.py",
+      "size_bytes": 116,
+      "sha256": "23416b0eadee63dc28219fbfe9d139a53d935012b0b8e09e842cb29875c42d46"
+    },
+    {
+      "path": "codes/test_jpx_debug.py",
+      "size_bytes": 15510,
+      "sha256": "9851385aef812e8ad4ca7b44b5ff2b9c5fe3a9850524f35d1408250ca7362848"
+    },
+    {
+      "path": "data/README.md",
+      "size_bytes": 1055,
+      "sha256": "26423515650a79b7a3f9126f16e2d1a6db1333720199b91ccc31e96515df017b"
+    },
+    {
+      "path": "docs/PUBLICATION.md",
+      "size_bytes": 2782,
+      "sha256": "dba37a40bb906f190fd21920ab6d2d674907fa6b56eccd6d09c7e5c67ec7ce6a"
+    },
+    {
+      "path": "docs/source_manifest.json",
+      "size_bytes": 1705,
+      "sha256": "37d61cafbff103a6073bde7af9ccfee7fc2e1a9af9f43f2f1f443c31a637593a"
+    },
+    {
+      "path": "docs/test_output.txt",
+      "size_bytes": 3209,
+      "sha256": "85cb5445cb56cce89ddd6703016ab01283240a4bcbceeae5cc2ecf79cf0634bc"
+    },
+    {
+      "path": "requirements.txt",
+      "size_bytes": 132,
+      "sha256": "859d823aa584b3b151707cda8def81961366469710091d575c76032dfdc877f8"
+    }
+  ],
+  "file_count": 16,
+  "total_file_bytes": 137330,
+  "archive_size_bytes": 93105,
+  "archive_sha256": "9e0763c6365794e2ffdb4876e8273280f4657dc8bd3904f9447aa34da492f6e3",
+  "temporary_directory": "/private/tmp/jpx-publication-20261011-4750zhlk",
+  "raw_data_uploaded": false,
+  "archive_path": "research/jpx_portfolio_publication_20261011/repository_snapshot",
+  "cleanup_policy": "After archival remote verification, remove only this task temporary directory. Original Desktop JPX source and data are retained."
+}
