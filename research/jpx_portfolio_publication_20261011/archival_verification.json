@@ -1,0 +1,18 @@
+{
+  "archive_commit": "334be544fa7cd522346325dd4928b7969b788981",
+  "verified_files": 18,
+  "verified_bytes": 142345,
+  "verification": "Every archived GitHub blob retrieved and SHA-256/size verified",
+  "temporary_cleanup_authorized": true,
+  "portfolio_commit": "ee62766597550316b583dd9bad7a716d2184c426",
+  "portfolio_verified_files": 16,
+  "verified_date": "2026-10-11",
+  "temporary_directory": "/private/tmp/jpx-publication-20261011-4750zhlk",
+  "cleanup_eligible_files": [
+    "archival_commit.json",
+    "archival_verification.json",
+    "published-repository.tar.gz",
+    "verification.json"
+  ],
+  "cleanup_condition": "Remove only the listed task temporary files after this receipt is synced and verified. Desktop source and raw data remain untouched."
+}
