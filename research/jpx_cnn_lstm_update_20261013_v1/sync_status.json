@@ -1,0 +1,46 @@
+{
+  "status": "synced_and_remote_content_verified",
+  "repository": "https://github.com/Kevin-Shih-Kai-Jen/quant-learning-internship-2027",
+  "branch": "main",
+  "artifact_commit": "1501bab17b609986a1bb918c70de3d1d3f9b1694",
+  "artifact_path": "research/jpx_cnn_lstm_update_20261013_v1",
+  "observed_repository_visibility": "public",
+  "authorization": "User explicitly requested pushing the existing changes after being informed the repository is public.",
+  "history": [
+    {
+      "status": "local_complete_sync_pending_visibility_confirmation",
+      "reason": "Current user project instructions describe a private archive. No upload performed pending confirmation of public destination."
+    }
+  ],
+  "qa": {
+    "pdf_pages": 1,
+    "visual_review": "passed",
+    "source_metrics_recomputed": false
+  },
+  "verification": {
+    "method": "Retrieved each file through GitHub contents API at the exact artifact commit; compared bytes, size and SHA-256.",
+    "files": [
+      {
+        "path": "create_pdf.py",
+        "bytes": 6687,
+        "sha256": "9aba4352ad43c8a1121067bbf1ef366e37e94011c994bec796111e1c7236593e",
+        "remote_blob_sha": "c7783a2c0120eab7e6f7804817cb9ecf414145c9"
+      },
+      {
+        "path": "reported_metrics.json",
+        "bytes": 1548,
+        "sha256": "3adb576ef4603042b7b21cb16dae224923a6e3a3efec8fe6ec0e4764bded7a18",
+        "remote_blob_sha": "210f54b9575859bac987932c616ed0f0ea2754d0"
+      },
+      {
+        "path": "output/pdf/CNN_LSTM_Daily_Update_2026-10-13.pdf",
+        "bytes": 3826,
+        "sha256": "4264ec5dffdf3807b5e1e490634d39d612ba15c891384dfaabadbd3963014794",
+        "remote_blob_sha": "545b72daed0ea2b6fc4f6efe58788d64e866cb32"
+      }
+    ]
+  },
+  "source_release_retrievals": [],
+  "new_release_required": false,
+  "cleanup_scope": "Only task-generated tmp/pdfs/preview.png and empty parent directories, after verification of the final remote record. Final PDF and reproduction inputs retained."
+}
