@@ -1,0 +1,22 @@
+{
+  "repository": "Kevin-Shih-Kai-Jen/quant-learning-internship-2027",
+  "branch": "codex/jpx-bugfix-20261015-v6",
+  "artifact_commit": "312c1cae2d9ced22a6de4e8321374fdc2f2290f4",
+  "artifact_directory": "research/jpx_bugfix_20261015_v6",
+  "verified_file_count": 54,
+  "verified_total_bytes": 372711,
+  "verification": "Every archived UTF-8 file was fetched from the immutable artifact commit and matched exactly to the local upload contents. Sizes and SHA-256 are recorded in sync_manifest.json; exact byte equality also verifies these hashes.",
+  "installed_tests": {
+    "total": 110,
+    "passed": 110,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "cleanup": {
+    "large_release_downloads": [],
+    "deleted_files": [],
+    "retained": "Small source snapshots, tests, reports and verification records; no large experiment data was created."
+  },
+  "limitations": "Synthetic CPU data; no full market-data training or MPS/CUDA validation."
+}
