@@ -1,0 +1,181 @@
+{
+  "date": "2026-10-15",
+  "repository": "Kevin-Shih-Kai-Jen/quant-learning-internship-2027",
+  "branch": "codex/jpx-module-relocation-20261015",
+  "artifact_commit": "94cd81a7cd621a627a5c13cab3e1ca51b67e0d11",
+  "archive_path": "research/jpx_module_relocation_20261015_v1",
+  "status": "verified",
+  "verification_method": "Fetched every archived text file at the immutable artifact commit and compared complete UTF-8 content to local bytes. Listed SHA-256 and byte counts therefore match the retrieved contents.",
+  "verified_file_count": 23,
+  "verified_total_bytes": 82777,
+  "files": [
+    {
+      "path": "research/jpx_module_relocation_20261015_v1/after/JPX_deep_learning_models.py",
+      "bytes": 5490,
+      "sha256": "7a34fb180f07f60508da6963d626f89f3f9c8c4210a670ef0099f36d2ae4198f",
+      "git_blob_sha": "a63ae271b7b31c5fcfefdc7bd1319f4686c14a80",
+      "retrieved_content_equal": true
+    },
+    {
+      "path": "research/jpx_module_relocation_20261015_v1/after/data_loader.py",
+      "bytes": 866,
+      "sha256": "7defa06e87cfe074a78956d14a46092b89dd995d148f2b2232c2b9a213501d6e",
+      "git_blob_sha": "6508671126eb7c328be64c4dc6beabd6652f2f3b",
+      "retrieved_content_equal": true
+    },
+    {
+      "path": "research/jpx_module_relocation_20261015_v1/after/data_processor.py",
+      "bytes": 5709,
+      "sha256": "e3fc6288cb09a2494fed749d86096c5ec418e2c1c15af997e5685466684d9fbc",
+      "git_blob_sha": "3cb32794c8ec33c09c6caa96d1b32cae32567a28",
+      "retrieved_content_equal": true
+    },
+    {
+      "path": "research/jpx_module_relocation_20261015_v1/after/deep_learning.py",
+      "bytes": 4481,
+      "sha256": "f5e46b48b5da9e8a64590336caef9d74fad177d5c5782a5d62f1b2cff8050ab4",
+      "git_blob_sha": "db4db4af740cc5cfbf1af4e2830d20784e914afd",
+      "retrieved_content_equal": true
+    },
+    {
+      "path": "research/jpx_module_relocation_20261015_v1/after/evaluation.py",
+      "bytes": 6239,
+      "sha256": "58b13fab2919b84d7523a01a89ce1f3303719975b7b49e1273d0e8576786ed8d",
+      "git_blob_sha": "bb3f9f4e31422d2df76f79e9fb732a2d1b8738be",
+      "retrieved_content_equal": true
+    },
+    {
+      "path": "research/jpx_module_relocation_20261015_v1/after/features.py",
+      "bytes": 3198,
+      "sha256": "17e93eca32aace2860e15f414ccaa59f7b89a2c8406b0095487ac2d7bead680b",
+      "git_blob_sha": "a8a5b9e05926e6cf3c5390731f709dca0c1f55c9",
+      "retrieved_content_equal": true
+    },
+    {
+      "path": "research/jpx_module_relocation_20261015_v1/after/main.py",
+      "bytes": 436,
+      "sha256": "8e6df6a961e2de8a28d801c556b5c7a457edc811eaea5754487cd4b035a7207a",
+      "git_blob_sha": "b4808014dacde74f2bf3fe108a7a79ea12e83951",
+      "retrieved_content_equal": true
+    },
+    {
+      "path": "research/jpx_module_relocation_20261015_v1/after/models.py",
+      "bytes": 2166,
+      "sha256": "91c967ec8b96641976d41c0a78ca448c6b46af300015fdcb1f065bc74b0745c9",
+      "git_blob_sha": "cdbce9b6c7b3482daae843d561cbb65e3a5123e5",
+      "retrieved_content_equal": true
+    },
+    {
+      "path": "research/jpx_module_relocation_20261015_v1/after/utils.py",
+      "bytes": 580,
+      "sha256": "f2d39bda5130773f05e1a94b33da53dbba38ddc18b13fc2c3ae58160ea45e431",
+      "git_blob_sha": "e19ae9826054f2acc9a640b0e067673d27eef033",
+      "retrieved_content_equal": true
+    },
+    {
+      "path": "research/jpx_module_relocation_20261015_v1/before/JPX_deep_learning_models.py",
+      "bytes": 4357,
+      "sha256": "921537a18ddd65b8a099e1c9bef3c95cb0b1507769fff64dc7a1068b319d962b",
+      "git_blob_sha": "7f2fa413da559bde84392793cb6ae79d5d632c1d",
+      "retrieved_content_equal": true
+    },
+    {
+      "path": "research/jpx_module_relocation_20261015_v1/before/data_loader.py",
+      "bytes": 866,
+      "sha256": "7defa06e87cfe074a78956d14a46092b89dd995d148f2b2232c2b9a213501d6e",
+      "git_blob_sha": "6508671126eb7c328be64c4dc6beabd6652f2f3b",
+      "retrieved_content_equal": true
+    },
+    {
+      "path": "research/jpx_module_relocation_20261015_v1/before/data_processor.py",
+      "bytes": 5709,
+      "sha256": "e3fc6288cb09a2494fed749d86096c5ec418e2c1c15af997e5685466684d9fbc",
+      "git_blob_sha": "3cb32794c8ec33c09c6caa96d1b32cae32567a28",
+      "retrieved_content_equal": true
+    },
+    {
+      "path": "research/jpx_module_relocation_20261015_v1/before/deep_learning.py",
+      "bytes": 8525,
+      "sha256": "4d9114433c0afb9b4c447c0f6838ad720c05176a3e326004f07207863768f25f",
+      "git_blob_sha": "f6a1979a2ca97b2f602486b93101ff307f18c5dc",
+      "retrieved_content_equal": true
+    },
+    {
+      "path": "research/jpx_module_relocation_20261015_v1/before/evaluation.py",
+      "bytes": 6239,
+      "sha256": "58b13fab2919b84d7523a01a89ce1f3303719975b7b49e1273d0e8576786ed8d",
+      "git_blob_sha": "bb3f9f4e31422d2df76f79e9fb732a2d1b8738be",
+      "retrieved_content_equal": true
+    },
+    {
+      "path": "research/jpx_module_relocation_20261015_v1/before/features.py",
+      "bytes": 3198,
+      "sha256": "17e93eca32aace2860e15f414ccaa59f7b89a2c8406b0095487ac2d7bead680b",
+      "git_blob_sha": "a8a5b9e05926e6cf3c5390731f709dca0c1f55c9",
+      "retrieved_content_equal": true
+    },
+    {
+      "path": "research/jpx_module_relocation_20261015_v1/before/main.py",
+      "bytes": 411,
+      "sha256": "01040434ebb4a350de507aeaa864e8bcdfe484555a88670acbd1cd1221c9b9e2",
+      "git_blob_sha": "4ced5df87c7a9bab1f1bd5c278691fb003355ef5",
+      "retrieved_content_equal": true
+    },
+    {
+      "path": "research/jpx_module_relocation_20261015_v1/before/models.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "retrieved_content_equal": true
+    },
+    {
+      "path": "research/jpx_module_relocation_20261015_v1/install.py",
+      "bytes": 1245,
+      "sha256": "33c069c21a394253d28785f2f592f3dbf3b2006adf8c96f497a2c3fc96fef048",
+      "git_blob_sha": "69929190ec01082966d6a27836150ebe08dfadf7",
+      "retrieved_content_equal": true
+    },
+    {
+      "path": "research/jpx_module_relocation_20261015_v1/installed_verification.json",
+      "bytes": 1354,
+      "sha256": "8b0a2ef85646d02691395da557e42d11ee123d2aefddaafc0aa1196dffe9a453",
+      "git_blob_sha": "b7826ce5036d10bd5636a3d8f9fe5f5d2adf1d78",
+      "retrieved_content_equal": true
+    },
+    {
+      "path": "research/jpx_module_relocation_20261015_v1/manifest.json",
+      "bytes": 3645,
+      "sha256": "ea5c5fffd9e33ba4d1f8f398faf8c3c7183067df67a443c4587a6aa75253ca17",
+      "git_blob_sha": "db798d1b0326edd797d99ec9281f83369f897ee2",
+      "retrieved_content_equal": true
+    },
+    {
+      "path": "research/jpx_module_relocation_20261015_v1/relocate.py",
+      "bytes": 4917,
+      "sha256": "fb8e800feeeec5fef082a38715a01739e675cda7718e066ed820b0b32d7bae3d",
+      "git_blob_sha": "0c7ce41fe56510cd6ca8da902952e013f3a0b62b",
+      "retrieved_content_equal": true
+    },
+    {
+      "path": "research/jpx_module_relocation_20261015_v1/verification.json",
+      "bytes": 6203,
+      "sha256": "e44333c2ddb00af356de52a0b1462b3390fb25146dbfc7d639cb0fe1bac27a01",
+      "git_blob_sha": "7c3f790e26c1000a046051e83bf006641b2575c3",
+      "retrieved_content_equal": true
+    },
+    {
+      "path": "research/jpx_module_relocation_20261015_v1/verify_relocation.py",
+      "bytes": 6943,
+      "sha256": "c766bf781abe48735b3c6848a67a6fb998d9368558857f2c4e1a8e50cc5f02b7",
+      "git_blob_sha": "344257d93c7dda74c05cc133dcecfc90e405e359",
+      "retrieved_content_equal": true
+    }
+  ],
+  "source_retrievable": true,
+  "release_assets_downloaded": [],
+  "release_assets_published": [],
+  "cleanup": {
+    "deleted_files": [],
+    "reason": "No large data or task temporary download directory was created. Lightweight before/after snapshots and verification tooling are retained."
+  }
+}
