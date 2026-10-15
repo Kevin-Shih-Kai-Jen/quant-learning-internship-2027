@@ -1,0 +1,191 @@
+{
+  "status": "passed",
+  "python": "3.12.2 (v3.12.2:6abddd9f6a, Feb  6 2024, 17:02:06) [Clang 13.0.0 (clang-1300.0.29.30)]",
+  "definitions_checked": [
+    {
+      "before": "JPX_deep_learning_models.model_1",
+      "after": "JPX_deep_learning_models.model_1"
+    },
+    {
+      "before": "JPX_deep_learning_models.model_2",
+      "after": "JPX_deep_learning_models.model_2"
+    },
+    {
+      "before": "data_loader.load_data",
+      "after": "data_loader.load_data"
+    },
+    {
+      "before": "data_loader.print_loaded_data",
+      "after": "data_loader.print_loaded_data"
+    },
+    {
+      "before": "data_loader.main_loader",
+      "after": "data_loader.main_loader"
+    },
+    {
+      "before": "data_processor.is_valid_date",
+      "after": "data_processor.is_valid_date"
+    },
+    {
+      "before": "data_processor.find_duplicates",
+      "after": "data_processor.find_duplicates"
+    },
+    {
+      "before": "data_processor.check_single_value",
+      "after": "data_processor.check_single_value"
+    },
+    {
+      "before": "data_processor.check_series",
+      "after": "data_processor.check_series"
+    },
+    {
+      "before": "data_processor.check_table",
+      "after": "data_processor.check_table"
+    },
+    {
+      "before": "data_processor.check_JPX_stock_price_csv",
+      "after": "data_processor.check_JPX_stock_price_csv"
+    },
+    {
+      "before": "data_processor.correct_prices_with_factors",
+      "after": "data_processor.correct_prices_with_factors"
+    },
+    {
+      "before": "data_processor.get_time_for_specific_period",
+      "after": "data_processor.get_time_for_specific_period"
+    },
+    {
+      "before": "deep_learning.CNN_LSTM",
+      "after": "models.CNN_LSTM"
+    },
+    {
+      "before": "deep_learning.make_it_tensor",
+      "after": "deep_learning.make_it_tensor"
+    },
+    {
+      "before": "deep_learning.make_loader",
+      "after": "deep_learning.make_loader"
+    },
+    {
+      "before": "deep_learning.train",
+      "after": "deep_learning.train"
+    },
+    {
+      "before": "deep_learning.evaluation",
+      "after": "deep_learning.evaluation"
+    },
+    {
+      "before": "deep_learning.print_running_time",
+      "after": "utils.print_running_time"
+    },
+    {
+      "before": "deep_learning.common_process",
+      "after": "JPX_deep_learning_models.common_process"
+    },
+    {
+      "before": "deep_learning.save_model",
+      "after": "deep_learning.save_model"
+    },
+    {
+      "before": "deep_learning.load_model",
+      "after": "deep_learning.load_model"
+    },
+    {
+      "before": "evaluation.get_eval_df",
+      "after": "evaluation.get_eval_df"
+    },
+    {
+      "before": "evaluation.rank",
+      "after": "evaluation.rank"
+    },
+    {
+      "before": "evaluation.calculate_weights",
+      "after": "evaluation.calculate_weights"
+    },
+    {
+      "before": "evaluation.one_day_earning",
+      "after": "evaluation.one_day_earning"
+    },
+    {
+      "before": "evaluation.calculate_sharpe",
+      "after": "evaluation.calculate_sharpe"
+    },
+    {
+      "before": "evaluation.calculate_rank_IC",
+      "after": "evaluation.calculate_rank_IC"
+    },
+    {
+      "before": "evaluation.overall_performance",
+      "after": "evaluation.overall_performance"
+    },
+    {
+      "before": "evaluation.diagnose_model",
+      "after": "evaluation.diagnose_model"
+    },
+    {
+      "before": "evaluation.zero_baseline",
+      "after": "evaluation.zero_baseline"
+    },
+    {
+      "before": "features.get_valid_rows",
+      "after": "features.get_valid_rows"
+    },
+    {
+      "before": "features.get_features",
+      "after": "features.get_features"
+    },
+    {
+      "before": "features.normalize_data",
+      "after": "features.normalize_data"
+    },
+    {
+      "before": "features.create_time_sequence",
+      "after": "features.create_time_sequence"
+    },
+    {
+      "before": "main.main",
+      "after": "main.main"
+    },
+    {
+      "before": "main.use_loaded_model",
+      "after": "main.use_loaded_model"
+    }
+  ],
+  "definition_count": 37,
+  "allowed_changes": "Only the three explicitly mapped module references are normalized before AST comparison.",
+  "all_after_modules_import": true,
+  "timer_module_binding": "verified",
+  "synthetic_before_after_equal": true,
+  "synthetic_results": {
+    "initial_predictions": [
+      [
+        0.12462218105792999
+      ],
+      [
+        0.12461404502391815
+      ],
+      [
+        0.1246103048324585
+      ],
+      [
+        0.12461064755916595
+      ]
+    ],
+    "train_loss": 0.15043777227401733,
+    "validation_loss": 0.1569019928574562,
+    "trained_predictions": [
+      0.11380798369646072,
+      0.1137997955083847,
+      0.11379595100879669,
+      0.11379612982273102
+    ],
+    "trained_state_sha256": "ee045357071cc66c24ad8fe445312458ca43a500a1ddaf079a96292ec42a281b",
+    "state_dict_round_trip": true,
+    "optimizer_steps_for_epoch_20": 2,
+    "train_preprocessing": "{\"SecuritiesCode\":{\"0\":1001,\"1\":1001},\"Date\":{\"0\":\"2017-01-04T00:00:00.000\",\"1\":\"2017-01-05T00:00:00.000\"},\"Open\":{\"0\":-1.3416407865,\"1\":-0.4472135955},\"High\":{\"0\":-1.3416407865,\"1\":-0.4472135955},\"Low\":{\"0\":-1.3416407865,\"1\":-0.4472135955},\"Close\":{\"0\":-1.3416407865,\"1\":-0.4472135955},\"Volume\":{\"0\":-1.3416407865,\"1\":-0.4472135955},\"ExpectedDividend\":{\"0\":0.0,\"1\":0.0},\"AdjustmentFactor\":{\"0\":1.0,\"1\":1.0},\"Target\":{\"0\":0.01,\"1\":0.02}}",
+    "valid_preprocessing": "{\"SecuritiesCode\":{\"2\":1001,\"3\":1001},\"Date\":{\"2\":\"2017-07-03T00:00:00.000\",\"3\":\"2017-07-04T00:00:00.000\"},\"Open\":{\"2\":0.4472135955,\"3\":1.3416407865},\"High\":{\"2\":0.4472135955,\"3\":1.3416407865},\"Low\":{\"2\":0.4472135955,\"3\":1.3416407865},\"Close\":{\"2\":0.4472135955,\"3\":1.3416407865},\"Volume\":{\"2\":0.4472135955,\"3\":1.3416407865},\"ExpectedDividend\":{\"2\":0.0,\"3\":0.0},\"AdjustmentFactor\":{\"2\":1.0,\"3\":1.0},\"Target\":{\"2\":-0.01,\"3\":-0.02}}",
+    "device": "cpu",
+    "existing_save_call_error": "missing a required argument: 'feature_columns'"
+  },
+  "limitations": "No real JPX dataset read or full training run. Existing training/preprocessing/checkpoint-call issues intentionally preserved."
+}
