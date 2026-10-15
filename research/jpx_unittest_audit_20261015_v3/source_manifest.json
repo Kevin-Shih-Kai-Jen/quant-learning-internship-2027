@@ -1,0 +1,38 @@
+{
+  "JPX_deep_learning_models.py": {
+    "bytes": 5530,
+    "sha256": "d7b4e8baacaa532212b895bad68d5b67411287749be32c2159502f2e069663ae"
+  },
+  "data_loader.py": {
+    "bytes": 866,
+    "sha256": "7defa06e87cfe074a78956d14a46092b89dd995d148f2b2232c2b9a213501d6e"
+  },
+  "data_processor.py": {
+    "bytes": 5709,
+    "sha256": "e3fc6288cb09a2494fed749d86096c5ec418e2c1c15af997e5685466684d9fbc"
+  },
+  "deep_learning.py": {
+    "bytes": 4481,
+    "sha256": "f5e46b48b5da9e8a64590336caef9d74fad177d5c5782a5d62f1b2cff8050ab4"
+  },
+  "evaluation.py": {
+    "bytes": 6239,
+    "sha256": "58b13fab2919b84d7523a01a89ce1f3303719975b7b49e1273d0e8576786ed8d"
+  },
+  "features.py": {
+    "bytes": 3212,
+    "sha256": "0fc6fd111c0563d2968347b51d1c733c95d72810bed7f2f563bbcd714600f236"
+  },
+  "main.py": {
+    "bytes": 436,
+    "sha256": "8e6df6a961e2de8a28d801c556b5c7a457edc811eaea5754487cd4b035a7207a"
+  },
+  "models.py": {
+    "bytes": 2166,
+    "sha256": "91c967ec8b96641976d41c0a78ca448c6b46af300015fdcb1f065bc74b0745c9"
+  },
+  "utils.py": {
+    "bytes": 580,
+    "sha256": "f2d39bda5130773f05e1a94b33da53dbba38ddc18b13fc2c3ae58160ea45e431"
+  }
+}

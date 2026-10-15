@@ -1,0 +1,9 @@
+[
+  {
+    "attempt": 1,
+    "result": "refused_before_copy",
+    "reason": "features.py changed during audit; std: None added by user",
+    "production_files_written": false,
+    "test_destination_created": false
+  }
+]

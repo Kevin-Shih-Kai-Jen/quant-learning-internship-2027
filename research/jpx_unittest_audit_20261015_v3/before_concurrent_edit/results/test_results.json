@@ -1,0 +1,291 @@
+{
+  "run_at": "2026-10-15T11:12:12.082957+08:00",
+  "duration_seconds": 0.8186622500002159,
+  "python": "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3.12",
+  "python_version": "3.12.2",
+  "versions": {
+    "numpy": "2.0.0",
+    "pandas": "2.2.2",
+    "torch": "2.11.0",
+    "scipy": "1.17.1",
+    "sklearn": "1.8.0"
+  },
+  "codes_directory": "/Users/coolguy/Desktop/JPX/codes",
+  "source_manifest": {
+    "JPX_deep_learning_models.py": {
+      "bytes": 5530,
+      "sha256": "d7b4e8baacaa532212b895bad68d5b67411287749be32c2159502f2e069663ae"
+    },
+    "data_loader.py": {
+      "bytes": 866,
+      "sha256": "7defa06e87cfe074a78956d14a46092b89dd995d148f2b2232c2b9a213501d6e"
+    },
+    "data_processor.py": {
+      "bytes": 5709,
+      "sha256": "e3fc6288cb09a2494fed749d86096c5ec418e2c1c15af997e5685466684d9fbc"
+    },
+    "deep_learning.py": {
+      "bytes": 4481,
+      "sha256": "f5e46b48b5da9e8a64590336caef9d74fad177d5c5782a5d62f1b2cff8050ab4"
+    },
+    "evaluation.py": {
+      "bytes": 6239,
+      "sha256": "58b13fab2919b84d7523a01a89ce1f3303719975b7b49e1273d0e8576786ed8d"
+    },
+    "features.py": {
+      "bytes": 3198,
+      "sha256": "17e93eca32aace2860e15f414ccaa59f7b89a2c8406b0095487ac2d7bead680b"
+    },
+    "main.py": {
+      "bytes": 436,
+      "sha256": "8e6df6a961e2de8a28d801c556b5c7a457edc811eaea5754487cd4b035a7207a"
+    },
+    "models.py": {
+      "bytes": 2166,
+      "sha256": "91c967ec8b96641976d41c0a78ca448c6b46af300015fdcb1f065bc74b0745c9"
+    },
+    "utils.py": {
+      "bytes": 580,
+      "sha256": "f2d39bda5130773f05e1a94b33da53dbba38ddc18b13fc2c3ae58160ea45e431"
+    }
+  },
+  "source_changed_during_run": false,
+  "imported_module_paths": {
+    "main": "/Users/coolguy/Desktop/JPX/codes/main.py",
+    "JPX_deep_learning_models": "/Users/coolguy/Desktop/JPX/codes/JPX_deep_learning_models.py",
+    "models": "/Users/coolguy/Desktop/JPX/codes/models.py",
+    "deep_learning": "/Users/coolguy/Desktop/JPX/codes/deep_learning.py",
+    "features": "/Users/coolguy/Desktop/JPX/codes/features.py",
+    "evaluation": "/Users/coolguy/Desktop/JPX/codes/evaluation.py",
+    "data_loader": "/Users/coolguy/Desktop/JPX/codes/data_loader.py",
+    "data_processor": "/Users/coolguy/Desktop/JPX/codes/data_processor.py",
+    "utils": "/Users/coolguy/Desktop/JPX/codes/utils.py"
+  },
+  "total": 101,
+  "passed": 80,
+  "failed_test_methods": 18,
+  "errored_test_methods": 3,
+  "unittest_failure_entries_including_subtests": 19,
+  "unittest_error_entries_including_subtests": 3,
+  "skipped": 0,
+  "passed_tests": [
+    "test_audit.BoundaryControlTests.test_csv_empty_table_is_rejected",
+    "test_audit.BoundaryControlTests.test_csv_missing_file_has_explicit_error",
+    "test_audit.BoundaryControlTests.test_date_validator_rejects_impossible_date",
+    "test_audit.BoundaryControlTests.test_numeric_validator_rejects_nan_infinity_bool_and_array",
+    "test_audit.BoundaryControlTests.test_sequence_empty_frame_is_rejected",
+    "test_audit.BoundaryControlTests.test_source_functions_are_importable_without_running_main",
+    "test_audit.CheckpointAuditTests.test_load_model_rejects_nonexistent_path",
+    "test_audit.CheckpointAuditTests.test_model2_supplies_all_required_save_arguments",
+    "test_audit.CheckpointAuditTests.test_real_serializer_roundtrip_preserves_parameters_and_metadata",
+    "test_audit.DesignObservationTests.test_current_42_day_convolution_leaves_one_lstm_step",
+    "test_audit.DesignObservationTests.test_expanding_folds_reuse_one_model",
+    "test_audit.DesignObservationTests.test_main_currently_selects_training_entry",
+    "test_audit.DesignObservationTests.test_separate_validation_windows_omit_first_41_rows_per_stock",
+    "test_audit.PreprocessingAuditTests.test_dates_use_inclusive_start_exclusive_end",
+    "test_audit.PreprocessingAuditTests.test_nonconstant_scaling_metadata_reproduces_transform",
+    "test_audit.PreprocessingAuditTests.test_required_filter_handles_repeated_index_labels_positionally",
+    "test_audit.PreprocessingAuditTests.test_validation_does_not_mutate_source",
+    "test_audit.TrainingContractTests.test_normal_one_epoch_actually_changes_weights",
+    "test_regression_v1.DataTests.test_01_no_split_keeps_original_prices_and_volume",
+    "test_regression_v1.DataTests.test_02_input_dataframe_is_not_mutated",
+    "test_regression_v1.DataTests.test_03_nonconsecutive_index_labels",
+    "test_regression_v1.DataTests.test_04_reordered_labels_must_not_remove_the_wrong_row",
+    "test_regression_v1.DataTests.test_05_required_open_cannot_remain_nan",
+    "test_regression_v1.DataTests.test_06_nonpositive_factors_are_rejected_or_repaired",
+    "test_regression_v1.DataTests.test_07_get_features_reports_missing_columns",
+    "test_regression_v1.DataTests.test_08_metadata_prints_column_names_not_a_method_object",
+    "test_regression_v1.ModelTests.test_01_window_two_forward",
+    "test_regression_v1.ModelTests.test_02_current_window_one_design_must_run",
+    "test_regression_v1.ModelTests.test_03_no_dropout1d_on_two_dimensional_batch_head",
+    "test_regression_v1.ModelTests.test_04_configuration_uses_feature_count_not_row_count",
+    "test_regression_v1.PipelineTests.test_01_train_loss_shapes_match",
+    "test_regression_v1.PipelineTests.test_02_eval_loss_shapes_match",
+    "test_regression_v1.SequenceTests.test_01_stock_boundaries_sorting_feature_order_and_last_target",
+    "test_regression_v1.SequenceTests.test_02_window_one_retains_all_rows",
+    "test_regression_v1.SequenceTests.test_03_stock_shorter_than_window",
+    "test_regression_v1.TensorTests.test_01_series",
+    "test_regression_v1.TensorTests.test_02_dataframe",
+    "test_regression_v1.TensorTests.test_03_numpy_array",
+    "test_regression_v1.TensorTests.test_04_scalar_list",
+    "test_regression_v1.TensorTests.test_05_list_of_dataframe_windows",
+    "test_regression_v1.TrainingTests.test_01_training_processes_every_batch",
+    "test_regression_v1.TrainingTests.test_02_training_returns_sample_weighted_mean",
+    "test_regression_v1.TrainingTests.test_03_empty_training_loader_has_clear_error",
+    "test_regression_v1.TrainingTests.test_04_evaluation_mean_and_no_grad_control",
+    "test_regression_v1.TrainingTests.test_05_evaluation_empty_loader_control",
+    "test_regression_v2.AlignmentTests.test_01_scrambled_rows_align_to_window_end",
+    "test_regression_v2.AlignmentTests.test_02_window_one_retains_every_stock_row",
+    "test_regression_v2.AlignmentTests.test_03_exact_window_retains_one_row_and_short_stocks_have_none",
+    "test_regression_v2.AlignmentTests.test_04_predictions_of_wrong_length_are_rejected",
+    "test_regression_v2.AlignmentTests.test_05_actual_sequence_loader_predictions_and_metadata_agree",
+    "test_regression_v2.PipelineTests.test_01_overall_supplies_signed_weights_for_every_date",
+    "test_regression_v2.PipelineTests.test_02_overall_returns_scores_in_declared_order",
+    "test_regression_v2.PipelineTests.test_03_real_window_to_metrics_pipeline",
+    "test_regression_v2.PredictionTests.test_01_all_batches_return_in_original_order",
+    "test_regression_v2.PredictionTests.test_02_loss_is_sample_weighted_not_batch_weighted",
+    "test_regression_v2.PredictionTests.test_03_eval_mode_no_grad_and_no_parameter_update",
+    "test_regression_v2.PredictionTests.test_04_one_sample_still_returns_one_dimensional_array",
+    "test_regression_v2.PredictionTests.test_05_empty_loader_raises_value_error_before_concatenating",
+    "test_regression_v2.PredictionTests.test_06_default_loader_preserves_sample_order",
+    "test_regression_v2.RankICTests.test_01_nonlinear_but_same_order_is_perfect",
+    "test_regression_v2.RankICTests.test_02_opposite_order_is_negative_one",
+    "test_regression_v2.RankICTests.test_03_ties_use_average_rank",
+    "test_regression_v2.RankICTests.test_04_average_days_equally_with_different_stock_counts",
+    "test_regression_v2.RankICTests.test_05_missing_pairs_are_removed_before_ranking",
+    "test_regression_v2.RankICTests.test_06_constant_prediction_is_nan",
+    "test_regression_v2.RegressionTests.test_01_tensor_conversion_preserves_axes_and_float32",
+    "test_regression_v2.RegressionTests.test_02_sequence_does_not_cross_stock_boundaries",
+    "test_regression_v2.RegressionTests.test_03_train_runs_full_epoch_with_sample_weighted_loss",
+    "test_regression_v2.RegressionTests.test_04_actual_model_supports_current_42_day_configuration",
+    "test_regression_v2.SharpeTests.test_01_daily_mean_over_sample_std",
+    "test_regression_v2.SharpeTests.test_02_formula_isolated_from_one_day_earning",
+    "test_regression_v2.SharpeTests.test_03_base_number_is_daily_benchmark_return",
+    "test_regression_v2.SharpeTests.test_04_empty_dataframe_has_clear_error",
+    "test_regression_v2.SharpeTests.test_05_single_day_is_undefined_not_a_finite_score",
+    "test_regression_v2.SharpeTests.test_06_constant_daily_returns_are_explicitly_undefined",
+    "test_regression_v2.WeightTests.test_01_ranking_restarts_on_each_date",
+    "test_regression_v2.WeightTests.test_02_signed_counts_totals_and_endpoint_ratio",
+    "test_regression_v2.WeightTests.test_03_all_rank_positions_have_the_linear_weights",
+    "test_regression_v2.WeightTests.test_04_less_than_400_stocks_is_rejected",
+    "test_regression_v2.WeightTests.test_05_signed_contribution_uses_the_Weight_column"
+  ],
+  "failure_tests": [
+    "test_audit.CheckpointAuditTests.test_load_model_path_is_required_or_has_a_real_path_default",
+    "test_audit.CheckpointAuditTests.test_model2_checkpoint_retains_one_scale_per_feature",
+    "test_audit.CheckpointAuditTests.test_use_loaded_model_passes_a_nonempty_checkpoint_path",
+    "test_audit.CheckpointAuditTests.test_use_loaded_model_returns_the_loaded_result_for_use",
+    "test_audit.PreprocessingAuditTests.test_duplicate_stock_dates_do_not_survive_valid_rows",
+    "test_audit.PreprocessingAuditTests.test_final_row_nonpositive_factor_is_rejected_or_repaired",
+    "test_audit.PreprocessingAuditTests.test_missing_column_message_names_only_missing_columns",
+    "test_audit.PreprocessingAuditTests.test_returned_scaling_metadata_reproduces_constant_column",
+    "test_audit.PreprocessingAuditTests.test_sequence_negative_window_is_rejected",
+    "test_audit.PreprocessingAuditTests.test_sequence_window_zero_is_rejected",
+    "test_audit.PreprocessingAuditTests.test_training_features_use_training_statistics",
+    "test_audit.PreprocessingAuditTests.test_validation_uses_same_training_transform",
+    "test_audit.PreprocessingAuditTests.test_validation_values_cannot_change_training_features",
+    "test_audit.ReportingAuditTests.test_missing_target_cannot_be_silently_treated_as_zero_earning",
+    "test_audit.ReportingAuditTests.test_nonfinite_predictions_cannot_silently_produce_a_valid_score",
+    "test_audit.ReportingAuditTests.test_reported_earnings_are_invariant_to_prediction_level_shift",
+    "test_audit.TrainingContractTests.test_epoch_twenty_runs_twenty_complete_passes",
+    "test_audit.TrainingContractTests.test_zero_epoch_cannot_update_parameters"
+  ],
+  "error_tests": [
+    "test_audit.ReportingAuditTests.test_small_but_nonzero_daily_variance_is_not_rounded_to_zero",
+    "test_audit.TrainingContractTests.test_real_model1_call_matches_train_signature",
+    "test_audit.TrainingContractTests.test_real_model2_call_matches_train_signature"
+  ],
+  "details": [
+    {
+      "test": "test_audit.CheckpointAuditTests.test_load_model_path_is_required_or_has_a_real_path_default",
+      "kind": "failure",
+      "traceback": "Traceback (most recent call last):\n  File \"/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_unittest_audit_20261015_v3/JPX_debug_v3/test_audit.py\", line 266, in test_load_model_path_is_required_or_has_a_real_path_default\n    self.assertTrue(default is inspect.Parameter.empty or isinstance(default, (str, os.PathLike)),\nAssertionError: False is not true : model_path=str stores the type object, not a default pathname\n"
+    },
+    {
+      "test": "test_audit.CheckpointAuditTests.test_model2_checkpoint_retains_one_scale_per_feature",
+      "kind": "failure",
+      "traceback": "Traceback (most recent call last):\n  File \"/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_unittest_audit_20261015_v3/JPX_debug_v3/test_audit.py\", line 261, in test_model2_checkpoint_retains_one_scale_per_feature\n    self.assertEqual(np.asarray(args[\"mean\"]).shape, (6,), \"Hard-coded scalar 0 loses six fitted means\")\nAssertionError: Tuples differ: () != (6,)\n\nSecond tuple contains 1 additional elements.\nFirst extra element 0:\n6\n\n- ()\n+ (6,) : Hard-coded scalar 0 loses six fitted means\n"
+    },
+    {
+      "test": "test_audit.CheckpointAuditTests.test_use_loaded_model_passes_a_nonempty_checkpoint_path",
+      "kind": "failure",
+      "traceback": "Traceback (most recent call last):\n  File \"/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_unittest_audit_20261015_v3/JPX_debug_v3/test_audit.py\", line 278, in test_use_loaded_model_passes_a_nonempty_checkpoint_path\n    self.assertTrue(str(loader.call_args.kwargs[\"model_path\"]).strip(), \"The helper always loads an empty pathname\")\nAssertionError: '' is not true : The helper always loads an empty pathname\n"
+    },
+    {
+      "test": "test_audit.CheckpointAuditTests.test_use_loaded_model_returns_the_loaded_result_for_use",
+      "kind": "failure",
+      "traceback": "Traceback (most recent call last):\n  File \"/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_unittest_audit_20261015_v3/JPX_debug_v3/test_audit.py\", line 285, in test_use_loaded_model_returns_the_loaded_result_for_use\n    self.assertIsNotNone(result, \"Loaded model and normalization metadata are discarded\")\nAssertionError: unexpectedly None : Loaded model and normalization metadata are discarded\n"
+    },
+    {
+      "test": "test_audit.PreprocessingAuditTests.test_duplicate_stock_dates_do_not_survive_valid_rows",
+      "kind": "failure",
+      "traceback": "Traceback (most recent call last):\n  File \"/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_unittest_audit_20261015_v3/JPX_debug_v3/test_audit.py\", line 185, in test_duplicate_stock_dates_do_not_survive_valid_rows\n    self.assertFalse(result.duplicated([\"SecuritiesCode\", \"Date\"]).any(),\nAssertionError: np.True_ is not false : Duplicate stock-days must be rejected or explicitly resolved before windows\n"
+    },
+    {
+      "test": "test_audit.PreprocessingAuditTests.test_final_row_nonpositive_factor_is_rejected_or_repaired (factor=0.0)",
+      "kind": "failure",
+      "traceback": "Traceback (most recent call last):\n  File \"/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_unittest_audit_20261015_v3/JPX_debug_v3/test_audit.py\", line 197, in test_final_row_nonpositive_factor_is_rejected_or_repaired\n    self.assertTrue((adjusted[\"AdjustmentFactor\"] > 0).all(),\nAssertionError: np.False_ is not true : Checking only shifted cumulative factors misses the final row\n"
+    },
+    {
+      "test": "test_audit.PreprocessingAuditTests.test_final_row_nonpositive_factor_is_rejected_or_repaired (factor=-0.5)",
+      "kind": "failure",
+      "traceback": "Traceback (most recent call last):\n  File \"/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_unittest_audit_20261015_v3/JPX_debug_v3/test_audit.py\", line 197, in test_final_row_nonpositive_factor_is_rejected_or_repaired\n    self.assertTrue((adjusted[\"AdjustmentFactor\"] > 0).all(),\nAssertionError: np.False_ is not true : Checking only shifted cumulative factors misses the final row\n"
+    },
+    {
+      "test": "test_audit.PreprocessingAuditTests.test_missing_column_message_names_only_missing_columns",
+      "kind": "failure",
+      "traceback": "Traceback (most recent call last):\n  File \"/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_unittest_audit_20261015_v3/JPX_debug_v3/test_audit.py\", line 204, in test_missing_column_message_names_only_missing_columns\n    self.assertNotIn(\"Close\", str(err.exception), \"An existing column must not be reported missing\")\nAssertionError: 'Close' unexpectedly found in \"Missing columns: [['Close', 'DoesNotExist']]\" : An existing column must not be reported missing\n"
+    },
+    {
+      "test": "test_audit.PreprocessingAuditTests.test_returned_scaling_metadata_reproduces_constant_column",
+      "kind": "failure",
+      "traceback": "Traceback (most recent call last):\n  File \"/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_unittest_audit_20261015_v3/JPX_debug_v3/test_audit.py\", line 156, in test_returned_scaling_metadata_reproduces_constant_column\n    self.assertTrue(np.isfinite(replay).all(), \"Returned std is zero although StandardScaler uses safe scale=1\")\nAssertionError: np.False_ is not true : Returned std is zero although StandardScaler uses safe scale=1\n"
+    },
+    {
+      "test": "test_audit.PreprocessingAuditTests.test_sequence_negative_window_is_rejected",
+      "kind": "failure",
+      "traceback": "Traceback (most recent call last):\n  File \"/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_unittest_audit_20261015_v3/JPX_debug_v3/test_audit.py\", line 211, in test_sequence_negative_window_is_rejected\n    with self.assertRaises(ValueError):\nAssertionError: ValueError not raised\n"
+    },
+    {
+      "test": "test_audit.PreprocessingAuditTests.test_sequence_window_zero_is_rejected",
+      "kind": "failure",
+      "traceback": "Traceback (most recent call last):\n  File \"/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_unittest_audit_20261015_v3/JPX_debug_v3/test_audit.py\", line 207, in test_sequence_window_zero_is_rejected\n    with self.assertRaises(ValueError):\nAssertionError: ValueError not raised\n"
+    },
+    {
+      "test": "test_audit.PreprocessingAuditTests.test_training_features_use_training_statistics",
+      "kind": "failure",
+      "traceback": "Traceback (most recent call last):\n  File \"/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_unittest_audit_20261015_v3/JPX_debug_v3/test_audit.py\", line 144, in test_training_features_use_training_statistics\n    np.testing.assert_allclose(train[\"Close\"], [-1, 1], atol=1e-7)\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/numpy/testing/_private/utils.py\", line 1684, in assert_allclose\n    assert_array_compare(compare, actual, desired, err_msg=str(err_msg),\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/contextlib.py\", line 81, in inner\n    return func(*args, **kwds)\n           ^^^^^^^^^^^^^^^^^^^\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/numpy/testing/_private/utils.py\", line 885, in assert_array_compare\n    raise AssertionError(msg)\nAssertionError: \nNot equal to tolerance rtol=1e-07, atol=1e-07\n\nMismatched elements: 2 / 2 (100%)\nMax absolute difference among violations: 1.4472136\nMax relative difference among violations: 1.4472136\n ACTUAL: array([-1.341641, -0.447214])\n DESIRED: array([-1,  1])\n"
+    },
+    {
+      "test": "test_audit.PreprocessingAuditTests.test_validation_uses_same_training_transform",
+      "kind": "failure",
+      "traceback": "Traceback (most recent call last):\n  File \"/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_unittest_audit_20261015_v3/JPX_debug_v3/test_audit.py\", line 149, in test_validation_uses_same_training_transform\n    np.testing.assert_allclose(val[\"Close\"], [3, 5], atol=1e-7)\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/numpy/testing/_private/utils.py\", line 1684, in assert_allclose\n    assert_array_compare(compare, actual, desired, err_msg=str(err_msg),\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/contextlib.py\", line 81, in inner\n    return func(*args, **kwds)\n           ^^^^^^^^^^^^^^^^^^^\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/numpy/testing/_private/utils.py\", line 885, in assert_array_compare\n    raise AssertionError(msg)\nAssertionError: \nNot equal to tolerance rtol=1e-07, atol=1e-07\n\nMismatched elements: 2 / 2 (100%)\nMax absolute difference among violations: 3.65835921\nMax relative difference among violations: 0.8509288\n ACTUAL: array([0.447214, 1.341641])\n DESIRED: array([3, 5])\n"
+    },
+    {
+      "test": "test_audit.PreprocessingAuditTests.test_validation_values_cannot_change_training_features",
+      "kind": "failure",
+      "traceback": "Traceback (most recent call last):\n  File \"/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_unittest_audit_20261015_v3/JPX_debug_v3/test_audit.py\", line 139, in test_validation_values_cannot_change_training_features\n    np.testing.assert_allclose(first[FEATURES], second[FEATURES], atol=1e-7,\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/numpy/testing/_private/utils.py\", line 1684, in assert_allclose\n    assert_array_compare(compare, actual, desired, err_msg=str(err_msg),\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/contextlib.py\", line 81, in inner\n    return func(*args, **kwds)\n           ^^^^^^^^^^^^^^^^^^^\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/numpy/testing/_private/utils.py\", line 885, in assert_array_compare\n    raise AssertionError(msg)\nAssertionError: \nNot equal to tolerance rtol=1e-07, atol=1e-07\nOnly future values changed, but training features changed\nMismatched elements: 10 / 12 (83.3%)\nMax absolute difference among violations: 0.53218207\nMax relative difference among violations: 0.54337801\n ACTUAL: array([[-1.341641, -1.341641, -1.341641, -1.341641, -1.341641,  0.      ],\n       [-0.447214, -0.447214, -0.447214, -0.447214, -0.447214,  0.      ]])\n DESIRED: array([[-0.98284 , -0.984729, -0.980607, -0.983823, -0.98284 ,  0.      ],\n       [-0.977216, -0.979396, -0.974658, -0.978348, -0.977216,  0.      ]])\n"
+    },
+    {
+      "test": "test_audit.ReportingAuditTests.test_missing_target_cannot_be_silently_treated_as_zero_earning",
+      "kind": "failure",
+      "traceback": "Traceback (most recent call last):\n  File \"/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_unittest_audit_20261015_v3/JPX_debug_v3/test_audit.py\", line 324, in test_missing_target_cannot_be_silently_treated_as_zero_earning\n    self.assertFalse(np.isfinite(value), \"pandas sum skipped a missing held-position Target\")\nAssertionError: np.True_ is not false : pandas sum skipped a missing held-position Target\n"
+    },
+    {
+      "test": "test_audit.ReportingAuditTests.test_nonfinite_predictions_cannot_silently_produce_a_valid_score",
+      "kind": "failure",
+      "traceback": "Traceback (most recent call last):\n  File \"/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_unittest_audit_20261015_v3/JPX_debug_v3/test_audit.py\", line 315, in test_nonfinite_predictions_cannot_silently_produce_a_valid_score\n    self.assertFalse(all(np.isfinite(value) for value in scores.values()),\nAssertionError: True is not false : A NaN prediction silently received a position and produced finite scores\n"
+    },
+    {
+      "test": "test_audit.ReportingAuditTests.test_reported_earnings_are_invariant_to_prediction_level_shift",
+      "kind": "failure",
+      "traceback": "Traceback (most recent call last):\n  File \"/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_unittest_audit_20261015_v3/JPX_debug_v3/test_audit.py\", line 299, in test_reported_earnings_are_invariant_to_prediction_level_shift\n    self.assertEqual(outputs[0], outputs[1], \"Sum of model scores is not realized portfolio earnings\")\nAssertionError: 'Tota[17 chars]nt64(6), np.int64(6), np.int64(6), np.int64(6)[50 chars]6)]%' != 'Tota[17 chars]nt64(46), np.int64(46), np.int64(46), np.int64[58 chars]6)]%'\n- Total earnings: [np.int64(6), np.int64(6), np.int64(6), np.int64(6), np.int64(6), np.int64(6), np.int64(6), np.int64(6)]%\n+ Total earnings: [np.int64(46), np.int64(46), np.int64(46), np.int64(46), np.int64(46), np.int64(46), np.int64(46), np.int64(46)]%\n?                           +             +             +             +             +             +             +             +\n : Sum of model scores is not realized portfolio earnings\n"
+    },
+    {
+      "test": "test_audit.TrainingContractTests.test_epoch_twenty_runs_twenty_complete_passes",
+      "kind": "failure",
+      "traceback": "Traceback (most recent call last):\n  File \"/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_unittest_audit_20261015_v3/JPX_debug_v3/test_audit.py\", line 107, in test_epoch_twenty_runs_twenty_complete_passes\n    self.assertEqual(step.call_count, 20 * len(self.loader), \"20 epochs must make 40 updates, not 2\")\nAssertionError: 2 != 40 : 20 epochs must make 40 updates, not 2\n"
+    },
+    {
+      "test": "test_audit.TrainingContractTests.test_zero_epoch_cannot_update_parameters",
+      "kind": "failure",
+      "traceback": "Traceback (most recent call last):\n  File \"/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_unittest_audit_20261015_v3/JPX_debug_v3/test_audit.py\", line 116, in test_zero_epoch_cannot_update_parameters\n    torch.testing.assert_close(old, new, rtol=0, atol=0)\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/torch/testing/_comparison.py\", line 1600, in assert_close\n    raise error_metas[0].to_error(msg)\nAssertionError: Tensor-likes are not equal!\n\nMismatched elements: 1 / 1 (100.0%)\nGreatest absolute difference: 0.04000002145767212 at index (0, 0)\nGreatest relative difference: 0.056852132081985474 at index (0, 0)\n"
+    },
+    {
+      "test": "test_audit.ReportingAuditTests.test_small_but_nonzero_daily_variance_is_not_rounded_to_zero",
+      "kind": "error",
+      "traceback": "Traceback (most recent call last):\n  File \"/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_unittest_audit_20261015_v3/JPX_debug_v3/test_audit.py\", line 330, in test_small_but_nonzero_daily_variance_is_not_rounded_to_zero\n    actual = metrics.calculate_sharpe(frame)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/coolguy/Desktop/JPX/codes/evaluation.py\", line 114, in calculate_sharpe\n    raise ValueError(\"Standard Deviation can not be 0\")\nValueError: Standard Deviation can not be 0\n"
+    },
+    {
+      "test": "test_audit.TrainingContractTests.test_real_model1_call_matches_train_signature",
+      "kind": "error",
+      "traceback": "Traceback (most recent call last):\n  File \"/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_unittest_audit_20261015_v3/JPX_debug_v3/test_audit.py\", line 120, in test_real_model1_call_matches_train_signature\n    application.model_1()\n  File \"/Users/coolguy/Desktop/JPX/codes/utils.py\", line 8, in inner_func\n    func()\n  File \"/Users/coolguy/Desktop/JPX/codes/JPX_deep_learning_models.py\", line 73, in model_1\n    train_avg_loss = deep_learning.train(model, data_loader, loss_fn, optimizer, epochs=1, device=device)\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: train() got an unexpected keyword argument 'epochs'\n"
+    },
+    {
+      "test": "test_audit.TrainingContractTests.test_real_model2_call_matches_train_signature",
+      "kind": "error",
+      "traceback": "Traceback (most recent call last):\n  File \"/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_unittest_audit_20261015_v3/JPX_debug_v3/test_audit.py\", line 124, in test_real_model2_call_matches_train_signature\n    application.model_2()\n  File \"/Users/coolguy/Desktop/JPX/codes/JPX_deep_learning_models.py\", line 124, in model_2\n    train_avg_loss = deep_learning.train(model, train_data_loader, loss_fn, optimizer, epochs=20, device=device)\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: train() got an unexpected keyword argument 'epochs'\n"
+    }
+  ],
+  "scope": "Synthetic CPU checks; no market CSV, training job, MPS/CUDA run or investment-performance validation."
+}

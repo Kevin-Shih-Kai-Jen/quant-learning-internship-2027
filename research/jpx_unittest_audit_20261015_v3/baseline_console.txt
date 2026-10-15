@@ -1,0 +1,143 @@
+Python: /Library/Frameworks/Python.framework/Versions/3.12/bin/python3.12
+Testing source: /Users/coolguy/Desktop/JPX/codes
+test_01_no_split_keeps_original_prices_and_volume (JPX_debug.test_jpx_debug.DataTests.test_01_no_split_keeps_original_prices_and_volume) ... ok
+test_02_input_dataframe_is_not_mutated (JPX_debug.test_jpx_debug.DataTests.test_02_input_dataframe_is_not_mutated) ... ok
+test_03_nonconsecutive_index_labels (JPX_debug.test_jpx_debug.DataTests.test_03_nonconsecutive_index_labels) ... ok
+test_04_reordered_labels_must_not_remove_the_wrong_row (JPX_debug.test_jpx_debug.DataTests.test_04_reordered_labels_must_not_remove_the_wrong_row) ... ok
+test_05_required_open_cannot_remain_nan (JPX_debug.test_jpx_debug.DataTests.test_05_required_open_cannot_remain_nan) ... ok
+test_06_nonpositive_factors_are_rejected_or_repaired (JPX_debug.test_jpx_debug.DataTests.test_06_nonpositive_factors_are_rejected_or_repaired) ... ok
+test_07_get_features_reports_missing_columns (JPX_debug.test_jpx_debug.DataTests.test_07_get_features_reports_missing_columns) ... ok
+test_08_metadata_prints_column_names_not_a_method_object (JPX_debug.test_jpx_debug.DataTests.test_08_metadata_prints_column_names_not_a_method_object) ... ok
+test_01_window_two_forward (JPX_debug.test_jpx_debug.ModelTests.test_01_window_two_forward) ... ERROR
+test_02_current_window_one_design_must_run (JPX_debug.test_jpx_debug.ModelTests.test_02_current_window_one_design_must_run) ... ERROR
+test_03_no_dropout1d_on_two_dimensional_batch_head (JPX_debug.test_jpx_debug.ModelTests.test_03_no_dropout1d_on_two_dimensional_batch_head) ... ERROR
+test_04_configuration_uses_feature_count_not_row_count (JPX_debug.test_jpx_debug.ModelTests.test_04_configuration_uses_feature_count_not_row_count) ... ERROR
+test_01_train_loss_shapes_match (JPX_debug.test_jpx_debug.PipelineTests.test_01_train_loss_shapes_match) ... ok
+test_02_eval_loss_shapes_match (JPX_debug.test_jpx_debug.PipelineTests.test_02_eval_loss_shapes_match) ... ok
+test_01_stock_boundaries_sorting_feature_order_and_last_target (JPX_debug.test_jpx_debug.SequenceTests.test_01_stock_boundaries_sorting_feature_order_and_last_target) ... ok
+test_02_window_one_retains_all_rows (JPX_debug.test_jpx_debug.SequenceTests.test_02_window_one_retains_all_rows) ... ok
+test_03_stock_shorter_than_window (JPX_debug.test_jpx_debug.SequenceTests.test_03_stock_shorter_than_window) ... ok
+test_01_series (JPX_debug.test_jpx_debug.TensorTests.test_01_series) ... ok
+test_02_dataframe (JPX_debug.test_jpx_debug.TensorTests.test_02_dataframe) ... ok
+test_03_numpy_array (JPX_debug.test_jpx_debug.TensorTests.test_03_numpy_array) ... ok
+test_04_scalar_list (JPX_debug.test_jpx_debug.TensorTests.test_04_scalar_list) ... ok
+test_05_list_of_dataframe_windows (JPX_debug.test_jpx_debug.TensorTests.test_05_list_of_dataframe_windows) ... ok
+test_01_training_processes_every_batch (JPX_debug.test_jpx_debug.TrainingTests.test_01_training_processes_every_batch) ... ok
+test_02_training_returns_sample_weighted_mean (JPX_debug.test_jpx_debug.TrainingTests.test_02_training_returns_sample_weighted_mean) ... ok
+test_03_empty_training_loader_has_clear_error (JPX_debug.test_jpx_debug.TrainingTests.test_03_empty_training_loader_has_clear_error) ... ok
+test_04_evaluation_mean_and_no_grad_control (JPX_debug.test_jpx_debug.TrainingTests.test_04_evaluation_mean_and_no_grad_control) ... ok
+test_05_evaluation_empty_loader_control (JPX_debug.test_jpx_debug.TrainingTests.test_05_evaluation_empty_loader_control) ... ok
+test_01_scrambled_rows_align_to_window_end (JPX_debug_v2.test_jpx_debug_v2.AlignmentTests.test_01_scrambled_rows_align_to_window_end) ... ok
+test_02_window_one_retains_every_stock_row (JPX_debug_v2.test_jpx_debug_v2.AlignmentTests.test_02_window_one_retains_every_stock_row) ... ok
+test_03_exact_window_retains_one_row_and_short_stocks_have_none (JPX_debug_v2.test_jpx_debug_v2.AlignmentTests.test_03_exact_window_retains_one_row_and_short_stocks_have_none) ... ok
+test_04_predictions_of_wrong_length_are_rejected (JPX_debug_v2.test_jpx_debug_v2.AlignmentTests.test_04_predictions_of_wrong_length_are_rejected) ... ok
+test_05_actual_sequence_loader_predictions_and_metadata_agree (JPX_debug_v2.test_jpx_debug_v2.AlignmentTests.test_05_actual_sequence_loader_predictions_and_metadata_agree) ... ok
+test_01_overall_supplies_signed_weights_for_every_date (JPX_debug_v2.test_jpx_debug_v2.PipelineTests.test_01_overall_supplies_signed_weights_for_every_date) ... ok
+test_02_overall_returns_scores_in_declared_order (JPX_debug_v2.test_jpx_debug_v2.PipelineTests.test_02_overall_returns_scores_in_declared_order) ... FAIL
+test_03_real_window_to_metrics_pipeline (JPX_debug_v2.test_jpx_debug_v2.PipelineTests.test_03_real_window_to_metrics_pipeline) ... FAIL
+test_01_all_batches_return_in_original_order (JPX_debug_v2.test_jpx_debug_v2.PredictionTests.test_01_all_batches_return_in_original_order) ... ok
+test_02_loss_is_sample_weighted_not_batch_weighted (JPX_debug_v2.test_jpx_debug_v2.PredictionTests.test_02_loss_is_sample_weighted_not_batch_weighted) ... ok
+test_03_eval_mode_no_grad_and_no_parameter_update (JPX_debug_v2.test_jpx_debug_v2.PredictionTests.test_03_eval_mode_no_grad_and_no_parameter_update) ... ok
+test_04_one_sample_still_returns_one_dimensional_array (JPX_debug_v2.test_jpx_debug_v2.PredictionTests.test_04_one_sample_still_returns_one_dimensional_array) ... ok
+test_05_empty_loader_raises_value_error_before_concatenating (JPX_debug_v2.test_jpx_debug_v2.PredictionTests.test_05_empty_loader_raises_value_error_before_concatenating) ... ok
+test_06_default_loader_preserves_sample_order (JPX_debug_v2.test_jpx_debug_v2.PredictionTests.test_06_default_loader_preserves_sample_order) ... ok
+test_01_nonlinear_but_same_order_is_perfect (JPX_debug_v2.test_jpx_debug_v2.RankICTests.test_01_nonlinear_but_same_order_is_perfect) ... ok
+test_02_opposite_order_is_negative_one (JPX_debug_v2.test_jpx_debug_v2.RankICTests.test_02_opposite_order_is_negative_one) ... ok
+test_03_ties_use_average_rank (JPX_debug_v2.test_jpx_debug_v2.RankICTests.test_03_ties_use_average_rank) ... ok
+test_04_average_days_equally_with_different_stock_counts (JPX_debug_v2.test_jpx_debug_v2.RankICTests.test_04_average_days_equally_with_different_stock_counts) ... ok
+test_05_missing_pairs_are_removed_before_ranking (JPX_debug_v2.test_jpx_debug_v2.RankICTests.test_05_missing_pairs_are_removed_before_ranking) ... ok
+test_06_constant_prediction_is_nan (JPX_debug_v2.test_jpx_debug_v2.RankICTests.test_06_constant_prediction_is_nan) ... ok
+test_01_tensor_conversion_preserves_axes_and_float32 (JPX_debug_v2.test_jpx_debug_v2.RegressionTests.test_01_tensor_conversion_preserves_axes_and_float32) ... ok
+test_02_sequence_does_not_cross_stock_boundaries (JPX_debug_v2.test_jpx_debug_v2.RegressionTests.test_02_sequence_does_not_cross_stock_boundaries) ... ok
+test_03_train_runs_full_epoch_with_sample_weighted_loss (JPX_debug_v2.test_jpx_debug_v2.RegressionTests.test_03_train_runs_full_epoch_with_sample_weighted_loss) ... ok
+test_04_actual_model_supports_current_42_day_configuration (JPX_debug_v2.test_jpx_debug_v2.RegressionTests.test_04_actual_model_supports_current_42_day_configuration) ... ERROR
+test_01_daily_mean_over_sample_std (JPX_debug_v2.test_jpx_debug_v2.SharpeTests.test_01_daily_mean_over_sample_std) ... ok
+test_02_formula_isolated_from_one_day_earning (JPX_debug_v2.test_jpx_debug_v2.SharpeTests.test_02_formula_isolated_from_one_day_earning) ... ok
+test_03_base_number_is_daily_benchmark_return (JPX_debug_v2.test_jpx_debug_v2.SharpeTests.test_03_base_number_is_daily_benchmark_return) ... ok
+test_04_empty_dataframe_has_clear_error (JPX_debug_v2.test_jpx_debug_v2.SharpeTests.test_04_empty_dataframe_has_clear_error) ... ok
+test_05_single_day_is_undefined_not_a_finite_score (JPX_debug_v2.test_jpx_debug_v2.SharpeTests.test_05_single_day_is_undefined_not_a_finite_score) ... ok
+test_06_constant_daily_returns_are_explicitly_undefined (JPX_debug_v2.test_jpx_debug_v2.SharpeTests.test_06_constant_daily_returns_are_explicitly_undefined) ... ok
+test_01_ranking_restarts_on_each_date (JPX_debug_v2.test_jpx_debug_v2.WeightTests.test_01_ranking_restarts_on_each_date) ... ok
+test_02_signed_counts_totals_and_endpoint_ratio (JPX_debug_v2.test_jpx_debug_v2.WeightTests.test_02_signed_counts_totals_and_endpoint_ratio) ... ok
+test_03_all_rank_positions_have_the_linear_weights (JPX_debug_v2.test_jpx_debug_v2.WeightTests.test_03_all_rank_positions_have_the_linear_weights) ... ok
+test_04_less_than_400_stocks_is_rejected (JPX_debug_v2.test_jpx_debug_v2.WeightTests.test_04_less_than_400_stocks_is_rejected) ... ok
+test_05_signed_contribution_uses_the_Weight_column (JPX_debug_v2.test_jpx_debug_v2.WeightTests.test_05_signed_contribution_uses_the_Weight_column) ... ok
+
+======================================================================
+ERROR: test_01_window_two_forward (JPX_debug.test_jpx_debug.ModelTests.test_01_window_two_forward)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_unittest_audit_20261015_v3/legacy_tests/JPX_debug/test_jpx_debug.py", line 236, in test_01_window_two_forward
+    model = self.small_model().eval()
+            ^^^^^^^^^^^^^^^^^^
+  File "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_unittest_audit_20261015_v3/legacy_tests/JPX_debug/test_jpx_debug.py", line 232, in small_model
+    return learning.CNN_LSTM(num_features=6, cnn_out_channels=4,
+           ^^^^^^^^^^^^^^^^^
+AttributeError: module 'deep_learning' has no attribute 'CNN_LSTM'
+
+======================================================================
+ERROR: test_02_current_window_one_design_must_run (JPX_debug.test_jpx_debug.ModelTests.test_02_current_window_one_design_must_run)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_unittest_audit_20261015_v3/legacy_tests/JPX_debug/test_jpx_debug.py", line 243, in test_02_current_window_one_design_must_run
+    model = self.small_model().eval()
+            ^^^^^^^^^^^^^^^^^^
+  File "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_unittest_audit_20261015_v3/legacy_tests/JPX_debug/test_jpx_debug.py", line 232, in small_model
+    return learning.CNN_LSTM(num_features=6, cnn_out_channels=4,
+           ^^^^^^^^^^^^^^^^^
+AttributeError: module 'deep_learning' has no attribute 'CNN_LSTM'
+
+======================================================================
+ERROR: test_03_no_dropout1d_on_two_dimensional_batch_head (JPX_debug.test_jpx_debug.ModelTests.test_03_no_dropout1d_on_two_dimensional_batch_head)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_unittest_audit_20261015_v3/legacy_tests/JPX_debug/test_jpx_debug.py", line 249, in test_03_no_dropout1d_on_two_dimensional_batch_head
+    model = self.small_model().train()
+            ^^^^^^^^^^^^^^^^^^
+  File "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_unittest_audit_20261015_v3/legacy_tests/JPX_debug/test_jpx_debug.py", line 232, in small_model
+    return learning.CNN_LSTM(num_features=6, cnn_out_channels=4,
+           ^^^^^^^^^^^^^^^^^
+AttributeError: module 'deep_learning' has no attribute 'CNN_LSTM'
+
+======================================================================
+ERROR: test_04_configuration_uses_feature_count_not_row_count (JPX_debug.test_jpx_debug.ModelTests.test_04_configuration_uses_feature_count_not_row_count)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_unittest_audit_20261015_v3/legacy_tests/JPX_debug/test_jpx_debug.py", line 275, in test_04_configuration_uses_feature_count_not_row_count
+    with patch.object(application, "main_loader", return_value=tiny_frame(8)), \
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/mock.py", line 1455, in __enter__
+    original, local = self.get_original()
+                      ^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/mock.py", line 1428, in get_original
+    raise AttributeError(
+AttributeError: <module 'deep_learning' from '/Users/coolguy/Desktop/JPX/codes/deep_learning.py'> does not have the attribute 'CNN_LSTM'
+
+======================================================================
+ERROR: test_04_actual_model_supports_current_42_day_configuration (JPX_debug_v2.test_jpx_debug_v2.RegressionTests.test_04_actual_model_supports_current_42_day_configuration)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_unittest_audit_20261015_v3/legacy_tests/JPX_debug_v2/test_jpx_debug_v2.py", line 432, in test_04_actual_model_supports_current_42_day_configuration
+    model = learning.CNN_LSTM(num_features=6, cnn_out_channels=4,
+            ^^^^^^^^^^^^^^^^^
+AttributeError: module 'deep_learning' has no attribute 'CNN_LSTM'
+
+======================================================================
+FAIL: test_02_overall_returns_scores_in_declared_order (JPX_debug_v2.test_jpx_debug_v2.PipelineTests.test_02_overall_returns_scores_in_declared_order)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_unittest_audit_20261015_v3/legacy_tests/JPX_debug_v2/test_jpx_debug_v2.py", line 387, in test_02_overall_returns_scores_in_declared_order
+    self.assertIsInstance(result, list, "宣告 list[float] 的函式需回傳分數，不能只有 print。")
+AssertionError: {'sharpe': 2.0, 'rank_IC': 0.4} is not an instance of <class 'list'> : 宣告 list[float] 的函式需回傳分數，不能只有 print。
+
+======================================================================
+FAIL: test_03_real_window_to_metrics_pipeline (JPX_debug_v2.test_jpx_debug_v2.PipelineTests.test_03_real_window_to_metrics_pipeline)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_unittest_audit_20261015_v3/legacy_tests/JPX_debug_v2/test_jpx_debug_v2.py", line 397, in test_03_real_window_to_metrics_pipeline
+    self.assertIsInstance(scores, list)
+AssertionError: {'sharpe': 2.0, 'rank_IC': np.float64(0.8681689645489673)} is not an instance of <class 'list'>
+
+----------------------------------------------------------------------
+Ran 62 tests in 0.880s
+
+FAILED (failures=2, errors=5)

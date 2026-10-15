@@ -1,0 +1,57 @@
+{
+  "destination": "/Users/coolguy/Desktop/JPX/debug/JPX_debug_v3",
+  "source_unchanged": true,
+  "verified_files": [
+    {
+      "path": "/Users/coolguy/Desktop/JPX/debug/JPX_debug_v3/README.md",
+      "bytes": 2869,
+      "sha256": "7eef1df22335fd3db806eca491e30ee5b4724b8d41ca9c2159f887f589d58096"
+    },
+    {
+      "path": "/Users/coolguy/Desktop/JPX/debug/JPX_debug_v3/REPORT.md",
+      "bytes": 11886,
+      "sha256": "cdbe881848650ad70fbd4e6d7f0a355b6f902026b12691f27f92d258e23c4d11"
+    },
+    {
+      "path": "/Users/coolguy/Desktop/JPX/debug/JPX_debug_v3/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/coolguy/Desktop/JPX/debug/JPX_debug_v3/results/captured_stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/coolguy/Desktop/JPX/debug/JPX_debug_v3/results/test_results.json",
+      "bytes": 30542,
+      "sha256": "dd129315200152d49131286e24056401187a2b5b4fe2dbbd7882a33b7b4a0a1e"
+    },
+    {
+      "path": "/Users/coolguy/Desktop/JPX/debug/JPX_debug_v3/results/test_results.txt",
+      "bytes": 36091,
+      "sha256": "8da29b72e20ac6bb18baad3b56e6c1c75c78954216ba5fde5e80da613098dd13"
+    },
+    {
+      "path": "/Users/coolguy/Desktop/JPX/debug/JPX_debug_v3/run_tests.py",
+      "bytes": 5329,
+      "sha256": "37c2e73344b69440b45cb52dd028c4f181b0d1173d73f85f77c27bca549ed77e"
+    },
+    {
+      "path": "/Users/coolguy/Desktop/JPX/debug/JPX_debug_v3/test_audit.py",
+      "bytes": 20222,
+      "sha256": "f742cf53f21a30e903873bdcc1d3bbc928999b0ef4c21d95a7c06431e04df91d"
+    },
+    {
+      "path": "/Users/coolguy/Desktop/JPX/debug/JPX_debug_v3/test_regression_v1.py",
+      "bytes": 17010,
+      "sha256": "46329d21ed744ccaad10a5ed3f314938a29c7a5b8b711c7b875fb614cf6ee920"
+    },
+    {
+      "path": "/Users/coolguy/Desktop/JPX/debug/JPX_debug_v3/test_regression_v2.py",
+      "bytes": 21242,
+      "sha256": "87d3078405a395b9c536e190643d7ef4e16f84694822ee7139ae99b16845c055"
+    }
+  ],
+  "existing_debug_files_modified": []
+}
