@@ -1,0 +1,41 @@
+{
+  "changed_source_files": [
+    "features.py",
+    "JPX_deep_learning_models.py"
+  ],
+  "unchanged_source_files": [
+    "data_loader.py",
+    "data_processor.py",
+    "deep_learning.py",
+    "evaluation.py",
+    "main.py",
+    "models.py",
+    "utils.py"
+  ],
+  "updated_test_fixtures": [
+    "test_audit.py",
+    "test_regression_v1.py"
+  ],
+  "verified_files": [
+    {
+      "path": "/Users/coolguy/Desktop/JPX/codes/features.py",
+      "bytes": 3518,
+      "sha256": "2a941ec1261c17eeb2fca5c521a084983105744093455ec36afb26644a39d6bc"
+    },
+    {
+      "path": "/Users/coolguy/Desktop/JPX/codes/JPX_deep_learning_models.py",
+      "bytes": 5740,
+      "sha256": "36fdb138229ac9139b8c618a96779fd0e8a00cbb3e8f8eded97e2a4e892d0ac1"
+    },
+    {
+      "path": "/Users/coolguy/Desktop/JPX/debug/JPX_debug_v3/test_audit.py",
+      "bytes": 20451,
+      "sha256": "dc20912c8926fc791869df46b42494dd318c6095c6987d9c34f7f07c2c090e32"
+    },
+    {
+      "path": "/Users/coolguy/Desktop/JPX/debug/JPX_debug_v3/test_regression_v1.py",
+      "bytes": 17035,
+      "sha256": "560b333f79466a161800917260887dfa87bc5c7bbbf28680ab5a960a9f1554ef"
+    }
+  ]
+}

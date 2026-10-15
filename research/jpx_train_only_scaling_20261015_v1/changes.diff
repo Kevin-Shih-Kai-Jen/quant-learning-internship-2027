@@ -1,0 +1,150 @@
+--- before/JPX_deep_learning_models.py
++++ after/JPX_deep_learning_models.py
+@@ -31,9 +31,23 @@
+ 
+     print("Stage 3: Prices adjusted", flush=True)
+     
+-    df, mean, std = features.normalize_data(
+-        df,
+-        ["Open", "High", "Low", "Close", "Volume", "ExpectedDividend"]
++    # Get train date and evaluation date
++    train_start, train_end, val_start, val_end = train_and_val
++    train_df = data_processor.get_time_for_specific_period(df, train_start, train_end)
++    val_df = data_processor.get_time_for_specific_period(df, val_start, val_end)
++    
++    # Calculate mean and std with training data
++    train_df, mean, std = features.normalize_data(
++        train_df,
++        FEAUTRES
++    )
++    
++    # Use the same mean and std for validation data
++    val_df, _, _ = features.normalize_data(
++        val_df,
++        FEAUTRES,
++        std=std,
++        mean=mean
+     )
+     
+     device = torch.device(
+@@ -42,18 +56,12 @@
+ 
+     print("Stage 4: Normalized", flush=True)
+     
+-    # Get train date and evaluation date
+-    train_start, train_end, val_start, val_end = train_and_val
+-    train_df = data_processor.get_time_for_specific_period(df, train_start, train_end)
+-    val_df = data_processor.get_time_for_specific_period(df, val_start, val_end)
+-    
+-    
+-    return train_df, val_df, device
++    return train_df, val_df, device, mean, std
+ 
+ 
+ @utils.print_running_time
+ def model_1():  
+-    df, _, device = common_process(["2017-01-01", "2021-07-01","2017-01-01", "2021-07-01"], COL_NAMES)
++    df, _, device, _, _ = common_process(["2017-01-01", "2021-07-01","2017-01-01", "2021-07-01"], COL_NAMES)
+     
+     for time in TIME_SPAN:
+         X, y = features.create_time_sequence(df, time_sequence=time, col_names=FEAUTRES)
+@@ -109,7 +117,7 @@
+         optimizer = torch.optim.Adam(model.parameters())
+         
+         for train_and_val in splits:
+-            train_df, val_df, device = common_process(train_and_val, COL_NAMES)
++            train_df, val_df, device, mean, std = common_process(train_and_val, COL_NAMES)
+             
+             X_train, y_train = features.create_time_sequence(train_df, time_sequence=time, col_names=FEAUTRES)
+             X_val, y_val = features.create_time_sequence(val_df, time_sequence=time, col_names=FEAUTRES)
+@@ -138,8 +146,8 @@
+         deep_learning.save_model(
+             model=model,
+             model_name='CNN_LSTM',
+-            mean=0,
+-            std=1,
++            mean=mean,
++            std=std,
+             train_start="2017-01-01",
+             train_end="2021-01-01",
+             feature_columns=FEAUTRES
+--- before/features.py
++++ after/features.py
+@@ -44,16 +44,16 @@
+ def normalize_data(
+     df: pd.DataFrame | pd.DataFrame,
+     col_names: list[str],
+-    std: pd.Series | None = None,
+-    mean: pd.Series | None = None
++    std: np.ndarray | None = None,
++    mean: np.ndarray | None = None
+ ) -> tuple[pd.DataFrame, np.ndarray, np.ndarray]:
+     missing = [name for name in col_names if name not in df.columns]
+ 
+     if missing:
+         raise ValueError(f"Columns not in DataFrame: {missing}")
+     
+-    if (std is None) or (mean is None):
+-        raise ValueError("std, mean values all need to be offered")
++    if (std is None) != (mean is None):
++        raise ValueError("std, mean values need to be offered together")
+ 
+     normalized_df = df.copy()
+     
+@@ -62,7 +62,7 @@
+         
+         normalized_df[col_names] = scaler.fit_transform(df[col_names])
+         mean = scaler.mean_
+-        std = scaler.var_ ** 0.5
++        std = scaler.scale_
+     else:
+         normalized_df[col_names] = (df[col_names] - mean) / std
+     
+--- tests_before/test_audit.py
++++ tests_after/test_audit.py
+@@ -75,13 +75,13 @@
+          patch.object(torch.backends.mps, "is_available", return_value=False), \
+          contextlib.redirect_stdout(io.StringIO()):
+         if not isolate_normalizer_signature:
+-            return application.common_process(SPLIT, application.COL_NAMES)
++            return application.common_process(SPLIT, application.COL_NAMES)[:3]
+         original = features.normalize_data
+         parameter = inspect.signature(original).parameters.get("std")
+         if parameter is not None and parameter.default is inspect.Parameter.empty:
+             with patch.object(features, "normalize_data", side_effect=lambda frame, cols: original(frame, cols, std=None)):
+-                return application.common_process(SPLIT, application.COL_NAMES)
+-        return application.common_process(SPLIT, application.COL_NAMES)
++                return application.common_process(SPLIT, application.COL_NAMES)[:3]
++        return application.common_process(SPLIT, application.COL_NAMES)[:3]
+ 
+ 
+ def tiny_model():
+@@ -101,7 +101,7 @@
+         frame = raw_frame(4)
+         frame["Date"] = pd.to_datetime(frame["Date"])
+         stack.enter_context(patch.object(application, "TIME_SPAN", [1]))
+-        stack.enter_context(patch.object(application, "common_process", return_value=(frame, frame, "cpu")))
++        stack.enter_context(patch.object(application, "common_process", return_value=(frame, frame, "cpu", np.arange(6, dtype=float), np.arange(1, 7, dtype=float))))
+         factory = stack.enter_context(patch.object(application.models, "CNN_LSTM", side_effect=lambda **kw: tiny_model()))
+         save = stack.enter_context(patch.object(learning, "save_model", autospec=True))
+         stack.enter_context(patch.object(metrics, "overall_performance", return_value={"sharpe": 1.0, "rank_IC": 0.2}))
+@@ -281,6 +281,8 @@
+         args = save.call_args.kwargs
+         self.assertEqual(np.asarray(args["mean"]).shape, (6,), "Hard-coded scalar 0 loses six fitted means")
+         self.assertEqual(np.asarray(args["std"]).shape, (6,))
++        np.testing.assert_array_equal(args["mean"], np.arange(6, dtype=float))
++        np.testing.assert_array_equal(args["std"], np.arange(1, 7, dtype=float))
+ 
+     def test_load_model_path_is_required_or_has_a_real_path_default(self):
+         default = inspect.signature(learning.load_model).parameters["model_path"].default
+--- tests_before/test_regression_v1.py
++++ tests_after/test_regression_v1.py
+@@ -275,7 +275,7 @@
+             captured["num_features"] = kwargs.get("num_features", args[0] if args else None)
+             raise ReachedConstructor
+ 
+-        with patch.object(application, "common_process", return_value=(tiny_frame(8), tiny_frame(8), "cpu")), \
++        with patch.object(application, "common_process", return_value=(tiny_frame(8), tiny_frame(8), "cpu", np.zeros(6), np.ones(6))), \
+              patch.object(application.deep_learning, "make_loader", return_value=object()), \
+              patch.object(application.models, "CNN_LSTM", side_effect=record_constructor), \
+              contextlib.redirect_stdout(io.StringIO()):

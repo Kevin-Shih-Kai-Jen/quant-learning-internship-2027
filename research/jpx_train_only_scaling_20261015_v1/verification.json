@@ -1,0 +1,26 @@
+{
+  "relevant_tests_passed": [
+    "test_audit.PreprocessingAuditTests.test_common_process_call_matches_normalize_signature",
+    "test_audit.PreprocessingAuditTests.test_validation_values_cannot_change_training_features",
+    "test_audit.PreprocessingAuditTests.test_training_features_use_training_statistics",
+    "test_audit.PreprocessingAuditTests.test_validation_uses_same_training_transform",
+    "test_audit.PreprocessingAuditTests.test_returned_scaling_metadata_reproduces_constant_column",
+    "test_audit.PreprocessingAuditTests.test_nonconstant_scaling_metadata_reproduces_transform",
+    "test_audit.CheckpointAuditTests.test_model2_checkpoint_retains_one_scale_per_feature",
+    "test_audit.CheckpointAuditTests.test_model2_supplies_all_required_save_arguments",
+    "test_audit.CheckpointAuditTests.test_real_serializer_roundtrip_preserves_parameters_and_metadata",
+    "test_normalizer_reuse.NormalizerReuseTests.test_nonzero_scalar_std_returns_the_transformed_frame",
+    "test_normalizer_reuse.NormalizerReuseTests.test_fitted_featurewise_metadata_can_be_reused",
+    "test_regression_v1.ModelTests.test_04_configuration_uses_feature_count_not_row_count"
+  ],
+  "relevant_test_count": 12,
+  "partial_metadata_cases_passed": 2,
+  "comments": "English only in both edited source files",
+  "full_suite": {
+    "total": 104,
+    "passed": 88,
+    "failed_test_methods": 13,
+    "errored_test_methods": 3
+  },
+  "full_training_run": false
+}

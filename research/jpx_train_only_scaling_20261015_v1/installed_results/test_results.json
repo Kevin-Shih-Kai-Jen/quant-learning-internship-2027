@@ -1,0 +1,89 @@
+{
+  "run_at": "2026-10-15T11:56:00.020979+08:00",
+  "duration_seconds": 0.7901563750001515,
+  "python": "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3.12",
+  "python_version": "3.12.2",
+  "versions": {
+    "numpy": "2.0.0",
+    "pandas": "2.2.2",
+    "torch": "2.11.0",
+    "scipy": "1.17.1",
+    "sklearn": "1.8.0"
+  },
+  "codes_directory": "/Users/coolguy/Desktop/JPX/codes",
+  "source_manifest": {
+    "JPX_deep_learning_models.py": {
+      "bytes": 5740,
+      "sha256": "36fdb138229ac9139b8c618a96779fd0e8a00cbb3e8f8eded97e2a4e892d0ac1"
+    },
+    "data_loader.py": {
+      "bytes": 866,
+      "sha256": "7defa06e87cfe074a78956d14a46092b89dd995d148f2b2232c2b9a213501d6e"
+    },
+    "data_processor.py": {
+      "bytes": 5709,
+      "sha256": "e3fc6288cb09a2494fed749d86096c5ec418e2c1c15af997e5685466684d9fbc"
+    },
+    "deep_learning.py": {
+      "bytes": 4481,
+      "sha256": "f5e46b48b5da9e8a64590336caef9d74fad177d5c5782a5d62f1b2cff8050ab4"
+    },
+    "evaluation.py": {
+      "bytes": 6239,
+      "sha256": "58b13fab2919b84d7523a01a89ce1f3303719975b7b49e1273d0e8576786ed8d"
+    },
+    "features.py": {
+      "bytes": 3518,
+      "sha256": "2a941ec1261c17eeb2fca5c521a084983105744093455ec36afb26644a39d6bc"
+    },
+    "main.py": {
+      "bytes": 436,
+      "sha256": "8e6df6a961e2de8a28d801c556b5c7a457edc811eaea5754487cd4b035a7207a"
+    },
+    "models.py": {
+      "bytes": 2166,
+      "sha256": "91c967ec8b96641976d41c0a78ca448c6b46af300015fdcb1f065bc74b0745c9"
+    },
+    "utils.py": {
+      "bytes": 580,
+      "sha256": "f2d39bda5130773f05e1a94b33da53dbba38ddc18b13fc2c3ae58160ea45e431"
+    }
+  },
+  "source_changed_during_run": false,
+  "imported_module_paths": {
+    "main": "/Users/coolguy/Desktop/JPX/codes/main.py",
+    "JPX_deep_learning_models": "/Users/coolguy/Desktop/JPX/codes/JPX_deep_learning_models.py",
+    "models": "/Users/coolguy/Desktop/JPX/codes/models.py",
+    "deep_learning": "/Users/coolguy/Desktop/JPX/codes/deep_learning.py",
+    "features": "/Users/coolguy/Desktop/JPX/codes/features.py",
+    "evaluation": "/Users/coolguy/Desktop/JPX/codes/evaluation.py",
+    "data_loader": "/Users/coolguy/Desktop/JPX/codes/data_loader.py",
+    "data_processor": "/Users/coolguy/Desktop/JPX/codes/data_processor.py",
+    "utils": "/Users/coolguy/Desktop/JPX/codes/utils.py"
+  },
+  "total": 12,
+  "passed": 12,
+  "failed_test_methods": 0,
+  "errored_test_methods": 0,
+  "unittest_failure_entries_including_subtests": 0,
+  "unittest_error_entries_including_subtests": 0,
+  "skipped": 0,
+  "passed_tests": [
+    "test_audit.PreprocessingAuditTests.test_common_process_call_matches_normalize_signature",
+    "test_audit.PreprocessingAuditTests.test_validation_values_cannot_change_training_features",
+    "test_audit.PreprocessingAuditTests.test_training_features_use_training_statistics",
+    "test_audit.PreprocessingAuditTests.test_validation_uses_same_training_transform",
+    "test_audit.PreprocessingAuditTests.test_returned_scaling_metadata_reproduces_constant_column",
+    "test_audit.PreprocessingAuditTests.test_nonconstant_scaling_metadata_reproduces_transform",
+    "test_audit.CheckpointAuditTests.test_model2_checkpoint_retains_one_scale_per_feature",
+    "test_audit.CheckpointAuditTests.test_model2_supplies_all_required_save_arguments",
+    "test_audit.CheckpointAuditTests.test_real_serializer_roundtrip_preserves_parameters_and_metadata",
+    "test_normalizer_reuse.NormalizerReuseTests.test_nonzero_scalar_std_returns_the_transformed_frame",
+    "test_normalizer_reuse.NormalizerReuseTests.test_fitted_featurewise_metadata_can_be_reused",
+    "test_regression_v1.ModelTests.test_04_configuration_uses_feature_count_not_row_count"
+  ],
+  "failure_tests": [],
+  "error_tests": [],
+  "details": [],
+  "scope": "Synthetic CPU checks; no market CSV, training job, MPS/CUDA run or investment-performance validation."
+}
