@@ -1,0 +1,12 @@
+{
+  "branch": "codex/jpx-deep-learning-review-20261015-v5",
+  "artifact_commit": "7e978afd1fe273b1f9cb94d7ab1710da65e56b5c",
+  "verified_files": 14,
+  "verified_bytes": 47283,
+  "verification": "Remote UTF-8 content fetched at immutable commit and exactly matched to local files; source/file sizes and SHA-256 recorded in manifests.",
+  "review_only": true,
+  "production_edits": [],
+  "test_edits": [],
+  "release_downloads": [],
+  "cleanup_paths": []
+}
