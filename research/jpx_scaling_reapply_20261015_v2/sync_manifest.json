@@ -1,0 +1,229 @@
+{
+  "files": [
+    {
+      "path": "research/jpx_scaling_reapply_20261015_v2/README.md",
+      "bytes": 2864,
+      "sha256": "18d876d59c2091c695f98a09d4661760fdeb1f7e92a24f4efad3a67b27b4e905"
+    },
+    {
+      "path": "research/jpx_scaling_reapply_20261015_v2/after/JPX_deep_learning_models.py",
+      "bytes": 5740,
+      "sha256": "36fdb138229ac9139b8c618a96779fd0e8a00cbb3e8f8eded97e2a4e892d0ac1"
+    },
+    {
+      "path": "research/jpx_scaling_reapply_20261015_v2/after/data_loader.py",
+      "bytes": 866,
+      "sha256": "7defa06e87cfe074a78956d14a46092b89dd995d148f2b2232c2b9a213501d6e"
+    },
+    {
+      "path": "research/jpx_scaling_reapply_20261015_v2/after/data_processor.py",
+      "bytes": 5709,
+      "sha256": "e3fc6288cb09a2494fed749d86096c5ec418e2c1c15af997e5685466684d9fbc"
+    },
+    {
+      "path": "research/jpx_scaling_reapply_20261015_v2/after/deep_learning.py",
+      "bytes": 6314,
+      "sha256": "831471d8b54500fa0fc8e33997807b754a1368fbc11ce2d037209ed3a49413bc"
+    },
+    {
+      "path": "research/jpx_scaling_reapply_20261015_v2/after/evaluation.py",
+      "bytes": 6239,
+      "sha256": "58b13fab2919b84d7523a01a89ce1f3303719975b7b49e1273d0e8576786ed8d"
+    },
+    {
+      "path": "research/jpx_scaling_reapply_20261015_v2/after/features.py",
+      "bytes": 3544,
+      "sha256": "e3b892c692bad61288e95a8fc1c26404f3883796b8a048745f45a81a5672e6fb"
+    },
+    {
+      "path": "research/jpx_scaling_reapply_20261015_v2/after/main.py",
+      "bytes": 436,
+      "sha256": "8e6df6a961e2de8a28d801c556b5c7a457edc811eaea5754487cd4b035a7207a"
+    },
+    {
+      "path": "research/jpx_scaling_reapply_20261015_v2/after/models.py",
+      "bytes": 2252,
+      "sha256": "c3bd2d3677b31bde21d96fb080a21612cdc9dad18f059b9bc611089936f51b77"
+    },
+    {
+      "path": "research/jpx_scaling_reapply_20261015_v2/after/utils.py",
+      "bytes": 580,
+      "sha256": "f2d39bda5130773f05e1a94b33da53dbba38ddc18b13fc2c3ae58160ea45e431"
+    },
+    {
+      "path": "research/jpx_scaling_reapply_20261015_v2/after_console.txt",
+      "bytes": 2213,
+      "sha256": "a6c6e4dd9be7b717713e614b7a674b0a7d734a66618d63bde24d0bf2db62b3b1"
+    },
+    {
+      "path": "research/jpx_scaling_reapply_20261015_v2/after_manifest.json",
+      "bytes": 1247,
+      "sha256": "efcd98f1500216157cdbc0529f835315f0c81926ec76c8bf528d99d7c05ad901"
+    },
+    {
+      "path": "research/jpx_scaling_reapply_20261015_v2/after_results/captured_stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/jpx_scaling_reapply_20261015_v2/after_results/test_results.json",
+      "bytes": 4993,
+      "sha256": "eaa0ee166dbe33b6324245ef8cf90006715678e13f27944b253310db5645a295"
+    },
+    {
+      "path": "research/jpx_scaling_reapply_20261015_v2/after_results/test_results.txt",
+      "bytes": 2136,
+      "sha256": "8b07f4927f4175eaa78f7c9bc3f7fe11307f7e8423883a2276b07917463fce1f"
+    },
+    {
+      "path": "research/jpx_scaling_reapply_20261015_v2/before/JPX_deep_learning_models.py",
+      "bytes": 5740,
+      "sha256": "36fdb138229ac9139b8c618a96779fd0e8a00cbb3e8f8eded97e2a4e892d0ac1"
+    },
+    {
+      "path": "research/jpx_scaling_reapply_20261015_v2/before/data_loader.py",
+      "bytes": 866,
+      "sha256": "7defa06e87cfe074a78956d14a46092b89dd995d148f2b2232c2b9a213501d6e"
+    },
+    {
+      "path": "research/jpx_scaling_reapply_20261015_v2/before/data_processor.py",
+      "bytes": 5709,
+      "sha256": "e3fc6288cb09a2494fed749d86096c5ec418e2c1c15af997e5685466684d9fbc"
+    },
+    {
+      "path": "research/jpx_scaling_reapply_20261015_v2/before/deep_learning.py",
+      "bytes": 6314,
+      "sha256": "831471d8b54500fa0fc8e33997807b754a1368fbc11ce2d037209ed3a49413bc"
+    },
+    {
+      "path": "research/jpx_scaling_reapply_20261015_v2/before/evaluation.py",
+      "bytes": 6239,
+      "sha256": "58b13fab2919b84d7523a01a89ce1f3303719975b7b49e1273d0e8576786ed8d"
+    },
+    {
+      "path": "research/jpx_scaling_reapply_20261015_v2/before/features.py",
+      "bytes": 3548,
+      "sha256": "643f865f22a6d393195f432fc99228b09ec6c7dc59c0bd6eb9107f4bdbdc52ef"
+    },
+    {
+      "path": "research/jpx_scaling_reapply_20261015_v2/before/main.py",
+      "bytes": 436,
+      "sha256": "8e6df6a961e2de8a28d801c556b5c7a457edc811eaea5754487cd4b035a7207a"
+    },
+    {
+      "path": "research/jpx_scaling_reapply_20261015_v2/before/models.py",
+      "bytes": 2252,
+      "sha256": "c3bd2d3677b31bde21d96fb080a21612cdc9dad18f059b9bc611089936f51b77"
+    },
+    {
+      "path": "research/jpx_scaling_reapply_20261015_v2/before/utils.py",
+      "bytes": 580,
+      "sha256": "f2d39bda5130773f05e1a94b33da53dbba38ddc18b13fc2c3ae58160ea45e431"
+    },
+    {
+      "path": "research/jpx_scaling_reapply_20261015_v2/before_console.txt",
+      "bytes": 12188,
+      "sha256": "fee7807580910ef51f7dee2b54072d17ab6108bc393e9bbee9cce00199c981ad"
+    },
+    {
+      "path": "research/jpx_scaling_reapply_20261015_v2/before_manifest.json",
+      "bytes": 1247,
+      "sha256": "570d1f34779e62a17042913b0e1a87db09cbf5cd841ad2b57449aaf21c87ee1e"
+    },
+    {
+      "path": "research/jpx_scaling_reapply_20261015_v2/before_results/captured_stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/jpx_scaling_reapply_20261015_v2/before_results/test_results.json",
+      "bytes": 14186,
+      "sha256": "d5b521b46d4088722f0fa0cd420b390769e28f945c01891f5376c0c5e327840b"
+    },
+    {
+      "path": "research/jpx_scaling_reapply_20261015_v2/before_results/test_results.txt",
+      "bytes": 12112,
+      "sha256": "99dac9463792364fbb9da3d8db097543c7fa4ea28c1d631ab6c372c4c2d3f655"
+    },
+    {
+      "path": "research/jpx_scaling_reapply_20261015_v2/changes.diff",
+      "bytes": 1064,
+      "sha256": "5e5196788dddd9044ad546236128f8ee79ed434d12a3ad5887d8b1811fe3a46b"
+    },
+    {
+      "path": "research/jpx_scaling_reapply_20261015_v2/focused_test_names.json",
+      "bytes": 1121,
+      "sha256": "be04eb3d3190949c507a0c52f841cfa3ba52c489aceb38098cda71a91a7fa5af"
+    },
+    {
+      "path": "research/jpx_scaling_reapply_20261015_v2/install.py",
+      "bytes": 1272,
+      "sha256": "ba7dfc8df41240957cd38ff4bf71b040f6631a4e632527a8b7b2670c6a703b99"
+    },
+    {
+      "path": "research/jpx_scaling_reapply_20261015_v2/installation.json",
+      "bytes": 1739,
+      "sha256": "85406f7b482eba66a25c02b5cf127ce778eab2dd358686e5979290ed22574b77"
+    },
+    {
+      "path": "research/jpx_scaling_reapply_20261015_v2/installed_console.txt",
+      "bytes": 2101,
+      "sha256": "88d440963d8a5969e627a51ff6ba02f94035262cd397ecab1278a9cb547dc54a"
+    },
+    {
+      "path": "research/jpx_scaling_reapply_20261015_v2/installed_results/captured_stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/jpx_scaling_reapply_20261015_v2/installed_results/test_results.json",
+      "bytes": 3873,
+      "sha256": "fbc4ea2e564ed149ea38d3c7d7f692e571e0b62e51f0e6b43da186dd0faee7b6"
+    },
+    {
+      "path": "research/jpx_scaling_reapply_20261015_v2/installed_results/test_results.txt",
+      "bytes": 2024,
+      "sha256": "fd7846669f276a6a88f804cea824df96e5d2c9cc900ef8454be558a5e8cbeb98"
+    },
+    {
+      "path": "research/jpx_scaling_reapply_20261015_v2/tests/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/jpx_scaling_reapply_20261015_v2/tests/run_tests.py",
+      "bytes": 5329,
+      "sha256": "37c2e73344b69440b45cb52dd028c4f181b0d1173d73f85f77c27bca549ed77e"
+    },
+    {
+      "path": "research/jpx_scaling_reapply_20261015_v2/tests/test_audit.py",
+      "bytes": 20451,
+      "sha256": "dc20912c8926fc791869df46b42494dd318c6095c6987d9c34f7f07c2c090e32"
+    },
+    {
+      "path": "research/jpx_scaling_reapply_20261015_v2/tests/test_normalizer_reuse.py",
+      "bytes": 1214,
+      "sha256": "ee863f2be873d8100e2c855094e911e0fe8ec9167b1237b6e71e8325d9a992fa"
+    },
+    {
+      "path": "research/jpx_scaling_reapply_20261015_v2/tests/test_regression_v1.py",
+      "bytes": 17035,
+      "sha256": "560b333f79466a161800917260887dfa87bc5c7bbbf28680ab5a960a9f1554ef"
+    },
+    {
+      "path": "research/jpx_scaling_reapply_20261015_v2/tests/test_regression_v2.py",
+      "bytes": 21242,
+      "sha256": "87d3078405a395b9c536e190643d7ef4e16f84694822ee7139ae99b16845c055"
+    },
+    {
+      "path": "research/jpx_scaling_reapply_20261015_v2/tests_manifest.json",
+      "bytes": 855,
+      "sha256": "7346d97f54c8c55d7aecf3831001ff04d431aa2a6061b06ac194e582a531997a"
+    },
+    {
+      "path": "research/jpx_scaling_reapply_20261015_v2/verification.json",
+      "bytes": 670,
+      "sha256": "b281b797314511f3baa9cca34206da56ae3ea54ddb6294f335f18cae701aa304"
+    }
+  ]
+}

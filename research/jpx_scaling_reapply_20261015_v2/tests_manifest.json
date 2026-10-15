@@ -1,0 +1,32 @@
+[
+  {
+    "path": "__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "run_tests.py",
+    "bytes": 5329,
+    "sha256": "37c2e73344b69440b45cb52dd028c4f181b0d1173d73f85f77c27bca549ed77e"
+  },
+  {
+    "path": "test_audit.py",
+    "bytes": 20451,
+    "sha256": "dc20912c8926fc791869df46b42494dd318c6095c6987d9c34f7f07c2c090e32"
+  },
+  {
+    "path": "test_normalizer_reuse.py",
+    "bytes": 1214,
+    "sha256": "ee863f2be873d8100e2c855094e911e0fe8ec9167b1237b6e71e8325d9a992fa"
+  },
+  {
+    "path": "test_regression_v1.py",
+    "bytes": 17035,
+    "sha256": "560b333f79466a161800917260887dfa87bc5c7bbbf28680ab5a960a9f1554ef"
+  },
+  {
+    "path": "test_regression_v2.py",
+    "bytes": 21242,
+    "sha256": "87d3078405a395b9c536e190643d7ef4e16f84694822ee7139ae99b16845c055"
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "installed_tests": {
+    "total": 12,
+    "passed": 12
+  },
+  "partial_metadata_cases_passed": 2,
+  "changed_production_files": [
+    "features.py"
+  ],
+  "changed_functions": [
+    "normalize_data"
+  ],
+  "other_functions_AST_identical": true,
+  "other_source_files_preserved": true,
+  "test_files_unchanged": true,
+  "real_data_used": false,
+  "full_training_run": false,
+  "UI_verification": "Initial Visual Studio Code AX snapshot had Close actions and no dirty marker on features.py/deep_learning.py tabs. Later screenshot failed because the Mac was locked. Unsaved buffer content was not extracted. All on-disk source files were backed up before the write."
+}

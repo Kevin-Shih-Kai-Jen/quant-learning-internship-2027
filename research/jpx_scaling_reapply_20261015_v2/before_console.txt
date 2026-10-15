@@ -1,0 +1,126 @@
+Python: /Library/Frameworks/Python.framework/Versions/3.12/bin/python3.12
+Testing source: /Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_scaling_reapply_20261015_v2/before
+Test methods: 12; passed: 5; failures: 0; errors: 7; source unchanged: True
+test_common_process_call_matches_normalize_signature (test_audit.PreprocessingAuditTests.test_common_process_call_matches_normalize_signature) ... ERROR
+test_validation_values_cannot_change_training_features (test_audit.PreprocessingAuditTests.test_validation_values_cannot_change_training_features) ... ERROR
+test_training_features_use_training_statistics (test_audit.PreprocessingAuditTests.test_training_features_use_training_statistics) ... ERROR
+test_validation_uses_same_training_transform (test_audit.PreprocessingAuditTests.test_validation_uses_same_training_transform) ... ERROR
+test_returned_scaling_metadata_reproduces_constant_column (test_audit.PreprocessingAuditTests.test_returned_scaling_metadata_reproduces_constant_column) ... ERROR
+test_nonconstant_scaling_metadata_reproduces_transform (test_audit.PreprocessingAuditTests.test_nonconstant_scaling_metadata_reproduces_transform) ... ERROR
+test_model2_checkpoint_retains_one_scale_per_feature (test_audit.CheckpointAuditTests.test_model2_checkpoint_retains_one_scale_per_feature) ... ok
+test_model2_supplies_all_required_save_arguments (test_audit.CheckpointAuditTests.test_model2_supplies_all_required_save_arguments) ... ok
+test_real_serializer_roundtrip_preserves_parameters_and_metadata (test_audit.CheckpointAuditTests.test_real_serializer_roundtrip_preserves_parameters_and_metadata) ... ok
+test_nonzero_scalar_std_returns_the_transformed_frame (test_normalizer_reuse.NormalizerReuseTests.test_nonzero_scalar_std_returns_the_transformed_frame) ... ok
+test_fitted_featurewise_metadata_can_be_reused (test_normalizer_reuse.NormalizerReuseTests.test_fitted_featurewise_metadata_can_be_reused) ... ERROR
+test_04_configuration_uses_feature_count_not_row_count (test_regression_v1.ModelTests.test_04_configuration_uses_feature_count_not_row_count) ... ok
+
+======================================================================
+ERROR: test_common_process_call_matches_normalize_signature (test_audit.PreprocessingAuditTests.test_common_process_call_matches_normalize_signature)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_scaling_reapply_20261015_v2/tests/test_audit.py", line 152, in test_common_process_call_matches_normalize_signature
+    preprocess(raw_frame(), isolate_normalizer_signature=False)
+  File "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_scaling_reapply_20261015_v2/tests/test_audit.py", line 78, in preprocess
+    return application.common_process(SPLIT, application.COL_NAMES)[:3]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_scaling_reapply_20261015_v2/before/JPX_deep_learning_models.py", line 40, in common_process
+    train_df, mean, std = features.normalize_data(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_scaling_reapply_20261015_v2/before/features.py", line 56, in normalize_data
+    raise ValueError("std, mean values all need to be offered")
+ValueError: std, mean values all need to be offered
+
+======================================================================
+ERROR: test_validation_values_cannot_change_training_features (test_audit.PreprocessingAuditTests.test_validation_values_cannot_change_training_features)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_scaling_reapply_20261015_v2/tests/test_audit.py", line 158, in test_validation_values_cannot_change_training_features
+    first, _, _ = preprocess(original)
+                  ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_scaling_reapply_20261015_v2/tests/test_audit.py", line 84, in preprocess
+    return application.common_process(SPLIT, application.COL_NAMES)[:3]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_scaling_reapply_20261015_v2/before/JPX_deep_learning_models.py", line 40, in common_process
+    train_df, mean, std = features.normalize_data(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_scaling_reapply_20261015_v2/before/features.py", line 56, in normalize_data
+    raise ValueError("std, mean values all need to be offered")
+ValueError: std, mean values all need to be offered
+
+======================================================================
+ERROR: test_training_features_use_training_statistics (test_audit.PreprocessingAuditTests.test_training_features_use_training_statistics)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_scaling_reapply_20261015_v2/tests/test_audit.py", line 164, in test_training_features_use_training_statistics
+    train, _, _ = preprocess(raw_frame())
+                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_scaling_reapply_20261015_v2/tests/test_audit.py", line 84, in preprocess
+    return application.common_process(SPLIT, application.COL_NAMES)[:3]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_scaling_reapply_20261015_v2/before/JPX_deep_learning_models.py", line 40, in common_process
+    train_df, mean, std = features.normalize_data(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_scaling_reapply_20261015_v2/before/features.py", line 56, in normalize_data
+    raise ValueError("std, mean values all need to be offered")
+ValueError: std, mean values all need to be offered
+
+======================================================================
+ERROR: test_validation_uses_same_training_transform (test_audit.PreprocessingAuditTests.test_validation_uses_same_training_transform)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_scaling_reapply_20261015_v2/tests/test_audit.py", line 168, in test_validation_uses_same_training_transform
+    _, val, _ = preprocess(raw_frame())
+                ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_scaling_reapply_20261015_v2/tests/test_audit.py", line 84, in preprocess
+    return application.common_process(SPLIT, application.COL_NAMES)[:3]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_scaling_reapply_20261015_v2/before/JPX_deep_learning_models.py", line 40, in common_process
+    train_df, mean, std = features.normalize_data(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_scaling_reapply_20261015_v2/before/features.py", line 56, in normalize_data
+    raise ValueError("std, mean values all need to be offered")
+ValueError: std, mean values all need to be offered
+
+======================================================================
+ERROR: test_returned_scaling_metadata_reproduces_constant_column (test_audit.PreprocessingAuditTests.test_returned_scaling_metadata_reproduces_constant_column)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_scaling_reapply_20261015_v2/tests/test_audit.py", line 174, in test_returned_scaling_metadata_reproduces_constant_column
+    normalized, mean, scale = normalize_for_audit(frame, FEATURES)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_scaling_reapply_20261015_v2/tests/test_audit.py", line 70, in normalize_for_audit
+    return function(frame, columns)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_scaling_reapply_20261015_v2/before/features.py", line 56, in normalize_data
+    raise ValueError("std, mean values all need to be offered")
+ValueError: std, mean values all need to be offered
+
+======================================================================
+ERROR: test_nonconstant_scaling_metadata_reproduces_transform (test_audit.PreprocessingAuditTests.test_nonconstant_scaling_metadata_reproduces_transform)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_scaling_reapply_20261015_v2/tests/test_audit.py", line 183, in test_nonconstant_scaling_metadata_reproduces_transform
+    normalized, mean, scale = normalize_for_audit(frame, cols)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_scaling_reapply_20261015_v2/tests/test_audit.py", line 70, in normalize_for_audit
+    return function(frame, columns)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_scaling_reapply_20261015_v2/before/features.py", line 56, in normalize_data
+    raise ValueError("std, mean values all need to be offered")
+ValueError: std, mean values all need to be offered
+
+======================================================================
+ERROR: test_fitted_featurewise_metadata_can_be_reused (test_normalizer_reuse.NormalizerReuseTests.test_fitted_featurewise_metadata_can_be_reused)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_scaling_reapply_20261015_v2/tests/test_normalizer_reuse.py", line 17, in test_fitted_featurewise_metadata_can_be_reused
+    transformed, means, stds = features.normalize_data(frame, FEATURES)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_scaling_reapply_20261015_v2/before/features.py", line 56, in normalize_data
+    raise ValueError("std, mean values all need to be offered")
+ValueError: std, mean values all need to be offered
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.846s
+
+FAILED (errors=7)

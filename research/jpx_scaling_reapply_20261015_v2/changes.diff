@@ -1,0 +1,32 @@
+--- before/features.py
++++ after/features.py
+@@ -44,16 +44,16 @@
+ def normalize_data(
+     df: pd.DataFrame | pd.DataFrame,
+     col_names: list[str],
+-    std: pd.Series | None = None,
+-    mean: pd.Series | None = None
++    std: np.ndarray | None = None,
++    mean: np.ndarray | None = None
+ ) -> tuple[pd.DataFrame, np.ndarray, np.ndarray]:
+     missing = [name for name in col_names if name not in df.columns]
+ 
+     if missing:
+         raise ValueError(f"Columns not in DataFrame: {missing}")
+     
+-    if (std is None) or (mean is None):
+-        raise ValueError("std, mean values all need to be offered")
++    if (std is None) != (mean is None):
++        raise ValueError("std and mean must be provided together")
+ 
+     normalized_df = df.copy()
+     
+@@ -62,7 +62,7 @@
+         
+         normalized_df[col_names] = scaler.fit_transform(df[col_names])
+         mean = scaler.mean_
+-        std = scaler.var_ ** 0.5
++        std = scaler.scale_
+     else:
+         # std, mean are offered
+         normalized_df[col_names] = (df[col_names] - mean) / std
