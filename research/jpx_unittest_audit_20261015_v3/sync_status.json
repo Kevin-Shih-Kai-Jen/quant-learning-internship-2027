@@ -1,0 +1,455 @@
+{
+  "schema_version": 1,
+  "status": "verified",
+  "repository": "Kevin-Shih-Kai-Jen/quant-learning-internship-2027",
+  "branch": "codex/jpx-unittest-audit-20261015-v3",
+  "artifact_commit": "98b2e18ea997cdbca12b7e665e0cbba7d87bfddf",
+  "prior_artifact_commit": "dee9551fb66ccef385bfba03a169e5b78d3fc946",
+  "remote_prefix": "research/jpx_unittest_audit_20261015_v3",
+  "latest_source_snapshot": "latest_revision_1124/source_snapshot",
+  "latest_run_at": "2026-10-15T11:24:35.196749+08:00",
+  "tests": {
+    "total": 104,
+    "passed": 81,
+    "failed_test_methods": 19,
+    "errored_test_methods": 4,
+    "issue_groups": 17
+  },
+  "verified_file_count": 85,
+  "verification_method": "Fetch every file at immutable artifact commit, compare exact UTF-8 contents to local files; equal bytes imply identical SHA-256. Per-file sizes and SHA-256 are recorded in sync_manifest_latest.json.",
+  "verified_files": [
+    {
+      "path": "research/jpx_unittest_audit_20261015_v3/JPX_debug_v3/README.md",
+      "match": true,
+      "blob_sha": "11c03a2fd215a3d963c392acbfcc2a94b569c7ef"
+    },
+    {
+      "path": "research/jpx_unittest_audit_20261015_v3/JPX_debug_v3/REPORT.md",
+      "match": true,
+      "blob_sha": "26bb9c647c868b601dbf5e3c90760a3a41a40dca"
+    },
+    {
+      "path": "research/jpx_unittest_audit_20261015_v3/JPX_debug_v3/__init__.py",
+      "match": true,
+      "blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "research/jpx_unittest_audit_20261015_v3/JPX_debug_v3/results/captured_stdout.txt",
+      "match": true,
+      "blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "research/jpx_unittest_audit_20261015_v3/JPX_debug_v3/results/test_results.json",
+      "match": true,
+      "blob_sha": "6459e10874883245b59f225680982b97176fd39e"
+    },
+    {
+      "path": "research/jpx_unittest_audit_20261015_v3/JPX_debug_v3/results/test_results.txt",
+      "match": true,
+      "blob_sha": "e8737cd5949fe7a2cd88e6deb77d497e9e2eb693"
+    },
+    {
+      "path": "research/jpx_unittest_audit_20261015_v3/JPX_debug_v3/run_tests.py",
+      "match": true,
+      "blob_sha": "5973091c8b9d95841d3fc427464b8e08ac62d2f7"
+    },
+    {
+      "path": "research/jpx_unittest_audit_20261015_v3/JPX_debug_v3/test_audit.py",
+      "match": true,
+      "blob_sha": "92b34239b95668d414e986d30b1768eb5df5bf55"
+    },
+    {
+      "path": "research/jpx_unittest_audit_20261015_v3/JPX_debug_v3/test_regression_v1.py",
+      "match": true,
+      "blob_sha": "45a2eddc5259c580d0fc14d43f08bed164a7c57c"
+    },
+    {
+      "path": "research/jpx_unittest_audit_20261015_v3/JPX_debug_v3/test_regression_v2.py",
+      "match": true,
+      "blob_sha": "aea252633ceac94e70609c64968a82af8d149e69"
+    },
+    {
+      "path": "research/jpx_unittest_audit_20261015_v3/README.md",
+      "match": true,
+      "blob_sha": "1fc18f4ff90847986345b229074144661975a24f"
+    },
+    {
+      "path": "research/jpx_unittest_audit_20261015_v3/baseline_console.txt",
+      "match": true,
+      "blob_sha": "3d935babb2a9fb9c6088eea9ee5f67423725e6ba"
+    },
+    {
+      "path": "research/jpx_unittest_audit_20261015_v3/baseline_results/test_results.json",
+      "match": true,
+      "blob_sha": "0362e97e008537ba18ab6da3474215cd075830e9"
+    },
+    {
+      "path": "research/jpx_unittest_audit_20261015_v3/baseline_results/test_results.txt",
+      "match": true,
+      "blob_sha": "3d935babb2a9fb9c6088eea9ee5f67423725e6ba"
+    },
+    {
+      "path": "research/jpx_unittest_audit_20261015_v3/before_concurrent_edit/REPORT.md",
+      "match": true,
+      "blob_sha": "155b25850f2852dd43b2d5b756becc53bbcf1de8"
+    },
+    {
+      "path": "research/jpx_unittest_audit_20261015_v3/before_concurrent_edit/issue_catalog.json",
+      "match": true,
+      "blob_sha": "813a61bec483a7c501809098c390f5ceec63c0b9"
+    },
+    {
+      "path": "research/jpx_unittest_audit_20261015_v3/before_concurrent_edit/results/captured_stdout.txt",
+      "match": true,
+      "blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "research/jpx_unittest_audit_20261015_v3/before_concurrent_edit/results/test_results.json",
+      "match": true,
+      "blob_sha": "d218f79794ea276a4ee6130ad7b3abc450676c1e"
+    },
+    {
+      "path": "research/jpx_unittest_audit_20261015_v3/before_concurrent_edit/results/test_results.txt",
+      "match": true,
+      "blob_sha": "0e7d96b7c1ec3efd9a966e40db5b9cabe7218ff3"
+    },
+    {
+      "path": "research/jpx_unittest_audit_20261015_v3/before_concurrent_edit/run_console.txt",
+      "match": true,
+      "blob_sha": "d47f799ce1fb2cad83591d138121e3c4cf921758"
+    },
+    {
+      "path": "research/jpx_unittest_audit_20261015_v3/before_concurrent_edit/source_manifest.json",
+      "match": true,
+      "blob_sha": "ce8e6c45144bc8d0aee74cbf0df0de321fee0fb8"
+    },
+    {
+      "path": "research/jpx_unittest_audit_20261015_v3/before_concurrent_edit/source_snapshot/JPX_deep_learning_models.py",
+      "match": true,
+      "blob_sha": "e9b78a4675db298f2069797a06247f91663bf318"
+    },
+    {
+      "path": "research/jpx_unittest_audit_20261015_v3/before_concurrent_edit/source_snapshot/data_loader.py",
+      "match": true,
+      "blob_sha": "6508671126eb7c328be64c4dc6beabd6652f2f3b"
+    },
+    {
+      "path": "research/jpx_unittest_audit_20261015_v3/before_concurrent_edit/source_snapshot/data_processor.py",
+      "match": true,
+      "blob_sha": "3cb32794c8ec33c09c6caa96d1b32cae32567a28"
+    },
+    {
+      "path": "research/jpx_unittest_audit_20261015_v3/before_concurrent_edit/source_snapshot/deep_learning.py",
+      "match": true,
+      "blob_sha": "db4db4af740cc5cfbf1af4e2830d20784e914afd"
+    },
+    {
+      "path": "research/jpx_unittest_audit_20261015_v3/before_concurrent_edit/source_snapshot/evaluation.py",
+      "match": true,
+      "blob_sha": "bb3f9f4e31422d2df76f79e9fb732a2d1b8738be"
+    },
+    {
+      "path": "research/jpx_unittest_audit_20261015_v3/before_concurrent_edit/source_snapshot/features.py",
+      "match": true,
+      "blob_sha": "a8a5b9e05926e6cf3c5390731f709dca0c1f55c9"
+    },
+    {
+      "path": "research/jpx_unittest_audit_20261015_v3/before_concurrent_edit/source_snapshot/main.py",
+      "match": true,
+      "blob_sha": "b4808014dacde74f2bf3fe108a7a79ea12e83951"
+    },
+    {
+      "path": "research/jpx_unittest_audit_20261015_v3/before_concurrent_edit/source_snapshot/models.py",
+      "match": true,
+      "blob_sha": "cdbce9b6c7b3482daae843d561cbb65e3a5123e5"
+    },
+    {
+      "path": "research/jpx_unittest_audit_20261015_v3/before_concurrent_edit/source_snapshot/utils.py",
+      "match": true,
+      "blob_sha": "e19ae9826054f2acc9a640b0e067673d27eef033"
+    },
+    {
+      "path": "research/jpx_unittest_audit_20261015_v3/build_report.py",
+      "match": true,
+      "blob_sha": "aeeca59259aa326194b35552b2b3035000d0ce6e"
+    },
+    {
+      "path": "research/jpx_unittest_audit_20261015_v3/development_results_first_run/captured_stdout.txt",
+      "match": true,
+      "blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "research/jpx_unittest_audit_20261015_v3/development_results_first_run/test_results.json",
+      "match": true,
+      "blob_sha": "23fb621f66fdb043f2df5869a401561dc544f2f3"
+    },
+    {
+      "path": "research/jpx_unittest_audit_20261015_v3/development_results_first_run/test_results.txt",
+      "match": true,
+      "blob_sha": "31c2f3b29deb39f7bd9d3bcbeaad8dd044b21632"
+    },
+    {
+      "path": "research/jpx_unittest_audit_20261015_v3/install_v3.py",
+      "match": true,
+      "blob_sha": "7f8e2aba8e80cc312db9e0a4c3208d6b7f2efd61"
+    },
+    {
+      "path": "research/jpx_unittest_audit_20261015_v3/installation_attempts.json",
+      "match": true,
+      "blob_sha": "3bc3d80d78b808a160829429c5a710fa7a514134"
+    },
+    {
+      "path": "research/jpx_unittest_audit_20261015_v3/installed_console.txt",
+      "match": true,
+      "blob_sha": "ffd534830e4323fe9aeb3141be82bcb25ce3f87c"
+    },
+    {
+      "path": "research/jpx_unittest_audit_20261015_v3/installed_results/captured_stdout.txt",
+      "match": true,
+      "blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "research/jpx_unittest_audit_20261015_v3/installed_results/test_results.json",
+      "match": true,
+      "blob_sha": "e420efa556519c352eb9f0ae4f9cdbb86a086506"
+    },
+    {
+      "path": "research/jpx_unittest_audit_20261015_v3/installed_results/test_results.txt",
+      "match": true,
+      "blob_sha": "5310c9fb0cab13e767c895aeb544c052c00bb217"
+    },
+    {
+      "path": "research/jpx_unittest_audit_20261015_v3/installed_verification.json",
+      "match": true,
+      "blob_sha": "ea4b61456d578090eaa9dac4f0bcc20e1fec4349"
+    },
+    {
+      "path": "research/jpx_unittest_audit_20261015_v3/issue_catalog.json",
+      "match": true,
+      "blob_sha": "9f66a6018a2927fb75fb061072cafa58f704793a"
+    },
+    {
+      "path": "research/jpx_unittest_audit_20261015_v3/refresh_delivered_docs.py",
+      "match": true,
+      "blob_sha": "b1a8d8ffe04f105e5e5d1822e5245af2f89a1244"
+    },
+    {
+      "path": "research/jpx_unittest_audit_20261015_v3/results/captured_stdout.txt",
+      "match": true,
+      "blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "research/jpx_unittest_audit_20261015_v3/results/test_results.json",
+      "match": true,
+      "blob_sha": "6459e10874883245b59f225680982b97176fd39e"
+    },
+    {
+      "path": "research/jpx_unittest_audit_20261015_v3/results/test_results.txt",
+      "match": true,
+      "blob_sha": "e8737cd5949fe7a2cd88e6deb77d497e9e2eb693"
+    },
+    {
+      "path": "research/jpx_unittest_audit_20261015_v3/run_console.txt",
+      "match": true,
+      "blob_sha": "bdac2dacc1e3281439c4c9938aa3c70fac590e8b"
+    },
+    {
+      "path": "research/jpx_unittest_audit_20261015_v3/source_manifest.json",
+      "match": true,
+      "blob_sha": "47d6eb8091d1233efdf6a6639d35cce8e1a7eb06"
+    },
+    {
+      "path": "research/jpx_unittest_audit_20261015_v3/source_snapshot/JPX_deep_learning_models.py",
+      "match": true,
+      "blob_sha": "e9b78a4675db298f2069797a06247f91663bf318"
+    },
+    {
+      "path": "research/jpx_unittest_audit_20261015_v3/source_snapshot/data_loader.py",
+      "match": true,
+      "blob_sha": "6508671126eb7c328be64c4dc6beabd6652f2f3b"
+    },
+    {
+      "path": "research/jpx_unittest_audit_20261015_v3/source_snapshot/data_processor.py",
+      "match": true,
+      "blob_sha": "3cb32794c8ec33c09c6caa96d1b32cae32567a28"
+    },
+    {
+      "path": "research/jpx_unittest_audit_20261015_v3/source_snapshot/deep_learning.py",
+      "match": true,
+      "blob_sha": "db4db4af740cc5cfbf1af4e2830d20784e914afd"
+    },
+    {
+      "path": "research/jpx_unittest_audit_20261015_v3/source_snapshot/evaluation.py",
+      "match": true,
+      "blob_sha": "bb3f9f4e31422d2df76f79e9fb732a2d1b8738be"
+    },
+    {
+      "path": "research/jpx_unittest_audit_20261015_v3/source_snapshot/features.py",
+      "match": true,
+      "blob_sha": "917aef97089c8034dc6cfb625ee3affa0d4d239c"
+    },
+    {
+      "path": "research/jpx_unittest_audit_20261015_v3/source_snapshot/main.py",
+      "match": true,
+      "blob_sha": "b4808014dacde74f2bf3fe108a7a79ea12e83951"
+    },
+    {
+      "path": "research/jpx_unittest_audit_20261015_v3/source_snapshot/models.py",
+      "match": true,
+      "blob_sha": "cdbce9b6c7b3482daae843d561cbb65e3a5123e5"
+    },
+    {
+      "path": "research/jpx_unittest_audit_20261015_v3/source_snapshot/utils.py",
+      "match": true,
+      "blob_sha": "e19ae9826054f2acc9a640b0e067673d27eef033"
+    },
+    {
+      "path": "research/jpx_unittest_audit_20261015_v3/sync_manifest.json",
+      "match": true,
+      "blob_sha": "68b9fed5e37221701c7f84bfa1b3780f5a19ef59"
+    },
+    {
+      "path": "research/jpx_unittest_audit_20261015_v3/JPX_debug_v3/results_1124/captured_stdout.txt",
+      "match": true,
+      "blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "research/jpx_unittest_audit_20261015_v3/JPX_debug_v3/results_1124/test_results.json",
+      "match": true,
+      "blob_sha": "1c1005dc9a1d0ac4e9535b1832059d63ba258114"
+    },
+    {
+      "path": "research/jpx_unittest_audit_20261015_v3/JPX_debug_v3/results_1124/test_results.txt",
+      "match": true,
+      "blob_sha": "21370a0bac5d0da02ef999574b2d6b7dfd653615"
+    },
+    {
+      "path": "research/jpx_unittest_audit_20261015_v3/JPX_debug_v3/test_normalizer_reuse.py",
+      "match": true,
+      "blob_sha": "1c90ef74a5f133addb0c9c992e3366aa67a413bc"
+    },
+    {
+      "path": "research/jpx_unittest_audit_20261015_v3/build_latest_report.py",
+      "match": true,
+      "blob_sha": "33b4b2c57492ca1407902cff4cc3270069d935f1"
+    },
+    {
+      "path": "research/jpx_unittest_audit_20261015_v3/install_latest_revision.py",
+      "match": true,
+      "blob_sha": "01f7ad99af8d1597fd335141b36c1547c8d4243f"
+    },
+    {
+      "path": "research/jpx_unittest_audit_20261015_v3/latest_revision_1124/REPORT.md",
+      "match": true,
+      "blob_sha": "26bb9c647c868b601dbf5e3c90760a3a41a40dca"
+    },
+    {
+      "path": "research/jpx_unittest_audit_20261015_v3/latest_revision_1124/console.txt",
+      "match": true,
+      "blob_sha": "7622e04685e36b99ca95a4d14e093237649b1d0d"
+    },
+    {
+      "path": "research/jpx_unittest_audit_20261015_v3/latest_revision_1124/installed_console.txt",
+      "match": true,
+      "blob_sha": "70748d2854cae71447cb7c12220ccaf5897c61f1"
+    },
+    {
+      "path": "research/jpx_unittest_audit_20261015_v3/latest_revision_1124/installed_results/captured_stdout.txt",
+      "match": true,
+      "blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "research/jpx_unittest_audit_20261015_v3/latest_revision_1124/installed_results/test_results.json",
+      "match": true,
+      "blob_sha": "aecdc6a3498c9a27323c9b651b970c8e4fe2696b"
+    },
+    {
+      "path": "research/jpx_unittest_audit_20261015_v3/latest_revision_1124/installed_results/test_results.txt",
+      "match": true,
+      "blob_sha": "e4e80b976dde23d00c13615763c58a1b0af98ffc"
+    },
+    {
+      "path": "research/jpx_unittest_audit_20261015_v3/latest_revision_1124/issue_catalog.json",
+      "match": true,
+      "blob_sha": "a0e112887e5a0ea4fcb5bff7e0a323e0b0da1748"
+    },
+    {
+      "path": "research/jpx_unittest_audit_20261015_v3/latest_revision_1124/results/captured_stdout.txt",
+      "match": true,
+      "blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "research/jpx_unittest_audit_20261015_v3/latest_revision_1124/results/test_results.json",
+      "match": true,
+      "blob_sha": "1c1005dc9a1d0ac4e9535b1832059d63ba258114"
+    },
+    {
+      "path": "research/jpx_unittest_audit_20261015_v3/latest_revision_1124/results/test_results.txt",
+      "match": true,
+      "blob_sha": "21370a0bac5d0da02ef999574b2d6b7dfd653615"
+    },
+    {
+      "path": "research/jpx_unittest_audit_20261015_v3/latest_revision_1124/source_manifest.json",
+      "match": true,
+      "blob_sha": "97a607e5ac8cbfa442295e6e6cae01d9e33f1990"
+    },
+    {
+      "path": "research/jpx_unittest_audit_20261015_v3/latest_revision_1124/source_snapshot/JPX_deep_learning_models.py",
+      "match": true,
+      "blob_sha": "e9b78a4675db298f2069797a06247f91663bf318"
+    },
+    {
+      "path": "research/jpx_unittest_audit_20261015_v3/latest_revision_1124/source_snapshot/data_loader.py",
+      "match": true,
+      "blob_sha": "6508671126eb7c328be64c4dc6beabd6652f2f3b"
+    },
+    {
+      "path": "research/jpx_unittest_audit_20261015_v3/latest_revision_1124/source_snapshot/data_processor.py",
+      "match": true,
+      "blob_sha": "3cb32794c8ec33c09c6caa96d1b32cae32567a28"
+    },
+    {
+      "path": "research/jpx_unittest_audit_20261015_v3/latest_revision_1124/source_snapshot/deep_learning.py",
+      "match": true,
+      "blob_sha": "db4db4af740cc5cfbf1af4e2830d20784e914afd"
+    },
+    {
+      "path": "research/jpx_unittest_audit_20261015_v3/latest_revision_1124/source_snapshot/evaluation.py",
+      "match": true,
+      "blob_sha": "bb3f9f4e31422d2df76f79e9fb732a2d1b8738be"
+    },
+    {
+      "path": "research/jpx_unittest_audit_20261015_v3/latest_revision_1124/source_snapshot/features.py",
+      "match": true,
+      "blob_sha": "eb20fa0b7adb213b56df47921d4eacff45edd545"
+    },
+    {
+      "path": "research/jpx_unittest_audit_20261015_v3/latest_revision_1124/source_snapshot/main.py",
+      "match": true,
+      "blob_sha": "b4808014dacde74f2bf3fe108a7a79ea12e83951"
+    },
+    {
+      "path": "research/jpx_unittest_audit_20261015_v3/latest_revision_1124/source_snapshot/models.py",
+      "match": true,
+      "blob_sha": "cdbce9b6c7b3482daae843d561cbb65e3a5123e5"
+    },
+    {
+      "path": "research/jpx_unittest_audit_20261015_v3/latest_revision_1124/source_snapshot/utils.py",
+      "match": true,
+      "blob_sha": "e19ae9826054f2acc9a640b0e067673d27eef033"
+    },
+    {
+      "path": "research/jpx_unittest_audit_20261015_v3/sync_manifest_latest.json",
+      "match": true,
+      "blob_sha": "ca2f80735a3d4f95b8eb37f2a45a11ba1e44198d"
+    }
+  ],
+  "source_changed_by_assistant": false,
+  "concurrent_user_edits": "features.py changed during audit; all reports distinguish snapshots. Final report is fixed to 11:24, and installed runner tests current codes by default.",
+  "release_downloads": [],
+  "release_uploads": [],
+  "cleanup_paths": [],
+  "cleanup_bytes": 0,
+  "retained": "Lightweight tests, source snapshots, reports, old failure records and original Desktop code. Legacy test reference copies are outside new-result sync scope.",
+  "publication_note": "Initial large tree request hit automatic review timeout; smaller batches succeeded. One transient HTTP 500 was retried successfully."
+}
