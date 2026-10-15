@@ -1,0 +1,69 @@
+{
+  "files": [
+    {
+      "path": "research/jpx_deep_learning_review_20261015_v5/probe.py",
+      "bytes": 5935,
+      "sha256": "1fd79041f8b8c6ba7287eed5d659437d5f7ae6d6fb1809287c13f949fc53e265"
+    },
+    {
+      "path": "research/jpx_deep_learning_review_20261015_v5/probe_results.json",
+      "bytes": 1562,
+      "sha256": "92b49002e4b65305c3a75807083d0a6260c83b5425b1d338e07b46e7c6229074"
+    },
+    {
+      "path": "research/jpx_deep_learning_review_20261015_v5/review_findings.json",
+      "bytes": 4049,
+      "sha256": "5178188c7aa0164bbdfe249d1f60f554447b31b4268e12cf6a7b9818fadec696"
+    },
+    {
+      "path": "research/jpx_deep_learning_review_20261015_v5/source_manifest.json",
+      "bytes": 1247,
+      "sha256": "dd4a606f00d04eb52aebe959bc41c686cf0012e623be96a03896b76998044549"
+    },
+    {
+      "path": "research/jpx_deep_learning_review_20261015_v5/source_snapshot/JPX_deep_learning_models.py",
+      "bytes": 5737,
+      "sha256": "7f42c9f23e26362bc1853000aaad7fc1d4fb8cb7f84cbd4bcc5803705fefa492"
+    },
+    {
+      "path": "research/jpx_deep_learning_review_20261015_v5/source_snapshot/data_loader.py",
+      "bytes": 866,
+      "sha256": "7defa06e87cfe074a78956d14a46092b89dd995d148f2b2232c2b9a213501d6e"
+    },
+    {
+      "path": "research/jpx_deep_learning_review_20261015_v5/source_snapshot/data_processor.py",
+      "bytes": 5709,
+      "sha256": "e3fc6288cb09a2494fed749d86096c5ec418e2c1c15af997e5685466684d9fbc"
+    },
+    {
+      "path": "research/jpx_deep_learning_review_20261015_v5/source_snapshot/deep_learning.py",
+      "bytes": 6321,
+      "sha256": "5b610fbb47d5459a89ed0b41c9e0ebf3b2677723e809e5fc59792129a4763699"
+    },
+    {
+      "path": "research/jpx_deep_learning_review_20261015_v5/source_snapshot/evaluation.py",
+      "bytes": 6343,
+      "sha256": "1748f707c01d795e6ca4e1537629397e40b45d1e207a483c0a8dfd4178f90523"
+    },
+    {
+      "path": "research/jpx_deep_learning_review_20261015_v5/source_snapshot/features.py",
+      "bytes": 3544,
+      "sha256": "e3b892c692bad61288e95a8fc1c26404f3883796b8a048745f45a81a5672e6fb"
+    },
+    {
+      "path": "research/jpx_deep_learning_review_20261015_v5/source_snapshot/main.py",
+      "bytes": 436,
+      "sha256": "8e6df6a961e2de8a28d801c556b5c7a457edc811eaea5754487cd4b035a7207a"
+    },
+    {
+      "path": "research/jpx_deep_learning_review_20261015_v5/source_snapshot/models.py",
+      "bytes": 2252,
+      "sha256": "c3bd2d3677b31bde21d96fb080a21612cdc9dad18f059b9bc611089936f51b77"
+    },
+    {
+      "path": "research/jpx_deep_learning_review_20261015_v5/source_snapshot/utils.py",
+      "bytes": 580,
+      "sha256": "f2d39bda5130773f05e1a94b33da53dbba38ddc18b13fc2c3ae58160ea45e431"
+    }
+  ]
+}

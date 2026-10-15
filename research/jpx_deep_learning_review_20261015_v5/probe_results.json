@@ -1,0 +1,66 @@
+{
+  "all_source_syntax_parses": true,
+  "deep_learning_import": "passed",
+  "evaluation_import_error": {
+    "type": "TypeError",
+    "message": "'builtin_function_or_method' object is not subscriptable"
+  },
+  "application_import_error": {
+    "type": "TypeError",
+    "message": "'builtin_function_or_method' object is not subscriptable"
+  },
+  "twenty_epochs": {
+    "optimizer_steps": 40,
+    "loss_is_finite": true
+  },
+  "zero_epochs_error": {
+    "type": "ValueError",
+    "message": "Missing data (sample) for training"
+  },
+  "zero_epochs_preserves_parameters": true,
+  "evaluation_control": {
+    "loss": 2.5,
+    "predictions": [
+      1.0,
+      2.0,
+      3.0,
+      4.0
+    ],
+    "eval_mode": true
+  },
+  "save_load_roundtrip": {
+    "passed": true,
+    "serialization": "real torch serializer, BytesIO only",
+    "model_path_is_required": true
+  },
+  "duplicate_common_process_error": {
+    "type": "NameError",
+    "message": "name 'FEAUTRES' is not defined"
+  },
+  "unreachable_after_first_return": {
+    "return_line": 166,
+    "unreachable_statement_lines": [
+      168,
+      172,
+      175,
+      176,
+      177,
+      180
+    ]
+  },
+  "tensor_return_annotation_is_factory_not_class": true,
+  "evaluation_result_key_mismatch": {
+    "returned": [
+      "sharpe",
+      "rank_IC",
+      "Earnings"
+    ],
+    "requested": [
+      "earnings"
+    ],
+    "missing": [
+      "earnings"
+    ]
+  },
+  "scope": "Review only. No production or existing test edits. Synthetic CPU controls and an in-memory checkpoint; no real CSV or full training."
+}

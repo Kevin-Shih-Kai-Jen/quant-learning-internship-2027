@@ -1,0 +1,72 @@
+{
+  "user_scope": "Review the latest deep_learning.py and its callers. No requested implementation edits.",
+  "user_clarification": {
+    "main.py:17": "Empty model path is an intentional unfinished placeholder because the user does not yet know the eventual checkpoint path. Classify as unfinished, not an accidental implementation defect."
+  },
+  "confirmed_fixed_since_prior_review": [
+    {
+      "location": "deep_learning.py:57",
+      "description": "range(epochs) is present; 20 epochs with two batches produced 40 optimizer steps."
+    },
+    {
+      "location": "deep_learning.py:213",
+      "description": "model_path is a required annotated argument, not a type object used as a default."
+    }
+  ],
+  "findings": [
+    {
+      "id": "DL01",
+      "priority": 2,
+      "location": "deep_learning.py:151",
+      "end_line": 155,
+      "description": "The duplicate common_process uses FEAUTRES, which is not defined in deep_learning.py. Calling this copy with synthetic data raises NameError.",
+      "recommendation": "Keep the active common_process in JPX_deep_learning_models.py and remove the unused duplicate from deep_learning.py. Current model_1/model_2 call the application-local copy."
+    },
+    {
+      "id": "DL02",
+      "priority": 3,
+      "location": "deep_learning.py:168",
+      "end_line": 180,
+      "description": "Statements after the unconditional return at line 166 are unreachable. This is leftover code in the duplicate common_process.",
+      "recommendation": "Removing the duplicate function also removes this unreachable tail."
+    },
+    {
+      "id": "DL03",
+      "priority": 3,
+      "location": "deep_learning.py:17",
+      "description": "The return annotation is torch.tensor, a factory function, instead of the tensor class. It does not prevent the observed runtime import.",
+      "recommendation": "Use -> torch.Tensor."
+    },
+    {
+      "id": "CALL01",
+      "priority": 1,
+      "location": "evaluation.py:86",
+      "description": "np.array[float] attempts to subscript a function while annotations are evaluated in the current Python 3.12 runtime. Importing evaluation and JPX_deep_learning_models raises TypeError before training.",
+      "recommendation": "Use -> np.ndarray, or a valid NumPy typing annotation."
+    },
+    {
+      "id": "CALL02",
+      "priority": 1,
+      "location": "JPX_deep_learning_models.py:140",
+      "related_location": "evaluation.py:171",
+      "description": "The caller requests eval_results[\"earnings\"] but overall_performance returns \"Earnings\". After the import error is corrected this access will raise KeyError.",
+      "recommendation": "Use the same case for the dictionary key at both sites."
+    }
+  ],
+  "additional_annotation_cleanup": {
+    "location": "evaluation.py:139",
+    "description": "dict[str: float] uses a slice instead of two generic type arguments; use dict[str, float]. This is separate from the confirmed import blocker at line 86."
+  },
+  "controls": "Direct synthetic checks passed for training 20 epochs, zero-epoch parameter preservation, evaluation prediction order and sample-weighted mean, and save/load through a real in-memory torch checkpoint.",
+  "test_suite_note": "The existing full-suite tests still have two epoch= calls. They need a later interface update; no full-suite result is claimed for this review because the current evaluation import is blocked.",
+  "checkpoint_path_explanation": "save_model saves Path(\"checkpoints\") / model_name relative to the process working directory, prints its resolved absolute path, and returns the Path. If the working directory is /Users/coolguy/Desktop/JPX and model_name is CNN_LSTM, the resulting path is /Users/coolguy/Desktop/JPX/checkpoints/CNN_LSTM.",
+  "checkpoint_locations_checked": {
+    "/Users/coolguy/Desktop/JPX/checkpoints/CNN_LSTM": false,
+    "/Users/coolguy/Desktop/JPX/codes/checkpoints/CNN_LSTM": false
+  },
+  "source_changed_during_review": false,
+  "production_edits": [],
+  "test_edits": [],
+  "real_dataset_used": false,
+  "cleanup_paths": []
+}
