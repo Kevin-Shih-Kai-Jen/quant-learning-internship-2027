@@ -1,0 +1,15 @@
+{
+  "branch": "codex/jpx-scaling-reapply-20261015-v2",
+  "artifact_commit": "a5dfbdf7b6fc707ce06fe853c9a8da26b10471c0",
+  "verified_files": 46,
+  "verified_bytes": 205464,
+  "verification": "Every remote UTF-8 file fetched at immutable artifact commit and compared exactly to local content; local bytes and SHA-256 recorded in sync_manifest.json.",
+  "installed_focused_tests": {
+    "total": 12,
+    "passed": 12
+  },
+  "release_downloads": [],
+  "cleanup_paths": [],
+  "cleanup_bytes": 0,
+  "ui_verification": "Mac locked; editor refresh unverified."
+}
