@@ -1,0 +1,208 @@
+{
+  "status": "verified",
+  "repository": "Kevin-Shih-Kai-Jen/quant-learning-internship-2027",
+  "branch": "codex/jpx-train-only-scaling-20261015",
+  "artifact_commit": "b11efe53bab9f2e326ede7f4df0a8f83f74f8527",
+  "base_commit": "d9d157a30e03ddd06b9dfc17fdac4a18fc25c587",
+  "remote_prefix": "research/jpx_train_only_scaling_20261015_v1",
+  "verified_file_count": 35,
+  "verified_files": [
+    {
+      "path": "research/jpx_train_only_scaling_20261015_v1/README.md",
+      "match": true,
+      "blob_sha": "d08bd82f14058fbb10ee743aff3ca8a6e73c9e17"
+    },
+    {
+      "path": "research/jpx_train_only_scaling_20261015_v1/after/JPX_deep_learning_models.py",
+      "match": true,
+      "blob_sha": "7c828d8016bcf7fcb49cb1eceb2e9f643eff4dc9"
+    },
+    {
+      "path": "research/jpx_train_only_scaling_20261015_v1/after/data_loader.py",
+      "match": true,
+      "blob_sha": "6508671126eb7c328be64c4dc6beabd6652f2f3b"
+    },
+    {
+      "path": "research/jpx_train_only_scaling_20261015_v1/after/data_processor.py",
+      "match": true,
+      "blob_sha": "3cb32794c8ec33c09c6caa96d1b32cae32567a28"
+    },
+    {
+      "path": "research/jpx_train_only_scaling_20261015_v1/after/deep_learning.py",
+      "match": true,
+      "blob_sha": "db4db4af740cc5cfbf1af4e2830d20784e914afd"
+    },
+    {
+      "path": "research/jpx_train_only_scaling_20261015_v1/after/evaluation.py",
+      "match": true,
+      "blob_sha": "bb3f9f4e31422d2df76f79e9fb732a2d1b8738be"
+    },
+    {
+      "path": "research/jpx_train_only_scaling_20261015_v1/after/features.py",
+      "match": true,
+      "blob_sha": "20701b157854fe091bea1a7500dad9330d85862a"
+    },
+    {
+      "path": "research/jpx_train_only_scaling_20261015_v1/after/main.py",
+      "match": true,
+      "blob_sha": "b4808014dacde74f2bf3fe108a7a79ea12e83951"
+    },
+    {
+      "path": "research/jpx_train_only_scaling_20261015_v1/after/models.py",
+      "match": true,
+      "blob_sha": "cdbce9b6c7b3482daae843d561cbb65e3a5123e5"
+    },
+    {
+      "path": "research/jpx_train_only_scaling_20261015_v1/after/utils.py",
+      "match": true,
+      "blob_sha": "e19ae9826054f2acc9a640b0e067673d27eef033"
+    },
+    {
+      "path": "research/jpx_train_only_scaling_20261015_v1/before/JPX_deep_learning_models.py",
+      "match": true,
+      "blob_sha": "e9b78a4675db298f2069797a06247f91663bf318"
+    },
+    {
+      "path": "research/jpx_train_only_scaling_20261015_v1/before/features.py",
+      "match": true,
+      "blob_sha": "14a7be3e1c799a4656e0ceee8489cf46148ddaa8"
+    },
+    {
+      "path": "research/jpx_train_only_scaling_20261015_v1/changes.diff",
+      "match": true,
+      "blob_sha": "db23f8d406b2a180cc1534d4e47df17902a8a9c0"
+    },
+    {
+      "path": "research/jpx_train_only_scaling_20261015_v1/install.py",
+      "match": true,
+      "blob_sha": "2e345c08b8ed726d3ee057e2d8630ce1b069df29"
+    },
+    {
+      "path": "research/jpx_train_only_scaling_20261015_v1/installation.json",
+      "match": true,
+      "blob_sha": "0a42eb74be5d59a7d725c4e75a05e90837da95ae"
+    },
+    {
+      "path": "research/jpx_train_only_scaling_20261015_v1/installed_console.txt",
+      "match": true,
+      "blob_sha": "f3a53af38c5a1e84eab0d980e0390700b3f28670"
+    },
+    {
+      "path": "research/jpx_train_only_scaling_20261015_v1/installed_results/captured_stdout.txt",
+      "match": true,
+      "blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "research/jpx_train_only_scaling_20261015_v1/installed_results/test_results.json",
+      "match": true,
+      "blob_sha": "30d4eb8a3712d5c452250433497645b9def2b57b"
+    },
+    {
+      "path": "research/jpx_train_only_scaling_20261015_v1/installed_results/test_results.txt",
+      "match": true,
+      "blob_sha": "0662f7d65c3edef48ebb711531b6570f157586f8"
+    },
+    {
+      "path": "research/jpx_train_only_scaling_20261015_v1/source_after.json",
+      "match": true,
+      "blob_sha": "3a71f06b69802d89e6eb5725de76a723e6be83e3"
+    },
+    {
+      "path": "research/jpx_train_only_scaling_20261015_v1/source_before.json",
+      "match": true,
+      "blob_sha": "1c2b2dae4a1e0385792f4d152fa520fa0b754d9f"
+    },
+    {
+      "path": "research/jpx_train_only_scaling_20261015_v1/test_console.txt",
+      "match": true,
+      "blob_sha": "ae4808d1aae7f2fcbcc63ef3f461789eea65387e"
+    },
+    {
+      "path": "research/jpx_train_only_scaling_20261015_v1/test_results/captured_stdout.txt",
+      "match": true,
+      "blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "research/jpx_train_only_scaling_20261015_v1/test_results/test_results.json",
+      "match": true,
+      "blob_sha": "0bc8bd7f2c04349a3622e262a281087cf89d24ea"
+    },
+    {
+      "path": "research/jpx_train_only_scaling_20261015_v1/test_results/test_results.txt",
+      "match": true,
+      "blob_sha": "23b5deb927092649752b76029120f65a7479061d"
+    },
+    {
+      "path": "research/jpx_train_only_scaling_20261015_v1/tests_after/__init__.py",
+      "match": true,
+      "blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "research/jpx_train_only_scaling_20261015_v1/tests_after/run_tests.py",
+      "match": true,
+      "blob_sha": "5973091c8b9d95841d3fc427464b8e08ac62d2f7"
+    },
+    {
+      "path": "research/jpx_train_only_scaling_20261015_v1/tests_after/test_audit.py",
+      "match": true,
+      "blob_sha": "cd7b8e32a7ba8fc859615405fcf1c8596f17ce52"
+    },
+    {
+      "path": "research/jpx_train_only_scaling_20261015_v1/tests_after/test_normalizer_reuse.py",
+      "match": true,
+      "blob_sha": "1c90ef74a5f133addb0c9c992e3366aa67a413bc"
+    },
+    {
+      "path": "research/jpx_train_only_scaling_20261015_v1/tests_after/test_regression_v1.py",
+      "match": true,
+      "blob_sha": "d6698b3dec9ec3c4910033718a959524587bb722"
+    },
+    {
+      "path": "research/jpx_train_only_scaling_20261015_v1/tests_after/test_regression_v2.py",
+      "match": true,
+      "blob_sha": "aea252633ceac94e70609c64968a82af8d149e69"
+    },
+    {
+      "path": "research/jpx_train_only_scaling_20261015_v1/tests_before/test_audit.py",
+      "match": true,
+      "blob_sha": "92b34239b95668d414e986d30b1768eb5df5bf55"
+    },
+    {
+      "path": "research/jpx_train_only_scaling_20261015_v1/tests_before/test_regression_v1.py",
+      "match": true,
+      "blob_sha": "45a2eddc5259c580d0fc14d43f08bed164a7c57c"
+    },
+    {
+      "path": "research/jpx_train_only_scaling_20261015_v1/verification.json",
+      "match": true,
+      "blob_sha": "cef6e9f267880efb56f31d9c767d251113d87a5a"
+    },
+    {
+      "path": "research/jpx_train_only_scaling_20261015_v1/manifest.json",
+      "match": true,
+      "blob_sha": "577b32483c8d6035ffa792da3f6b48bc18d5062b"
+    }
+  ],
+  "verification_method": "Fetched each file at the immutable artifact commit and compared exact UTF-8 contents; local byte equality, sizes and SHA-256 are recorded in manifest.json.",
+  "installed_production_files": [
+    "/Users/coolguy/Desktop/JPX/codes/features.py",
+    "/Users/coolguy/Desktop/JPX/codes/JPX_deep_learning_models.py"
+  ],
+  "tests": {
+    "full": {
+      "total": 104,
+      "passed": 88,
+      "failed_methods": 13,
+      "error_methods": 3
+    },
+    "installed_focused": {
+      "total": 12,
+      "passed": 12
+    },
+    "partial_parameter_checks": 2
+  },
+  "no_full_training_or_market_data_run": true,
+  "release_assets": [],
+  "cleanup_paths": [],
+  "cleanup_bytes": 0
+}
