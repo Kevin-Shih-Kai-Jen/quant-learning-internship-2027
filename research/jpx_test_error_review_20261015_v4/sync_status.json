@@ -1,0 +1,19 @@
+{
+  "branch": "codex/jpx-test-error-review-20261015-v4",
+  "artifact_commit": "fc8e230d2187df6f074d13ecb24d1670cc898063",
+  "verified_files": 21,
+  "verified_bytes": 198194,
+  "verification": "All remote UTF-8 files fetched at immutable commit and exactly matched to local contents; local byte counts and SHA-256 recorded in sync_manifest.json.",
+  "test_summary": {
+    "total": 104,
+    "passed": 82,
+    "failed_test_methods": 11,
+    "errored_test_methods": 11,
+    "root_cause_groups": 12,
+    "stale_test_interface_methods": 2
+  },
+  "changed_production_files": [],
+  "changed_test_files": [],
+  "cleanup_paths": [],
+  "release_downloads": []
+}
