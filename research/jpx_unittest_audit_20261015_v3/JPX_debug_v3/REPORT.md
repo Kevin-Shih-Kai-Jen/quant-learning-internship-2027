@@ -1,29 +1,28 @@
-# JPX unittest 稽核報告｜2026-10-15
+# JPX unittest v3｜最後一次稽核：2026-10-15 11:24（台北）
 
-對象：`/Users/coolguy/Desktop/JPX/codes` 的九個 Python 檔案。此報告以 `source_manifest.json` 的內容雜湊識別版本；新增測試與報告，沒有修改這九個檔案。
+**104 項：81 通過、19 項 assertion failure、4 項 error、0 跳過。23 個未通過的方法對應 17 組問題：7 組主流程問題、10 組條件性／邊界問題。** 一項方法包含兩個失敗子案例，因此 unittest 原始輸出顯示 failures=20, errors=4。
 
-## 實際結果
+你在測試期間持續修改 normalize_data。本報告固定對應 11:24 保存的來源快照；之後的編輯請重跑測試，不要把舊結果套用到新的程式。最新封存來源位於 latest_revision_1124/source_snapshot，雜湊位於同目錄的 source_manifest.json。完整結果位於 results_1124/test_results.json。
 
-**102 個測試方法：80 通過、18 assertion failure、4 error、0 skipped。** 22 個失敗方法歸納為 16 組問題：8 組主流程問題，加上 8 組條件性或邊界問題。B10 含兩個失敗子案例，所以 unittest 顯示 `failures=19, errors=4`；不要把子案例數或測試數當成獨立 bug 數。
+我們只新增測試與報告，沒有修改 codes 的模型或資料處理邏輯。使用者在本輪自行修改的 features.py 已分版保存。
 
-環境：Python 3.12.2、PyTorch 2.11.0、NumPy 2.0.0、pandas 2.2.2、SciPy 1.17.1、scikit-learn 1.8.0。CPU、合成資料。未讀取真實 CSV，也未執行完整歷史訓練。
+## 已解除的問題
 
-## 優先處理的主流程問題
+先前 std: None 是必填參數，現已改成 std: float | None = None，所以 B16「呼叫漏傳 std」在最後一次測試已通過，不再列為目前問題。feature_columns 也已正確傳入存檔函式，模型歸位至 models.py 後的 forward 測試通過。
 
-| 編號 | 優先級 | 問題 | 來源位置 |
-|---|---|---|---|
-| B01 | P1 | 呼叫使用 epochs，函式接受 epoch | `JPX_deep_learning_models.py:73` |
-| B02 | P1 | epoch 沒有控制迴圈 | `deep_learning.py:44` |
-| B03 | P1 | 先用全期間標準化，再切 train/validation | `JPX_deep_learning_models.py:34` |
-| B04 | P1 | checkpoint 寫入固定 0、1，遺失訓練標準化參數 | `JPX_deep_learning_models.py:141` |
-| B05 | P2 | use_loaded_model 讀空路徑，且丟棄載入結果 | `main.py:8` |
-| B06 | P2 | model_path=str 是型別物件，不是路徑預設值 | `deep_learning.py:146` |
-| B07 | P2 | 把預測值加總印成收益百分比 | `JPX_deep_learning_models.py:132` |
-| B16 | P1 | normalize_data 新增必填 std，但呼叫端未提供 | `features.py:47` |
+## 主流程優先順序
 
-## 逐項證據與重現測試
+| 編號 | 問題 | 影響 |
+|---|---|---|
+| B01 | 呼叫使用 epochs，函式接受 epoch | 主流程／P1 |
+| B02 | epoch 沒有控制迴圈 | 主流程／P1 |
+| B03 | 先用全期間標準化，再切 train/validation | 主流程／P1 |
+| B04 | checkpoint 寫入固定 0、1，遺失訓練標準化參數 | 主流程／P1 |
+| B05 | use_loaded_model 讀空路徑，且丟棄載入結果 | 主流程／P2 |
+| B06 | model_path=str 是型別物件，不是路徑預設值 | 主流程／P2 |
+| B07 | 把預測值加總印成收益百分比 | 主流程／P2 |
 
-下列測試都保留紅燈，沒有使用 expectedFailure。P1 先處理訓練／資料洩漏；P2 是輸出、存取或條件性正確性問題；P3 是較低優先的診斷／精度邊界。
+## 全部可重現問題
 
 ### B01｜呼叫使用 epochs，函式接受 epoch（主流程／P1）
 
@@ -86,17 +85,9 @@
 
 - `test_audit.ReportingAuditTests.test_reported_earnings_are_invariant_to_prediction_level_shift`
 
-### B16｜normalize_data 新增必填 std，但呼叫端未提供（主流程／P1）
-
-來源：`features.py:47`。執行期間使用者新增 std: None；這是型別註記，不是預設值。common_process 仍只傳 df 與欄位，因此報 missing required positional argument: std。本測試使用真實呼叫，沒有加參數替身。
-
-對應測試：
-
-- `test_audit.PreprocessingAuditTests.test_common_process_call_matches_normalize_signature`
-
 ### B08｜常數欄位的回傳 std 無法直接重播轉換（邊界／P2）
 
-來源：`features.py:59`。ExpectedDividend 全為 0 時，normalize_data 回傳的轉換值有限，但 std=0；用回傳的 (x-mean)/std 重播產生 NaN。這個問題在把 std 當除數重播時觸發；應保存實際安全 scale 或明確處理零變異。
+來源：`features.py:61`。ExpectedDividend 全為 0 時，normalize_data 回傳的轉換值有限，但 std=0；用回傳的 (x-mean)/std 重播產生 NaN。這個問題在把 std 當除數重播時觸發；應保存實際安全 scale 或明確處理零變異。
 
 對應測試：
 
@@ -120,7 +111,7 @@
 
 ### B11｜time_sequence=0 或負數沒有拒絕（輸入防護／P2）
 
-來源：`features.py:64`。產生空／不一致的序列及錯位標籤；window=0 的第一個標籤會索引最後一列。這些輸入應在建立序列前明確拒絕。
+來源：`features.py:70`。產生空／不一致的序列及錯位標籤；window=0 的第一個標籤會索引最後一列。這些輸入應在建立序列前明確拒絕。
 
 對應測試：
 
@@ -159,34 +150,45 @@
 
 - `test_audit.ReportingAuditTests.test_small_but_nonzero_daily_variance_is_not_rounded_to_zero`
 
-## 通過的檢查代表什麼
+### B17｜傳入非零 std 的分支沒有回傳結果（新增分支／P2）
 
-調整介面後的 62 項舊測試全部通過；40 項新增測試中 18 項通過、22 項未通過。通過內容包括各股票獨立建窗、排序與最後一列 Target 對齊、所有 batch 預測串接、樣本加權 loss、eval/no-grad、權重正負與總和、日均 Spearman、現行 Sharpe 公式，以及真正 PyTorch 序列化的參數與 metadata 往返。
+來源：`features.py:44`。以 std=2.0、mean=10.0 呼叫，函式回傳 None；此分支只有複製 DataFrame，尚未做轉換或 return。這是使用可選 std 分支時觸發，目前 common_process 仍使用預設分支。
 
-`feature_columns` 已出現在 model_2 的存檔呼叫，測試通過；先前缺少該參數的問題已不存在。模型搬到 models.py 後也能正常建構與 forward。
+對應測試：
 
-## 設計觀察，未列為 bug
+- `test_normalizer_reuse.NormalizerReuseTests.test_nonzero_scalar_std_returns_the_transformed_frame`
 
-- 42 日輸入配 kernel_size=42，LSTM 收到的時間長度為 1。是否希望它學多個時間步，需要先決定架構。
-- 每個 fold 沿用同一個模型與 optimizer；這是暖啟動選擇，不能直接認定錯誤。
-- 驗證資料分開建 42 日窗，每檔前 41 列不評分；60 列合成資料只有 19 筆預測。是否應借用訓練尾段歷史，要先決定評估範圍。
-- main 目前呼叫 model_2 進行訓練；沒有自動切換至已存模型。未把此入口選擇另外算一個 bug。
-- 目前未實作 early stopping；本次沒有把尚未加入的功能當作程式錯誤。
+### B18｜if not std 不能判斷六個特徵的標準差向量（參數重用／P2）
 
-## 測試修訂與限制
+來源：`features.py:55`。把 normalize_data 自己回傳的六組 mean/std 用於重播，if not std 引發 NumPy truth value is ambiguous。測試已先把常數欄位尺度替換為 1，單獨確認向量處理問題。若這個新分支要重用訓練的逐特徵參數，就需要支援向量；若只支援純量，則仍缺少這條必要的逐特徵重播流程。
 
-原版 62 項測試在首輪來源得到 55 通過、2 失敗、5 error。5 個 error 是舊模型位置，2 個失敗是舊 list 回傳假設；這 7 項不能當成目前程式的 bugs。v3 的副本更新為 models.CNN_LSTM 與 dict 分數，並將模型建構測試的資料替身改放在 common_process 邊界：原本使用 2024 年資料，會被 model_1 的 2017–2021 範圍排光。原始 v1/v2 檔案未修改。
+對應測試：
 
-安裝前偵測到使用者修改 features.py，新增必填 std: None。修改前的來源、報告與 101 項結果保存在 before_concurrent_edit；最新來源改為 102 項測試。B16 用真實 common_process 呼叫重現；其他標準化測試在函式已有必填 std 時明確傳入 std=None，前處理下游測試也僅補入該參數，以免 B16 遮蔽 B03、B08，並未修改待測程式。
+- `test_normalizer_reuse.NormalizerReuseTests.test_fitted_featurewise_metadata_can_be_reused`
 
-第一輪開發結果保留於 development_results_first_run；其中包含上述 2024 年測試 fixture 錯誤，最終判定請以 results 與本報告為準。後段存檔／報表測試刻意替換訓練，避免 B01 遮蔽其他錯誤；真實 train 呼叫由獨立 smoke tests 驗證。序列化使用記憶體，沒有覆蓋任何現有 checkpoint。
+## 通過的測試及觀察
 
-本次沒有量測行覆蓋率，也沒有證明所有 bugs 都已找出。尚未驗證真正拆股／除息生效日與 ExpectedDividend 口徑、Target 到期時間、完整 JPX 市場池與停牌缺口、同分排名政策、MPS/CUDA、訓練資源耗用及真實績效。輸入防護案例的失敗，不代表你的真實資料已含那些無效值。
+62 項既有測試的副本已更新模型位置、分數 dict 與建構測試的資料替身，全部通過。新增 42 項中 19 通過、23 未通過。原本 v1/v2 沒有被修改。測試涵蓋張量轉換、資料列篩選、股票與日期排序、建窗和 Target 對齊、訓練／評估 batch、no-grad、預測串接、排名配權、Sharpe、Rank IC，以及真正 PyTorch 序列化的模型／metadata 往返。
 
-## 重跑
+- 42 日卷積搭配 kernel=42，LSTM 收到 1 個時間步：記錄為架構選擇。
+- expanding folds 重用同一模型及 optimizer：記錄為暖啟動選擇。
+- 驗證集分開建 42 日窗會失去每檔前 41 列：是否應帶入訓練尾段歷史需先定義評分範圍。
+- main 目前選擇訓練入口；early stopping 尚未實作。未把這些選擇或未新增功能另算 bugs。
+
+## 如何解讀與重跑
 
 ```bash
 python3.12 -B /Users/coolguy/Desktop/JPX/debug/JPX_debug_v3/run_tests.py
 ```
 
-只看單一問題時，在後面加上完整測試名稱，例如 `test_audit.TrainingContractTests.test_epoch_twenty_runs_twenty_complete_passes`。每次修正後應以新的結果目錄保存紀錄；本次的失敗版來源保留於 source_snapshot。
+上述指令測目前的 codes。要精確重播這份報告，從存檔目錄執行 `python3.12 -B JPX_debug_v3/run_tests.py --codes latest_revision_1124/source_snapshot`。可以在最後加上表列的完整測試名稱，單獨重現。
+
+環境為 Python 3.12.2、PyTorch 2.11.0、NumPy 2.0.0、pandas 2.2.2、SciPy 1.17.1、scikit-learn 1.8.0。只使用 CPU 小型合成資料，未讀市場 CSV、未跑完整訓練，序列化只在記憶體進行。後段存檔／報表測試替換訓練，避免 epochs 介面錯誤遮蔽它們；真實訓練呼叫另有 smoke tests。
+
+標準化下游測試保留對先前必填 std 的相容替身；最後快照已使用可選 std，因此最後一次執行並不需要或啟動該替身。新參數重用測試直接呼叫真正 normalize_data。
+
+本次未量測行覆蓋率，也不能保證找出所有 bugs。未驗證真實拆股／除息與 ExpectedDividend 口徑、Target 可知時間、完整市場池、同分排名政策、MPS/CUDA、長時間資源用量或投資績效。合成無效輸入的失敗不表示真實 CSV 一定含有那些值。
+
+## 版本紀錄
+
+首輪 101 項、必填 std 版本的 102 項，以及這次 104 項結果均保留。102 項版本已獨立保存於 Git commit dee9551fb66ccef385bfba03a169e5b78d3fc946；最新修訂是新增提交，沒有刪除或覆蓋舊 Git 歷史。

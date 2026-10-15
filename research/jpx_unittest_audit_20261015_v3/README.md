@@ -1,3 +1,9 @@
+# 最後修訂：2026-10-15 11:24
+
+最新結果以 [latest_revision_1124/REPORT.md](latest_revision_1124/REPORT.md) 為準：104 項，81 通過、19 項 assertion failure、4 項 error，17 組問題。來源與雜湊同在 latest_revision_1124；原 102 項來源與結果保留於以下原紀錄，且已保存於 commit dee9551fb66ccef385bfba03a169e5b78d3fc946。重跑目前程式請看 [測試入口說明](JPX_debug_v3/README.md)。
+
+---
+
 # JPX unittest audit v3 — 2026-10-15
 
 執行入口、完整問題清單與重跑方式見 [JPX_debug_v3/README.md](JPX_debug_v3/README.md) 與 [報告](JPX_debug_v3/REPORT.md)。
