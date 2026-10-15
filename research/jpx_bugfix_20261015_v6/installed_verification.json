@@ -1,0 +1,62 @@
+[
+  {
+    "path": "/Users/coolguy/Desktop/JPX/codes/JPX_deep_learning_models.py",
+    "source": "after/JPX_deep_learning_models.py",
+    "bytes": 5763,
+    "sha256": "55ea46d7ae8b5c093e33e6443357ec0d5920adfee804443379c0d043febfb25d"
+  },
+  {
+    "path": "/Users/coolguy/Desktop/JPX/codes/data_processor.py",
+    "source": "after/data_processor.py",
+    "bytes": 5876,
+    "sha256": "d1745b0e48fbd3f719d22ce9ff5b5968428ad13399713d3ff0b584bdfd40ca9d"
+  },
+  {
+    "path": "/Users/coolguy/Desktop/JPX/codes/deep_learning.py",
+    "source": "after/deep_learning.py",
+    "bytes": 4759,
+    "sha256": "13ec3b4c603993f520f7b3650a6af2f2d16251ae7a12cde7bce3f110750b325d"
+  },
+  {
+    "path": "/Users/coolguy/Desktop/JPX/codes/evaluation.py",
+    "source": "after/evaluation.py",
+    "bytes": 7215,
+    "sha256": "4f1b87f8236956450f2bcc218e0b5c92ea2b61acd2c18c94991fd50879402bad"
+  },
+  {
+    "path": "/Users/coolguy/Desktop/JPX/codes/features.py",
+    "source": "after/features.py",
+    "bytes": 3802,
+    "sha256": "269dc03306539104aa73d05c2bb431c1854c293833e4902b3bb42f9dffdc510d"
+  },
+  {
+    "path": "/Users/coolguy/Desktop/JPX/codes/main.py",
+    "source": "after/main.py",
+    "bytes": 499,
+    "sha256": "6ffaa25dcc7d6794ad0b8b31ba355bc72ccf32f509399c0cf080786864aeea51"
+  },
+  {
+    "path": "/Users/coolguy/Desktop/JPX/debug/JPX_debug_v3/test_audit.py",
+    "source": "tests_after/test_audit.py",
+    "bytes": 19487,
+    "sha256": "57fa1b0a57ac080c8d6c0ab5eec72f0245ffd1a891a84e0ca1838293ea3d4109"
+  },
+  {
+    "path": "/Users/coolguy/Desktop/JPX/debug/JPX_debug_v3/test_bugfix_v6.py",
+    "source": "tests_after/test_bugfix_v6.py",
+    "bytes": 2935,
+    "sha256": "49f5b6a96d6968825f22a339985273d0d234434b119c9e71f62378c4734f38fd"
+  },
+  {
+    "path": "/Users/coolguy/Desktop/JPX/debug/JPX_debug_v3/test_regression_v2.py",
+    "source": "tests_after/test_regression_v2.py",
+    "bytes": 21150,
+    "sha256": "029222e7816693b457edda6ef9240ba8e9d790961c340b862f5d5e2589c8293b"
+  },
+  {
+    "path": "/Users/coolguy/Desktop/JPX/debug/JPX_debug_v3/README_fixes_v6.md",
+    "source": "README.md",
+    "bytes": 3656,
+    "sha256": "c5305c7a346871f8c5d3cc79209fb20e71e2fe484474176c541d8c3ae560b9f5"
+  }
+]

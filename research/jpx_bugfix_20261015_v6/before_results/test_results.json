@@ -1,0 +1,98 @@
+{
+  "run_at": "2026-10-15T12:48:42.229614+08:00",
+  "duration_seconds": 0.0009304579998570262,
+  "python": "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3.12",
+  "python_version": "3.12.2",
+  "versions": {
+    "numpy": "2.0.0",
+    "pandas": "2.2.2",
+    "torch": "2.11.0",
+    "scipy": "1.17.1",
+    "sklearn": "1.8.0"
+  },
+  "codes_directory": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_bugfix_20261015_v6/before",
+  "source_manifest": {
+    "JPX_deep_learning_models.py": {
+      "bytes": 5737,
+      "sha256": "7f42c9f23e26362bc1853000aaad7fc1d4fb8cb7f84cbd4bcc5803705fefa492"
+    },
+    "data_loader.py": {
+      "bytes": 866,
+      "sha256": "7defa06e87cfe074a78956d14a46092b89dd995d148f2b2232c2b9a213501d6e"
+    },
+    "data_processor.py": {
+      "bytes": 5709,
+      "sha256": "e3fc6288cb09a2494fed749d86096c5ec418e2c1c15af997e5685466684d9fbc"
+    },
+    "deep_learning.py": {
+      "bytes": 6321,
+      "sha256": "5b610fbb47d5459a89ed0b41c9e0ebf3b2677723e809e5fc59792129a4763699"
+    },
+    "evaluation.py": {
+      "bytes": 6343,
+      "sha256": "1748f707c01d795e6ca4e1537629397e40b45d1e207a483c0a8dfd4178f90523"
+    },
+    "features.py": {
+      "bytes": 3544,
+      "sha256": "e3b892c692bad61288e95a8fc1c26404f3883796b8a048745f45a81a5672e6fb"
+    },
+    "main.py": {
+      "bytes": 436,
+      "sha256": "8e6df6a961e2de8a28d801c556b5c7a457edc811eaea5754487cd4b035a7207a"
+    },
+    "models.py": {
+      "bytes": 2252,
+      "sha256": "c3bd2d3677b31bde21d96fb080a21612cdc9dad18f059b9bc611089936f51b77"
+    },
+    "utils.py": {
+      "bytes": 580,
+      "sha256": "f2d39bda5130773f05e1a94b33da53dbba38ddc18b13fc2c3ae58160ea45e431"
+    }
+  },
+  "source_changed_during_run": false,
+  "imported_module_paths": {
+    "models": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_bugfix_20261015_v6/before/models.py",
+    "deep_learning": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_bugfix_20261015_v6/before/deep_learning.py",
+    "features": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_bugfix_20261015_v6/before/features.py",
+    "data_loader": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_bugfix_20261015_v6/before/data_loader.py",
+    "data_processor": "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_bugfix_20261015_v6/before/data_processor.py"
+  },
+  "total": 4,
+  "passed": 0,
+  "failed_test_methods": 0,
+  "errored_test_methods": 4,
+  "unittest_failure_entries_including_subtests": 0,
+  "unittest_error_entries_including_subtests": 4,
+  "skipped": 0,
+  "passed_tests": [],
+  "failure_tests": [],
+  "error_tests": [
+    "unittest.loader._FailedTest.test_audit",
+    "unittest.loader._FailedTest.test_normalizer_reuse",
+    "unittest.loader._FailedTest.test_regression_v1",
+    "unittest.loader._FailedTest.test_regression_v2"
+  ],
+  "details": [
+    {
+      "test": "unittest.loader._FailedTest.test_audit",
+      "kind": "error",
+      "traceback": "ImportError: Failed to import test module: test_audit\nTraceback (most recent call last):\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/loader.py\", line 394, in _find_test_path\n    module = self._get_module_from_name(name)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/loader.py\", line 337, in _get_module_from_name\n    __import__(name)\n  File \"/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_bugfix_20261015_v6/tests_before/test_audit.py\", line 33, in <module>\n    import evaluation as metrics\n  File \"/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_bugfix_20261015_v6/before/evaluation.py\", line 86, in <module>\n    ) -> np.array[float]:\n         ~~~~~~~~^^^^^^^\nTypeError: 'builtin_function_or_method' object is not subscriptable\n\n"
+    },
+    {
+      "test": "unittest.loader._FailedTest.test_normalizer_reuse",
+      "kind": "error",
+      "traceback": "ImportError: Failed to import test module: test_normalizer_reuse\nTraceback (most recent call last):\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/loader.py\", line 394, in _find_test_path\n    module = self._get_module_from_name(name)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/loader.py\", line 337, in _get_module_from_name\n    __import__(name)\n  File \"/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_bugfix_20261015_v6/tests_before/test_normalizer_reuse.py\", line 4, in <module>\n    from test_audit import features, raw_frame, FEATURES\n  File \"/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_bugfix_20261015_v6/tests_before/test_audit.py\", line 33, in <module>\n    import evaluation as metrics\n  File \"/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_bugfix_20261015_v6/before/evaluation.py\", line 86, in <module>\n    ) -> np.array[float]:\n         ~~~~~~~~^^^^^^^\nTypeError: 'builtin_function_or_method' object is not subscriptable\n\n"
+    },
+    {
+      "test": "unittest.loader._FailedTest.test_regression_v1",
+      "kind": "error",
+      "traceback": "ImportError: Failed to import test module: test_regression_v1\nTraceback (most recent call last):\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/loader.py\", line 394, in _find_test_path\n    module = self._get_module_from_name(name)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/loader.py\", line 337, in _get_module_from_name\n    __import__(name)\n  File \"/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_bugfix_20261015_v6/tests_before/test_regression_v1.py\", line 69, in <module>\n    import JPX_deep_learning_models as application\n  File \"/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_bugfix_20261015_v6/before/JPX_deep_learning_models.py\", line 7, in <module>\n    import evaluation\n  File \"/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_bugfix_20261015_v6/before/evaluation.py\", line 86, in <module>\n    ) -> np.array[float]:\n         ~~~~~~~~^^^^^^^\nTypeError: 'builtin_function_or_method' object is not subscriptable\n\n"
+    },
+    {
+      "test": "unittest.loader._FailedTest.test_regression_v2",
+      "kind": "error",
+      "traceback": "ImportError: Failed to import test module: test_regression_v2\nTraceback (most recent call last):\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/loader.py\", line 394, in _find_test_path\n    module = self._get_module_from_name(name)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/loader.py\", line 337, in _get_module_from_name\n    __import__(name)\n  File \"/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_bugfix_20261015_v6/tests_before/test_regression_v2.py\", line 58, in <module>\n    import evaluation as metrics\n  File \"/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_bugfix_20261015_v6/before/evaluation.py\", line 86, in <module>\n    ) -> np.array[float]:\n         ~~~~~~~~^^^^^^^\nTypeError: 'builtin_function_or_method' object is not subscriptable\n\n"
+    }
+  ],
+  "scope": "Synthetic CPU checks; no market CSV, training job, MPS/CUDA run or investment-performance validation."
+}

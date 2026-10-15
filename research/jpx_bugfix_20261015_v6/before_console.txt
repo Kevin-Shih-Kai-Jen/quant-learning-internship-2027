@@ -1,0 +1,88 @@
+Python: /Library/Frameworks/Python.framework/Versions/3.12/bin/python3.12
+Testing source: /Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_bugfix_20261015_v6/before
+test_audit (unittest.loader._FailedTest.test_audit) ... ERROR
+test_normalizer_reuse (unittest.loader._FailedTest.test_normalizer_reuse) ... ERROR
+test_regression_v1 (unittest.loader._FailedTest.test_regression_v1) ... ERROR
+test_regression_v2 (unittest.loader._FailedTest.test_regression_v2) ... ERROR
+
+======================================================================
+ERROR: test_audit (unittest.loader._FailedTest.test_audit)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_audit
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/loader.py", line 394, in _find_test_path
+    module = self._get_module_from_name(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/loader.py", line 337, in _get_module_from_name
+    __import__(name)
+  File "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_bugfix_20261015_v6/tests_before/test_audit.py", line 33, in <module>
+    import evaluation as metrics
+  File "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_bugfix_20261015_v6/before/evaluation.py", line 86, in <module>
+    ) -> np.array[float]:
+         ~~~~~~~~^^^^^^^
+TypeError: 'builtin_function_or_method' object is not subscriptable
+
+
+======================================================================
+ERROR: test_normalizer_reuse (unittest.loader._FailedTest.test_normalizer_reuse)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_normalizer_reuse
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/loader.py", line 394, in _find_test_path
+    module = self._get_module_from_name(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/loader.py", line 337, in _get_module_from_name
+    __import__(name)
+  File "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_bugfix_20261015_v6/tests_before/test_normalizer_reuse.py", line 4, in <module>
+    from test_audit import features, raw_frame, FEATURES
+  File "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_bugfix_20261015_v6/tests_before/test_audit.py", line 33, in <module>
+    import evaluation as metrics
+  File "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_bugfix_20261015_v6/before/evaluation.py", line 86, in <module>
+    ) -> np.array[float]:
+         ~~~~~~~~^^^^^^^
+TypeError: 'builtin_function_or_method' object is not subscriptable
+
+
+======================================================================
+ERROR: test_regression_v1 (unittest.loader._FailedTest.test_regression_v1)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_regression_v1
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/loader.py", line 394, in _find_test_path
+    module = self._get_module_from_name(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/loader.py", line 337, in _get_module_from_name
+    __import__(name)
+  File "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_bugfix_20261015_v6/tests_before/test_regression_v1.py", line 69, in <module>
+    import JPX_deep_learning_models as application
+  File "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_bugfix_20261015_v6/before/JPX_deep_learning_models.py", line 7, in <module>
+    import evaluation
+  File "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_bugfix_20261015_v6/before/evaluation.py", line 86, in <module>
+    ) -> np.array[float]:
+         ~~~~~~~~^^^^^^^
+TypeError: 'builtin_function_or_method' object is not subscriptable
+
+
+======================================================================
+ERROR: test_regression_v2 (unittest.loader._FailedTest.test_regression_v2)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_regression_v2
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/loader.py", line 394, in _find_test_path
+    module = self._get_module_from_name(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/loader.py", line 337, in _get_module_from_name
+    __import__(name)
+  File "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_bugfix_20261015_v6/tests_before/test_regression_v2.py", line 58, in <module>
+    import evaluation as metrics
+  File "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_bugfix_20261015_v6/before/evaluation.py", line 86, in <module>
+    ) -> np.array[float]:
+         ~~~~~~~~^^^^^^^
+TypeError: 'builtin_function_or_method' object is not subscriptable
+
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.000s
+
+FAILED (errors=4)
+Test methods: 4; passed: 0; failures: 0; errors: 4; source unchanged: True
