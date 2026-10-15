@@ -1,0 +1,104 @@
+{
+  "files": [
+    {
+      "path": "research/jpx_test_error_review_20261015_v4/console.txt",
+      "bytes": 30999,
+      "sha256": "e23292a634f7d4dfcb6cf1eb136bdcc4364cc002479cff0e09165a8f72b05195"
+    },
+    {
+      "path": "research/jpx_test_error_review_20261015_v4/issue_map.json",
+      "bytes": 9970,
+      "sha256": "4f7b40e1932d44e5246f76766dba1bbc3d9fb0faa2a863499ac60ca5314c9167"
+    },
+    {
+      "path": "research/jpx_test_error_review_20261015_v4/results/captured_stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/jpx_test_error_review_20261015_v4/results/test_results.json",
+      "bytes": 25219,
+      "sha256": "f6df9d4358f885e29e8901d3dc3a621f5cd26e76f5af92e93e4d107747270864"
+    },
+    {
+      "path": "research/jpx_test_error_review_20261015_v4/results/test_results.txt",
+      "bytes": 30919,
+      "sha256": "ee25e4517f390a3f8dd82d05521a5bd43bbe71a30d455d9144cbd53bd1989407"
+    },
+    {
+      "path": "research/jpx_test_error_review_20261015_v4/source_snapshot/JPX_deep_learning_models.py",
+      "bytes": 5740,
+      "sha256": "36fdb138229ac9139b8c618a96779fd0e8a00cbb3e8f8eded97e2a4e892d0ac1"
+    },
+    {
+      "path": "research/jpx_test_error_review_20261015_v4/source_snapshot/data_loader.py",
+      "bytes": 866,
+      "sha256": "7defa06e87cfe074a78956d14a46092b89dd995d148f2b2232c2b9a213501d6e"
+    },
+    {
+      "path": "research/jpx_test_error_review_20261015_v4/source_snapshot/data_processor.py",
+      "bytes": 5709,
+      "sha256": "e3fc6288cb09a2494fed749d86096c5ec418e2c1c15af997e5685466684d9fbc"
+    },
+    {
+      "path": "research/jpx_test_error_review_20261015_v4/source_snapshot/deep_learning.py",
+      "bytes": 6314,
+      "sha256": "831471d8b54500fa0fc8e33997807b754a1368fbc11ce2d037209ed3a49413bc"
+    },
+    {
+      "path": "research/jpx_test_error_review_20261015_v4/source_snapshot/evaluation.py",
+      "bytes": 6239,
+      "sha256": "58b13fab2919b84d7523a01a89ce1f3303719975b7b49e1273d0e8576786ed8d"
+    },
+    {
+      "path": "research/jpx_test_error_review_20261015_v4/source_snapshot/features.py",
+      "bytes": 3544,
+      "sha256": "e3b892c692bad61288e95a8fc1c26404f3883796b8a048745f45a81a5672e6fb"
+    },
+    {
+      "path": "research/jpx_test_error_review_20261015_v4/source_snapshot/main.py",
+      "bytes": 436,
+      "sha256": "8e6df6a961e2de8a28d801c556b5c7a457edc811eaea5754487cd4b035a7207a"
+    },
+    {
+      "path": "research/jpx_test_error_review_20261015_v4/source_snapshot/models.py",
+      "bytes": 2252,
+      "sha256": "c3bd2d3677b31bde21d96fb080a21612cdc9dad18f059b9bc611089936f51b77"
+    },
+    {
+      "path": "research/jpx_test_error_review_20261015_v4/source_snapshot/utils.py",
+      "bytes": 580,
+      "sha256": "f2d39bda5130773f05e1a94b33da53dbba38ddc18b13fc2c3ae58160ea45e431"
+    },
+    {
+      "path": "research/jpx_test_error_review_20261015_v4/tests_snapshot/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/jpx_test_error_review_20261015_v4/tests_snapshot/run_tests.py",
+      "bytes": 5329,
+      "sha256": "37c2e73344b69440b45cb52dd028c4f181b0d1173d73f85f77c27bca549ed77e"
+    },
+    {
+      "path": "research/jpx_test_error_review_20261015_v4/tests_snapshot/test_audit.py",
+      "bytes": 20451,
+      "sha256": "dc20912c8926fc791869df46b42494dd318c6095c6987d9c34f7f07c2c090e32"
+    },
+    {
+      "path": "research/jpx_test_error_review_20261015_v4/tests_snapshot/test_normalizer_reuse.py",
+      "bytes": 1214,
+      "sha256": "ee863f2be873d8100e2c855094e911e0fe8ec9167b1237b6e71e8325d9a992fa"
+    },
+    {
+      "path": "research/jpx_test_error_review_20261015_v4/tests_snapshot/test_regression_v1.py",
+      "bytes": 17035,
+      "sha256": "560b333f79466a161800917260887dfa87bc5c7bbbf28680ab5a960a9f1554ef"
+    },
+    {
+      "path": "research/jpx_test_error_review_20261015_v4/tests_snapshot/test_regression_v2.py",
+      "bytes": 21242,
+      "sha256": "87d3078405a395b9c536e190643d7ef4e16f84694822ee7139ae99b16845c055"
+    }
+  ]
+}

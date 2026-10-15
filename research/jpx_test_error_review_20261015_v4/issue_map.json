@@ -1,0 +1,223 @@
+{
+  "run_at": "2026-10-15T12:24:04.060145+08:00",
+  "source_directory": "/Users/coolguy/Desktop/JPX/codes",
+  "total": 104,
+  "passed": 82,
+  "failed_test_methods": 11,
+  "errored_test_methods": 11,
+  "unittest_failure_entries": 12,
+  "failure_entry_note": "The nonpositive-factor test contains two failed subtests but counts as one test method.",
+  "root_cause_groups": [
+    {
+      "id": "A01",
+      "category": "runtime_blocker",
+      "title": "訓練輪數不能直接迭代",
+      "locations": [
+        "deep_learning.py:57"
+      ],
+      "cause": "for _ in epochs 嘗試迭代整數，導致 TypeError: 'int' object is not iterable。",
+      "suggested_correction": "改用 for _ in range(epochs)。",
+      "test_count": 8,
+      "test_ids": [
+        "test_audit.TrainingContractTests.test_normal_one_epoch_actually_changes_weights",
+        "test_audit.TrainingContractTests.test_real_model1_call_matches_train_signature",
+        "test_audit.TrainingContractTests.test_real_model2_call_matches_train_signature",
+        "test_regression_v1.PipelineTests.test_01_train_loss_shapes_match",
+        "test_regression_v1.TrainingTests.test_01_training_processes_every_batch",
+        "test_regression_v1.TrainingTests.test_02_training_returns_sample_weighted_mean",
+        "test_regression_v1.TrainingTests.test_03_empty_training_loader_has_clear_error",
+        "test_regression_v2.RegressionTests.test_03_train_runs_full_epoch_with_sample_weighted_loss"
+      ]
+    },
+    {
+      "id": "T01",
+      "category": "stale_test_interface",
+      "title": "兩項測試仍傳舊參數 epoch",
+      "locations": [
+        "tests/test_audit.py:124",
+        "tests/test_audit.py:130"
+      ],
+      "cause": "正式函式現在接受 epochs，但這兩項測試仍使用 epoch=20、epoch=0，尚未進入函式即 TypeError。",
+      "suggested_correction": "將測試呼叫更新為 epochs=20、epochs=0；保留原有行為斷言。",
+      "test_count": 2,
+      "test_ids": [
+        "test_audit.TrainingContractTests.test_epoch_twenty_runs_twenty_complete_passes",
+        "test_audit.TrainingContractTests.test_zero_epoch_cannot_update_parameters"
+      ]
+    },
+    {
+      "id": "A02",
+      "category": "helper_contract",
+      "title": "load_model 的預設值寫成型別聯集",
+      "locations": [
+        "deep_learning.py:213"
+      ],
+      "cause": "model_path=str | Path 把型別聯集當預設值；這不是檔案路徑，也不是型別註記。",
+      "suggested_correction": "若路徑必填，使用 model_path: str | Path。",
+      "test_count": 1,
+      "test_ids": [
+        "test_audit.CheckpointAuditTests.test_load_model_path_is_required_or_has_a_real_path_default"
+      ]
+    },
+    {
+      "id": "A03",
+      "category": "helper_contract",
+      "title": "載入模型的 helper 使用空路徑且沒有回傳結果",
+      "locations": [
+        "main.py:15",
+        "main.py:17"
+      ],
+      "cause": "use_loaded_model 固定傳 model_path=\"\"；即使模擬載入成功，函式也回傳 None，模型與標準化參數無法交給呼叫端。",
+      "suggested_correction": "接收或設定有效 checkpoint 路徑，並回傳載入的結果。",
+      "test_count": 2,
+      "test_ids": [
+        "test_audit.CheckpointAuditTests.test_use_loaded_model_passes_a_nonempty_checkpoint_path",
+        "test_audit.CheckpointAuditTests.test_use_loaded_model_returns_the_loaded_result_for_use"
+      ]
+    },
+    {
+      "id": "A04",
+      "category": "reporting",
+      "title": "模型分數總和被標示為獲利百分比",
+      "locations": [
+        "JPX_deep_learning_models.py:140",
+        "JPX_deep_learning_models.py:143"
+      ],
+      "cause": "所有預測一起加 10 後，排名相同，但列印的 Total earnings 從 6 變 46。",
+      "suggested_correction": "若要報告獲利，使用權重乘實際 Target 的結果；若只看分數總和，改用準確標籤。",
+      "test_count": 1,
+      "test_ids": [
+        "test_audit.ReportingAuditTests.test_reported_earnings_are_invariant_to_prediction_level_shift"
+      ]
+    },
+    {
+      "id": "B01",
+      "category": "conditional_boundary",
+      "title": "重複股票日沒有被處理",
+      "locations": [
+        "features.py:16"
+      ],
+      "cause": "檢查器回傳的重複列結果被 _ 捨棄，同股票同一天的兩列仍保留。",
+      "suggested_correction": "針對 SecuritiesCode、Date 重複值明確拒絕或採指定去重規則。",
+      "test_count": 1,
+      "test_ids": [
+        "test_audit.PreprocessingAuditTests.test_duplicate_stock_dates_do_not_survive_valid_rows"
+      ]
+    },
+    {
+      "id": "B02",
+      "category": "conditional_boundary",
+      "title": "最後一列的非正調整因子漏檢",
+      "locations": [
+        "data_processor.py:166",
+        "data_processor.py:179"
+      ],
+      "cause": "僅檢查 shift 後的累積因子，最後一列 AdjustmentFactor 為 0 或負數時仍能通過。",
+      "suggested_correction": "直接檢查原始 AdjustmentFactor > 0。",
+      "test_count": 1,
+      "test_ids": [
+        "test_audit.PreprocessingAuditTests.test_final_row_nonpositive_factor_is_rejected_or_repaired"
+      ]
+    },
+    {
+      "id": "B03",
+      "category": "conditional_boundary",
+      "title": "序列長度 0 或負數未被拒絕",
+      "locations": [
+        "features.py:75",
+        "features.py:107"
+      ],
+      "cause": "time_sequence=0、-1 都未引發 ValueError，可能產生空視窗或不合理切片。",
+      "suggested_correction": "切片前檢查 time_sequence 為正整數。",
+      "test_count": 2,
+      "test_ids": [
+        "test_audit.PreprocessingAuditTests.test_sequence_negative_window_is_rejected",
+        "test_audit.PreprocessingAuditTests.test_sequence_window_zero_is_rejected"
+      ]
+    },
+    {
+      "id": "B04",
+      "category": "error_message",
+      "title": "缺欄位訊息列出已存在的欄位",
+      "locations": [
+        "features.py:34"
+      ],
+      "cause": "missing 的 list comprehension 放入整份 features_col_name，導致 Close 已存在仍被列為缺少。",
+      "suggested_correction": "將 comprehension 的輸出元素改為 n。",
+      "test_count": 1,
+      "test_ids": [
+        "test_audit.PreprocessingAuditTests.test_missing_column_message_names_only_missing_columns"
+      ]
+    },
+    {
+      "id": "B05",
+      "category": "conditional_boundary",
+      "title": "NaN 預測仍可得到有限評分",
+      "locations": [
+        "evaluation.py:38",
+        "evaluation.py:68",
+        "evaluation.py:148"
+      ],
+      "cause": "合成資料含一個 NaN 預測時，該列仍參與分配持倉，最後 Sharpe、Rank IC 都是有限數值。",
+      "suggested_correction": "評分前檢查預測有效性，明確拒絕或按約定處理無效預測。",
+      "test_count": 1,
+      "test_ids": [
+        "test_audit.ReportingAuditTests.test_nonfinite_predictions_cannot_silently_produce_a_valid_score"
+      ]
+    },
+    {
+      "id": "B06",
+      "category": "conditional_boundary",
+      "title": "缺失 Target 被加總忽略",
+      "locations": [
+        "evaluation.py:91"
+      ],
+      "cause": "持倉 Target=[NaN, 0.1]、Weight=[0.5, -0.5] 時，pandas sum 跳過 NaN 並回傳 -0.05。正常資料清理會擋掉缺失 Target；此處是直接呼叫評分函式的邊界檢查。",
+      "suggested_correction": "檢查非零持倉的 Target 是否有效，避免把缺失資料隱含為零貢獻。",
+      "test_count": 1,
+      "test_ids": [
+        "test_audit.ReportingAuditTests.test_missing_target_cannot_be_silently_treated_as_zero_earning"
+      ]
+    },
+    {
+      "id": "B07",
+      "category": "precision_boundary",
+      "title": "float32 將微小日報酬差異捨去",
+      "locations": [
+        "evaluation.py:107"
+      ],
+      "cause": "[0.01, 0.01+1e-10, 0.01+2e-10] 轉成 float32 後變相同，非零標準差被判成 0 並報錯。",
+      "suggested_correction": "計算 Sharpe 時保留 float64。",
+      "test_count": 1,
+      "test_ids": [
+        "test_audit.ReportingAuditTests.test_small_but_nonzero_daily_variance_is_not_rounded_to_zero"
+      ]
+    }
+  ],
+  "normalization_related_tests": {
+    "total": 12,
+    "passed": 12,
+    "test_ids": [
+      "test_audit.PreprocessingAuditTests.test_common_process_call_matches_normalize_signature",
+      "test_audit.PreprocessingAuditTests.test_validation_values_cannot_change_training_features",
+      "test_audit.PreprocessingAuditTests.test_training_features_use_training_statistics",
+      "test_audit.PreprocessingAuditTests.test_validation_uses_same_training_transform",
+      "test_audit.PreprocessingAuditTests.test_returned_scaling_metadata_reproduces_constant_column",
+      "test_audit.PreprocessingAuditTests.test_nonconstant_scaling_metadata_reproduces_transform",
+      "test_audit.CheckpointAuditTests.test_model2_checkpoint_retains_one_scale_per_feature",
+      "test_audit.CheckpointAuditTests.test_model2_supplies_all_required_save_arguments",
+      "test_audit.CheckpointAuditTests.test_real_serializer_roundtrip_preserves_parameters_and_metadata",
+      "test_normalizer_reuse.NormalizerReuseTests.test_nonzero_scalar_std_returns_the_transformed_frame",
+      "test_normalizer_reuse.NormalizerReuseTests.test_fitted_featurewise_metadata_can_be_reused",
+      "test_regression_v1.ModelTests.test_04_configuration_uses_feature_count_not_row_count"
+    ]
+  },
+  "extra_static_observations_not_in_failure_count": [
+    {
+      "location": "deep_learning.py:151",
+      "description": "The added duplicate common_process references undefined FEAUTRES at lines 151 and 155 and has unreachable code after its return. Current model entry points use JPX_deep_learning_models.common_process instead."
+    }
+  ],
+  "scope": "Synthetic CPU tests only; production and test files unchanged; no real CSV, full training or held-out test use.",
+  "cleanup_paths": []
+}
