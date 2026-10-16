@@ -1,0 +1,12 @@
+{
+  "repository": "Kevin-Shih-Kai-Jen/quant-learning-internship-2027",
+  "branch": "codex/jpx-code-review-20261016-v7",
+  "artifact_commit": "4e74d3e631942e316cb2dd4cc8c8d64a4b748907",
+  "verified_files": 29,
+  "verified_bytes": 242620,
+  "verification": "Every UTF-8 artifact fetched from the immutable commit and compared exactly with local contents; byte sizes and SHA-256 recorded in sync_manifest.json.",
+  "source_modified": false,
+  "tests_modified": false,
+  "large_release_downloads": [],
+  "deleted_files": []
+}
