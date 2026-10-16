@@ -1,0 +1,57 @@
+Python: /Library/Frameworks/Python.framework/Versions/3.12/bin/python3.12
+Testing source: /Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_code_review_20261016_v7/source_snapshot
+test_csv_empty_table_is_rejected (test_audit.BoundaryControlTests.test_csv_empty_table_is_rejected) ... ok
+test_csv_missing_file_has_explicit_error (test_audit.BoundaryControlTests.test_csv_missing_file_has_explicit_error) ... ok
+test_date_validator_rejects_impossible_date (test_audit.BoundaryControlTests.test_date_validator_rejects_impossible_date) ... ok
+test_numeric_validator_rejects_nan_infinity_bool_and_array (test_audit.BoundaryControlTests.test_numeric_validator_rejects_nan_infinity_bool_and_array) ... ok
+test_sequence_empty_frame_is_rejected (test_audit.BoundaryControlTests.test_sequence_empty_frame_is_rejected) ... ok
+test_source_functions_are_importable_without_running_main (test_audit.BoundaryControlTests.test_source_functions_are_importable_without_running_main) ... ok
+test_load_model_path_is_required_or_has_a_real_path_default (test_audit.CheckpointAuditTests.test_load_model_path_is_required_or_has_a_real_path_default) ... ok
+test_load_model_rejects_nonexistent_path (test_audit.CheckpointAuditTests.test_load_model_rejects_nonexistent_path) ... ok
+test_model2_checkpoint_retains_one_scale_per_feature (test_audit.CheckpointAuditTests.test_model2_checkpoint_retains_one_scale_per_feature) ... ERROR
+test_model2_supplies_all_required_save_arguments (test_audit.CheckpointAuditTests.test_model2_supplies_all_required_save_arguments) ... Traceback (most recent call last):
+  File "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_code_review_20261016_v7/guarded_suite.py", line 37, in <module>
+    runpy.run_path(str(ROOT/'tests_snapshot/run_tests.py'),run_name='__main__')
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_code_review_20261016_v7/tests_snapshot/run_tests.py", line 115, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_code_review_20261016_v7/tests_snapshot/run_tests.py", line 83, in main
+    result = unittest.TextTestRunner(stream=output, verbosity=2, resultclass=RecordedResult).run(suite)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/runner.py", line 240, in run
+    test(result)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/suite.py", line 84, in __call__
+    return self.run(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/suite.py", line 122, in run
+    test(result)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/suite.py", line 84, in __call__
+    return self.run(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/suite.py", line 122, in run
+    test(result)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/suite.py", line 84, in __call__
+    return self.run(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/suite.py", line 122, in run
+    test(result)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 690, in __call__
+    return self.run(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 634, in run
+    self._callTestMethod(testMethod)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 589, in _callTestMethod
+    if method() is not None:
+       ^^^^^^^^
+  File "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_code_review_20261016_v7/tests_snapshot/test_audit.py", line 260, in test_model2_supplies_all_required_save_arguments
+    application.model_2()
+  File "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_code_review_20261016_v7/source_snapshot/JPX_deep_learning_models.py", line 94, in model_2
+    splits = utils.create_start_end_date(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/coolguy/.codex/.chatgpt-projects/g-p-6a8ad7dc606481919474d5424342a1c3/github_repo_20260924/research/jpx_code_review_20261016_v7/source_snapshot/utils.py", line 47, in create_start_end_date
+    val_end = val_start + timedelta(days=gap)
+                          ^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

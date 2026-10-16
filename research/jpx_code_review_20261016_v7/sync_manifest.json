@@ -1,0 +1,146 @@
+{
+  "files": [
+    {
+      "path": "guarded_suite.py",
+      "bytes": 1558,
+      "sha256": "3f326cf6ea3f2fc6591ca264c1670adeb06b7963904c78a9d5abdd43c27a4d78"
+    },
+    {
+      "path": "guarded_suite_v2.py",
+      "bytes": 1919,
+      "sha256": "9923282636d5db9a15ed63c500cee1aff819f479209e7d5cf9f4badfc582e98e"
+    },
+    {
+      "path": "loop_guard_events.json",
+      "bytes": 2325,
+      "sha256": "9f368fb2caa50d7034162f9dc61f27af6ed9c6949e465aee8f864cdd3a16d725"
+    },
+    {
+      "path": "probe.py",
+      "bytes": 5645,
+      "sha256": "9331a0803d73ff792dd7046cea91839a65f833f87975753df6cc5d2f7b6097b1"
+    },
+    {
+      "path": "probe_results.json",
+      "bytes": 2667,
+      "sha256": "c447d5db461dd75f459fa4c5b75d4aebc94fa7ddc81cea4a66702d6df931daf9"
+    },
+    {
+      "path": "regression_console.txt",
+      "bytes": 5135,
+      "sha256": "7215361ed0d4aa22074c56f9c9dad6ea4697c2e9727f1f83b9820280fdc362b8"
+    },
+    {
+      "path": "regression_console_v2.txt",
+      "bytes": 38497,
+      "sha256": "78f2ef1ddfd0be32b3d5a83b99e303f5e73d3f83eb005e109f0aa131835d1c89"
+    },
+    {
+      "path": "regression_results/captured_stdout.txt",
+      "bytes": 898,
+      "sha256": "656af732fc25dff1aeaca1112b5c97518bfa221806ecfce11f05c37d858f3436"
+    },
+    {
+      "path": "regression_results/test_results.json",
+      "bytes": 33169,
+      "sha256": "03b1536100c0a34814f01d1ae3f51b770cfb946cecd9c4e978c9bd9b062503c5"
+    },
+    {
+      "path": "regression_results/test_results.txt",
+      "bytes": 38419,
+      "sha256": "182e440bd64f02f64eea4ec7041c15fbeae37a94280ff945245010f6c1a6d232"
+    },
+    {
+      "path": "review_findings.json",
+      "bytes": 5456,
+      "sha256": "274d3f7e83c81611d71bee7381445df350b63329bd69594257172403fd51801d"
+    },
+    {
+      "path": "source_manifest.json",
+      "bytes": 3479,
+      "sha256": "170fce8924980d447db2000c7a080a9874cd101f36891d4db5250ea3fb67014b"
+    },
+    {
+      "path": "source_snapshot/JPX_deep_learning_models.py",
+      "bytes": 5356,
+      "sha256": "b3ef428b572e469201c7e28e242bb839ca73b9f63e26557c5b226953056ce5fb"
+    },
+    {
+      "path": "source_snapshot/data_loader.py",
+      "bytes": 866,
+      "sha256": "7defa06e87cfe074a78956d14a46092b89dd995d148f2b2232c2b9a213501d6e"
+    },
+    {
+      "path": "source_snapshot/data_processor.py",
+      "bytes": 5876,
+      "sha256": "d1745b0e48fbd3f719d22ce9ff5b5968428ad13399713d3ff0b584bdfd40ca9d"
+    },
+    {
+      "path": "source_snapshot/deep_learning.py",
+      "bytes": 4759,
+      "sha256": "13ec3b4c603993f520f7b3650a6af2f2d16251ae7a12cde7bce3f110750b325d"
+    },
+    {
+      "path": "source_snapshot/evaluation.py",
+      "bytes": 6336,
+      "sha256": "2d7891b9239217db73f87d1137caba02894c6be86e1548179db9be7f6bcc7003"
+    },
+    {
+      "path": "source_snapshot/features.py",
+      "bytes": 3802,
+      "sha256": "269dc03306539104aa73d05c2bb431c1854c293833e4902b3bb42f9dffdc510d"
+    },
+    {
+      "path": "source_snapshot/main.py",
+      "bytes": 499,
+      "sha256": "6ffaa25dcc7d6794ad0b8b31ba355bc72ccf32f509399c0cf080786864aeea51"
+    },
+    {
+      "path": "source_snapshot/models.py",
+      "bytes": 2478,
+      "sha256": "cc941baf72ed32589ef5581d044a2768fe4f753c0afc5d8bf913925ce4aba603"
+    },
+    {
+      "path": "source_snapshot/utils.py",
+      "bytes": 1691,
+      "sha256": "33a7f7dce358e1436ff9b178b56b2f5835b8bf8a29a92d382f312aaac90fa8ec"
+    },
+    {
+      "path": "tests_snapshot/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "tests_snapshot/run_tests.py",
+      "bytes": 5329,
+      "sha256": "37c2e73344b69440b45cb52dd028c4f181b0d1173d73f85f77c27bca549ed77e"
+    },
+    {
+      "path": "tests_snapshot/test_audit.py",
+      "bytes": 19487,
+      "sha256": "57fa1b0a57ac080c8d6c0ab5eec72f0245ffd1a891a84e0ca1838293ea3d4109"
+    },
+    {
+      "path": "tests_snapshot/test_bugfix_v6.py",
+      "bytes": 2935,
+      "sha256": "49f5b6a96d6968825f22a339985273d0d234434b119c9e71f62378c4734f38fd"
+    },
+    {
+      "path": "tests_snapshot/test_normalizer_reuse.py",
+      "bytes": 1214,
+      "sha256": "ee863f2be873d8100e2c855094e911e0fe8ec9167b1237b6e71e8325d9a992fa"
+    },
+    {
+      "path": "tests_snapshot/test_regression_v1.py",
+      "bytes": 17035,
+      "sha256": "560b333f79466a161800917260887dfa87bc5c7bbbf28680ab5a960a9f1554ef"
+    },
+    {
+      "path": "tests_snapshot/test_regression_v2.py",
+      "bytes": 21150,
+      "sha256": "029222e7816693b457edda6ef9240ba8e9d790961c340b862f5d5e2589c8293b"
+    }
+  ],
+  "total_bytes": 237980,
+  "desktop_source_and_tests_unchanged": true
+}

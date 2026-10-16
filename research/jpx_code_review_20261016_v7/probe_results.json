@@ -1,0 +1,106 @@
+{
+  "syntax": {
+    "compiled_modules": 9,
+    "errors": 0
+  },
+  "nonadvancing_split": {
+    "observed_three_iterations": [
+      [
+        "2017-01-01T00:00:00",
+        "2017-01-31T00:00:00",
+        "2017-01-31T00:00:00",
+        "2017-03-02T00:00:00"
+      ],
+      [
+        "2017-01-01T00:00:00",
+        "2017-01-31T00:00:00",
+        "2017-01-31T00:00:00",
+        "2017-03-02T00:00:00"
+      ],
+      [
+        "2017-01-01T00:00:00",
+        "2017-01-31T00:00:00",
+        "2017-01-31T00:00:00",
+        "2017-03-02T00:00:00"
+      ]
+    ],
+    "all_identical": true,
+    "guard": "Stopped repeated, nonadvancing date splits"
+  },
+  "thirty_day_windows": {
+    "first_split": [
+      "2017-01-01T00:00:00",
+      "2017-01-31T00:00:00",
+      "2017-01-31T00:00:00",
+      "2017-03-02T00:00:00"
+    ],
+    "training_rows": 30,
+    "validation_rows": 30,
+    "training_sequences": 0,
+    "validation_sequences": 0,
+    "training_error": "ValueError: Missing data (sample) for training"
+  },
+  "new_model_shape": {
+    "actual": {
+      "input": [
+        2,
+        20,
+        64
+      ],
+      "output": [
+        2,
+        20,
+        100
+      ]
+    },
+    "prediction": [
+      2,
+      1
+    ],
+    "printed": [
+      "CNN input shape torch.Size([2, 6, 42])",
+      "CNN output shape torch.Size([2, 64, 40])",
+      "After pooling torch.Size([2, 64, 20])",
+      "LSTM input shape torch.Size([2, 20, 64])",
+      "LSTM output shape torch.Size([2, 20, 64])",
+      "Linear shape torch.Size([2, 100])"
+    ]
+  },
+  "checkpoint_mismatch": {
+    "exception": "RuntimeError",
+    "message": "Error(s) in loading state_dict for CNN_LSTM:\n\tsize mismatch for cnn.weight: copying a param with shape torch.Size([64, 6, 3]) from checkpoint, the shape in current model is torch.Size([64, 6, 42])."
+  },
+  "pool_guard": {
+    "input": [
+      2,
+      1,
+      6
+    ],
+    "cnn_kernel": 1,
+    "pool_kernel": 2,
+    "exception": "RuntimeError",
+    "message": "max_pool1d() Invalid computed output size: 0"
+  },
+  "advancing_reference_only": {
+    "fold_count": 53,
+    "last_split": [
+      "2017-01-01T00:00:00",
+      "2021-05-10T00:00:00",
+      "2021-05-10T00:00:00",
+      "2021-06-09T00:00:00"
+    ],
+    "production_checkpoint_train_end_literal": "2021-01-01",
+    "note": "Reference calculation only; production loop was not repaired."
+  },
+  "missing_target_earning": {
+    "actual": [
+      -0.05000000074505806
+    ],
+    "expected": "Reject missing held-position Target instead of skipping it."
+  },
+  "small_variance": {
+    "exception": "ValueError",
+    "message": "Standard Deviation can not be 0",
+    "float64_std": 9.999999960041975e-11
+  }
+}

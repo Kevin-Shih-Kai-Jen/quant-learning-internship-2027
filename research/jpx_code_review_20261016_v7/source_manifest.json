@@ -1,0 +1,82 @@
+{
+  "/Users/coolguy/Desktop/JPX/codes/JPX_deep_learning_models.py": {
+    "bytes": 5356,
+    "sha256": "b3ef428b572e469201c7e28e242bb839ca73b9f63e26557c5b226953056ce5fb",
+    "snapshot": "source_snapshot/JPX_deep_learning_models.py"
+  },
+  "/Users/coolguy/Desktop/JPX/codes/data_loader.py": {
+    "bytes": 866,
+    "sha256": "7defa06e87cfe074a78956d14a46092b89dd995d148f2b2232c2b9a213501d6e",
+    "snapshot": "source_snapshot/data_loader.py"
+  },
+  "/Users/coolguy/Desktop/JPX/codes/data_processor.py": {
+    "bytes": 5876,
+    "sha256": "d1745b0e48fbd3f719d22ce9ff5b5968428ad13399713d3ff0b584bdfd40ca9d",
+    "snapshot": "source_snapshot/data_processor.py"
+  },
+  "/Users/coolguy/Desktop/JPX/codes/deep_learning.py": {
+    "bytes": 4759,
+    "sha256": "13ec3b4c603993f520f7b3650a6af2f2d16251ae7a12cde7bce3f110750b325d",
+    "snapshot": "source_snapshot/deep_learning.py"
+  },
+  "/Users/coolguy/Desktop/JPX/codes/evaluation.py": {
+    "bytes": 6336,
+    "sha256": "2d7891b9239217db73f87d1137caba02894c6be86e1548179db9be7f6bcc7003",
+    "snapshot": "source_snapshot/evaluation.py"
+  },
+  "/Users/coolguy/Desktop/JPX/codes/features.py": {
+    "bytes": 3802,
+    "sha256": "269dc03306539104aa73d05c2bb431c1854c293833e4902b3bb42f9dffdc510d",
+    "snapshot": "source_snapshot/features.py"
+  },
+  "/Users/coolguy/Desktop/JPX/codes/main.py": {
+    "bytes": 499,
+    "sha256": "6ffaa25dcc7d6794ad0b8b31ba355bc72ccf32f509399c0cf080786864aeea51",
+    "snapshot": "source_snapshot/main.py"
+  },
+  "/Users/coolguy/Desktop/JPX/codes/models.py": {
+    "bytes": 2478,
+    "sha256": "cc941baf72ed32589ef5581d044a2768fe4f753c0afc5d8bf913925ce4aba603",
+    "snapshot": "source_snapshot/models.py"
+  },
+  "/Users/coolguy/Desktop/JPX/codes/utils.py": {
+    "bytes": 1691,
+    "sha256": "33a7f7dce358e1436ff9b178b56b2f5835b8bf8a29a92d382f312aaac90fa8ec",
+    "snapshot": "source_snapshot/utils.py"
+  },
+  "/Users/coolguy/Desktop/JPX/debug/JPX_debug_v3/__init__.py": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "snapshot": "tests_snapshot/__init__.py"
+  },
+  "/Users/coolguy/Desktop/JPX/debug/JPX_debug_v3/run_tests.py": {
+    "bytes": 5329,
+    "sha256": "37c2e73344b69440b45cb52dd028c4f181b0d1173d73f85f77c27bca549ed77e",
+    "snapshot": "tests_snapshot/run_tests.py"
+  },
+  "/Users/coolguy/Desktop/JPX/debug/JPX_debug_v3/test_audit.py": {
+    "bytes": 19487,
+    "sha256": "57fa1b0a57ac080c8d6c0ab5eec72f0245ffd1a891a84e0ca1838293ea3d4109",
+    "snapshot": "tests_snapshot/test_audit.py"
+  },
+  "/Users/coolguy/Desktop/JPX/debug/JPX_debug_v3/test_bugfix_v6.py": {
+    "bytes": 2935,
+    "sha256": "49f5b6a96d6968825f22a339985273d0d234434b119c9e71f62378c4734f38fd",
+    "snapshot": "tests_snapshot/test_bugfix_v6.py"
+  },
+  "/Users/coolguy/Desktop/JPX/debug/JPX_debug_v3/test_normalizer_reuse.py": {
+    "bytes": 1214,
+    "sha256": "ee863f2be873d8100e2c855094e911e0fe8ec9167b1237b6e71e8325d9a992fa",
+    "snapshot": "tests_snapshot/test_normalizer_reuse.py"
+  },
+  "/Users/coolguy/Desktop/JPX/debug/JPX_debug_v3/test_regression_v1.py": {
+    "bytes": 17035,
+    "sha256": "560b333f79466a161800917260887dfa87bc5c7bbbf28680ab5a960a9f1554ef",
+    "snapshot": "tests_snapshot/test_regression_v1.py"
+  },
+  "/Users/coolguy/Desktop/JPX/debug/JPX_debug_v3/test_regression_v2.py": {
+    "bytes": 21150,
+    "sha256": "029222e7816693b457edda6ef9240ba8e9d790961c340b862f5d5e2589c8293b",
+    "snapshot": "tests_snapshot/test_regression_v2.py"
+  }
+}

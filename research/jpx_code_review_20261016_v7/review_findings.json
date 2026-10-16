@@ -1,0 +1,104 @@
+{
+  "source_scope": "Frozen Desktop JPX codes snapshot, 2026-10-16; review only, no production or existing test changes.",
+  "findings": [
+    {
+      "id": "R01",
+      "priority": 1,
+      "file": "utils.py",
+      "line": 52,
+      "issue": "The expanding-window loop never advances train_end.",
+      "evidence": "Trace captured three identical splits; ans grows indefinitely.",
+      "fix_direction": "After appending the split, assign train_end = val_end inside the while loop."
+    },
+    {
+      "id": "R02",
+      "priority": 1,
+      "file": "JPX_deep_learning_models.py",
+      "line": 97,
+      "issue": "30-calendar-day intervals cannot supply a 42-observation sequence.",
+      "evidence": "Even synthetic daily data gives 30 training rows and 30 validation rows, zero sequences on both sides, and Missing data (sample) for training.",
+      "fix_direction": "Use sufficient initial training history and add per-stock historical context before each validation interval; extending only training does not solve the validation problem."
+    },
+    {
+      "id": "R03",
+      "priority": 1,
+      "file": "main.py",
+      "line": 14,
+      "issue": "The loading helper builds kernel=42 while model_2 now trains kernel=3.",
+      "evidence": "Actual load_model raises size mismatch for cnn.weight: [64,6,3] versus [64,6,42].",
+      "fix_direction": "Construct the loader model with the same architecture as the saved model, ideally from checkpoint configuration."
+    },
+    {
+      "id": "R04",
+      "priority": 2,
+      "file": "models.py",
+      "line": 51,
+      "issue": "Pooling eligibility still compares against the CNN kernel rather than pool kernel=2.",
+      "evidence": "kernel=1 and sequence length=1 pass the guard then raise max_pool1d Invalid computed output size: 0.",
+      "fix_direction": "Compare x.shape[-1] against self.pool.kernel_size."
+    },
+    {
+      "id": "R05",
+      "priority": 2,
+      "file": "evaluation.py",
+      "line": 38,
+      "issue": "Nonfinite prediction, missing date, and nonfinite weight/Target validation from v6 is absent.",
+      "evidence": "Regression tests reproduce finite scores from NaN predictions and a missing held-position Target being skipped, yielding about -0.05. Missing dates and infinite values are also not rejected.",
+      "fix_direction": "Validate aligned predictions, dates, weights and targets before constructing positions and daily returns."
+    },
+    {
+      "id": "R06",
+      "priority": 2,
+      "file": "evaluation.py",
+      "line": 94,
+      "issue": "Daily returns are cast to float32, which can erase small nonzero variance.",
+      "evidence": "Returns [0.01,0.0100000001,0.0100000002] have float64 sample std about 1e-10 but current Sharpe raises zero standard deviation.",
+      "fix_direction": "Retain float64 for daily aggregation and metric computation."
+    },
+    {
+      "id": "R07",
+      "priority": 2,
+      "file": "JPX_deep_learning_models.py",
+      "line": 148,
+      "issue": "Checkpoint train_end remains hard-coded after the split schedule changed.",
+      "evidence": "A separate advancing reference calculation produces 53 complete 30-day folds, with last train_end=2021-05-10; the saved literal remains 2021-01-01. The production loop currently hangs before saving.",
+      "fix_direction": "Save the actual final fold boundary, serialized as an ISO date string."
+    },
+    {
+      "id": "R08",
+      "priority": 3,
+      "file": "models.py",
+      "line": 63,
+      "issue": "The LSTM output debug message prints the input variable x.",
+      "evidence": "The hook observes output [2,20,100], while the printed LSTM output shape is [2,20,64].",
+      "fix_direction": "Print output.shape."
+    }
+  ],
+  "regression_summary": {
+    "run_at": "2026-10-16T14:26:36.415865+08:00",
+    "total": 110,
+    "passed": 96,
+    "failed_test_methods": 5,
+    "errored_test_methods": 9,
+    "skipped": 0
+  },
+  "guard_note": "Six tests that call model_2 were stopped by a repeated-split trace guard; the original behavior is a nonterminating loop, not an ordinary raised exception.",
+  "test_contract_note": "The existing earnings-format test assumes 8 folds. Once the split helper is corrected, that fixture must be updated for the newly requested schedule; it currently stops before that assertion.",
+  "passing_controls": [
+    "All nine source modules compile and import.",
+    "The intended model_2 configuration kernel=3/pool=2 receives LSTM input [2,20,64] and produces prediction [2,1]."
+  ],
+  "minor_annotations": [
+    "evaluation.daily_earning return annotation should use np.ndarray, not the np.array factory.",
+    "overall_performance return annotation should be dict[str, float], not dict[str: float]. These do not currently block import."
+  ],
+  "design_observations": [
+    "model_1 still constructs kernel=42, leaving one LSTM time step.",
+    "Cross-fold warm starts and validation context behavior remain as previously discussed."
+  ],
+  "limitations": [
+    "Synthetic CPU data only; no market CSV or full training.",
+    "Target maturity, real data semantics, MPS/CUDA and full memory usage were not validated."
+  ],
+  "operational_history": "The initial global trace guard was interrupted after its first guard exception disabled tracing. guarded_suite_v2.py re-enables the guard for each call and completed safely. Retain the initial script/log only as a failed-operation record; use guarded_suite_v2.py to reproduce."
+}
