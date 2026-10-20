@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-20",
+  "as_of": "2026-10-20T18:58:09+08:00",
+  "version": "2.46",
+  "baseline": "v7_equal",
+  "quant_head_observed": "f8ebf9db13bf62497f4e04e2accf20937055994d",
+  "jpx_head_observed": "b128fd5c26e4a3a4d57cadb919c7582cd502eb5d",
+  "gpu_experiment": {
+    "status": "submitted_or_queued_unverified_first_fold",
+    "relu": false,
+    "pooling": false,
+    "lookback": 42,
+    "kernel_size": 3,
+    "folds_planned": 8,
+    "epochs_each": 20,
+    "sharpe": null,
+    "rank_ic": null,
+    "checkpoint_verified": false,
+    "source": "recent user activity conversation, not independent Kaggle log"
+  },
+  "paper": {
+    "arxiv": "2605.13407",
+    "title": "Vector-Quantized Discrete Latent Factors Meet Financial Priors",
+    "state": "formula study only, no JPX run",
+    "mastery": "Learned/unverified"
+  },
+  "new_review_dates": {
+    "D2": "2026-10-22",
+    "D7": "2026-10-27",
+    "D21": "2026-11-10"
+  },
+  "formal_failed_experiment_new": false,
+  "protected_test_used": false,
+  "sha256_bundle": "b701282a5cd3f65fe7adca64aba6d4311757acd32081e8ef3364ee3524e5d6f1"
+}
